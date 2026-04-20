@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.python-version
+
+# OS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Benchmark artifacts (cache/results are runtime, not source)
+benchmarks/cache/*
+!benchmarks/cache/.gitkeep
+benchmarks/results/*
+!benchmarks/results/.gitkeep

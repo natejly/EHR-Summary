@@ -1,0 +1,341 @@
+---
+title: "PDSQI_Reliability_Metrics"
+author: "Emma Croxford"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message=FALSE)
+```
+
+```{r libraries, include = FALSE, echo = FALSE}
+library(vcd)
+library(plyr)
+library(dplyr)
+library(tidyr)
+library(c2c)
+library(irr)
+library(dplyr)
+library(psych)
+library(irrCAC)
+library(krippendorffsalpha)
+library(GPArotation)
+library(corrplot)
+```
+
+```{r data}
+#PGY Data Import
+pgy_1_raw = read.csv("pgy_1.csv", header = TRUE)
+pgy_2_raw = read.csv("pgy_2.csv", header = TRUE)
+pgy_3_raw = read.csv("pgy_3.csv", header = TRUE)
+pgy_4_raw = read.csv("pgy_4.csv", header = TRUE)
+pgy_5_raw = read.csv("pgy_5.csv", header = TRUE)
+
+#Attendings Data Import
+attend_1_raw = read.csv("attend_1.csv", header = TRUE)
+attend_2_raw = read.csv("attend_2.csv", header = TRUE)
+```
+
+```{r functions}
+raw_data_to_subset <- function(individual){
+  
+  #Purpose: Filter Raw Redcap Data Files into dataframes of only completed evaluations
+  #Input: A single evaluators data file from redcap imported as csv with headers
+  #Output: Dataframe of a single evaluators scores for all completed evaluations
+  individual_df <- as.data.frame(individual)
+  individual_df <- individual_df %>%
+    filter(pdqsi9_complete > 0) %>%
+    filter(!record_id %in% c(1000, 1001, 1002, 1138, 1196, 1198)) %>%
+    subset(select = -c(redcap_event_name, start_time, end_time, pdqsi9_complete)) 
+  return(individual_df)
+}
+raw_data_to_list <- function(individual){
+  
+  #Purpose: Format Raw Redcap Data Files into dataframes of scores for comparison
+  #Input: A single evaluators datafile from redcap imported as csv with headers
+  #Output: Dataframe of a single evaluators scores for all completed evaluations 
+  #         where each row is a single evaluation score for attribute j on record_id i
+  
+  individual_df = raw_data_to_subset(individual)
+  scores <- c(individual_df$citation, individual_df$accurate, 
+              individual_df$thorough, individual_df$useful,
+              individual_df$organized, individual_df$comprehensible, 
+              individual_df$succinct,  individual_df$synthesized)
+  scores <- as.integer(scores)
+  record_id = individual_df$record_id
+  component = c(replicate(length(individual_df$citation), 'citation'), 
+                replicate(length(individual_df$accurate), 'accurate'),
+                replicate(length(individual_df$thorough), 'thorough'),
+                replicate(length(individual_df$useful), 'useful'),
+                replicate(length(individual_df$organized), 'organized'),
+                replicate(length(individual_df$comprehensible), 'comprehensible'),
+                replicate(length(individual_df$succinct), 'succinct'),
+                replicate(length(individual_df$synthesized), 'synthesized'))
+  tmp <- cbind(record_id, component, scores)
+  return(as.data.frame(tmp))
+}
+
+calculate_agreement <- function(df, component = FALSE, m_raters = TRUE){
+  
+  #Purpose: Calculate various metrics for reliability and agreement between evaluators
+  #Input: Dataframe of scores where each entry is the score from evaluator m for 
+  #         attribute j on record id i, True/False for if dataframe has scores for only one   
+  #         attribute, and True/False if there are >2 evaluators in the dataframe
+  #Output: Dataframe of a single evaluators scores for all completed evaluations  
+  
+    df <- df %>% subset(select = -c(record_id, component))
+    df <- data.frame(lapply(df, as.integer))
+    results = list()
+    ci = list()
+      
+    #ICC
+    icc_raw = DescTools::ICC(df, conf.level = 0.05)$results
+    icc = icc_raw$est[6]
+    results <- cbind(icc)
+    
+    icc = paste(as.character(round(icc_raw$lwr.ci[6],3)), 
+                as.character(round(icc_raw$upr.ci[6],3)), 
+                sep = ",")
+    ci <- cbind(ci, icc)
+    
+    #Gwet's Ac2
+    gwet_raw = gwet.ac1.raw(df, weights = "ordinal")$est
+    gwet = gwet_raw$coeff.val
+    results <- cbind(results, gwet)
+    
+    gwet = gwet_raw$conf.int
+    ci <- cbind(ci, gwet)
+    
+    #Krippendorf's Alpha
+    kripp_raw = krippendorffs.alpha(as.matrix(df), level = "ordinal", confint = TRUE, 
+                                verbose = TRUE, control = list(parallel = FALSE))
+    kripp = kripp_raw$alpha.hat
+    results <- cbind(results, kripp)
+    
+    kripp = paste(as.character(round(kripp_raw$L, 3)), 
+                  as.character(round(kripp_raw$U, 3)),
+                  sep = ",")
+    ci <- cbind(ci, kripp)
+  if(!m_raters){
+    
+    #Weighted Cohen Kappa
+    cohen = Kappa(table(df), weights = c("Fleiss-Cohen"))$Weighted[1]
+    results <- cbind(results, cohen)
+    
+    #Pearson Correlation
+    pearson = cor.test(df$scores.x, df$scores.y, method = "pearson")$estimate
+    results <- cbind(results, pearson)
+  }
+  if(component){
+    #Cronbach's Alpha
+    cronbach_raw = psych::alpha(df)$feldt
+    cronbach = cronbach_raw$alpha$raw_alpha
+    results <- cbind(results, cronbach)
+    
+    cronbach = paste(as.character(round(cronbach_raw$lower.ci, 3)),
+                      as.character(round(cronbach_raw$upper.ci, 3)), sep = ",")
+    ci <- cbind(ci, cronbach)
+  }
+  results <- round(results, 3)
+  reliability_metrics = rbind(results, ci)
+  rownames(reliability_metrics) <- c('value', 'conf.int')
+  
+  return (reliability_metrics)
+}
+```
+
+# **Dataset**
+
+## *Completions by Reviewer*
+
+```{r completions}
+pgy_1 = dim(raw_data_to_subset(pgy_1_raw) %>% select(record_id))[1]
+pgy_2 = dim(raw_data_to_subset(pgy_2_raw) %>% select(record_id))[1]
+pgy_3 = dim(raw_data_to_subset(pgy_3_raw) %>% select(record_id))[1]
+pgy_4 = dim(raw_data_to_subset(pgy_4_raw) %>% select(record_id))[1]
+pgy_5 = dim(raw_data_to_subset(pgy_5_raw) %>% select(record_id))[1]
+
+attend_1 = dim(raw_data_to_subset(attend_1_raw) %>% select(record_id))[1]
+attend_2 = dim(raw_data_to_subset(attend_2_raw) %>% select(record_id))[1]
+knitr::kable(cbind(pgy_1, pgy_2, pgy_3, pgy_4, pgy_5, attend_1, attend_2))
+```
+ 
+## *Post Graduate Year and Attendings Datasets*
+
+```{r raw_to_dataframes}
+pgy_1 = raw_data_to_list(pgy_1_raw)
+pgy_2 = raw_data_to_list(pgy_2_raw)
+pgy_3 = raw_data_to_list(pgy_3_raw)
+pgy_4 = raw_data_to_list(pgy_4_raw)
+pgy_5 = raw_data_to_list(pgy_5_raw)
+pgy_df = merge(pgy_1, pgy_2, by=c("record_id", "component"))
+pgy_df = merge(pgy_df, pgy_3, by=c("record_id", "component"))
+pgy_df = merge(pgy_df, pgy_4, by=c("record_id", "component"))
+pgy_df = merge(pgy_df, pgy_5, by=c("record_id", "component"))
+
+#PGY Data points
+pgy_data = dim(pgy_df)[1]
+
+#PGY Unique Patient Evals
+pgy_unique_patients = length(unique(pgy_df$record_id))
+
+
+attend_1 = raw_data_to_list(attend_1_raw)
+attend_2 = raw_data_to_list(attend_2_raw)
+attend_df = merge(attend_1, attend_2, by=c("record_id", "component"))
+
+#Attending Data points
+attending_data = dim(attend_df)[1]
+
+#Attendings Unique Patient Evals
+attending_unique_patients = length(unique(attend_df$record_id))
+
+data_numbers = rbind(pgy_data, attending_data, pgy_unique_patients, attending_unique_patients)
+colnames(data_numbers) <- c('count')
+knitr::kable(data_numbers)
+```
+
+# **Metric Calculation for Overall Instrument**
+
+```{r agreement, warning = FALSE}
+knitr::kable(calculate_agreement(pgy_df))
+```
+
+# **Metric Calculation by Instrument Attribute**
+
+## *Likert Scaled Attributes*
+
+```{r attribute}
+df_subset <- subset(pgy_df, component == 'citation')
+citation = calculate_agreement(df_subset, component = TRUE)
+
+df_subset <- subset(pgy_df, component == 'accurate')
+accurate = calculate_agreement(df_subset, component = TRUE)
+
+df_subset <- subset(pgy_df, component == 'thorough')
+thorough = calculate_agreement(df_subset, component = TRUE)
+
+df_subset <- subset(pgy_df, component == 'useful')
+useful = calculate_agreement(df_subset, component = TRUE)
+
+df_subset <- subset(pgy_df, component == 'organized')
+organized = calculate_agreement(df_subset, component = TRUE)
+
+df_subset <- subset(pgy_df, component == 'comprehensible')
+comprehensible = calculate_agreement(df_subset, component = TRUE)
+
+df_subset <- subset(pgy_df, component == 'succinct')
+succinct = calculate_agreement(df_subset, component = TRUE)
+
+df_subset <- subset(pgy_df, component == 'synthesized')
+synthesized = calculate_agreement(df_subset, component = TRUE)
+
+attribute_table = as.data.frame(rbind(accurate, citation, comprehensible, organized, succinct, synthesized, thorough, useful))
+rownames(attribute_table) <- c("accurate", "a_ci", "citation", "c_ci", "comprehensible", "co_ci", "organized", "o_ci", "succinct", "s_ci", "synthesized", "sy_ci", "thorough", "t_ci", "useful", "u_ci")
+
+knitr::kable(attribute_table)
+```
+
+##  *Binary Scaled Attributes*
+ 
+```{r binary_agreement}
+#Abstraction
+    pgy_1_abs = raw_data_to_subset(pgy_1_raw) %>% select(record_id, abstraction)
+    pgy_2_abs = raw_data_to_subset(pgy_2_raw) %>% select(record_id, abstraction)
+    pgy_3_abs = raw_data_to_subset(pgy_3_raw) %>% select(record_id, abstraction)
+    pgy_4_abs = raw_data_to_subset(pgy_4_raw) %>% select(record_id, abstraction)
+    pgy_5_abs = raw_data_to_subset(pgy_5_raw) %>% select(record_id, abstraction)
+    
+    abstract_df = merge(pgy_1_abs, pgy_2_abs, by=c("record_id"))
+    abstract_df = merge(abstract_df, pgy_3_abs, by=c("record_id"))
+    abstract_df = merge(abstract_df, pgy_4_abs, by=c("record_id"))
+    abstract_df = merge(abstract_df, pgy_5_abs, by=c("record_id"))
+    colnames(abstract_df) <- c('record_id', '1', '2', '3', '4', '5')
+    
+    abstract_df$sum <- apply(subset(abstract_df, select = -record_id), 1, sum) / 5
+    
+    counts = abstract_df %>% count(sum)
+    
+    abstraction = (counts$n[counts$sum == 1.0]) / length(abstract_df$sum) 
+                  # + counts$n[counts$sum == 0.0]
+#Stigmatizing Voice in Note    
+    pgy_1_vn = raw_data_to_subset(pgy_1_raw) %>% select(record_id, voice_note)
+    pgy_2_vn = raw_data_to_subset(pgy_2_raw) %>% select(record_id, voice_note)
+    pgy_3_vn = raw_data_to_subset(pgy_3_raw) %>% select(record_id, voice_note)
+    pgy_4_vn = raw_data_to_subset(pgy_4_raw) %>% select(record_id, voice_note)
+    pgy_5_vn = raw_data_to_subset(pgy_5_raw) %>% select(record_id, voice_note)
+    
+    voice_note_df = merge(pgy_1_vn, pgy_2_vn, by=c("record_id"))
+    voice_note_df = merge(voice_note_df, pgy_3_vn, by=c("record_id"))
+    voice_note_df = merge(voice_note_df, pgy_4_vn, by=c("record_id"))
+    voice_note_df = merge(voice_note_df, pgy_5_vn, by=c("record_id"))
+    colnames(voice_note_df) <- c('record_id', '1', '2', '3', '4', '5')
+    
+    voice_note_df$sum <- apply(subset(voice_note_df, select = -record_id), 1, sum) / 5
+    
+    counts = voice_note_df %>% count(sum)
+    
+    stigmatizing_note = (counts$n[counts$sum == 0.0]) / length(voice_note_df$sum) 
+                          # + counts$n[counts$sum == 1.0]
+    
+#Stigmatizing Voice in Summary     
+    pgy_1_vs = raw_data_to_subset(pgy_1_raw) %>% select(record_id, voice_summ)
+    pgy_2_vs = raw_data_to_subset(pgy_2_raw) %>% select(record_id, voice_summ)
+    pgy_3_vs = raw_data_to_subset(pgy_3_raw) %>% select(record_id, voice_summ)
+    pgy_4_vs = raw_data_to_subset(pgy_4_raw) %>% select(record_id, voice_summ)
+    pgy_5_vs = raw_data_to_subset(pgy_5_raw) %>% select(record_id, voice_summ)
+    
+    voice_summ_df = merge(pgy_1_vs, pgy_2_vs, by=c("record_id"))
+    voice_summ_df = merge(voice_summ_df, pgy_3_vs, by=c("record_id"))
+    voice_summ_df = merge(voice_summ_df, pgy_4_vs, by=c("record_id"))
+    voice_summ_df = merge(voice_summ_df, pgy_5_vs, by=c("record_id"))
+    colnames(voice_summ_df) <- c('record_id', '1', '2', '3', '4', '5')
+    
+    voice_summ_df$sum <- apply(subset(voice_summ_df, select = -record_id), 1, sum) / 5
+    
+    counts = voice_summ_df %>% count(sum)
+    
+    stigmatizing_summary = (counts$n[counts$sum == 0.0] ) / length(voice_summ_df$sum) 
+                            #+ counts$n[counts$sum == 1.0]
+
+#Table of Agreement
+    
+agreement = rbind(abstraction, stigmatizing_note, stigmatizing_summary)
+colnames(agreement) <- c('Percent Absolute Agreement')
+knitr::kable(agreement)
+```
+
+# Latent Factor Analysis
+
+```{r latent}
+pgy_1 = raw_data_to_subset(pgy_1_raw) %>% select(-c(record_id, abstraction, voice_note, voice_summ)) %>% mutate_all(~ ifelse(is.na(.), 0, .))
+pgy_2 = raw_data_to_subset(pgy_2_raw) %>% select(-c(record_id, abstraction, voice_note, voice_summ)) %>% mutate_all(~ ifelse(is.na(.), 0, .))
+pgy_3 = raw_data_to_subset(pgy_3_raw) %>% select(-c(record_id, abstraction, voice_note, voice_summ)) %>% mutate_all(~ ifelse(is.na(.), 0, .))
+pgy_4 = raw_data_to_subset(pgy_4_raw) %>% select(-c(record_id, abstraction, voice_note, voice_summ)) %>% mutate_all(~ ifelse(is.na(.), 0, .))
+pgy_5 = raw_data_to_subset(pgy_5_raw) %>% select(-c(record_id, abstraction, voice_note, voice_summ)) %>% mutate_all(~ ifelse(is.na(.), 0, .))
+
+data = rbind(pgy_1, pgy_2, pgy_3, pgy_4, pgy_5)
+
+#KMO and Bartlett
+KMO(data)
+cortest.bartlett(cor(data), n = nrow(data))
+
+#Correlation Plot
+corrplot(cor(data))
+
+#Eigenvalues
+eigenvalues <- eigen(cor(data))$values
+print(eigenvalues)
+
+#Scree Plot
+scree(data)
+
+#Factor Analysis
+fa <- fa(pgy_1, nfactors = 4, rotate = "varimax")
+print(fa)
+
+#Loadings
+fa$loadings
+```
+

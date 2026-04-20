@@ -1,0 +1,314 @@
+---
+title: "PDSQI_Paper_Figures"
+author: "Emma Croxford"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+```{r libraries, include = FALSE}
+library(vcd)
+library(plyr)
+library(dplyr)
+library(tidyr)
+library(c2c)
+library(irr)
+library(dplyr)
+library(psych)
+library(irrCAC)
+library(ggplot2)
+library(ggridges)
+library(ggExtra)
+library(coin)
+library(DescTools)
+library(hms)
+library(smplot2)
+```
+
+```{r data}
+#PGY Data Import
+pgy_1_raw = read.csv("pgy_1.csv", header = TRUE)
+pgy_2_raw = read.csv("pgy_2.csv", header = TRUE)
+pgy_3_raw = read.csv("pgy_3.csv", header = TRUE)
+pgy_4_raw = read.csv("pgy_4.csv", header = TRUE)
+pgy_5_raw = read.csv("pgy_5.csv", header = TRUE)
+
+#Attendings Data Import
+attend_1_raw = read.csv("attend_1.csv", header = TRUE)
+attend_2_raw = read.csv("attend_2.csv", header = TRUE)
+
+#Summary and Notes Related Data
+summary_words = read.csv("summary_words.csv", header = TRUE)
+summary_token = read.csv("summary_token.csv", header = TRUE)
+
+notes_words = read.csv("notes_words.csv", header = TRUE)
+notes_token = read.csv("notes_tokens.csv", header = TRUE)
+
+#Time for Completions Data
+time_raw = read.csv("time_spent.csv")
+```
+
+```{r functions}
+raw_data_to_subset <- function(individual){
+  
+  #Purpose: Filter Raw Redcap Data Files into dataframes of only completed evaluations
+  #Input: A single evaluators data file from redcap imported as csv with headers
+  #Output: Dataframe of a single evaluators scores for all completed evaluations
+  individual_df <- as.data.frame(individual)
+  individual_df <- individual_df %>%
+    filter(pdqsi9_complete > 0) %>%
+    filter(!record_id %in% c(1000, 1001, 1002, 1138, 1196, 1198)) %>%
+    subset(select = -c(redcap_event_name, start_time, end_time, pdqsi9_complete)) 
+  return(individual_df)
+}
+raw_data_to_list <- function(individual){
+  
+  #Purpose: Format Raw Redcap Data Files into dataframes of scores for comparison
+  #Input: A single evaluators datafile from redcap imported as csv with headers
+  #Output: Dataframe of a single evaluators scores for all completed evaluations 
+  #         where each row is a single evaluation score for attribute j on record_id i
+  
+  individual_df = raw_data_to_subset(individual)
+  scores <- c(individual_df$citation, individual_df$accurate, 
+              individual_df$thorough, individual_df$useful,
+              individual_df$organized, individual_df$comprehensible, 
+              individual_df$succinct,  individual_df$synthesized)
+  scores <- as.integer(scores)
+  record_id = individual_df$record_id
+  component = c(replicate(length(individual_df$citation), 'citation'), 
+                replicate(length(individual_df$accurate), 'accurate'),
+                replicate(length(individual_df$thorough), 'thorough'),
+                replicate(length(individual_df$useful), 'useful'),
+                replicate(length(individual_df$organized), 'organized'),
+                replicate(length(individual_df$comprehensible), 'comprehensible'),
+                replicate(length(individual_df$succinct), 'succinct'),
+                replicate(length(individual_df$synthesized), 'synthesized'))
+  tmp <- cbind(record_id, component, scores)
+  return(as.data.frame(tmp))
+}
+```
+ 
+```{r raw_to_dataframes}
+# PGY Dataframe
+pgy_1 = raw_data_to_list(pgy_1_raw)
+pgy_2 = raw_data_to_list(pgy_2_raw)
+pgy_3 = raw_data_to_list(pgy_3_raw)
+pgy_4 = raw_data_to_list(pgy_4_raw)
+pgy_5 = raw_data_to_list(pgy_5_raw)
+
+pgy_df = merge(pgy_1, pgy_2, by=c("record_id", "component"))
+pgy_df = merge(pgy_df, pgy_3, by=c("record_id", "component"))
+pgy_df = merge(pgy_df, pgy_4, by=c("record_id", "component"))
+pgy_df = merge(pgy_df, pgy_5, by=c("record_id", "component"))
+
+#Attendings Dataframe
+attend_1 = raw_data_to_list(attend_1_raw)
+attend_2 = raw_data_to_list(attend_2_raw)
+attend_df = merge(attend_1, attend_2, by=c("record_id", "component"))
+```
+
+# Number of Evaluations
+
+```{r nums}
+#PGY Data points
+pgy_data = dim(pgy_df)[1]
+
+#PGY Unique Patient Evals
+pgy_unique_patients = length(unique(pgy_df$record_id))
+
+
+#Attending Data points
+attending_data = dim(attend_df)[1]
+
+#Attending Unique Patient Evals
+attending_unique_patients = length(unique(attend_df$record_id))
+
+data_numbers = rbind(pgy_data, attending_data, pgy_unique_patients, attending_unique_patients)
+colnames(data_numbers) <- c('count')
+knitr::kable(data_numbers)
+```
+
+# Experience Level Comparison
+
+```{r wilcox}
+pgy_compare <- pgy_df %>% subset(select = -c(record_id, component)) %>% 
+                        mutate_all(as.numeric) %>% rowwise() %>% 
+                        mutate(row_median = median(c_across(where(is.numeric)), na.rm=TRUE)) %>%
+                        subset(select = c(row_median))
+pgy_compare$record_id <- pgy_df$record_id
+pgy_compare$component <- pgy_df$component
+
+attend_compare <- attend_df %>% subset(select = -c(record_id, component)) %>% 
+                        mutate_all(as.numeric) %>% rowwise() %>% 
+                        mutate(row_median = median(c_across(where(is.numeric)), na.rm=TRUE)) %>%
+                        subset(select = c(row_median)) 
+attend_compare$record_id <- attend_df$record_id
+attend_compare$component <- attend_df$component
+
+merged_df = merge(pgy_compare, attend_compare, by = c('record_id', 'component'))
+pgy_median_score = merged_df$row_median.x
+median_df = merged_df %>% subset(select = -c(row_median.y))
+attend_median_score = merged_df$row_median.y
+
+wilcox.test(pgy_median_score, attend_median_score, paired = TRUE, alternative = "two.sided")
+```
+
+# Time for Evaluation by Experience Level
+
+```{r time}
+time_raw[time_raw==""] <- NA
+time_df = na.omit(time_raw)
+
+time_df[c("start_date", "start_time")] <- do.call(rbind, strsplit(time_df$start_time, " "))
+time_df[c("end_date", "end_time")] <- do.call(rbind, strsplit(time_df$end_time, " "))
+
+time_df <- time_df %>% select(subset = -c(start_date, end_date))
+
+time_df <- transform(time_df, end = as.numeric((parse_hms(end_time))))
+time_df <- transform(time_df, start = as.numeric((parse_hms(start_time))))
+time_df$end[104] <- time_df$end[104] + 86399
+time_df$end[136] <- time_df$end[136] + 86399
+
+time_df <- transform(time_df, total_time = end - start)
+time_df <- time_df %>% as.data.frame(row.names = 1:nrow(.))
+time_df <- time_df[-118,]
+time_df <- time_df %>% select(subset = -c(start_time, start, end, end_time))
+time_df$redcap_event_name <- ifelse(time_df$redcap_event_name %in% c('human_evaluations_arm_4', 'human_evaluations_arm_5'), 'Senior Physicians', 'Junior Physicians')
+time_df$total_time <- time_df$total_time / 60
+
+print("Attendings")
+summary(time_df$total_time[time_df$redcap_event_name == 'Attending'])
+
+print("Post Graduate Years")
+summary(time_df$total_time[time_df$redcap_event_name == 'Post Graduate Years'])
+```
+
+```{r time_plot}
+ggplot(time_df, aes(y = total_time, x = redcap_event_name, colour = redcap_event_name)) +
+  geom_boxplot() +
+  guides(colour = FALSE) +
+  labs(x = 'Evaluator', y = 'Time (min)', title = 'Time Spent per Evaluation by Evaluator Experience')
+```
+
+# Length of Notes/Summary
+
+```{r lengths}
+print('Summaries Words')
+summary(summary_words$char)
+
+print('Summaries Tokens')
+summary(summary_token$tokens)
+
+print('Notes Words')
+summary(notes_words$words)
+
+print('Notes Tokens')
+summary(notes_token$tokens)
+
+merged_df = merge(summary_token, notes_token, by = c('record_id'))
+
+cor.test(merged_df$tokens.x, merged_df$tokens.y, alternative = c('two.sided'), method = 'spearman')
+```
+
+# Length of Notes vs Score Analysis
+
+```{r length_v_score}
+scores_only = pgy_df %>% subset(select = -c(record_id, component)) %>% mutate_all(as.numeric)
+scores_df = as.data.frame(as.numeric(rowMeans(scores_only, na.rm = TRUE)))
+scores_df$attribute <- pgy_df$component
+scores_df$record_id <- pgy_df$record_id
+scores_df$record_id <- as.integer(scores_df$record_id)
+colnames(scores_df) <- c('scores', 'attribute', 'record_id')
+
+scores_df <- scores_df %>%
+  left_join(notes_char, by = "record_id") %>%
+  left_join(notes_token, by = 'record_id') %>%
+  subset(select = -c(record_id))
+
+ggplot(scores_df, aes(y = scores, x = tokens, colour = attribute)) +
+  geom_point() +
+  geom_smooth(method = 'lm', se = FALSE) +
+  facet_wrap(~attribute) +
+  labs(y = 'Likert Score', x = 'Number of Tokens', title = "Length of Notes vs. Likert Score") +
+  ylim(1, 5) +
+  scale_x_continuous(breaks = seq(1000, 20000, by = 6000)) +
+  guides(colour = FALSE) +
+  sm_statCorr(
+    corr_method = "spearman",
+    alternative = "two.sided",
+    separate_by =  ";",
+    label_x = 13000,
+    label_y = 1.3,
+    text_size = 3
+  )
+```
+
+# Standard Deviation of Notes vs Score Analysis
+
+```{r sd_v_score}
+scores_only = pgy_df %>% subset(select = -c(record_id, component)) %>% mutate_all(as.numeric)
+scores_df = as.data.frame(apply(scores_only, 1, sd, na.rm = TRUE))
+scores_df$attribute <- pgy_df$component
+scores_df$record_id <- pgy_df$record_id
+scores_df$record_id <- as.integer(scores_df$record_id)
+colnames(scores_df) <- c('deviation', 'attribute', 'record_id')
+
+scores_df <- scores_df %>%
+  left_join(notes_char, by = "record_id") %>%
+  left_join(notes_token, by = 'record_id') %>%
+  subset(select = -c(record_id))
+
+ggplot(scores_df, aes(y = deviation, x = tokens, colour = attribute)) +
+  geom_point() +
+  geom_smooth(method = 'lm', se = FALSE) +
+  facet_wrap(~attribute) +
+  labs(y = 'Standard Deviation', x = 'Number of Tokens', 
+       title = "Length of Notes vs. Standard Deviation of Likert Scores") +
+  ylim(0, 5) +
+  scale_x_continuous(breaks = seq(1000, 20000, by = 6000)) +
+  guides(colour = FALSE) +
+  sm_statCorr(
+    corr_method = "spearman",
+    alternative = "two.sided",
+    separate_by = ",",
+    label_x = 1000,
+    label_y = 4.5,
+    text_size = 3
+  )
+```
+
+# Scoring Distributions
+
+```{r distributions}
+scores_only = pgy_df %>% subset(select = -c(record_id, component)) %>% unlist()
+distribution_df = as.data.frame(scores_only)
+distribution_df$attribute <- pgy_df$component
+distribution_df$scores_only <- as.integer(distribution_df$scores_only)
+
+ggplot(distribution_df, aes(x = scores_only, y = attribute, fill = attribute)) +
+  geom_density_ridges(alpha = 0.2, scale = 1) +
+  guides(fill = FALSE) +
+  xlim(1,5) +
+  labs(x = 'Likert Score', y = 'Attribute', title = "Likert Score Distribution by Attribute")
+```
+
+# Discriminant Analysis
+
+```{r}
+summary_type = read.csv("summary_trace.csv", header = TRUE)
+colnames(median_df) <- c("record_id", "component", "median")
+
+closed_source = summary_type %>% filter(source == "gpt")
+open_source = summary_type %>% filter(source != "gpt")
+
+closed_source = merge(closed_source, median_df, by = "record_id")
+open_source = merge(open_source, median_df, by = "record_id")
+
+closed_source = closed_source %>% subset(select = -c(source, component, record_id))
+open_source = open_source %>% subset(select = -c(source, component, record_id))
+
+wilcox.test(open_source$median, closed_source$median, exact = FALSE)
+```
