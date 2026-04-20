@@ -153,8 +153,7 @@ while keeping the original facts and structure.
 It also now supports an optional iterative fact-checking loop:
 
 - decompose the generated rewrite into atomic factual claims
-- verify each claim against the original source note with a claim verifier such as MiniCheck
-- optionally compare extracted clinical entities between the source note and rewrite
+- judge each claim against the original source note with the local LLM
 - revise unsupported claims and repeat for up to 3 passes
 
 ### Python API
@@ -221,7 +220,5 @@ print(result.summary)
 print(result.verified)
 ```
 
-Claim verification requires a compatible verifier such as `MiniCheck`. Entity-level
-cross-checks are optional and run when you install and enable an extractor such as
-`medspacy` via the new entity threshold settings.
+Claim verification now uses the local LLM as the judge for hallucination detection.
 # EHR-Summary

@@ -25,15 +25,9 @@ from prompts import (
 from verification import (
     ClaimVerificationResult,
     ClaimVerifier,
-    EntityExtractor,
-    EntityVerificationMetrics,
-    MedSpaCyEntityExtractor,
-    MiniCheckClaimVerifier,
+    LLMClaimVerifier,
     VerificationPassResult,
-    _CallableEntityExtractor,
-    compute_entity_metrics,
     fallback_claim_split as _fallback_claim_split,
-    format_entity_feedback as _format_entity_feedback,
     parse_atomic_claims as _parse_atomic_claims,
     score_claims_via_adapter,
 )
@@ -73,8 +67,6 @@ class PatientFriendlySimplifierConfig:
     )
     verification_max_passes: int = 3
     claim_support_threshold: float = 0.5
-    entity_min_precision: float | None = None
-    entity_min_recall: float | None = None
 
 
 class PatientFriendlySimplifier:
@@ -85,7 +77,7 @@ class PatientFriendlySimplifier:
         config: PatientFriendlySimplifierConfig | None = None,
         inference: Qwen35MlxInference | None = None,
         claim_verifier: ClaimVerifier | object | None = None,
-        entity_extractor: EntityExtractor | Callable[[str], set[tuple[str, str]]] | None = None,
+        entity_extractor: Callable[[str], set[tuple[str, str]]] | object | None = None,
     ) -> None:
         self.config = config or PatientFriendlySimplifierConfig()
         self.inference = inference or Qwen35MlxInference(
@@ -102,6 +94,7 @@ class PatientFriendlySimplifier:
             )
         )
         self.claim_verifier = claim_verifier
+        # Reserved for future non-LLM gates; unused in the current pipeline.
         self.entity_extractor = entity_extractor
 
     def simplify_text(
@@ -162,7 +155,6 @@ class PatientFriendlySimplifier:
                 unsupported_claims=pass_result.unsupported_claims,
                 audience=audience,
                 patient_id=patient_id,
-                entity_metrics=pass_result.entity_metrics,
             )
 
         return VerifiedSimplificationResult(
@@ -260,15 +252,14 @@ class PatientFriendlySimplifier:
             if (not result.supported)
             or result.probability < self.config.claim_support_threshold
         )
-        entity_metrics = self._compute_entity_metrics(source_note_text, summary)
-        passed = not unsupported_claims and self._entity_thresholds_pass(entity_metrics)
+        passed = not unsupported_claims
         return VerificationPassResult(
             pass_index=pass_index,
             summary=summary,
             claims=claims,
             claim_results=claim_results,
             unsupported_claims=unsupported_claims,
-            entity_metrics=entity_metrics,
+            entity_metrics=None,
             passed=passed,
         )
 
@@ -309,6 +300,26 @@ class PatientFriendlySimplifier:
             verbose=self.config.verbose,
         )
 
+    def _complete_claim_judge_prompt(
+        self,
+        prompt: str,
+        *,
+        system_prompt: str,
+        stop_strings: Sequence[str],
+    ) -> str:
+        max_tokens = max(256, self.config.max_tokens // 2)
+        return self.inference.complete(
+            prompt,
+            system_prompt=system_prompt,
+            max_tokens=max_tokens,
+            temperature=self.config.temperature,
+            top_p=self.config.top_p,
+            top_k=self.config.top_k,
+            min_p=self.config.min_p,
+            stop_strings=stop_strings,
+            verbose=self.config.verbose,
+        )
+
     def _revise_summary(
         self,
         *,
@@ -318,7 +329,6 @@ class PatientFriendlySimplifier:
         unsupported_claims: Sequence[str],
         audience: str | None,
         patient_id: str | None,
-        entity_metrics: EntityVerificationMetrics | None,
     ) -> str:
         prompt = build_patient_friendly_revision_prompt(
             clinical_summary,
@@ -327,7 +337,6 @@ class PatientFriendlySimplifier:
             unsupported_claims,
             audience=audience,
             patient_id=patient_id,
-            entity_feedback=_format_entity_feedback(entity_metrics),
         )
         return self._complete_prompt(
             prompt,
@@ -348,46 +357,8 @@ class PatientFriendlySimplifier:
 
     def _get_claim_verifier(self) -> ClaimVerifier | object:
         if self.claim_verifier is None:
-            self.claim_verifier = MiniCheckClaimVerifier()
+            self.claim_verifier = LLMClaimVerifier(self._complete_claim_judge_prompt)
         return self.claim_verifier
-
-    def _compute_entity_metrics(
-        self,
-        source_note_text: str,
-        summary: str,
-    ) -> EntityVerificationMetrics | None:
-        return compute_entity_metrics(
-            self._get_entity_extractor(), source_note_text, summary
-        )
-
-    def _get_entity_extractor(self) -> EntityExtractor | None:
-        if self.entity_extractor is not None:
-            return _CallableEntityExtractor(self.entity_extractor)
-        if (
-            self.config.entity_min_precision is not None
-            or self.config.entity_min_recall is not None
-        ):
-            self.entity_extractor = MedSpaCyEntityExtractor()
-            return self.entity_extractor
-        return None
-
-    def _entity_thresholds_pass(
-        self,
-        entity_metrics: EntityVerificationMetrics | None,
-    ) -> bool:
-        if entity_metrics is None:
-            return True
-        if (
-            self.config.entity_min_precision is not None
-            and entity_metrics.precision < self.config.entity_min_precision
-        ):
-            return False
-        if (
-            self.config.entity_min_recall is not None
-            and entity_metrics.recall < self.config.entity_min_recall
-        ):
-            return False
-        return True
 
 
 def load_summary_text(path: str | Path, *, encoding: str = "utf-8") -> str:
@@ -505,19 +476,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
         "--claim-support-threshold",
         type=float,
         default=0.5,
-        help="Minimum MiniCheck probability required for a claim to count as supported.",
-    )
-    parser.add_argument(
-        "--entity-min-precision",
-        type=float,
-        default=None,
-        help="Optional minimum entity precision threshold for the entity cross-check.",
-    )
-    parser.add_argument(
-        "--entity-min-recall",
-        type=float,
-        default=None,
-        help="Optional minimum entity recall threshold for the entity cross-check.",
+        help="Minimum LLM judge confidence required for a claim to count as supported.",
     )
     return parser
 
@@ -539,8 +498,6 @@ def main() -> None:
             verbose=args.verbose,
             verification_max_passes=args.max_verification_passes,
             claim_support_threshold=args.claim_support_threshold,
-            entity_min_precision=args.entity_min_precision,
-            entity_min_recall=args.entity_min_recall,
         )
     )
 

@@ -1,18 +1,24 @@
-"""Shared fact-checking primitives used by both the clinical and patient-friendly stages.
+"""Shared fact-checking primitives used by both summarization stages.
 
-The fact-check loop has three components: claim decomposition (handled by the
-generator LLM), per-claim verification (MiniCheck against the source note), and
-an optional entity-level cross-check (medSpaCy entities on both source and
-summary). The loop itself lives in the stage modules; this file only provides
-the data contracts and the verifier/extractor adapters.
+The default fact-check loop has three steps: claim decomposition, LLM-as-a-judge
+claim verification against the source note, and summary revision. Legacy
+MiniCheck and entity-extraction adapters remain available here as optional
+building blocks, but the active pipeline now relies on the LLM judge only.
 """
 
 from __future__ import annotations
 
 import importlib.util
+import json
 import re
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Callable, Protocol, Sequence
+
+from prompts import (
+    CLAIM_VERDICTS_END_MARKER,
+    LLM_CLAIM_JUDGE_SYSTEM_PROMPT,
+    build_claim_verification_prompt,
+)
 
 
 def _is_accelerate_importable() -> bool:
@@ -162,12 +168,26 @@ DEFAULT_MINICHECK_MODEL = "flan-t5-large"
 
 
 @dataclass(slots=True)
+class ClaimCitation:
+    """A source-note snippet that can be used to cite a supported claim."""
+
+    snippet: str
+    start_char: int
+    end_char: int
+    start_line: int
+    end_line: int
+    score: float
+    method: str = "token_overlap"
+
+
+@dataclass(slots=True)
 class ClaimVerificationResult:
     """Support score for one atomic claim."""
 
     claim: str
     supported: bool
     probability: float
+    citations: tuple[ClaimCitation, ...] = field(default_factory=tuple)
 
 
 @dataclass(slots=True)
@@ -203,6 +223,18 @@ class ClaimVerifier(Protocol):
         source_note: str,
         claims: Sequence[str],
     ) -> Sequence[ClaimVerificationResult]: ...
+
+
+class ClaimJudgeCompleter(Protocol):
+    """Callable adapter used by the LLM claim verifier."""
+
+    def __call__(
+        self,
+        prompt: str,
+        *,
+        system_prompt: str,
+        stop_strings: Sequence[str],
+    ) -> str: ...
 
 
 class EntityExtractor(Protocol):
@@ -312,6 +344,36 @@ class MiniCheckClaimVerifier:
                 strict=False,
             )
         ]
+
+
+class LLMClaimVerifier:
+    """LLM-as-a-judge verifier for atomic hallucination detection."""
+
+    def __init__(
+        self,
+        complete_prompt: ClaimJudgeCompleter,
+        *,
+        system_prompt: str = LLM_CLAIM_JUDGE_SYSTEM_PROMPT,
+        stop_strings: Sequence[str] = (CLAIM_VERDICTS_END_MARKER,),
+    ) -> None:
+        self._complete_prompt = complete_prompt
+        self._system_prompt = system_prompt
+        self._stop_strings = tuple(stop_strings)
+
+    def score_claims(
+        self,
+        source_note: str,
+        claims: Sequence[str],
+    ) -> list[ClaimVerificationResult]:
+        if not claims:
+            return []
+        prompt = build_claim_verification_prompt(source_note, claims)
+        response = self._complete_prompt(
+            prompt,
+            system_prompt=self._system_prompt,
+            stop_strings=self._stop_strings,
+        )
+        return parse_claim_verdicts(response, claims)
 
 
 class MedSpaCyEntityExtractor:
@@ -527,7 +589,10 @@ def score_claims_via_adapter(
         return []
     if hasattr(verifier, "score_claims"):
         scored_claims = verifier.score_claims(source_note_text, claims)
-        return [normalize_claim_result(result) for result in scored_claims]
+        return _attach_citations(
+            [normalize_claim_result(result) for result in scored_claims],
+            source_note_text,
+        )
     if hasattr(verifier, "score"):
         # MiniCheck.score returns (labels, raw_prob, _, _) on >=0.2 and
         # (labels, raw_prob) on older versions; index defensively.
@@ -536,7 +601,7 @@ def score_claims_via_adapter(
             claims=list(claims),
         )
         labels, probabilities = scored[0], scored[1]
-        return [
+        return _attach_citations([
             ClaimVerificationResult(
                 claim=claim,
                 supported=bool(label),
@@ -548,11 +613,162 @@ def score_claims_via_adapter(
                 probabilities,
                 strict=False,
             )
-        ]
+        ], source_note_text)
     raise TypeError(
         "Claim verifier must expose `score_claims(source_note, claims)` or "
         "`score(docs=..., claims=...)`."
     )
+
+
+_CITATION_WORD_RE = re.compile(r"[A-Za-z0-9]+(?:[./-][A-Za-z0-9]+)*")
+_CLAIM_CITATION_STOPWORDS = {
+    "a",
+    "an",
+    "and",
+    "as",
+    "at",
+    "by",
+    "for",
+    "from",
+    "in",
+    "is",
+    "it",
+    "of",
+    "on",
+    "or",
+    "that",
+    "the",
+    "to",
+    "was",
+    "were",
+    "with",
+    "documented",
+    "noted",
+    "not",
+    "patient",
+    "pt",
+    "shows",
+    "showed",
+    "found",
+    "had",
+    "has",
+}
+
+
+def _attach_citations(
+    results: Sequence[ClaimVerificationResult],
+    source_note_text: str,
+) -> list[ClaimVerificationResult]:
+    return [
+        ClaimVerificationResult(
+            claim=result.claim,
+            supported=result.supported,
+            probability=result.probability,
+            citations=(
+                result.citations
+                if result.citations
+                else _find_claim_citations(source_note_text, result.claim)
+            )
+            if result.supported
+            else tuple(),
+        )
+        for result in results
+    ]
+
+
+def _find_claim_citations(
+    source_note_text: str,
+    claim: str,
+    *,
+    max_citations: int = 2,
+    min_score: float = 0.35,
+) -> tuple[ClaimCitation, ...]:
+    claim_tokens = _citation_tokens(claim)
+    if not claim_tokens or not source_note_text.strip():
+        return tuple()
+
+    candidates: list[ClaimCitation] = []
+    for snippet, start_char, end_char, start_line, end_line in _iter_citation_spans(
+        source_note_text
+    ):
+        snippet_tokens = _citation_tokens(snippet)
+        if not snippet_tokens:
+            continue
+        shared_tokens = claim_tokens & snippet_tokens
+        if not shared_tokens:
+            continue
+        recall = len(shared_tokens) / len(claim_tokens)
+        precision = len(shared_tokens) / len(snippet_tokens)
+        score = (0.7 * recall) + (0.3 * precision)
+        if any(token.isdigit() for token in shared_tokens):
+            score += 0.1
+        if score < min_score:
+            continue
+        candidates.append(
+            ClaimCitation(
+                snippet=snippet,
+                start_char=start_char,
+                end_char=end_char,
+                start_line=start_line,
+                end_line=end_line,
+                score=min(score, 1.0),
+            )
+        )
+
+    candidates.sort(
+        key=lambda item: (-item.score, item.start_char, -(item.end_char - item.start_char))
+    )
+    deduped: list[ClaimCitation] = []
+    seen: set[tuple[int, int]] = set()
+    for candidate in candidates:
+        key = (candidate.start_char, candidate.end_char)
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(candidate)
+        if len(deduped) >= max_citations:
+            break
+    return tuple(deduped)
+
+
+def _iter_citation_spans(
+    text: str,
+) -> list[tuple[str, int, int, int, int]]:
+    spans: list[tuple[str, int, int, int, int]] = []
+    offset = 0
+    for line_number, raw_line in enumerate(text.splitlines(keepends=True), start=1):
+        line_without_newline = raw_line.rstrip("\r\n")
+        stripped_line = line_without_newline.strip()
+        if not stripped_line:
+            offset += len(raw_line)
+            continue
+
+        leading_ws = len(line_without_newline) - len(line_without_newline.lstrip())
+        line_start = offset + leading_ws
+        line_end = line_start + len(stripped_line)
+        spans.append((stripped_line, line_start, line_end, line_number, line_number))
+
+        for match in re.finditer(r"[^.;!?]+[.;!?]?", stripped_line):
+            sentence = match.group().strip()
+            if not sentence or sentence == stripped_line:
+                continue
+            sentence_start = line_start + match.start() + (
+                len(match.group()) - len(match.group().lstrip())
+            )
+            sentence_end = sentence_start + len(sentence)
+            spans.append(
+                (sentence, sentence_start, sentence_end, line_number, line_number)
+            )
+        offset += len(raw_line)
+    return spans
+
+
+def _citation_tokens(text: str) -> set[str]:
+    return {
+        token.lower()
+        for token in _CITATION_WORD_RE.findall(text)
+        if token and token.lower() not in _CLAIM_CITATION_STOPWORDS
+    }
 
 
 def compute_entity_metrics(
@@ -607,11 +823,65 @@ def parse_atomic_claims(text: str) -> list[str]:
         stripped_line = raw_line.strip()
         if not stripped_line:
             continue
+        if stripped_line.startswith("<<END_") and stripped_line.endswith(">>"):
+            continue
         cleaned_line = re.sub(r"^\d+[\).\s-]*", "", stripped_line)
         cleaned_line = re.sub(r"^[-*•]\s*", "", cleaned_line).strip()
         if cleaned_line:
             claims.append(cleaned_line)
     return claims
+
+
+def parse_claim_verdicts(
+    text: str,
+    claims: Sequence[str],
+) -> list[ClaimVerificationResult]:
+    """Parse JSON-lines claim verdicts emitted by the LLM judge.
+
+    Missing or malformed verdicts fail closed: the corresponding claim is
+    treated as unsupported with zero confidence so hallucinations are more
+    likely to be caught than silently passed through.
+    """
+
+    verdicts_by_index: dict[int, ClaimVerificationResult] = {}
+    for raw_line in text.splitlines():
+        stripped_line = raw_line.strip()
+        if not stripped_line or stripped_line == CLAIM_VERDICTS_END_MARKER:
+            continue
+        try:
+            payload = json.loads(stripped_line)
+        except json.JSONDecodeError:
+            continue
+        if not isinstance(payload, dict):
+            continue
+        index = payload.get("index")
+        if not isinstance(index, int):
+            continue
+        if index < 1 or index > len(claims):
+            continue
+        confidence = payload.get("confidence", 0.0)
+        try:
+            probability = float(confidence)
+        except (TypeError, ValueError):
+            probability = 0.0
+        probability = max(0.0, min(1.0, probability))
+        verdicts_by_index[index] = ClaimVerificationResult(
+            claim=claims[index - 1],
+            supported=bool(payload.get("supported", False)),
+            probability=probability,
+        )
+
+    return [
+        verdicts_by_index.get(
+            index,
+            ClaimVerificationResult(
+                claim=claim,
+                supported=False,
+                probability=0.0,
+            ),
+        )
+        for index, claim in enumerate(claims, start=1)
+    ]
 
 
 def fallback_claim_split(text: str) -> list[str]:
@@ -650,10 +920,12 @@ def _safe_divide(numerator: float, denominator: float) -> float:
 
 __all__ = [
     "DEFAULT_MINICHECK_MODEL",
+    "ClaimCitation",
     "ClaimVerificationResult",
     "EntityVerificationMetrics",
     "VerificationPassResult",
     "ClaimVerifier",
+    "LLMClaimVerifier",
     "EntityExtractor",
     "MiniCheckClaimVerifier",
     "MedSpaCyEntityExtractor",
@@ -661,6 +933,7 @@ __all__ = [
     "score_claims_via_adapter",
     "compute_entity_metrics",
     "parse_atomic_claims",
+    "parse_claim_verdicts",
     "fallback_claim_split",
     "format_entity_feedback",
 ]

@@ -1,0 +1,997 @@
+{
+  "note_source": "/Users/natejly/Documents/GitHub/LLMS/sample_notes/synthetic_discharge_summary.txt",
+  "patient_id": "demo-note-001",
+  "note_type": "discharge summary",
+  "summary": "Brief Hospital Course:\n63F with SLE, obesity, hypothyroidism found down, bradycardic, hypotensive.\nED code for bradycardia HR 20s; failed transcutaneous pacing.\nReceived epi/atropine/glucagon; placed temporary transvenous pacer.\nIntubated, started dopamine/propofol; transferred here.\nHard collar r/t unwitnessed fall; CT head/ECHO pnd.\nDiagnoses:\nComplete heart block (CHB); Hypotension (not shock); Fever; Acute resp failure.\nProcedures / interventions:\nR SC transvenous pacing wire placed.\nPA line placed R IJ TLC under fluoroscopy.\nMedication changes:\nStarted IV dopamine 12mcg/kg/min; stopped propofol (add midazolam).\nNew IV anbx: cefepime/vanco/flagyl.\nSignificant labs / imaging:\nTmax 100.4 blood; WBC 11.2; Lactate 2.0.\nEcho: PAD 22, PCWP 22, MVO2 68.\nHospital course by problem:\nCHB: Remains NSR/ST 80-100s; pacer tested; permanent PCM on hold.\nHypotension: Dopamine 8mcg/kg/min; BP 90s-100s; MAP 50s-60s; weaning.\nFever: T 99.8-100.4; WBC up; triple IV anbx; temp monitor on PA.\nResp failure: AC 50% FiO2; weaned to 100% for PA; thick tan secretions.\nDischarge disposition & follow-up:\nPermanent PCM once afebrile; keep temp wire; monitor resp/volume.\nFollow cultures; continue IV anbx; monitor pain/neuro status.",
+  "unsupported_claims": [
+    "Stopped propofol.",
+    "Temp monitor on PA.",
+    "Resp failure AC 50% FiO2.",
+    "Resp failure weaned to 100% for PA.",
+    "Resp failure thick tan secretions.",
+    "Permanent PCM once afebrile.",
+    "Keep temp wire.",
+    "Monitor resp/volume.",
+    "Follow cultures.",
+    "Continue IV anbx.",
+    "Monitor pain/neuro status."
+  ],
+  "claims": [
+    {
+      "claim_index": 1,
+      "claim": "Patient 63F with SLE, obesity, hypothyroidism.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 226,
+          "score": 0.3760869565217391,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.35185758513931886,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 2,
+      "claim": "Patient found down, bradycardic, hypotensive.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 226,
+          "score": 0.7391304347826086,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.7027863777089783,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 3,
+      "claim": "ED code for bradycardia HR 20s.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 228,
+          "end_char": 417,
+          "score": 0.6145454545454545,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.5637151702786377,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 4,
+      "claim": "Transcutaneous pacing failed.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.4685242518059855,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "No    pacing noted.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 794,
+          "end_char": 813,
+          "score": 0.3833333333333333,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 5,
+      "claim": "Received epi/atropine/glucagon.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "Hypotension (not Shock)    Assessment:    Received Pt.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 1246,
+          "end_char": 1300,
+          "score": 0.425,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.3509287925696594,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 6,
+      "claim": "Temporary transvenous pacer placed.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "A temporary    transvenous pacing wire was placed.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 419,
+          "end_char": 469,
+          "score": 0.7049999999999998,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.7037151702786377,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 7,
+      "claim": "Patient intubated.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "She was intubated, started on    dopamine and propofol and transferred here for further care.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 471,
+          "end_char": 564,
+          "score": 0.7333333333333333,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.7009287925696595,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 8,
+      "claim": "Started IV dopamine/propofol.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.4685242518059855,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 9,
+      "claim": "Patient transferred here.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "She was intubated, started on    dopamine and propofol and transferred here for further care.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 471,
+          "end_char": 564,
+          "score": 0.7666666666666666,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.7018575851393188,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 10,
+      "claim": "Hard collar placed r/t unwitnessed fall.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 566,
+          "end_char": 634,
+          "score": 0.7333333333333334,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.7055727554179566,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 11,
+      "claim": "CT head/ECHO pending.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": []
+    },
+    {
+      "claim_index": 12,
+      "claim": "Diagnosis of Complete heart block (CHB).",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 684,
+          "end_char": 776,
+          "score": 0.6599999999999999,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.5637151702786377,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 13,
+      "claim": "Diagnosis of Hypotension (not shock).",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "Hypotension (not Shock)    Assessment:    Received Pt.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 1246,
+          "end_char": 1300,
+          "score": 0.6166666666666666,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.4685242518059855,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 14,
+      "claim": "Diagnosis of Fever.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 2276,
+          "end_char": 2364,
+          "score": 0.38749999999999996,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.3509287925696594,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 15,
+      "claim": "Diagnosis of Acute resp failure.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.5277863777089783,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": ", Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 2870,
+          "end_char": 3018,
+          "score": 0.37857142857142856,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 16,
+      "claim": "R SC transvenous pacing wire placed.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 684,
+          "end_char": 776,
+          "score": 0.7083333333333334,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "A temporary    transvenous pacing wire was placed.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 419,
+          "end_char": 469,
+          "score": 0.7066666666666666,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 17,
+      "claim": "PA line placed R IJ TLC under fluoroscopy.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 1615,
+          "end_char": 1681,
+          "score": 0.8999999999999999,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.7074303405572755,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 18,
+      "claim": "Started IV dopamine 12mcg/kg/min.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.7037151702786377,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 1301,
+          "end_char": 1375,
+          "score": 0.6375,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 19,
+      "claim": "Stopped propofol.",
+      "supported": false,
+      "confidence": 1.0,
+      "citations": []
+    },
+    {
+      "claim_index": 20,
+      "claim": "Added midazolam.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "*Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 1762,
+          "end_char": 1873,
+          "score": 0.37727272727272726,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.3509287925696594,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 21,
+      "claim": "New IV anbx: cefepime/vanco/flagyl.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.5277863777089783,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "UOP ~50ml/hr, increasing after doses of IV    anbx.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 1385,
+          "end_char": 1436,
+          "score": 0.43571428571428567,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 22,
+      "claim": "Tmax 100.4 blood.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.7027863777089783,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "4 blood.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 2364,
+          "end_char": 2372,
+          "score": 0.3833333333333333,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 23,
+      "claim": "WBC 11.2.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.7018575851393188,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "WBC up slightly 11.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 2373,
+          "end_char": 2392,
+          "score": 0.425,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 24,
+      "claim": "Lactate 2.0.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.7018575851393188,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "Lactate 2.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 2465,
+          "end_char": 2475,
+          "score": 0.5,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 25,
+      "claim": "Echo PAD 22.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.8027863777089783,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "PCWP 22,    correlating w/ PAD 22.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 1690,
+          "end_char": 1724,
+          "score": 0.6866666666666666,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 26,
+      "claim": "Echo PCWP 22.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.8027863777089783,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "PCWP 22,    correlating w/ PAD 22.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 1690,
+          "end_char": 1724,
+          "score": 0.6866666666666666,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 27,
+      "claim": "Echo MVO2 68.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "MVO2 68.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 1726,
+          "end_char": 1734,
+          "score": 0.8666666666666666,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.8027863777089783,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 28,
+      "claim": "CHB remains NSR/ST 80-100s.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.5277863777089783,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 684,
+          "end_char": 776,
+          "score": 0.39999999999999997,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 29,
+      "claim": "Pacer tested.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 838,
+          "end_char": 938,
+          "score": 0.7545454545454545,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.7018575851393188,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 30,
+      "claim": "Permanent PCM on hold.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "*Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 987,
+          "end_char": 1122,
+          "score": 0.76,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.7027863777089783,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 31,
+      "claim": "Hypotension treated with Dopamine 8mcg/kg/min.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.5277863777089783,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 1992,
+          "end_char": 2069,
+          "score": 0.41666666666666663,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 32,
+      "claim": "BP 90s-100s.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 1992,
+          "end_char": 2069,
+          "score": 0.7666666666666666,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.7018575851393188,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 33,
+      "claim": "MAP 50s-60s.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 1992,
+          "end_char": 2069,
+          "score": 0.3833333333333333,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.3509287925696594,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 34,
+      "claim": "Hypotension weaning.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "Hypotension (not Shock)    Assessment:    Received Pt.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 1246,
+          "end_char": 1300,
+          "score": 0.425,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "*Unclear etiology of hypotension- sepsis vs cardiogenic.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 1558,
+          "end_char": 1614,
+          "score": 0.39999999999999997,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 35,
+      "claim": "Fever T 99.8-100.4.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.7027863777089783,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 36,
+      "claim": "WBC up.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "WBC up slightly 11.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 2373,
+          "end_char": 2392,
+          "score": 0.85,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.7018575851393188,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 37,
+      "claim": "Triple IV anbx.",
+      "supported": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "snippet": "Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 2494,
+          "end_char": 2546,
+          "score": 0.8285714285714285,
+          "method": "token_overlap"
+        },
+        {
+          "snippet": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field.  In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc.  A temporary    transvenous pacing wire was placed.  She was intubated, started on    dopamine and propofol and transferred here for further care.  She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.  ECHO at OSH    PND. Unclear etiology of CHB.    Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place. No ectopy noted. No    pacing noted. HR 80 s-100s NSR/ST.    Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings. Magnesium/ Phosphate repleted. EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted.    Plan:    *Permanent PCM once afebrile. Keep temporary wire in place until    permanent PCM. Monitor per hosp policy.    Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50. CVP 10.  UOP ~50ml/hr, increasing after doses of IV    anbx.  Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.    Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic. PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00. CVP 10. PCWP 22,    correlating w/ PAD 22.  MVO2 68. HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam. (See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]. Following NIBPs.    Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.  PADs    low 20s.    Plan:    Awaiting team plans given new PA line data. Awaiting CO/CI.   Continue    to wean dopamine as able. Follow fluid/ volume status/ UOP. Monitor for    s/s sepsis/ temp spike.    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood. WBC up slightly 11.2 (10.9). Pan cultured overnight    last night.  Pt diaphoretic/ clammy. Lactate 2.0. VS as above.    Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood.    Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout. SPO2 >94%. Thick, tan secretions    via ETT. Sedated per below.    Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed.  PS increased to 16/ 5 peep. VENOUS    blood gas correlating to ABG on AC settings per resp. Stayed on these    settings most of the day. Placed on AC, fiO2 100% for PA line    placement.    Response:    *After line placed, FiO2 decreased to 50%. VBG pnd.    Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.    Follow VBGs until arterial line able to be placed.    Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband",
+          "start_line": 1,
+          "end_line": 1,
+          "start_char": 0,
+          "end_char": 3966,
+          "score": 0.7027863777089783,
+          "method": "token_overlap"
+        }
+      ]
+    },
+    {
+      "claim_index": 38,
+      "claim": "Temp monitor on PA.",
+      "supported": false,
+      "confidence": 0.0,
+      "citations": []
+    },
+    {
+      "claim_index": 39,
+      "claim": "Resp failure AC 50% FiO2.",
+      "supported": false,
+      "confidence": 0.0,
+      "citations": []
+    },
+    {
+      "claim_index": 40,
+      "claim": "Resp failure weaned to 100% for PA.",
+      "supported": false,
+      "confidence": 0.0,
+      "citations": []
+    },
+    {
+      "claim_index": 41,
+      "claim": "Resp failure thick tan secretions.",
+      "supported": false,
+      "confidence": 0.0,
+      "citations": []
+    },
+    {
+      "claim_index": 42,
+      "claim": "Permanent PCM once afebrile.",
+      "supported": false,
+      "confidence": 0.0,
+      "citations": []
+    },
+    {
+      "claim_index": 43,
+      "claim": "Keep temp wire.",
+      "supported": false,
+      "confidence": 0.0,
+      "citations": []
+    },
+    {
+      "claim_index": 44,
+      "claim": "Monitor resp/volume.",
+      "supported": false,
+      "confidence": 0.0,
+      "citations": []
+    },
+    {
+      "claim_index": 45,
+      "claim": "Follow cultures.",
+      "supported": false,
+      "confidence": 0.0,
+      "citations": []
+    },
+    {
+      "claim_index": 46,
+      "claim": "Continue IV anbx.",
+      "supported": false,
+      "confidence": 0.0,
+      "citations": []
+    },
+    {
+      "claim_index": 47,
+      "claim": "Monitor pain/neuro status.",
+      "supported": false,
+      "confidence": 0.0,
+      "citations": []
+    }
+  ]
+}

@@ -9,6 +9,7 @@ CLINICAL_SUMMARY_END_MARKER = "<<END_OF_SUMMARY>>"
 CLINICAL_SUMMARY_CLAIM_DECOMPOSITION_END_MARKER = "<<END_OF_CLINICAL_ATOMIC_CLAIMS>>"
 PATIENT_FRIENDLY_SIMPLIFICATION_END_MARKER = "<<END_OF_PATIENT_FRIENDLY_SUMMARY>>"
 PATIENT_FRIENDLY_CLAIM_DECOMPOSITION_END_MARKER = "<<END_OF_ATOMIC_CLAIMS>>"
+CLAIM_VERDICTS_END_MARKER = "<<END_OF_CLAIM_VERDICTS>>"
 
 CLINICAL_SUMMARY_SYSTEM_PROMPT = """You are an expert clinical summarizer producing
 concise, discharge-style structured summaries from source clinical notes.
@@ -121,6 +122,22 @@ Requirements:
   section entirely if it would otherwise be empty.
 """
 
+LLM_CLAIM_JUDGE_SYSTEM_PROMPT = """You are a strict clinical hallucination detector.
+
+Your job is to judge whether each atomic claim is directly supported by the
+source clinical note.
+
+Rules:
+- Mark a claim as supported ONLY when the source note explicitly states it or
+  clearly paraphrases it.
+- Mark a claim as unsupported if it is absent, contradicted, temporally wrong,
+  numerically wrong, more specific than the note, or mixes supported and
+  unsupported details in one claim.
+- Do NOT give credit for plausible medical inference or background knowledge.
+- Be conservative: if support is ambiguous, mark unsupported.
+- Output only the requested JSON lines plus the end marker. No prose.
+"""
+
 # Backward-compatible alias used by the existing summarizer module.
 DEFAULT_SYSTEM_PROMPT = CLINICAL_SUMMARY_SYSTEM_PROMPT
 
@@ -131,6 +148,8 @@ def build_clinical_summary_prompt(
     patient_id: str | None = None,
     length_target_words: int | None = None,
     length_hard_cap_words: int | None = None,
+    length_target_ratio: float | None = None,
+    length_target_tokens: int | None = None,
 ) -> str:
     cleaned_note_blocks = [block.strip() for block in note_blocks if block and block.strip()]
     if not cleaned_note_blocks:
@@ -141,6 +160,8 @@ def build_clinical_summary_prompt(
     length_block = _build_length_target_block(
         target_words=length_target_words,
         hard_cap_words=length_hard_cap_words,
+        target_ratio=length_target_ratio,
+        target_tokens=length_target_tokens,
     )
 
     return (
@@ -151,14 +172,17 @@ def build_clinical_summary_prompt(
         "Section order (use these exact titles, in this order). Include a section ONLY\n"
         "when it has real content; otherwise OMIT the heading entirely:\n\n"
         "Brief Hospital Course:\n"
-        "- 3-6 dense bullets ONLY: presentation \u2192 key workup/treatment \u2192 current\n"
-        "  status / disposition. This is a narrative arc, not a per-problem dump.\n"
+        "- Use a short narrative arc: presentation \u2192 key workup/treatment \u2192 current\n"
+        "  status / disposition. Use only as many bullets as needed.\n"
+        "- This is a narrative arc, not a per-problem dump.\n"
         "Diagnoses (primary + secondary):\n"
-        "- One diagnosis per bullet. Primary diagnosis first.\n"
+        "- Start with the primary diagnosis. Group closely related diagnoses when that\n"
+        "  is more compact.\n"
         "Procedures / interventions:\n"
-        "- One per bullet. Date if documented. Include only procedures, not routine\n"
-        "  bedside actions (e.g., omit \"EKG obtained\", \"labs drawn\", \"vent settings\n"
-        "  adjusted\").\n"
+        "- Include only clinically meaningful procedures/interventions. Group related\n"
+        "  items when compact; date if documented.\n"
+        "- Exclude routine bedside actions (e.g., omit \"EKG obtained\", \"labs drawn\",\n"
+        "  \"vent settings adjusted\").\n"
         "Medication changes (new / changed / stopped):\n"
         "- <med> \u2014 <new|changed|stopped|continued w/ dose change> \u2014 <dose if changed>\n"
         "  \u2014 <reason if documented>\n"
@@ -167,21 +191,26 @@ def build_clinical_summary_prompt(
         "- Only abnormal or clinically actionable findings, with values when documented.\n"
         "- Do NOT list pending results here \u2014 those go under follow-up.\n"
         "Hospital course by problem:\n"
-        "- One bullet per active problem. Format:\n"
+        "- Organize by active problem, but combine closely related problems when that is\n"
+        "  more concise. Preferred format:\n"
         "  <problem>: <trajectory> | <key treatment + response> | <current status / plan>.\n"
         "- This is where per-problem detail lives. Do NOT repeat it in Brief Hospital Course.\n"
         "Discharge disposition & follow-up:\n"
         "- Include ONLY if disposition, pending results, follow-up, or return precautions\n"
-        "  are documented. Format as one bullet per item that exists. If nothing in this\n"
+        "  are documented. Use only as many bullets as needed. If nothing in this\n"
         "  category is documented, OMIT the entire section heading.\n\n"
         "Style:\n"
         "- Telegram / clinical-note style: dense bullets, standard medical abbreviations\n"
         "  (HTN, DM2, CKD, CHF, AKI, Cr, Hgb, PRBC, NSR, IVF, etc.), drop articles.\n"
         "- One fact per bullet. Brevity through density, not by dropping content.\n"
+        "- Prefer fewer, higher-information bullets over many short bullets or repeated\n"
+        "  section stubs.\n"
         "- State each fact in exactly ONE section. No cross-section repetition of\n"
         "  numbers, doses, or events.\n\n"
         "Hard rules:\n"
         "- Use only information explicitly supported by the source notes.\n"
+        "- If the budget is tight, OMIT low-yield details rather than using vague,\n"
+        "  lossy, or over-general wording for high-yield facts.\n"
         "- Omit empty sections entirely (heading and all). NEVER write \"Not documented\",\n"
         "  \"None\", \"N/A\", \"Pending\", or any placeholder line.\n"
         "- Preserve uncertainty, negation, and temporal relationships when present.\n"
@@ -369,6 +398,44 @@ def build_clinical_summary_claim_decomposition_prompt(
     )
 
 
+def build_claim_verification_prompt(
+    source_note: str,
+    claims: Sequence[str],
+    *,
+    patient_id: str | None = None,
+) -> str:
+    """Build a prompt for LLM-as-a-judge claim verification."""
+
+    cleaned_source_note = source_note.strip()
+    cleaned_claims = [claim.strip() for claim in claims if claim and claim.strip()]
+    if not cleaned_source_note:
+        raise ValueError("Source note text is required for claim verification.")
+    if not cleaned_claims:
+        raise ValueError("At least one claim is required for claim verification.")
+
+    patient_context = f"Patient ID: {patient_id}\n\n" if patient_id else ""
+    rendered_claims = "\n".join(
+        f"{index}. {claim}" for index, claim in enumerate(cleaned_claims, start=1)
+    )
+    return (
+        "Judge each atomic clinical claim against the source clinical note.\n"
+        "This is hallucination detection only.\n\n"
+        "Output rules:\n"
+        "- Return exactly one JSON object per line, in the same order as the claims.\n"
+        "- Each JSON object must have exactly these keys:\n"
+        '  {"index": <int>, "supported": <true|false>, "confidence": <0.0-1.0>}\n'
+        "- `supported` must be false if any material part of the claim is not supported.\n"
+        "- `confidence` is your confidence in that support judgment.\n"
+        f"- After the last JSON line, write {CLAIM_VERDICTS_END_MARKER} on its own line.\n"
+        "- No markdown fences, no explanations, no extra keys.\n\n"
+        f"{patient_context}"
+        "Source clinical note:\n"
+        f"{cleaned_source_note}\n\n"
+        "Claims to judge:\n"
+        f"{rendered_claims}"
+    )
+
+
 def build_clinical_summary_revision_prompt(
     source_note: str,
     current_summary: str,
@@ -377,18 +444,19 @@ def build_clinical_summary_revision_prompt(
     patient_id: str | None = None,
     length_target_words: int | None = None,
     length_hard_cap_words: int | None = None,
+    length_target_ratio: float | None = None,
+    length_target_tokens: int | None = None,
     entity_feedback: str | None = None,
 ) -> str:
     """Build a revision prompt for the structured clinical summary.
 
     Re-injects the same length-budget block as the initial generation so the
     revised summary stays within the per-call compression target. Lists
-    claims the fact-checker (MiniCheck) was unsure about, plus optional
-    entity-overlap feedback (from medSpaCy).
+    claims the fact-checker judged unsupported.
 
     The model is instructed to **rephrase** flagged claims using language
     closer to the source note rather than delete them, because an automated
-    NLI verifier has a non-trivial false-negative rate on terse clinical
+    verifier can still have a non-trivial false-negative rate on terse clinical
     phrasing. Only claims with no source-grounded rephrase should be dropped.
     """
 
@@ -418,6 +486,8 @@ def build_clinical_summary_revision_prompt(
     length_block = _build_length_target_block(
         target_words=length_target_words,
         hard_cap_words=length_hard_cap_words,
+        target_ratio=length_target_ratio,
+        target_tokens=length_target_tokens,
     )
 
     return (
@@ -459,6 +529,8 @@ def _build_length_target_block(
     *,
     target_words: int | None,
     hard_cap_words: int | None,
+    target_ratio: float | None = None,
+    target_tokens: int | None = None,
 ) -> str:
     """Render a length-budget instruction block for the clinical summary prompt.
 
@@ -473,22 +545,49 @@ def _build_length_target_block(
     if target_words is None:
         target_words = max(60, int(cap * 0.8))
     cap = max(cap or target_words, target_words)
+    ratio_block = ""
+    if target_ratio is not None:
+        ratio_block = (
+            f"- Aim for about {int(round(target_ratio * 100))}% of the source note "
+            "length by words.\n"
+        )
+    token_block = ""
+    if target_tokens is not None:
+        token_block = (
+            f"- Soft decode budget: aim to finish within about {target_tokens} "
+            "output tokens.\n"
+        )
 
-    soft_low = max(40, int(target_words * 0.85))
+    if cap <= 90 or (target_ratio is not None and target_ratio <= 0.12):
+        prioritization_block = (
+            "- Tight-budget mode: spend words on why the patient was hospitalized,\n"
+            "  the main diagnoses, decisive interventions, management-changing labs/\n"
+            "  imaging, and current status / disposition.\n"
+            "- Omit routine monitoring, unchanged chronic meds, low-yield normal results,\n"
+            "  and minor secondary details unless they materially changed management.\n"
+        )
+    elif cap <= 160 or (target_ratio is not None and target_ratio <= 0.18):
+        prioritization_block = (
+            "- Concise-budget mode: prioritize diagnosis, trajectory, treatment response,\n"
+            "  and disposition. Include supporting labs/imaging/med changes only when they\n"
+            "  are abnormal, actionable, or explain a management change.\n"
+            "- Merge related findings into dense bullets before adding new sections.\n"
+        )
+    else:
+        prioritization_block = (
+            "- Spend words on facts that change understanding of the case.\n"
+            "- Omit boilerplate and cross-section repetition before dropping core clinical facts.\n"
+        )
+
     return (
-        "Length budget (HARD constraint, OUTRANKS completeness and style):\n"
-        f"- Target: ~{target_words} words total across all sections "
-        f"(acceptable range {soft_low}-{target_words}).\n"
-        f"- Absolute ceiling: {cap} words. Going over is a failure even if\n"
-        "  every fact is correct.\n"
-        "- Treat the budget as a finite allowance you spend on facts. Before\n"
-        "  writing each bullet, ask: \"Do I still have room?\" If not, stop.\n"
-        "- Compress aggressively: merge related findings into one bullet\n"
-        "  (\"AKI on CKD: Cr 2.4 -> 1.6 with IVF\" is one bullet, not three).\n"
-        "- Drop low-yield sections entirely (heading and all) before\n"
-        "  truncating high-yield ones.\n"
-        "- No filler phrasing: \"the patient was found to have\", \"it was\n"
-        "  noted that\", \"during the hospital course\" all violate the budget.\n\n"
+        "Length budget (HARD constraint):\n"
+        f"{ratio_block}"
+        f"- Target: about {target_words} words total across all sections.\n"
+        f"- Absolute ceiling: {cap} words.\n"
+        f"{token_block}"
+        "- Prefer omission of low-yield details over vague compression of high-yield facts.\n"
+        "- Use merged, high-information bullets instead of extra filler or repetition.\n"
+        f"{prioritization_block}\n"
     )
 
 
