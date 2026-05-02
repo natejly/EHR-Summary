@@ -1,0 +1,882 @@
+{
+  "case_id": "mimic-72907-165405-520384",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:enc-165405",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Other postoperative infection",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99859",
+        "display": "Other postoperative infection"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:cond-165405-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Disseminated candidiasis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1125",
+        "display": "Disseminated candidiasis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:cond-165405-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:cond-165405-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Septic shock",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78552",
+        "display": "Septic shock"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:cond-165405-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Other suppurative peritonitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "56729",
+        "display": "Other suppurative peritonitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:cond-165405-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Acute and subacute necrosis of liver",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "570",
+        "display": "Acute and subacute necrosis of liver"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:cond-165405-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Acute kidney failure with lesion of tubular necrosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5845",
+        "display": "Acute kidney failure with lesion of tubular necrosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:cond-165405-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Necrotizing fasciitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "72886",
+        "display": "Necrotizing fasciitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:cond-165405-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Acute vascular insufficiency of intestine",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5570",
+        "display": "Acute vascular insufficiency of intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:cond-165405-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9974",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:cond-165405-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:cond-165405-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Acute salpingitis and oophoritis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "6140",
+        "display": "Acute salpingitis and oophoritis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:cond-165405-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Candidiasis of other urogenital sites",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1122",
+        "display": "Candidiasis of other urogenital sites"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:cond-165405-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Acute inflammatory diseases of uterus, except cervix",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "6150",
+        "display": "Acute inflammatory diseases of uterus, except cervix"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:cond-165405-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:cond-165405-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Depressive disorder, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "311",
+        "display": "Depressive disorder, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:cond-165405-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Unspecified acquired hypothyroidism",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2449",
+        "display": "Unspecified acquired hypothyroidism"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:cond-165405-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Other specified surgical operations and procedures causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8788",
+        "display": "Other specified surgical operations and procedures causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:cond-165405-18",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Open and other left hemicolectomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Open and other left hemicolectomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:proc-165405-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Other partial resection of small intestine",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other partial resection of small intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:proc-165405-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Temporary ileostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Temporary ileostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:proc-165405-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Open and other resection of transverse colon",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Open and other resection of transverse colon"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:proc-165405-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Open and other sigmoidectomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Open and other sigmoidectomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:proc-165405-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Open and other right hemicolectomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Open and other right hemicolectomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:proc-165405-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Other and unspecified subtotal abdominal hysterectomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other and unspecified subtotal abdominal hysterectomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:proc-165405-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Other removal of both ovaries and tubes at same operative episode",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other removal of both ovaries and tubes at same operative episode"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:proc-165405-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:proc-165405-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:proc-165405-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:proc-165405-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Hemodialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Hemodialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:proc-165405-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Venous catheterization for renal dialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization for renal dialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:proc-165405-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:14",
+      "kind": "procedure",
+      "display": "Parenteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Parenteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:proc-165405-14",
+      "text": null
+    },
+    {
+      "id": "E:proc:15",
+      "kind": "procedure",
+      "display": "Other gastrostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other gastrostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:proc-165405-15",
+      "text": null
+    },
+    {
+      "id": "E:proc:16",
+      "kind": "procedure",
+      "display": "Other enterostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other enterostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2133-01-24",
+      "source_ref": "urn:uuid:proc-165405-16",
+      "text": null
+    },
+    {
+      "id": "E:note:row520384:1",
+      "kind": "note_sentence",
+      "display": "Patient w/ recent hx of ERCP; Had an elective lap chole on [**1-22**] at    [**H",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row520384#s1",
+      "text": "Patient w/ recent hx of ERCP; Had an elective lap chole on [**1-22**] at    [**Hospital **] [**Hospital **] Hospital and post op was admitted to the floor; on    POD #1 pt had increasing abdominal pain, became hypotensive with    decreased uop."
+    },
+    {
+      "id": "E:note:row520384:2",
+      "kind": "note_sentence",
+      "display": "Patient taken back to the OR for an ex lap- found a    cystic stump leak from cl",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row520384#s2",
+      "text": "Patient taken back to the OR for an ex lap- found a    cystic stump leak from clips falling off postop; her small bowel was    also dusky and she underwent a SBR;; patient was transferred to TSICU    for further management of care on [**1-24**]. aggressive resuscitation,    triple pressures then returned to OR that night where more ischemic    bowel was found and a transverse colectomy was preformed."
+    },
+    {
+      "id": "E:note:row520384:3",
+      "kind": "note_sentence",
+      "display": "Pt taken    back to OR [**1-25**] for resection of terminal ileum, ascending, tr",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row520384#s3",
+      "text": "Pt taken    back to OR [**1-25**] for resection of terminal ileum, ascending, transverse    colon and upper portion of the sigmoid colon."
+    },
+    {
+      "id": "E:note:row520384:4",
+      "kind": "note_sentence",
+      "display": "[**1-26**] pt back to OR for a    resection of bowel anastamosis, reanastamosis,",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row520384#s4",
+      "text": "[**1-26**] pt back to OR for a    resection of bowel anastamosis, reanastamosis, ileostomy, bilat    oophorectomy, salpingectomy, partial hysterectomy, [**State **] patch,    g-tube, and J-tube."
+    },
+    {
+      "id": "E:note:row520384:5",
+      "kind": "note_sentence",
+      "display": "[**1-27**] started on CVVH.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row520384#s5",
+      "text": "[**1-27**] started on CVVH."
+    },
+    {
+      "id": "E:note:row520384:6",
+      "kind": "note_sentence",
+      "display": "CVVH was stopped [**1-29**] due to    persistent hypotension    Sepsis, Severe (",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row520384#s6",
+      "text": "CVVH was stopped [**1-29**] due to    persistent hypotension    Sepsis, Severe (with organ dysfunction)    Assessment:    +blood cultures for yeast    Abdomen firm, open, absent BS,  abdominal [**Doctor Last Name **] drains put out large    amnt secretions,    SBP >90    Black tongue    Large amnt of oozing from every skin breakdown    Low platelets    Pt withdraws to pain, grimaced to pain/suctioning, does not open eyes,    poor gag/cough,    Large NGT output, absent BS, abd firm/open."
+    },
+    {
+      "id": "E:note:row520384:7",
+      "kind": "note_sentence",
+      "display": "Less output from G-tube    Action:    Off Levophed last night at [**2122**]    G",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row520384#s7",
+      "text": "Less output from G-tube    Action:    Off Levophed last night at [**2122**]    Got 1 unit of platlets  transfused overnight    [**Last Name (un) 3864**] monitoring is ongoing(team aware that Pt is in a/fib and this    might impact [**Last Name (un) 13380**] accuracy)    Pt was blood cultured last night    Remains on meropenum, vanco, cipro and micafungin    Treated with fentanyl for pain    Response:    SVV 18-24, SBP >90, normothermic, warm feet, + pulses, tongue remains    black, PLT count up to >80    Plan:    Cont antibiotics, hemodynamics monitoring,    Respiratory failure, acute (not ARDS/[**Doctor Last Name 11**])    Assessment:    Intubated day 5."
+    },
+    {
+      "id": "E:note:row520384:8",
+      "kind": "note_sentence",
+      "display": "Remains on a/c with 10 peep, LS with    rhonchi/diminished    Action:    VAP car",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row520384#s8",
+      "text": "Remains on a/c with 10 peep, LS with    rhonchi/diminished    Action:    VAP care, monitoring ABGs, self rotating bed, unable to obtain RSBI due    to PEEP    Response:    No changed in vent settings, ABG wnl    Plan:    Full vent support    [**Last Name **] Problem  alteration skin integrity    Assessment:    Pt has multiple puncture wounds that leaking as well as many    blisters-some of which have bursted."
+    },
+    {
+      "id": "E:note:row520384:9",
+      "kind": "note_sentence",
+      "display": "Mepeflex dsg on coccyx intact,    open abdomen with clear dsg on and JP/[**Docto",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row520384#s9",
+      "text": "Mepeflex dsg on coccyx intact,    open abdomen with clear dsg on and JP/[**Doctor Last Name **] drains intact,    Action:    Skin care, rotating bed, central lipid TPN is ongoing    Response:    Less drainage from R. groin bag, c.line dsdg was changed twice    Plan:    keep pt s skin dry, frequent skin care    Renal failure, acute (Acute renal failure, ARF)    Assessment:    Creat >2.1-up from 1.9 yeasterday, lactate 5 today-up from 4.7    Action:    CVVHDF off yesterday."
+    },
+    {
+      "id": "E:note:row520384:10",
+      "kind": "note_sentence",
+      "display": "Response:    Worsening renal picture while off CVVHDf    Plan:    Consult with r",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row520384#s10",
+      "text": "Response:    Worsening renal picture while off CVVHDf    Plan:    Consult with renal team, monitor I/O, replete lytes as needed    Atrial fibrillation (Afib)    Assessment:    Pt remains in A/fib, 85-100 rate, irregular."
+    },
+    {
+      "id": "E:note:row520384:11",
+      "kind": "note_sentence",
+      "display": "Action:    Amioderone gtt ongoing at 0.5mg /min    Response:    No changes in ra",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row520384#s11",
+      "text": "Action:    Amioderone gtt ongoing at 0.5mg /min    Response:    No changes in rate    Plan:    Consider cardioversion"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|99859": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1125": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78552": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|56729": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|570": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5845": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|72886": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5570": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|9974": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2762": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|6140": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1122": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|6150": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|311": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2449": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8788": [
+      "E:cond:18"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "other postoperative infection": [
+      "E:cond:1"
+    ],
+    "disseminated candidiasis": [
+      "E:cond:2"
+    ],
+    "severe sepsis": [
+      "E:cond:3"
+    ],
+    "septic shock": [
+      "E:cond:4"
+    ],
+    "other suppurative peritonitis": [
+      "E:cond:5"
+    ],
+    "acute and subacute necrosis of liver": [
+      "E:cond:6"
+    ],
+    "acute kidney failure with lesion of tubular necrosis": [
+      "E:cond:7"
+    ],
+    "necrotizing fasciitis": [
+      "E:cond:8"
+    ],
+    "acute vascular insufficiency of intestine": [
+      "E:cond:9"
+    ],
+    "diagnosis": [
+      "E:cond:10"
+    ],
+    "acidosis": [
+      "E:cond:11"
+    ],
+    "acute salpingitis and oophoritis": [
+      "E:cond:12"
+    ],
+    "candidiasis of other urogenital sites": [
+      "E:cond:13"
+    ],
+    "acute inflammatory diseases of uterus, except cervix": [
+      "E:cond:14"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:15"
+    ],
+    "depressive disorder, not elsewhere classified": [
+      "E:cond:16"
+    ],
+    "unspecified acquired hypothyroidism": [
+      "E:cond:17"
+    ],
+    "other specified surgical operations and procedures causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation": [
+      "E:cond:18"
+    ],
+    "open and other left hemicolectomy": [
+      "E:proc:1"
+    ],
+    "other partial resection of small intestine": [
+      "E:proc:2"
+    ],
+    "temporary ileostomy": [
+      "E:proc:3"
+    ],
+    "open and other resection of transverse colon": [
+      "E:proc:4"
+    ],
+    "open and other sigmoidectomy": [
+      "E:proc:5"
+    ],
+    "open and other right hemicolectomy": [
+      "E:proc:6"
+    ],
+    "other and unspecified subtotal abdominal hysterectomy": [
+      "E:proc:7"
+    ],
+    "other removal of both ovaries and tubes at same operative episode": [
+      "E:proc:8"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:9"
+    ],
+    "arterial catheterization": [
+      "E:proc:10"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:11"
+    ],
+    "hemodialysis": [
+      "E:proc:12"
+    ],
+    "venous catheterization for renal dialysis": [
+      "E:proc:13"
+    ],
+    "parenteral infusion of concentrated nutritional substances": [
+      "E:proc:14"
+    ],
+    "other gastrostomy": [
+      "E:proc:15"
+    ],
+    "other enterostomy": [
+      "E:proc:16"
+    ],
+    "patient w/ recent hx of ercp; had an elective lap chole on [**1-22**] at [**h": [
+      "E:note:row520384:1"
+    ],
+    "patient taken back to the or for an ex lap- found a cystic stump leak from cl": [
+      "E:note:row520384:2"
+    ],
+    "pt taken back to or [**1-25**] for resection of terminal ileum, ascending, tr": [
+      "E:note:row520384:3"
+    ],
+    "[**1-26**] pt back to or for a resection of bowel anastamosis, reanastamosis,": [
+      "E:note:row520384:4"
+    ],
+    "[**1-27**] started on cvvh.": [
+      "E:note:row520384:5"
+    ],
+    "cvvh was stopped [**1-29**] due to persistent hypotension sepsis, severe (": [
+      "E:note:row520384:6"
+    ],
+    "less output from g-tube action: off levophed last night at [**2122**] g": [
+      "E:note:row520384:7"
+    ],
+    "remains on a/c with 10 peep, ls with rhonchi/diminished action: vap car": [
+      "E:note:row520384:8"
+    ],
+    "mepeflex dsg on coccyx intact, open abdomen with clear dsg on and jp/[**docto": [
+      "E:note:row520384:9"
+    ],
+    "response: worsening renal picture while off cvvhdf plan: consult with r": [
+      "E:note:row520384:10"
+    ],
+    "action: amioderone gtt ongoing at 0.5mg /min response: no changes in ra": [
+      "E:note:row520384:11"
+    ]
+  },
+  "by_date": {
+    "2133-01-24": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13",
+      "E:proc:14",
+      "E:proc:15",
+      "E:proc:16"
+    ]
+  }
+}

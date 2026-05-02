@@ -1,0 +1,157 @@
+{
+  "case_id": "mimic-29307-175627-318233",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 784,
+    "summary_chars": 480,
+    "target_min_chars": 200,
+    "target_max_chars": 300,
+    "achieved_ratio": 0.6122448979591837,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 6,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:2",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:note:row318233:2",
+      "E:note:row318233:3",
+      "E:note:row318233:4",
+      "E:note:row318233:5",
+      "E:note:row318233:8",
+      "E:note:row318233:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "COPD exacerbation [E:cond:1][E:note:row318233:3].",
+        "severity": "medium",
+        "reason": "The fact sheet lists 'Obstructive chronic bronchitis with (acute) exacerbation', not COPD exacerbation. This is a misinterpretation of the cited evidence."
+      },
+      {
+        "sentence": "CHF [E:cond:6][E:note:row318233:2].",
+        "severity": "medium",
+        "reason": "The fact sheet specifies 'Acute on chronic diastolic heart failure' and 'Congestive heart failure, unspecified', which is more specific than simply 'CHF'."
+      },
+      {
+        "sentence": "7.26/100/85 [E:note:row318233:5].",
+        "severity": "high",
+        "reason": "This lab value is presented without units or context, making it clinically meaningless and potentially unsafe."
+      },
+      {
+        "sentence": "Continue nebs and methylpred [E:note:row318233:9].",
+        "severity": "medium",
+        "reason": "The fact sheet states 'Cont nebs and methylpred.', which is abbreviated. The summary should maintain the same level of abbreviation or expand it for clarity."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "COPD exacerbation [E:cond:1][E:note:row318233:3].",
+        "suggested": "Obstructive chronic bronchitis with (acute) exacerbation [E:cond:1][E:note:row318233:3].",
+        "reason": "Corrects the problem name to match the fact sheet."
+      },
+      {
+        "original": "CHF [E:cond:6][E:note:row318233:2].",
+        "suggested": "Congestive heart failure, unspecified [E:cond:6][E:note:row318233:2].",
+        "reason": "Uses the more specific terminology from the fact sheet."
+      },
+      {
+        "original": "7.26/100/85 [E:note:row318233:5].",
+        "suggested": "7.26/100/85 [E:note:row318233:5].",
+        "reason": "While the value is problematic, no information is available to add context or units. Flagging for manual review is necessary."
+      },
+      {
+        "original": "Continue nebs and methylpred [E:note:row318233:9].",
+        "suggested": "Continue nebs and methylpred [E:note:row318233:9].",
+        "reason": "Maintains consistency in abbreviation with the source."
+      }
+    ]
+  },
+  "review_passed": false,
+  "review_concern_counts": {
+    "high": 1,
+    "medium": 3,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Desktop/LLMS's FInal/outputs/mimic-29307-175627-318233/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.06,
+    "fk_words": 184,
+    "fk_sentences": 18,
+    "fk_syllables": 291,
+    "chars": 1627,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Desktop/LLMS's FInal/outputs/mimic-29307-175627-318233/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.005870833992958069,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 12.64346562497667,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 22.511716207984136,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0030515829857904464,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 10.45239295900683,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 6.761284040985629,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.003118916996754706,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 8.109252082998864,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma3:27b",
+    "claim_verification": "gemma3:27b",
+    "context_agent": "gemma3:27b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma3:27b"
+  }
+}

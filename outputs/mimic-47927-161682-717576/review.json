@@ -1,0 +1,76 @@
+{
+  "concerns": [
+    {
+      "sentence": "Patient presents with herpetic meningoencephalitis, acute respiratory failure, pneumonia, and acute systolic heart failure [E:cond:1][E:cond:2][E:cond:3][E:cond:4].",
+      "severity": "medium",
+      "reason": "The summary presents these as current problems, but the fact sheet only indicates they were present on 2108-12-23. This implies they are ongoing without supporting evidence."
+    },
+    {
+      "sentence": "Additional diagnoses include sepsis, MS changes, altered mental status, and agitation [E:note:row717576:4][E:note:row717576:7].",
+      "severity": "medium",
+      "reason": "The fact sheet does not list 'sepsis' or 'MS changes' as active problems. 'Altered mental status' and 'agitation' are not present in the fact sheet."
+    },
+    {
+      "sentence": "Comorbidities include severe SLE, cryoglobulinemia vasculitis, and other paraproteinemias [E:cond:10][E:note:row717576:1][E:cond:11].",
+      "severity": "medium",
+      "reason": "The fact sheet lists SLE and paraproteinemias as active problems, but does not mention cryoglobulinemia vasculitis."
+    },
+    {
+      "sentence": "History of cardiac arrest, CHF, and cardiac dysrhythmias [E:cond:12][E:cond:13][E:cond:14].",
+      "severity": "medium",
+      "reason": "The fact sheet lists these as active problems, but does not indicate they are *history* of these conditions. This is a misinterpretation of the data."
+    },
+    {
+      "sentence": "Other issues include coagulation defects, anemia, epilepsy, drug withdrawal, and opioid/sedative dependence [E:cond:5][E:cond:15][E:cond:16][E:cond:6][E:cond:7][E:cond:8].",
+      "severity": "medium",
+      "reason": "The fact sheet lists these as active problems, but 'epilepsy' is not present."
+    },
+    {
+      "sentence": "Extremity atherosclerosis with foot ulceration noted [E:cond:17][E:cond:18].",
+      "severity": "medium",
+      "reason": "The fact sheet does not mention foot ulceration."
+    },
+    {
+      "sentence": "Sedation with fentanyl and versed [E:note:row717576:11].",
+      "severity": "low",
+      "reason": "The fact sheet states the patient *is sedated on* fentanyl and versed, not *with* them. This is a minor phrasing issue."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Patient presents with herpetic meningoencephalitis, acute respiratory failure, pneumonia, and acute systolic heart failure [E:cond:1][E:cond:2][E:cond:3][E:cond:4].",
+      "suggested": "Patient had a history of herpetic meningoencephalitis, acute respiratory failure, pneumonia, and acute systolic heart failure on 2108-12-23 [E:cond:1][E:cond:2][E:cond:3][E:cond:4].",
+      "reason": "Clarifies that these conditions were noted on a specific date, avoiding the implication they are current."
+    },
+    {
+      "original": "Additional diagnoses include sepsis, MS changes, altered mental status, and agitation [E:note:row717576:4][E:note:row717576:7].",
+      "suggested": "Additional diagnoses include altered mental status and agitation [E:note:row717576:4][E:note:row717576:7].",
+      "reason": "Removes diagnoses not supported by the fact sheet."
+    },
+    {
+      "original": "Comorbidities include severe SLE, cryoglobulinemia vasculitis, and other paraproteinemias [E:cond:10][E:note:row717576:1][E:cond:11].",
+      "suggested": "Comorbidities include severe SLE and other paraproteinemias [E:cond:10][E:note:row717576:1][E:cond:11].",
+      "reason": "Removes comorbidity not supported by the fact sheet."
+    },
+    {
+      "original": "History of cardiac arrest, CHF, and cardiac dysrhythmias [E:cond:12][E:cond:13][E:cond:14].",
+      "suggested": "Cardiac arrest, CHF, and cardiac dysrhythmias [E:cond:12][E:cond:13][E:cond:14].",
+      "reason": "Removes the word 'history' as the fact sheet does not indicate these are past conditions."
+    },
+    {
+      "original": "Other issues include coagulation defects, anemia, epilepsy, drug withdrawal, and opioid/sedative dependence [E:cond:5][E:cond:15][E:cond:16][E:cond:6][E:cond:7][E:cond:8].",
+      "suggested": "Other issues include coagulation defects, anemia, drug withdrawal, and opioid/sedative dependence [E:cond:5][E:cond:15][E:cond:16][E:cond:6][E:cond:7][E:cond:8].",
+      "reason": "Removes 'epilepsy' as it is not listed in the fact sheet."
+    },
+    {
+      "original": "Extremity atherosclerosis with foot ulceration noted [E:cond:17][E:cond:18].",
+      "suggested": "Extremity atherosclerosis noted [E:cond:17][E:cond:18].",
+      "reason": "Removes 'foot ulceration' as it is not listed in the fact sheet."
+    },
+    {
+      "original": "Sedation with fentanyl and versed [E:note:row717576:11].",
+      "suggested": "Sedation on fentanyl and versed [E:note:row717576:11].",
+      "reason": "Corrects phrasing to match the fact sheet."
+    }
+  ]
+}

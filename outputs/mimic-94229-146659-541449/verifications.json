@@ -1,0 +1,572 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:15",
+        "E:note:row541449:1"
+      ],
+      "rationale": "Both a structured condition and a note mention ulcerative colitis."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:1"
+      ],
+      "rationale": "The note explicitly states the patient has a history of coronary disease."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:1"
+      ],
+      "rationale": "The note explicitly states the patient has a history of MI."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:1"
+      ],
+      "rationale": "The note explicitly states the patient had a CABG."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:1"
+      ],
+      "rationale": "The note explicitly mentions a history of CVA."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:1",
+        "E:note:row541449:6"
+      ],
+      "rationale": "Both evidence items explicitly mention 'CRI' as a diagnosis or in the context of the patient's conditions."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:1",
+        "E:note:row541449:8"
+      ],
+      "rationale": "Both evidence items explicitly mention the patient's history of Afib."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:8"
+      ],
+      "rationale": "The evidence explicitly states the patient was restarted on Coumadin."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:8"
+      ],
+      "rationale": "The candidate E:cond:8 explicitly states a diagnosis of cirrhosis."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:16"
+      ],
+      "rationale": "The candidate directly states a diagnosis of esophageal varices."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:18",
+        "E:note:row541449:11"
+      ],
+      "rationale": "Both a condition and note explicitly state the patient has hypotension."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:16"
+      ],
+      "rationale": "The note explicitly states hypoxia is possible."
+    },
+    {
+      "claim_id": "C13",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C14",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:19"
+      ],
+      "rationale": "The candidate directly states the patient presented with nausea with vomiting on the same date."
+    },
+    {
+      "claim_id": "C16",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate only mentions diarrhea, not specifically 'bloody diarrhea'."
+    },
+    {
+      "claim_id": "C17",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:3",
+        "E:note:row541449:5"
+      ],
+      "rationale": "Both evidence items explicitly state the patient was treated with cipro."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:3",
+        "E:note:row541449:5"
+      ],
+      "rationale": "Both evidence items explicitly mention the patient being treated for SBP."
+    },
+    {
+      "claim_id": "C20",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate mentions 'Other ascites' but does not specify 'non-tappable ascites'."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:6"
+      ],
+      "rationale": "The note explicitly mentions the patient having ARF."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:1",
+        "E:note:row541449:6"
+      ],
+      "rationale": "Both evidence items explicitly mention 'CRI' as a diagnosis or in the context of the patient's conditions."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:2"
+      ],
+      "rationale": "The candidate explicitly states 'Acute on chronic systolic heart failure', which includes systolic heart failure."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:28"
+      ],
+      "rationale": "Candidate E:cond:28 directly states the patient has a diagnosis of Atrial fibrillation."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:8"
+      ],
+      "rationale": "The evidence directly states the patient was restarted on Coumadin on 12-6."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:1",
+        "E:note:row541449:8"
+      ],
+      "rationale": "Both evidence items explicitly mention the patient's diagnosis of Afib."
+    },
+    {
+      "claim_id": "C27",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C28",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided evidence does not mention the diagnosis 'UC'."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:9"
+      ],
+      "rationale": "The evidence directly states the patient was triggered for respiratory distress on 12-7."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:16"
+      ],
+      "rationale": "The note explicitly states hypoxia is possible."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:10"
+      ],
+      "rationale": "The candidate directly states the patient was given Lasix 40mg IV."
+    },
+    {
+      "claim_id": "C32",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:18",
+        "E:note:row541449:11"
+      ],
+      "rationale": "Both a condition and note explicitly state the patient had hypotension around the specified date."
+    },
+    {
+      "claim_id": "C34",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates do not contain any blood pressure measurements or information about changes in blood pressure."
+    },
+    {
+      "claim_id": "C35",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C36",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:10",
+        "E:note:row541449:12"
+      ],
+      "rationale": "Both evidence items confirm the patient received Lasix."
+    },
+    {
+      "claim_id": "C37",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:12"
+      ],
+      "rationale": "The note directly states the patient remained hypoxic."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:12"
+      ],
+      "rationale": "The note directly states the ABG result as 7.30/32/43 on 12-7."
+    },
+    {
+      "claim_id": "C39",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:13"
+      ],
+      "rationale": "The candidate directly states the patient has Diabetes Mellitus (DM), Type II."
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:13"
+      ],
+      "rationale": "The candidate directly states the BSFS result as 297-320."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:14"
+      ],
+      "rationale": "The evidence directly states the patient was given insilun Sc."
+    },
+    {
+      "claim_id": "C42",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C43",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C44",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C45",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C46",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C47",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C48",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C49",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C50",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:15"
+      ],
+      "rationale": "The candidate directly states the patient has LS rhonchi/crackles at bases with some wheezing."
+    },
+    {
+      "claim_id": "C51",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:16"
+      ],
+      "rationale": "The candidate directly states hypoxia is possible due to CHF vs PNA."
+    },
+    {
+      "claim_id": "C52",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:17"
+      ],
+      "rationale": "The candidate directly states the patient was changed to NRB."
+    },
+    {
+      "claim_id": "C53",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:17"
+      ],
+      "rationale": "The candidate directly states the patient's saturation was 100%."
+    },
+    {
+      "claim_id": "C54",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:17"
+      ],
+      "rationale": "The candidate directly states the same ABG result as the claim."
+    },
+    {
+      "claim_id": "C55",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:17"
+      ],
+      "rationale": "The candidate directly states a plan to 'start nebs tx'."
+    },
+    {
+      "claim_id": "C56",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates do not contain information about respiratory support or weaning plans."
+    },
+    {
+      "claim_id": "C57",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:18"
+      ],
+      "rationale": "The candidate directly states that sputum was sent."
+    },
+    {
+      "claim_id": "C58",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C59",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:19"
+      ],
+      "rationale": "The note directly states suction of bloody secretion."
+    },
+    {
+      "claim_id": "C60",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:20"
+      ],
+      "rationale": "The candidate directly states the patient is starting on Aztreonam/Levofloxacin."
+    },
+    {
+      "claim_id": "C61",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:20"
+      ],
+      "rationale": "The candidate directly states the patient continues on Vanco."
+    },
+    {
+      "claim_id": "C62",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:20"
+      ],
+      "rationale": "The note directly states the patient desaturated to 90%."
+    },
+    {
+      "claim_id": "C63",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:21"
+      ],
+      "rationale": "The note directly states the patient desaturated to 88% while the mask was off."
+    },
+    {
+      "claim_id": "C64",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:21"
+      ],
+      "rationale": "The note explicitly states a plan to wean O2."
+    },
+    {
+      "claim_id": "C65",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:21"
+      ],
+      "rationale": "The note explicitly states a plan to follow ABG."
+    },
+    {
+      "claim_id": "C66",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:21"
+      ],
+      "rationale": "The note explicitly states a plan to 'cont nebs'."
+    },
+    {
+      "claim_id": "C67",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C68",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C69",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C70",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C71",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates do not contain information about a plan to continue following hemodynamic status."
+    },
+    {
+      "claim_id": "C72",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:22"
+      ],
+      "rationale": "The note explicitly states the patient is confused."
+    },
+    {
+      "claim_id": "C73",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:22"
+      ],
+      "rationale": "The note directly states the patient is oriented in himself only."
+    },
+    {
+      "claim_id": "C74",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:22"
+      ],
+      "rationale": "The note directly states the patient has possible needs for a sitter in the morning."
+    },
+    {
+      "claim_id": "C75",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:23"
+      ],
+      "rationale": "The candidate directly states the patient refused to take medications orally with the same stated reason."
+    },
+    {
+      "claim_id": "C76",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row541449:23"
+      ],
+      "rationale": "The candidate directly mentions '2 sets of blood cx'."
+    }
+  ]
+}

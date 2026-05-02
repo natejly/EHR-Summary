@@ -1,0 +1,156 @@
+{
+  "case_id": "mimic-17539-153621-390912",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 4686,
+    "summary_chars": 2334,
+    "target_min_chars": 937,
+    "target_max_chars": 1405,
+    "achieved_ratio": 0.4980793854033291,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 18,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:2",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row390912:1",
+      "E:note:row390912:10",
+      "E:note:row390912:11",
+      "E:note:row390912:13",
+      "E:note:row390912:14",
+      "E:note:row390912:16",
+      "E:note:row390912:18",
+      "E:note:row390912:19",
+      "E:note:row390912:21",
+      "E:note:row390912:22",
+      "E:note:row390912:23",
+      "E:note:row390912:25",
+      "E:note:row390912:26",
+      "E:note:row390912:27",
+      "E:note:row390912:3",
+      "E:note:row390912:32",
+      "E:note:row390912:36",
+      "E:note:row390912:44",
+      "E:note:row390912:45",
+      "E:note:row390912:50",
+      "E:note:row390912:52",
+      "E:note:row390912:55",
+      "E:note:row390912:6",
+      "E:note:row390912:9",
+      "E:proc:10",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9"
+    ]
+  },
+  "review": {
+    "concerns": [],
+    "recommended_revisions": []
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
+  "revised_summary": null,
+  "revised_check_passed": null,
+  "patient_summary": {
+    "fk_grade": 7.74,
+    "fk_words": 197,
+    "fk_sentences": 17,
+    "fk_syllables": 314,
+    "chars": 1930,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Desktop/LLMS's FInal/outputs/mimic-17539-153621-390912/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.00442383301560767,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 36.10995595899294,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 20.476054041006137,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0028550419956445694,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 239.61623529199278,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 416.4716564170085,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.00350324998726137,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 41.75313475000439,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma3:27b",
+    "claim_verification": "gemma3:27b",
+    "context_agent": "gemma3:27b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma3:27b"
+  }
+}

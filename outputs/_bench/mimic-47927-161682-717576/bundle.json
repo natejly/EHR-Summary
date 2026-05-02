@@ -1,0 +1,546 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-47927-161682",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-47927",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-47927",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-161682",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-161682",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2108-12-23T00:00:00",
+          "end": "2108-12-27T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161682-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161682-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0543",
+              "display": "Herpetic meningoencephalitis"
+            }
+          ],
+          "text": "Herpetic meningoencephalitis"
+        },
+        "onsetDateTime": "2108-12-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161682-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161682-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2108-12-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161682-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161682-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "486",
+              "display": "Pneumonia, organism unspecified"
+            }
+          ],
+          "text": "Pneumonia, organism unspecified"
+        },
+        "onsetDateTime": "2108-12-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161682-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161682-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42821",
+              "display": "Acute systolic heart failure"
+            }
+          ],
+          "text": "Acute systolic heart failure"
+        },
+        "onsetDateTime": "2108-12-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161682-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161682-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2869",
+              "display": "Other and unspecified coagulation defects"
+            }
+          ],
+          "text": "Other and unspecified coagulation defects"
+        },
+        "onsetDateTime": "2108-12-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161682-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161682-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2920",
+              "display": "Drug withdrawal"
+            }
+          ],
+          "text": "Drug withdrawal"
+        },
+        "onsetDateTime": "2108-12-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161682-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161682-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "30401",
+              "display": "Opioid type dependence, continuous"
+            }
+          ],
+          "text": "Opioid type dependence, continuous"
+        },
+        "onsetDateTime": "2108-12-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161682-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161682-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "30411",
+              "display": "Sedative, hypnotic or anxiolytic dependence, continuous"
+            }
+          ],
+          "text": "Sedative, hypnotic or anxiolytic dependence, continuous"
+        },
+        "onsetDateTime": "2108-12-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161682-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161682-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2763",
+              "display": "Alkalosis"
+            }
+          ],
+          "text": "Alkalosis"
+        },
+        "onsetDateTime": "2108-12-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161682-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161682-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7100",
+              "display": "Systemic lupus erythematosus"
+            }
+          ],
+          "text": "Systemic lupus erythematosus"
+        },
+        "onsetDateTime": "2108-12-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161682-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161682-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2732",
+              "display": "Other paraproteinemias"
+            }
+          ],
+          "text": "Other paraproteinemias"
+        },
+        "onsetDateTime": "2108-12-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161682-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161682-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4275",
+              "display": "Cardiac arrest"
+            }
+          ],
+          "text": "Cardiac arrest"
+        },
+        "onsetDateTime": "2108-12-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161682-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161682-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2108-12-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161682-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161682-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42789",
+              "display": "Other specified cardiac dysrhythmias"
+            }
+          ],
+          "text": "Other specified cardiac dysrhythmias"
+        },
+        "onsetDateTime": "2108-12-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161682-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161682-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2859",
+              "display": "Anemia, unspecified"
+            }
+          ],
+          "text": "Anemia, unspecified"
+        },
+        "onsetDateTime": "2108-12-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161682-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161682-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "34590",
+              "display": "Epilepsy, unspecified, without mention of intractable epilepsy"
+            }
+          ],
+          "text": "Epilepsy, unspecified, without mention of intractable epilepsy"
+        },
+        "onsetDateTime": "2108-12-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161682-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161682-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "44023",
+              "display": "Atherosclerosis of native arteries of the extremities with ulceration"
+            }
+          ],
+          "text": "Atherosclerosis of native arteries of the extremities with ulceration"
+        },
+        "onsetDateTime": "2108-12-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161682-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161682-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70715",
+              "display": "Ulcer of other part of foot"
+            }
+          ],
+          "text": "Ulcer of other part of foot"
+        },
+        "onsetDateTime": "2108-12-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-161682-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-161682-1",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2108-12-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-161682-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-161682-2",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2108-12-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-161682-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-161682-3",
+        "status": "completed",
+        "code": {
+          "text": "Cardiopulmonary resuscitation, not otherwise specified"
+        },
+        "performedDateTime": "2108-12-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-161682-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-161682-4",
+        "status": "completed",
+        "code": {
+          "text": "Spinal tap"
+        },
+        "performedDateTime": "2108-12-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-161682-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-161682-5",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2108-12-23"
+      }
+    }
+  ]
+}

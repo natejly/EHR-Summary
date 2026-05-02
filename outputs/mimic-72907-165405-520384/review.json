@@ -1,0 +1,46 @@
+{
+  "concerns": [
+    {
+      "sentence": "Comorbidities include disseminated candidiasis [E:cond:2], other postoperative infection [E:cond:1], and other suppurative peritonitis [E:cond:5].",
+      "severity": "low",
+      "reason": "Listing these as 'comorbidities' implies they are chronic conditions, but the fact sheet does not indicate chronicity."
+    },
+    {
+      "sentence": "Additional diagnoses include necrotizing fasciitis [E:cond:8], acute vascular insufficiency of intestine [E:cond:9], and acute and subacute necrosis of liver [E:cond:6].",
+      "severity": "low",
+      "reason": "Similar to above, 'diagnoses' is a broad term, and the fact sheet doesn't specify if these are acute or chronic."
+    },
+    {
+      "sentence": "Renal status is significant for acute kidney failure with tubular necrosis [E:cond:7].",
+      "severity": "low",
+      "reason": "The fact sheet states 'Acute kidney failure with lesion of tubular necrosis', which is slightly different phrasing."
+    },
+    {
+      "sentence": "Chronic conditions include essential hypertension [E:cond:15], depressive disorder [E:cond:16], and acquired hypothyroidism [E:cond:17].",
+      "severity": "low",
+      "reason": "The fact sheet does not explicitly state these are 'chronic' conditions."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Comorbidities include disseminated candidiasis [E:cond:2], other postoperative infection [E:cond:1], and other suppurative peritonitis [E:cond:5].",
+      "suggested": "Other problems include disseminated candidiasis [E:cond:2], other postoperative infection [E:cond:1], and other suppurative peritonitis [E:cond:5].",
+      "reason": "Avoids implying chronicity when not explicitly stated."
+    },
+    {
+      "original": "Additional diagnoses include necrotizing fasciitis [E:cond:8], acute vascular insufficiency of intestine [E:cond:9], and acute and subacute necrosis of liver [E:cond:6].",
+      "suggested": "Other problems include necrotizing fasciitis [E:cond:8], acute vascular insufficiency of intestine [E:cond:9], and acute and subacute necrosis of liver [E:cond:6].",
+      "reason": "Avoids implying chronicity when not explicitly stated."
+    },
+    {
+      "original": "Renal status is significant for acute kidney failure with tubular necrosis [E:cond:7].",
+      "suggested": "Renal status is significant for acute kidney failure with lesion of tubular necrosis [E:cond:7].",
+      "reason": "Matches the phrasing in the fact sheet."
+    },
+    {
+      "original": "Chronic conditions include essential hypertension [E:cond:15], depressive disorder [E:cond:16], and acquired hypothyroidism [E:cond:17].",
+      "suggested": "Other problems include essential hypertension [E:cond:15], depressive disorder [E:cond:16], and acquired hypothyroidism [E:cond:17].",
+      "reason": "Avoids implying chronicity when not explicitly stated."
+    }
+  ]
+}

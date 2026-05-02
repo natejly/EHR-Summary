@@ -1,0 +1,46 @@
+{
+  "concerns": [
+    {
+      "sentence": "COPD exacerbation [E:cond:1][E:note:row318233:3].",
+      "severity": "medium",
+      "reason": "The fact sheet lists 'Obstructive chronic bronchitis with (acute) exacerbation', not COPD exacerbation. This is a misinterpretation of the cited evidence."
+    },
+    {
+      "sentence": "CHF [E:cond:6][E:note:row318233:2].",
+      "severity": "medium",
+      "reason": "The fact sheet specifies 'Acute on chronic diastolic heart failure' and 'Congestive heart failure, unspecified', which is more specific than simply 'CHF'."
+    },
+    {
+      "sentence": "7.26/100/85 [E:note:row318233:5].",
+      "severity": "high",
+      "reason": "This lab value is presented without units or context, making it clinically meaningless and potentially unsafe."
+    },
+    {
+      "sentence": "Continue nebs and methylpred [E:note:row318233:9].",
+      "severity": "medium",
+      "reason": "The fact sheet states 'Cont nebs and methylpred.', which is abbreviated. The summary should maintain the same level of abbreviation or expand it for clarity."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "COPD exacerbation [E:cond:1][E:note:row318233:3].",
+      "suggested": "Obstructive chronic bronchitis with (acute) exacerbation [E:cond:1][E:note:row318233:3].",
+      "reason": "Corrects the problem name to match the fact sheet."
+    },
+    {
+      "original": "CHF [E:cond:6][E:note:row318233:2].",
+      "suggested": "Congestive heart failure, unspecified [E:cond:6][E:note:row318233:2].",
+      "reason": "Uses the more specific terminology from the fact sheet."
+    },
+    {
+      "original": "7.26/100/85 [E:note:row318233:5].",
+      "suggested": "7.26/100/85 [E:note:row318233:5].",
+      "reason": "While the value is problematic, no information is available to add context or units. Flagging for manual review is necessary."
+    },
+    {
+      "original": "Continue nebs and methylpred [E:note:row318233:9].",
+      "suggested": "Continue nebs and methylpred [E:note:row318233:9].",
+      "reason": "Maintains consistency in abbreviation with the source."
+    }
+  ]
+}

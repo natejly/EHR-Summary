@@ -1,0 +1,678 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-72907-165405",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-72907",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-72907",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-165405",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-165405",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2133-01-24T00:00:00",
+          "end": "2133-01-31T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-165405-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-165405-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99859",
+              "display": "Other postoperative infection"
+            }
+          ],
+          "text": "Other postoperative infection"
+        },
+        "onsetDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-165405-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-165405-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1125",
+              "display": "Disseminated candidiasis"
+            }
+          ],
+          "text": "Disseminated candidiasis"
+        },
+        "onsetDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-165405-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-165405-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99592",
+              "display": "Severe sepsis"
+            }
+          ],
+          "text": "Severe sepsis"
+        },
+        "onsetDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-165405-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-165405-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78552",
+              "display": "Septic shock"
+            }
+          ],
+          "text": "Septic shock"
+        },
+        "onsetDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-165405-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-165405-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "56729",
+              "display": "Other suppurative peritonitis"
+            }
+          ],
+          "text": "Other suppurative peritonitis"
+        },
+        "onsetDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-165405-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-165405-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "570",
+              "display": "Acute and subacute necrosis of liver"
+            }
+          ],
+          "text": "Acute and subacute necrosis of liver"
+        },
+        "onsetDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-165405-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-165405-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5845",
+              "display": "Acute kidney failure with lesion of tubular necrosis"
+            }
+          ],
+          "text": "Acute kidney failure with lesion of tubular necrosis"
+        },
+        "onsetDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-165405-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-165405-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "72886",
+              "display": "Necrotizing fasciitis"
+            }
+          ],
+          "text": "Necrotizing fasciitis"
+        },
+        "onsetDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-165405-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-165405-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5570",
+              "display": "Acute vascular insufficiency of intestine"
+            }
+          ],
+          "text": "Acute vascular insufficiency of intestine"
+        },
+        "onsetDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-165405-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-165405-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "9974",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-165405-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-165405-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2762",
+              "display": "Acidosis"
+            }
+          ],
+          "text": "Acidosis"
+        },
+        "onsetDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-165405-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-165405-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "6140",
+              "display": "Acute salpingitis and oophoritis"
+            }
+          ],
+          "text": "Acute salpingitis and oophoritis"
+        },
+        "onsetDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-165405-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-165405-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1122",
+              "display": "Candidiasis of other urogenital sites"
+            }
+          ],
+          "text": "Candidiasis of other urogenital sites"
+        },
+        "onsetDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-165405-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-165405-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "6150",
+              "display": "Acute inflammatory diseases of uterus, except cervix"
+            }
+          ],
+          "text": "Acute inflammatory diseases of uterus, except cervix"
+        },
+        "onsetDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-165405-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-165405-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-165405-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-165405-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "311",
+              "display": "Depressive disorder, not elsewhere classified"
+            }
+          ],
+          "text": "Depressive disorder, not elsewhere classified"
+        },
+        "onsetDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-165405-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-165405-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2449",
+              "display": "Unspecified acquired hypothyroidism"
+            }
+          ],
+          "text": "Unspecified acquired hypothyroidism"
+        },
+        "onsetDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-165405-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-165405-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8788",
+              "display": "Other specified surgical operations and procedures causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation"
+            }
+          ],
+          "text": "Other specified surgical operations and procedures causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation"
+        },
+        "onsetDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-165405-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-165405-1",
+        "status": "completed",
+        "code": {
+          "text": "Open and other left hemicolectomy"
+        },
+        "performedDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-165405-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-165405-2",
+        "status": "completed",
+        "code": {
+          "text": "Other partial resection of small intestine"
+        },
+        "performedDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-165405-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-165405-3",
+        "status": "completed",
+        "code": {
+          "text": "Temporary ileostomy"
+        },
+        "performedDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-165405-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-165405-4",
+        "status": "completed",
+        "code": {
+          "text": "Open and other resection of transverse colon"
+        },
+        "performedDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-165405-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-165405-5",
+        "status": "completed",
+        "code": {
+          "text": "Open and other sigmoidectomy"
+        },
+        "performedDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-165405-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-165405-6",
+        "status": "completed",
+        "code": {
+          "text": "Open and other right hemicolectomy"
+        },
+        "performedDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-165405-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-165405-7",
+        "status": "completed",
+        "code": {
+          "text": "Other and unspecified subtotal abdominal hysterectomy"
+        },
+        "performedDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-165405-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-165405-8",
+        "status": "completed",
+        "code": {
+          "text": "Other removal of both ovaries and tubes at same operative episode"
+        },
+        "performedDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-165405-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-165405-9",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-165405-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-165405-10",
+        "status": "completed",
+        "code": {
+          "text": "Arterial catheterization"
+        },
+        "performedDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-165405-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-165405-11",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-165405-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-165405-12",
+        "status": "completed",
+        "code": {
+          "text": "Hemodialysis"
+        },
+        "performedDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-165405-13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-165405-13",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization for renal dialysis"
+        },
+        "performedDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-165405-14",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-165405-14",
+        "status": "completed",
+        "code": {
+          "text": "Parenteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-165405-15",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-165405-15",
+        "status": "completed",
+        "code": {
+          "text": "Other gastrostomy"
+        },
+        "performedDateTime": "2133-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-165405-16",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-165405-16",
+        "status": "completed",
+        "code": {
+          "text": "Other enterostomy"
+        },
+        "performedDateTime": "2133-01-24"
+      }
+    }
+  ]
+}

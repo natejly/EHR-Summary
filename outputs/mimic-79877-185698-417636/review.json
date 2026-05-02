@@ -1,0 +1,36 @@
+{
+  "concerns": [
+    {
+      "sentence": "Primary liver malignancy [E:cond:5], cirrhosis [E:cond:10], portal hypertension [E:cond:4], and hepatic encephalopathy [E:note:row417636:10].",
+      "severity": "medium",
+      "reason": "Hepatic encephalopathy is not explicitly listed as a problem in the fact sheet, only referenced in a note."
+    },
+    {
+      "sentence": "Cardiogenic shock [E:cond:14], acute systolic heart failure [E:cond:9], CHF [E:cond:13], atrial fibrillation [E:cond:11], and cardiomyopathy [E:cond:7][E:note:row417636:2].",
+      "severity": "medium",
+      "reason": "CHF is a less specific term than 'acute systolic heart failure' and 'congestive heart failure' which are both listed. Listing all three feels redundant and potentially misleading."
+    },
+    {
+      "sentence": "Acidosis [E:cond:8], hyperpotassemia [E:cond:12], and hemolytic anemia [E:cond:6][E:note:row417636:16].",
+      "severity": "medium",
+      "reason": "Hemolytic anemia is listed as 'Acquired hemolytic anemia, unspecified' in the fact sheet. The summary omits 'acquired' and 'unspecified', which could be important qualifiers."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Primary liver malignancy [E:cond:5], cirrhosis [E:cond:10], portal hypertension [E:cond:4], and hepatic encephalopathy [E:note:row417636:10].",
+      "suggested": "Primary liver malignancy [E:cond:5], cirrhosis [E:cond:10], portal hypertension [E:cond:4], and hepatic encephalopathy as noted [E:note:row417636:10].",
+      "reason": "Clarifies that hepatic encephalopathy is based on a note, not a direct problem listing."
+    },
+    {
+      "original": "Cardiogenic shock [E:cond:14], acute systolic heart failure [E:cond:9], CHF [E:cond:13], atrial fibrillation [E:cond:11], and cardiomyopathy [E:cond:7][E:note:row417636:2].",
+      "suggested": "Cardiogenic shock [E:cond:14], acute systolic heart failure [E:cond:9], congestive heart failure [E:cond:13], atrial fibrillation [E:cond:11], and cardiomyopathy [E:cond:7][E:note:row417636:2].",
+      "reason": "Uses the exact terminology from the fact sheet for consistency."
+    },
+    {
+      "original": "Acidosis [E:cond:8], hyperpotassemia [E:cond:12], and hemolytic anemia [E:cond:6][E:note:row417636:16].",
+      "suggested": "Acidosis [E:cond:8], hyperpotassemia [E:cond:12], and acquired hemolytic anemia, unspecified [E:cond:6][E:note:row417636:16].",
+      "reason": "Includes the qualifiers 'acquired' and 'unspecified' from the fact sheet for accuracy."
+    }
+  ]
+}

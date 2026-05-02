@@ -1,0 +1,1472 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-77013-141363",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-77013",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-77013",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-141363",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-141363",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2191-03-18T00:00:00",
+          "end": "2191-04-16T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2650",
+              "display": "Beriberi"
+            }
+          ],
+          "text": "Beriberi"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2650",
+              "display": "Beriberi"
+            }
+          ],
+          "text": "Beriberi"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2762",
+              "display": "Acidosis"
+            }
+          ],
+          "text": "Acidosis"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2762",
+              "display": "Acidosis"
+            }
+          ],
+          "text": "Acidosis"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5070",
+              "display": "Pneumonitis due to inhalation of food or vomitus"
+            }
+          ],
+          "text": "Pneumonitis due to inhalation of food or vomitus"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5070",
+              "display": "Pneumonitis due to inhalation of food or vomitus"
+            }
+          ],
+          "text": "Pneumonitis due to inhalation of food or vomitus"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "29181",
+              "display": "Alcohol withdrawal"
+            }
+          ],
+          "text": "Alcohol withdrawal"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "29181",
+              "display": "Alcohol withdrawal"
+            }
+          ],
+          "text": "Alcohol withdrawal"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "261",
+              "display": "Nutritional marasmus"
+            }
+          ],
+          "text": "Nutritional marasmus"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "261",
+              "display": "Nutritional marasmus"
+            }
+          ],
+          "text": "Nutritional marasmus"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "34400",
+              "display": "Quadriplegia, unspecified"
+            }
+          ],
+          "text": "Quadriplegia, unspecified"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "34400",
+              "display": "Quadriplegia, unspecified"
+            }
+          ],
+          "text": "Quadriplegia, unspecified"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4257",
+              "display": "Nutritional and metabolic cardiomyopathy"
+            }
+          ],
+          "text": "Nutritional and metabolic cardiomyopathy"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4257",
+              "display": "Nutritional and metabolic cardiomyopathy"
+            }
+          ],
+          "text": "Nutritional and metabolic cardiomyopathy"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5770",
+              "display": "Acute pancreatitis"
+            }
+          ],
+          "text": "Acute pancreatitis"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5770",
+              "display": "Acute pancreatitis"
+            }
+          ],
+          "text": "Acute pancreatitis"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2536",
+              "display": "Other disorders of neurohypophysis"
+            }
+          ],
+          "text": "Other disorders of neurohypophysis"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2536",
+              "display": "Other disorders of neurohypophysis"
+            }
+          ],
+          "text": "Other disorders of neurohypophysis"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5789",
+              "display": "Hemorrhage of gastrointestinal tract, unspecified"
+            }
+          ],
+          "text": "Hemorrhage of gastrointestinal tract, unspecified"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5789",
+              "display": "Hemorrhage of gastrointestinal tract, unspecified"
+            }
+          ],
+          "text": "Hemorrhage of gastrointestinal tract, unspecified"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4321",
+              "display": "Subdural hemorrhage"
+            }
+          ],
+          "text": "Subdural hemorrhage"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4321",
+              "display": "Subdural hemorrhage"
+            }
+          ],
+          "text": "Subdural hemorrhage"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78039",
+              "display": "Other convulsions"
+            }
+          ],
+          "text": "Other convulsions"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78039",
+              "display": "Other convulsions"
+            }
+          ],
+          "text": "Other convulsions"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3418",
+              "display": "Other demyelinating diseases of central nervous system"
+            }
+          ],
+          "text": "Other demyelinating diseases of central nervous system"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3418",
+              "display": "Other demyelinating diseases of central nervous system"
+            }
+          ],
+          "text": "Other demyelinating diseases of central nervous system"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2869",
+              "display": "Other and unspecified coagulation defects"
+            }
+          ],
+          "text": "Other and unspecified coagulation defects"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2869",
+              "display": "Other and unspecified coagulation defects"
+            }
+          ],
+          "text": "Other and unspecified coagulation defects"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "34830",
+              "display": "Encephalopathy, unspecified"
+            }
+          ],
+          "text": "Encephalopathy, unspecified"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "34830",
+              "display": "Encephalopathy, unspecified"
+            }
+          ],
+          "text": "Encephalopathy, unspecified"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3574",
+              "display": "Polyneuropathy in other diseases classified elsewhere"
+            }
+          ],
+          "text": "Polyneuropathy in other diseases classified elsewhere"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3574",
+              "display": "Polyneuropathy in other diseases classified elsewhere"
+            }
+          ],
+          "text": "Polyneuropathy in other diseases classified elsewhere"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "6930",
+              "display": "Dermatitis due to drugs and medicines taken internally"
+            }
+          ],
+          "text": "Dermatitis due to drugs and medicines taken internally"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "6930",
+              "display": "Dermatitis due to drugs and medicines taken internally"
+            }
+          ],
+          "text": "Dermatitis due to drugs and medicines taken internally"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E9363",
+              "display": "Other and unspecified anticonvulsants causing adverse effects in therapeutic use"
+            }
+          ],
+          "text": "Other and unspecified anticonvulsants causing adverse effects in therapeutic use"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E9363",
+              "display": "Other and unspecified anticonvulsants causing adverse effects in therapeutic use"
+            }
+          ],
+          "text": "Other and unspecified anticonvulsants causing adverse effects in therapeutic use"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E9429",
+              "display": "Other and unspecified agents primarily affecting the cardiovascular system causing adverse effects in therapeutic use"
+            }
+          ],
+          "text": "Other and unspecified agents primarily affecting the cardiovascular system causing adverse effects in therapeutic use"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E9429",
+              "display": "Other and unspecified agents primarily affecting the cardiovascular system causing adverse effects in therapeutic use"
+            }
+          ],
+          "text": "Other and unspecified agents primarily affecting the cardiovascular system causing adverse effects in therapeutic use"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5711",
+              "display": "Acute alcoholic hepatitis"
+            }
+          ],
+          "text": "Acute alcoholic hepatitis"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5711",
+              "display": "Acute alcoholic hepatitis"
+            }
+          ],
+          "text": "Acute alcoholic hepatitis"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2652",
+              "display": "Pellagra"
+            }
+          ],
+          "text": "Pellagra"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141363-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141363-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2652",
+              "display": "Pellagra"
+            }
+          ],
+          "text": "Pellagra"
+        },
+        "onsetDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-1",
+        "status": "completed",
+        "code": {
+          "text": "Temporary tracheostomy"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-1",
+        "status": "completed",
+        "code": {
+          "text": "Temporary tracheostomy"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-2",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-2",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-3",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-3",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-4",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-4",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-5",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-5",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-6",
+        "status": "completed",
+        "code": {
+          "text": "Arterial catheterization"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-6",
+        "status": "completed",
+        "code": {
+          "text": "Arterial catheterization"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-7",
+        "status": "completed",
+        "code": {
+          "text": "Thoracentesis"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-7",
+        "status": "completed",
+        "code": {
+          "text": "Thoracentesis"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-8",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous [endoscopic] gastrostomy [PEG]"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-8",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous [endoscopic] gastrostomy [PEG]"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-9",
+        "status": "completed",
+        "code": {
+          "text": "Other endoscopy of small intestine"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-9",
+        "status": "completed",
+        "code": {
+          "text": "Other endoscopy of small intestine"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-10",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-10",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-11",
+        "status": "completed",
+        "code": {
+          "text": "Spinal tap"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-11",
+        "status": "completed",
+        "code": {
+          "text": "Spinal tap"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-12",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-12",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-13",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-13",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-14",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-14",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141363-14",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141363-14",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2191-03-18"
+      }
+    }
+  ]
+}

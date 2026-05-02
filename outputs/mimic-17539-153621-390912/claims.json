@@ -1,0 +1,337 @@
+{
+  "claims": [
+    {
+      "claim_id": "C1",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "anterior MI",
+      "time_ref": "[**92**]",
+      "source_span": "row390912#1"
+    },
+    {
+      "claim_id": "C2",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "ischemic dilated CM",
+      "time_ref": null,
+      "source_span": "row390912#1"
+    },
+    {
+      "claim_id": "C3",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "EF 20%",
+      "time_ref": null,
+      "source_span": "row390912#1"
+    },
+    {
+      "claim_id": "C4",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "VT ablation",
+      "time_ref": null,
+      "source_span": "row390912#2"
+    },
+    {
+      "claim_id": "C5",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "PEA arrest",
+      "time_ref": null,
+      "source_span": "row390912#2"
+    },
+    {
+      "claim_id": "C6",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "possible clot/PE",
+      "time_ref": null,
+      "source_span": "row390912#2"
+    },
+    {
+      "claim_id": "C7",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "pancreatic by lab results",
+      "time_ref": null,
+      "source_span": "row390912#3"
+    },
+    {
+      "claim_id": "C8",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "EF- 20%",
+      "time_ref": null,
+      "source_span": "row390912#4"
+    },
+    {
+      "claim_id": "C9",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "large mural thrombus",
+      "time_ref": null,
+      "source_span": "row390912#4"
+    },
+    {
+      "claim_id": "C10",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "scheduled for",
+      "value": "CT to r/o thrombus/emboli to head",
+      "time_ref": null,
+      "source_span": "row390912#4"
+    },
+    {
+      "claim_id": "C11",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "preliminary results (-)",
+      "time_ref": null,
+      "source_span": "row390912#4"
+    },
+    {
+      "claim_id": "C12",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "valium 5mg po",
+      "time_ref": "this morning",
+      "source_span": "row390912#5"
+    },
+    {
+      "claim_id": "C13",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "possible withdrawal ETOH",
+      "time_ref": null,
+      "source_span": "row390912#5"
+    },
+    {
+      "claim_id": "C14",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "propofol",
+      "time_ref": null,
+      "source_span": "row390912#5"
+    },
+    {
+      "claim_id": "C15",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "PS 5/5 40%",
+      "time_ref": null,
+      "source_span": "row390912#5"
+    },
+    {
+      "claim_id": "C16",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Temp spike 101",
+      "time_ref": null,
+      "source_span": "row390912#6"
+    },
+    {
+      "claim_id": "C17",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Vanco/Zosyn",
+      "time_ref": null,
+      "source_span": "row390912#6"
+    },
+    {
+      "claim_id": "C18",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "(+) sputum/urine results",
+      "time_ref": null,
+      "source_span": "row390912#6"
+    },
+    {
+      "claim_id": "C19",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Ventricular tachycardia, non-sustained (NSVT)",
+      "time_ref": null,
+      "source_span": "row390912#7"
+    },
+    {
+      "claim_id": "C20",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "lopressor 15 mg IV",
+      "time_ref": null,
+      "source_span": "row390912#7"
+    },
+    {
+      "claim_id": "C21",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "start AMIO IV per EP fellow",
+      "time_ref": null,
+      "source_span": "row390912#7"
+    },
+    {
+      "claim_id": "C22",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "obtain neuro consult in AM",
+      "time_ref": null,
+      "source_span": "row390912#7"
+    },
+    {
+      "claim_id": "C23",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "PEA arrest",
+      "time_ref": null,
+      "source_span": "row390912#8"
+    },
+    {
+      "claim_id": "C24",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "(+) sputum/urine specimens",
+      "time_ref": null,
+      "source_span": "row390912#8"
+    },
+    {
+      "claim_id": "C25",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "vanco/zosyn",
+      "time_ref": null,
+      "source_span": "row390912#9"
+    },
+    {
+      "claim_id": "C26",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "tylenol",
+      "time_ref": null,
+      "source_span": "row390912#9"
+    },
+    {
+      "claim_id": "C27",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "T max- 99.4-8",
+      "time_ref": null,
+      "source_span": "row390912#10"
+    },
+    {
+      "claim_id": "C28",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "H/O alcohol abuse",
+      "time_ref": null,
+      "source_span": "row390912#12"
+    },
+    {
+      "claim_id": "C29",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "EPS",
+      "time_ref": null,
+      "source_span": "row390912#12"
+    },
+    {
+      "claim_id": "C30",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "s/p large ETOH ingestion Saturday",
+      "time_ref": null,
+      "source_span": "row390912#12"
+    },
+    {
+      "claim_id": "C31",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Valium IV PRN",
+      "time_ref": null,
+      "source_span": "row390912#14"
+    },
+    {
+      "claim_id": "C32",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "results were (-)",
+      "time_ref": "[**9-22**]",
+      "source_span": "row390912#15"
+    },
+    {
+      "claim_id": "C33",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "PEA arrest",
+      "time_ref": null,
+      "source_span": "row390912#17"
+    },
+    {
+      "claim_id": "C34",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "VT/ICD firing",
+      "time_ref": null,
+      "source_span": "row390912#17"
+    },
+    {
+      "claim_id": "C35",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "lopressor tid",
+      "time_ref": null,
+      "source_span": "row390912#18"
+    },
+    {
+      "claim_id": "C36",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "lopressor",
+      "time_ref": "early",
+      "source_span": "row390912#18"
+    },
+    {
+      "claim_id": "C37",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Lytes all WNL currently",
+      "time_ref": null,
+      "source_span": "row390912#19"
+    }
+  ]
+}

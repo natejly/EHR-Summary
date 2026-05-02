@@ -1,0 +1,157 @@
+{
+  "case_id": "mimic-54229-165594-598031",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2337,
+    "summary_chars": 1010,
+    "target_min_chars": 467,
+    "target_max_chars": 701,
+    "achieved_ratio": 0.4321780059905862,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 9,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:19",
+      "E:cond:2",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:29",
+      "E:cond:3",
+      "E:cond:30",
+      "E:cond:33",
+      "E:cond:34",
+      "E:cond:37",
+      "E:cond:38",
+      "E:cond:4",
+      "E:cond:43",
+      "E:cond:44",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row598031:1",
+      "E:note:row598031:14",
+      "E:note:row598031:16",
+      "E:note:row598031:19",
+      "E:note:row598031:21",
+      "E:note:row598031:26",
+      "E:note:row598031:29",
+      "E:note:row598031:7"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Septic shock [E:cond:9][E:cond:10], severe sepsis [E:cond:7][E:cond:8], and unspecified septicemia [E:cond:5][E:cond:6].",
+        "severity": "medium",
+        "reason": "Listing sepsis, severe sepsis, and septic shock together without clarifying the relationship (septic shock is a subset of severe sepsis, which is a subset of sepsis) is potentially misleading."
+      },
+      {
+        "sentence": "AFib [E:note:row598031:1][E:cond:33][E:cond:34], and coronary atherosclerosis [E:cond:25][E:cond:26].",
+        "severity": "low",
+        "reason": "The summary lists AFib and coronary atherosclerosis without context. The fact sheet also lists 'Aortocoronary bypass status' which may be relevant."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Septic shock [E:cond:9][E:cond:10], severe sepsis [E:cond:7][E:cond:8], and unspecified septicemia [E:cond:5][E:cond:6].",
+        "suggested": "Unspecified septicemia [E:cond:5][E:cond:6], severe sepsis [E:cond:7][E:cond:8], and septic shock [E:cond:9][E:cond:10].",
+        "reason": "Ordering from least to most severe clarifies the progression of the condition."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 1
+  },
+  "revised_summary": "/Users/natejly/Desktop/LLMS's FInal/outputs/mimic-54229-165594-598031/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.49,
+    "fk_words": 185,
+    "fk_sentences": 25,
+    "fk_syllables": 301,
+    "chars": 2029,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Desktop/LLMS's FInal/outputs/mimic-54229-165594-598031/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.004390584013890475,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 58.856254333019024,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 19.77670754099381,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0036508750054053962,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 216.56454954200308,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 11.39207958301995,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0026177499967161566,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 4.95590595898102,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma3:27b",
+    "claim_verification": "gemma3:27b",
+    "context_agent": "gemma3:27b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma3:27b"
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-29307-175627",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-29307",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-29307",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-175627",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-175627",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2122-02-21T00:00:00",
+          "end": "2122-02-28T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175627-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175627-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "49121",
+              "display": "Obstructive chronic bronchitis with (acute) exacerbation"
+            }
+          ],
+          "text": "Obstructive chronic bronchitis with (acute) exacerbation"
+        },
+        "onsetDateTime": "2122-02-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175627-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175627-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2122-02-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175627-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175627-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42833",
+              "display": "Acute on chronic diastolic heart failure"
+            }
+          ],
+          "text": "Acute on chronic diastolic heart failure"
+        },
+        "onsetDateTime": "2122-02-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175627-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175627-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4809",
+              "display": "Viral pneumonia, unspecified"
+            }
+          ],
+          "text": "Viral pneumonia, unspecified"
+        },
+        "onsetDateTime": "2122-02-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175627-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175627-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "6826",
+              "display": "Cellulitis and abscess of leg, except foot"
+            }
+          ],
+          "text": "Cellulitis and abscess of leg, except foot"
+        },
+        "onsetDateTime": "2122-02-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175627-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175627-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2122-02-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175627-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175627-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42789",
+              "display": "Other specified cardiac dysrhythmias"
+            }
+          ],
+          "text": "Other specified cardiac dysrhythmias"
+        },
+        "onsetDateTime": "2122-02-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175627-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175627-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V5861",
+              "display": "Long-term (current) use of anticoagulants"
+            }
+          ],
+          "text": "Long-term (current) use of anticoagulants"
+        },
+        "onsetDateTime": "2122-02-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175627-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175627-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V462",
+              "display": "Other dependence on machines, supplemental oxygen"
+            }
+          ],
+          "text": "Other dependence on machines, supplemental oxygen"
+        },
+        "onsetDateTime": "2122-02-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175627-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175627-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42731",
+              "display": "Atrial fibrillation"
+            }
+          ],
+          "text": "Atrial fibrillation"
+        },
+        "onsetDateTime": "2122-02-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175627-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175627-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2122-02-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175627-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175627-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "30000",
+              "display": "Anxiety state, unspecified"
+            }
+          ],
+          "text": "Anxiety state, unspecified"
+        },
+        "onsetDateTime": "2122-02-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175627-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175627-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2382",
+              "display": "Neoplasm of uncertain behavior of skin"
+            }
+          ],
+          "text": "Neoplasm of uncertain behavior of skin"
+        },
+        "onsetDateTime": "2122-02-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175627-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175627-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V667",
+              "display": "Encounter for palliative care"
+            }
+          ],
+          "text": "Encounter for palliative care"
+        },
+        "onsetDateTime": "2122-02-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175627-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175627-1",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2122-02-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175627-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175627-2",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2122-02-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175627-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175627-3",
+        "status": "completed",
+        "code": {
+          "text": "Arterial catheterization"
+        },
+        "performedDateTime": "2122-02-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175627-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175627-4",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2122-02-21"
+      }
+    }
+  ]
+}

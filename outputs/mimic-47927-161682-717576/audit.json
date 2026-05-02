@@ -1,0 +1,202 @@
+{
+  "case_id": "mimic-47927-161682-717576",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2592,
+    "summary_chars": 1157,
+    "target_min_chars": 518,
+    "target_max_chars": 777,
+    "achieved_ratio": 0.44637345679012347,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 12,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:note:row717576:1",
+      "E:note:row717576:11",
+      "E:note:row717576:4",
+      "E:note:row717576:5",
+      "E:note:row717576:7",
+      "E:note:row717576:8",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Patient presents with herpetic meningoencephalitis, acute respiratory failure, pneumonia, and acute systolic heart failure [E:cond:1][E:cond:2][E:cond:3][E:cond:4].",
+        "severity": "medium",
+        "reason": "The summary presents these as current problems, but the fact sheet only indicates they were present on 2108-12-23. This implies they are ongoing without supporting evidence."
+      },
+      {
+        "sentence": "Additional diagnoses include sepsis, MS changes, altered mental status, and agitation [E:note:row717576:4][E:note:row717576:7].",
+        "severity": "medium",
+        "reason": "The fact sheet does not list 'sepsis' or 'MS changes' as active problems. 'Altered mental status' and 'agitation' are not present in the fact sheet."
+      },
+      {
+        "sentence": "Comorbidities include severe SLE, cryoglobulinemia vasculitis, and other paraproteinemias [E:cond:10][E:note:row717576:1][E:cond:11].",
+        "severity": "medium",
+        "reason": "The fact sheet lists SLE and paraproteinemias as active problems, but does not mention cryoglobulinemia vasculitis."
+      },
+      {
+        "sentence": "History of cardiac arrest, CHF, and cardiac dysrhythmias [E:cond:12][E:cond:13][E:cond:14].",
+        "severity": "medium",
+        "reason": "The fact sheet lists these as active problems, but does not indicate they are *history* of these conditions. This is a misinterpretation of the data."
+      },
+      {
+        "sentence": "Other issues include coagulation defects, anemia, epilepsy, drug withdrawal, and opioid/sedative dependence [E:cond:5][E:cond:15][E:cond:16][E:cond:6][E:cond:7][E:cond:8].",
+        "severity": "medium",
+        "reason": "The fact sheet lists these as active problems, but 'epilepsy' is not present."
+      },
+      {
+        "sentence": "Extremity atherosclerosis with foot ulceration noted [E:cond:17][E:cond:18].",
+        "severity": "medium",
+        "reason": "The fact sheet does not mention foot ulceration."
+      },
+      {
+        "sentence": "Sedation with fentanyl and versed [E:note:row717576:11].",
+        "severity": "low",
+        "reason": "The fact sheet states the patient *is sedated on* fentanyl and versed, not *with* them. This is a minor phrasing issue."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Patient presents with herpetic meningoencephalitis, acute respiratory failure, pneumonia, and acute systolic heart failure [E:cond:1][E:cond:2][E:cond:3][E:cond:4].",
+        "suggested": "Patient had a history of herpetic meningoencephalitis, acute respiratory failure, pneumonia, and acute systolic heart failure on 2108-12-23 [E:cond:1][E:cond:2][E:cond:3][E:cond:4].",
+        "reason": "Clarifies that these conditions were noted on a specific date, avoiding the implication they are current."
+      },
+      {
+        "original": "Additional diagnoses include sepsis, MS changes, altered mental status, and agitation [E:note:row717576:4][E:note:row717576:7].",
+        "suggested": "Additional diagnoses include altered mental status and agitation [E:note:row717576:4][E:note:row717576:7].",
+        "reason": "Removes diagnoses not supported by the fact sheet."
+      },
+      {
+        "original": "Comorbidities include severe SLE, cryoglobulinemia vasculitis, and other paraproteinemias [E:cond:10][E:note:row717576:1][E:cond:11].",
+        "suggested": "Comorbidities include severe SLE and other paraproteinemias [E:cond:10][E:note:row717576:1][E:cond:11].",
+        "reason": "Removes comorbidity not supported by the fact sheet."
+      },
+      {
+        "original": "History of cardiac arrest, CHF, and cardiac dysrhythmias [E:cond:12][E:cond:13][E:cond:14].",
+        "suggested": "Cardiac arrest, CHF, and cardiac dysrhythmias [E:cond:12][E:cond:13][E:cond:14].",
+        "reason": "Removes the word 'history' as the fact sheet does not indicate these are past conditions."
+      },
+      {
+        "original": "Other issues include coagulation defects, anemia, epilepsy, drug withdrawal, and opioid/sedative dependence [E:cond:5][E:cond:15][E:cond:16][E:cond:6][E:cond:7][E:cond:8].",
+        "suggested": "Other issues include coagulation defects, anemia, drug withdrawal, and opioid/sedative dependence [E:cond:5][E:cond:15][E:cond:16][E:cond:6][E:cond:7][E:cond:8].",
+        "reason": "Removes 'epilepsy' as it is not listed in the fact sheet."
+      },
+      {
+        "original": "Extremity atherosclerosis with foot ulceration noted [E:cond:17][E:cond:18].",
+        "suggested": "Extremity atherosclerosis noted [E:cond:17][E:cond:18].",
+        "reason": "Removes 'foot ulceration' as it is not listed in the fact sheet."
+      },
+      {
+        "original": "Sedation with fentanyl and versed [E:note:row717576:11].",
+        "suggested": "Sedation on fentanyl and versed [E:note:row717576:11].",
+        "reason": "Corrects phrasing to match the fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 6,
+    "low": 1
+  },
+  "revised_summary": "/Users/natejly/Desktop/LLMS's FInal/outputs/mimic-47927-161682-717576/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.58,
+    "fk_words": 177,
+    "fk_sentences": 19,
+    "fk_syllables": 293,
+    "chars": 1577,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Desktop/LLMS's FInal/outputs/mimic-47927-161682-717576/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0036149590159766376,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 127.38367787501193,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 84.0648180829885,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0029675840050913393,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 224.8410976669984,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 37.73221654098597,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.002882417000364512,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 25.762327208009083,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma3:27b",
+    "claim_verification": "gemma3:27b",
+    "context_agent": "gemma3:27b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma3:27b"
+  }
+}

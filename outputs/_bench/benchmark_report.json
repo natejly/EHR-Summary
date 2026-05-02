@@ -1,0 +1,100 @@
+{
+  "models": {
+    "claim_extraction": "gemma3:27b",
+    "claim_verification": "gemma3:27b",
+    "context_agent": "gemma3:27b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma3:27b"
+  },
+  "context_agent_enabled": false,
+  "compression_target": [
+    0.2,
+    0.3
+  ],
+  "per_case": [
+    {
+      "case_id": "mimic-72907-165405-520384",
+      "check_passed": true,
+      "context_agent_on": false,
+      "compression_ratio": 0.2928907168037603,
+      "compression_in_band": true,
+      "total_seconds": 140.87931912604836,
+      "rouge1_f": 0.3668639053254438,
+      "rouge2_f": 0.16071428571428573,
+      "rougeL_f": 0.23076923076923078,
+      "entity_precision": 1.0,
+      "entity_recall": 0.43902439024390244,
+      "entity_f1": 0.6101694915254238,
+      "entity_tp": 18,
+      "entity_fp": 0,
+      "entity_fn": 23,
+      "entity_gold": 41,
+      "bertscore_p": 0.7930505871772766,
+      "bertscore_r": 0.8194888830184937,
+      "bertscore_f1": 0.8060529828071594
+    }
+  ],
+  "aggregate": {
+    "rouge1_f": {
+      "mean": 0.3669,
+      "median": 0.3669,
+      "min": 0.3669,
+      "max": 0.3669
+    },
+    "rouge2_f": {
+      "mean": 0.1607,
+      "median": 0.1607,
+      "min": 0.1607,
+      "max": 0.1607
+    },
+    "rougeL_f": {
+      "mean": 0.2308,
+      "median": 0.2308,
+      "min": 0.2308,
+      "max": 0.2308
+    },
+    "bertscore_p": {
+      "mean": 0.7931,
+      "median": 0.7931,
+      "min": 0.7931,
+      "max": 0.7931
+    },
+    "bertscore_r": {
+      "mean": 0.8195,
+      "median": 0.8195,
+      "min": 0.8195,
+      "max": 0.8195
+    },
+    "bertscore_f1": {
+      "mean": 0.8061,
+      "median": 0.8061,
+      "min": 0.8061,
+      "max": 0.8061
+    },
+    "entity_precision": {
+      "mean": 1.0,
+      "median": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "entity_recall": {
+      "mean": 0.439,
+      "median": 0.439,
+      "min": 0.439,
+      "max": 0.439
+    },
+    "entity_f1": {
+      "mean": 0.6102,
+      "median": 0.6102,
+      "min": 0.6102,
+      "max": 0.6102
+    },
+    "compression_ratio": {
+      "mean": 0.2929,
+      "median": 0.2929,
+      "min": 0.2929,
+      "max": 0.2929
+    }
+  },
+  "num_cases": 1
+}

@@ -1,0 +1,288 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:1"
+      ],
+      "rationale": "The note explicitly states the patient has a history of anterior MI."
+    },
+    {
+      "claim_id": "C2",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C3",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:3"
+      ],
+      "rationale": "The note explicitly states the patient underwent VT ablation."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:3",
+        "E:note:row390912:45"
+      ],
+      "rationale": "Both evidence items explicitly mention the patient experienced PEA arrest."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:6"
+      ],
+      "rationale": "The note directly states \"pancreatic by lab results\"."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:10"
+      ],
+      "rationale": "The candidate directly states the EF is 20%."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:10"
+      ],
+      "rationale": "The note explicitly states the patient has a large mural thrombus."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:11"
+      ],
+      "rationale": "The candidate directly states the patient was scheduled for a CT to rule out thrombus/emboli to the head."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:13"
+      ],
+      "rationale": "The note explicitly states the patient was given valium 5mg po this morning."
+    },
+    {
+      "claim_id": "C13",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:9",
+        "E:note:row390912:14"
+      ],
+      "rationale": "Both evidence items mention the patient is on or was recently on propofol."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:16"
+      ],
+      "rationale": "The candidate directly states the patient remains on PS 5/5 40%."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:18"
+      ],
+      "rationale": "The candidate directly states 'Temp spike 101'."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:19",
+        "E:note:row390912:25"
+      ],
+      "rationale": "Both evidence items state the patient was started on Vanco/Zosyn."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:19"
+      ],
+      "rationale": "The note directly states the patient had (+) sputum/urine results."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:44"
+      ],
+      "rationale": "The candidate directly states the patient has a diagnosis of Ventricular tachycardia, non-sustained (NSVT)."
+    },
+    {
+      "claim_id": "C20",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:22"
+      ],
+      "rationale": "The candidate directly states a plan to start amiodarone IV per the EP fellow."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:23"
+      ],
+      "rationale": "The note explicitly states a plan to obtain a neuro consult in AM."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:3",
+        "E:note:row390912:45"
+      ],
+      "rationale": "Both evidence items explicitly mention the patient experienced PEA arrest."
+    },
+    {
+      "claim_id": "C24",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:19",
+        "E:note:row390912:25"
+      ],
+      "rationale": "Both evidence items explicitly state the patient was started on vanco/zosyn."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:26",
+        "E:note:row390912:29",
+        "E:note:row390912:31",
+        "E:note:row390912:52"
+      ],
+      "rationale": "Multiple notes confirm the patient takes Tylenol."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:27"
+      ],
+      "rationale": "The candidate directly states the same lab result value."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:32"
+      ],
+      "rationale": "The candidate directly states a history of alcohol abuse."
+    },
+    {
+      "claim_id": "C29",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C30",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:36"
+      ],
+      "rationale": "The candidate directly states Valium IV PRN was ordered."
+    },
+    {
+      "claim_id": "C32",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:3",
+        "E:note:row390912:45"
+      ],
+      "rationale": "Both evidence items explicitly mention PEA arrest in the patient's history."
+    },
+    {
+      "claim_id": "C34",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C35",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:50"
+      ],
+      "rationale": "The note explicitly states the patient remains on lopressor tid."
+    },
+    {
+      "claim_id": "C36",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:21",
+        "E:note:row390912:50"
+      ],
+      "rationale": "Both evidence items confirm the patient takes lopressor."
+    },
+    {
+      "claim_id": "C37",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row390912:55"
+      ],
+      "rationale": "The candidate directly states the same lab result as the claim."
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+{
+  "case_id": "mimic-29307-175627-318233",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2122-02-21",
+      "source_ref": "urn:uuid:enc-175627",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Obstructive chronic bronchitis with (acute) exacerbation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "49121",
+        "display": "Obstructive chronic bronchitis with (acute) exacerbation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-02-21",
+      "source_ref": "urn:uuid:cond-175627-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-02-21",
+      "source_ref": "urn:uuid:cond-175627-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute on chronic diastolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42833",
+        "display": "Acute on chronic diastolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-02-21",
+      "source_ref": "urn:uuid:cond-175627-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Viral pneumonia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4809",
+        "display": "Viral pneumonia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-02-21",
+      "source_ref": "urn:uuid:cond-175627-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Cellulitis and abscess of leg, except foot",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "6826",
+        "display": "Cellulitis and abscess of leg, except foot"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-02-21",
+      "source_ref": "urn:uuid:cond-175627-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-02-21",
+      "source_ref": "urn:uuid:cond-175627-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Other specified cardiac dysrhythmias",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42789",
+        "display": "Other specified cardiac dysrhythmias"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-02-21",
+      "source_ref": "urn:uuid:cond-175627-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Long-term (current) use of anticoagulants",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V5861",
+        "display": "Long-term (current) use of anticoagulants"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-02-21",
+      "source_ref": "urn:uuid:cond-175627-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Other dependence on machines, supplemental oxygen",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V462",
+        "display": "Other dependence on machines, supplemental oxygen"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-02-21",
+      "source_ref": "urn:uuid:cond-175627-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-02-21",
+      "source_ref": "urn:uuid:cond-175627-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-02-21",
+      "source_ref": "urn:uuid:cond-175627-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Anxiety state, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "30000",
+        "display": "Anxiety state, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-02-21",
+      "source_ref": "urn:uuid:cond-175627-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Neoplasm of uncertain behavior of skin",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2382",
+        "display": "Neoplasm of uncertain behavior of skin"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-02-21",
+      "source_ref": "urn:uuid:cond-175627-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Encounter for palliative care",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V667",
+        "display": "Encounter for palliative care"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-02-21",
+      "source_ref": "urn:uuid:cond-175627-14",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-02-21",
+      "source_ref": "urn:uuid:proc-175627-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-02-21",
+      "source_ref": "urn:uuid:proc-175627-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-02-21",
+      "source_ref": "urn:uuid:proc-175627-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-02-21",
+      "source_ref": "urn:uuid:proc-175627-4",
+      "text": null
+    },
+    {
+      "id": "E:note:row318233:1",
+      "kind": "note_sentence",
+      "display": "69yr old man admitted from ED with respiratory distress.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row318233#s1",
+      "text": "69yr old man admitted from ED with respiratory distress."
+    },
+    {
+      "id": "E:note:row318233:2",
+      "kind": "note_sentence",
+      "display": "PMH: COPD, CHF, HTN.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row318233#s2",
+      "text": "PMH: COPD, CHF, HTN."
+    },
+    {
+      "id": "E:note:row318233:3",
+      "kind": "note_sentence",
+      "display": "Chronic obstructive pulmonary disease (COPD, Bronchitis, Emphysema)    with Acut",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row318233#s3",
+      "text": "Chronic obstructive pulmonary disease (COPD, Bronchitis, Emphysema)    with Acute Exacerbation    Assessment:    ABG done in ED on bipap, 7.29/93/121    Action:    Changed to NC 4L for CO2 retention."
+    },
+    {
+      "id": "E:note:row318233:4",
+      "kind": "note_sentence",
+      "display": "Start methylpred., first dose given    in ED.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row318233#s4",
+      "text": "Start methylpred., first dose given    in ED."
+    },
+    {
+      "id": "E:note:row318233:5",
+      "kind": "note_sentence",
+      "display": "Response:    ABG 7.26/100/85    Plan:    Placed on bipap, follow ABGs.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row318233#s5",
+      "text": "Response:    ABG 7.26/100/85    Plan:    Placed on bipap, follow ABGs."
+    },
+    {
+      "id": "E:note:row318233:6",
+      "kind": "note_sentence",
+      "display": "Tachycardia, Other    Assessment:    HR 140s    Action:    Cont to monitor    Re",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row318233#s6",
+      "text": "Tachycardia, Other    Assessment:    HR 140s    Action:    Cont to monitor    Response:    No change    Plan:    Cont to monitor, possible chest CT ?PE."
+    },
+    {
+      "id": "E:note:row318233:7",
+      "kind": "note_sentence",
+      "display": "Dyspnea (Shortness of breath)    Assessment:    c/o SOB, RR 30s-40s, exp. wheeze",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row318233#s7",
+      "text": "Dyspnea (Shortness of breath)    Assessment:    c/o SOB, RR 30s-40s, exp. wheezes."
+    },
+    {
+      "id": "E:note:row318233:8",
+      "kind": "note_sentence",
+      "display": "Action:    Nebs, sputum cx,  start abx (vanco&levaquin given in ED), ?flu.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row318233#s8",
+      "text": "Action:    Nebs, sputum cx,  start abx (vanco&levaquin given in ED), ?flu."
+    },
+    {
+      "id": "E:note:row318233:9",
+      "kind": "note_sentence",
+      "display": "Response:    RR 30s    Plan:    Cont nebs and methylpred.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row318233#s9",
+      "text": "Response:    RR 30s    Plan:    Cont nebs and methylpred."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|49121": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42833": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4809": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|6826": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42789": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V5861": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V462": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42731": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|30000": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2382": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V667": [
+      "E:cond:14"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "obstructive chronic bronchitis with (acute) exacerbation": [
+      "E:cond:1"
+    ],
+    "acute respiratory failure": [
+      "E:cond:2"
+    ],
+    "acute on chronic diastolic heart failure": [
+      "E:cond:3"
+    ],
+    "viral pneumonia, unspecified": [
+      "E:cond:4"
+    ],
+    "cellulitis and abscess of leg, except foot": [
+      "E:cond:5"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:6"
+    ],
+    "other specified cardiac dysrhythmias": [
+      "E:cond:7"
+    ],
+    "long-term (current) use of anticoagulants": [
+      "E:cond:8"
+    ],
+    "other dependence on machines, supplemental oxygen": [
+      "E:cond:9"
+    ],
+    "atrial fibrillation": [
+      "E:cond:10"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:11"
+    ],
+    "anxiety state, unspecified": [
+      "E:cond:12"
+    ],
+    "neoplasm of uncertain behavior of skin": [
+      "E:cond:13"
+    ],
+    "encounter for palliative care": [
+      "E:cond:14"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:1"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:2"
+    ],
+    "arterial catheterization": [
+      "E:proc:3"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:4"
+    ],
+    "69yr old man admitted from ed with respiratory distress.": [
+      "E:note:row318233:1"
+    ],
+    "pmh: copd, chf, htn.": [
+      "E:note:row318233:2"
+    ],
+    "chronic obstructive pulmonary disease (copd, bronchitis, emphysema) with acut": [
+      "E:note:row318233:3"
+    ],
+    "start methylpred., first dose given in ed.": [
+      "E:note:row318233:4"
+    ],
+    "response: abg 7.26/100/85 plan: placed on bipap, follow abgs.": [
+      "E:note:row318233:5"
+    ],
+    "tachycardia, other assessment: hr 140s action: cont to monitor re": [
+      "E:note:row318233:6"
+    ],
+    "dyspnea (shortness of breath) assessment: c/o sob, rr 30s-40s, exp. wheeze": [
+      "E:note:row318233:7"
+    ],
+    "action: nebs, sputum cx, start abx (vanco&levaquin given in ed), ?flu.": [
+      "E:note:row318233:8"
+    ],
+    "response: rr 30s plan: cont nebs and methylpred.": [
+      "E:note:row318233:9"
+    ]
+  },
+  "by_date": {
+    "2122-02-21": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4"
+    ]
+  }
+}
