@@ -135,6 +135,13 @@ The `benchmark.ipynb` notebook runs the pipeline against **MIMIC-III-Ext-Notes**
 - **ROUGE** (1/2/L)
 - **BERTScore**
 - **Entity-level F1**
+- **Compression ratio**
+
+Pipeline summaries keep their inline evidence citations (for example, `[E:cond:3]`)
+in the generated Markdown. For benchmark scoring, the notebook strips those
+citations downstream before computing ROUGE, BERTScore, entity metrics, and
+compression ratio. This lets existing generated outputs be recovered and
+rescored without rerunning the pipeline.
 
 Install benchmark dependencies first:
 
