@@ -66,15 +66,15 @@ def run(
         "evidence": _compact_evidence(store),
     }
 
-    raw = chat_json(
+    report = chat_json(
         model=config.MODELS.context_agent,
         system=S4_CONTEXT,
         user="Audit this case and return the requested JSON.\n\n"
         + json.dumps(payload, indent=2, ensure_ascii=False),
         schema=schema_for(ContextReport),
         temperature=0.1,
+        validate=lambda raw: ContextReport.model_validate(raw),
     )
-    report = ContextReport.model_validate(raw)
 
     augmented = VerificationResult(verifications=list(verifications.verifications))
     suggested_claims: list[Claim] = []

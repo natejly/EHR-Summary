@@ -9,16 +9,16 @@
   },
   "compression": {
     "note_chars": 3404,
-    "summary_chars": 1172,
+    "summary_chars": 1445,
     "target_min_chars": 680,
     "target_max_chars": 1021,
-    "achieved_ratio": 0.34430082256169214,
+    "achieved_ratio": 0.4245005875440658,
     "in_target_band": false
   },
   "check_report": {
     "passed": true,
     "violations": [],
-    "sentence_count": 11,
+    "sentence_count": 12,
     "cited_evidence_ids": [
       "E:cond:1",
       "E:cond:11",
@@ -39,92 +39,86 @@
       "E:note:row520384:1",
       "E:note:row520384:11",
       "E:note:row520384:2",
+      "E:note:row520384:7",
       "E:proc:1",
       "E:proc:2",
+      "E:proc:3",
       "E:proc:4",
       "E:proc:5",
-      "E:proc:6"
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8"
     ]
   },
   "review": {
     "concerns": [
       {
-        "sentence": "Comorbidities include disseminated candidiasis [E:cond:2], other postoperative infection [E:cond:1], and other suppurative peritonitis [E:cond:5].",
-        "severity": "low",
-        "reason": "Listing these as 'comorbidities' implies they are chronic conditions, but the fact sheet does not indicate chronicity."
-      },
-      {
-        "sentence": "Additional diagnoses include necrotizing fasciitis [E:cond:8], acute vascular insufficiency of intestine [E:cond:9], and acute and subacute necrosis of liver [E:cond:6].",
-        "severity": "low",
-        "reason": "Similar to above, 'diagnoses' is a broad term, and the fact sheet doesn't specify if these are acute or chronic."
-      },
-      {
-        "sentence": "Renal status is significant for acute kidney failure with tubular necrosis [E:cond:7].",
-        "severity": "low",
-        "reason": "The fact sheet states 'Acute kidney failure with lesion of tubular necrosis', which is slightly different phrasing."
-      },
-      {
         "sentence": "Chronic conditions include essential hypertension [E:cond:15], depressive disorder [E:cond:16], and acquired hypothyroidism [E:cond:17].",
-        "severity": "low",
-        "reason": "The fact sheet does not explicitly state these are 'chronic' conditions."
+        "severity": "medium",
+        "reason": "The summary includes depressive disorder and acquired hypothyroidism, but these are not present in the provided fact sheet."
+      },
+      {
+        "sentence": "Surgical history includes left [E:proc:1] and right hemicolectomy [E:proc:6], transverse colon resection [E:proc:4], sigmoidectomy [E:proc:5], partial resection of small intestine [E:proc:2], temporary ileostomy [E:proc:3], subtotal abdominal hysterectomy [E:proc:7], and removal of both ovaries and tubes [E:proc:8].",
+        "severity": "medium",
+        "reason": "The summary lists extensive surgical procedures that are not documented in the provided fact sheet."
+      },
+      {
+        "sentence": "History of ERCP [E:note:row520384:1], elective lap chole [E:note:row520384:1], and ex lap [E:note:row520384:2].",
+        "severity": "medium",
+        "reason": "These procedures are not listed in the provided fact sheet."
       }
     ],
     "recommended_revisions": [
       {
-        "original": "Comorbidities include disseminated candidiasis [E:cond:2], other postoperative infection [E:cond:1], and other suppurative peritonitis [E:cond:5].",
-        "suggested": "Other problems include disseminated candidiasis [E:cond:2], other postoperative infection [E:cond:1], and other suppurative peritonitis [E:cond:5].",
-        "reason": "Avoids implying chronicity when not explicitly stated."
-      },
-      {
-        "original": "Additional diagnoses include necrotizing fasciitis [E:cond:8], acute vascular insufficiency of intestine [E:cond:9], and acute and subacute necrosis of liver [E:cond:6].",
-        "suggested": "Other problems include necrotizing fasciitis [E:cond:8], acute vascular insufficiency of intestine [E:cond:9], and acute and subacute necrosis of liver [E:cond:6].",
-        "reason": "Avoids implying chronicity when not explicitly stated."
-      },
-      {
-        "original": "Renal status is significant for acute kidney failure with tubular necrosis [E:cond:7].",
-        "suggested": "Renal status is significant for acute kidney failure with lesion of tubular necrosis [E:cond:7].",
-        "reason": "Matches the phrasing in the fact sheet."
-      },
-      {
         "original": "Chronic conditions include essential hypertension [E:cond:15], depressive disorder [E:cond:16], and acquired hypothyroidism [E:cond:17].",
-        "suggested": "Other problems include essential hypertension [E:cond:15], depressive disorder [E:cond:16], and acquired hypothyroidism [E:cond:17].",
-        "reason": "Avoids implying chronicity when not explicitly stated."
+        "suggested": "Chronic conditions include essential hypertension [E:cond:15].",
+        "reason": "Remove conditions not supported by the provided fact sheet."
+      },
+      {
+        "original": "Surgical history includes left [E:proc:1] and right hemicolectomy [E:proc:6], transverse colon resection [E:proc:4], sigmoidectomy [E:proc:5], partial resection of small intestine [E:proc:2], temporary ileostomy [E:proc:3], subtotal abdominal hysterectomy [E:proc:7], and removal of both ovaries and tubes [E:proc:8].",
+        "suggested": "_Not documented._",
+        "reason": "Remove surgical history not supported by the provided fact sheet."
+      },
+      {
+        "original": "History of ERCP [E:note:row520384:1], elective lap chole [E:note:row520384:1], and ex lap [E:note:row520384:2].",
+        "suggested": "",
+        "reason": "Remove procedures not supported by the provided fact sheet."
       }
     ]
   },
   "review_passed": true,
   "review_concern_counts": {
     "high": 0,
-    "medium": 0,
-    "low": 4
+    "medium": 3,
+    "low": 0
   },
-  "revised_summary": "/Users/natejly/Desktop/LLMS's FInal/outputs/mimic-72907-165405-520384/summary_revised.md",
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-72907-165405-520384/summary_revised.md",
   "revised_check_passed": true,
   "patient_summary": {
-    "fk_grade": 7.76,
-    "fk_words": 151,
-    "fk_sentences": 14,
-    "fk_syllables": 245,
-    "chars": 1272,
+    "fk_grade": 7.13,
+    "fk_words": 166,
+    "fk_sentences": 17,
+    "fk_syllables": 266,
+    "chars": 1385,
     "in_target_band": true,
     "target_grade_min": 7.0,
     "target_grade_max": 8.0,
-    "path": "/Users/natejly/Desktop/LLMS's FInal/outputs/mimic-72907-165405-520384/patient_summary.md"
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-72907-165405-520384/patient_summary.md"
   },
   "timings": [
     {
       "name": "stage1_evidence",
-      "seconds": 0.0037649580044671893,
+      "seconds": 0.003780667029786855,
       "skipped": false
     },
     {
       "name": "stage2_extract",
-      "seconds": 49.605831791996025,
+      "seconds": 189.71765262499684,
       "skipped": false
     },
     {
       "name": "stage3_verify",
-      "seconds": 11.81301962499856,
+      "seconds": 37.725744832947385,
       "skipped": false
     },
     {
@@ -134,35 +128,35 @@
     },
     {
       "name": "stage5_fact_sheet",
-      "seconds": 0.012531374988611788,
+      "seconds": 0.053592749987728894,
       "skipped": false
     },
     {
       "name": "stage9_patient_summary",
-      "seconds": 9.403892375004943,
+      "seconds": 10.256589624972548,
       "skipped": false
     },
     {
       "name": "stage6_summarize",
-      "seconds": 15.953691667004023,
+      "seconds": 14.041870250017382,
       "skipped": false
     },
     {
       "name": "stage7_check",
-      "seconds": 0.005250458983937278,
+      "seconds": 0.7514300839975476,
       "skipped": false
     },
     {
       "name": "stage8_review",
-      "seconds": 25.083014874981018,
+      "seconds": 13.6540581669542,
       "skipped": false
     }
   ],
   "models": {
-    "claim_extraction": "gemma3:27b",
-    "claim_verification": "gemma3:27b",
-    "context_agent": "gemma3:27b",
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
     "summary_generation": "gemma4:31b",
-    "final_review": "gemma3:27b"
+    "final_review": "gemma4:31b"
   }
 }

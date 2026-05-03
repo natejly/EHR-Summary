@@ -22,7 +22,7 @@ import random
 import time
 import urllib.error
 import urllib.request
-from typing import Any
+from typing import Any, Callable
 
 from . import config
 
@@ -259,22 +259,33 @@ class OllamaClient:
         schema: dict[str, Any] | None = None,
         temperature: float = 0.0,
         extra_options: dict[str, Any] | None = None,
+        validate: Callable[[Any], Any] | None = None,
     ) -> Any:
-        """JSON-mode chat with retry on bad JSON; returns parsed Python object.
+        """JSON-mode chat with corrective retry; returns parsed Python object.
 
         Passes ``schema`` as Ollama's structured-output ``format`` when given,
         otherwise falls back to ``format="json"`` for loose JSON mode.
         Automatically strips markdown code fences that some models add.
-        Retries up to ``config.LLM_MAX_RETRIES`` times when the model returns
-        non-JSON or a transient network error occurs.
+
+        On a JSON parse failure or a ``validate`` callback error, the model's
+        bad response and the error message are appended to the conversation so
+        the next attempt can see what went wrong and self-correct.  Network and
+        server errors (5xx / 429) are still retried transparently by
+        :meth:`_post` with exponential back-off.
+
+        Args:
+            validate: Optional callable that receives the parsed JSON and
+                returns the final value (e.g. a Pydantic model).  If it raises
+                any exception the attempt is treated as a corrective-retry
+                failure.
         """
         fmt: Any = schema if schema is not None else "json"
         messages = self.build_messages(user, system)
         max_retries = config.LLM_MAX_RETRIES
-        base_delay = config.LLM_RETRY_BASE_DELAY
         last_exc: Exception | None = None
 
         for attempt in range(1, max_retries + 2):
+            raw: str | None = None
             try:
                 raw = self.chat(
                     model, messages,
@@ -282,21 +293,45 @@ class OllamaClient:
                     format=fmt,
                     extra_options=extra_options,
                 )
-                return self._parse_json(raw, model)
+                parsed = self._parse_json(raw, model)
+                if validate is not None:
+                    parsed = validate(parsed)
+                return parsed
             except OllamaError as exc:
-                last_exc = exc
-                # 4xx errors won't be fixed by retrying
-                if not _is_retryable_status(exc.status_code):
+                if exc.status_code and not _is_retryable_status(exc.status_code):
                     raise
+                last_exc = exc
+            except Exception as exc:
+                last_exc = exc
+
             if attempt <= max_retries:
-                delay = _backoff_delay(attempt, base_delay)
+                correction = self._build_correction(raw, last_exc)
+                messages.append({"role": "assistant", "content": raw or ""})
+                messages.append({"role": "user", "content": correction})
                 log.warning(
-                    "LLM JSON request failed (attempt %d/%d), retrying in %.1fs: %s",
-                    attempt, max_retries + 1, delay, last_exc,
+                    "LLM JSON attempt %d/%d failed, appending error "
+                    "feedback and retrying: %s",
+                    attempt, max_retries + 1, last_exc,
                 )
-                time.sleep(delay)
 
         raise last_exc  # type: ignore[misc]
+
+    @staticmethod
+    def _build_correction(raw_response: str | None, exc: Exception | None) -> str:
+        """Build a user-message that tells the model what went wrong."""
+        parts = ["Your previous response could not be processed."]
+        if exc is not None:
+            parts.append(f"Error: {exc}")
+        if raw_response:
+            preview = raw_response[:500]
+            if len(raw_response) > 500:
+                preview += " …(truncated)"
+            parts.append(f"Your response started with:\n{preview}")
+        parts.append(
+            "Please fix the issue and respond with ONLY valid JSON "
+            "matching the required schema. Do not repeat the mistake."
+        )
+        return "\n\n".join(parts)
 
 
 # ---------------------------------------------------------------------------
@@ -367,6 +402,7 @@ def chat_json(
     schema: dict[str, Any] | None = None,
     temperature: float = 0.0,
     extra_options: dict[str, Any] | None = None,
+    validate: Callable[[Any], Any] | None = None,
 ) -> Any:
     """Module-level convenience wrapper for ``OllamaClient.chat_json``."""
     return get_client().chat_json(
@@ -375,4 +411,5 @@ def chat_json(
         schema=schema,
         temperature=temperature,
         extra_options=extra_options,
+        validate=validate,
     )

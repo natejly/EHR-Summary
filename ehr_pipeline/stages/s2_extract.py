@@ -49,15 +49,14 @@ def run(
         + _format_notes(notes)
     )
 
-    raw = chat_json(
+    result = chat_json(
         model=config.MODELS.claim_extraction,
         system=S2_EXTRACTION,
         user=user,
         schema=schema_for(ClaimList),
         temperature=0.0,
+        validate=lambda raw: ClaimList.model_validate(raw),
     )
-
-    result = ClaimList.model_validate(raw)
     out_path = output_dir / "claims.json"
     out_path.write_text(result.model_dump_json(indent=2), encoding="utf-8")
     log.info("  extracted %d claims, wrote %s", len(result.claims), out_path)

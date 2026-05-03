@@ -6,7 +6,7 @@
       "evidence_ids": [
         "E:note:row520384:1"
       ],
-      "rationale": "The note explicitly states the patient had a recent ERCP."
+      "rationale": "The evidence explicitly states the patient has a recent history of ERCP."
     },
     {
       "claim_id": "C2",
@@ -14,29 +14,27 @@
       "evidence_ids": [
         "E:note:row520384:1"
       ],
-      "rationale": "The candidate directly states the patient had a lap chole on 1-22."
+      "rationale": "The evidence explicitly states the patient had an elective lap chole on 1-22."
     },
     {
       "claim_id": "C3",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C4",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C5",
       "status": "verified",
       "evidence_ids": [
         "E:note:row520384:2"
       ],
-      "rationale": "The note explicitly states the patient had a cystic stump leak."
-    },
-    {
-      "claim_id": "C4",
-      "status": "verified",
-      "evidence_ids": [
-        "E:cond:3"
-      ],
-      "rationale": "E:cond:3 explicitly states a diagnosis of 'Severe sepsis'."
-    },
-    {
-      "claim_id": "C5",
-      "status": "unsupported",
-      "evidence_ids": [],
-      "rationale": "The candidates describe procedures and do not contain any lab results."
+      "rationale": "The evidence explicitly states the patient was taken back to the OR for an ex lap."
     },
     {
       "claim_id": "C6",
@@ -48,7 +46,7 @@
       "claim_id": "C7",
       "status": "unsupported",
       "evidence_ids": [],
-      "rationale": "No candidate evidence found in EHR."
+      "rationale": "The evidence describes a procedure (partial resection of small intestine) but does not explicitly state a diagnosis of 'dusky small bowel'."
     },
     {
       "claim_id": "C8",
@@ -58,11 +56,11 @@
     },
     {
       "claim_id": "C9",
-      "status": "contradicted",
+      "status": "verified",
       "evidence_ids": [
-        "E:note:row520384:7"
+        "E:proc:4"
       ],
-      "rationale": "The evidence states the patient was taken *off* Levophed at the specified time, contradicting the claim that they take it."
+      "rationale": "The candidate evidence confirms a resection of the transverse colon on 2133-01-24, which is clinically equivalent to a transverse colectomy."
     },
     {
       "claim_id": "C10",
@@ -74,25 +72,31 @@
       "claim_id": "C11",
       "status": "unsupported",
       "evidence_ids": [],
-      "rationale": "No candidate evidence found in EHR."
+      "rationale": "The candidates mention resection of the transverse colon and small intestine, but do not specify the terminal ileum, ascending colon, or sigmoid colon."
     },
     {
       "claim_id": "C12",
-      "status": "unsupported",
-      "evidence_ids": [],
-      "rationale": "No candidate evidence found in EHR."
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row520384:4"
+      ],
+      "rationale": "The evidence explicitly states the patient returned to the OR on 1-26 for a resection of bowel anastomosis."
     },
     {
       "claim_id": "C13",
-      "status": "unsupported",
-      "evidence_ids": [],
-      "rationale": "No candidate evidence found in EHR."
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row520384:4"
+      ],
+      "rationale": "The evidence explicitly states the patient returned to the OR on 1-26 for a reanastamosis."
     },
     {
       "claim_id": "C14",
-      "status": "unsupported",
-      "evidence_ids": [],
-      "rationale": "No candidate evidence found in EHR."
+      "status": "verified",
+      "evidence_ids": [
+        "E:proc:3"
+      ],
+      "rationale": "The candidate evidence confirms the patient underwent a temporary ileostomy on 2133-01-24, which aligns with the claim."
     },
     {
       "claim_id": "C15",
@@ -104,28 +108,29 @@
       "claim_id": "C16",
       "status": "unsupported",
       "evidence_ids": [],
-      "rationale": "None of the candidate conditions mention respiratory failure."
+      "rationale": "No candidate evidence found in EHR."
     },
     {
       "claim_id": "C17",
-      "status": "unsupported",
-      "evidence_ids": [],
-      "rationale": "No candidate evidence found in EHR."
+      "status": "verified",
+      "evidence_ids": [
+        "E:proc:7"
+      ],
+      "rationale": "A subtotal abdominal hysterectomy is a type of partial hysterectomy."
     },
     {
       "claim_id": "C18",
-      "status": "verified",
-      "evidence_ids": [
-        "E:cond:7",
-        "E:proc:13"
-      ],
-      "rationale": "E:cond:7 describes acute kidney failure, and E:proc:13 indicates renal dialysis, supporting the claim of acute renal failure."
-    },
-    {
-      "claim_id": "C19",
       "status": "unsupported",
       "evidence_ids": [],
       "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row520384:7"
+      ],
+      "rationale": "The evidence mentions 'Less output from G-tube', confirming the patient has a G-tube."
     },
     {
       "claim_id": "C20",
@@ -135,17 +140,253 @@
     },
     {
       "claim_id": "C21",
-      "status": "unsupported",
-      "evidence_ids": [],
-      "rationale": "No candidate evidence found in EHR."
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row520384:5"
+      ],
+      "rationale": "The evidence explicitly states that the patient started on CVVH on 1-27."
     },
     {
       "claim_id": "C22",
       "status": "verified",
       "evidence_ids": [
+        "E:note:row520384:6"
+      ],
+      "rationale": "The evidence explicitly states that CVVH was stopped on 1-29."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:3"
+      ],
+      "rationale": "The candidate evidence explicitly lists a diagnosis of 'Severe sepsis'."
+    },
+    {
+      "claim_id": "C24",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence items describe procedures (ventilation and catheterization) and do not contain any information regarding blood culture results."
+    },
+    {
+      "claim_id": "C25",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list surgical procedures (hemicolectomies, resection, sigmoidectomy) but contains no physical examination findings regarding abdominal firmness or bowel sounds."
+    },
+    {
+      "claim_id": "C26",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C27",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C28",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate evidence items mention skin breakdown or oozing."
+    },
+    {
+      "claim_id": "C29",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C30",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence contains procedures and a condition, but no neurological or vital signs data regarding the patient's level of consciousness or response to pain."
+    },
+    {
+      "claim_id": "C31",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list surgical procedures, but provide no information regarding NGT output, bowel sounds, or abdominal examination findings."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row520384:7"
+      ],
+      "rationale": "The evidence explicitly states that Levophed was turned off last night at 2122."
+    },
+    {
+      "claim_id": "C33",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate evidence items mention a platelet transfusion."
+    },
+    {
+      "claim_id": "C34",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C35",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C36",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C37",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C38",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C39",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided candidates describe procedures (mechanical ventilation and venous catheterization) and do not mention fentanyl or pain management."
+    },
+    {
+      "claim_id": "C40",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C41",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C42",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C43",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C44",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C45",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C46",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate conditions refer to acute respiratory failure; they refer to kidney, liver, intestinal, and uterine conditions."
+    },
+    {
+      "claim_id": "C47",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C48",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row520384:8"
+      ],
+      "rationale": "The candidate evidence explicitly states 'LS with rhonchi/diminished', matching the claim."
+    },
+    {
+      "claim_id": "C49",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C50",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate evidence items mention puncture wounds or blisters."
+    },
+    {
+      "claim_id": "C51",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C52",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:7"
+      ],
+      "rationale": "The candidate evidence E:cond:7 explicitly lists 'Acute kidney failure', which is synonymous with acute renal failure."
+    },
+    {
+      "claim_id": "C53",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C54",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C55",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row520384:10"
+      ],
+      "rationale": "The evidence explicitly states the patient is 'off CVVHDf'."
+    },
+    {
+      "claim_id": "C56",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C57",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C58",
+      "status": "verified",
+      "evidence_ids": [
         "E:note:row520384:11"
       ],
-      "rationale": "The candidate directly states the patient is on Amioderone gtt."
+      "rationale": "The candidate evidence explicitly states that Amioderone gtt is ongoing at 0.5mg/min."
+    },
+    {
+      "claim_id": "C59",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
     }
   ]
 }

@@ -208,21 +208,69 @@
         ]
       },
       {
-        "text": "had procedure: ERCP",
+        "text": "has history of: ERCP",
         "evidence_ids": [
           "E:note:row520384:1"
         ]
       },
       {
-        "text": "had procedure: lap chole",
+        "text": "underwent: elective lap chole",
         "evidence_ids": [
           "E:note:row520384:1"
         ]
       },
       {
-        "text": "has diagnosis: cystic stump leak",
+        "text": "underwent: ex lap",
         "evidence_ids": [
           "E:note:row520384:2"
+        ]
+      },
+      {
+        "text": "underwent: transverse colectomy",
+        "evidence_ids": [
+          "E:proc:4"
+        ]
+      },
+      {
+        "text": "underwent: resection of bowel anastamosis",
+        "evidence_ids": [
+          "E:note:row520384:4"
+        ]
+      },
+      {
+        "text": "underwent: reanastamosis",
+        "evidence_ids": [
+          "E:note:row520384:4"
+        ]
+      },
+      {
+        "text": "underwent: ileostomy",
+        "evidence_ids": [
+          "E:proc:3"
+        ]
+      },
+      {
+        "text": "underwent: partial hysterectomy",
+        "evidence_ids": [
+          "E:proc:7"
+        ]
+      },
+      {
+        "text": "underwent: g-tube",
+        "evidence_ids": [
+          "E:note:row520384:7"
+        ]
+      },
+      {
+        "text": "started on: CVVH",
+        "evidence_ids": [
+          "E:note:row520384:5"
+        ]
+      },
+      {
+        "text": "stopped: CVVH",
+        "evidence_ids": [
+          "E:note:row520384:6"
         ]
       },
       {
@@ -234,21 +282,39 @@
       {
         "text": "has diagnosis: Renal failure, acute (Acute renal failure, ARF)",
         "evidence_ids": [
-          "E:cond:7",
-          "E:proc:13"
+          "E:cond:7"
+        ]
+      },
+      {
+        "text": "off: CVVHDF",
+        "evidence_ids": [
+          "E:note:row520384:10"
         ]
       }
     ],
     "medications": [
       {
-        "text": "takes medication: Amioderone gtt",
+        "text": "off: Levophed",
+        "evidence_ids": [
+          "E:note:row520384:7"
+        ]
+      },
+      {
+        "text": "takes medication: Amioderone gtt ongoing at 0.5mg /min",
         "evidence_ids": [
           "E:note:row520384:11"
         ]
       }
     ],
     "labs": [],
-    "vitals": [],
+    "vitals": [
+      {
+        "text": "has: LS with rhonchi/diminished",
+        "evidence_ids": [
+          "E:note:row520384:8"
+        ]
+      }
+    ],
     "plan": []
   }
 }

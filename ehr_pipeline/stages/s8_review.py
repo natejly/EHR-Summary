@@ -66,15 +66,15 @@ def run(
         "check_report": check_report.model_dump(),
     }
     try:
-        raw = chat_json(
+        review = chat_json(
             model=config.MODELS.final_review,
             system=S8_REVIEW,
             user="Review this summary and report any remaining concerns.\n\n"
             + json.dumps(payload, indent=2, ensure_ascii=False),
             schema=schema_for(ReviewReport),
             temperature=0.1,
+            validate=lambda raw: ReviewReport.model_validate(raw),
         )
-        review = ReviewReport.model_validate(raw)
     except OllamaError as exc:
         log.warning(
             "Stage 8 review skipped due to API error (%s); "

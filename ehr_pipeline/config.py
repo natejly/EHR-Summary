@@ -37,11 +37,11 @@ _load_dotenv()
 class ModelAssignments:
     """Models per pipeline stage"""
 
-    claim_extraction: str = "gemma3:27b"
-    claim_verification: str = "gemma3:27b"
-    context_agent: str = "gemma3:27b"
+    claim_extraction: str = "gemma4:31b"
+    claim_verification: str = "gemma4:31b"
+    context_agent: str = "gemma4:31b"
     summary_generation: str = "gemma4:31b"
-    final_review: str = "gemma3:27b"
+    final_review: str = "gemma4:31b"
 
 
 MODELS = ModelAssignments()

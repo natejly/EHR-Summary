@@ -4,199 +4,532 @@
       "claim_id": "C1",
       "type": "procedure",
       "subject": "patient",
-      "predicate": "had procedure",
+      "predicate": "has history of",
       "value": "ERCP",
-      "time_ref": null,
-      "source_span": "row520384#1-10"
+      "time_ref": "recent",
+      "source_span": "row520384#0"
     },
     {
       "claim_id": "C2",
       "type": "procedure",
       "subject": "patient",
-      "predicate": "had procedure",
-      "value": "lap chole",
+      "predicate": "underwent",
+      "value": "elective lap chole",
       "time_ref": "1-22",
-      "source_span": "row520384#18-26"
+      "source_span": "row520384#0"
     },
     {
       "claim_id": "C3",
-      "type": "diagnosis",
+      "type": "vital",
       "subject": "patient",
-      "predicate": "has diagnosis",
-      "value": "cystic stump leak",
-      "time_ref": null,
-      "source_span": "row520384#44-58"
+      "predicate": "became",
+      "value": "hypotensive",
+      "time_ref": "POD #1",
+      "source_span": "row520384#1"
     },
     {
       "claim_id": "C4",
-      "type": "diagnosis",
+      "type": "vital",
       "subject": "patient",
-      "predicate": "has diagnosis",
-      "value": "Sepsis, Severe (with organ dysfunction)",
-      "time_ref": null,
-      "source_span": "row520384#60-83"
+      "predicate": "had",
+      "value": "decreased uop",
+      "time_ref": "POD #1",
+      "source_span": "row520384#1"
     },
     {
       "claim_id": "C5",
-      "type": "lab",
+      "type": "procedure",
       "subject": "patient",
-      "predicate": "lab result",
-      "value": "+blood cultures for yeast",
-      "time_ref": null,
-      "source_span": "row520384#85-106"
+      "predicate": "underwent",
+      "value": "ex lap",
+      "time_ref": "POD #1",
+      "source_span": "row520384#2"
     },
     {
       "claim_id": "C6",
-      "type": "vital",
+      "type": "diagnosis",
       "subject": "patient",
-      "predicate": "has vital",
-      "value": "SBP >90",
-      "time_ref": null,
-      "source_span": "row520384#110-117"
+      "predicate": "has diagnosis",
+      "value": "cystic stump leak from clips falling off postop",
+      "time_ref": "POD #1",
+      "source_span": "row520384#2"
     },
     {
       "claim_id": "C7",
       "type": "diagnosis",
       "subject": "patient",
       "predicate": "has diagnosis",
-      "value": "Black tongue",
-      "time_ref": null,
-      "source_span": "row520384#119-129"
+      "value": "dusky small bowel",
+      "time_ref": "POD #1",
+      "source_span": "row520384#2"
     },
     {
       "claim_id": "C8",
-      "type": "lab",
+      "type": "procedure",
       "subject": "patient",
-      "predicate": "lab result",
-      "value": "Low platelets",
-      "time_ref": null,
-      "source_span": "row520384#131-142"
+      "predicate": "underwent",
+      "value": "SBR",
+      "time_ref": "POD #1",
+      "source_span": "row520384#2"
     },
     {
       "claim_id": "C9",
-      "type": "medication",
+      "type": "procedure",
       "subject": "patient",
-      "predicate": "takes medication",
-      "value": "Levophed",
-      "time_ref": "2122",
-      "source_span": "row520384#152-159"
+      "predicate": "underwent",
+      "value": "transverse colectomy",
+      "time_ref": "1-24",
+      "source_span": "row520384#3"
     },
     {
       "claim_id": "C10",
-      "type": "medication",
+      "type": "diagnosis",
       "subject": "patient",
-      "predicate": "takes medication",
-      "value": "platlets",
-      "time_ref": "overnight",
-      "source_span": "row520384#161-174"
+      "predicate": "has diagnosis",
+      "value": "ischemic bowel",
+      "time_ref": "1-24",
+      "source_span": "row520384#3"
     },
     {
       "claim_id": "C11",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "resection of terminal ileum, ascending, transverse colon and upper portion of the sigmoid colon",
+      "time_ref": "1-25",
+      "source_span": "row520384#4"
+    },
+    {
+      "claim_id": "C12",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "resection of bowel anastamosis",
+      "time_ref": "1-26",
+      "source_span": "row520384#5"
+    },
+    {
+      "claim_id": "C13",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "reanastamosis",
+      "time_ref": "1-26",
+      "source_span": "row520384#5"
+    },
+    {
+      "claim_id": "C14",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "ileostomy",
+      "time_ref": "1-26",
+      "source_span": "row520384#5"
+    },
+    {
+      "claim_id": "C15",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "bilat oophorectomy",
+      "time_ref": "1-26",
+      "source_span": "row520384#5"
+    },
+    {
+      "claim_id": "C16",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "salpingectomy",
+      "time_ref": "1-26",
+      "source_span": "row520384#5"
+    },
+    {
+      "claim_id": "C17",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "partial hysterectomy",
+      "time_ref": "1-26",
+      "source_span": "row520384#5"
+    },
+    {
+      "claim_id": "C18",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "[State ] patch",
+      "time_ref": "1-26",
+      "source_span": "row520384#5"
+    },
+    {
+      "claim_id": "C19",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "g-tube",
+      "time_ref": "1-26",
+      "source_span": "row520384#5"
+    },
+    {
+      "claim_id": "C20",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "J-tube",
+      "time_ref": "1-26",
+      "source_span": "row520384#5"
+    },
+    {
+      "claim_id": "C21",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "started on",
+      "value": "CVVH",
+      "time_ref": "1-27",
+      "source_span": "row520384#6"
+    },
+    {
+      "claim_id": "C22",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "stopped",
+      "value": "CVVH",
+      "time_ref": "1-29",
+      "source_span": "row520384#7"
+    },
+    {
+      "claim_id": "C23",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Sepsis, Severe (with organ dysfunction)",
+      "time_ref": null,
+      "source_span": "row520384#8"
+    },
+    {
+      "claim_id": "C24",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "+blood cultures for yeast",
+      "time_ref": null,
+      "source_span": "row520384#10"
+    },
+    {
+      "claim_id": "C25",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "has",
+      "value": "Abdomen firm, open, absent BS",
+      "time_ref": null,
+      "source_span": "row520384#11"
+    },
+    {
+      "claim_id": "C26",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "has",
+      "value": "SBP >90",
+      "time_ref": null,
+      "source_span": "row520384#12"
+    },
+    {
+      "claim_id": "C27",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has",
+      "value": "Black tongue",
+      "time_ref": null,
+      "source_span": "row520384#13"
+    },
+    {
+      "claim_id": "C28",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "has",
+      "value": "Large amnt of oozing from every skin breakdown",
+      "time_ref": null,
+      "source_span": "row520384#14"
+    },
+    {
+      "claim_id": "C29",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "has",
+      "value": "Low platelets",
+      "time_ref": null,
+      "source_span": "row520384#15"
+    },
+    {
+      "claim_id": "C30",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "has",
+      "value": "withdraws to pain, grimaced to pain/suctioning, does not open eyes, poor gag/cough",
+      "time_ref": null,
+      "source_span": "row520384#16"
+    },
+    {
+      "claim_id": "C31",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "has",
+      "value": "Large NGT output, absent BS, abd firm/open",
+      "time_ref": null,
+      "source_span": "row520384#17"
+    },
+    {
+      "claim_id": "C32",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "off",
+      "value": "Levophed",
+      "time_ref": "last night at 2122",
+      "source_span": "row520384#19"
+    },
+    {
+      "claim_id": "C33",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "received",
+      "value": "1 unit of platlets transfused",
+      "time_ref": "overnight",
+      "source_span": "row520384#20"
+    },
+    {
+      "claim_id": "C34",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "a/fib",
+      "time_ref": null,
+      "source_span": "row520384#21"
+    },
+    {
+      "claim_id": "C35",
       "type": "medication",
       "subject": "patient",
       "predicate": "takes medication",
       "value": "meropenum",
       "time_ref": null,
-      "source_span": "row520384#176-185"
+      "source_span": "row520384#23"
     },
     {
-      "claim_id": "C12",
+      "claim_id": "C36",
       "type": "medication",
       "subject": "patient",
       "predicate": "takes medication",
       "value": "vanco",
       "time_ref": null,
-      "source_span": "row520384#186-191"
+      "source_span": "row520384#23"
     },
     {
-      "claim_id": "C13",
+      "claim_id": "C37",
       "type": "medication",
       "subject": "patient",
       "predicate": "takes medication",
       "value": "cipro",
       "time_ref": null,
-      "source_span": "row520384#192-197"
+      "source_span": "row520384#23"
     },
     {
-      "claim_id": "C14",
+      "claim_id": "C38",
       "type": "medication",
       "subject": "patient",
       "predicate": "takes medication",
       "value": "micafungin",
       "time_ref": null,
-      "source_span": "row520384#198-207"
+      "source_span": "row520384#23"
     },
     {
-      "claim_id": "C15",
+      "claim_id": "C39",
       "type": "medication",
       "subject": "patient",
       "predicate": "treated with",
-      "value": "fentanyl",
+      "value": "fentanyl for pain",
       "time_ref": null,
-      "source_span": "row520384#209-216"
+      "source_span": "row520384#24"
     },
     {
-      "claim_id": "C16",
+      "claim_id": "C40",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "has",
+      "value": "SVV 18-24",
+      "time_ref": null,
+      "source_span": "row520384#26"
+    },
+    {
+      "claim_id": "C41",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "has",
+      "value": "SBP >90",
+      "time_ref": null,
+      "source_span": "row520384#26"
+    },
+    {
+      "claim_id": "C42",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "is",
+      "value": "normothermic",
+      "time_ref": null,
+      "source_span": "row520384#26"
+    },
+    {
+      "claim_id": "C43",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "has",
+      "value": "warm feet, + pulses",
+      "time_ref": null,
+      "source_span": "row520384#26"
+    },
+    {
+      "claim_id": "C44",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has",
+      "value": "tongue remains black",
+      "time_ref": null,
+      "source_span": "row520384#26"
+    },
+    {
+      "claim_id": "C45",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "PLT count up to >80",
+      "time_ref": null,
+      "source_span": "row520384#26"
+    },
+    {
+      "claim_id": "C46",
       "type": "diagnosis",
       "subject": "patient",
       "predicate": "has diagnosis",
       "value": "Respiratory failure, acute (not ARDS/[Doctor Last Name 11])",
       "time_ref": null,
-      "source_span": "row520384#221-251"
+      "source_span": "row520384#28"
     },
     {
-      "claim_id": "C17",
+      "claim_id": "C47",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "is",
+      "value": "Intubated day 5",
+      "time_ref": null,
+      "source_span": "row520384#30"
+    },
+    {
+      "claim_id": "C48",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "has",
+      "value": "LS with rhonchi/diminished",
+      "time_ref": null,
+      "source_span": "row520384#30"
+    },
+    {
+      "claim_id": "C49",
       "type": "diagnosis",
       "subject": "patient",
       "predicate": "has diagnosis",
       "value": "alteration skin integrity",
       "time_ref": null,
-      "source_span": "row520384#253-273"
+      "source_span": "row520384#35"
     },
     {
-      "claim_id": "C18",
+      "claim_id": "C50",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "has",
+      "value": "multiple puncture wounds that leaking as well as many blisters-some of which have bursted",
+      "time_ref": null,
+      "source_span": "row520384#37"
+    },
+    {
+      "claim_id": "C51",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "receiving",
+      "value": "central lipid TPN",
+      "time_ref": "ongoing",
+      "source_span": "row520384#40"
+    },
+    {
+      "claim_id": "C52",
       "type": "diagnosis",
       "subject": "patient",
       "predicate": "has diagnosis",
       "value": "Renal failure, acute (Acute renal failure, ARF)",
       "time_ref": null,
-      "source_span": "row520384#275-305"
+      "source_span": "row520384#44"
     },
     {
-      "claim_id": "C19",
+      "claim_id": "C53",
       "type": "lab",
       "subject": "patient",
       "predicate": "lab result",
       "value": "Creat >2.1",
       "time_ref": null,
-      "source_span": "row520384#307-317"
+      "source_span": "row520384#46"
     },
     {
-      "claim_id": "C20",
+      "claim_id": "C54",
       "type": "lab",
       "subject": "patient",
       "predicate": "lab result",
       "value": "lactate 5",
       "time_ref": "today",
-      "source_span": "row520384#319-328"
+      "source_span": "row520384#46"
     },
     {
-      "claim_id": "C21",
+      "claim_id": "C55",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "off",
+      "value": "CVVHDF",
+      "time_ref": "yesterday",
+      "source_span": "row520384#47"
+    },
+    {
+      "claim_id": "C56",
       "type": "diagnosis",
       "subject": "patient",
       "predicate": "has diagnosis",
       "value": "Atrial fibrillation (Afib)",
       "time_ref": null,
-      "source_span": "row520384#331-351"
+      "source_span": "row520384#51"
     },
     {
-      "claim_id": "C22",
+      "claim_id": "C57",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "has",
+      "value": "A/fib, 85-100 rate, irregular",
+      "time_ref": null,
+      "source_span": "row520384#53"
+    },
+    {
+      "claim_id": "C58",
       "type": "medication",
       "subject": "patient",
       "predicate": "takes medication",
-      "value": "Amioderone gtt",
+      "value": "Amioderone gtt ongoing at 0.5mg /min",
       "time_ref": null,
-      "source_span": "row520384#353-368"
+      "source_span": "row520384#54"
+    },
+    {
+      "claim_id": "C59",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "Consider cardioversion",
+      "time_ref": null,
+      "source_span": "row520384#56"
     }
   ]
 }

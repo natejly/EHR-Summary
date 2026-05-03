@@ -1,46 +1,36 @@
 {
   "concerns": [
     {
-      "sentence": "Comorbidities include disseminated candidiasis [E:cond:2], other postoperative infection [E:cond:1], and other suppurative peritonitis [E:cond:5].",
-      "severity": "low",
-      "reason": "Listing these as 'comorbidities' implies they are chronic conditions, but the fact sheet does not indicate chronicity."
-    },
-    {
-      "sentence": "Additional diagnoses include necrotizing fasciitis [E:cond:8], acute vascular insufficiency of intestine [E:cond:9], and acute and subacute necrosis of liver [E:cond:6].",
-      "severity": "low",
-      "reason": "Similar to above, 'diagnoses' is a broad term, and the fact sheet doesn't specify if these are acute or chronic."
-    },
-    {
-      "sentence": "Renal status is significant for acute kidney failure with tubular necrosis [E:cond:7].",
-      "severity": "low",
-      "reason": "The fact sheet states 'Acute kidney failure with lesion of tubular necrosis', which is slightly different phrasing."
-    },
-    {
       "sentence": "Chronic conditions include essential hypertension [E:cond:15], depressive disorder [E:cond:16], and acquired hypothyroidism [E:cond:17].",
-      "severity": "low",
-      "reason": "The fact sheet does not explicitly state these are 'chronic' conditions."
+      "severity": "medium",
+      "reason": "The summary includes depressive disorder and acquired hypothyroidism, but these are not present in the provided fact sheet."
+    },
+    {
+      "sentence": "Surgical history includes left [E:proc:1] and right hemicolectomy [E:proc:6], transverse colon resection [E:proc:4], sigmoidectomy [E:proc:5], partial resection of small intestine [E:proc:2], temporary ileostomy [E:proc:3], subtotal abdominal hysterectomy [E:proc:7], and removal of both ovaries and tubes [E:proc:8].",
+      "severity": "medium",
+      "reason": "The summary lists extensive surgical procedures that are not documented in the provided fact sheet."
+    },
+    {
+      "sentence": "History of ERCP [E:note:row520384:1], elective lap chole [E:note:row520384:1], and ex lap [E:note:row520384:2].",
+      "severity": "medium",
+      "reason": "These procedures are not listed in the provided fact sheet."
     }
   ],
   "recommended_revisions": [
     {
-      "original": "Comorbidities include disseminated candidiasis [E:cond:2], other postoperative infection [E:cond:1], and other suppurative peritonitis [E:cond:5].",
-      "suggested": "Other problems include disseminated candidiasis [E:cond:2], other postoperative infection [E:cond:1], and other suppurative peritonitis [E:cond:5].",
-      "reason": "Avoids implying chronicity when not explicitly stated."
-    },
-    {
-      "original": "Additional diagnoses include necrotizing fasciitis [E:cond:8], acute vascular insufficiency of intestine [E:cond:9], and acute and subacute necrosis of liver [E:cond:6].",
-      "suggested": "Other problems include necrotizing fasciitis [E:cond:8], acute vascular insufficiency of intestine [E:cond:9], and acute and subacute necrosis of liver [E:cond:6].",
-      "reason": "Avoids implying chronicity when not explicitly stated."
-    },
-    {
-      "original": "Renal status is significant for acute kidney failure with tubular necrosis [E:cond:7].",
-      "suggested": "Renal status is significant for acute kidney failure with lesion of tubular necrosis [E:cond:7].",
-      "reason": "Matches the phrasing in the fact sheet."
-    },
-    {
       "original": "Chronic conditions include essential hypertension [E:cond:15], depressive disorder [E:cond:16], and acquired hypothyroidism [E:cond:17].",
-      "suggested": "Other problems include essential hypertension [E:cond:15], depressive disorder [E:cond:16], and acquired hypothyroidism [E:cond:17].",
-      "reason": "Avoids implying chronicity when not explicitly stated."
+      "suggested": "Chronic conditions include essential hypertension [E:cond:15].",
+      "reason": "Remove conditions not supported by the provided fact sheet."
+    },
+    {
+      "original": "Surgical history includes left [E:proc:1] and right hemicolectomy [E:proc:6], transverse colon resection [E:proc:4], sigmoidectomy [E:proc:5], partial resection of small intestine [E:proc:2], temporary ileostomy [E:proc:3], subtotal abdominal hysterectomy [E:proc:7], and removal of both ovaries and tubes [E:proc:8].",
+      "suggested": "_Not documented._",
+      "reason": "Remove surgical history not supported by the provided fact sheet."
+    },
+    {
+      "original": "History of ERCP [E:note:row520384:1], elective lap chole [E:note:row520384:1], and ex lap [E:note:row520384:2].",
+      "suggested": "",
+      "reason": "Remove procedures not supported by the provided fact sheet."
     }
   ]
 }

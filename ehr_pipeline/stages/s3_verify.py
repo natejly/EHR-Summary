@@ -76,23 +76,22 @@ def _verify_one_sync(claim: Claim, candidates: list[dict[str, Any]]) -> Verifica
         "claim": claim.model_dump(),
         "candidates": candidates,
     }
-    raw = chat_json(
-        model=config.MODELS.claim_verification,
-        system=S3_VERIFICATION,
-        user="Verify this claim against the candidates.\n\n" + _to_json(user_payload),
-        schema=schema_for(Verification),
-        temperature=0.0,
-    )
-
     try:
-        return Verification.model_validate(raw)
+        return chat_json(
+            model=config.MODELS.claim_verification,
+            system=S3_VERIFICATION,
+            user="Verify this claim against the candidates.\n\n" + _to_json(user_payload),
+            schema=schema_for(Verification),
+            temperature=0.0,
+            validate=lambda raw: Verification.model_validate(raw),
+        )
     except Exception:
-        log.exception("Bad verification payload for %s: %r", claim.claim_id, raw)
+        log.exception("Verification failed for %s after retries", claim.claim_id)
         return Verification(
             claim_id=claim.claim_id,
             status="unsupported",
             evidence_ids=[],
-            rationale="Verifier returned malformed JSON.",
+            rationale="Verifier returned malformed output after retries.",
         )
 
 
