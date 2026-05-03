@@ -1,0 +1,534 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-43937-146668",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-43937",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-43937",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-146668",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-146668",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2200-08-04T00:00:00",
+          "end": "2200-08-05T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-146668-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-146668-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0389",
+              "display": "Unspecified septicemia"
+            }
+          ],
+          "text": "Unspecified septicemia"
+        },
+        "onsetDateTime": "2200-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-146668-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-146668-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2200-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-146668-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-146668-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78552",
+              "display": "Septic shock"
+            }
+          ],
+          "text": "Septic shock"
+        },
+        "onsetDateTime": "2200-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-146668-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-146668-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "486",
+              "display": "Pneumonia, organism unspecified"
+            }
+          ],
+          "text": "Pneumonia, organism unspecified"
+        },
+        "onsetDateTime": "2200-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-146668-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-146668-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2762",
+              "display": "Acidosis"
+            }
+          ],
+          "text": "Acidosis"
+        },
+        "onsetDateTime": "2200-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-146668-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-146668-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2760",
+              "display": "Hyperosmolality and/or hypernatremia"
+            }
+          ],
+          "text": "Hyperosmolality and/or hypernatremia"
+        },
+        "onsetDateTime": "2200-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-146668-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-146668-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2200-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-146668-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-146668-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42822",
+              "display": "Chronic systolic heart failure"
+            }
+          ],
+          "text": "Chronic systolic heart failure"
+        },
+        "onsetDateTime": "2200-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-146668-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-146668-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99592",
+              "display": "Severe sepsis"
+            }
+          ],
+          "text": "Severe sepsis"
+        },
+        "onsetDateTime": "2200-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-146668-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-146668-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2200-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-146668-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-146668-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4986",
+              "display": "Do not resuscitate status"
+            }
+          ],
+          "text": "Do not resuscitate status"
+        },
+        "onsetDateTime": "2200-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-146668-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-146668-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41401",
+              "display": "Coronary atherosclerosis of native coronary artery"
+            }
+          ],
+          "text": "Coronary atherosclerosis of native coronary artery"
+        },
+        "onsetDateTime": "2200-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-146668-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-146668-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4582",
+              "display": "Percutaneous transluminal coronary angioplasty status"
+            }
+          ],
+          "text": "Percutaneous transluminal coronary angioplasty status"
+        },
+        "onsetDateTime": "2200-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-146668-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-146668-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V1254",
+              "display": "Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits"
+            }
+          ],
+          "text": "Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits"
+        },
+        "onsetDateTime": "2200-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-146668-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-146668-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "29420",
+              "display": "Dementia, unspecified, without behavioral disturbance"
+            }
+          ],
+          "text": "Dementia, unspecified, without behavioral disturbance"
+        },
+        "onsetDateTime": "2200-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-146668-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-146668-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4148",
+              "display": "Other specified forms of chronic ischemic heart disease"
+            }
+          ],
+          "text": "Other specified forms of chronic ischemic heart disease"
+        },
+        "onsetDateTime": "2200-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-146668-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-146668-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "60000",
+              "display": "Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)"
+            }
+          ],
+          "text": "Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)"
+        },
+        "onsetDateTime": "2200-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-146668-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-146668-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2859",
+              "display": "Anemia, unspecified"
+            }
+          ],
+          "text": "Anemia, unspecified"
+        },
+        "onsetDateTime": "2200-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-146668-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-146668-1",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2200-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-146668-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-146668-2",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2200-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-146668-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-146668-3",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2200-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-146668-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-146668-4",
+        "status": "completed",
+        "code": {
+          "text": "Arterial catheterization"
+        },
+        "performedDateTime": "2200-08-04"
+      }
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "case_id": "mimic-41795-138132-683600",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2643,
+    "summary_chars": 1443,
+    "target_min_chars": 528,
+    "target_max_chars": 792,
+    "achieved_ratio": 0.5459704880817253,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 15,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:2",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:29",
+      "E:cond:3",
+      "E:cond:30",
+      "E:cond:31",
+      "E:cond:32",
+      "E:cond:33",
+      "E:cond:34",
+      "E:cond:35",
+      "E:cond:36",
+      "E:cond:37",
+      "E:cond:38",
+      "E:cond:39",
+      "E:cond:4",
+      "E:cond:40",
+      "E:cond:41",
+      "E:cond:42",
+      "E:cond:43",
+      "E:cond:44",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row683600:5",
+      "E:note:row683600:8",
+      "E:proc:1",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:8",
+      "E:proc:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "COPD with acute exacerbation [E:cond:3][E:cond:4].",
+        "severity": "medium",
+        "reason": "The fact sheet specifies 'Obstructive chronic bronchitis', not COPD."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "COPD with acute exacerbation [E:cond:3][E:cond:4].",
+        "suggested": "Obstructive chronic bronchitis with acute exacerbation [E:cond:3][E:cond:4].",
+        "reason": "Corrects the diagnosis to match the fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-41795-138132-683600/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.97,
+    "fk_words": 159,
+    "fk_sentences": 19,
+    "fk_syllables": 260,
+    "chars": 1557,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-41795-138132-683600/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.018653207982424647,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 58.29515829094453,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 18.284994457964785,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0024062079610303044,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 13.934528167010285,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 16.07626712502679,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.002727417042478919,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 329.52479258400854,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

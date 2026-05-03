@@ -1,0 +1,140 @@
+{
+  "case_id": "mimic-66714-150541-472627",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2521,
+    "summary_chars": 1180,
+    "target_min_chars": 504,
+    "target_max_chars": 756,
+    "achieved_ratio": 0.46806822689408967,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 8,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:19",
+      "E:cond:2",
+      "E:cond:22",
+      "E:cond:26",
+      "E:cond:3",
+      "E:cond:32",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:9",
+      "E:note:row472627:1",
+      "E:note:row472627:12",
+      "E:note:row472627:13",
+      "E:note:row472627:14",
+      "E:note:row472627:16",
+      "E:note:row472627:17",
+      "E:note:row472627:18",
+      "E:note:row472627:20",
+      "E:note:row472627:21",
+      "E:note:row472627:3",
+      "E:note:row472627:8",
+      "E:note:row472627:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "CK elevated [E:note:row472627:3] then negative [E:note:row472627:13], INR elevated [E:note:row472627:9], K+ 3.7 [E:note:row472627:14], and ABG 7.36/56/63 [E:note:row472627:20].",
+        "severity": "medium",
+        "reason": "The term 'negative' is used to describe a CK (Creatine Kinase) result, which is a quantitative enzyme level and not a binary positive/negative test."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "CK elevated [E:note:row472627:3] then negative [E:note:row472627:13], INR elevated [E:note:row472627:9], K+ 3.7 [E:note:row472627:14], and ABG 7.36/56/63 [E:note:row472627:20].",
+        "suggested": "CK elevated [E:note:row472627:3] then neg [E:note:row472627:13], INR elevated [E:note:row472627:9], K+ 3.7 [E:note:row472627:14], and ABG 7.36/56/63 [E:note:row472627:20].",
+        "reason": "Aligns terminology with the fact sheet's 'neg' to avoid clinical misinterpretation of a quantitative lab as a binary result."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-66714-150541-472627/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 8.74,
+    "fk_words": 169,
+    "fk_sentences": 18,
+    "fk_syllables": 296,
+    "chars": 1744,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-66714-150541-472627/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0015414580120705068,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 143.50262874999316,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 148.12552299996605,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0029717920115217566,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 183.08540020801593,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 85.38387562497519,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.004244125040713698,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 24.361213667027187,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

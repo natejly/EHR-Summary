@@ -1,0 +1,179 @@
+{
+  "case_id": "mimic-43937-146668-1263",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 10660,
+    "summary_chars": 3106,
+    "target_min_chars": 2132,
+    "target_max_chars": 3198,
+    "achieved_ratio": 0.29136960600375233,
+    "in_target_band": true
+  },
+  "check_report": {
+    "passed": false,
+    "violations": [
+      {
+        "sentence": "Maintenance medications include:",
+        "rule": "missing_citation",
+        "detail": "Sentence has no [E:...] citation."
+      }
+    ],
+    "sentence_count": 31,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row1263:12",
+      "E:note:row1263:14",
+      "E:note:row1263:15",
+      "E:note:row1263:19",
+      "E:note:row1263:2",
+      "E:note:row1263:20",
+      "E:note:row1263:21",
+      "E:note:row1263:23",
+      "E:note:row1263:24",
+      "E:note:row1263:28",
+      "E:note:row1263:34",
+      "E:note:row1263:48",
+      "E:note:row1263:49",
+      "E:note:row1263:52",
+      "E:note:row1263:64",
+      "E:note:row1263:65",
+      "E:note:row1263:66",
+      "E:note:row1263:67",
+      "E:note:row1263:68",
+      "E:note:row1263:69",
+      "E:note:row1263:70",
+      "E:note:row1263:71",
+      "E:note:row1263:72",
+      "E:note:row1263:73",
+      "E:note:row1263:74",
+      "E:note:row1263:75",
+      "E:note:row1263:76",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Respiratory status is critical with acute respiratory failure [E:cond:2], respiratory distress [E:note:row1263:12], and pneumonia, organism unspecified [E:cond:4].",
+        "severity": "medium",
+        "reason": "The term 'critical' is an interpretation not explicitly stated in the fact sheet, though the conditions listed are severe."
+      },
+      {
+        "sentence": "Patient presents with unspecified septicemia [E:cond:1], severe sepsis [E:cond:9], and septic shock [E:cond:3] as of 2200-08-04 [E:cond:1][E:cond:3][E:cond:9].",
+        "severity": "low",
+        "reason": "The date 2200-08-04 is likely a timestamp/date format error in the source data (year 2200), which the summary replicates."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Respiratory status is critical with acute respiratory failure [E:cond:2], respiratory distress [E:note:row1263:12], and pneumonia, organism unspecified [E:cond:4].",
+        "suggested": "Respiratory findings include acute respiratory failure [E:cond:2], respiratory distress [E:note:row1263:12], and pneumonia, organism unspecified [E:cond:4].",
+        "reason": "Removes the subjective descriptor 'critical' to adhere strictly to the provided facts."
+      },
+      {
+        "original": "Maintenance medications include:",
+        "suggested": "Maintenance medications include the following:",
+        "reason": "This is a structural header; however, the check report flagged it for missing citations. Since it is a lead-in to a cited list, it is acceptable, but for strict compliance, it can be merged or left as is if the clinician deems the list citations sufficient."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 1
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-43937-146668-1263/summary_revised.md",
+  "revised_check_passed": false,
+  "patient_summary": {
+    "fk_grade": 8.3,
+    "fk_words": 189,
+    "fk_sentences": 18,
+    "fk_syllables": 317,
+    "chars": 1833,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-43937-146668-1263/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0019077920005656779,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 264.97040791698964,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 104.1777145419619,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0017841249937191606,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 15.687812458025292,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 22.730265332967974,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.003974166000261903,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 10.310305749997497,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

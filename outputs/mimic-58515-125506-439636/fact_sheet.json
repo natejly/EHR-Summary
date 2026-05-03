@@ -1,0 +1,368 @@
+{
+  "case_id": "mimic-58515-125506-439636",
+  "sections": {
+    "hpi": [],
+    "active_problems": [
+      {
+        "text": "Acute pancreatitis (2122-12-19)",
+        "evidence_ids": [
+          "E:cond:1"
+        ]
+      },
+      {
+        "text": "Subendocardial infarction, initial episode of care (2122-12-19)",
+        "evidence_ids": [
+          "E:cond:2"
+        ]
+      },
+      {
+        "text": "Cholangitis (2122-12-19)",
+        "evidence_ids": [
+          "E:cond:3"
+        ]
+      },
+      {
+        "text": "Calculus of bile duct without mention of cholecystitis, with obstruction (2122-12-19)",
+        "evidence_ids": [
+          "E:cond:4"
+        ]
+      },
+      {
+        "text": "Unspecified septicemia (2122-12-19)",
+        "evidence_ids": [
+          "E:cond:5"
+        ]
+      },
+      {
+        "text": "Severe sepsis (2122-12-19)",
+        "evidence_ids": [
+          "E:cond:6"
+        ]
+      },
+      {
+        "text": "Acute respiratory failure (2122-12-19)",
+        "evidence_ids": [
+          "E:cond:7"
+        ]
+      },
+      {
+        "text": "Acute kidney failure, unspecified (2122-12-19)",
+        "evidence_ids": [
+          "E:cond:8"
+        ]
+      },
+      {
+        "text": "Septic shock (2122-12-19)",
+        "evidence_ids": [
+          "E:cond:9"
+        ]
+      },
+      {
+        "text": "Chronic systolic heart failure (2122-12-19)",
+        "evidence_ids": [
+          "E:cond:10"
+        ]
+      },
+      {
+        "text": "Intestinal infection due to Clostridium difficile (2122-12-19)",
+        "evidence_ids": [
+          "E:cond:11"
+        ]
+      },
+      {
+        "text": "Paralytic ileus (2122-12-19)",
+        "evidence_ids": [
+          "E:cond:12"
+        ]
+      },
+      {
+        "text": "Acidosis (2122-12-19)",
+        "evidence_ids": [
+          "E:cond:13"
+        ]
+      },
+      {
+        "text": "Congestive heart failure, unspecified (2122-12-19)",
+        "evidence_ids": [
+          "E:cond:14"
+        ]
+      },
+      {
+        "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled (2122-12-19)",
+        "evidence_ids": [
+          "E:cond:15"
+        ]
+      },
+      {
+        "text": "Coronary atherosclerosis of native coronary artery (2122-12-19)",
+        "evidence_ids": [
+          "E:cond:16"
+        ]
+      },
+      {
+        "text": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified (2122-12-19)",
+        "evidence_ids": [
+          "E:cond:17"
+        ]
+      },
+      {
+        "text": "Chronic kidney disease, unspecified (2122-12-19)",
+        "evidence_ids": [
+          "E:cond:18"
+        ]
+      },
+      {
+        "text": "Other specified forms of hearing loss (2122-12-19)",
+        "evidence_ids": [
+          "E:cond:19"
+        ]
+      },
+      {
+        "text": "Procedure: Endoscopic insertion of stent (tube) into bile duct (2122-12-19)",
+        "evidence_ids": [
+          "E:proc:1"
+        ]
+      },
+      {
+        "text": "Procedure: Endoscopic removal of stone(s) from biliary tract (2122-12-19)",
+        "evidence_ids": [
+          "E:proc:2"
+        ]
+      },
+      {
+        "text": "Procedure: Endoscopic sphincterotomy and papillotomy (2122-12-19)",
+        "evidence_ids": [
+          "E:proc:3"
+        ]
+      },
+      {
+        "text": "Procedure: Insertion of endotracheal tube (2122-12-19)",
+        "evidence_ids": [
+          "E:proc:4"
+        ]
+      },
+      {
+        "text": "Procedure: Continuous invasive mechanical ventilation for less than 96 consecutive hours (2122-12-19)",
+        "evidence_ids": [
+          "E:proc:5"
+        ]
+      },
+      {
+        "text": "Procedure: Venous catheterization for renal dialysis (2122-12-19)",
+        "evidence_ids": [
+          "E:proc:6"
+        ]
+      },
+      {
+        "text": "Procedure: Hemodialysis (2122-12-19)",
+        "evidence_ids": [
+          "E:proc:7"
+        ]
+      },
+      {
+        "text": "Procedure: Arterial catheterization (2122-12-19)",
+        "evidence_ids": [
+          "E:proc:8"
+        ]
+      },
+      {
+        "text": "Procedure: Venous catheterization, not elsewhere classified (2122-12-19)",
+        "evidence_ids": [
+          "E:proc:9"
+        ]
+      },
+      {
+        "text": "Procedure: Parenteral infusion of concentrated nutritional substances (2122-12-19)",
+        "evidence_ids": [
+          "E:proc:10"
+        ]
+      },
+      {
+        "text": "Procedure: Closed [endoscopic] biopsy of bronchus (2122-12-19)",
+        "evidence_ids": [
+          "E:proc:11"
+        ]
+      },
+      {
+        "text": "has diagnosis: cholangitis",
+        "evidence_ids": [
+          "E:cond:3",
+          "E:note:row439636:1"
+        ]
+      },
+      {
+        "text": "has diagnosis: pancreatitis",
+        "evidence_ids": [
+          "E:cond:1",
+          "E:note:row439636:1"
+        ]
+      },
+      {
+        "text": "has diagnosis: respiratory failure",
+        "evidence_ids": [
+          "E:cond:7",
+          "E:note:row439636:1"
+        ]
+      },
+      {
+        "text": "has diagnosis: HOTN",
+        "evidence_ids": [
+          "E:note:row439636:1"
+        ]
+      },
+      {
+        "text": "revealed: CBD stone",
+        "evidence_ids": [
+          "E:proc:2"
+        ]
+      },
+      {
+        "text": "underwent: ERCP",
+        "evidence_ids": [
+          "E:note:row439636:3"
+        ]
+      },
+      {
+        "text": "underwent: intubated",
+        "evidence_ids": [
+          "E:note:row439636:4"
+        ]
+      },
+      {
+        "text": "underwent: sphincterotomy",
+        "evidence_ids": [
+          "E:proc:3"
+        ]
+      },
+      {
+        "text": "has diagnosis: HTN",
+        "evidence_ids": [
+          "E:note:row439636:6"
+        ]
+      },
+      {
+        "text": "has diagnosis: DM II",
+        "evidence_ids": [
+          "E:note:row439636:6"
+        ]
+      },
+      {
+        "text": "has diagnosis: Congenital Deafness",
+        "evidence_ids": [
+          "E:note:row439636:6"
+        ]
+      },
+      {
+        "text": "has diagnosis: CAD",
+        "evidence_ids": [
+          "E:note:row439636:6"
+        ]
+      },
+      {
+        "text": "has diagnosis: Myocardial infarction, acute (AMI, STEMI, NSTEMI)",
+        "evidence_ids": [
+          "E:note:row439636:8"
+        ]
+      },
+      {
+        "text": "has diagnosis: Pancreatitis, acute",
+        "evidence_ids": [
+          "E:cond:1"
+        ]
+      }
+    ],
+    "medications": [
+      {
+        "text": "takes medication: zosyn",
+        "evidence_ids": [
+          "E:note:row439636:20"
+        ]
+      },
+      {
+        "text": "takes medication: Morphine 1mg IV x2",
+        "evidence_ids": [
+          "E:note:row439636:19"
+        ]
+      }
+    ],
+    "labs": [
+      {
+        "text": "increased: AST/ALT",
+        "evidence_ids": [
+          "E:note:row439636:2"
+        ]
+      },
+      {
+        "text": "lab result: Hct =39",
+        "evidence_ids": [
+          "E:note:row439636:13"
+        ]
+      },
+      {
+        "text": "lab result: Troponin =1.00",
+        "evidence_ids": [
+          "E:note:row439636:14"
+        ]
+      },
+      {
+        "text": "lab result: WBC climbed to 24.3",
+        "evidence_ids": [
+          "E:note:row439636:17"
+        ]
+      }
+    ],
+    "vitals": [
+      {
+        "text": "tachycardia: 115",
+        "evidence_ids": [
+          "E:note:row439636:2"
+        ]
+      },
+      {
+        "text": "hypotensive: hypotensive",
+        "evidence_ids": [
+          "E:note:row439636:5"
+        ]
+      },
+      {
+        "text": "oxygen saturation: 96%",
+        "evidence_ids": [
+          "E:note:row439636:7"
+        ]
+      },
+      {
+        "text": "HR: 115",
+        "evidence_ids": [
+          "E:note:row439636:2",
+          "E:note:row439636:9"
+        ]
+      },
+      {
+        "text": "T-max: 100.1",
+        "evidence_ids": [
+          "E:note:row439636:10"
+        ]
+      }
+    ],
+    "plan": [
+      {
+        "text": "plan to: Zosyn only due this am",
+        "evidence_ids": [
+          "E:note:row439636:20"
+        ]
+      },
+      {
+        "text": "plan to: Continue IVF at 150cc/hr for liter #2",
+        "evidence_ids": [
+          "E:note:row439636:21"
+        ]
+      },
+      {
+        "text": "plan to: Morphine 2-3mg IV prn pain",
+        "evidence_ids": [
+          "E:note:row439636:22"
+        ]
+      }
+    ]
+  }
+}

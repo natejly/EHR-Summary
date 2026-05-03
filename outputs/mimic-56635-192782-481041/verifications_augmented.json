@@ -1,0 +1,419 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates mention a temporary ileostomy, but there is no evidence of a subtotal colectomy."
+    },
+    {
+      "claim_id": "C2",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C3",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C4",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list conditions and one intestinal procedure, but no record of a cardiac catheterization or angioplasty of the RCA."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:7"
+      ],
+      "rationale": "The candidate evidence confirms a hematoma complicating a procedure, which supports the claim of a post-procedure groin hematoma."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:4"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient developed rapid afib."
+    },
+    {
+      "claim_id": "C7",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C9",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C10",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:2"
+      ],
+      "rationale": "The candidate evidence explicitly states that a CT of the abdomen was done."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:2"
+      ],
+      "rationale": "The CT scan results are explicitly described as concerning for ischemic bowel."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:3"
+      ],
+      "rationale": "The evidence explicitly states the patient was sent to the OR for resection."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:4"
+      ],
+      "rationale": "The evidence explicitly states the patient developed rapid afib."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:4"
+      ],
+      "rationale": "The evidence explicitly states the patient developed rapid afib to a heart rate of 180."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:4"
+      ],
+      "rationale": "The evidence explicitly states the patient developed hypotension postoperatively."
+    },
+    {
+      "claim_id": "C17",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:9",
+        "E:note:row481041:10"
+      ],
+      "rationale": "Both candidates confirm the patient is receiving an Amiodarone (Amio) infusion."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:22"
+      ],
+      "rationale": "The patient's condition list explicitly includes Atrial fibrillation."
+    },
+    {
+      "claim_id": "C20",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:8"
+      ],
+      "rationale": "The candidate evidence explicitly states the SBP is 110-120 s."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:9"
+      ],
+      "rationale": "The candidate evidence explicitly states 'MAP >60'."
+    },
+    {
+      "claim_id": "C23",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:11"
+      ],
+      "rationale": "The evidence explicitly states that a milrinone bolus was started."
+    },
+    {
+      "claim_id": "C25",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C26",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:13"
+      ],
+      "rationale": "The candidate evidence explicitly mentions 'Afib with RVR'."
+    },
+    {
+      "claim_id": "C28",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C29",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:14",
+        "E:note:row481041:32"
+      ],
+      "rationale": "The notes explicitly state that 'neo' was titrated up and that Levophed was changed to 'neo' to support blood pressure."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:14"
+      ],
+      "rationale": "The evidence explicitly states the goal to maintain a MAP of 60."
+    },
+    {
+      "claim_id": "C32",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C33",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C34",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence describes a cardiac catheterization complication and does not mention diltiazem or any medication dosing plan."
+    },
+    {
+      "claim_id": "C35",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C36",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:15"
+      ],
+      "rationale": "The evidence explicitly lists 'acute pain' under the assessment for pain control."
+    },
+    {
+      "claim_id": "C37",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:15"
+      ],
+      "rationale": "The evidence explicitly lists 'chronic pain' under the assessment for pain control."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:15"
+      ],
+      "rationale": "The evidence explicitly mentions a 'Fentanyl drip titrated' for pain control."
+    },
+    {
+      "claim_id": "C39",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:17"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient receives Fentanyl boluses of 25mcg before turns."
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:20"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to continue fentanyl for pain."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:21"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Myocardial infarction, acute (AMI, STEMI, NSTEMI)' as part of the assessment."
+    },
+    {
+      "claim_id": "C42",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:22"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Cool extremities.'"
+    },
+    {
+      "claim_id": "C43",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:24"
+      ],
+      "rationale": "The candidate evidence explicitly states the stroke volume (SV) is 40cc while the patient is in afib."
+    },
+    {
+      "claim_id": "C44",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C45",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C46",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:27"
+      ],
+      "rationale": "The evidence explicitly states the patient's weight is up to 60kg."
+    },
+    {
+      "claim_id": "C47",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:27"
+      ],
+      "rationale": "The evidence explicitly states the preop weight was 50kg."
+    },
+    {
+      "claim_id": "C48",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:28"
+      ],
+      "rationale": "The candidate evidence explicitly states that the hands and feet are edematous."
+    },
+    {
+      "claim_id": "C49",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:34"
+      ],
+      "rationale": "The evidence explicitly states that a TTE was performed today."
+    },
+    {
+      "claim_id": "C50",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:12",
+        "E:note:row481041:35"
+      ],
+      "rationale": "Both evidence items explicitly state that a Diltiazem drip was started or is currently on for heart rate control."
+    },
+    {
+      "claim_id": "C51",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:38"
+      ],
+      "rationale": "The candidate evidence explicitly states that generalized edema was noted."
+    },
+    {
+      "claim_id": "C52",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:37"
+      ],
+      "rationale": "The evidence explicitly states the patient continues to have activity intolerance."
+    },
+    {
+      "claim_id": "C53",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:40"
+      ],
+      "rationale": "The candidate evidence explicitly mentions the diagnosis of intestinal ischemia, including mesenteric venous/arterial thrombosis and bowel ischemia."
+    },
+    {
+      "claim_id": "C54",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates mention a 'Temporary ileostomy', but do not specify the incision type (midline) or the side (right) as stated in the claim."
+    },
+    {
+      "claim_id": "C55",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:44"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient continues to have tenderness and guarding in the belly on exam."
+    },
+    {
+      "claim_id": "C56",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:48"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Probable incisional pain in abdomen', which matches the claim."
+    },
+    {
+      "claim_id": "C57",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row481041:49"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Hypoactive bowel sounds.'"
+    }
+  ]
+}

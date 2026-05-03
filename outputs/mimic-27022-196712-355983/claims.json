@@ -1,0 +1,301 @@
+{
+  "claims": [
+    {
+      "claim_id": "C1",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "PSC",
+      "time_ref": null,
+      "source_span": "row355983#0"
+    },
+    {
+      "claim_id": "C2",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "cirrhosis",
+      "time_ref": null,
+      "source_span": "row355983#0"
+    },
+    {
+      "claim_id": "C3",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "gastric varices",
+      "time_ref": null,
+      "source_span": "row355983#0"
+    },
+    {
+      "claim_id": "C4",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "presented with",
+      "value": "diarrhea",
+      "time_ref": "earlier this evening",
+      "source_span": "row355983#0"
+    },
+    {
+      "claim_id": "C5",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "presented with",
+      "value": "maroon stools",
+      "time_ref": "earlier this evening",
+      "source_span": "row355983#0"
+    },
+    {
+      "claim_id": "C6",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "reported",
+      "value": "vomiting \"cranberry juice\"",
+      "time_ref": "earlier today",
+      "source_span": "row355983#1"
+    },
+    {
+      "claim_id": "C7",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "esophageal varices",
+      "time_ref": "12-28",
+      "source_span": "row355983#2"
+    },
+    {
+      "claim_id": "C8",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "amotility of the esophagus",
+      "time_ref": "12-28",
+      "source_span": "row355983#2"
+    },
+    {
+      "claim_id": "C9",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "HR 60",
+      "time_ref": "ED",
+      "source_span": "row355983#3"
+    },
+    {
+      "claim_id": "C10",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "BP 70/40",
+      "time_ref": "ED",
+      "source_span": "row355983#3"
+    },
+    {
+      "claim_id": "C11",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "RR 12",
+      "time_ref": "ED",
+      "source_span": "row355983#3"
+    },
+    {
+      "claim_id": "C12",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "received",
+      "value": "4 L NS",
+      "time_ref": "ED",
+      "source_span": "row355983#4"
+    },
+    {
+      "claim_id": "C13",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "hct 29.1",
+      "time_ref": "ED",
+      "source_span": "row355983#5"
+    },
+    {
+      "claim_id": "C14",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "hct 35.1",
+      "time_ref": "12-31",
+      "source_span": "row355983#5"
+    },
+    {
+      "claim_id": "C15",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "INR 2.1",
+      "time_ref": "ED",
+      "source_span": "row355983#6"
+    },
+    {
+      "claim_id": "C16",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "potassium 6",
+      "time_ref": "ED",
+      "source_span": "row355983#7"
+    },
+    {
+      "claim_id": "C17",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "treated with",
+      "value": "calcium gluconate",
+      "time_ref": "ED",
+      "source_span": "row355983#7"
+    },
+    {
+      "claim_id": "C18",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "treated with",
+      "value": "kayexalate",
+      "time_ref": "ED",
+      "source_span": "row355983#7"
+    },
+    {
+      "claim_id": "C19",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "received",
+      "value": "40 mg omeprazole IV X 1",
+      "time_ref": "ED",
+      "source_span": "row355983#8"
+    },
+    {
+      "claim_id": "C20",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "transfused with",
+      "value": "1 U PRBCs",
+      "time_ref": "prior to transfer",
+      "source_span": "row355983#9"
+    },
+    {
+      "claim_id": "C21",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "blood pressure 77/46",
+      "time_ref": "In the ambulance",
+      "source_span": "row355983#11"
+    },
+    {
+      "claim_id": "C22",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "blood pressure 160/133",
+      "time_ref": "In the ambulance",
+      "source_span": "row355983#11"
+    },
+    {
+      "claim_id": "C23",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "FSBS 110",
+      "time_ref": "In the ambulance",
+      "source_span": "row355983#12"
+    },
+    {
+      "claim_id": "C24",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "presented with",
+      "value": "melenotic stool",
+      "time_ref": "on arrival to the ICU",
+      "source_span": "row355983#14"
+    },
+    {
+      "claim_id": "C25",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "BPs down to the 70s",
+      "time_ref": "on arrival to the ICU",
+      "source_span": "row355983#14"
+    },
+    {
+      "claim_id": "C26",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "procedure performed",
+      "value": "Arterial line placed",
+      "time_ref": "on arrival to the ICU",
+      "source_span": "row355983#15"
+    },
+    {
+      "claim_id": "C27",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "procedure performed",
+      "value": "2 large bore PIVs in place",
+      "time_ref": "on arrival to the ICU",
+      "source_span": "row355983#16"
+    },
+    {
+      "claim_id": "C28",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "procedure performed",
+      "value": "EGD",
+      "time_ref": "within 1 hour of patient arrival in the ICU",
+      "source_span": "row355983#18"
+    },
+    {
+      "claim_id": "C29",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "EGD finding",
+      "value": "2 banded varices",
+      "time_ref": "within 1 hour of patient arrival in the ICU",
+      "source_span": "row355983#18"
+    },
+    {
+      "claim_id": "C30",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Esophageal varices",
+      "time_ref": null,
+      "source_span": "row355983#19"
+    },
+    {
+      "claim_id": "C31",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Cirrhosis of liver, caused by PSC (primary sclerosing cholangitis)",
+      "time_ref": null,
+      "source_span": "row355983#23"
+    },
+    {
+      "claim_id": "C32",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Anemia, acute, secondary to blood loss (Hemorrhage, Bleeding)",
+      "time_ref": null,
+      "source_span": "row355983#27"
+    },
+    {
+      "claim_id": "C33",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "Pain control (acute pain, chronic pain)",
+      "time_ref": null,
+      "source_span": "row355983#31"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "case_id": "mimic-99613-177517-520810",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2346,
+    "summary_chars": 833,
+    "target_min_chars": 469,
+    "target_max_chars": 703,
+    "achieved_ratio": 0.35507246376811596,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 10,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row520810:1",
+      "E:note:row520810:3",
+      "E:note:row520810:4",
+      "E:note:row520810:5"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Acute and chronic respiratory failure [E:cond:2] presenting as respiratory distress [E:cond:2].",
+        "severity": "low",
+        "reason": "The fact sheet lists the diagnosis but does not explicitly state it presented as respiratory distress."
+      },
+      {
+        "sentence": "Severe COPD [E:note:row520810:1] and RLL pneumonia [E:note:row520810:5].",
+        "severity": "high",
+        "reason": "These conditions are not present in the provided fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Acute and chronic respiratory failure [E:cond:2] presenting as respiratory distress [E:cond:2].",
+        "suggested": "Acute and chronic respiratory failure [E:cond:2].",
+        "reason": "Remove interpretation of presentation not found in the fact sheet."
+      },
+      {
+        "original": "Severe COPD [E:note:row520810:1] and RLL pneumonia [E:note:row520810:5].",
+        "suggested": "",
+        "reason": "Remove claims not supported by the provided fact sheet."
+      }
+    ]
+  },
+  "review_passed": false,
+  "review_concern_counts": {
+    "high": 1,
+    "medium": 0,
+    "low": 1
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-99613-177517-520810/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 8.43,
+    "fk_words": 163,
+    "fk_sentences": 11,
+    "fk_syllables": 252,
+    "chars": 1357,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-99613-177517-520810/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0015038329875096679,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 74.43347799999174,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 41.60878308402607,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.001803999999538064,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 17.056512082985137,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 8.046935459016822,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0033510829671286047,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 13.101427582965698,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

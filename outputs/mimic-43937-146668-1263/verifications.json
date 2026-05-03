@@ -1,0 +1,640 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C2",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C3",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C4",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates mention aspirin administration and a decision not to use it, but neither explicitly confirms an allergy to aspirin."
+    },
+    {
+      "claim_id": "C5",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C7",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:15"
+      ],
+      "rationale": "The patient's record explicitly lists a diagnosis of unspecified dementia."
+    },
+    {
+      "claim_id": "C10",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list 'Chronic systolic heart failure' but do not mention an 'acute on chronic exacerbation' or the specific date of 8-30."
+    },
+    {
+      "claim_id": "C12",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:12"
+      ],
+      "rationale": "The evidence explicitly states the patient was unable to speak secondary to respiratory distress."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:2"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Intubation' as a Major Surgical or Invasive Procedure."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:2"
+      ],
+      "rationale": "The candidate evidence explicitly lists CVL under Major Surgical or Invasive Procedure."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:23"
+      ],
+      "rationale": "The evidence explicitly states the patient was given vanco/zosyn."
+    },
+    {
+      "claim_id": "C17",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:14"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was intubated with a 7.5 ETT."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:14"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was intubated using etomidate."
+    },
+    {
+      "claim_id": "C20",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:15"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was sedated with fentanyl."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:15"
+      ],
+      "rationale": "The evidence explicitly states the patient was sedated with midazolam."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:16"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was tachycardic to the 130s."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:16"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient had a blood pressure in the systolics of 60."
+    },
+    {
+      "claim_id": "C25",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:19"
+      ],
+      "rationale": "The candidate evidence explicitly states that a right IJ was placed into the cavoatrial junction."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:20"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient was given a total of 6L NS."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:21"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient's UA returned positive."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:23"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was given vanco/zosyn."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:24"
+      ],
+      "rationale": "The candidate evidence explicitly states that the EKG was concerning for ST elevation in lead 3."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:24"
+      ],
+      "rationale": "The evidence explicitly mentions the patient's EKG was in the context of a LBBB."
+    },
+    {
+      "claim_id": "C32",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "While severe sepsis (E:cond:9) and chronic ischemic heart disease (E:cond:16) are listed, there is no evidence specifically linking them as 'demand ischemia' resulting from sepsis."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:28"
+      ],
+      "rationale": "The candidate evidence explicitly lists Coronary artery disease in the patient's Past Medical History with the matching date."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:10"
+      ],
+      "rationale": "The candidate evidence confirms a diagnosis of Congestive heart failure."
+    },
+    {
+      "claim_id": "C35",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates mention chronic ischemic heart disease and history of TIA/cerebral infarction, but do not explicitly state a diagnosis of ischemic cardiomyopathy."
+    },
+    {
+      "claim_id": "C36",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C37",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C38",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C39",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C40",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C41",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C42",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C43",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C44",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C45",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C46",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence describes a ventilation procedure and does not contain blood pressure readings."
+    },
+    {
+      "claim_id": "C47",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C48",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C49",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C50",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:34"
+      ],
+      "rationale": "The candidate evidence explicitly states a WBC of 12.8 on 2200-8-4 at 10:15AM."
+    },
+    {
+      "claim_id": "C51",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C52",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C53",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C54",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C55",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C56",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C57",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C58",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C59",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C60",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C61",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C62",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C63",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C64",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C65",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C66",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C67",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C68",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C69",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C70",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C71",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C72",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C73",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C74",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided candidates contain information about conditions (hyperosmolality, TIA history, prostate hypertrophy) but no culture results for staph aureus in sputum or blood."
+    },
+    {
+      "claim_id": "C75",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:9"
+      ],
+      "rationale": "The patient has a recorded diagnosis of severe sepsis on 2200-08-04, which supports the claim of sepsis."
+    },
+    {
+      "claim_id": "C76",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:48"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was covered with vanco/cefepime/cipro."
+    },
+    {
+      "claim_id": "C77",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:49"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was started on a heparin drip for PE."
+    },
+    {
+      "claim_id": "C78",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:52"
+      ],
+      "rationale": "The evidence explicitly states that the patient was started on a statin."
+    },
+    {
+      "claim_id": "C79",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:52"
+      ],
+      "rationale": "The evidence explicitly states the patient was 'continued on plavix'."
+    },
+    {
+      "claim_id": "C80",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:6"
+      ],
+      "rationale": "The patient has a recorded condition of hypernatremia effective on 2200-08-04."
+    },
+    {
+      "claim_id": "C81",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:64"
+      ],
+      "rationale": "The candidate evidence explicitly lists Clopidogrel 75 mg PO DAILY."
+    },
+    {
+      "claim_id": "C82",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:65"
+      ],
+      "rationale": "The candidate evidence explicitly lists the medication, dose, route, frequency, and indication exactly as stated in the claim."
+    },
+    {
+      "claim_id": "C83",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:66"
+      ],
+      "rationale": "The candidate evidence explicitly lists Doxazosin 8 mg PO HS."
+    },
+    {
+      "claim_id": "C84",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:67"
+      ],
+      "rationale": "The candidate evidence explicitly lists Gabapentin 200 mg PO HS."
+    },
+    {
+      "claim_id": "C85",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:68"
+      ],
+      "rationale": "The candidate evidence explicitly lists the medication, dose, route, and frequency as stated in the claim."
+    },
+    {
+      "claim_id": "C86",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:69"
+      ],
+      "rationale": "The candidate evidence explicitly lists Metoprolol Tartrate 25mg PO BID."
+    },
+    {
+      "claim_id": "C87",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:70"
+      ],
+      "rationale": "The candidate evidence explicitly lists Mirtazapine 30 mg PO HS."
+    },
+    {
+      "claim_id": "C88",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:71"
+      ],
+      "rationale": "The candidate evidence explicitly lists the medication Senna 1 TAB PO BID."
+    },
+    {
+      "claim_id": "C89",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:72"
+      ],
+      "rationale": "The candidate evidence explicitly lists Lisinopril 5 mg PO DAILY."
+    },
+    {
+      "claim_id": "C90",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:73"
+      ],
+      "rationale": "The candidate evidence explicitly lists the medication, dose, and frequency matching the claim."
+    },
+    {
+      "claim_id": "C91",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:74"
+      ],
+      "rationale": "The candidate evidence explicitly lists Furosemide 20-40 mg PO DAILY."
+    },
+    {
+      "claim_id": "C92",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:75"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Multivitamin' in the patient's record."
+    },
+    {
+      "claim_id": "C93",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1263:76"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Cortisporin otic 2 drops qhs' as a medication."
+    }
+  ]
+}

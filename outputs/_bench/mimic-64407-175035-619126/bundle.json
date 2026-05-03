@@ -1,0 +1,521 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-64407-175035",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-64407",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-64407",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-175035",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-175035",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2169-12-26T00:00:00",
+          "end": "2170-01-06T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175035-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175035-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2169-12-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175035-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175035-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4275",
+              "display": "Cardiac arrest"
+            }
+          ],
+          "text": "Cardiac arrest"
+        },
+        "onsetDateTime": "2169-12-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175035-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175035-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42831",
+              "display": "Acute diastolic heart failure"
+            }
+          ],
+          "text": "Acute diastolic heart failure"
+        },
+        "onsetDateTime": "2169-12-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175035-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175035-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5070",
+              "display": "Pneumonitis due to inhalation of food or vomitus"
+            }
+          ],
+          "text": "Pneumonitis due to inhalation of food or vomitus"
+        },
+        "onsetDateTime": "2169-12-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175035-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175035-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5856",
+              "display": "End stage renal disease"
+            }
+          ],
+          "text": "End stage renal disease"
+        },
+        "onsetDateTime": "2169-12-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175035-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175035-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "40391",
+              "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease"
+            }
+          ],
+          "text": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease"
+        },
+        "onsetDateTime": "2169-12-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175035-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175035-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4254",
+              "display": "Other primary cardiomyopathies"
+            }
+          ],
+          "text": "Other primary cardiomyopathies"
+        },
+        "onsetDateTime": "2169-12-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175035-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175035-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2930",
+              "display": "Delirium due to conditions classified elsewhere"
+            }
+          ],
+          "text": "Delirium due to conditions classified elsewhere"
+        },
+        "onsetDateTime": "2169-12-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175035-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175035-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2762",
+              "display": "Acidosis"
+            }
+          ],
+          "text": "Acidosis"
+        },
+        "onsetDateTime": "2169-12-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175035-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175035-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2767",
+              "display": "Hyperpotassemia"
+            }
+          ],
+          "text": "Hyperpotassemia"
+        },
+        "onsetDateTime": "2169-12-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175035-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175035-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2169-12-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175035-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175035-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25000",
+              "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2169-12-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175035-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175035-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78791",
+              "display": "Diarrhea"
+            }
+          ],
+          "text": "Diarrhea"
+        },
+        "onsetDateTime": "2169-12-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175035-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175035-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42731",
+              "display": "Atrial fibrillation"
+            }
+          ],
+          "text": "Atrial fibrillation"
+        },
+        "onsetDateTime": "2169-12-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175035-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175035-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "28521",
+              "display": "Anemia in chronic kidney disease"
+            }
+          ],
+          "text": "Anemia in chronic kidney disease"
+        },
+        "onsetDateTime": "2169-12-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175035-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175035-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7242",
+              "display": "Lumbago"
+            }
+          ],
+          "text": "Lumbago"
+        },
+        "onsetDateTime": "2169-12-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175035-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175035-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4511",
+              "display": "Renal dialysis status"
+            }
+          ],
+          "text": "Renal dialysis status"
+        },
+        "onsetDateTime": "2169-12-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175035-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175035-1",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2169-12-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175035-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175035-2",
+        "status": "completed",
+        "code": {
+          "text": "Hemodialysis"
+        },
+        "performedDateTime": "2169-12-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175035-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175035-3",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2169-12-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175035-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175035-4",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2169-12-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175035-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175035-5",
+        "status": "completed",
+        "code": {
+          "text": "Spinal tap"
+        },
+        "performedDateTime": "2169-12-26"
+      }
+    }
+  ]
+}

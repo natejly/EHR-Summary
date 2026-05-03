@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Patient underwent angioplasty with two distal stent placements [E:note:row597:46], involving both drug-eluting [E:proc:3] and non-drug-eluting coronary artery stents [E:proc:4][E:proc:9].",
+      "severity": "medium",
+      "reason": "The fact sheet confirms the insertion of both types of stents, but does not specify that there were exactly 'two distal' placements."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Patient underwent angioplasty with two distal stent placements [E:note:row597:46], involving both drug-eluting [E:proc:3] and non-drug-eluting coronary artery stents [E:proc:4][E:proc:9].",
+      "suggested": "Patient underwent angioplasty [E:note:row597:46], involving both drug-eluting [E:proc:3] and non-drug-eluting coronary artery stents [E:proc:4][E:proc:9].",
+      "reason": "Removed specific count and location of stents not supported by the provided fact sheet."
+    }
+  ]
+}

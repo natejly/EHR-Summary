@@ -1,0 +1,21 @@
+{
+  "concerns": [
+    {
+      "sentence": "NSTEMI [E:note:row643550:1],",
+      "severity": "medium",
+      "reason": "The citation E:note:row643550:1 does not exist in the fact sheet; the correct evidence for subendocardial infarction is E:cond:7 and E:cond:8."
+    },
+    {
+      "sentence": "Diverticulitis with hemorrhage [E:cond:1][E:cond:2], acute on chronic diastolic HF [E:cond:3][E:cond:4], acute kidney failure [E:cond:5][E:cond:6], NSTEMI [E:note:row643550:1], posthemorrhagic anemia [E:cond:11][E:cond:12], C. difficile infection [E:cond:13][E:cond:14], delirium [E:cond:15][E:cond:16], acidosis [E:cond:17][E:cond:18], hypernatremia [E:cond:19][E:cond:20], PSVT [E:cond:21][E:cond:22], AFib [E:cond:25][E:cond:26], and DM with renal manifestations [E:cond:27][E:cond:28].",
+      "severity": "low",
+      "reason": "Missing hypertensive chronic kidney disease from the active problems list."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Diverticulitis with hemorrhage [E:cond:1][E:cond:2], acute on chronic diastolic HF [E:cond:3][E:cond:4], acute kidney failure [E:cond:5][E:cond:6], NSTEMI [E:note:row643550:1], posthemorrhagic anemia [E:cond:11][E:cond:12], C. difficile infection [E:cond:13][E:cond:14], delirium [E:cond:15][E:cond:16], acidosis [E:cond:17][E:cond:18], hypernatremia [E:cond:19][E:cond:20], PSVT [E:cond:21][E:cond:22], AFib [E:cond:25][E:cond:26], and DM with renal manifestations [E:cond:27][E:cond:28].",
+      "suggested": "Diverticulitis with hemorrhage [E:cond:1][E:cond:2], acute on chronic diastolic HF [E:cond:3][E:cond:4], acute kidney failure [E:cond:5][E:cond:6], subendocardial infarction [E:cond:7][E:cond:8], posthemorrhagic anemia [E:cond:11][E:cond:12], C. difficile infection [E:cond:13][E:cond:14], delirium [E:cond:15][E:cond:16], acidosis [E:cond:17][E:cond:18], hypernatremia [E:cond:19][E:cond:20], PSVT [E:cond:21][E:cond:22], AFib [E:cond:25][E:cond:26], DM with renal manifestations [E:cond:27][E:cond:28], and hypertensive chronic kidney disease [E:cond:29][E:cond:30].",
+      "reason": "Corrects hallucinated citation for NSTEMI and adds missing chronic kidney disease diagnosis."
+    }
+  ]
+}

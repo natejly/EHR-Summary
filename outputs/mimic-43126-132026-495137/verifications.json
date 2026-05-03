@@ -1,0 +1,272 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495137:1"
+      ],
+      "rationale": "The evidence explicitly states the patient is a gentleman with CLL."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495137:1"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has CLL and large cell transformation."
+    },
+    {
+      "claim_id": "C3",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:33",
+        "E:cond:34"
+      ],
+      "rationale": "Both candidate evidence items explicitly list a diagnosis of Diarrhea on 2124-08-21."
+    },
+    {
+      "claim_id": "C5",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495137:2",
+        "E:note:row495137:7"
+      ],
+      "rationale": "Both candidate sentences explicitly state that the patient has BK viremia."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495137:2"
+      ],
+      "rationale": "The evidence explicitly states the patient was started on cidofovir on 8-25."
+    },
+    {
+      "claim_id": "C9",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence is dated 2124-08-21, which does not match the claim's time reference of 9-5 to 9-6."
+    },
+    {
+      "claim_id": "C10",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate conditions mention agitation of unclear etiology."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence lists malignant lymphomas, which does not mention agitation or unresponsiveness."
+    },
+    {
+      "claim_id": "C12",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495137:6"
+      ],
+      "rationale": "The evidence explicitly states the patient had bilateral SDH."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495137:7"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient's BK viremia has worsened."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495137:10"
+      ],
+      "rationale": "The evidence explicitly states the patient received 1mg epi."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495137:10"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient had a return to afib in the 150 with pulse."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495137:11"
+      ],
+      "rationale": "The evidence explicitly states that the patient was intubated."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:47",
+        "E:cond:48"
+      ],
+      "rationale": "The patient has multiple recorded diagnoses of 'Anemia of other chronic disease'."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495137:12"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Post transfusion hct 20 22', matching the claim."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:53",
+        "E:cond:54"
+      ],
+      "rationale": "The patient has multiple recorded diagnoses of gross hematuria."
+    },
+    {
+      "claim_id": "C21",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C22",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495137:13"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Post transfustion hct 22 24', matching the claim."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495137:13"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient had a large melena stool at 5am."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495137:14"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to transfuse PRN and monitor for signs of bleeding."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495137:15"
+      ],
+      "rationale": "The candidate evidence explicitly states the diagnosis of 'Altered mental status (not Delirium)'."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495137:15"
+      ],
+      "rationale": "The evidence explicitly states 'Repeat head CTdone' with a timestamp starting at 9-1."
+    },
+    {
+      "claim_id": "C28",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495137:18"
+      ],
+      "rationale": "The candidate evidence explicitly states that 'occasional fent boluses' were given."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495137:20"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to continue monitoring mental status and use fentanyl PRN for agitation."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495137:21"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Impaired Skin Integrity' as an assessment."
+    },
+    {
+      "claim_id": "C32",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence lists pneumonitis and malignant lymphomas, but contains no information regarding skin issues on the scrotum, buttock, or arms."
+    },
+    {
+      "claim_id": "C33",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495137:22"
+      ],
+      "rationale": "The candidate evidence explicitly mentions '2 large open blisters on scrotum'."
+    },
+    {
+      "claim_id": "C35",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495137:23"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient continues with icteric/red urine."
+    },
+    {
+      "claim_id": "C36",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495137:24"
+      ],
+      "rationale": "The candidate evidence explicitly states the exact plan to continue frequent repositioning and change kerlex/softsorb PRN."
+    }
+  ]
+}

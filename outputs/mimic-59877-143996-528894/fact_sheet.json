@@ -1,0 +1,228 @@
+{
+  "case_id": "mimic-59877-143996-528894",
+  "sections": {
+    "hpi": [],
+    "active_problems": [
+      {
+        "text": "Other staphylococcal septicemia (2153-02-14)",
+        "evidence_ids": [
+          "E:cond:1"
+        ]
+      },
+      {
+        "text": "Acute and subacute bacterial endocarditis (2153-02-14)",
+        "evidence_ids": [
+          "E:cond:2"
+        ]
+      },
+      {
+        "text": "Subarachnoid hemorrhage (2153-02-14)",
+        "evidence_ids": [
+          "E:cond:3"
+        ]
+      },
+      {
+        "text": "Acute and subacute necrosis of liver (2153-02-14)",
+        "evidence_ids": [
+          "E:cond:4"
+        ]
+      },
+      {
+        "text": "Acute kidney failure, unspecified (2153-02-14)",
+        "evidence_ids": [
+          "E:cond:5"
+        ]
+      },
+      {
+        "text": "Defibrination syndrome (2153-02-14)",
+        "evidence_ids": [
+          "E:cond:6"
+        ]
+      },
+      {
+        "text": "Acute respiratory failure (2153-02-14)",
+        "evidence_ids": [
+          "E:cond:7"
+        ]
+      },
+      {
+        "text": "Subendocardial infarction, initial episode of care (2153-02-14)",
+        "evidence_ids": [
+          "E:cond:8"
+        ]
+      },
+      {
+        "text": "Spontaneous bacterial peritonitis (2153-02-14)",
+        "evidence_ids": [
+          "E:cond:9"
+        ]
+      },
+      {
+        "text": "Intestinal infection due to Clostridium difficile (2153-02-14)",
+        "evidence_ids": [
+          "E:cond:10"
+        ]
+      },
+      {
+        "text": "Vascular disorders of kidney (2153-02-14)",
+        "evidence_ids": [
+          "E:cond:11"
+        ]
+      },
+      {
+        "text": "Severe sepsis (2153-02-14)",
+        "evidence_ids": [
+          "E:cond:12"
+        ]
+      },
+      {
+        "text": "Malignant neoplasm of head, face, and neck (2153-02-14)",
+        "evidence_ids": [
+          "E:cond:13"
+        ]
+      },
+      {
+        "text": "Cirrhosis of liver without mention of alcohol (2153-02-14)",
+        "evidence_ids": [
+          "E:cond:14"
+        ]
+      },
+      {
+        "text": "Chronic hepatitis C without mention of hepatic coma (2153-02-14)",
+        "evidence_ids": [
+          "E:cond:15"
+        ]
+      },
+      {
+        "text": "Procedure: Continuous invasive mechanical ventilation for 96 consecutive hours or more (2153-02-14)",
+        "evidence_ids": [
+          "E:proc:1"
+        ]
+      },
+      {
+        "text": "Procedure: Insertion of endotracheal tube (2153-02-14)",
+        "evidence_ids": [
+          "E:proc:2"
+        ]
+      },
+      {
+        "text": "Procedure: Percutaneous abdominal drainage (2153-02-14)",
+        "evidence_ids": [
+          "E:proc:3"
+        ]
+      },
+      {
+        "text": "Procedure: Venous catheterization for renal dialysis (2153-02-14)",
+        "evidence_ids": [
+          "E:proc:4"
+        ]
+      },
+      {
+        "text": "has diagnosis: altered MS",
+        "evidence_ids": [
+          "E:note:row528894:1"
+        ]
+      },
+      {
+        "text": "has diagnosis: SAH",
+        "evidence_ids": [
+          "E:note:row528894:2"
+        ]
+      },
+      {
+        "text": "has diagnosis: DIC",
+        "evidence_ids": [
+          "E:note:row528894:10",
+          "E:note:row528894:11"
+        ]
+      },
+      {
+        "text": "has diagnosis: sepsis",
+        "evidence_ids": [
+          "E:cond:12",
+          "E:note:row528894:11",
+          "E:note:row528894:14"
+        ]
+      },
+      {
+        "text": "has diagnosis: Subarachnoid hemorrhage (SAH)",
+        "evidence_ids": [
+          "E:cond:3"
+        ]
+      },
+      {
+        "text": "has diagnosis: Respiratory failure, acute",
+        "evidence_ids": [
+          "E:note:row528894:6"
+        ]
+      },
+      {
+        "text": "has diagnosis: DIC most likely from malignancy and sepsis",
+        "evidence_ids": [
+          "E:note:row528894:11"
+        ]
+      },
+      {
+        "text": "has diagnosis: Sepsis, Severe (with organ dysfunction)",
+        "evidence_ids": [
+          "E:note:row528894:14"
+        ]
+      }
+    ],
+    "medications": [
+      {
+        "text": "takes medication: 2 units FFP",
+        "evidence_ids": [
+          "E:note:row528894:12"
+        ]
+      },
+      {
+        "text": "takes medication: 2 units Plts",
+        "evidence_ids": [
+          "E:note:row528894:12"
+        ]
+      },
+      {
+        "text": "takes medication: IV Flagyl",
+        "evidence_ids": [
+          "E:note:row528894:15"
+        ]
+      }
+    ],
+    "labs": [],
+    "vitals": [
+      {
+        "text": "vital sign: PEARL size 2",
+        "evidence_ids": [
+          "E:note:row528894:4"
+        ]
+      },
+      {
+        "text": "vital sign: Sating 99-100%",
+        "evidence_ids": [
+          "E:note:row528894:8"
+        ]
+      }
+    ],
+    "plan": [
+      {
+        "text": "plan to: CT head in am",
+        "evidence_ids": [
+          "E:note:row528894:5"
+        ]
+      },
+      {
+        "text": "plan to: Keep INR <1.4",
+        "evidence_ids": [
+          "E:note:row528894:5"
+        ]
+      },
+      {
+        "text": "plan to: plts >50",
+        "evidence_ids": [
+          "E:note:row528894:5"
+        ]
+      }
+    ]
+  }
+}

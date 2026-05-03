@@ -1,0 +1,293 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "While evidence shows secondary malignant neoplasms of the lung and brain, there is no mention of the primary diagnosis being renal cell carcinoma."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:proc:1"
+      ],
+      "rationale": "The candidate evidence explicitly records a high-dose infusion of interleukin-2 (IL-2) on the specified date of 2124-02-29."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:5"
+      ],
+      "rationale": "The patient has a recorded diagnosis of Septic shock effective on 2124-02-29."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row514701:2",
+        "E:note:row514701:5"
+      ],
+      "rationale": "Both evidence items explicitly state that the patient received dopamine."
+    },
+    {
+      "claim_id": "C5",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list conditions and encounters related to neoplasms and immunotherapy, but does not list a specific medication named 'neo'."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:19"
+      ],
+      "rationale": "The candidate evidence confirms a diagnosis of 'Nausea with vomiting' starting on 2124-02-29, which matches the claim's value and start date."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:8"
+      ],
+      "rationale": "The patient was diagnosed with toxic encephalopathy on 2124-02-29, which matches the start of the claim's time reference."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:20"
+      ],
+      "rationale": "The candidate evidence confirms a diagnosis of Diarrhea starting on 2124-02-29, which matches the start date of the claim's time range."
+    },
+    {
+      "claim_id": "C10",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence refers to a drug adverse effect and does not contain any blood pressure or hypotension data."
+    },
+    {
+      "claim_id": "C12",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list conditions and encounters but does not contain any medication records for 'neo'."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row514701:8"
+      ],
+      "rationale": "The evidence explicitly lists 'Renal failure, acute (Acute renal failure, ARF)' as an assessment."
+    },
+    {
+      "claim_id": "C14",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C15",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:12"
+      ],
+      "rationale": "The patient has a documented diagnosis of Acidosis starting on 2124-02-29, which supports the claim."
+    },
+    {
+      "claim_id": "C17",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence lists interleukin-2 and oxazolidinone infusions, but there is no mention of a bicarb infusion."
+    },
+    {
+      "claim_id": "C18",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C19",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row514701:2",
+        "E:note:row514701:5"
+      ],
+      "rationale": "Both candidates explicitly state that the patient received dopamine."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row514701:7"
+      ],
+      "rationale": "The evidence explicitly states the patient went into rapid Afib."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row514701:7"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient had a heart rate (HR) of 130-150."
+    },
+    {
+      "claim_id": "C23",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C24",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C25",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C26",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list conditions and encounters related to neoplasms and immunotherapy, but does not list a specific medication named 'neo'."
+    },
+    {
+      "claim_id": "C27",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence refers to nausea and vomiting, which does not mention cardioversion or energy levels."
+    },
+    {
+      "claim_id": "C28",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row514701:8"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Renal failure, acute (Acute renal failure, ARF)' within the assessment section."
+    },
+    {
+      "claim_id": "C30",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence describes a drug adverse effect and does not mention a Foley catheter."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row514701:13"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has total body anasarca."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row514701:13"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has weeping edema."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row514701:16"
+      ],
+      "rationale": "The candidate evidence contains the exact phrasing of the claim regarding the possibility of CRRT if renal function does not improve."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row514701:17"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Altered mental status (not Delirium)'."
+    },
+    {
+      "claim_id": "C35",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate conditions mention confusion or agitation."
+    },
+    {
+      "claim_id": "C36",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C37",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row514701:24"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Continue with IV ativan PRN'."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row514701:24"
+      ],
+      "rationale": "The candidate evidence explicitly mentions 'Impaired Skin Integrity' in the context of the patient's assessment."
+    },
+    {
+      "claim_id": "C39",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The evidence confirms the administration of IL-2 therapy but does not mention skin sloughing or any adverse reactions."
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row514701:25"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has multiple excoriated areas on the coccyx and scrotum."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row514701:26",
+        "E:note:row514701:30"
+      ],
+      "rationale": "The candidates explicitly state that PRN lotions are applied as needed and are part of the ordered plan."
+    }
+  ]
+}

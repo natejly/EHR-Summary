@@ -1,0 +1,218 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C2",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C3",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C4",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C5",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600943:3"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has significant back pain that has been worsening in the last week."
+    },
+    {
+      "claim_id": "C7",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:8"
+      ],
+      "rationale": "The candidate evidence confirms a diagnosis of pulmonary collapse, which supports the claim of partial LLL (left lower lobe) collapse."
+    },
+    {
+      "claim_id": "C9",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:1"
+      ],
+      "rationale": "The patient's condition list explicitly includes a diagnosis of Lyme Disease."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The evidence shows a diagnosis of Lyme Disease, but there is no record of a specific lab titer result or its source from a PCP."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600943:6"
+      ],
+      "rationale": "The candidate evidence explicitly states that the repeat titer is pending."
+    },
+    {
+      "claim_id": "C13",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates do not mention meningitis or the specific rule-out process for viral, bacterial, or fungal infections."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600943:8"
+      ],
+      "rationale": "The candidate evidence explicitly states that the CSF culture (cx) is pending."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600943:8"
+      ],
+      "rationale": "The candidate evidence explicitly states '(prelim gram stain +WBCs)' in the context of a CSF culture."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600943:9"
+      ],
+      "rationale": "The evidence explicitly mentions the administration of Ceftriaxone to cover a Lyme diagnosis."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600943:10"
+      ],
+      "rationale": "The evidence explicitly states that the MRI was completed yesterday."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600943:11"
+      ],
+      "rationale": "The evidence explicitly states the patient remains afebrile."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600943:16"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Dyspnea (Shortness of breath)' in the assessment section."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600943:16"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was 'Extubated this am'."
+    },
+    {
+      "claim_id": "C21",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C22",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence contains diagnosis codes for encephalitis and delirium, but no vital sign data regarding oxygen saturation."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600943:17"
+      ],
+      "rationale": "The candidate evidence explicitly states that 'intermittent wheezing noted to upper fields'."
+    },
+    {
+      "claim_id": "C24",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence contains diagnosis codes for encephalitis and delirium, but no respiratory rate or vital sign data to verify tachypnea."
+    },
+    {
+      "claim_id": "C25",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The evidence confirms a general pulmonary collapse but does not specify the location as the left lower lobe (LLL) or that it has significantly worsened."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600943:23"
+      ],
+      "rationale": "The candidate evidence is a direct verbatim match of the claim."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600943:25"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan for mask bipap this evening."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600943:26"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Acute Pain' as part of the assessment."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600943:26"
+      ],
+      "rationale": "The evidence explicitly states the patient complains of back and neck pain intermittently."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600943:27"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Prn Dilaudid dosing' as an action for the patient."
+    }
+  ]
+}

@@ -1,0 +1,558 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-59113-169374",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-59113",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-59113",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-169374",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-169374",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2194-10-31T00:00:00",
+          "end": "2194-11-08T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-169374-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-169374-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "00845",
+              "display": "Intestinal infection due to Clostridium difficile"
+            }
+          ],
+          "text": "Intestinal infection due to Clostridium difficile"
+        },
+        "onsetDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-169374-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-169374-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0389",
+              "display": "Unspecified septicemia"
+            }
+          ],
+          "text": "Unspecified septicemia"
+        },
+        "onsetDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-169374-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-169374-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-169374-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-169374-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-169374-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-169374-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5734",
+              "display": "Hepatic infarction"
+            }
+          ],
+          "text": "Hepatic infarction"
+        },
+        "onsetDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-169374-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-169374-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5770",
+              "display": "Acute pancreatitis"
+            }
+          ],
+          "text": "Acute pancreatitis"
+        },
+        "onsetDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-169374-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-169374-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99592",
+              "display": "Severe sepsis"
+            }
+          ],
+          "text": "Severe sepsis"
+        },
+        "onsetDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-169374-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-169374-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25541",
+              "display": "Glucocorticoid deficiency"
+            }
+          ],
+          "text": "Glucocorticoid deficiency"
+        },
+        "onsetDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-169374-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-169374-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2762",
+              "display": "Acidosis"
+            }
+          ],
+          "text": "Acidosis"
+        },
+        "onsetDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-169374-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-169374-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2761",
+              "display": "Hyposmolality and/or hyponatremia"
+            }
+          ],
+          "text": "Hyposmolality and/or hyponatremia"
+        },
+        "onsetDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-169374-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-169374-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "45340",
+              "display": "Acute venous embolism and thrombosis of unspecified deep vessels of lower extremity"
+            }
+          ],
+          "text": "Acute venous embolism and thrombosis of unspecified deep vessels of lower extremity"
+        },
+        "onsetDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-169374-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-169374-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5180",
+              "display": "Pulmonary collapse"
+            }
+          ],
+          "text": "Pulmonary collapse"
+        },
+        "onsetDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-169374-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-169374-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2841",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-169374-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-169374-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2875",
+              "display": "Thrombocytopenia, unspecified"
+            }
+          ],
+          "text": "Thrombocytopenia, unspecified"
+        },
+        "onsetDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-169374-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-169374-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V08",
+              "display": "Asymptomatic human immunodeficiency virus [HIV] infection status"
+            }
+          ],
+          "text": "Asymptomatic human immunodeficiency virus [HIV] infection status"
+        },
+        "onsetDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-169374-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-169374-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25000",
+              "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-169374-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-169374-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "23875",
+              "display": "Myelodysplastic syndrome, unspecified"
+            }
+          ],
+          "text": "Myelodysplastic syndrome, unspecified"
+        },
+        "onsetDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-169374-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-169374-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-169374-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-169374-1",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-169374-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-169374-2",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-169374-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-169374-3",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-169374-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-169374-4",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-169374-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-169374-5",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization for renal dialysis"
+        },
+        "performedDateTime": "2194-10-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-169374-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-169374-6",
+        "status": "completed",
+        "code": {
+          "text": "Hemodialysis"
+        },
+        "performedDateTime": "2194-10-31"
+      }
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-70926-112660",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-70926",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-70926",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-112660",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-112660",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2137-03-09T00:00:00",
+          "end": "2137-03-17T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112660-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112660-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5722",
+              "display": "Hepatic encephalopathy"
+            }
+          ],
+          "text": "Hepatic encephalopathy"
+        },
+        "onsetDateTime": "2137-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112660-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112660-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2137-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112660-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112660-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2137-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112660-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112660-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0389",
+              "display": "Unspecified septicemia"
+            }
+          ],
+          "text": "Unspecified septicemia"
+        },
+        "onsetDateTime": "2137-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112660-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112660-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99591",
+              "display": "Sepsis"
+            }
+          ],
+          "text": "Sepsis"
+        },
+        "onsetDateTime": "2137-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112660-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112660-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5119",
+              "display": "Unspecified pleural effusion"
+            }
+          ],
+          "text": "Unspecified pleural effusion"
+        },
+        "onsetDateTime": "2137-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112660-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112660-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5781",
+              "display": "Blood in stool"
+            }
+          ],
+          "text": "Blood in stool"
+        },
+        "onsetDateTime": "2137-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112660-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112660-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5990",
+              "display": "Urinary tract infection, site not specified"
+            }
+          ],
+          "text": "Urinary tract infection, site not specified"
+        },
+        "onsetDateTime": "2137-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112660-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112660-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2762",
+              "display": "Acidosis"
+            }
+          ],
+          "text": "Acidosis"
+        },
+        "onsetDateTime": "2137-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112660-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112660-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5715",
+              "display": "Cirrhosis of liver without mention of alcohol"
+            }
+          ],
+          "text": "Cirrhosis of liver without mention of alcohol"
+        },
+        "onsetDateTime": "2137-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112660-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112660-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3004",
+              "display": "Dysthymic disorder"
+            }
+          ],
+          "text": "Dysthymic disorder"
+        },
+        "onsetDateTime": "2137-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-112660-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-112660-1",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2137-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-112660-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-112660-2",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2137-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-112660-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-112660-3",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2137-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-112660-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-112660-4",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2137-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-112660-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-112660-5",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of other (naso-)gastric tube"
+        },
+        "performedDateTime": "2137-03-09"
+      }
+    }
+  ]
+}

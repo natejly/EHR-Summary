@@ -1,0 +1,569 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-92525-141986",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-92525",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-92525",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-141986",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-141986",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2142-11-20T00:00:00",
+          "end": "2142-12-13T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141986-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141986-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "43301",
+              "display": "Occlusion and stenosis of basilar artery with cerebral infarction"
+            }
+          ],
+          "text": "Occlusion and stenosis of basilar artery with cerebral infarction"
+        },
+        "onsetDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141986-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141986-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42833",
+              "display": "Acute on chronic diastolic heart failure"
+            }
+          ],
+          "text": "Acute on chronic diastolic heart failure"
+        },
+        "onsetDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141986-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141986-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5185",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141986-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141986-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99731",
+              "display": "Ventilator associated pneumonia"
+            }
+          ],
+          "text": "Ventilator associated pneumonia"
+        },
+        "onsetDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141986-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141986-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1120",
+              "display": "Candidiasis of mouth"
+            }
+          ],
+          "text": "Candidiasis of mouth"
+        },
+        "onsetDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141986-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141986-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "9341",
+              "display": "Foreign body in main bronchus"
+            }
+          ],
+          "text": "Foreign body in main bronchus"
+        },
+        "onsetDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141986-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141986-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141986-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141986-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "32723",
+              "display": "Obstructive sleep apnea (adult)(pediatric)"
+            }
+          ],
+          "text": "Obstructive sleep apnea (adult)(pediatric)"
+        },
+        "onsetDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141986-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141986-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25000",
+              "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141986-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141986-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "30391",
+              "display": "Other and unspecified alcohol dependence, continuous"
+            }
+          ],
+          "text": "Other and unspecified alcohol dependence, continuous"
+        },
+        "onsetDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141986-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141986-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "27801",
+              "display": "Morbid obesity"
+            }
+          ],
+          "text": "Morbid obesity"
+        },
+        "onsetDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141986-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141986-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141986-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141986-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41401",
+              "display": "Coronary atherosclerosis of native coronary artery"
+            }
+          ],
+          "text": "Coronary atherosclerosis of native coronary artery"
+        },
+        "onsetDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141986-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141986-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42731",
+              "display": "Atrial fibrillation"
+            }
+          ],
+          "text": "Atrial fibrillation"
+        },
+        "onsetDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141986-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141986-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V5861",
+              "display": "Long-term (current) use of anticoagulants"
+            }
+          ],
+          "text": "Long-term (current) use of anticoagulants"
+        },
+        "onsetDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141986-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141986-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4582",
+              "display": "Percutaneous transluminal coronary angioplasty status"
+            }
+          ],
+          "text": "Percutaneous transluminal coronary angioplasty status"
+        },
+        "onsetDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-141986-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-141986-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E912",
+              "display": "Inhalation and ingestion of other object causing obstruction of respiratory tract or suffocation"
+            }
+          ],
+          "text": "Inhalation and ingestion of other object causing obstruction of respiratory tract or suffocation"
+        },
+        "onsetDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141986-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141986-1",
+        "status": "completed",
+        "code": {
+          "text": "Temporary tracheostomy"
+        },
+        "performedDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141986-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141986-2",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous (endoscopic) jejunostomy [PEJ]"
+        },
+        "performedDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141986-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141986-3",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141986-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141986-4",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141986-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141986-5",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141986-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141986-6",
+        "status": "completed",
+        "code": {
+          "text": "Aortography"
+        },
+        "performedDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141986-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141986-7",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141986-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141986-8",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2142-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-141986-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-141986-9",
+        "status": "completed",
+        "code": {
+          "text": "Fiber-optic bronchoscopy"
+        },
+        "performedDateTime": "2142-11-20"
+      }
+    }
+  ]
+}

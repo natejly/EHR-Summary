@@ -1,0 +1,133 @@
+{
+  "case_id": "mimic-60106-136013-660723",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2122,
+    "summary_chars": 957,
+    "target_min_chars": 424,
+    "target_max_chars": 636,
+    "achieved_ratio": 0.45098963242224316,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 10,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:11",
+      "E:cond:18",
+      "E:cond:2",
+      "E:cond:21",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row660723:1",
+      "E:note:row660723:11",
+      "E:note:row660723:12",
+      "E:note:row660723:13",
+      "E:note:row660723:14",
+      "E:note:row660723:15",
+      "E:note:row660723:2",
+      "E:note:row660723:7"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Tube feed on hold pending morning nerve biopsy [E:note:row660723:13].",
+        "severity": "medium",
+        "reason": "The summary presents the nerve biopsy as a confirmed plan, whereas the fact sheet indicates it is questioned ('?nerve biopsy')."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Tube feed on hold pending morning nerve biopsy [E:note:row660723:13].",
+        "suggested": "Tube feed on hold pending possible morning nerve biopsy [E:note:row660723:13].",
+        "reason": "Reflects the uncertainty indicated by the question mark in the source text."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-60106-136013-660723/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.35,
+    "fk_words": 215,
+    "fk_sentences": 21,
+    "fk_syllables": 327,
+    "chars": 1806,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-60106-136013-660723/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.021596040984150022,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 109.6595429169829,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 204.75379754201276,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0011941249831579626,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 32.94782295799814,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 17.018726165988483,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0012566249934025109,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 5.383215457957704,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

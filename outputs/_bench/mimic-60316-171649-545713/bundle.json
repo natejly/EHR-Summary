@@ -1,0 +1,520 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-60316-171649",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-60316",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-60316",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-171649",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-171649",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2163-11-01T00:00:00",
+          "end": "2163-11-08T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-171649-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-171649-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1530",
+              "display": "Malignant neoplasm of hepatic flexure"
+            }
+          ],
+          "text": "Malignant neoplasm of hepatic flexure"
+        },
+        "onsetDateTime": "2163-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-171649-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-171649-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42833",
+              "display": "Acute on chronic diastolic heart failure"
+            }
+          ],
+          "text": "Acute on chronic diastolic heart failure"
+        },
+        "onsetDateTime": "2163-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-171649-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-171649-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "56089",
+              "display": "Other specified intestinal obstruction"
+            }
+          ],
+          "text": "Other specified intestinal obstruction"
+        },
+        "onsetDateTime": "2163-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-171649-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-171649-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5185",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2163-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-171649-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-171649-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2163-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-171649-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-171649-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5180",
+              "display": "Pulmonary collapse"
+            }
+          ],
+          "text": "Pulmonary collapse"
+        },
+        "onsetDateTime": "2163-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-171649-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-171649-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2163-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-171649-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-171649-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "9975",
+              "display": "Urinary complications, not elsewhere classified"
+            }
+          ],
+          "text": "Urinary complications, not elsewhere classified"
+        },
+        "onsetDateTime": "2163-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-171649-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-171649-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "45829",
+              "display": "Other iatrogenic hypotension"
+            }
+          ],
+          "text": "Other iatrogenic hypotension"
+        },
+        "onsetDateTime": "2163-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-171649-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-171649-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "496",
+              "display": "Chronic airway obstruction, not elsewhere classified"
+            }
+          ],
+          "text": "Chronic airway obstruction, not elsewhere classified"
+        },
+        "onsetDateTime": "2163-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-171649-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-171649-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "40390",
+              "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+            }
+          ],
+          "text": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+        },
+        "onsetDateTime": "2163-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-171649-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-171649-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5859",
+              "display": "Chronic kidney disease, unspecified"
+            }
+          ],
+          "text": "Chronic kidney disease, unspecified"
+        },
+        "onsetDateTime": "2163-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-171649-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-171649-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25000",
+              "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2163-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-171649-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-171649-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2724",
+              "display": "Other and unspecified hyperlipidemia"
+            }
+          ],
+          "text": "Other and unspecified hyperlipidemia"
+        },
+        "onsetDateTime": "2163-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-171649-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-171649-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4581",
+              "display": "Aortocoronary bypass status"
+            }
+          ],
+          "text": "Aortocoronary bypass status"
+        },
+        "onsetDateTime": "2163-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-171649-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-171649-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V6441",
+              "display": "Laparoscopic surgical procedure converted to open procedure"
+            }
+          ],
+          "text": "Laparoscopic surgical procedure converted to open procedure"
+        },
+        "onsetDateTime": "2163-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-171649-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-171649-1",
+        "status": "completed",
+        "code": {
+          "text": "Open and other right hemicolectomy"
+        },
+        "performedDateTime": "2163-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-171649-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-171649-2",
+        "status": "completed",
+        "code": {
+          "text": "Large-to-large intestinal anastomosis"
+        },
+        "performedDateTime": "2163-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-171649-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-171649-3",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of large intestine"
+        },
+        "performedDateTime": "2163-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-171649-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-171649-4",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of packed cells"
+        },
+        "performedDateTime": "2163-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-171649-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-171649-5",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2163-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-171649-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-171649-6",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2163-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-171649-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-171649-7",
+        "status": "completed",
+        "code": {
+          "text": "Non-invasive mechanical ventilation"
+        },
+        "performedDateTime": "2163-11-01"
+      }
+    }
+  ]
+}

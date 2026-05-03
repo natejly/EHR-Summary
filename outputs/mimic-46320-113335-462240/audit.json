@@ -1,0 +1,127 @@
+{
+  "case_id": "mimic-46320-113335-462240",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 1217,
+    "summary_chars": 503,
+    "target_min_chars": 243,
+    "target_max_chars": 365,
+    "achieved_ratio": 0.4133114215283484,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 6,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:103",
+      "E:cond:13",
+      "E:cond:31",
+      "E:cond:43",
+      "E:cond:55",
+      "E:cond:67",
+      "E:cond:7",
+      "E:cond:85",
+      "E:cond:97",
+      "E:note:row462240:12",
+      "E:note:row462240:13",
+      "E:note:row462240:3"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Also has DM II [E:cond:85], MRSA [E:cond:97], and Pseudomonas [E:cond:103].",
+        "severity": "medium",
+        "reason": "MRSA and Pseudomonas are not listed in the provided fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Also has DM II [E:cond:85], MRSA [E:cond:97], and Pseudomonas [E:cond:103].",
+        "suggested": "Also has DM II [E:cond:85].",
+        "reason": "Remove unsupported claims regarding MRSA and Pseudomonas."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-46320-113335-462240/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.96,
+    "fk_words": 175,
+    "fk_sentences": 16,
+    "fk_syllables": 286,
+    "chars": 1535,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-46320-113335-462240/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0042946250177919865,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 81.69568983302452,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 20.281120583997108,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0037804170278832316,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 20.664070791972335,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 11.67957070900593,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.004374750016722828,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 5.827950417005923,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

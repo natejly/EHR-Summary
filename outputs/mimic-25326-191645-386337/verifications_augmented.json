@@ -1,0 +1,163 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row386337:2"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is a 'Male with HD dependent ESRD'."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row386337:2"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'CAD s/p MI' as a condition of the patient."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row386337:2"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has non-ischemic CMY."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row386337:2"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has an EF of 35-40%."
+    },
+    {
+      "claim_id": "C5",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C7",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C9",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates mention severe sepsis but do not specify GPC (Gram-positive cocci) or the source as an HD line."
+    },
+    {
+      "claim_id": "C10",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C12",
+      "status": "contradicted",
+      "evidence_ids": [
+        "E:cond:5",
+        "E:cond:6"
+      ],
+      "rationale": "The claim states sepsis without organ dysfunction, but the evidence records 'Severe sepsis', which by definition involves organ dysfunction."
+    },
+    {
+      "claim_id": "C13",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C14",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C15",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C16",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:proc:1",
+        "E:proc:2",
+        "E:proc:23",
+        "E:proc:24"
+      ],
+      "rationale": "The candidates confirm multiple instances of venous catheterization for renal dialysis, which supports the claim of a dialysis catheter insertion."
+    },
+    {
+      "claim_id": "C18",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C19",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C20",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C21",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row386337:3"
+      ],
+      "rationale": "The candidate evidence explicitly states 'SBP 80 s- low 100', matching the claim exactly."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:13",
+        "E:cond:14"
+      ],
+      "rationale": "Both candidate evidence items explicitly list 'End stage renal disease' as a condition."
+    }
+  ]
+}

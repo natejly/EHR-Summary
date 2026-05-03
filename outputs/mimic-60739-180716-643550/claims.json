@@ -1,0 +1,310 @@
+{
+  "claims": [
+    {
+      "claim_id": "C1",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "NSTEMI",
+      "time_ref": "12-4",
+      "source_span": "row643550#0"
+    },
+    {
+      "claim_id": "C2",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "acute on chronic diastolic CHF exacerbation",
+      "time_ref": "12-4",
+      "source_span": "row643550#0"
+    },
+    {
+      "claim_id": "C3",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "anemia d/t GIB",
+      "time_ref": "12-4",
+      "source_span": "row643550#0"
+    },
+    {
+      "claim_id": "C4",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Lasix gtt",
+      "time_ref": "12-4 to 12-9",
+      "source_span": "row643550#1"
+    },
+    {
+      "claim_id": "C5",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "received procedure",
+      "value": "tnsf w/ prbc",
+      "time_ref": "12-4 to 12-9",
+      "source_span": "row643550#1"
+    },
+    {
+      "claim_id": "C6",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "has vital",
+      "value": "fevers (104 pr)",
+      "time_ref": "12-11",
+      "source_span": "row643550#2"
+    },
+    {
+      "claim_id": "C7",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "wbc 22 (13.4)",
+      "time_ref": "12-11",
+      "source_span": "row643550#2"
+    },
+    {
+      "claim_id": "C8",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Prob C-diff",
+      "time_ref": "12-11",
+      "source_span": "row643550#3"
+    },
+    {
+      "claim_id": "C9",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "1^st sample ([**12-12**]) is positive",
+      "time_ref": "12-12",
+      "source_span": "row643550#3"
+    },
+    {
+      "claim_id": "C10",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "iv flagyl",
+      "time_ref": "12-12",
+      "source_span": "row643550#3"
+    },
+    {
+      "claim_id": "C11",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "vanco",
+      "time_ref": "12-12",
+      "source_span": "row643550#3"
+    },
+    {
+      "claim_id": "C12",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "zosyn",
+      "time_ref": "12-12",
+      "source_span": "row643550#3"
+    },
+    {
+      "claim_id": "C13",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "rapid AF",
+      "time_ref": "12-11",
+      "source_span": "row643550#4"
+    },
+    {
+      "claim_id": "C14",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "iv lopressor q4",
+      "time_ref": "12-11",
+      "source_span": "row643550#4"
+    },
+    {
+      "claim_id": "C15",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "has vital",
+      "value": "low grade fevers (99.4-7ax)",
+      "time_ref": "12-11",
+      "source_span": "row643550#5"
+    },
+    {
+      "claim_id": "C16",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Cre 2.6 (baseline)",
+      "time_ref": "12-11",
+      "source_span": "row643550#5"
+    },
+    {
+      "claim_id": "C17",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "received procedure",
+      "value": "ECHO",
+      "time_ref": "12-11",
+      "source_span": "row643550#6"
+    },
+    {
+      "claim_id": "C18",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Gastrointestinal bleed, upper (Melena, GI Bleed, GIB)",
+      "time_ref": "12-12",
+      "source_span": "row643550#7"
+    },
+    {
+      "claim_id": "C19",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Hct 31.6",
+      "time_ref": "12-12",
+      "source_span": "row643550#8"
+    },
+    {
+      "claim_id": "C20",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Hct 34.3",
+      "time_ref": "12-12",
+      "source_span": "row643550#8"
+    },
+    {
+      "claim_id": "C21",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Guiac stool Ob+",
+      "time_ref": "12-12",
+      "source_span": "row643550#11"
+    },
+    {
+      "claim_id": "C22",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "Mon;itor hct, s/s bleeding, guiac stool",
+      "time_ref": "12-12",
+      "source_span": "row643550#12"
+    },
+    {
+      "claim_id": "C23",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Renal failure, acute (Acute renal failure, ARF)",
+      "time_ref": "12-13",
+      "source_span": "row643550#13"
+    },
+    {
+      "claim_id": "C24",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Cr ^ 3.0 from 2.6",
+      "time_ref": "12-13",
+      "source_span": "row643550#14"
+    },
+    {
+      "claim_id": "C25",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "ns 125cc/hr",
+      "time_ref": "12-13",
+      "source_span": "row643550#15"
+    },
+    {
+      "claim_id": "C26",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "Follow renal fx",
+      "time_ref": "12-13",
+      "source_span": "row643550#17"
+    },
+    {
+      "claim_id": "C27",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "C. difficile infection (C Diff, Cdiff Colitis, Clostridium Difficile)",
+      "time_ref": "12-12",
+      "source_span": "row643550#18"
+    },
+    {
+      "claim_id": "C28",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "has vital",
+      "value": "tm 100.2",
+      "time_ref": "12-12",
+      "source_span": "row643550#19"
+    },
+    {
+      "claim_id": "C29",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Flagyl d/c",
+      "time_ref": "12-12",
+      "source_span": "row643550#20"
+    },
+    {
+      "claim_id": "C30",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "zosyn d/c",
+      "time_ref": "12-12",
+      "source_span": "row643550#20"
+    },
+    {
+      "claim_id": "C31",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "vancomycin changed from iv to po",
+      "time_ref": "12-12",
+      "source_span": "row643550#20"
+    },
+    {
+      "claim_id": "C32",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "received procedure",
+      "value": "KUB done",
+      "time_ref": "12-12",
+      "source_span": "row643550#20"
+    },
+    {
+      "claim_id": "C33",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "baracat",
+      "time_ref": "1700",
+      "source_span": "row643550#20"
+    },
+    {
+      "claim_id": "C34",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "CT scan this eve",
+      "time_ref": "12-12",
+      "source_span": "row643550#22"
+    }
+  ]
+}

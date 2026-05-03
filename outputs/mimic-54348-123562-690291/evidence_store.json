@@ -1,0 +1,1231 @@
+{
+  "case_id": "mimic-54348-123562-690291",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:enc-123562",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Alcohol withdrawal",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "29181",
+        "display": "Alcohol withdrawal"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Other pulmonary embolism and infarction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41519",
+        "display": "Other pulmonary embolism and infarction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute venous embolism and thrombosis of deep vessels of proximal lower extremity",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "45341",
+        "display": "Acute venous embolism and thrombosis of deep vessels of proximal lower extremity"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Pneumonitis due to inhalation of food or vomitus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5070",
+        "display": "Pneumonitis due to inhalation of food or vomitus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Injury to bladder and urethra, without mention of open wound into cavity",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "8670",
+        "display": "Injury to bladder and urethra, without mention of open wound into cavity"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Acute and subacute bacterial endocarditis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4210",
+        "display": "Acute and subacute bacterial endocarditis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Other primary cardiomyopathies",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4254",
+        "display": "Other primary cardiomyopathies"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Intestinal infection due to Clostridium difficile",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "00845",
+        "display": "Intestinal infection due to Clostridium difficile"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Candidiasis of mouth",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1120",
+        "display": "Candidiasis of mouth"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Encephalopathy, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34830",
+        "display": "Encephalopathy, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Acute venous embolism and thrombosis of deep vessels of distal lower extremity",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "45342",
+        "display": "Acute venous embolism and thrombosis of deep vessels of distal lower extremity"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Urinary tract infection, site not specified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5990",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Alkalosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2763",
+        "display": "Alkalosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Bacteremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7907",
+        "display": "Bacteremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Other and unspecified alcohol dependence, continuous",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "30391",
+        "display": "Other and unspecified alcohol dependence, continuous"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Acute alcoholic hepatitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5711",
+        "display": "Acute alcoholic hepatitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Cocaine abuse, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "30560",
+        "display": "Cocaine abuse, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Opioid abuse, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "30550",
+        "display": "Opioid abuse, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Unspecified viral hepatitis C without hepatic coma",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "07070",
+        "display": "Unspecified viral hepatitis C without hepatic coma"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Depressive disorder, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "311",
+        "display": "Depressive disorder, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Unspecified accident",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E9289",
+        "display": "Unspecified accident"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:25",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-25",
+      "text": null
+    },
+    {
+      "id": "E:cond:26",
+      "kind": "condition",
+      "display": "Unspecified sinusitis (chronic)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4739",
+        "display": "Unspecified sinusitis (chronic)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-26",
+      "text": null
+    },
+    {
+      "id": "E:cond:27",
+      "kind": "condition",
+      "display": "Other malaise and fatigue",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78079",
+        "display": "Other malaise and fatigue"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-27",
+      "text": null
+    },
+    {
+      "id": "E:cond:28",
+      "kind": "condition",
+      "display": "Benzodiazepine-based tranquilizers causing adverse effects in therapeutic use",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E9394",
+        "display": "Benzodiazepine-based tranquilizers causing adverse effects in therapeutic use"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-28",
+      "text": null
+    },
+    {
+      "id": "E:cond:29",
+      "kind": "condition",
+      "display": "Other and unspecified infection due to central venous catheter",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99931",
+        "display": "Other and unspecified infection due to central venous catheter"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-29",
+      "text": null
+    },
+    {
+      "id": "E:cond:30",
+      "kind": "condition",
+      "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8798",
+        "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:cond-123562-30",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Temporary tracheostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Temporary tracheostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:proc-123562-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Alcohol detoxification",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Alcohol detoxification"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:proc-123562-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:proc-123562-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:proc-123562-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:proc-123562-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:proc-123562-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Other bronchoscopy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other bronchoscopy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:proc-123562-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Insertion of other (naso-)gastric tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of other (naso-)gastric tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:proc-123562-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:proc-123562-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Injection or infusion of thrombolytic agent",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Injection or infusion of thrombolytic agent"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:proc-123562-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2164-09-05",
+      "source_ref": "urn:uuid:proc-123562-11",
+      "text": null
+    },
+    {
+      "id": "E:note:row690291:1",
+      "kind": "note_sentence",
+      "display": "58 yo M with hx of polysubstance abuse (ethanol, heroin, crack) and HCV    infec",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s1",
+      "text": "58 yo M with hx of polysubstance abuse (ethanol, heroin, crack) and HCV    infection p/w ETOH withdrawal and (? new-onset) AF w/ RVR."
+    },
+    {
+      "id": "E:note:row690291:2",
+      "kind": "note_sentence",
+      "display": "Remains    tremulous and agitated with increased Valium requirements overnight.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s2",
+      "text": "Remains    tremulous and agitated with increased Valium requirements overnight."
+    },
+    {
+      "id": "E:note:row690291:3",
+      "kind": "note_sentence",
+      "display": "Received 180 IV valium since MN--changed to PO valium this am.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s3",
+      "text": "Received 180 IV valium since MN--changed to PO valium this am."
+    },
+    {
+      "id": "E:note:row690291:4",
+      "kind": "note_sentence",
+      "display": "Receiving PO dilt for rate control.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s4",
+      "text": "Receiving PO dilt for rate control."
+    },
+    {
+      "id": "E:note:row690291:5",
+      "kind": "note_sentence",
+      "display": "Alcohol withdrawal (including delirium tremens, DTs, seizures)    Assessment:   ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s5",
+      "text": "Alcohol withdrawal (including delirium tremens, DTs, seizures)    Assessment:    Received pt sleeping with CIWA 9 with moderate anxiety, tremors and    sweats, otherwise denies other s&s of withdrawal."
+    },
+    {
+      "id": "E:note:row690291:6",
+      "kind": "note_sentence",
+      "display": "Remains tachycardic    with hr in low 100s in am when CIWA <10, up to as high as",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s6",
+      "text": "Remains tachycardic    with hr in low 100s in am when CIWA <10, up to as high as 150a changing    from afib to aflutter by 11am confirmed by 12 lead ekg."
+    },
+    {
+      "id": "E:note:row690291:7",
+      "kind": "note_sentence",
+      "display": "Md team aware.    too tremulous to feed self requiring assist with clear liquids",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s7",
+      "text": "Md team aware.    too tremulous to feed self requiring assist with clear liquids-taking    small amts when awake."
+    },
+    {
+      "id": "E:note:row690291:8",
+      "kind": "note_sentence",
+      "display": "T max 99.8po. oriented x3, cooperative but    moderately restless at times.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s8",
+      "text": "T max 99.8po. oriented x3, cooperative but    moderately restless at times."
+    },
+    {
+      "id": "E:note:row690291:9",
+      "kind": "note_sentence",
+      "display": "Action:    Valium changed to 10mg po- given at 8am and 10:30am for CIWA >10. pt ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s9",
+      "text": "Action:    Valium changed to 10mg po- given at 8am and 10:30am for CIWA >10. pt    was calm and cooperative first few hours of shift."
+    },
+    {
+      "id": "E:note:row690291:10",
+      "kind": "note_sentence",
+      "display": "Oob to chair with 2    assist for approx 20 minutes but then pt attempting to ge",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s10",
+      "text": "Oob to chair with 2    assist for approx 20 minutes but then pt attempting to get out of    chair, restless-hr up to 150s in aflutter around 11am."
+    },
+    {
+      "id": "E:note:row690291:11",
+      "kind": "note_sentence",
+      "display": "Pt was placed    back to bed, given 10mg iv valium with good effect for a few ho",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s11",
+      "text": "Pt was placed    back to bed, given 10mg iv valium with good effect for a few hours."
+    },
+    {
+      "id": "E:note:row690291:12",
+      "kind": "note_sentence",
+      "display": "Noted left piv infiltrated, pulled.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s12",
+      "text": "Noted left piv infiltrated, pulled."
+    },
+    {
+      "id": "E:note:row690291:13",
+      "kind": "note_sentence",
+      "display": "Unable to get another iv access    with multiple attempts.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s13",
+      "text": "Unable to get another iv access    with multiple attempts."
+    },
+    {
+      "id": "E:note:row690291:14",
+      "kind": "note_sentence",
+      "display": "Iv rn also unable.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s14",
+      "text": "Iv rn also unable."
+    },
+    {
+      "id": "E:note:row690291:15",
+      "kind": "note_sentence",
+      "display": "Dr. [**First Name (STitle) **] placed left ej    #18g piv.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s15",
+      "text": "Dr. [**First Name (STitle) **] placed left ej    #18g piv."
+    },
+    {
+      "id": "E:note:row690291:16",
+      "kind": "note_sentence",
+      "display": "Pt ordered a picc placement under guided ultrasound.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s16",
+      "text": "Pt ordered a picc placement under guided ultrasound."
+    },
+    {
+      "id": "E:note:row690291:17",
+      "kind": "note_sentence",
+      "display": "Maintained bilateral wrist restraints d/t attempting to pull at lines    in slee",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s17",
+      "text": "Maintained bilateral wrist restraints d/t attempting to pull at lines    in sleep."
+    },
+    {
+      "id": "E:note:row690291:18",
+      "kind": "note_sentence",
+      "display": "Bed alarm on with 4 side rails up for safety.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s18",
+      "text": "Bed alarm on with 4 side rails up for safety."
+    },
+    {
+      "id": "E:note:row690291:19",
+      "kind": "note_sentence",
+      "display": "Response:    Continues with active signs of withdrawal now requiring increased d",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s19",
+      "text": "Response:    Continues with active signs of withdrawal now requiring increased doses    iv valium with frequent ciwa checks q15minutes."
+    },
+    {
+      "id": "E:note:row690291:20",
+      "kind": "note_sentence",
+      "display": "Minimal access: ej.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s20",
+      "text": "Minimal access: ej."
+    },
+    {
+      "id": "E:note:row690291:21",
+      "kind": "note_sentence",
+      "display": "Awaiting picc placement.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s21",
+      "text": "Awaiting picc placement."
+    },
+    {
+      "id": "E:note:row690291:22",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue CIWA scale q15 minutes, valium 10-20mg iv as needed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s22",
+      "text": "Plan:    Continue CIWA scale q15 minutes, valium 10-20mg iv as needed."
+    },
+    {
+      "id": "E:note:row690291:23",
+      "kind": "note_sentence",
+      "display": "Continue    safety precautions.    18:30: given another 20mg iv valium for ciwa ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s23",
+      "text": "Continue    safety precautions.    18:30: given another 20mg iv valium for ciwa 16. md aware of frequent    need for valium."
+    },
+    {
+      "id": "E:note:row690291:24",
+      "kind": "note_sentence",
+      "display": "Pt ordered 20mg po valium x1. given at 18:55 for ciwa    >10. monitor effect.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row690291#s24",
+      "text": "Pt ordered 20mg po valium x1. given at 18:55 for ciwa    >10. monitor effect."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|29181": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41519": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|45341": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5070": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|8670": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4210": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4254": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|00845": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2762": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1120": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|34830": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|45342": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5990": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2763": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7907": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|30391": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5711": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|30560": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|30550": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|07070": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|311": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42731": [
+      "E:cond:23"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E9289": [
+      "E:cond:24"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:25"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4739": [
+      "E:cond:26"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78079": [
+      "E:cond:27"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E9394": [
+      "E:cond:28"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99931": [
+      "E:cond:29"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8798": [
+      "E:cond:30"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "alcohol withdrawal": [
+      "E:cond:1"
+    ],
+    "other pulmonary embolism and infarction": [
+      "E:cond:2"
+    ],
+    "acute venous embolism and thrombosis of deep vessels of proximal lower extremity": [
+      "E:cond:3"
+    ],
+    "pneumonitis due to inhalation of food or vomitus": [
+      "E:cond:4"
+    ],
+    "injury to bladder and urethra, without mention of open wound into cavity": [
+      "E:cond:5"
+    ],
+    "acute respiratory failure": [
+      "E:cond:6"
+    ],
+    "acute and subacute bacterial endocarditis": [
+      "E:cond:7"
+    ],
+    "other primary cardiomyopathies": [
+      "E:cond:8"
+    ],
+    "intestinal infection due to clostridium difficile": [
+      "E:cond:9"
+    ],
+    "acidosis": [
+      "E:cond:10"
+    ],
+    "candidiasis of mouth": [
+      "E:cond:11"
+    ],
+    "encephalopathy, unspecified": [
+      "E:cond:12"
+    ],
+    "acute venous embolism and thrombosis of deep vessels of distal lower extremity": [
+      "E:cond:13"
+    ],
+    "urinary tract infection, site not specified": [
+      "E:cond:14"
+    ],
+    "alkalosis": [
+      "E:cond:15"
+    ],
+    "bacteremia": [
+      "E:cond:16"
+    ],
+    "other and unspecified alcohol dependence, continuous": [
+      "E:cond:17"
+    ],
+    "acute alcoholic hepatitis": [
+      "E:cond:18"
+    ],
+    "cocaine abuse, unspecified": [
+      "E:cond:19"
+    ],
+    "opioid abuse, unspecified": [
+      "E:cond:20"
+    ],
+    "unspecified viral hepatitis c without hepatic coma": [
+      "E:cond:21"
+    ],
+    "depressive disorder, not elsewhere classified": [
+      "E:cond:22"
+    ],
+    "atrial fibrillation": [
+      "E:cond:23"
+    ],
+    "unspecified accident": [
+      "E:cond:24"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:25"
+    ],
+    "unspecified sinusitis (chronic)": [
+      "E:cond:26"
+    ],
+    "other malaise and fatigue": [
+      "E:cond:27"
+    ],
+    "benzodiazepine-based tranquilizers causing adverse effects in therapeutic use": [
+      "E:cond:28"
+    ],
+    "other and unspecified infection due to central venous catheter": [
+      "E:cond:29"
+    ],
+    "other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure": [
+      "E:cond:30"
+    ],
+    "temporary tracheostomy": [
+      "E:proc:1"
+    ],
+    "alcohol detoxification": [
+      "E:proc:2"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:3",
+      "E:proc:11"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:4"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:5"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:6"
+    ],
+    "other bronchoscopy": [
+      "E:proc:7"
+    ],
+    "insertion of other (naso-)gastric tube": [
+      "E:proc:8"
+    ],
+    "arterial catheterization": [
+      "E:proc:9"
+    ],
+    "injection or infusion of thrombolytic agent": [
+      "E:proc:10"
+    ],
+    "58 yo m with hx of polysubstance abuse (ethanol, heroin, crack) and hcv infec": [
+      "E:note:row690291:1"
+    ],
+    "remains tremulous and agitated with increased valium requirements overnight.": [
+      "E:note:row690291:2"
+    ],
+    "received 180 iv valium since mn--changed to po valium this am.": [
+      "E:note:row690291:3"
+    ],
+    "receiving po dilt for rate control.": [
+      "E:note:row690291:4"
+    ],
+    "alcohol withdrawal (including delirium tremens, dts, seizures) assessment:": [
+      "E:note:row690291:5"
+    ],
+    "remains tachycardic with hr in low 100s in am when ciwa <10, up to as high as": [
+      "E:note:row690291:6"
+    ],
+    "md team aware. too tremulous to feed self requiring assist with clear liquids": [
+      "E:note:row690291:7"
+    ],
+    "t max 99.8po. oriented x3, cooperative but moderately restless at times.": [
+      "E:note:row690291:8"
+    ],
+    "action: valium changed to 10mg po- given at 8am and 10:30am for ciwa >10. pt": [
+      "E:note:row690291:9"
+    ],
+    "oob to chair with 2 assist for approx 20 minutes but then pt attempting to ge": [
+      "E:note:row690291:10"
+    ],
+    "pt was placed back to bed, given 10mg iv valium with good effect for a few ho": [
+      "E:note:row690291:11"
+    ],
+    "noted left piv infiltrated, pulled.": [
+      "E:note:row690291:12"
+    ],
+    "unable to get another iv access with multiple attempts.": [
+      "E:note:row690291:13"
+    ],
+    "iv rn also unable.": [
+      "E:note:row690291:14"
+    ],
+    "dr. [**first name (stitle) **] placed left ej #18g piv.": [
+      "E:note:row690291:15"
+    ],
+    "pt ordered a picc placement under guided ultrasound.": [
+      "E:note:row690291:16"
+    ],
+    "maintained bilateral wrist restraints d/t attempting to pull at lines in slee": [
+      "E:note:row690291:17"
+    ],
+    "bed alarm on with 4 side rails up for safety.": [
+      "E:note:row690291:18"
+    ],
+    "response: continues with active signs of withdrawal now requiring increased d": [
+      "E:note:row690291:19"
+    ],
+    "minimal access: ej.": [
+      "E:note:row690291:20"
+    ],
+    "awaiting picc placement.": [
+      "E:note:row690291:21"
+    ],
+    "plan: continue ciwa scale q15 minutes, valium 10-20mg iv as needed.": [
+      "E:note:row690291:22"
+    ],
+    "continue safety precautions. 18:30: given another 20mg iv valium for ciwa": [
+      "E:note:row690291:23"
+    ],
+    "pt ordered 20mg po valium x1. given at 18:55 for ciwa >10. monitor effect.": [
+      "E:note:row690291:24"
+    ]
+  },
+  "by_date": {
+    "2164-09-05": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:29",
+      "E:cond:30",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11"
+    ]
+  }
+}

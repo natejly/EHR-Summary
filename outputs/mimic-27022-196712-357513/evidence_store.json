@@ -1,0 +1,2158 @@
+{
+  "case_id": "mimic-27022-196712-357513",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:enc-196712",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Biliary cirrhosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5716",
+        "display": "Biliary cirrhosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Biliary cirrhosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5716",
+        "display": "Biliary cirrhosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Pneumonitis due to inhalation of food or vomitus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5070",
+        "display": "Pneumonitis due to inhalation of food or vomitus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Pneumonitis due to inhalation of food or vomitus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5070",
+        "display": "Pneumonitis due to inhalation of food or vomitus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Esophageal varices in diseases classified elsewhere, with bleeding",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "45620",
+        "display": "Esophageal varices in diseases classified elsewhere, with bleeding"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Esophageal varices in diseases classified elsewhere, with bleeding",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "45620",
+        "display": "Esophageal varices in diseases classified elsewhere, with bleeding"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Acute posthemorrhagic anemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2851",
+        "display": "Acute posthemorrhagic anemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Acute posthemorrhagic anemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2851",
+        "display": "Acute posthemorrhagic anemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Unspecified protein-calorie malnutrition",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2639",
+        "display": "Unspecified protein-calorie malnutrition"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Unspecified protein-calorie malnutrition",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2639",
+        "display": "Unspecified protein-calorie malnutrition"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Other candidiasis of other specified sites",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "11289",
+        "display": "Other candidiasis of other specified sites"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Other candidiasis of other specified sites",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "11289",
+        "display": "Other candidiasis of other specified sites"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Other suppurative peritonitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "56729",
+        "display": "Other suppurative peritonitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Other suppurative peritonitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "56729",
+        "display": "Other suppurative peritonitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5185",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5185",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Hyperosmolality and/or hypernatremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2760",
+        "display": "Hyperosmolality and/or hypernatremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Hyperosmolality and/or hypernatremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2760",
+        "display": "Hyperosmolality and/or hypernatremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Other ascites",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78959",
+        "display": "Other ascites"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Other ascites",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78959",
+        "display": "Other ascites"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Chronic systolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42822",
+        "display": "Chronic systolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Chronic systolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42822",
+        "display": "Chronic systolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:25",
+      "kind": "condition",
+      "display": "Stricture and stenosis of esophagus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5303",
+        "display": "Stricture and stenosis of esophagus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:26",
+      "kind": "condition",
+      "display": "Stricture and stenosis of esophagus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5303",
+        "display": "Stricture and stenosis of esophagus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:27",
+      "kind": "condition",
+      "display": "Awaiting organ transplant status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4983",
+        "display": "Awaiting organ transplant status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:28",
+      "kind": "condition",
+      "display": "Awaiting organ transplant status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4983",
+        "display": "Awaiting organ transplant status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:29",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:30",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:31",
+      "kind": "condition",
+      "display": "Portal hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5723",
+        "display": "Portal hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:32",
+      "kind": "condition",
+      "display": "Portal hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5723",
+        "display": "Portal hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:33",
+      "kind": "condition",
+      "display": "Obstruction of bile duct",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5762",
+        "display": "Obstruction of bile duct"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:34",
+      "kind": "condition",
+      "display": "Obstruction of bile duct",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5762",
+        "display": "Obstruction of bile duct"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:35",
+      "kind": "condition",
+      "display": "Orthostatic hypotension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4580",
+        "display": "Orthostatic hypotension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:36",
+      "kind": "condition",
+      "display": "Orthostatic hypotension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4580",
+        "display": "Orthostatic hypotension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:37",
+      "kind": "condition",
+      "display": "Other esophagitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53019",
+        "display": "Other esophagitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:38",
+      "kind": "condition",
+      "display": "Other esophagitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53019",
+        "display": "Other esophagitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:39",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0414",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:40",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0414",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:41",
+      "kind": "condition",
+      "display": "Esophageal reflux",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53081",
+        "display": "Esophageal reflux"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:42",
+      "kind": "condition",
+      "display": "Esophageal reflux",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53081",
+        "display": "Esophageal reflux"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:43",
+      "kind": "condition",
+      "display": "Dysphagia, oropharyngeal phase",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78722",
+        "display": "Dysphagia, oropharyngeal phase"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:44",
+      "kind": "condition",
+      "display": "Dysphagia, oropharyngeal phase",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78722",
+        "display": "Dysphagia, oropharyngeal phase"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:45",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of unspecified type of vessel, native or graft",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41400",
+        "display": "Coronary atherosclerosis of unspecified type of vessel, native or graft"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:46",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of unspecified type of vessel, native or graft",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41400",
+        "display": "Coronary atherosclerosis of unspecified type of vessel, native or graft"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:47",
+      "kind": "condition",
+      "display": "Percutaneous transluminal coronary angioplasty status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4582",
+        "display": "Percutaneous transluminal coronary angioplasty status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:48",
+      "kind": "condition",
+      "display": "Percutaneous transluminal coronary angioplasty status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4582",
+        "display": "Percutaneous transluminal coronary angioplasty status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:49",
+      "kind": "condition",
+      "display": "Aortocoronary bypass status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4581",
+        "display": "Aortocoronary bypass status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-25",
+      "text": null
+    },
+    {
+      "id": "E:cond:50",
+      "kind": "condition",
+      "display": "Aortocoronary bypass status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4581",
+        "display": "Aortocoronary bypass status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-25",
+      "text": null
+    },
+    {
+      "id": "E:cond:51",
+      "kind": "condition",
+      "display": "Inguinal hernia, without mention of obstruction or gangrene, unilateral or unspecified (not specified as recurrent)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "55090",
+        "display": "Inguinal hernia, without mention of obstruction or gangrene, unilateral or unspecified (not specified as recurrent)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-26",
+      "text": null
+    },
+    {
+      "id": "E:cond:52",
+      "kind": "condition",
+      "display": "Inguinal hernia, without mention of obstruction or gangrene, unilateral or unspecified (not specified as recurrent)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "55090",
+        "display": "Inguinal hernia, without mention of obstruction or gangrene, unilateral or unspecified (not specified as recurrent)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-26",
+      "text": null
+    },
+    {
+      "id": "E:cond:53",
+      "kind": "condition",
+      "display": "Old myocardial infarction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "412",
+        "display": "Old myocardial infarction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-27",
+      "text": null
+    },
+    {
+      "id": "E:cond:54",
+      "kind": "condition",
+      "display": "Old myocardial infarction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "412",
+        "display": "Old myocardial infarction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-27",
+      "text": null
+    },
+    {
+      "id": "E:cond:55",
+      "kind": "condition",
+      "display": "Pure hypercholesterolemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2720",
+        "display": "Pure hypercholesterolemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-28",
+      "text": null
+    },
+    {
+      "id": "E:cond:56",
+      "kind": "condition",
+      "display": "Pure hypercholesterolemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2720",
+        "display": "Pure hypercholesterolemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-28",
+      "text": null
+    },
+    {
+      "id": "E:cond:57",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-29",
+      "text": null
+    },
+    {
+      "id": "E:cond:58",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-29",
+      "text": null
+    },
+    {
+      "id": "E:cond:59",
+      "kind": "condition",
+      "display": "Obstructive sleep apnea (adult)(pediatric)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "32723",
+        "display": "Obstructive sleep apnea (adult)(pediatric)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-30",
+      "text": null
+    },
+    {
+      "id": "E:cond:60",
+      "kind": "condition",
+      "display": "Obstructive sleep apnea (adult)(pediatric)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "32723",
+        "display": "Obstructive sleep apnea (adult)(pediatric)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-30",
+      "text": null
+    },
+    {
+      "id": "E:cond:61",
+      "kind": "condition",
+      "display": "Encounter for palliative care",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V667",
+        "display": "Encounter for palliative care"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-31",
+      "text": null
+    },
+    {
+      "id": "E:cond:62",
+      "kind": "condition",
+      "display": "Encounter for palliative care",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V667",
+        "display": "Encounter for palliative care"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:cond-196712-31",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Endoscopic excision or destruction of lesion or tissue of esophagus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Endoscopic excision or destruction of lesion or tissue of esophagus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Endoscopic excision or destruction of lesion or tissue of esophagus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Endoscopic excision or destruction of lesion or tissue of esophagus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Esophagogastroduodenoscopy [EGD] with closed biopsy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Esophagogastroduodenoscopy [EGD] with closed biopsy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Esophagogastroduodenoscopy [EGD] with closed biopsy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Esophagogastroduodenoscopy [EGD] with closed biopsy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Endoscopic excision or destruction of lesion or tissue of esophagus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Endoscopic excision or destruction of lesion or tissue of esophagus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Endoscopic excision or destruction of lesion or tissue of esophagus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Endoscopic excision or destruction of lesion or tissue of esophagus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Other endoscopy of small intestine",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other endoscopy of small intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Other endoscopy of small intestine",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other endoscopy of small intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:14",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:15",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:16",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:17",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:18",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:19",
+      "kind": "procedure",
+      "display": "Other cholangiogram",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other cholangiogram"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:20",
+      "kind": "procedure",
+      "display": "Other cholangiogram",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other cholangiogram"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:21",
+      "kind": "procedure",
+      "display": "Removal of T-tube, other bile duct tube, or liver tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Removal of T-tube, other bile duct tube, or liver tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:22",
+      "kind": "procedure",
+      "display": "Removal of T-tube, other bile duct tube, or liver tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Removal of T-tube, other bile duct tube, or liver tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:23",
+      "kind": "procedure",
+      "display": "Transfusion of packed cells",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of packed cells"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:24",
+      "kind": "procedure",
+      "display": "Transfusion of packed cells",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of packed cells"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:25",
+      "kind": "procedure",
+      "display": "Transfusion of other serum",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of other serum"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:26",
+      "kind": "procedure",
+      "display": "Transfusion of other serum",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of other serum"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:27",
+      "kind": "procedure",
+      "display": "Transfusion of platelets",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of platelets"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-14",
+      "text": null
+    },
+    {
+      "id": "E:proc:28",
+      "kind": "procedure",
+      "display": "Transfusion of platelets",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of platelets"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-14",
+      "text": null
+    },
+    {
+      "id": "E:proc:29",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-15",
+      "text": null
+    },
+    {
+      "id": "E:proc:30",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-15",
+      "text": null
+    },
+    {
+      "id": "E:proc:31",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-16",
+      "text": null
+    },
+    {
+      "id": "E:proc:32",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2185-01-03",
+      "source_ref": "urn:uuid:proc-196712-16",
+      "text": null
+    },
+    {
+      "id": "E:note:row357513:1",
+      "kind": "note_sentence",
+      "display": "Pt is a 71yo M, pmh: cirrhosis, portal htn, portal gastropathy,    ascites, CAD ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s1",
+      "text": "Pt is a 71yo M, pmh: cirrhosis, portal htn, portal gastropathy,    ascites, CAD s/p MI with PTCA and CABG, Chronic systolic heart failure,    EF 36%, ulcerative colitis, recurrent cholangitis, GERD, lyme disease,    hyperchol, htn, raynaud's dx with finger and toe amps, OSA, esophageal    stricture, depression and ADHD."
+    },
+    {
+      "id": "E:note:row357513:2",
+      "kind": "note_sentence",
+      "display": "Gastrointestinal bleed, other (GI Bleed, GIB)    Assessment:    Several episodes",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s2",
+      "text": "Gastrointestinal bleed, other (GI Bleed, GIB)    Assessment:    Several episodes of hemoptysis on floor."
+    },
+    {
+      "id": "E:note:row357513:3",
+      "kind": "note_sentence",
+      "display": "Denied nauseau, abd pain.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s3",
+      "text": "Denied nauseau, abd pain."
+    },
+    {
+      "id": "E:note:row357513:4",
+      "kind": "note_sentence",
+      "display": "Also denied any cardiac related symptoms and no lightheadedness or    dizziness.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s4",
+      "text": "Also denied any cardiac related symptoms and no lightheadedness or    dizziness."
+    },
+    {
+      "id": "E:note:row357513:5",
+      "kind": "note_sentence",
+      "display": "Diarrhea which is hem neg.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s5",
+      "text": "Diarrhea which is hem neg."
+    },
+    {
+      "id": "E:note:row357513:6",
+      "kind": "note_sentence",
+      "display": "Action:    Octreotide bolus, octreotide gtt, protonix bolus (on floor), protonix",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s6",
+      "text": "Action:    Octreotide bolus, octreotide gtt, protonix bolus (on floor), protonix    gtt,  2 U FFP, 2U prbc s."
+    },
+    {
+      "id": "E:note:row357513:7",
+      "kind": "note_sentence",
+      "display": "EGD performed with 3 varices banded.  3 new    PIV s placed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s7",
+      "text": "EGD performed with 3 varices banded.  3 new    PIV s placed."
+    },
+    {
+      "id": "E:note:row357513:8",
+      "kind": "note_sentence",
+      "display": "Pneumoboots.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s8",
+      "text": "Pneumoboots."
+    },
+    {
+      "id": "E:note:row357513:9",
+      "kind": "note_sentence",
+      "display": "Response:    Hct 27.4.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s9",
+      "text": "Response:    Hct 27.4."
+    },
+    {
+      "id": "E:note:row357513:10",
+      "kind": "note_sentence",
+      "display": "No further hemoptysis or bleeding since arrival.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s10",
+      "text": "No further hemoptysis or bleeding since arrival."
+    },
+    {
+      "id": "E:note:row357513:11",
+      "kind": "note_sentence",
+      "display": "Plan:    Serial hcts, assess for S & S of bleeding, protonix and octreotide    g",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s11",
+      "text": "Plan:    Serial hcts, assess for S & S of bleeding, protonix and octreotide    gtts."
+    },
+    {
+      "id": "E:note:row357513:12",
+      "kind": "note_sentence",
+      "display": "Peritonitis, spontaneous bacterial (SBP)    Assessment:    Diagnosed [**1-5**] a",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s12",
+      "text": "Peritonitis, spontaneous bacterial (SBP)    Assessment:    Diagnosed [**1-5**] and placed on cipro and increased dose due to recent    bleed."
+    },
+    {
+      "id": "E:note:row357513:13",
+      "kind": "note_sentence",
+      "display": "Has been on aztreonam (now dc d), fluconazole with WBC cont to    elevate despit",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s13",
+      "text": "Has been on aztreonam (now dc d), fluconazole with WBC cont to    elevate despite."
+    },
+    {
+      "id": "E:note:row357513:14",
+      "kind": "note_sentence",
+      "display": "Tapped on [**1-10**] and found to have GNR and started on    meropenum and vanco",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s14",
+      "text": "Tapped on [**1-10**] and found to have GNR and started on    meropenum and vanco."
+    },
+    {
+      "id": "E:note:row357513:15",
+      "kind": "note_sentence",
+      "display": "Has abd discomfort but no new findings to suggest    abd process.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s15",
+      "text": "Has abd discomfort but no new findings to suggest    abd process."
+    },
+    {
+      "id": "E:note:row357513:16",
+      "kind": "note_sentence",
+      "display": "Does have inguinal hernia which causes pt moderate pain    with activity.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s16",
+      "text": "Does have inguinal hernia which causes pt moderate pain    with activity."
+    },
+    {
+      "id": "E:note:row357513:17",
+      "kind": "note_sentence",
+      "display": "Action:    Abx as ordered.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s17",
+      "text": "Action:    Abx as ordered."
+    },
+    {
+      "id": "E:note:row357513:18",
+      "kind": "note_sentence",
+      "display": "Abd assessments.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s18",
+      "text": "Abd assessments."
+    },
+    {
+      "id": "E:note:row357513:19",
+      "kind": "note_sentence",
+      "display": "Inguinial hernia support strap in    place.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s19",
+      "text": "Inguinial hernia support strap in    place."
+    },
+    {
+      "id": "E:note:row357513:20",
+      "kind": "note_sentence",
+      "display": "Response:    Cont to assess.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s20",
+      "text": "Response:    Cont to assess."
+    },
+    {
+      "id": "E:note:row357513:21",
+      "kind": "note_sentence",
+      "display": "Plan:    Plan to retap when appropriate, cont abx as ordered.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s21",
+      "text": "Plan:    Plan to retap when appropriate, cont abx as ordered."
+    },
+    {
+      "id": "E:note:row357513:22",
+      "kind": "note_sentence",
+      "display": "Trend wbc and    temp trends.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s22",
+      "text": "Trend wbc and    temp trends."
+    },
+    {
+      "id": "E:note:row357513:23",
+      "kind": "note_sentence",
+      "display": "Cont to assess changes in abd status.    .H/O altered mental status (not Deliriu",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row357513#s23",
+      "text": "Cont to assess changes in abd status.    .H/O altered mental status (not Delirium)    Assessment:    Action:    Response:    Plan:"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|5716": [
+      "E:cond:1",
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5070": [
+      "E:cond:3",
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|45620": [
+      "E:cond:5",
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2851": [
+      "E:cond:7",
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2639": [
+      "E:cond:9",
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|11289": [
+      "E:cond:11",
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|56729": [
+      "E:cond:13",
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5185": [
+      "E:cond:15",
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:17",
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2760": [
+      "E:cond:19",
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78959": [
+      "E:cond:21",
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42822": [
+      "E:cond:23",
+      "E:cond:24"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5303": [
+      "E:cond:25",
+      "E:cond:26"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4983": [
+      "E:cond:27",
+      "E:cond:28"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:29",
+      "E:cond:30"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5723": [
+      "E:cond:31",
+      "E:cond:32"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5762": [
+      "E:cond:33",
+      "E:cond:34"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4580": [
+      "E:cond:35",
+      "E:cond:36"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|53019": [
+      "E:cond:37",
+      "E:cond:38"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|0414": [
+      "E:cond:39",
+      "E:cond:40"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|53081": [
+      "E:cond:41",
+      "E:cond:42"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78722": [
+      "E:cond:43",
+      "E:cond:44"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41400": [
+      "E:cond:45",
+      "E:cond:46"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4582": [
+      "E:cond:47",
+      "E:cond:48"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4581": [
+      "E:cond:49",
+      "E:cond:50"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|55090": [
+      "E:cond:51",
+      "E:cond:52"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|412": [
+      "E:cond:53",
+      "E:cond:54"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2720": [
+      "E:cond:55",
+      "E:cond:56"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:57",
+      "E:cond:58"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|32723": [
+      "E:cond:59",
+      "E:cond:60"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V667": [
+      "E:cond:61",
+      "E:cond:62"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "biliary cirrhosis": [
+      "E:cond:1",
+      "E:cond:2"
+    ],
+    "pneumonitis due to inhalation of food or vomitus": [
+      "E:cond:3",
+      "E:cond:4"
+    ],
+    "esophageal varices in diseases classified elsewhere, with bleeding": [
+      "E:cond:5",
+      "E:cond:6"
+    ],
+    "acute posthemorrhagic anemia": [
+      "E:cond:7",
+      "E:cond:8"
+    ],
+    "unspecified protein-calorie malnutrition": [
+      "E:cond:9",
+      "E:cond:10"
+    ],
+    "other candidiasis of other specified sites": [
+      "E:cond:11",
+      "E:cond:12"
+    ],
+    "other suppurative peritonitis": [
+      "E:cond:13",
+      "E:cond:14"
+    ],
+    "diagnosis": [
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:39",
+      "E:cond:40"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:17",
+      "E:cond:18"
+    ],
+    "hyperosmolality and/or hypernatremia": [
+      "E:cond:19",
+      "E:cond:20"
+    ],
+    "other ascites": [
+      "E:cond:21",
+      "E:cond:22"
+    ],
+    "chronic systolic heart failure": [
+      "E:cond:23",
+      "E:cond:24"
+    ],
+    "stricture and stenosis of esophagus": [
+      "E:cond:25",
+      "E:cond:26"
+    ],
+    "awaiting organ transplant status": [
+      "E:cond:27",
+      "E:cond:28"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:29",
+      "E:cond:30"
+    ],
+    "portal hypertension": [
+      "E:cond:31",
+      "E:cond:32"
+    ],
+    "obstruction of bile duct": [
+      "E:cond:33",
+      "E:cond:34"
+    ],
+    "orthostatic hypotension": [
+      "E:cond:35",
+      "E:cond:36"
+    ],
+    "other esophagitis": [
+      "E:cond:37",
+      "E:cond:38"
+    ],
+    "esophageal reflux": [
+      "E:cond:41",
+      "E:cond:42"
+    ],
+    "dysphagia, oropharyngeal phase": [
+      "E:cond:43",
+      "E:cond:44"
+    ],
+    "coronary atherosclerosis of unspecified type of vessel, native or graft": [
+      "E:cond:45",
+      "E:cond:46"
+    ],
+    "percutaneous transluminal coronary angioplasty status": [
+      "E:cond:47",
+      "E:cond:48"
+    ],
+    "aortocoronary bypass status": [
+      "E:cond:49",
+      "E:cond:50"
+    ],
+    "inguinal hernia, without mention of obstruction or gangrene, unilateral or unspecified (not specified as recurrent)": [
+      "E:cond:51",
+      "E:cond:52"
+    ],
+    "old myocardial infarction": [
+      "E:cond:53",
+      "E:cond:54"
+    ],
+    "pure hypercholesterolemia": [
+      "E:cond:55",
+      "E:cond:56"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:57",
+      "E:cond:58"
+    ],
+    "obstructive sleep apnea (adult)(pediatric)": [
+      "E:cond:59",
+      "E:cond:60"
+    ],
+    "encounter for palliative care": [
+      "E:cond:61",
+      "E:cond:62"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:1",
+      "E:proc:2"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:3",
+      "E:proc:4"
+    ],
+    "endoscopic excision or destruction of lesion or tissue of esophagus": [
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:9",
+      "E:proc:10"
+    ],
+    "esophagogastroduodenoscopy [egd] with closed biopsy": [
+      "E:proc:7",
+      "E:proc:8"
+    ],
+    "other endoscopy of small intestine": [
+      "E:proc:11",
+      "E:proc:12"
+    ],
+    "percutaneous abdominal drainage": [
+      "E:proc:13",
+      "E:proc:14",
+      "E:proc:15",
+      "E:proc:16",
+      "E:proc:17",
+      "E:proc:18"
+    ],
+    "other cholangiogram": [
+      "E:proc:19",
+      "E:proc:20"
+    ],
+    "removal of t-tube, other bile duct tube, or liver tube": [
+      "E:proc:21",
+      "E:proc:22"
+    ],
+    "transfusion of packed cells": [
+      "E:proc:23",
+      "E:proc:24"
+    ],
+    "transfusion of other serum": [
+      "E:proc:25",
+      "E:proc:26"
+    ],
+    "transfusion of platelets": [
+      "E:proc:27",
+      "E:proc:28"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:29",
+      "E:proc:30"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:31",
+      "E:proc:32"
+    ],
+    "pt is a 71yo m, pmh: cirrhosis, portal htn, portal gastropathy, ascites, cad": [
+      "E:note:row357513:1"
+    ],
+    "gastrointestinal bleed, other (gi bleed, gib) assessment: several episodes": [
+      "E:note:row357513:2"
+    ],
+    "denied nauseau, abd pain.": [
+      "E:note:row357513:3"
+    ],
+    "also denied any cardiac related symptoms and no lightheadedness or dizziness.": [
+      "E:note:row357513:4"
+    ],
+    "diarrhea which is hem neg.": [
+      "E:note:row357513:5"
+    ],
+    "action: octreotide bolus, octreotide gtt, protonix bolus (on floor), protonix": [
+      "E:note:row357513:6"
+    ],
+    "egd performed with 3 varices banded. 3 new piv s placed.": [
+      "E:note:row357513:7"
+    ],
+    "pneumoboots.": [
+      "E:note:row357513:8"
+    ],
+    "response: hct 27.4.": [
+      "E:note:row357513:9"
+    ],
+    "no further hemoptysis or bleeding since arrival.": [
+      "E:note:row357513:10"
+    ],
+    "plan: serial hcts, assess for s & s of bleeding, protonix and octreotide g": [
+      "E:note:row357513:11"
+    ],
+    "peritonitis, spontaneous bacterial (sbp) assessment: diagnosed [**1-5**] a": [
+      "E:note:row357513:12"
+    ],
+    "has been on aztreonam (now dc d), fluconazole with wbc cont to elevate despit": [
+      "E:note:row357513:13"
+    ],
+    "tapped on [**1-10**] and found to have gnr and started on meropenum and vanco": [
+      "E:note:row357513:14"
+    ],
+    "has abd discomfort but no new findings to suggest abd process.": [
+      "E:note:row357513:15"
+    ],
+    "does have inguinal hernia which causes pt moderate pain with activity.": [
+      "E:note:row357513:16"
+    ],
+    "action: abx as ordered.": [
+      "E:note:row357513:17"
+    ],
+    "abd assessments.": [
+      "E:note:row357513:18"
+    ],
+    "inguinial hernia support strap in place.": [
+      "E:note:row357513:19"
+    ],
+    "response: cont to assess.": [
+      "E:note:row357513:20"
+    ],
+    "plan: plan to retap when appropriate, cont abx as ordered.": [
+      "E:note:row357513:21"
+    ],
+    "trend wbc and temp trends.": [
+      "E:note:row357513:22"
+    ],
+    "cont to assess changes in abd status. .h/o altered mental status (not deliriu": [
+      "E:note:row357513:23"
+    ]
+  },
+  "by_date": {
+    "2185-01-03": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:29",
+      "E:cond:30",
+      "E:cond:31",
+      "E:cond:32",
+      "E:cond:33",
+      "E:cond:34",
+      "E:cond:35",
+      "E:cond:36",
+      "E:cond:37",
+      "E:cond:38",
+      "E:cond:39",
+      "E:cond:40",
+      "E:cond:41",
+      "E:cond:42",
+      "E:cond:43",
+      "E:cond:44",
+      "E:cond:45",
+      "E:cond:46",
+      "E:cond:47",
+      "E:cond:48",
+      "E:cond:49",
+      "E:cond:50",
+      "E:cond:51",
+      "E:cond:52",
+      "E:cond:53",
+      "E:cond:54",
+      "E:cond:55",
+      "E:cond:56",
+      "E:cond:57",
+      "E:cond:58",
+      "E:cond:59",
+      "E:cond:60",
+      "E:cond:61",
+      "E:cond:62",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13",
+      "E:proc:14",
+      "E:proc:15",
+      "E:proc:16",
+      "E:proc:17",
+      "E:proc:18",
+      "E:proc:19",
+      "E:proc:20",
+      "E:proc:21",
+      "E:proc:22",
+      "E:proc:23",
+      "E:proc:24",
+      "E:proc:25",
+      "E:proc:26",
+      "E:proc:27",
+      "E:proc:28",
+      "E:proc:29",
+      "E:proc:30",
+      "E:proc:31",
+      "E:proc:32"
+    ]
+  }
+}

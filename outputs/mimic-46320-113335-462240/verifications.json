@@ -1,0 +1,116 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row462240:1"
+      ],
+      "rationale": "The evidence explicitly lists 'acute pain' under the assessment for pain control."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row462240:1",
+        "E:note:row462240:2"
+      ],
+      "rationale": "The note explicitly lists chronic pain under the assessment and mentions a consultation with the chronic pain service."
+    },
+    {
+      "claim_id": "C3",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided candidates list history of venous thrombosis and MRSA, but contains no mention of back or abdominal pain."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row462240:3"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was medicated with Oxycodone around the clock."
+    },
+    {
+      "claim_id": "C5",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence consists only of procedure records and contains no information regarding medications or Dilaudid."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row462240:6"
+      ],
+      "rationale": "The note explicitly lists 'Anxiety' under the Assessment section."
+    },
+    {
+      "claim_id": "C7",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence contains only procedure records and no information regarding medications or Ativan."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided candidates only contain procedure records and do not mention Olanzapine or any medications."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row462240:11"
+      ],
+      "rationale": "The candidate evidence explicitly states the diagnosis of acute respiratory failure, matching the claim exactly."
+    },
+    {
+      "claim_id": "C10",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C12",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates only contain information regarding Clostridium difficile infections and do not mention oxygen saturation levels."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:145",
+        "E:cond:146",
+        "E:cond:147",
+        "E:cond:148",
+        "E:cond:149",
+        "E:cond:150"
+      ],
+      "rationale": "Multiple condition entries explicitly list 'Tachycardia, unspecified' as a diagnosis for the patient."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row462240:12"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to attempt a trach collar trial in the morning."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row462240:13"
+      ],
+      "rationale": "The candidate evidence explicitly states that the hospital rehab screening is in progress."
+    }
+  ]
+}

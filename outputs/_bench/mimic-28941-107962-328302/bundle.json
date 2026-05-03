@@ -1,0 +1,1167 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-28941-107962",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-28941",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-28941",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-107962",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-107962",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2144-07-16T00:00:00",
+          "end": "2144-09-18T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "20152",
+              "display": "Hodgkin's disease, nodular sclerosis, intrathoracic lymph nodes"
+            }
+          ],
+          "text": "Hodgkin's disease, nodular sclerosis, intrathoracic lymph nodes"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70703",
+              "display": "Pressure ulcer, lower back"
+            }
+          ],
+          "text": "Pressure ulcer, lower back"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4592",
+              "display": "Compression of vein"
+            }
+          ],
+          "text": "Compression of vein"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4233",
+              "display": "Cardiac tamponade"
+            }
+          ],
+          "text": "Cardiac tamponade"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4238",
+              "display": "Other specified diseases of pericardium"
+            }
+          ],
+          "text": "Other specified diseases of pericardium"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7907",
+              "display": "Bacteremia"
+            }
+          ],
+          "text": "Bacteremia"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5990",
+              "display": "Urinary tract infection, site not specified"
+            }
+          ],
+          "text": "Urinary tract infection, site not specified"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "00845",
+              "display": "Intestinal infection due to Clostridium difficile"
+            }
+          ],
+          "text": "Intestinal infection due to Clostridium difficile"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99674",
+              "display": "Other complications due to other vascular device, implant, and graft"
+            }
+          ],
+          "text": "Other complications due to other vascular device, implant, and graft"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5601",
+              "display": "Paralytic ileus"
+            }
+          ],
+          "text": "Paralytic ileus"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4230",
+              "display": "Hemopericardium"
+            }
+          ],
+          "text": "Hemopericardium"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2764",
+              "display": "Mixed acid-base balance disorder"
+            }
+          ],
+          "text": "Mixed acid-base balance disorder"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "20158",
+              "display": "Hodgkin's disease, nodular sclerosis, lymph nodes of multiple sites"
+            }
+          ],
+          "text": "Hodgkin's disease, nodular sclerosis, lymph nodes of multiple sites"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "319",
+              "display": "Unspecified intellectual disabilities"
+            }
+          ],
+          "text": "Unspecified intellectual disabilities"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42731",
+              "display": "Atrial fibrillation"
+            }
+          ],
+          "text": "Atrial fibrillation"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "05410",
+              "display": "Genital herpes, unspecified"
+            }
+          ],
+          "text": "Genital herpes, unspecified"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42789",
+              "display": "Other specified cardiac dysrhythmias"
+            }
+          ],
+          "text": "Other specified cardiac dysrhythmias"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E9420",
+              "display": "Cardiac rhythm regulators causing adverse effects in therapeutic use"
+            }
+          ],
+          "text": "Cardiac rhythm regulators causing adverse effects in therapeutic use"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "04185",
+              "display": "Other specified bacterial infections in conditions classified elsewhere and of unspecified site, other gram-negative organisms"
+            }
+          ],
+          "text": "Other specified bacterial infections in conditions classified elsewhere and of unspecified site, other gram-negative organisms"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0413",
+              "display": "Friedl?nder's bacillus infection in conditions classified elsewhere and of unspecified site"
+            }
+          ],
+          "text": "Friedl?nder's bacillus infection in conditions classified elsewhere and of unspecified site"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7873",
+              "display": "Flatulence, eructation, and gas pain"
+            }
+          ],
+          "text": "Flatulence, eructation, and gas pain"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "56989",
+              "display": "Other specified disorders of intestine"
+            }
+          ],
+          "text": "Other specified disorders of intestine"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-24",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-24",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8798",
+              "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+            }
+          ],
+          "text": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-25",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-25",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0549",
+              "display": "Herpes simplex without mention of complication"
+            }
+          ],
+          "text": "Herpes simplex without mention of complication"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-26",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-26",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0414",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-27",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-27",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "04104",
+              "display": "Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group D [Enterococcus]"
+            }
+          ],
+          "text": "Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group D [Enterococcus]"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-28",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-28",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V0980",
+              "display": "Infection with microorganisms without mention of resistance to multiple drugs"
+            }
+          ],
+          "text": "Infection with microorganisms without mention of resistance to multiple drugs"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-29",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-29",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25080",
+              "display": "Diabetes with other specified manifestations, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes with other specified manifestations, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-30",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-30",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4589",
+              "display": "Hypotension, unspecified"
+            }
+          ],
+          "text": "Hypotension, unspecified"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-31",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-31",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "496",
+              "display": "Chronic airway obstruction, not elsewhere classified"
+            }
+          ],
+          "text": "Chronic airway obstruction, not elsewhere classified"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-32",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-32",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7823",
+              "display": "Edema"
+            }
+          ],
+          "text": "Edema"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-33",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-33",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78830",
+              "display": "Urinary incontinence, unspecified"
+            }
+          ],
+          "text": "Urinary incontinence, unspecified"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-34",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-34",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "53081",
+              "display": "Esophageal reflux"
+            }
+          ],
+          "text": "Esophageal reflux"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-35",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-35",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "6983",
+              "display": "Lichenification and lichen simplex chronicus"
+            }
+          ],
+          "text": "Lichenification and lichen simplex chronicus"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-36",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-36",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "71590",
+              "display": "Osteoarthrosis, unspecified whether generalized or localized, site unspecified"
+            }
+          ],
+          "text": "Osteoarthrosis, unspecified whether generalized or localized, site unspecified"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-37",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-37",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "6961",
+              "display": "Other psoriasis"
+            }
+          ],
+          "text": "Other psoriasis"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-38",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-38",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "27800",
+              "display": "Obesity, unspecified"
+            }
+          ],
+          "text": "Obesity, unspecified"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-107962-39",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-107962-39",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2809",
+              "display": "Iron deficiency anemia, unspecified"
+            }
+          ],
+          "text": "Iron deficiency anemia, unspecified"
+        },
+        "onsetDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-107962-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-107962-1",
+        "status": "completed",
+        "code": {
+          "text": "Pericardiotomy"
+        },
+        "performedDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-107962-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-107962-2",
+        "status": "completed",
+        "code": {
+          "text": "Biopsy of lymphatic structure"
+        },
+        "performedDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-107962-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-107962-3",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of intercostal catheter for drainage"
+        },
+        "performedDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-107962-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-107962-4",
+        "status": "completed",
+        "code": {
+          "text": "Diagnostic ultrasound of heart"
+        },
+        "performedDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-107962-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-107962-5",
+        "status": "completed",
+        "code": {
+          "text": "Injection or infusion of cancer chemotherapeutic substance"
+        },
+        "performedDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-107962-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-107962-6",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-107962-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-107962-7",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-107962-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-107962-8",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-107962-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-107962-9",
+        "status": "completed",
+        "code": {
+          "text": "Thoracentesis"
+        },
+        "performedDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-107962-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-107962-10",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-107962-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-107962-11",
+        "status": "completed",
+        "code": {
+          "text": "Parenteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-107962-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-107962-12",
+        "status": "completed",
+        "code": {
+          "text": "Injection or infusion of thrombolytic agent"
+        },
+        "performedDateTime": "2144-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-107962-13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-107962-13",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of rectal tube"
+        },
+        "performedDateTime": "2144-07-16"
+      }
+    }
+  ]
+}

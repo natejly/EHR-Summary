@@ -1,0 +1,841 @@
+{
+  "claims": [
+    {
+      "claim_id": "C1",
+      "type": "allergy",
+      "subject": "patient",
+      "predicate": "has allergy",
+      "value": "Depakote",
+      "time_ref": null,
+      "source_span": "row1263#Allergies: Depakote / Zarontin / Phenobarbital / Aspirin"
+    },
+    {
+      "claim_id": "C2",
+      "type": "allergy",
+      "subject": "patient",
+      "predicate": "has allergy",
+      "value": "Zarontin",
+      "time_ref": null,
+      "source_span": "row1263#Allergies: Depakote / Zarontin / Phenobarbital / Aspirin"
+    },
+    {
+      "claim_id": "C3",
+      "type": "allergy",
+      "subject": "patient",
+      "predicate": "has allergy",
+      "value": "Phenobarbital",
+      "time_ref": null,
+      "source_span": "row1263#Allergies: Depakote / Zarontin / Phenobarbital / Aspirin"
+    },
+    {
+      "claim_id": "C4",
+      "type": "allergy",
+      "subject": "patient",
+      "predicate": "has allergy",
+      "value": "Aspirin",
+      "time_ref": null,
+      "source_span": "row1263#Allergies: Depakote / Zarontin / Phenobarbital / Aspirin"
+    },
+    {
+      "claim_id": "C5",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "CAD",
+      "time_ref": "2191",
+      "source_span": "row1263#History of Present Illness: 87 yo wheelchair bound male with CAD s/p PCI [**2191**]"
+    },
+    {
+      "claim_id": "C6",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent procedure",
+      "value": "PCI",
+      "time_ref": "2191",
+      "source_span": "row1263#History of Present Illness: 87 yo wheelchair bound male with CAD s/p PCI [**2191**]"
+    },
+    {
+      "claim_id": "C7",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "CVA",
+      "time_ref": "2187",
+      "source_span": "row1263#History of Present Illness: 87 yo wheelchair bound male with CAD s/p PCI [**2191**], CVA in [**2187**]"
+    },
+    {
+      "claim_id": "C8",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "HTN",
+      "time_ref": null,
+      "source_span": "row1263#History of Present Illness: 87 yo wheelchair bound male with CAD s/p PCI [**2191**], CVA in [**2187**], HTN, dementia, and recurrent [**Year (4 digits) **] PNA"
+    },
+    {
+      "claim_id": "C9",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "dementia",
+      "time_ref": null,
+      "source_span": "row1263#History of Present Illness: 87 yo wheelchair bound male with CAD s/p PCI [**2191**], CVA in [**2187**], HTN, dementia, and recurrent [**Year (4 digits) **] PNA"
+    },
+    {
+      "claim_id": "C10",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "recurrent [**Year (4 digits) **] PNA",
+      "time_ref": null,
+      "source_span": "row1263#History of Present Illness: 87 yo wheelchair bound male with CAD s/p PCI [**2191**], CVA in [**2187**], HTN, dementia, and recurrent [**Year (4 digits) **] PNA"
+    },
+    {
+      "claim_id": "C11",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "acute on chronic systolic CHF exacerbation",
+      "time_ref": "8-30",
+      "source_span": "row1263#History of Present Illness: ...with recent admission for acute on chronic systolic CHF exacerbation with EF=30% in [**8-30**]"
+    },
+    {
+      "claim_id": "C12",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "EF=30%",
+      "time_ref": "8-30",
+      "source_span": "row1263#History of Present Illness: ...with recent admission for acute on chronic systolic CHF exacerbation with EF=30% in [**8-30**]"
+    },
+    {
+      "claim_id": "C13",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "respiratory distress",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#Chief Complaint: Respiratory distress."
+    },
+    {
+      "claim_id": "C14",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent procedure",
+      "value": "Intubation",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#Major Surgical or Invasive Procedure: Intubation, CVL"
+    },
+    {
+      "claim_id": "C15",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent procedure",
+      "value": "CVL",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#Major Surgical or Invasive Procedure: Intubation, CVL"
+    },
+    {
+      "claim_id": "C16",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "vanco/zosyn",
+      "time_ref": "recent admission",
+      "source_span": "row1263#He was recently admitted for acute on chornic systolic CHF exacerbation and was concomitantly treated for [**Hospital3 **] pneumonia with vanco/zosyn"
+    },
+    {
+      "claim_id": "C17",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "levofloxacin",
+      "time_ref": "recent admission",
+      "source_span": "row1263#He was recently admitted for acute on chornic systolic CHF exacerbation and was concomitantly treated for [**Hospital3 **] pneumonia with vanco/zosyn then levofloxacin"
+    },
+    {
+      "claim_id": "C18",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent procedure",
+      "value": "intubated with a 7.5 ETT",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#As a result he was easily intubated with a 7.5 ETT with etomidate and succinylcholine."
+    },
+    {
+      "claim_id": "C19",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "etomidate",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#As a result he was easily intubated with a 7.5 ETT with etomidate and succinylcholine."
+    },
+    {
+      "claim_id": "C20",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "succinylcholine",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#As a result he was easily intubated with a 7.5 ETT with etomidate and succinylcholine."
+    },
+    {
+      "claim_id": "C21",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "fentanyl",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#He was sedated with fentanyl and midazolam."
+    },
+    {
+      "claim_id": "C22",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "midazolam",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#He was sedated with fentanyl and midazolam."
+    },
+    {
+      "claim_id": "C23",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "tachycardic to the 130s",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#He was tachycardic to the 130s"
+    },
+    {
+      "claim_id": "C24",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "blood pressure in the systolics of 60",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#had a blood pressure in the systolics of 60"
+    },
+    {
+      "claim_id": "C25",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "norepinephrine",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#so norepinephrine was started."
+    },
+    {
+      "claim_id": "C26",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent procedure",
+      "value": "right IJ placed into the cavoatrial junction",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#A right IJ placed into the cavoatrial junction."
+    },
+    {
+      "claim_id": "C27",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "6L NS",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#He was given a total of 6L NS."
+    },
+    {
+      "claim_id": "C28",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "UA returned positive",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#His UA returned positive."
+    },
+    {
+      "claim_id": "C29",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "vanco/zosyn",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#He was given vanco/zosyn."
+    },
+    {
+      "claim_id": "C30",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "ST elevation in lead 3",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#EKG was concerning for a ST elevation in lead 3"
+    },
+    {
+      "claim_id": "C31",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "LBBB",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#in the context of a LBBB."
+    },
+    {
+      "claim_id": "C32",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "likely a result of sepsis with demand ischmia",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#Cardiology was consulted and felt that these changes were likely a result of sepsis with demand ischmia"
+    },
+    {
+      "claim_id": "C33",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Coronary artery disease",
+      "time_ref": "7-/2191",
+      "source_span": "row1263#Past Medical History: - Coronary artery disease (stenting of D1 in [**7-/2191**])"
+    },
+    {
+      "claim_id": "C34",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Congestive heart failure",
+      "time_ref": "8-/2199",
+      "source_span": "row1263#Past Medical History: - Congestive heart failure (EF 30% as of [**8-/2199**])"
+    },
+    {
+      "claim_id": "C35",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Ischemic cardiomyopathy",
+      "time_ref": null,
+      "source_span": "row1263#Past Medical History: - Ischemic cardiomyopathy"
+    },
+    {
+      "claim_id": "C36",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Cerebrovascular accident",
+      "time_ref": "2187",
+      "source_span": "row1263#Past Medical History: - Cerebrovascular accident ([**2187**])"
+    },
+    {
+      "claim_id": "C37",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Hypertension",
+      "time_ref": null,
+      "source_span": "row1263#Past Medical History: - Hypertension"
+    },
+    {
+      "claim_id": "C38",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Recurrent [**Year (4 digits) **] PNA",
+      "time_ref": null,
+      "source_span": "row1263#Past Medical History: - Recurrent [**Year (4 digits) **] PNA"
+    },
+    {
+      "claim_id": "C39",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Depression",
+      "time_ref": null,
+      "source_span": "row1263#Past Medical History: - Depression"
+    },
+    {
+      "claim_id": "C40",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "GERD",
+      "time_ref": null,
+      "source_span": "row1263#Past Medical History: - GERD"
+    },
+    {
+      "claim_id": "C41",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Neurogenic bladder",
+      "time_ref": null,
+      "source_span": "row1263#Past Medical History: - Neurogenic bladder"
+    },
+    {
+      "claim_id": "C42",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Gout",
+      "time_ref": null,
+      "source_span": "row1263#Past Medical History: - Gout"
+    },
+    {
+      "claim_id": "C43",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "BPH",
+      "time_ref": null,
+      "source_span": "row1263#Past Medical History: - BPH"
+    },
+    {
+      "claim_id": "C44",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "102.8",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#Vitals: 102.8 120 96/52 26 90% on PSV 5/5 40%"
+    },
+    {
+      "claim_id": "C45",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "120",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#Vitals: 102.8 120 96/52 26 90% on PSV 5/5 40%"
+    },
+    {
+      "claim_id": "C46",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "96/52",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#Vitals: 102.8 120 96/52 26 90% on PSV 5/5 40%"
+    },
+    {
+      "claim_id": "C47",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "26",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#Vitals: 102.8 120 96/52 26 90% on PSV 5/5 40%"
+    },
+    {
+      "claim_id": "C48",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "90% on PSV 5/5 40%",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#Vitals: 102.8 120 96/52 26 90% on PSV 5/5 40%"
+    },
+    {
+      "claim_id": "C49",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "stage 2 decubitus ulcer on sacrum",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#Back: stage 2 decubitus ulcer on sacrum"
+    },
+    {
+      "claim_id": "C50",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "WBC-12.8",
+      "time_ref": "2200-8-4 10:15AM",
+      "source_span": "row1263#[**2200-8-4**] 10:15AM BLOOD WBC-12.8*"
+    },
+    {
+      "claim_id": "C51",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Hgb-14.4",
+      "time_ref": "2200-8-4 10:15AM",
+      "source_span": "row1263#[**2200-8-4**] 10:15AM BLOOD Hgb-14.4"
+    },
+    {
+      "claim_id": "C52",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Plt Ct-312",
+      "time_ref": "2200-8-4 10:15AM",
+      "source_span": "row1263#[**2200-8-4**] 10:15AM BLOOD Plt Ct-312"
+    },
+    {
+      "claim_id": "C53",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "WBC-4.2",
+      "time_ref": "2200-8-4 03:35PM",
+      "source_span": "row1263#[**2200-8-4**] 03:35PM BLOOD WBC-4.2#"
+    },
+    {
+      "claim_id": "C54",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Hgb-11.4",
+      "time_ref": "2200-8-4 03:35PM",
+      "source_span": "row1263#[**2200-8-4**] 03:35PM BLOOD Hgb-11.4*"
+    },
+    {
+      "claim_id": "C55",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "PT-16.0",
+      "time_ref": "2200-8-4 03:35PM",
+      "source_span": "row1263#[**2200-8-4**] 03:35PM BLOOD PT-16.0*"
+    },
+    {
+      "claim_id": "C56",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "PTT-69.5",
+      "time_ref": "2200-8-4 03:35PM",
+      "source_span": "row1263#[**2200-8-4**] 03:35PM BLOOD PTT-69.5*"
+    },
+    {
+      "claim_id": "C57",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "INR(PT)-1.5",
+      "time_ref": "2200-8-4 03:35PM",
+      "source_span": "row1263#[**2200-8-4**] 03:35PM BLOOD INR(PT)-1.5*"
+    },
+    {
+      "claim_id": "C58",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "PTT-150",
+      "time_ref": "2200-8-5 02:09AM",
+      "source_span": "row1263#[**2200-8-5**] 02:09AM BLOOD PTT-150*"
+    },
+    {
+      "claim_id": "C59",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "UreaN-69",
+      "time_ref": "2200-8-4 10:15AM",
+      "source_span": "row1263#[**2200-8-4**] 10:15AM BLOOD UreaN-69*"
+    },
+    {
+      "claim_id": "C60",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Creat-2.0",
+      "time_ref": "2200-8-4 10:15AM",
+      "source_span": "row1263#[**2200-8-4**] 10:15AM BLOOD Creat-2.0*"
+    },
+    {
+      "claim_id": "C61",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Glucose-114",
+      "time_ref": "2200-8-4 03:35PM",
+      "source_span": "row1263#[**2200-8-4**] 03:35PM BLOOD Glucose-114*"
+    },
+    {
+      "claim_id": "C62",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Na-150",
+      "time_ref": "2200-8-4 03:35PM",
+      "source_span": "row1263#[**2200-8-4**] 03:35PM BLOOD Na-150*"
+    },
+    {
+      "claim_id": "C63",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "K-3.7",
+      "time_ref": "2200-8-4 03:35PM",
+      "source_span": "row1263#[**2200-8-4**] 03:35PM BLOOD K-3.7"
+    },
+    {
+      "claim_id": "C64",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "HCO3-18",
+      "time_ref": "2200-8-4 03:35PM",
+      "source_span": "row1263#[**2200-8-4**] 03:35PM BLOOD HCO3-18*"
+    },
+    {
+      "claim_id": "C65",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "cTropnT-0.10",
+      "time_ref": "2200-8-4 10:15AM",
+      "source_span": "row1263#[**2200-8-4**] 10:15AM BLOOD cTropnT-0.10*"
+    },
+    {
+      "claim_id": "C66",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "cTropnT-0.23",
+      "time_ref": "2200-8-4 09:26PM",
+      "source_span": "row1263#[**2200-8-4**] 09:26PM BLOOD cTropnT-0.23*"
+    },
+    {
+      "claim_id": "C67",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Calcium-6.7",
+      "time_ref": "2200-8-4 03:35PM",
+      "source_span": "row1263#[**2200-8-4**] 03:35PM BLOOD Calcium-6.7*"
+    },
+    {
+      "claim_id": "C68",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Phos-2.1",
+      "time_ref": "2200-8-4 03:35PM",
+      "source_span": "row1263#[**2200-8-4**] 03:35PM BLOOD Phos-2.1*"
+    },
+    {
+      "claim_id": "C69",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "pO2-79",
+      "time_ref": "2200-8-4 10:23AM",
+      "source_span": "row1263#[**2200-8-4**] 10:23AM BLOOD pO2-79*"
+    },
+    {
+      "claim_id": "C70",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "pH-7.33",
+      "time_ref": "2200-8-4 10:23AM",
+      "source_span": "row1263#[**2200-8-4**] 10:23AM BLOOD pH-7.33*"
+    },
+    {
+      "claim_id": "C71",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Lactate-3.2",
+      "time_ref": "2200-8-4 10:23AM",
+      "source_span": "row1263#[**2200-8-4**] 10:23AM BLOOD Lactate-3.2*"
+    },
+    {
+      "claim_id": "C72",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Lactate-8.9",
+      "time_ref": "2200-8-5 02:26AM",
+      "source_span": "row1263#[**2200-8-5**] 02:26AM BLOOD Lactate-8.9*"
+    },
+    {
+      "claim_id": "C73",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "O2 Sat-58",
+      "time_ref": "2200-8-5 12:33AM",
+      "source_span": "row1263#[**2200-8-5**] 12:33AM BLOOD O2 Sat-58"
+    },
+    {
+      "claim_id": "C74",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "oxacillin sensitive staph aureus in both the sputum and the blood",
+      "time_ref": "after patient expired",
+      "source_span": "row1263#Culture data that resulted after the patient expired revealed an oxacillin sensitive staph aureus in both the sputum and the blood."
+    },
+    {
+      "claim_id": "C75",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "sepsis",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#this was most likely felt to be sepsis given his fever, leukocytosis, positive UA and purulent sputum."
+    },
+    {
+      "claim_id": "C76",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "vanco/cefepime/cipro",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#He was covered with vanco/cefepime/cipro for HCAP and urinary sources."
+    },
+    {
+      "claim_id": "C77",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "heparin drip",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#He was also empirically started on a heparin drip for PE"
+    },
+    {
+      "claim_id": "C78",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "statin",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#He was started on a statin"
+    },
+    {
+      "claim_id": "C79",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "plavix",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#continued on plavix"
+    },
+    {
+      "claim_id": "C80",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "hypernatremia",
+      "time_ref": "2200-8-4",
+      "source_span": "row1263#His course was further complicated by hypernatremia"
+    },
+    {
+      "claim_id": "C81",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Clopidogrel 75 mg PO DAILY",
+      "time_ref": "Admission",
+      "source_span": "row1263#1. Clopidogrel 75 mg PO DAILY"
+    },
+    {
+      "claim_id": "C82",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Docusate Sodium 100 mg PO BID:PRN constipation",
+      "time_ref": "Admission",
+      "source_span": "row1263#2. Docusate Sodium 100 mg PO BID:PRN constipation"
+    },
+    {
+      "claim_id": "C83",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Doxazosin 8 mg PO HS",
+      "time_ref": "Admission",
+      "source_span": "row1263#3. Doxazosin 8 mg PO HS"
+    },
+    {
+      "claim_id": "C84",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Gabapentin 200 mg PO HS",
+      "time_ref": "Admission",
+      "source_span": "row1263#4. Gabapentin 200 mg PO HS"
+    },
+    {
+      "claim_id": "C85",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Lorazepam 0.5 mg PO HS",
+      "time_ref": "Admission",
+      "source_span": "row1263#5. Lorazepam 0.5 mg PO HS"
+    },
+    {
+      "claim_id": "C86",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Metoprolol Tartrate 25mg PO BID",
+      "time_ref": "Admission",
+      "source_span": "row1263#6. Metoprolol Tartrate 25mg PO BID"
+    },
+    {
+      "claim_id": "C87",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Mirtazapine 30 mg PO HS",
+      "time_ref": "Admission",
+      "source_span": "row1263#7. Mirtazapine 30 mg PO HS"
+    },
+    {
+      "claim_id": "C88",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Senna 1 TAB PO BID",
+      "time_ref": "Admission",
+      "source_span": "row1263#8. Senna 1 TAB PO BID"
+    },
+    {
+      "claim_id": "C89",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Lisinopril 5 mg PO DAILY",
+      "time_ref": "Admission",
+      "source_span": "row1263#9. Lisinopril 5 mg PO DAILY"
+    },
+    {
+      "claim_id": "C90",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Nitroglycerin Patch 0.2 mg/hr TD Q24H 9am-9pm",
+      "time_ref": "Admission",
+      "source_span": "row1263#10. Nitroglycerin Patch 0.2 mg/hr TD Q24H 9am-9pm"
+    },
+    {
+      "claim_id": "C91",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Furosemide 20-40 mg PO DAILY",
+      "time_ref": "Admission",
+      "source_span": "row1263#11. Furosemide 20-40 mg PO DAILY"
+    },
+    {
+      "claim_id": "C92",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Multivitamin",
+      "time_ref": "Admission",
+      "source_span": "row1263#12. Multivitamin"
+    },
+    {
+      "claim_id": "C93",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Cortisporin otic 2 drops qhs",
+      "time_ref": "Admission",
+      "source_span": "row1263#13. Cortisporin otic 2 drops qhs"
+    }
+  ]
+}

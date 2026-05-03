@@ -1,0 +1,21 @@
+{
+  "concerns": [
+    {
+      "sentence": "Lung contusion [E:cond:1][E:cond:2], pneumonia [E:cond:3][E:cond:4], acute lung edema [E:cond:7][E:cond:8], 7 closed rib fractures [E:cond:9][E:cond:10], acute respiratory failure [E:note:row730292:4], iatrogenic and traumatic pneumothorax [E:cond:13][E:cond:14][E:cond:19][E:cond:20], subcutaneous emphysema [E:cond:21][E:cond:22], diaphragmatic hernia [E:cond:23][E:cond:24], and acute trauma pain [E:cond:27][E:cond:28].",
+      "severity": "medium",
+      "reason": "The summary omits several significant active problems listed in the fact sheet, including obstructive chronic bronchitis with acute exacerbation and pathologic fracture of vertebrae."
+    },
+    {
+      "sentence": "Lung contusion [E:cond:1][E:cond:2], pneumonia [E:cond:3][E:cond:4], acute lung edema [E:cond:7][E:cond:8], 7 closed rib fractures [E:cond:9][E:cond:10], acute respiratory failure [E:note:row730292:4], iatrogenic and traumatic pneumothorax [E:cond:13][E:cond:14][E:cond:19][E:cond:20], subcutaneous emphysema [E:cond:21][E:cond:22], diaphragmatic hernia [E:cond:23][E:cond:24], and acute trauma pain [E:cond:27][E:cond:28].",
+      "severity": "high",
+      "reason": "The citation [E:note:row730292:4] for 'acute respiratory failure' does not exist in the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Lung contusion [E:cond:1][E:cond:2], pneumonia [E:cond:3][E:cond:4], acute lung edema [E:cond:7][E:cond:8], 7 closed rib fractures [E:cond:9][E:cond:10], acute respiratory failure [E:note:row730292:4], iatrogenic and traumatic pneumothorax [E:cond:13][E:cond:14][E:cond:19][E:cond:20], subcutaneous emphysema [E:cond:21][E:cond:22], diaphragmatic hernia [E:cond:23][E:cond:24], and acute trauma pain [E:cond:27][E:cond:28].",
+      "suggested": "Lung contusion [E:cond:1][E:cond:2], pneumonia [E:cond:3][E:cond:4], acute lung edema [E:cond:7][E:cond:8], 7 closed rib fractures [E:cond:9][E:cond:10], obstructive chronic bronchitis with acute exacerbation [E:cond:11][E:cond:12], iatrogenic and traumatic pneumothorax [E:cond:13][E:cond:14][E:cond:19][E:cond:20], pathologic fracture of vertebrae [E:cond:15][E:cond:16], subcutaneous emphysema [E:cond:21][E:cond:22], diaphragmatic hernia [E:cond:23][E:cond:24], and acute trauma pain [E:cond:27][E:cond:28].",
+      "reason": "Removed unsupported claim of respiratory failure and added missing active problems from the fact sheet."
+    }
+  ]
+}

@@ -1,0 +1,1544 @@
+{
+  "case_id": "mimic-98220-173136-442600",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "ELECTIVE",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:enc-173136",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Benign neoplasm of liver and biliary passages",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2115",
+        "display": "Benign neoplasm of liver and biliary passages"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Malignant neoplasm of ampulla of vater",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1562",
+        "display": "Malignant neoplasm of ampulla of vater"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Obstruction of bile duct",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5762",
+        "display": "Obstruction of bile duct"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Other postoperative infection",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99859",
+        "display": "Other postoperative infection"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Pulmonary collapse",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5180",
+        "display": "Pulmonary collapse"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9974",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Intestinal infection due to Clostridium difficile",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "00845",
+        "display": "Intestinal infection due to Clostridium difficile"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Peritoneal abscess",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "56722",
+        "display": "Peritoneal abscess"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Unspecified septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0389",
+        "display": "Unspecified septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Unspecified pleural effusion",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5119",
+        "display": "Unspecified pleural effusion"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Methicillin resistant pneumonia due to Staphylococcus aureus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "48242",
+        "display": "Methicillin resistant pneumonia due to Staphylococcus aureus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Persistent postoperative fistula",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9986",
+        "display": "Persistent postoperative fistula"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Acute kidney failure with lesion of tubular necrosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5845",
+        "display": "Acute kidney failure with lesion of tubular necrosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Peritoneal adhesions (postoperative) (postinfection)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5680",
+        "display": "Peritoneal adhesions (postoperative) (postinfection)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Hernia of other specified sites without mention of obstruction or gangrene",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5538",
+        "display": "Hernia of other specified sites without mention of obstruction or gangrene"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2766",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Surgical operation with anastomosis, bypass, or graft, with natural or artificial tissues used as implant causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8782",
+        "display": "Surgical operation with anastomosis, bypass, or graft, with natural or artificial tissues used as implant causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Other diseases of trachea and bronchus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51919",
+        "display": "Other diseases of trachea and bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Esophageal reflux",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53081",
+        "display": "Esophageal reflux"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Thrombocytopenia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2875",
+        "display": "Thrombocytopenia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Anemia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2859",
+        "display": "Anemia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Other specified disorders of biliary tract",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5768",
+        "display": "Other specified disorders of biliary tract"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:25",
+      "kind": "condition",
+      "display": "Dermatitis due to drugs and medicines taken internally",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "6930",
+        "display": "Dermatitis due to drugs and medicines taken internally"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-25",
+      "text": null
+    },
+    {
+      "id": "E:cond:26",
+      "kind": "condition",
+      "display": "Other specified antibiotics causing adverse effects in therapeutic use",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E9308",
+        "display": "Other specified antibiotics causing adverse effects in therapeutic use"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-26",
+      "text": null
+    },
+    {
+      "id": "E:cond:27",
+      "kind": "condition",
+      "display": "Penicillins causing adverse effects in therapeutic use",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E9300",
+        "display": "Penicillins causing adverse effects in therapeutic use"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-27",
+      "text": null
+    },
+    {
+      "id": "E:cond:28",
+      "kind": "condition",
+      "display": "Foreign body in larynx",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9331",
+        "display": "Foreign body in larynx"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-28",
+      "text": null
+    },
+    {
+      "id": "E:cond:29",
+      "kind": "condition",
+      "display": "Inhalation and ingestion of other object causing obstruction of respiratory tract or suffocation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E912",
+        "display": "Inhalation and ingestion of other object causing obstruction of respiratory tract or suffocation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-29",
+      "text": null
+    },
+    {
+      "id": "E:cond:30",
+      "kind": "condition",
+      "display": "Depressive disorder, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "311",
+        "display": "Depressive disorder, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:cond-173136-30",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Radical pancreaticoduodenectomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Radical pancreaticoduodenectomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Temporary tracheostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Temporary tracheostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Cholecystectomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Cholecystectomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Anastomosis of pancreas",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Anastomosis of pancreas"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Other lysis of peritoneal adhesions",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other lysis of peritoneal adhesions"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Repair of other hernia of anterior abdominal wall",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Repair of other hernia of anterior abdominal wall"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Reopening of recent laparotomy site",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Reopening of recent laparotomy site"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Other laparotomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other laparotomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Suture of laceration of small intestine, except duodenum",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Suture of laceration of small intestine, except duodenum"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Cannulation of pancreatic duct",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Cannulation of pancreatic duct"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Other percutaneous procedures on biliary tract",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other percutaneous procedures on biliary tract"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:14",
+      "kind": "procedure",
+      "display": "Parenteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Parenteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-14",
+      "text": null
+    },
+    {
+      "id": "E:proc:15",
+      "kind": "procedure",
+      "display": "Other cholangiogram",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other cholangiogram"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-15",
+      "text": null
+    },
+    {
+      "id": "E:proc:16",
+      "kind": "procedure",
+      "display": "Replacement of stent (tube) in biliary or pancreatic duct",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Replacement of stent (tube) in biliary or pancreatic duct"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-16",
+      "text": null
+    },
+    {
+      "id": "E:proc:17",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-17",
+      "text": null
+    },
+    {
+      "id": "E:proc:18",
+      "kind": "procedure",
+      "display": "Other cholangiogram",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other cholangiogram"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-18",
+      "text": null
+    },
+    {
+      "id": "E:proc:19",
+      "kind": "procedure",
+      "display": "Other nonoperative replacements",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other nonoperative replacements"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-19",
+      "text": null
+    },
+    {
+      "id": "E:proc:20",
+      "kind": "procedure",
+      "display": "Venous catheterization for renal dialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization for renal dialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-20",
+      "text": null
+    },
+    {
+      "id": "E:proc:21",
+      "kind": "procedure",
+      "display": "Hemodialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Hemodialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-21",
+      "text": null
+    },
+    {
+      "id": "E:proc:22",
+      "kind": "procedure",
+      "display": "Closed biopsy of skin and subcutaneous tissue",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed biopsy of skin and subcutaneous tissue"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-22",
+      "text": null
+    },
+    {
+      "id": "E:proc:23",
+      "kind": "procedure",
+      "display": "Venous catheterization for renal dialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization for renal dialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-23",
+      "text": null
+    },
+    {
+      "id": "E:proc:24",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-24",
+      "text": null
+    },
+    {
+      "id": "E:proc:25",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-25",
+      "text": null
+    },
+    {
+      "id": "E:proc:26",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-26",
+      "text": null
+    },
+    {
+      "id": "E:proc:27",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-27",
+      "text": null
+    },
+    {
+      "id": "E:proc:28",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2173-01-20",
+      "source_ref": "urn:uuid:proc-173136-28",
+      "text": null
+    },
+    {
+      "id": "E:note:row442600:1",
+      "kind": "note_sentence",
+      "display": "SICU    HPI:    HPI: 69 with h/o gastric PUD s/p antrectomy/Billroth II and then",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s1",
+      "text": "SICU    HPI:    HPI: 69 with h/o gastric PUD s/p antrectomy/Billroth II and then later    Roux-en-Y conversion for reflux problems. [**12-28**] obstructive jaundice    and cholangitis and percutaneous transhepatic cholangio tube was    placed."
+    },
+    {
+      "id": "E:note:row442600:2",
+      "kind": "note_sentence",
+      "display": "On imaging there was a mass at the end of the bile duct.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s2",
+      "text": "On imaging there was a mass at the end of the bile duct."
+    },
+    {
+      "id": "E:note:row442600:3",
+      "kind": "note_sentence",
+      "display": "ERCP    showed a cut-off stricture at the ampullary level and MRCP demonstrated ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s3",
+      "text": "ERCP    showed a cut-off stricture at the ampullary level and MRCP demonstrated    a mass-like effectin the duodenum at that point."
+    },
+    {
+      "id": "E:note:row442600:4",
+      "kind": "note_sentence",
+      "display": "Pt subsequently    underwent whipple, chole, enteroenterostomy x2 on    [**2173-",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s4",
+      "text": "Pt subsequently    underwent whipple, chole, enteroenterostomy x2 on    [**2173-1-20**]."
+    },
+    {
+      "id": "E:note:row442600:5",
+      "kind": "note_sentence",
+      "display": "Biopsy revealed adenocarcinoma of dudodenum at the ampulla.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s5",
+      "text": "Biopsy revealed adenocarcinoma of dudodenum at the ampulla."
+    },
+    {
+      "id": "E:note:row442600:6",
+      "kind": "note_sentence",
+      "display": "Post-operative course complicated by anastamotic breakdowns of the    hepatojeju",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s6",
+      "text": "Post-operative course complicated by anastamotic breakdowns of the    hepatojejunostomy and pancreaticojejunostomy sites, requiring OR [**2-5**]    for drainage of an intra-abdominal abscess, repair of    pancreaticojejunostomy and subsequent re-drainage and suturing of    intestinal perforations."
+    },
+    {
+      "id": "E:note:row442600:7",
+      "kind": "note_sentence",
+      "display": "He has also had IR drainage and drain    placement into a blind ending loop of b",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s7",
+      "text": "He has also had IR drainage and drain    placement into a blind ending loop of bowel leaking into an abdominal    abscess cavity on [**2-12**]."
+    },
+    {
+      "id": "E:note:row442600:8",
+      "kind": "note_sentence",
+      "display": "He also had brief dyspnea and persistent hypoxia post-operatively, with    evalu",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s8",
+      "text": "He also had brief dyspnea and persistent hypoxia post-operatively, with    evaluation showing tracheobronchomalacia with bile seen in the trachea."
+    },
+    {
+      "id": "E:note:row442600:9",
+      "kind": "note_sentence",
+      "display": "He has had persistent low-grade fevers on broad spectrum antibiotics.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s9",
+      "text": "He has had persistent low-grade fevers on broad spectrum antibiotics."
+    },
+    {
+      "id": "E:note:row442600:10",
+      "kind": "note_sentence",
+      "display": "[**2-20**] he developed a rash in the context of multiple antibiotics for    per",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s10",
+      "text": "[**2-20**] he developed a rash in the context of multiple antibiotics for    persistent fevers."
+    },
+    {
+      "id": "E:note:row442600:11",
+      "kind": "note_sentence",
+      "display": "He had eosinophilia of 12% and a slow drop off in    renal function over the pas",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s11",
+      "text": "He had eosinophilia of 12% and a slow drop off in    renal function over the past few weeks."
+    },
+    {
+      "id": "E:note:row442600:12",
+      "kind": "note_sentence",
+      "display": "In this setting pt developed    rash c/w reaction to zosyn.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s12",
+      "text": "In this setting pt developed    rash c/w reaction to zosyn."
+    },
+    {
+      "id": "E:note:row442600:13",
+      "kind": "note_sentence",
+      "display": "His renal function worsened, mental status    declined in the setting of uremia,",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s13",
+      "text": "His renal function worsened, mental status    declined in the setting of uremia, pt became hypotensive and    subsequently was transferred to SICU after undergoing hemodialysis."
+    },
+    {
+      "id": "E:note:row442600:14",
+      "kind": "note_sentence",
+      "display": "PMH: HTN, ARF ([**2-22**] infectious process),gastric peptic ulcer disease,    A",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s14",
+      "text": "PMH: HTN, ARF ([**2-22**] infectious process),gastric peptic ulcer disease,    Adenocarcinoma of the duodenum, Tracheobronchomalacia, should receive    Fyb-antigen negative products for all red cell transfusions (antibody    may cause hemolytic transfusion reactions)    PSH:    -antrectomy, Billroth II        -Roux-en-Y conversion for reflux    problems    [**Name (NI) **] continues with mild dyspnea today."
+    },
+    {
+      "id": "E:note:row442600:15",
+      "kind": "note_sentence",
+      "display": "On 60% Face tent.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s15",
+      "text": "On 60% Face tent."
+    },
+    {
+      "id": "E:note:row442600:16",
+      "kind": "note_sentence",
+      "display": "RR    30-40.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s16",
+      "text": "RR    30-40."
+    },
+    {
+      "id": "E:note:row442600:17",
+      "kind": "note_sentence",
+      "display": "O2 sat has been between 96-98% consistently.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s17",
+      "text": "O2 sat has been between 96-98% consistently."
+    },
+    {
+      "id": "E:note:row442600:18",
+      "kind": "note_sentence",
+      "display": "No signs of    hypoxia evident.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s18",
+      "text": "No signs of    hypoxia evident."
+    },
+    {
+      "id": "E:note:row442600:19",
+      "kind": "note_sentence",
+      "display": "Renal failure, acute (Acute renal failure, ARF)    Assessment:    Continues with",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s19",
+      "text": "Renal failure, acute (Acute renal failure, ARF)    Assessment:    Continues with renal failure."
+    },
+    {
+      "id": "E:note:row442600:20",
+      "kind": "note_sentence",
+      "display": "BUN/Creat remain elevated.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s20",
+      "text": "BUN/Creat remain elevated."
+    },
+    {
+      "id": "E:note:row442600:21",
+      "kind": "note_sentence",
+      "display": "(72/7.9).",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s21",
+      "text": "(72/7.9)."
+    },
+    {
+      "id": "E:note:row442600:22",
+      "kind": "note_sentence",
+      "display": "Urine output is labile (15-100 cc s/hr/)    Action:    HD today.  40 mg Lasix gi",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s22",
+      "text": "Urine output is labile (15-100 cc s/hr/)    Action:    HD today.  40 mg Lasix given today as well    Response:    Tolerated HD well, 2L removed.  1 unit RBC s given."
+    },
+    {
+      "id": "E:note:row442600:23",
+      "kind": "note_sentence",
+      "display": "Plan:    Transfer to the floor.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s23",
+      "text": "Plan:    Transfer to the floor."
+    },
+    {
+      "id": "E:note:row442600:24",
+      "kind": "note_sentence",
+      "display": "Continue with HD as ordered.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row442600#s24",
+      "text": "Continue with HD as ordered."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|2115": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1562": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5762": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99859": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5180": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|9974": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|00845": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|56722": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|0389": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5119": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|48242": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|9986": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5845": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5680": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5538": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2766": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8782": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51919": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|53081": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2875": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2859": [
+      "E:cond:23"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5768": [
+      "E:cond:24"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|6930": [
+      "E:cond:25"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E9308": [
+      "E:cond:26"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E9300": [
+      "E:cond:27"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|9331": [
+      "E:cond:28"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E912": [
+      "E:cond:29"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|311": [
+      "E:cond:30"
+    ]
+  },
+  "by_display": {
+    "elective": [
+      "E:enc:1"
+    ],
+    "benign neoplasm of liver and biliary passages": [
+      "E:cond:1"
+    ],
+    "malignant neoplasm of ampulla of vater": [
+      "E:cond:2"
+    ],
+    "obstruction of bile duct": [
+      "E:cond:3"
+    ],
+    "other postoperative infection": [
+      "E:cond:4"
+    ],
+    "pulmonary collapse": [
+      "E:cond:5"
+    ],
+    "diagnosis": [
+      "E:cond:6",
+      "E:cond:18"
+    ],
+    "intestinal infection due to clostridium difficile": [
+      "E:cond:7"
+    ],
+    "peritoneal abscess": [
+      "E:cond:8"
+    ],
+    "unspecified septicemia": [
+      "E:cond:9"
+    ],
+    "severe sepsis": [
+      "E:cond:10"
+    ],
+    "acute respiratory failure": [
+      "E:cond:11"
+    ],
+    "unspecified pleural effusion": [
+      "E:cond:12"
+    ],
+    "methicillin resistant pneumonia due to staphylococcus aureus": [
+      "E:cond:13"
+    ],
+    "persistent postoperative fistula": [
+      "E:cond:14"
+    ],
+    "acute kidney failure with lesion of tubular necrosis": [
+      "E:cond:15"
+    ],
+    "peritoneal adhesions (postoperative) (postinfection)": [
+      "E:cond:16"
+    ],
+    "hernia of other specified sites without mention of obstruction or gangrene": [
+      "E:cond:17"
+    ],
+    "surgical operation with anastomosis, bypass, or graft, with natural or artificial tissues used as implant causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation": [
+      "E:cond:19"
+    ],
+    "other diseases of trachea and bronchus": [
+      "E:cond:20"
+    ],
+    "esophageal reflux": [
+      "E:cond:21"
+    ],
+    "thrombocytopenia, unspecified": [
+      "E:cond:22"
+    ],
+    "anemia, unspecified": [
+      "E:cond:23"
+    ],
+    "other specified disorders of biliary tract": [
+      "E:cond:24"
+    ],
+    "dermatitis due to drugs and medicines taken internally": [
+      "E:cond:25"
+    ],
+    "other specified antibiotics causing adverse effects in therapeutic use": [
+      "E:cond:26"
+    ],
+    "penicillins causing adverse effects in therapeutic use": [
+      "E:cond:27"
+    ],
+    "foreign body in larynx": [
+      "E:cond:28"
+    ],
+    "inhalation and ingestion of other object causing obstruction of respiratory tract or suffocation": [
+      "E:cond:29"
+    ],
+    "depressive disorder, not elsewhere classified": [
+      "E:cond:30"
+    ],
+    "radical pancreaticoduodenectomy": [
+      "E:proc:1"
+    ],
+    "temporary tracheostomy": [
+      "E:proc:2"
+    ],
+    "cholecystectomy": [
+      "E:proc:3"
+    ],
+    "anastomosis of pancreas": [
+      "E:proc:4"
+    ],
+    "other lysis of peritoneal adhesions": [
+      "E:proc:5"
+    ],
+    "repair of other hernia of anterior abdominal wall": [
+      "E:proc:6"
+    ],
+    "reopening of recent laparotomy site": [
+      "E:proc:7"
+    ],
+    "other laparotomy": [
+      "E:proc:8"
+    ],
+    "suture of laceration of small intestine, except duodenum": [
+      "E:proc:9"
+    ],
+    "cannulation of pancreatic duct": [
+      "E:proc:10"
+    ],
+    "percutaneous abdominal drainage": [
+      "E:proc:11",
+      "E:proc:17"
+    ],
+    "other percutaneous procedures on biliary tract": [
+      "E:proc:12"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:13",
+      "E:proc:26"
+    ],
+    "parenteral infusion of concentrated nutritional substances": [
+      "E:proc:14"
+    ],
+    "other cholangiogram": [
+      "E:proc:15",
+      "E:proc:18"
+    ],
+    "replacement of stent (tube) in biliary or pancreatic duct": [
+      "E:proc:16"
+    ],
+    "other nonoperative replacements": [
+      "E:proc:19"
+    ],
+    "venous catheterization for renal dialysis": [
+      "E:proc:20",
+      "E:proc:23"
+    ],
+    "hemodialysis": [
+      "E:proc:21"
+    ],
+    "closed biopsy of skin and subcutaneous tissue": [
+      "E:proc:22"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:24",
+      "E:proc:27"
+    ],
+    "continuous invasive mechanical ventilation for less than 96 consecutive hours": [
+      "E:proc:25"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:28"
+    ],
+    "sicu hpi: hpi: 69 with h/o gastric pud s/p antrectomy/billroth ii and then": [
+      "E:note:row442600:1"
+    ],
+    "on imaging there was a mass at the end of the bile duct.": [
+      "E:note:row442600:2"
+    ],
+    "ercp showed a cut-off stricture at the ampullary level and mrcp demonstrated": [
+      "E:note:row442600:3"
+    ],
+    "pt subsequently underwent whipple, chole, enteroenterostomy x2 on [**2173-": [
+      "E:note:row442600:4"
+    ],
+    "biopsy revealed adenocarcinoma of dudodenum at the ampulla.": [
+      "E:note:row442600:5"
+    ],
+    "post-operative course complicated by anastamotic breakdowns of the hepatojeju": [
+      "E:note:row442600:6"
+    ],
+    "he has also had ir drainage and drain placement into a blind ending loop of b": [
+      "E:note:row442600:7"
+    ],
+    "he also had brief dyspnea and persistent hypoxia post-operatively, with evalu": [
+      "E:note:row442600:8"
+    ],
+    "he has had persistent low-grade fevers on broad spectrum antibiotics.": [
+      "E:note:row442600:9"
+    ],
+    "[**2-20**] he developed a rash in the context of multiple antibiotics for per": [
+      "E:note:row442600:10"
+    ],
+    "he had eosinophilia of 12% and a slow drop off in renal function over the pas": [
+      "E:note:row442600:11"
+    ],
+    "in this setting pt developed rash c/w reaction to zosyn.": [
+      "E:note:row442600:12"
+    ],
+    "his renal function worsened, mental status declined in the setting of uremia,": [
+      "E:note:row442600:13"
+    ],
+    "pmh: htn, arf ([**2-22**] infectious process),gastric peptic ulcer disease, a": [
+      "E:note:row442600:14"
+    ],
+    "on 60% face tent.": [
+      "E:note:row442600:15"
+    ],
+    "rr 30-40.": [
+      "E:note:row442600:16"
+    ],
+    "o2 sat has been between 96-98% consistently.": [
+      "E:note:row442600:17"
+    ],
+    "no signs of hypoxia evident.": [
+      "E:note:row442600:18"
+    ],
+    "renal failure, acute (acute renal failure, arf) assessment: continues with": [
+      "E:note:row442600:19"
+    ],
+    "bun/creat remain elevated.": [
+      "E:note:row442600:20"
+    ],
+    "(72/7.9).": [
+      "E:note:row442600:21"
+    ],
+    "urine output is labile (15-100 cc s/hr/) action: hd today. 40 mg lasix gi": [
+      "E:note:row442600:22"
+    ],
+    "plan: transfer to the floor.": [
+      "E:note:row442600:23"
+    ],
+    "continue with hd as ordered.": [
+      "E:note:row442600:24"
+    ]
+  },
+  "by_date": {
+    "2173-01-20": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:29",
+      "E:cond:30",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13",
+      "E:proc:14",
+      "E:proc:15",
+      "E:proc:16",
+      "E:proc:17",
+      "E:proc:18",
+      "E:proc:19",
+      "E:proc:20",
+      "E:proc:21",
+      "E:proc:22",
+      "E:proc:23",
+      "E:proc:24",
+      "E:proc:25",
+      "E:proc:26",
+      "E:proc:27",
+      "E:proc:28"
+    ]
+  }
+}

@@ -1,0 +1,753 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-30376-166341",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-30376",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-30376",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-166341",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-166341",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2171-01-06T00:00:00",
+          "end": "2171-02-07T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-166341-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-166341-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "44023",
+              "display": "Atherosclerosis of native arteries of the extremities with ulceration"
+            }
+          ],
+          "text": "Atherosclerosis of native arteries of the extremities with ulceration"
+        },
+        "onsetDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-166341-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-166341-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42833",
+              "display": "Acute on chronic diastolic heart failure"
+            }
+          ],
+          "text": "Acute on chronic diastolic heart failure"
+        },
+        "onsetDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-166341-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-166341-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5845",
+              "display": "Acute kidney failure with lesion of tubular necrosis"
+            }
+          ],
+          "text": "Acute kidney failure with lesion of tubular necrosis"
+        },
+        "onsetDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-166341-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-166341-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-166341-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-166341-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "486",
+              "display": "Pneumonia, organism unspecified"
+            }
+          ],
+          "text": "Pneumonia, organism unspecified"
+        },
+        "onsetDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-166341-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-166341-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "43311",
+              "display": "Occlusion and stenosis of carotid artery with cerebral infarction"
+            }
+          ],
+          "text": "Occlusion and stenosis of carotid artery with cerebral infarction"
+        },
+        "onsetDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-166341-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-166341-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99702",
+              "display": "Iatrogenic cerebrovascular infarction or hemorrhage"
+            }
+          ],
+          "text": "Iatrogenic cerebrovascular infarction or hemorrhage"
+        },
+        "onsetDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-166341-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-166341-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70714",
+              "display": "Ulcer of heel and midfoot"
+            }
+          ],
+          "text": "Ulcer of heel and midfoot"
+        },
+        "onsetDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-166341-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-166341-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-166341-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-166341-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41400",
+              "display": "Coronary atherosclerosis of unspecified type of vessel, native or graft"
+            }
+          ],
+          "text": "Coronary atherosclerosis of unspecified type of vessel, native or graft"
+        },
+        "onsetDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-166341-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-166341-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2724",
+              "display": "Other and unspecified hyperlipidemia"
+            }
+          ],
+          "text": "Other and unspecified hyperlipidemia"
+        },
+        "onsetDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-166341-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-166341-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2449",
+              "display": "Unspecified acquired hypothyroidism"
+            }
+          ],
+          "text": "Unspecified acquired hypothyroidism"
+        },
+        "onsetDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-166341-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-166341-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5859",
+              "display": "Chronic kidney disease, unspecified"
+            }
+          ],
+          "text": "Chronic kidney disease, unspecified"
+        },
+        "onsetDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-166341-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-166341-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "40390",
+              "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+            }
+          ],
+          "text": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+        },
+        "onsetDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-166341-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-166341-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2749",
+              "display": "Gout, unspecified"
+            }
+          ],
+          "text": "Gout, unspecified"
+        },
+        "onsetDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-166341-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-166341-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "27800",
+              "display": "Obesity, unspecified"
+            }
+          ],
+          "text": "Obesity, unspecified"
+        },
+        "onsetDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-166341-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-166341-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70703",
+              "display": "Pressure ulcer, lower back"
+            }
+          ],
+          "text": "Pressure ulcer, lower back"
+        },
+        "onsetDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-166341-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-166341-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70721",
+              "display": "Pressure ulcer, stage I"
+            }
+          ],
+          "text": "Pressure ulcer, stage I"
+        },
+        "onsetDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-166341-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-166341-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8782",
+              "display": "Surgical operation with anastomosis, bypass, or graft, with natural or artificial tissues used as implant causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation"
+            }
+          ],
+          "text": "Surgical operation with anastomosis, bypass, or graft, with natural or artificial tissues used as implant causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation"
+        },
+        "onsetDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-166341-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-166341-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4582",
+              "display": "Percutaneous transluminal coronary angioplasty status"
+            }
+          ],
+          "text": "Percutaneous transluminal coronary angioplasty status"
+        },
+        "onsetDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-166341-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-166341-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4581",
+              "display": "Aortocoronary bypass status"
+            }
+          ],
+          "text": "Aortocoronary bypass status"
+        },
+        "onsetDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-166341-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-166341-1",
+        "status": "completed",
+        "code": {
+          "text": "Angioplasty of other non-coronary vessel(s)"
+        },
+        "performedDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-166341-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-166341-2",
+        "status": "completed",
+        "code": {
+          "text": "Endarterectomy, other vessels of head and neck"
+        },
+        "performedDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-166341-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-166341-3",
+        "status": "completed",
+        "code": {
+          "text": "Other (peripheral) vascular shunt or bypass"
+        },
+        "performedDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-166341-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-166341-4",
+        "status": "completed",
+        "code": {
+          "text": "Endarterectomy, lower limb arteries"
+        },
+        "performedDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-166341-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-166341-5",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of non-drug-eluting peripheral (non-coronary) vessel stent(s)"
+        },
+        "performedDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-166341-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-166341-6",
+        "status": "completed",
+        "code": {
+          "text": "Procedure on two vessels"
+        },
+        "performedDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-166341-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-166341-7",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of two vascular stents"
+        },
+        "performedDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-166341-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-166341-8",
+        "status": "completed",
+        "code": {
+          "text": "Aortography"
+        },
+        "performedDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-166341-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-166341-9",
+        "status": "completed",
+        "code": {
+          "text": "Arteriography of femoral and other lower extremity arteries"
+        },
+        "performedDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-166341-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-166341-10",
+        "status": "completed",
+        "code": {
+          "text": "Procedure on single vessel"
+        },
+        "performedDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-166341-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-166341-11",
+        "status": "completed",
+        "code": {
+          "text": "Procedure on vessel bifurcation"
+        },
+        "performedDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-166341-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-166341-12",
+        "status": "completed",
+        "code": {
+          "text": "Procedure on two vessels"
+        },
+        "performedDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-166341-13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-166341-13",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-166341-14",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-166341-14",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-166341-15",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-166341-15",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2171-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-166341-16",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-166341-16",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2171-01-06"
+      }
+    }
+  ]
+}

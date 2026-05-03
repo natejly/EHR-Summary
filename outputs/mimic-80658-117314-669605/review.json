@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Acute respiratory failure [E:cond:2], ILD/IPF/NSIP [E:note:row669605:1][E:note:row669605:18], postinflammatory pulmonary fibrosis [E:cond:7], and diffuse ground glass opacities [E:note:row669605:8].",
+      "severity": "medium",
+      "reason": "The summary lists ILD/IPF/NSIP and ground glass opacities as active problems, but these specific terms are not present in the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Acute respiratory failure [E:cond:2], ILD/IPF/NSIP [E:note:row669605:1][E:note:row669605:18], postinflammatory pulmonary fibrosis [E:cond:7], and diffuse ground glass opacities [E:note:row669605:8].",
+      "suggested": "Acute respiratory failure [E:cond:2] and postinflammatory pulmonary fibrosis [E:cond:7].",
+      "reason": "Removed diagnoses not supported by the provided fact sheet."
+    }
+  ]
+}

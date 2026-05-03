@@ -1,0 +1,128 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row651791:1"
+      ],
+      "rationale": "The candidate evidence explicitly lists Coronary artery disease (CAD, ischemic heart disease) in the assessment section."
+    },
+    {
+      "claim_id": "C2",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence is a fragmented sentence that does not provide the heart rate value or the full clinical context required to verify the claim."
+    },
+    {
+      "claim_id": "C3",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence only mentions 'Right fem.' and does not confirm a catheter site or that it was discontinued (D/I)."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row651791:7"
+      ],
+      "rationale": "The evidence explicitly states that ASA desensitization began at 2245."
+    },
+    {
+      "claim_id": "C5",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided candidate evidence refers to a diagnosis of asthma and contains no information regarding heparin administration."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row651791:8"
+      ],
+      "rationale": "The evidence explicitly states 'Beta blocker held'."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row651791:9"
+      ],
+      "rationale": "The evidence explicitly states that the last dose of ASA was administered at 0100."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row651791:10"
+      ],
+      "rationale": "The candidate evidence explicitly states 'K+ 4.7', which matches the claim."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row651791:11"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan for the patient to be NPO for possible re-cath/intervention in the AM."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row651791:12"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to continue CV meds as ordered."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row651791:13"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to monitor PTT on Heparin gtt."
+    },
+    {
+      "claim_id": "C13",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list chronic obstructive asthma and heart failure, but does not mention chronic obstructive pulmonary disease (COPD)."
+    },
+    {
+      "claim_id": "C14",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates confirm heart failure but provide no evidence of a COPD diagnosis or its exacerbation."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row651791:15"
+      ],
+      "rationale": "The candidate evidence explicitly states that 40mg IV lasix was given at 2100."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row651791:15"
+      ],
+      "rationale": "The evidence explicitly states that atrovent/alberteral neb rx was given at 2100."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:4"
+      ],
+      "rationale": "The candidate evidence confirms a diagnosis of chronic obstructive asthma with acute exacerbation, which supports the claim of increased wheezing/asthma."
+    }
+  ]
+}

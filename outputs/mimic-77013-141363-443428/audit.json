@@ -1,0 +1,151 @@
+{
+  "case_id": "mimic-77013-141363-443428",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2626,
+    "summary_chars": 1294,
+    "target_min_chars": 525,
+    "target_max_chars": 787,
+    "achieved_ratio": 0.49276466108149275,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 8,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:2",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:3",
+      "E:cond:31",
+      "E:cond:32",
+      "E:cond:4",
+      "E:cond:41",
+      "E:cond:42",
+      "E:cond:43",
+      "E:cond:44",
+      "E:cond:7",
+      "E:cond:8",
+      "E:note:row443428:1",
+      "E:note:row443428:13",
+      "E:note:row443428:2",
+      "E:note:row443428:25",
+      "E:note:row443428:26",
+      "E:note:row443428:29",
+      "E:note:row443428:3",
+      "E:note:row443428:4",
+      "E:note:row443428:5",
+      "E:note:row443428:6",
+      "E:note:row443428:7",
+      "E:note:row443428:8"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Patient presents with acute respiratory failure [E:cond:3][E:cond:4], lactic acidosis [E:note:row443428:1], and pneumonitis due to inhalation of food or vomitus [E:cond:7][E:cond:8].",
+        "severity": "medium",
+        "reason": "The fact sheet lists 'Acidosis', not specifically 'lactic acidosis'."
+      },
+      {
+        "sentence": "Other diagnoses include ETOH abuse and withdrawal [E:note:row443428:1][E:note:row443428:5], acute alcoholic hepatitis [E:cond:41][E:cond:42], re-feeding syndrome [E:note:row443428:4], and severe thiamine deficiency [E:note:row443428:2].",
+        "severity": "medium",
+        "reason": "The summary introduces specific diagnoses (ETOH abuse, alcoholic hepatitis, re-feeding syndrome, severe thiamine deficiency) that are not explicitly listed in the provided fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Patient presents with acute respiratory failure [E:cond:3][E:cond:4], lactic acidosis [E:note:row443428:1], and pneumonitis due to inhalation of food or vomitus [E:cond:7][E:cond:8].",
+        "suggested": "Patient presents with acute respiratory failure [E:cond:3][E:cond:4], acidosis [E:cond:5][E:cond:6], and pneumonitis due to inhalation of food or vomitus [E:cond:7][E:cond:8].",
+        "reason": "Corrects 'lactic acidosis' to 'acidosis' and uses the correct evidence IDs from the fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 2,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-77013-141363-443428/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 8.98,
+    "fk_words": 183,
+    "fk_sentences": 14,
+    "fk_syllables": 302,
+    "chars": 1739,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-77013-141363-443428/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.006945083034224808,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 499.959079125023,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 729.6098581670085,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.003066707984544337,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 31.725002125022,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 115.45905245898757,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.005457457969896495,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 253.58546304196352,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

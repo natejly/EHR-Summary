@@ -1,0 +1,778 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-73444-198874",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-73444",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-73444",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-198874",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-198874",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2182-01-21T00:00:00",
+          "end": "2182-02-18T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-198874-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-198874-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41071",
+              "display": "Subendocardial infarction, initial episode of care"
+            }
+          ],
+          "text": "Subendocardial infarction, initial episode of care"
+        },
+        "onsetDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-198874-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-198874-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-198874-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-198874-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42823",
+              "display": "Acute on chronic systolic heart failure"
+            }
+          ],
+          "text": "Acute on chronic systolic heart failure"
+        },
+        "onsetDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-198874-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-198874-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "43411",
+              "display": "Cerebral embolism with cerebral infarction"
+            }
+          ],
+          "text": "Cerebral embolism with cerebral infarction"
+        },
+        "onsetDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-198874-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-198874-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5070",
+              "display": "Pneumonitis due to inhalation of food or vomitus"
+            }
+          ],
+          "text": "Pneumonitis due to inhalation of food or vomitus"
+        },
+        "onsetDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-198874-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-198874-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41402",
+              "display": "Coronary atherosclerosis of autologous vein bypass graft"
+            }
+          ],
+          "text": "Coronary atherosclerosis of autologous vein bypass graft"
+        },
+        "onsetDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-198874-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-198874-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-198874-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-198874-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99672",
+              "display": "Other complications due to other cardiac device, implant, and graft"
+            }
+          ],
+          "text": "Other complications due to other cardiac device, implant, and graft"
+        },
+        "onsetDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-198874-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-198874-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2910",
+              "display": "Alcohol withdrawal delirium"
+            }
+          ],
+          "text": "Alcohol withdrawal delirium"
+        },
+        "onsetDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-198874-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-198874-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25000",
+              "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-198874-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-198874-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-198874-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-198874-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8790",
+              "display": "Cardiac catheterization as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+            }
+          ],
+          "text": "Cardiac catheterization as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+        },
+        "onsetDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-198874-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-198874-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8498",
+              "display": "Accidents occurring in other specified places"
+            }
+          ],
+          "text": "Accidents occurring in other specified places"
+        },
+        "onsetDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-198874-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-198874-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41401",
+              "display": "Coronary atherosclerosis of native coronary artery"
+            }
+          ],
+          "text": "Coronary atherosclerosis of native coronary artery"
+        },
+        "onsetDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-198874-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-198874-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "30301",
+              "display": "Acute alcoholic intoxication in alcoholism, continuous"
+            }
+          ],
+          "text": "Acute alcoholic intoxication in alcoholism, continuous"
+        },
+        "onsetDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-198874-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-198874-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3004",
+              "display": "Dysthymic disorder"
+            }
+          ],
+          "text": "Dysthymic disorder"
+        },
+        "onsetDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-198874-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-198874-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4168",
+              "display": "Other chronic pulmonary heart diseases"
+            }
+          ],
+          "text": "Other chronic pulmonary heart diseases"
+        },
+        "onsetDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-198874-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-198874-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8798",
+              "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+            }
+          ],
+          "text": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+        },
+        "onsetDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-198874-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-198874-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8497",
+              "display": "Accidents occurring in residential institution"
+            }
+          ],
+          "text": "Accidents occurring in residential institution"
+        },
+        "onsetDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-198874-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-198874-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42789",
+              "display": "Other specified cardiac dysrhythmias"
+            }
+          ],
+          "text": "Other specified cardiac dysrhythmias"
+        },
+        "onsetDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-198874-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-198874-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3962",
+              "display": "Mitral valve insufficiency and aortic valve stenosis"
+            }
+          ],
+          "text": "Mitral valve insufficiency and aortic valve stenosis"
+        },
+        "onsetDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-198874-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-198874-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78097",
+              "display": "Altered mental status"
+            }
+          ],
+          "text": "Altered mental status"
+        },
+        "onsetDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-198874-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-198874-1",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous transluminal coronary angioplasty [PTCA]"
+        },
+        "performedDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-198874-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-198874-2",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of drug-eluting coronary artery stent(s)"
+        },
+        "performedDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-198874-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-198874-3",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous transluminal coronary angioplasty [PTCA]"
+        },
+        "performedDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-198874-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-198874-4",
+        "status": "completed",
+        "code": {
+          "text": "Alcohol detoxification"
+        },
+        "performedDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-198874-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-198874-5",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of one vascular stent"
+        },
+        "performedDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-198874-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-198874-6",
+        "status": "completed",
+        "code": {
+          "text": "Procedure on single vessel"
+        },
+        "performedDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-198874-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-198874-7",
+        "status": "completed",
+        "code": {
+          "text": "Combined right and left heart cardiac catheterization"
+        },
+        "performedDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-198874-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-198874-8",
+        "status": "completed",
+        "code": {
+          "text": "Coronary arteriography using two catheters"
+        },
+        "performedDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-198874-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-198874-9",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of drug-eluting coronary artery stent(s)"
+        },
+        "performedDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-198874-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-198874-10",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of one vascular stent"
+        },
+        "performedDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-198874-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-198874-11",
+        "status": "completed",
+        "code": {
+          "text": "Procedure on single vessel"
+        },
+        "performedDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-198874-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-198874-12",
+        "status": "completed",
+        "code": {
+          "text": "Combined right and left heart cardiac catheterization"
+        },
+        "performedDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-198874-13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-198874-13",
+        "status": "completed",
+        "code": {
+          "text": "Coronary arteriography using two catheters"
+        },
+        "performedDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-198874-14",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-198874-14",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-198874-15",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-198874-15",
+        "status": "completed",
+        "code": {
+          "text": "Alcohol detoxification"
+        },
+        "performedDateTime": "2182-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-198874-16",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-198874-16",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2182-01-21"
+      }
+    }
+  ]
+}

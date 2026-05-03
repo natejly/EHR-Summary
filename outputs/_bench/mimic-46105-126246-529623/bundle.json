@@ -1,0 +1,635 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-46105-126246",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-46105",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-46105",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-126246",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-126246",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2111-03-07T00:00:00",
+          "end": "2111-03-13T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "03812",
+              "display": "Methicillin resistant Staphylococcus aureus septicemia"
+            }
+          ],
+          "text": "Methicillin resistant Staphylococcus aureus septicemia"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "261",
+              "display": "Nutritional marasmus"
+            }
+          ],
+          "text": "Nutritional marasmus"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70724",
+              "display": "Pressure ulcer, stage IV"
+            }
+          ],
+          "text": "Pressure ulcer, stage IV"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78552",
+              "display": "Septic shock"
+            }
+          ],
+          "text": "Septic shock"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99731",
+              "display": "Ventilator associated pneumonia"
+            }
+          ],
+          "text": "Ventilator associated pneumonia"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5990",
+              "display": "Urinary tract infection, site not specified"
+            }
+          ],
+          "text": "Urinary tract infection, site not specified"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "43820",
+              "display": "Late effects of cerebrovascular disease, hemiplegia affecting unspecified side"
+            }
+          ],
+          "text": "Late effects of cerebrovascular disease, hemiplegia affecting unspecified side"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V551",
+              "display": "Attention to gastrostomy"
+            }
+          ],
+          "text": "Attention to gastrostomy"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2762",
+              "display": "Acidosis"
+            }
+          ],
+          "text": "Acidosis"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51883",
+              "display": "Chronic respiratory failure"
+            }
+          ],
+          "text": "Chronic respiratory failure"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4611",
+              "display": "Dependence on respirator, status"
+            }
+          ],
+          "text": "Dependence on respirator, status"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5854",
+              "display": "Chronic kidney disease, Stage IV (severe)"
+            }
+          ],
+          "text": "Chronic kidney disease, Stage IV (severe)"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99592",
+              "display": "Severe sepsis"
+            }
+          ],
+          "text": "Severe sepsis"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "04112",
+              "display": "Methicillin resistant Staphylococcus aureus in conditions classified elsewhere and of unspecified site"
+            }
+          ],
+          "text": "Methicillin resistant Staphylococcus aureus in conditions classified elsewhere and of unspecified site"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0417",
+              "display": "Pseudomonas infection in conditions classified elsewhere and of unspecified site"
+            }
+          ],
+          "text": "Pseudomonas infection in conditions classified elsewhere and of unspecified site"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70703",
+              "display": "Pressure ulcer, lower back"
+            }
+          ],
+          "text": "Pressure ulcer, lower back"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70707",
+              "display": "Pressure ulcer, heel"
+            }
+          ],
+          "text": "Pressure ulcer, heel"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70709",
+              "display": "Pressure ulcer, other site"
+            }
+          ],
+          "text": "Pressure ulcer, other site"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42731",
+              "display": "Atrial fibrillation"
+            }
+          ],
+          "text": "Atrial fibrillation"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2875",
+              "display": "Thrombocytopenia, unspecified"
+            }
+          ],
+          "text": "Thrombocytopenia, unspecified"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "28521",
+              "display": "Anemia in chronic kidney disease"
+            }
+          ],
+          "text": "Anemia in chronic kidney disease"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-126246-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126246-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25000",
+              "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-126246-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-126246-1",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2111-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-126246-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-126246-2",
+        "status": "completed",
+        "code": {
+          "text": "Parenteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2111-03-07"
+      }
+    }
+  ]
+}

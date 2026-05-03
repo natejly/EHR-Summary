@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Additional diagnoses include DM2 [E:note:row671473:3][E:cond:51][E:cond:52], pancreatitis [E:note:row671473:3], depression [E:note:row671473:3], and bacteremia [E:cond:21][E:cond:22].",
+      "severity": "medium",
+      "reason": "The summary includes DM2, pancreatitis, and depression based on E:note:row671473:3, but these conditions are not present in the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Additional diagnoses include DM2 [E:note:row671473:3][E:cond:51][E:cond:52], pancreatitis [E:note:row671473:3], depression [E:note:row671473:3], and bacteremia [E:cond:21][E:cond:22].",
+      "suggested": "Additional diagnoses include bacteremia [E:cond:21][E:cond:22].",
+      "reason": "Removed diagnoses not supported by the provided fact sheet."
+    }
+  ]
+}

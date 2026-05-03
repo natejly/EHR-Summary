@@ -1,0 +1,145 @@
+{
+  "case_id": "mimic-70206-162850-600430",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2432,
+    "summary_chars": 964,
+    "target_min_chars": 486,
+    "target_max_chars": 729,
+    "achieved_ratio": 0.3963815789473684,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 9,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:19",
+      "E:cond:2",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:29",
+      "E:cond:3",
+      "E:cond:30",
+      "E:cond:33",
+      "E:cond:34",
+      "E:cond:4",
+      "E:cond:41",
+      "E:cond:42",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row600430:10",
+      "E:note:row600430:12",
+      "E:note:row600430:14",
+      "E:note:row600430:15",
+      "E:note:row600430:4"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Additional findings: stage III pressure ulcers (buttock, lower back) [E:cond:7][E:cond:8][E:cond:19][E:cond:20][E:cond:21][E:cond:22], hypernatremia [E:cond:9][E:cond:10], coagulopathy [E:cond:13][E:cond:14][E:note:row600430:15], and anemia [E:cond:41][E:cond:42].",
+        "severity": "medium",
+        "reason": "The summary includes 'anemia' and 'coagulopathy' citations (E:cond:41, E:cond:42, E:note:row600430:15) that are not present in the provided fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Additional findings: stage III pressure ulcers (buttock, lower back) [E:cond:7][E:cond:8][E:cond:19][E:cond:20][E:cond:21][E:cond:22], hypernatremia [E:cond:9][E:cond:10], coagulopathy [E:cond:13][E:cond:14][E:note:row600430:15], and anemia [E:cond:41][E:cond:42].",
+        "suggested": "Additional findings: stage III pressure ulcers (buttock, lower back) [E:cond:7][E:cond:8][E:cond:19][E:cond:20][E:cond:21][E:cond:22], hypernatremia [E:cond:9][E:cond:10], and coagulation defects [E:cond:13][E:cond:14].",
+        "reason": "Remove anemia and the unsupported citation for coagulopathy as they are absent from the fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-70206-162850-600430/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.65,
+    "fk_words": 178,
+    "fk_sentences": 17,
+    "fk_syllables": 289,
+    "chars": 1617,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-70206-162850-600430/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0020835830364376307,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 339.342444333015,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 314.77980516600655,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0020094159990549088,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 58.1599654169986,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 18.513872125011403,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.004299250023905188,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 12.37299120798707,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

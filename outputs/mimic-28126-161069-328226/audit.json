@@ -1,0 +1,124 @@
+{
+  "case_id": "mimic-28126-161069-328226",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2261,
+    "summary_chars": 800,
+    "target_min_chars": 452,
+    "target_max_chars": 678,
+    "achieved_ratio": 0.35382574082264484,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 8,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:11",
+      "E:cond:13",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:9",
+      "E:note:row328226:1",
+      "E:note:row328226:2",
+      "E:note:row328226:3",
+      "E:note:row328226:6",
+      "E:note:row328226:8",
+      "E:note:row328226:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Other findings include intestinal obstruction [E:cond:2], ascites [E:cond:9], paralytic ileus [E:cond:11], tachycardia [E:note:row328226:6], and iatrogenic hypotension [E:cond:13].",
+        "severity": "low",
+        "reason": "The summary lists tachycardia as a finding, but the fact sheet lists it as a vital sign (heart rate 120s-130s)."
+      }
+    ],
+    "recommended_revisions": []
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 0,
+    "low": 1
+  },
+  "revised_summary": null,
+  "revised_check_passed": null,
+  "patient_summary": {
+    "fk_grade": 6.27,
+    "fk_words": 216,
+    "fk_sentences": 19,
+    "fk_syllables": 319,
+    "chars": 1819,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-28126-161069-328226/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0014635829720646143,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 354.76054137502797,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 356.0472143749939,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0021342079853639007,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 26.80794187495485,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 44.868870833015535,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.003949499980080873,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 3.9289488330250606,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Delirium [E:cond:8], acidosis [E:cond:9], and hyperpotassemia [E:cond:10].",
+      "severity": "medium",
+      "reason": "Internal inconsistency: The summary lists hyperpotassemia as an active problem, but the Labs section states K+ is WNL."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Delirium [E:cond:8], acidosis [E:cond:9], and hyperpotassemia [E:cond:10].",
+      "suggested": "Delirium [E:cond:8] and acidosis [E:cond:9]; hyperpotassemia [E:cond:10] recently improved to WNL [E:note:row619126:6].",
+      "reason": "Reconciles the active problem list with the current lab result."
+    }
+  ]
+}

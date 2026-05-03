@@ -1,0 +1,21 @@
+{
+  "concerns": [
+    {
+      "sentence": "Patient presents with acute respiratory failure [E:cond:3][E:cond:4], lactic acidosis [E:note:row443428:1], and pneumonitis due to inhalation of food or vomitus [E:cond:7][E:cond:8].",
+      "severity": "medium",
+      "reason": "The fact sheet lists 'Acidosis', not specifically 'lactic acidosis'."
+    },
+    {
+      "sentence": "Other diagnoses include ETOH abuse and withdrawal [E:note:row443428:1][E:note:row443428:5], acute alcoholic hepatitis [E:cond:41][E:cond:42], re-feeding syndrome [E:note:row443428:4], and severe thiamine deficiency [E:note:row443428:2].",
+      "severity": "medium",
+      "reason": "The summary introduces specific diagnoses (ETOH abuse, alcoholic hepatitis, re-feeding syndrome, severe thiamine deficiency) that are not explicitly listed in the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Patient presents with acute respiratory failure [E:cond:3][E:cond:4], lactic acidosis [E:note:row443428:1], and pneumonitis due to inhalation of food or vomitus [E:cond:7][E:cond:8].",
+      "suggested": "Patient presents with acute respiratory failure [E:cond:3][E:cond:4], acidosis [E:cond:5][E:cond:6], and pneumonitis due to inhalation of food or vomitus [E:cond:7][E:cond:8].",
+      "reason": "Corrects 'lactic acidosis' to 'acidosis' and uses the correct evidence IDs from the fact sheet."
+    }
+  ]
+}

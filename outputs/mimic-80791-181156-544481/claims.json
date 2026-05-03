@@ -1,0 +1,220 @@
+{
+  "claims": [
+    {
+      "claim_id": "C1",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "morbidly obese",
+      "time_ref": null,
+      "source_span": "row544481#0"
+    },
+    {
+      "claim_id": "C2",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has history of",
+      "value": "chronic left knee pain",
+      "time_ref": null,
+      "source_span": "row544481#0"
+    },
+    {
+      "claim_id": "C3",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "elective total left knee replacement",
+      "time_ref": null,
+      "source_span": "row544481#0"
+    },
+    {
+      "claim_id": "C4",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "was given",
+      "value": "morphine",
+      "time_ref": "Post op",
+      "source_span": "row544481#1"
+    },
+    {
+      "claim_id": "C5",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "developed",
+      "value": "hypotension",
+      "time_ref": "Post op",
+      "source_span": "row544481#1"
+    },
+    {
+      "claim_id": "C6",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "developed",
+      "value": "apnea",
+      "time_ref": "Post op",
+      "source_span": "row544481#1"
+    },
+    {
+      "claim_id": "C7",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "was",
+      "value": "reintubated",
+      "time_ref": "Post op",
+      "source_span": "row544481#1"
+    },
+    {
+      "claim_id": "C8",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "was",
+      "value": "fluid resucitated wih 7-8 L fluid",
+      "time_ref": "Post op",
+      "source_span": "row544481#1"
+    },
+    {
+      "claim_id": "C9",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "chronic back and knee pain",
+      "time_ref": "prior to surgery",
+      "source_span": "row544481#3"
+    },
+    {
+      "claim_id": "C10",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has hx of",
+      "value": "anxiety",
+      "time_ref": null,
+      "source_span": "row544481#3"
+    },
+    {
+      "claim_id": "C11",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "started on",
+      "value": "propofol gtt",
+      "time_ref": null,
+      "source_span": "row544481#4"
+    },
+    {
+      "claim_id": "C12",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "started on",
+      "value": "fent IV prn",
+      "time_ref": null,
+      "source_span": "row544481#4"
+    },
+    {
+      "claim_id": "C13",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "started on",
+      "value": "oxycodone prn",
+      "time_ref": null,
+      "source_span": "row544481#4"
+    },
+    {
+      "claim_id": "C14",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "be extubated tomorrow",
+      "time_ref": "tomorrow",
+      "source_span": "row544481#6"
+    },
+    {
+      "claim_id": "C15",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "?pain service consult",
+      "time_ref": null,
+      "source_span": "row544481#6"
+    },
+    {
+      "claim_id": "C16",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "was",
+      "value": "transiently on a PCA",
+      "time_ref": "prior to reintubation",
+      "source_span": "row544481#6"
+    },
+    {
+      "claim_id": "C17",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Obstructive sleep apnea (OSA)",
+      "time_ref": null,
+      "source_span": "row544481#7"
+    },
+    {
+      "claim_id": "C18",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "initially acidotic",
+      "time_ref": "throughout the night",
+      "source_span": "row544481#8"
+    },
+    {
+      "claim_id": "C19",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Last ABG 7.41/44/112/29/2",
+      "time_ref": null,
+      "source_span": "row544481#10"
+    },
+    {
+      "claim_id": "C20",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "extubate this morning",
+      "time_ref": "this morning",
+      "source_span": "row544481#11"
+    },
+    {
+      "claim_id": "C21",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "post-op hct of 26.7",
+      "time_ref": null,
+      "source_span": "row544481#14"
+    },
+    {
+      "claim_id": "C22",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "received",
+      "value": "2 units of PRBC",
+      "time_ref": null,
+      "source_span": "row544481#14"
+    },
+    {
+      "claim_id": "C23",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Post transfusion gtt 26.9",
+      "time_ref": "Post transfusion",
+      "source_span": "row544481#15"
+    },
+    {
+      "claim_id": "C24",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "?repeat transfusion",
+      "time_ref": null,
+      "source_span": "row544481#16"
+    }
+  ]
+}

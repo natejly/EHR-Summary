@@ -1,0 +1,295 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C2",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:2"
+      ],
+      "rationale": "The evidence explicitly states a history of Stage IV Colon Ca with mets to lung diagnosed last fall."
+    },
+    {
+      "claim_id": "C4",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The evidence mentions a history of malignant neoplasm of the large intestine, but does not mention pleural effusions."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:3"
+      ],
+      "rationale": "The evidence explicitly states that the last chemotherapy was 4 weeks ago."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:4"
+      ],
+      "rationale": "The candidate evidence explicitly states the diagnosis of 'Altered mental status (not Delirium)'."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:11"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is afebrile."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:12"
+      ],
+      "rationale": "The candidate evidence explicitly states that the monitor shows SVT up to 160s without ectopy."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:13"
+      ],
+      "rationale": "The candidate evidence contains the exact text as the claim regarding lung sounds."
+    },
+    {
+      "claim_id": "C10",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:15"
+      ],
+      "rationale": "The candidate evidence explicitly states that tachypneic and labored breathing were observed."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:16"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Audibly wheezing.'"
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:17"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Abd soft, NT, ND.', which matches the claim exactly."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:18"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Positive bowel sounds.'"
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:19"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is receiving TPN without lipids infusion."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:20"
+      ],
+      "rationale": "The evidence explicitly states that a Flexiseal is in place."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:21"
+      ],
+      "rationale": "The evidence explicitly mentions a Foley catheter in the context of the patient's output."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:22"
+      ],
+      "rationale": "The evidence explicitly states the patient has a positive CDiff from an outside hospital (OSH)."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:23"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is on multiple IV antibiotics PO abx."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:24"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is on sliding scale humalog insulin ACHS."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:30",
+        "E:note:row588579:41"
+      ],
+      "rationale": "Both evidence items explicitly state that the patient was given IV lopressor."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:31"
+      ],
+      "rationale": "The evidence explicitly states the patient was bolused with IV lasix x 2."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:31",
+        "E:note:row588579:58"
+      ],
+      "rationale": "The evidence explicitly states the patient was started on and is being diuresed with a lasix gtt."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:32"
+      ],
+      "rationale": "The candidate evidence explicitly states that ABGs were drawn."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:33"
+      ],
+      "rationale": "The evidence explicitly states that a bedside CXR was performed."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:34"
+      ],
+      "rationale": "The evidence explicitly states that IVP morphine was given for pain."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:34"
+      ],
+      "rationale": "The candidate evidence explicitly lists IV fentanyl as being given for pain."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:34",
+        "E:note:row588579:50"
+      ],
+      "rationale": "Both candidate sentences explicitly state that the patient is receiving or continuing with a fentanyl patch."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:34"
+      ],
+      "rationale": "The evidence explicitly lists liquid oxycodone as a medication given for pain."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:35"
+      ],
+      "rationale": "The evidence explicitly states the patient is receiving IV haldol per orders."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:36"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is using Insulin sc humalog."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:41"
+      ],
+      "rationale": "The candidate evidence explicitly states that the HR went down to 120-130."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:41"
+      ],
+      "rationale": "The candidate evidence explicitly mentions '180-200 mL HUO' in the same context as the claim."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:46"
+      ],
+      "rationale": "The candidate evidence explicitly states that the O2 sat is now 98%."
+    },
+    {
+      "claim_id": "C35",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:52"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient remains grossly edematous and weepy from the upper extremities."
+    },
+    {
+      "claim_id": "C36",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:55"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan for HR control with a low dose beta blocker."
+    },
+    {
+      "claim_id": "C37",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row588579:58"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to 'Diurese with lasix gtt.'"
+    }
+  ]
+}

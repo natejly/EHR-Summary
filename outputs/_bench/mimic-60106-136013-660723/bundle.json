@@ -1,0 +1,720 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-60106-136013",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-60106",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-60106",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-136013",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-136013",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2145-01-25T00:00:00",
+          "end": "2145-02-12T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51884",
+              "display": "Acute and chronic respiratory failure"
+            }
+          ],
+          "text": "Acute and chronic respiratory failure"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0389",
+              "display": "Unspecified septicemia"
+            }
+          ],
+          "text": "Unspecified septicemia"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78552",
+              "display": "Septic shock"
+            }
+          ],
+          "text": "Septic shock"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51909",
+              "display": "Other tracheostomy complications"
+            }
+          ],
+          "text": "Other tracheostomy complications"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5070",
+              "display": "Pneumonitis due to inhalation of food or vomitus"
+            }
+          ],
+          "text": "Pneumonitis due to inhalation of food or vomitus"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99592",
+              "display": "Severe sepsis"
+            }
+          ],
+          "text": "Severe sepsis"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "49390",
+              "display": "Asthma, unspecified type, unspecified"
+            }
+          ],
+          "text": "Asthma, unspecified type, unspecified"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5715",
+              "display": "Cirrhosis of liver without mention of alcohol"
+            }
+          ],
+          "text": "Cirrhosis of liver without mention of alcohol"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41401",
+              "display": "Coronary atherosclerosis of native coronary artery"
+            }
+          ],
+          "text": "Coronary atherosclerosis of native coronary artery"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "37200",
+              "display": "Acute conjunctivitis, unspecified"
+            }
+          ],
+          "text": "Acute conjunctivitis, unspecified"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "04119",
+              "display": "Staphylococcus infection in conditions classified elsewhere and of unspecified site, other staphylococcus"
+            }
+          ],
+          "text": "Staphylococcus infection in conditions classified elsewhere and of unspecified site, other staphylococcus"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "07054",
+              "display": "Chronic hepatitis C without mention of hepatic coma"
+            }
+          ],
+          "text": "Chronic hepatitis C without mention of hepatic coma"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2875",
+              "display": "Thrombocytopenia, unspecified"
+            }
+          ],
+          "text": "Thrombocytopenia, unspecified"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3576",
+              "display": "Polyneuropathy due to drugs"
+            }
+          ],
+          "text": "Polyneuropathy due to drugs"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E9331",
+              "display": "Antineoplastic and immunosuppressive drugs causing adverse effects in therapeutic use"
+            }
+          ],
+          "text": "Antineoplastic and immunosuppressive drugs causing adverse effects in therapeutic use"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "28860",
+              "display": "Leukocytosis, unspecified"
+            }
+          ],
+          "text": "Leukocytosis, unspecified"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "37140",
+              "display": "Corneal degeneration, unspecified"
+            }
+          ],
+          "text": "Corneal degeneration, unspecified"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "35989",
+              "display": "Other myopathies"
+            }
+          ],
+          "text": "Other myopathies"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3569",
+              "display": "Unspecified hereditary and idiopathic peripheral neuropathy"
+            }
+          ],
+          "text": "Unspecified hereditary and idiopathic peripheral neuropathy"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2732",
+              "display": "Other paraproteinemias"
+            }
+          ],
+          "text": "Other paraproteinemias"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78720",
+              "display": "Dysphagia, unspecified"
+            }
+          ],
+          "text": "Dysphagia, unspecified"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "37420",
+              "display": "Lagophthalmos, unspecified"
+            }
+          ],
+          "text": "Lagophthalmos, unspecified"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "412",
+              "display": "Old myocardial infarction"
+            }
+          ],
+          "text": "Old myocardial infarction"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-136013-24",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-136013-24",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3051",
+              "display": "Tobacco use disorder"
+            }
+          ],
+          "text": "Tobacco use disorder"
+        },
+        "onsetDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-136013-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-136013-1",
+        "status": "completed",
+        "code": {
+          "text": "Revision of tracheostomy"
+        },
+        "performedDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-136013-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-136013-2",
+        "status": "completed",
+        "code": {
+          "text": "Other incision of larynx or trachea"
+        },
+        "performedDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-136013-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-136013-3",
+        "status": "completed",
+        "code": {
+          "text": "Suture of artery"
+        },
+        "performedDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-136013-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-136013-4",
+        "status": "completed",
+        "code": {
+          "text": "Blepharorrhaphy"
+        },
+        "performedDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-136013-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-136013-5",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-136013-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-136013-6",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2145-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-136013-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-136013-7",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2145-01-25"
+      }
+    }
+  ]
+}

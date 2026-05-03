@@ -1,0 +1,26 @@
+{
+  "concerns": [
+    {
+      "sentence": "Other findings include rapid Afib [E:note:row514701:7], total body anasarca [E:note:row514701:13], and impaired skin integrity with excoriations on coccyx and scrotum [E:note:row514701:24][E:note:row514701:25].",
+      "severity": "medium",
+      "reason": "The summary interprets a heart rate of 130-150 as 'rapid Afib', but the fact sheet only provides the heart rate without specifying the rhythm."
+    },
+    {
+      "sentence": "and progressive metabolic acidosis [E:cond:12].",
+      "severity": "low",
+      "reason": "The fact sheet only lists 'Acidosis', not 'progressive metabolic acidosis'."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Other findings include rapid Afib [E:note:row514701:7], total body anasarca [E:note:row514701:13], and impaired skin integrity with excoriations on coccyx and scrotum [E:note:row514701:24][E:note:row514701:25].",
+      "suggested": "Other findings include tachycardia (HR 130-150) [E:note:row514701:7], total body anasarca [E:note:row514701:13], and impaired skin integrity with excoriations on coccyx and scrotum [E:note:row514701:24][E:note:row514701:25].",
+      "reason": "Corrects the misinterpretation of heart rate as Atrial Fibrillation."
+    },
+    {
+      "original": "and progressive metabolic acidosis [E:cond:12].",
+      "suggested": "and acidosis [E:cond:12].",
+      "reason": "Aligns the terminology with the provided fact sheet."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "concerns": [
+    {
+      "sentence": "Acute and chronic respiratory failure [E:cond:2] presenting as respiratory distress [E:cond:2].",
+      "severity": "low",
+      "reason": "The fact sheet lists the diagnosis but does not explicitly state it presented as respiratory distress."
+    },
+    {
+      "sentence": "Severe COPD [E:note:row520810:1] and RLL pneumonia [E:note:row520810:5].",
+      "severity": "high",
+      "reason": "These conditions are not present in the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Acute and chronic respiratory failure [E:cond:2] presenting as respiratory distress [E:cond:2].",
+      "suggested": "Acute and chronic respiratory failure [E:cond:2].",
+      "reason": "Remove interpretation of presentation not found in the fact sheet."
+    },
+    {
+      "original": "Severe COPD [E:note:row520810:1] and RLL pneumonia [E:note:row520810:5].",
+      "suggested": "",
+      "reason": "Remove claims not supported by the provided fact sheet."
+    }
+  ]
+}

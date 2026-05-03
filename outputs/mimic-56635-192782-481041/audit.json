@@ -1,0 +1,147 @@
+{
+  "case_id": "mimic-56635-192782-481041",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 3841,
+    "summary_chars": 1467,
+    "target_min_chars": 768,
+    "target_max_chars": 1152,
+    "achieved_ratio": 0.3819317885967196,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 10,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:2",
+      "E:cond:22",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row481041:10",
+      "E:note:row481041:11",
+      "E:note:row481041:12",
+      "E:note:row481041:13",
+      "E:note:row481041:14",
+      "E:note:row481041:15",
+      "E:note:row481041:17",
+      "E:note:row481041:2",
+      "E:note:row481041:20",
+      "E:note:row481041:21",
+      "E:note:row481041:32",
+      "E:note:row481041:35",
+      "E:note:row481041:38",
+      "E:note:row481041:40",
+      "E:note:row481041:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Additional findings include R groin hematoma [E:cond:7], generalized edema [E:note:row481041:38], and essential hypertension [E:cond:19].",
+        "severity": "medium",
+        "reason": "The summary specifies 'R groin hematoma', but the fact sheet only states 'Hematoma complicating a procedure' without specifying the location."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Additional findings include R groin hematoma [E:cond:7], generalized edema [E:note:row481041:38], and essential hypertension [E:cond:19].",
+        "suggested": "Additional findings include hematoma complicating a procedure [E:cond:7], generalized edema [E:note:row481041:38], and essential hypertension [E:cond:19].",
+        "reason": "Corrects the location of the hematoma to match the provided evidence."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-56635-192782-481041/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.57,
+    "fk_words": 179,
+    "fk_sentences": 16,
+    "fk_syllables": 270,
+    "chars": 1729,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-56635-192782-481041/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0021752080065198243,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 123.72586329100886,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 146.07808420795482,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0014966249582357705,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 17.822433582972735,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 41.72834262496326,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.002267042000312358,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 27.229112249973696,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

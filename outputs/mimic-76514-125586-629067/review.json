@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Patient presents with acute respiratory failure [E:cond:2], sepsis [E:cond:4], unspecified septicemia [E:cond:3], and likely aspiration pneumonitis [E:note:row629067:47][E:cond:5].",
+      "severity": "low",
+      "reason": "The term 'likely' is used, but the fact sheet lists 'Pneumonitis due to inhalation of food or vomitus' as a diagnosis, not a suspected one."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Patient presents with acute respiratory failure [E:cond:2], sepsis [E:cond:4], unspecified septicemia [E:cond:3], and likely aspiration pneumonitis [E:note:row629067:47][E:cond:5].",
+      "suggested": "Patient presents with acute respiratory failure [E:cond:2], sepsis [E:cond:4], unspecified septicemia [E:cond:3], and aspiration pneumonitis [E:note:row629067:47][E:cond:5].",
+      "reason": "Remove 'likely' to accurately reflect the diagnosis listed in the fact sheet."
+    }
+  ]
+}

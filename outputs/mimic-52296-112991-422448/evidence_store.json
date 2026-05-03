@@ -1,0 +1,2218 @@
+{
+  "case_id": "mimic-52296-112991-422448",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:enc-112991",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Methicillin resistant Staphylococcus aureus septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "03812",
+        "display": "Methicillin resistant Staphylococcus aureus septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Methicillin resistant Staphylococcus aureus septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "03812",
+        "display": "Methicillin resistant Staphylococcus aureus septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute and subacute bacterial endocarditis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4210",
+        "display": "Acute and subacute bacterial endocarditis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute and subacute bacterial endocarditis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4210",
+        "display": "Acute and subacute bacterial endocarditis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Methicillin resistant pneumonia due to Staphylococcus aureus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "48242",
+        "display": "Methicillin resistant pneumonia due to Staphylococcus aureus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Methicillin resistant pneumonia due to Staphylococcus aureus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "48242",
+        "display": "Methicillin resistant pneumonia due to Staphylococcus aureus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Septic shock",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78552",
+        "display": "Septic shock"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Septic shock",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78552",
+        "display": "Septic shock"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Acute systolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42821",
+        "display": "Acute systolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Acute systolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42821",
+        "display": "Acute systolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Cardiac complications, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9971",
+        "display": "Cardiac complications, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Cardiac complications, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9971",
+        "display": "Cardiac complications, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Critical illness myopathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "35981",
+        "display": "Critical illness myopathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Critical illness myopathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "35981",
+        "display": "Critical illness myopathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Urinary tract infection, site not specified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5990",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Urinary tract infection, site not specified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5990",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Unspecified intestinal obstruction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5609",
+        "display": "Unspecified intestinal obstruction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Unspecified intestinal obstruction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5609",
+        "display": "Unspecified intestinal obstruction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:25",
+      "kind": "condition",
+      "display": "Secondary malignant neoplasm of bone and bone marrow",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1985",
+        "display": "Secondary malignant neoplasm of bone and bone marrow"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:26",
+      "kind": "condition",
+      "display": "Secondary malignant neoplasm of bone and bone marrow",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1985",
+        "display": "Secondary malignant neoplasm of bone and bone marrow"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:27",
+      "kind": "condition",
+      "display": "Mechanical complication of other vascular device, implant, and graft",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9961",
+        "display": "Mechanical complication of other vascular device, implant, and graft"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:28",
+      "kind": "condition",
+      "display": "Mechanical complication of other vascular device, implant, and graft",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9961",
+        "display": "Mechanical complication of other vascular device, implant, and graft"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:29",
+      "kind": "condition",
+      "display": "Aortic valve disorders",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4241",
+        "display": "Aortic valve disorders"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:30",
+      "kind": "condition",
+      "display": "Aortic valve disorders",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4241",
+        "display": "Aortic valve disorders"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:31",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:32",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:33",
+      "kind": "condition",
+      "display": "Pressure ulcer, lower back",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70703",
+        "display": "Pressure ulcer, lower back"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:34",
+      "kind": "condition",
+      "display": "Pressure ulcer, lower back",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70703",
+        "display": "Pressure ulcer, lower back"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:35",
+      "kind": "condition",
+      "display": "Pressure ulcer, stage III",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70723",
+        "display": "Pressure ulcer, stage III"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:36",
+      "kind": "condition",
+      "display": "Pressure ulcer, stage III",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70723",
+        "display": "Pressure ulcer, stage III"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:37",
+      "kind": "condition",
+      "display": "Pressure ulcer, unstageable",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70725",
+        "display": "Pressure ulcer, unstageable"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:38",
+      "kind": "condition",
+      "display": "Pressure ulcer, unstageable",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70725",
+        "display": "Pressure ulcer, unstageable"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:39",
+      "kind": "condition",
+      "display": "Iron deficiency anemia secondary to blood loss (chronic)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2800",
+        "display": "Iron deficiency anemia secondary to blood loss (chronic)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:40",
+      "kind": "condition",
+      "display": "Iron deficiency anemia secondary to blood loss (chronic)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2800",
+        "display": "Iron deficiency anemia secondary to blood loss (chronic)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:41",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:42",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:43",
+      "kind": "condition",
+      "display": "Malignant neoplasm of prostate",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "185",
+        "display": "Malignant neoplasm of prostate"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:44",
+      "kind": "condition",
+      "display": "Malignant neoplasm of prostate",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "185",
+        "display": "Malignant neoplasm of prostate"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:45",
+      "kind": "condition",
+      "display": "Carrier or suspected carrier of Methicillin resistant Staphylococcus aureus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V0254",
+        "display": "Carrier or suspected carrier of Methicillin resistant Staphylococcus aureus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:46",
+      "kind": "condition",
+      "display": "Carrier or suspected carrier of Methicillin resistant Staphylococcus aureus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V0254",
+        "display": "Carrier or suspected carrier of Methicillin resistant Staphylococcus aureus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:47",
+      "kind": "condition",
+      "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8798",
+        "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:48",
+      "kind": "condition",
+      "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8798",
+        "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:49",
+      "kind": "condition",
+      "display": "Depressive disorder, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "311",
+        "display": "Depressive disorder, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-25",
+      "text": null
+    },
+    {
+      "id": "E:cond:50",
+      "kind": "condition",
+      "display": "Depressive disorder, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "311",
+        "display": "Depressive disorder, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-25",
+      "text": null
+    },
+    {
+      "id": "E:cond:51",
+      "kind": "condition",
+      "display": "Constipation, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "56400",
+        "display": "Constipation, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-26",
+      "text": null
+    },
+    {
+      "id": "E:cond:52",
+      "kind": "condition",
+      "display": "Constipation, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "56400",
+        "display": "Constipation, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-26",
+      "text": null
+    },
+    {
+      "id": "E:cond:53",
+      "kind": "condition",
+      "display": "Other specified forms of chronic ischemic heart disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4148",
+        "display": "Other specified forms of chronic ischemic heart disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-27",
+      "text": null
+    },
+    {
+      "id": "E:cond:54",
+      "kind": "condition",
+      "display": "Other specified forms of chronic ischemic heart disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4148",
+        "display": "Other specified forms of chronic ischemic heart disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-27",
+      "text": null
+    },
+    {
+      "id": "E:cond:55",
+      "kind": "condition",
+      "display": "Body Mass Index between 19-24, adult",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V851",
+        "display": "Body Mass Index between 19-24, adult"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-28",
+      "text": null
+    },
+    {
+      "id": "E:cond:56",
+      "kind": "condition",
+      "display": "Body Mass Index between 19-24, adult",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V851",
+        "display": "Body Mass Index between 19-24, adult"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:cond-112991-28",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Open and other replacement of aortic valve with tissue graft",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Open and other replacement of aortic valve with tissue graft"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Open and other replacement of aortic valve with tissue graft",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Open and other replacement of aortic valve with tissue graft"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Left heart cardiac catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Left heart cardiac catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Left heart cardiac catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Left heart cardiac catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Coronary arteriography using two catheters",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Coronary arteriography using two catheters"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Coronary arteriography using two catheters",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Coronary arteriography using two catheters"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Injection or infusion of oxazolidinone class of antibiotics",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Injection or infusion of oxazolidinone class of antibiotics"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Injection or infusion of oxazolidinone class of antibiotics",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Injection or infusion of oxazolidinone class of antibiotics"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Thoracentesis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Thoracentesis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Thoracentesis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Thoracentesis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:14",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:15",
+      "kind": "procedure",
+      "display": "Extracorporeal circulation auxiliary to open heart surgery",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Extracorporeal circulation auxiliary to open heart surgery"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:16",
+      "kind": "procedure",
+      "display": "Extracorporeal circulation auxiliary to open heart surgery",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Extracorporeal circulation auxiliary to open heart surgery"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:17",
+      "kind": "procedure",
+      "display": "Diagnostic ultrasound of heart",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Diagnostic ultrasound of heart"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:18",
+      "kind": "procedure",
+      "display": "Diagnostic ultrasound of heart",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Diagnostic ultrasound of heart"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:19",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:20",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:21",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:22",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:23",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:24",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:25",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:26",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:27",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-14",
+      "text": null
+    },
+    {
+      "id": "E:proc:28",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-14",
+      "text": null
+    },
+    {
+      "id": "E:proc:29",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-15",
+      "text": null
+    },
+    {
+      "id": "E:proc:30",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-15",
+      "text": null
+    },
+    {
+      "id": "E:proc:31",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-16",
+      "text": null
+    },
+    {
+      "id": "E:proc:32",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2192-09-28",
+      "source_ref": "urn:uuid:proc-112991-16",
+      "text": null
+    },
+    {
+      "id": "E:note:row422448:1",
+      "kind": "note_sentence",
+      "display": "The pt is an 80 yo man with multiple medical problems including    prostate ca w",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s1",
+      "text": "The pt is an 80 yo man with multiple medical problems including    prostate ca with mets to the spine."
+    },
+    {
+      "id": "E:note:row422448:2",
+      "kind": "note_sentence",
+      "display": "He recently was admitted for a    ventral hernia repair and was eventually disch",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s2",
+      "text": "He recently was admitted for a    ventral hernia repair and was eventually discharged to HRC."
+    },
+    {
+      "id": "E:note:row422448:3",
+      "kind": "note_sentence",
+      "display": "On [**9-28**]    the pt presented from rehab with fevers, hypotension, and an al",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s3",
+      "text": "On [**9-28**]    the pt presented from rehab with fevers, hypotension, and an altered    mental status all c/w sepsis due to MRSA bacteremia."
+    },
+    {
+      "id": "E:note:row422448:4",
+      "kind": "note_sentence",
+      "display": "His course in the    MICU has been complicated by persistent fevers, serial posi",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s4",
+      "text": "His course in the    MICU has been complicated by persistent fevers, serial positive blood    cultures and hypoxemia as well as an impaired mental status."
+    },
+    {
+      "id": "E:note:row422448:5",
+      "kind": "note_sentence",
+      "display": "The pt    remains a Full Code.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s5",
+      "text": "The pt    remains a Full Code."
+    },
+    {
+      "id": "E:note:row422448:6",
+      "kind": "note_sentence",
+      "display": "Pt had  head/abd CT with both PO & IV contrast    provided to look for possible ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s6",
+      "text": "Pt had  head/abd CT with both PO & IV contrast    provided to look for possible abscess(es)."
+    },
+    {
+      "id": "E:note:row422448:7",
+      "kind": "note_sentence",
+      "display": "Completed acetylcysteine    doses.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s7",
+      "text": "Completed acetylcysteine    doses."
+    },
+    {
+      "id": "E:note:row422448:8",
+      "kind": "note_sentence",
+      "display": "Events:    Pt hypotensive received total 2250 mls of NS bolus with some effect.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s8",
+      "text": "Events:    Pt hypotensive received total 2250 mls of NS bolus with some effect."
+    },
+    {
+      "id": "E:note:row422448:9",
+      "kind": "note_sentence",
+      "display": "Dropped her pressures again, Central line inserted .",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s9",
+      "text": "Dropped her pressures again, Central line inserted ."
+    },
+    {
+      "id": "E:note:row422448:10",
+      "kind": "note_sentence",
+      "display": "Started on    levophed as bp dropped at 3 am.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s10",
+      "text": "Started on    levophed as bp dropped at 3 am."
+    },
+    {
+      "id": "E:note:row422448:11",
+      "kind": "note_sentence",
+      "display": "Hypotension (not Shock)    Assessment:    SBP in low 80 s, maps in 40    Action:",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s11",
+      "text": "Hypotension (not Shock)    Assessment:    SBP in low 80 s, maps in 40    Action:    Total; 2 lits of NS bloused."
+    },
+    {
+      "id": "E:note:row422448:12",
+      "kind": "note_sentence",
+      "display": "Response:    Sbp in 100 s, maps in mid 50 s., SBP dropped again @ MN.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s12",
+      "text": "Response:    Sbp in 100 s, maps in mid 50 s., SBP dropped again @ MN."
+    },
+    {
+      "id": "E:note:row422448:13",
+      "kind": "note_sentence",
+      "display": "RIJ inserted @    1 am.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s13",
+      "text": "RIJ inserted @    1 am."
+    },
+    {
+      "id": "E:note:row422448:14",
+      "kind": "note_sentence",
+      "display": "Started levophed @ 0.03 mics/kg/min.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s14",
+      "text": "Started levophed @ 0.03 mics/kg/min."
+    },
+    {
+      "id": "E:note:row422448:15",
+      "kind": "note_sentence",
+      "display": "CVP was 10.SBP > 100  .",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s15",
+      "text": "CVP was 10.SBP > 100  ."
+    },
+    {
+      "id": "E:note:row422448:16",
+      "kind": "note_sentence",
+      "display": "Plan:    Monitor  BP, I/O,CVP.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s16",
+      "text": "Plan:    Monitor  BP, I/O,CVP."
+    },
+    {
+      "id": "E:note:row422448:17",
+      "kind": "note_sentence",
+      "display": "Hypoxemia    Assessment:    Spo2 maintained in high 90 s on 50 % O2.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s17",
+      "text": "Hypoxemia    Assessment:    Spo2 maintained in high 90 s on 50 % O2."
+    },
+    {
+      "id": "E:note:row422448:18",
+      "kind": "note_sentence",
+      "display": "Action:    Pt sat upright in bed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s18",
+      "text": "Action:    Pt sat upright in bed."
+    },
+    {
+      "id": "E:note:row422448:19",
+      "kind": "note_sentence",
+      "display": "Chest PT provided.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s19",
+      "text": "Chest PT provided."
+    },
+    {
+      "id": "E:note:row422448:20",
+      "kind": "note_sentence",
+      "display": "Pt encouraged to cough/deep    breath.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s20",
+      "text": "Pt encouraged to cough/deep    breath."
+    },
+    {
+      "id": "E:note:row422448:21",
+      "kind": "note_sentence",
+      "display": "Oral suctioning done, obtained large to moderate amts of thick    blood tinged s",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s21",
+      "text": "Oral suctioning done, obtained large to moderate amts of thick    blood tinged secretions."
+    },
+    {
+      "id": "E:note:row422448:22",
+      "kind": "note_sentence",
+      "display": "Response:    Pt  on 50% FiO2 venti-mask with nl sats in the high 90    Plan:    ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s22",
+      "text": "Response:    Pt  on 50% FiO2 venti-mask with nl sats in the high 90    Plan:    Cont to turn freq, sit pt upright, encourage cough/deep breathing,    provide chest PT and provide additional NTS if all else fails."
+    },
+    {
+      "id": "E:note:row422448:23",
+      "kind": "note_sentence",
+      "display": "Impaired Skin Integrity    Assessment:    The pt has a documented unstageable pr",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s23",
+      "text": "Impaired Skin Integrity    Assessment:    The pt has a documented unstageable pressure ulcer on coccyx per skin    care RN consult performed on [**10-5**]."
+    },
+    {
+      "id": "E:note:row422448:24",
+      "kind": "note_sentence",
+      "display": "Action:      Aquacell/Softsorb dsg applied as instructed by skin care RN recs.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s24",
+      "text": "Action:      Aquacell/Softsorb dsg applied as instructed by skin care RN recs."
+    },
+    {
+      "id": "E:note:row422448:25",
+      "kind": "note_sentence",
+      "display": "Dressing change information printed from pt chart and posted on pts    room for ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s25",
+      "text": "Dressing change information printed from pt chart and posted on pts    room for convenience."
+    },
+    {
+      "id": "E:note:row422448:26",
+      "kind": "note_sentence",
+      "display": "Lt arm swelling present.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s26",
+      "text": "Lt arm swelling present."
+    },
+    {
+      "id": "E:note:row422448:27",
+      "kind": "note_sentence",
+      "display": "Elevated on 2 pillows.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s27",
+      "text": "Elevated on 2 pillows."
+    },
+    {
+      "id": "E:note:row422448:28",
+      "kind": "note_sentence",
+      "display": "Response:    No obvious change in wound at time of dsg change.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s28",
+      "text": "Response:    No obvious change in wound at time of dsg change."
+    },
+    {
+      "id": "E:note:row422448:29",
+      "kind": "note_sentence",
+      "display": "Plan:    Cont to follow all skin care recs as directed by skin care RN.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s29",
+      "text": "Plan:    Cont to follow all skin care recs as directed by skin care RN."
+    },
+    {
+      "id": "E:note:row422448:30",
+      "kind": "note_sentence",
+      "display": "Fever, unknown origin (FUO, Hyperthermia, Pyrexia)    Assessment:    Pt temp up ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s30",
+      "text": "Fever, unknown origin (FUO, Hyperthermia, Pyrexia)    Assessment:    Pt temp up to 100.1 Prn  PO Acetaminophen q 6."
+    },
+    {
+      "id": "E:note:row422448:31",
+      "kind": "note_sentence",
+      "display": "Action:    Started on IV ciprofloxacin, Stat IV cefepime given once at 0130 am.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s31",
+      "text": "Action:    Started on IV ciprofloxacin, Stat IV cefepime given once at 0130 am."
+    },
+    {
+      "id": "E:note:row422448:32",
+      "kind": "note_sentence",
+      "display": "Central  line cultures sent with am labs..",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s32",
+      "text": "Central  line cultures sent with am labs.."
+    },
+    {
+      "id": "E:note:row422448:33",
+      "kind": "note_sentence",
+      "display": "Pt had  head/abd CT with    both PO & IV contrast provided to look for possible ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s33",
+      "text": "Pt had  head/abd CT with    both PO & IV contrast provided to look for possible abscess(es)."
+    },
+    {
+      "id": "E:note:row422448:34",
+      "kind": "note_sentence",
+      "display": "No    change in current antibx cov at this time.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s34",
+      "text": "No    change in current antibx cov at this time."
+    },
+    {
+      "id": "E:note:row422448:35",
+      "kind": "note_sentence",
+      "display": "Response:    WBC 14.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s35",
+      "text": "Response:    WBC 14."
+    },
+    {
+      "id": "E:note:row422448:36",
+      "kind": "note_sentence",
+      "display": "Plan:    Cont to follow VS & temp curve, awaiting CT results",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row422448#s36",
+      "text": "Plan:    Cont to follow VS & temp curve, awaiting CT results"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|03812": [
+      "E:cond:1",
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4210": [
+      "E:cond:3",
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:5",
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|48242": [
+      "E:cond:7",
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78552": [
+      "E:cond:9",
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:11",
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42821": [
+      "E:cond:13",
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|9971": [
+      "E:cond:15",
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42731": [
+      "E:cond:17",
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|35981": [
+      "E:cond:19",
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5990": [
+      "E:cond:21",
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5609": [
+      "E:cond:23",
+      "E:cond:24"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1985": [
+      "E:cond:25",
+      "E:cond:26"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|9961": [
+      "E:cond:27",
+      "E:cond:28"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4241": [
+      "E:cond:29",
+      "E:cond:30"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:31",
+      "E:cond:32"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70703": [
+      "E:cond:33",
+      "E:cond:34"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70723": [
+      "E:cond:35",
+      "E:cond:36"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70725": [
+      "E:cond:37",
+      "E:cond:38"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2800": [
+      "E:cond:39",
+      "E:cond:40"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:41",
+      "E:cond:42"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|185": [
+      "E:cond:43",
+      "E:cond:44"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V0254": [
+      "E:cond:45",
+      "E:cond:46"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8798": [
+      "E:cond:47",
+      "E:cond:48"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|311": [
+      "E:cond:49",
+      "E:cond:50"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|56400": [
+      "E:cond:51",
+      "E:cond:52"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4148": [
+      "E:cond:53",
+      "E:cond:54"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V851": [
+      "E:cond:55",
+      "E:cond:56"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "methicillin resistant staphylococcus aureus septicemia": [
+      "E:cond:1",
+      "E:cond:2"
+    ],
+    "acute and subacute bacterial endocarditis": [
+      "E:cond:3",
+      "E:cond:4"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:5",
+      "E:cond:6"
+    ],
+    "methicillin resistant pneumonia due to staphylococcus aureus": [
+      "E:cond:7",
+      "E:cond:8"
+    ],
+    "septic shock": [
+      "E:cond:9",
+      "E:cond:10"
+    ],
+    "acute respiratory failure": [
+      "E:cond:11",
+      "E:cond:12"
+    ],
+    "acute systolic heart failure": [
+      "E:cond:13",
+      "E:cond:14"
+    ],
+    "cardiac complications, not elsewhere classified": [
+      "E:cond:15",
+      "E:cond:16"
+    ],
+    "atrial fibrillation": [
+      "E:cond:17",
+      "E:cond:18"
+    ],
+    "critical illness myopathy": [
+      "E:cond:19",
+      "E:cond:20"
+    ],
+    "urinary tract infection, site not specified": [
+      "E:cond:21",
+      "E:cond:22"
+    ],
+    "unspecified intestinal obstruction": [
+      "E:cond:23",
+      "E:cond:24"
+    ],
+    "secondary malignant neoplasm of bone and bone marrow": [
+      "E:cond:25",
+      "E:cond:26"
+    ],
+    "mechanical complication of other vascular device, implant, and graft": [
+      "E:cond:27",
+      "E:cond:28"
+    ],
+    "aortic valve disorders": [
+      "E:cond:29",
+      "E:cond:30"
+    ],
+    "severe sepsis": [
+      "E:cond:31",
+      "E:cond:32"
+    ],
+    "pressure ulcer, lower back": [
+      "E:cond:33",
+      "E:cond:34"
+    ],
+    "pressure ulcer, stage iii": [
+      "E:cond:35",
+      "E:cond:36"
+    ],
+    "pressure ulcer, unstageable": [
+      "E:cond:37",
+      "E:cond:38"
+    ],
+    "iron deficiency anemia secondary to blood loss (chronic)": [
+      "E:cond:39",
+      "E:cond:40"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:41",
+      "E:cond:42"
+    ],
+    "malignant neoplasm of prostate": [
+      "E:cond:43",
+      "E:cond:44"
+    ],
+    "carrier or suspected carrier of methicillin resistant staphylococcus aureus": [
+      "E:cond:45",
+      "E:cond:46"
+    ],
+    "other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure": [
+      "E:cond:47",
+      "E:cond:48"
+    ],
+    "depressive disorder, not elsewhere classified": [
+      "E:cond:49",
+      "E:cond:50"
+    ],
+    "constipation, unspecified": [
+      "E:cond:51",
+      "E:cond:52"
+    ],
+    "other specified forms of chronic ischemic heart disease": [
+      "E:cond:53",
+      "E:cond:54"
+    ],
+    "body mass index between 19-24, adult": [
+      "E:cond:55",
+      "E:cond:56"
+    ],
+    "open and other replacement of aortic valve with tissue graft": [
+      "E:proc:1",
+      "E:proc:2"
+    ],
+    "left heart cardiac catheterization": [
+      "E:proc:3",
+      "E:proc:4"
+    ],
+    "coronary arteriography using two catheters": [
+      "E:proc:5",
+      "E:proc:6"
+    ],
+    "injection or infusion of oxazolidinone class of antibiotics": [
+      "E:proc:7",
+      "E:proc:8"
+    ],
+    "thoracentesis": [
+      "E:proc:9",
+      "E:proc:10"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13",
+      "E:proc:14",
+      "E:proc:27",
+      "E:proc:28",
+      "E:proc:29",
+      "E:proc:30",
+      "E:proc:31",
+      "E:proc:32"
+    ],
+    "extracorporeal circulation auxiliary to open heart surgery": [
+      "E:proc:15",
+      "E:proc:16"
+    ],
+    "diagnostic ultrasound of heart": [
+      "E:proc:17",
+      "E:proc:18"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:19",
+      "E:proc:20"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:21",
+      "E:proc:22"
+    ],
+    "arterial catheterization": [
+      "E:proc:23",
+      "E:proc:24"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:25",
+      "E:proc:26"
+    ],
+    "the pt is an 80 yo man with multiple medical problems including prostate ca w": [
+      "E:note:row422448:1"
+    ],
+    "he recently was admitted for a ventral hernia repair and was eventually disch": [
+      "E:note:row422448:2"
+    ],
+    "on [**9-28**] the pt presented from rehab with fevers, hypotension, and an al": [
+      "E:note:row422448:3"
+    ],
+    "his course in the micu has been complicated by persistent fevers, serial posi": [
+      "E:note:row422448:4"
+    ],
+    "the pt remains a full code.": [
+      "E:note:row422448:5"
+    ],
+    "pt had head/abd ct with both po & iv contrast provided to look for possible": [
+      "E:note:row422448:6",
+      "E:note:row422448:33"
+    ],
+    "completed acetylcysteine doses.": [
+      "E:note:row422448:7"
+    ],
+    "events: pt hypotensive received total 2250 mls of ns bolus with some effect.": [
+      "E:note:row422448:8"
+    ],
+    "dropped her pressures again, central line inserted .": [
+      "E:note:row422448:9"
+    ],
+    "started on levophed as bp dropped at 3 am.": [
+      "E:note:row422448:10"
+    ],
+    "hypotension (not shock) assessment: sbp in low 80 s, maps in 40 action:": [
+      "E:note:row422448:11"
+    ],
+    "response: sbp in 100 s, maps in mid 50 s., sbp dropped again @ mn.": [
+      "E:note:row422448:12"
+    ],
+    "rij inserted @ 1 am.": [
+      "E:note:row422448:13"
+    ],
+    "started levophed @ 0.03 mics/kg/min.": [
+      "E:note:row422448:14"
+    ],
+    "cvp was 10.sbp > 100 .": [
+      "E:note:row422448:15"
+    ],
+    "plan: monitor bp, i/o,cvp.": [
+      "E:note:row422448:16"
+    ],
+    "hypoxemia assessment: spo2 maintained in high 90 s on 50 % o2.": [
+      "E:note:row422448:17"
+    ],
+    "action: pt sat upright in bed.": [
+      "E:note:row422448:18"
+    ],
+    "chest pt provided.": [
+      "E:note:row422448:19"
+    ],
+    "pt encouraged to cough/deep breath.": [
+      "E:note:row422448:20"
+    ],
+    "oral suctioning done, obtained large to moderate amts of thick blood tinged s": [
+      "E:note:row422448:21"
+    ],
+    "response: pt on 50% fio2 venti-mask with nl sats in the high 90 plan:": [
+      "E:note:row422448:22"
+    ],
+    "impaired skin integrity assessment: the pt has a documented unstageable pr": [
+      "E:note:row422448:23"
+    ],
+    "action: aquacell/softsorb dsg applied as instructed by skin care rn recs.": [
+      "E:note:row422448:24"
+    ],
+    "dressing change information printed from pt chart and posted on pts room for": [
+      "E:note:row422448:25"
+    ],
+    "lt arm swelling present.": [
+      "E:note:row422448:26"
+    ],
+    "elevated on 2 pillows.": [
+      "E:note:row422448:27"
+    ],
+    "response: no obvious change in wound at time of dsg change.": [
+      "E:note:row422448:28"
+    ],
+    "plan: cont to follow all skin care recs as directed by skin care rn.": [
+      "E:note:row422448:29"
+    ],
+    "fever, unknown origin (fuo, hyperthermia, pyrexia) assessment: pt temp up": [
+      "E:note:row422448:30"
+    ],
+    "action: started on iv ciprofloxacin, stat iv cefepime given once at 0130 am.": [
+      "E:note:row422448:31"
+    ],
+    "central line cultures sent with am labs..": [
+      "E:note:row422448:32"
+    ],
+    "no change in current antibx cov at this time.": [
+      "E:note:row422448:34"
+    ],
+    "response: wbc 14.": [
+      "E:note:row422448:35"
+    ],
+    "plan: cont to follow vs & temp curve, awaiting ct results": [
+      "E:note:row422448:36"
+    ]
+  },
+  "by_date": {
+    "2192-09-28": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:29",
+      "E:cond:30",
+      "E:cond:31",
+      "E:cond:32",
+      "E:cond:33",
+      "E:cond:34",
+      "E:cond:35",
+      "E:cond:36",
+      "E:cond:37",
+      "E:cond:38",
+      "E:cond:39",
+      "E:cond:40",
+      "E:cond:41",
+      "E:cond:42",
+      "E:cond:43",
+      "E:cond:44",
+      "E:cond:45",
+      "E:cond:46",
+      "E:cond:47",
+      "E:cond:48",
+      "E:cond:49",
+      "E:cond:50",
+      "E:cond:51",
+      "E:cond:52",
+      "E:cond:53",
+      "E:cond:54",
+      "E:cond:55",
+      "E:cond:56",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13",
+      "E:proc:14",
+      "E:proc:15",
+      "E:proc:16",
+      "E:proc:17",
+      "E:proc:18",
+      "E:proc:19",
+      "E:proc:20",
+      "E:proc:21",
+      "E:proc:22",
+      "E:proc:23",
+      "E:proc:24",
+      "E:proc:25",
+      "E:proc:26",
+      "E:proc:27",
+      "E:proc:28",
+      "E:proc:29",
+      "E:proc:30",
+      "E:proc:31",
+      "E:proc:32"
+    ]
+  }
+}

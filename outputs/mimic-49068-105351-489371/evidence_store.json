@@ -1,0 +1,1023 @@
+{
+  "case_id": "mimic-49068-105351-489371",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:enc-105351",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Hemorrhage, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4590",
+        "display": "Hemorrhage, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Pneumonitis due to inhalation of food or vomitus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5070",
+        "display": "Pneumonitis due to inhalation of food or vomitus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute kidney failure with lesion of tubular necrosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5845",
+        "display": "Acute kidney failure with lesion of tubular necrosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute on chronic systolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42823",
+        "display": "Acute on chronic systolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Vascular disorders of kidney",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "59381",
+        "display": "Vascular disorders of kidney"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Hemorrhage of gastrointestinal tract, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5789",
+        "display": "Hemorrhage of gastrointestinal tract, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Urinary tract infection, site not specified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5990",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Paralytic ileus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5601",
+        "display": "Paralytic ileus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Acute posthemorrhagic anemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2851",
+        "display": "Acute posthemorrhagic anemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Alkalosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2763",
+        "display": "Alkalosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of unspecified type of vessel, native or graft",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41400",
+        "display": "Coronary atherosclerosis of unspecified type of vessel, native or graft"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Aortocoronary bypass status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4581",
+        "display": "Aortocoronary bypass status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Percutaneous transluminal coronary angioplasty status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4582",
+        "display": "Percutaneous transluminal coronary angioplasty status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Friedl?nder's bacillus infection in conditions classified elsewhere and of unspecified site",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0413",
+        "display": "Friedl?nder's bacillus infection in conditions classified elsewhere and of unspecified site"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Diabetes with renal manifestations, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25040",
+        "display": "Diabetes with renal manifestations, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "40390",
+        "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Chronic kidney disease, Stage III (moderate)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5853",
+        "display": "Chronic kidney disease, Stage III (moderate)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Long-term (current) use of insulin",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V5867",
+        "display": "Long-term (current) use of insulin"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Obstructive sleep apnea (adult)(pediatric)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "32723",
+        "display": "Obstructive sleep apnea (adult)(pediatric)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Unspecified acquired hypothyroidism",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2449",
+        "display": "Unspecified acquired hypothyroidism"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Gout, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2749",
+        "display": "Gout, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Esophageal reflux",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53081",
+        "display": "Esophageal reflux"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:25",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-25",
+      "text": null
+    },
+    {
+      "id": "E:cond:26",
+      "kind": "condition",
+      "display": "Long-term (current) use of anticoagulants",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V5861",
+        "display": "Long-term (current) use of anticoagulants"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-26",
+      "text": null
+    },
+    {
+      "id": "E:cond:27",
+      "kind": "condition",
+      "display": "Other alteration of consciousness",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78009",
+        "display": "Other alteration of consciousness"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-27",
+      "text": null
+    },
+    {
+      "id": "E:cond:28",
+      "kind": "condition",
+      "display": "Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group D [Enterococcus]",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "04104",
+        "display": "Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group D [Enterococcus]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:cond-105351-28",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Non-invasive mechanical ventilation",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Non-invasive mechanical ventilation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:proc-105351-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:proc-105351-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:proc-105351-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Venous catheterization for renal dialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization for renal dialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:proc-105351-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Hemodialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Hemodialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:proc-105351-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:proc-105351-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Parenteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Parenteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:proc-105351-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Venous catheterization for renal dialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization for renal dialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:proc-105351-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2190-10-30",
+      "source_ref": "urn:uuid:proc-105351-9",
+      "text": null
+    },
+    {
+      "id": "E:note:row489371:1",
+      "kind": "note_sentence",
+      "display": "This is a 69 yoM CAD s/p CABG,DM, and decreased LVEF 20-30% on coumadin    who e",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row489371#s1",
+      "text": "This is a 69 yoM CAD s/p CABG,DM, and decreased LVEF 20-30% on coumadin    who experienced right flank pain was driving his car. came to [**Hospital1 19**] ED,    found to have spontaneous RP/L kidney bleed."
+    },
+    {
+      "id": "E:note:row489371:2",
+      "kind": "note_sentence",
+      "display": "Admitted to the floor for    further w/u. got 2 units FFP. while on the floor pt",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row489371#s2",
+      "text": "Admitted to the floor for    further w/u. got 2 units FFP. while on the floor pt desatting,    decreased UOP despite 60mg lasix. projectile vomited CG emesis, placed    on 100% NRB and tx to the MICU."
+    },
+    {
+      "id": "E:note:row489371:3",
+      "kind": "note_sentence",
+      "display": "Here he is doing better, 96-97% on 6L    n/c.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row489371#s3",
+      "text": "Here he is doing better, 96-97% on 6L    n/c."
+    },
+    {
+      "id": "E:note:row489371:4",
+      "kind": "note_sentence",
+      "display": "Diabetes Mellitus (DM), Type I    Assessment:    FS 250-300.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row489371#s4",
+      "text": "Diabetes Mellitus (DM), Type I    Assessment:    FS 250-300."
+    },
+    {
+      "id": "E:note:row489371:5",
+      "kind": "note_sentence",
+      "display": "Action:    Insulin as per SS.Tightened the SS    Response:    Cont to monitor FS",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row489371#s5",
+      "text": "Action:    Insulin as per SS.Tightened the SS    Response:    Cont to monitor FS."
+    },
+    {
+      "id": "E:note:row489371:6",
+      "kind": "note_sentence",
+      "display": "Plan:    Cont to monitor.Administer full dose of glargine in am.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row489371#s6",
+      "text": "Plan:    Cont to monitor.Administer full dose of glargine in am."
+    },
+    {
+      "id": "E:note:row489371:7",
+      "kind": "note_sentence",
+      "display": "Retroperitoneal bleed (RP bleed), spontaneous    Assessment:    [**Last Name (un",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row489371#s7",
+      "text": "Retroperitoneal bleed (RP bleed), spontaneous    Assessment:    [**Last Name (un) 61**] firm/tender/distended.BS pos/hypoactive.Pt c/o pain to RLQ.Hct was    21.0 post 1 unit PRBC."
+    },
+    {
+      "id": "E:note:row489371:8",
+      "kind": "note_sentence",
+      "display": "Action:    Received 2 units of PRBC.Dilaudid for pain.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row489371#s8",
+      "text": "Action:    Received 2 units of PRBC.Dilaudid for pain."
+    },
+    {
+      "id": "E:note:row489371:9",
+      "kind": "note_sentence",
+      "display": "Response:    Good pain control after dilaudid.Hct this am 26.2    Plan:    CT in",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row489371#s9",
+      "text": "Response:    Good pain control after dilaudid.Hct this am 26.2    Plan:    CT in am to re-evaluate for bleed."
+    },
+    {
+      "id": "E:note:row489371:10",
+      "kind": "note_sentence",
+      "display": "Renal failure, acute (Acute renal failure, ARF)    Assessment:    Cr 5.3 on pm l",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row489371#s10",
+      "text": "Renal failure, acute (Acute renal failure, ARF)    Assessment:    Cr 5.3 on pm labs.UO low    Action:    Received 120mg lasix x1 overnight."
+    },
+    {
+      "id": "E:note:row489371:11",
+      "kind": "note_sentence",
+      "display": "Response:    Cr 5.8 this am.Put out 210 after the frusemide.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row489371#s11",
+      "text": "Response:    Cr 5.8 this am.Put out 210 after the frusemide."
+    },
+    {
+      "id": "E:note:row489371:12",
+      "kind": "note_sentence",
+      "display": "Plan:    Renal involved.Accepting Cr upto 6.0 as per renal.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row489371#s12",
+      "text": "Plan:    Renal involved.Accepting Cr upto 6.0 as per renal."
+    },
+    {
+      "id": "E:note:row489371:13",
+      "kind": "note_sentence",
+      "display": "Atrial fibrillation (Afib)    Assessment:    Pt is v paced with underlying Afib.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row489371#s13",
+      "text": "Atrial fibrillation (Afib)    Assessment:    Pt is v paced with underlying Afib.This am @ 01:30 pt started to have    frequent pvc s/runs of vtach occasionally(rhythm with changing axis).BP    stable all through out."
+    },
+    {
+      "id": "E:note:row489371:14",
+      "kind": "note_sentence",
+      "display": "Action:    ECG taken,reviewed by team.Not sure whats going on.Cards    consulted",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row489371#s14",
+      "text": "Action:    ECG taken,reviewed by team.Not sure whats going on.Cards    consulted.Think that he must be having runs of Afib wth some of it    being paced.Pt is started on 25 of metoprolol [**Hospital1 7**]."
+    },
+    {
+      "id": "E:note:row489371:15",
+      "kind": "note_sentence",
+      "display": "Response:    Still having runs of vtach.Lytes stable    Plan:    Cont to monitor",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row489371#s15",
+      "text": "Response:    Still having runs of vtach.Lytes stable    Plan:    Cont to monitor."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|4590": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5070": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5845": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42823": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|59381": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5789": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5990": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5601": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2851": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2763": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41400": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4581": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4582": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|0413": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25040": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|40390": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5853": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V5867": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42731": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|32723": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2449": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2749": [
+      "E:cond:23"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|53081": [
+      "E:cond:24"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:25"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V5861": [
+      "E:cond:26"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78009": [
+      "E:cond:27"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|04104": [
+      "E:cond:28"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "hemorrhage, unspecified": [
+      "E:cond:1"
+    ],
+    "pneumonitis due to inhalation of food or vomitus": [
+      "E:cond:2"
+    ],
+    "acute kidney failure with lesion of tubular necrosis": [
+      "E:cond:3"
+    ],
+    "acute on chronic systolic heart failure": [
+      "E:cond:4"
+    ],
+    "acute respiratory failure": [
+      "E:cond:5"
+    ],
+    "vascular disorders of kidney": [
+      "E:cond:6"
+    ],
+    "hemorrhage of gastrointestinal tract, unspecified": [
+      "E:cond:7"
+    ],
+    "urinary tract infection, site not specified": [
+      "E:cond:8"
+    ],
+    "paralytic ileus": [
+      "E:cond:9"
+    ],
+    "acute posthemorrhagic anemia": [
+      "E:cond:10"
+    ],
+    "alkalosis": [
+      "E:cond:11"
+    ],
+    "coronary atherosclerosis of unspecified type of vessel, native or graft": [
+      "E:cond:12"
+    ],
+    "aortocoronary bypass status": [
+      "E:cond:13"
+    ],
+    "percutaneous transluminal coronary angioplasty status": [
+      "E:cond:14"
+    ],
+    "friedl?nder's bacillus infection in conditions classified elsewhere and of unspecified site": [
+      "E:cond:15"
+    ],
+    "diabetes with renal manifestations, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:16"
+    ],
+    "hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage i through stage iv, or unspecified": [
+      "E:cond:17"
+    ],
+    "chronic kidney disease, stage iii (moderate)": [
+      "E:cond:18"
+    ],
+    "long-term (current) use of insulin": [
+      "E:cond:19"
+    ],
+    "atrial fibrillation": [
+      "E:cond:20"
+    ],
+    "obstructive sleep apnea (adult)(pediatric)": [
+      "E:cond:21"
+    ],
+    "unspecified acquired hypothyroidism": [
+      "E:cond:22"
+    ],
+    "gout, unspecified": [
+      "E:cond:23"
+    ],
+    "esophageal reflux": [
+      "E:cond:24"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:25"
+    ],
+    "long-term (current) use of anticoagulants": [
+      "E:cond:26"
+    ],
+    "other alteration of consciousness": [
+      "E:cond:27"
+    ],
+    "streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group d [enterococcus]": [
+      "E:cond:28"
+    ],
+    "non-invasive mechanical ventilation": [
+      "E:proc:1"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:2"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:3"
+    ],
+    "venous catheterization for renal dialysis": [
+      "E:proc:4",
+      "E:proc:8"
+    ],
+    "hemodialysis": [
+      "E:proc:5"
+    ],
+    "arterial catheterization": [
+      "E:proc:6"
+    ],
+    "parenteral infusion of concentrated nutritional substances": [
+      "E:proc:7"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:9"
+    ],
+    "this is a 69 yom cad s/p cabg,dm, and decreased lvef 20-30% on coumadin who e": [
+      "E:note:row489371:1"
+    ],
+    "admitted to the floor for further w/u. got 2 units ffp. while on the floor pt": [
+      "E:note:row489371:2"
+    ],
+    "here he is doing better, 96-97% on 6l n/c.": [
+      "E:note:row489371:3"
+    ],
+    "diabetes mellitus (dm), type i assessment: fs 250-300.": [
+      "E:note:row489371:4"
+    ],
+    "action: insulin as per ss.tightened the ss response: cont to monitor fs": [
+      "E:note:row489371:5"
+    ],
+    "plan: cont to monitor.administer full dose of glargine in am.": [
+      "E:note:row489371:6"
+    ],
+    "retroperitoneal bleed (rp bleed), spontaneous assessment: [**last name (un": [
+      "E:note:row489371:7"
+    ],
+    "action: received 2 units of prbc.dilaudid for pain.": [
+      "E:note:row489371:8"
+    ],
+    "response: good pain control after dilaudid.hct this am 26.2 plan: ct in": [
+      "E:note:row489371:9"
+    ],
+    "renal failure, acute (acute renal failure, arf) assessment: cr 5.3 on pm l": [
+      "E:note:row489371:10"
+    ],
+    "response: cr 5.8 this am.put out 210 after the frusemide.": [
+      "E:note:row489371:11"
+    ],
+    "plan: renal involved.accepting cr upto 6.0 as per renal.": [
+      "E:note:row489371:12"
+    ],
+    "atrial fibrillation (afib) assessment: pt is v paced with underlying afib.": [
+      "E:note:row489371:13"
+    ],
+    "action: ecg taken,reviewed by team.not sure whats going on.cards consulted": [
+      "E:note:row489371:14"
+    ],
+    "response: still having runs of vtach.lytes stable plan: cont to monitor": [
+      "E:note:row489371:15"
+    ]
+  },
+  "by_date": {
+    "2190-10-30": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:27",
+      "E:cond:28",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9"
+    ]
+  }
+}

@@ -1,0 +1,1296 @@
+{
+  "case_id": "mimic-20421-168753-346921",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:enc-168753",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Intracerebral hemorrhage",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "431",
+        "display": "Intracerebral hemorrhage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Hemiplegia, unspecified, affecting unspecified side",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34290",
+        "display": "Hemiplegia, unspecified, affecting unspecified side"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Malignant neoplasm of frontal lobe",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1911",
+        "display": "Malignant neoplasm of frontal lobe"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Alkalosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2763",
+        "display": "Alkalosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Encephalopathy, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34830",
+        "display": "Encephalopathy, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Ventilator associated pneumonia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99731",
+        "display": "Ventilator associated pneumonia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Hyperosmolality and/or hypernatremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2760",
+        "display": "Hyperosmolality and/or hypernatremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Myelodysplastic syndrome, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "23875",
+        "display": "Myelodysplastic syndrome, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Heparin-induced thrombocytopenia (HIT)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "28984",
+        "display": "Heparin-induced thrombocytopenia (HIT)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of unspecified type of vessel, native or graft",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41400",
+        "display": "Coronary atherosclerosis of unspecified type of vessel, native or graft"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Aortocoronary bypass status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4581",
+        "display": "Aortocoronary bypass status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Other and unspecified hyperlipidemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2724",
+        "display": "Other and unspecified hyperlipidemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Hyperparathyroidism, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25200",
+        "display": "Hyperparathyroidism, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Gout, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2749",
+        "display": "Gout, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Unspecified acquired hypothyroidism",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2449",
+        "display": "Unspecified acquired hypothyroidism"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Pressure ulcer, lower back",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70703",
+        "display": "Pressure ulcer, lower back"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Pressure ulcer, stage II",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70722",
+        "display": "Pressure ulcer, stage II"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Other abnormal glucose",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "79029",
+        "display": "Other abnormal glucose"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Other convulsions",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78039",
+        "display": "Other convulsions"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Methicillin resistant Staphylococcus aureus in conditions classified elsewhere and of unspecified site",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "04112",
+        "display": "Methicillin resistant Staphylococcus aureus in conditions classified elsewhere and of unspecified site"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:cond-168753-24",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Temporary tracheostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Temporary tracheostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:proc-168753-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:proc-168753-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Transfusion of platelets",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of platelets"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:proc-168753-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:proc-168753-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Transfusion of packed cells",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of packed cells"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:proc-168753-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Closed [percutaneous] [needle] biopsy of brain",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [percutaneous] [needle] biopsy of brain"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:proc-168753-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Fiber-optic bronchoscopy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Fiber-optic bronchoscopy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:proc-168753-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Other immobilization, pressure, and attention to wound",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other immobilization, pressure, and attention to wound"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-10-07",
+      "source_ref": "urn:uuid:proc-168753-8",
+      "text": null
+    },
+    {
+      "id": "E:note:row346921:1",
+      "kind": "note_sentence",
+      "display": "The pt ia an unfortunate 80yo man with multiple medical problems who    initiall",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s1",
+      "text": "The pt ia an unfortunate 80yo man with multiple medical problems who    initially presented to an osh on [**9-12**] with noted weakness and a    presumed aspiration pnx."
+    },
+    {
+      "id": "E:note:row346921:2",
+      "kind": "note_sentence",
+      "display": "A head ct revealed a hemorrhagic cva at the    site of a known brain tumor.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s2",
+      "text": "A head ct revealed a hemorrhagic cva at the    site of a known brain tumor."
+    },
+    {
+      "id": "E:note:row346921:3",
+      "kind": "note_sentence",
+      "display": "He now has left sided hemiparesis and his    medical course at the osh has been ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s3",
+      "text": "He now has left sided hemiparesis and his    medical course at the osh has been complicated by multiple pnxs and an    inability to wean from ventilatory support."
+    },
+    {
+      "id": "E:note:row346921:4",
+      "kind": "note_sentence",
+      "display": "His care has been further    complicated by a h/o mds for which he is chronicall",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s4",
+      "text": "His care has been further    complicated by a h/o mds for which he is chronically anemic and    thrombocytopenic."
+    },
+    {
+      "id": "E:note:row346921:5",
+      "kind": "note_sentence",
+      "display": "The pt has required nearly daily transfusions to    maintain a plt count >50k an",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s5",
+      "text": "The pt has required nearly daily transfusions to    maintain a plt count >50k and a hct >25."
+    },
+    {
+      "id": "E:note:row346921:6",
+      "kind": "note_sentence",
+      "display": "He was transferred to [**Hospital1 54**]    last evening at his family request f",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s6",
+      "text": "He was transferred to [**Hospital1 54**]    last evening at his family request for another neurosurigal opinion."
+    },
+    {
+      "id": "E:note:row346921:7",
+      "kind": "note_sentence",
+      "display": "PMH: (in addition to the above) cad s/p cabg x4 06; afib now off    coumadin; bi",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s7",
+      "text": "PMH: (in addition to the above) cad s/p cabg x4 06; afib now off    coumadin; bilat dvt s and pe s s/p filter placement; prostrate ca    ^chol; htn; copd; gout; hyperparathyroidism; peg placement    Allergies: univasc-> electrolyte abnormalities; celexa->    lightheadedness    Leukocytosis    Assessment:    Repeat wbc 25 which is c/w previous data."
+    },
+    {
+      "id": "E:note:row346921:8",
+      "kind": "note_sentence",
+      "display": "Tmax 100.1 orally on arrival    to the micu.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s8",
+      "text": "Tmax 100.1 orally on arrival    to the micu."
+    },
+    {
+      "id": "E:note:row346921:9",
+      "kind": "note_sentence",
+      "display": "Pt was pancultured and the foley catheter was replaced.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s9",
+      "text": "Pt was pancultured and the foley catheter was replaced."
+    },
+    {
+      "id": "E:note:row346921:10",
+      "kind": "note_sentence",
+      "display": "Action:    Received Tylenol x1 prior to a plt transfusion.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s10",
+      "text": "Action:    Received Tylenol x1 prior to a plt transfusion."
+    },
+    {
+      "id": "E:note:row346921:11",
+      "kind": "note_sentence",
+      "display": "Receiving abx coverage    for mrsa, psa, and c. diff.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s11",
+      "text": "Receiving abx coverage    for mrsa, psa, and c. diff."
+    },
+    {
+      "id": "E:note:row346921:12",
+      "kind": "note_sentence",
+      "display": "Response:    Pt continues to have a low grade fever with a rising lactate level.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s12",
+      "text": "Response:    Pt continues to have a low grade fever with a rising lactate level."
+    },
+    {
+      "id": "E:note:row346921:13",
+      "kind": "note_sentence",
+      "display": "Plan:    Follow temperature curve; con t abx coverage as ordered; micu team to  ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s13",
+      "text": "Plan:    Follow temperature curve; con t abx coverage as ordered; micu team to    contact osh for culture data, if cultures+, pt will likely require d/c    of picc line and placement of another central line."
+    },
+    {
+      "id": "E:note:row346921:14",
+      "kind": "note_sentence",
+      "display": "Pneumonia, bacterial, ventilator acquired (VAP)    Assessment:    Pt arrived ora",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s14",
+      "text": "Pneumonia, bacterial, ventilator acquired (VAP)    Assessment:    Pt arrived orally intubated and vented on ac."
+    },
+    {
+      "id": "E:note:row346921:15",
+      "kind": "note_sentence",
+      "display": "He was placed on ac    20x500 w/peep5 and o2 100%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s15",
+      "text": "He was placed on ac    20x500 w/peep5 and o2 100%."
+    },
+    {
+      "id": "E:note:row346921:16",
+      "kind": "note_sentence",
+      "display": "A repeat abg revealed a metabolic alkalosis    of unknown etiology.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s16",
+      "text": "A repeat abg revealed a metabolic alkalosis    of unknown etiology."
+    },
+    {
+      "id": "E:note:row346921:17",
+      "kind": "note_sentence",
+      "display": "The pt s pao2 was only 75 at that time.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s17",
+      "text": "The pt s pao2 was only 75 at that time."
+    },
+    {
+      "id": "E:note:row346921:18",
+      "kind": "note_sentence",
+      "display": "Sats >95%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s18",
+      "text": "Sats >95%."
+    },
+    {
+      "id": "E:note:row346921:19",
+      "kind": "note_sentence",
+      "display": "Lung sound rhonchorous with bibaslar rales.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s19",
+      "text": "Lung sound rhonchorous with bibaslar rales."
+    },
+    {
+      "id": "E:note:row346921:20",
+      "kind": "note_sentence",
+      "display": "Action:    Peep increased to 10cm for relative hypoxemia.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s20",
+      "text": "Action:    Peep increased to 10cm for relative hypoxemia."
+    },
+    {
+      "id": "E:note:row346921:21",
+      "kind": "note_sentence",
+      "display": "A bedside us of the    lungs was performed by the attending w/o evidence of an e",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s21",
+      "text": "A bedside us of the    lungs was performed by the attending w/o evidence of an empyema."
+    },
+    {
+      "id": "E:note:row346921:22",
+      "kind": "note_sentence",
+      "display": "A cxr    was also obtained.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s22",
+      "text": "A cxr    was also obtained."
+    },
+    {
+      "id": "E:note:row346921:23",
+      "kind": "note_sentence",
+      "display": "Response:    Pt is tolerating a slow fio2 wean and is currently on o2 60%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s23",
+      "text": "Response:    Pt is tolerating a slow fio2 wean and is currently on o2 60%."
+    },
+    {
+      "id": "E:note:row346921:24",
+      "kind": "note_sentence",
+      "display": "Etiology    of hypoxemia in unclear.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s24",
+      "text": "Etiology    of hypoxemia in unclear."
+    },
+    {
+      "id": "E:note:row346921:25",
+      "kind": "note_sentence",
+      "display": "[**Name2 (NI) 440**]:    Follow serial abg s with appropriate ventilatory change",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s25",
+      "text": "[**Name2 (NI) 440**]:    Follow serial abg s with appropriate ventilatory changes; pt may need    an a-line placed."
+    },
+    {
+      "id": "E:note:row346921:26",
+      "kind": "note_sentence",
+      "display": "Per attending, pt may also have a bronchoscopy.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s26",
+      "text": "Per attending, pt may also have a bronchoscopy."
+    },
+    {
+      "id": "E:note:row346921:27",
+      "kind": "note_sentence",
+      "display": "CVA (Stroke, Cerebral infarction), Hemorrhagic    Assessment:    Left sided hemi",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s27",
+      "text": "CVA (Stroke, Cerebral infarction), Hemorrhagic    Assessment:    Left sided hemiparesis."
+    },
+    {
+      "id": "E:note:row346921:28",
+      "kind": "note_sentence",
+      "display": "Pt is able to move his right arm up to his    chest, squeeze his hand, move his ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s28",
+      "text": "Pt is able to move his right arm up to his    chest, squeeze his hand, move his right leg on the bed."
+    },
+    {
+      "id": "E:note:row346921:29",
+      "kind": "note_sentence",
+      "display": "Perrl @3mm.    +corneals, gag, and cough reflexes.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s29",
+      "text": "Perrl @3mm.    +corneals, gag, and cough reflexes."
+    },
+    {
+      "id": "E:note:row346921:30",
+      "kind": "note_sentence",
+      "display": "The pt is following simple    commands.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s30",
+      "text": "The pt is following simple    commands."
+    },
+    {
+      "id": "E:note:row346921:31",
+      "kind": "note_sentence",
+      "display": "He is not responding to questions re: his pain status.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s31",
+      "text": "He is not responding to questions re: his pain status."
+    },
+    {
+      "id": "E:note:row346921:32",
+      "kind": "note_sentence",
+      "display": "Action:    Pt transfused w/1 unit plts overnoc for a goal plt count of >50. cva ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s32",
+      "text": "Action:    Pt transfused w/1 unit plts overnoc for a goal plt count of >50. cva    likely hemorrhagic from the pt s brain tumor."
+    },
+    {
+      "id": "E:note:row346921:33",
+      "kind": "note_sentence",
+      "display": "Response:    Awaiting repeat plt count results.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s33",
+      "text": "Response:    Awaiting repeat plt count results."
+    },
+    {
+      "id": "E:note:row346921:34",
+      "kind": "note_sentence",
+      "display": "Neuron exam unchanged.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s34",
+      "text": "Neuron exam unchanged."
+    },
+    {
+      "id": "E:note:row346921:35",
+      "kind": "note_sentence",
+      "display": "Plan:    Follow neuron exam; transfuse as needed; neurosurgical consult in the  ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s35",
+      "text": "Plan:    Follow neuron exam; transfuse as needed; neurosurgical consult in the    am."
+    },
+    {
+      "id": "E:note:row346921:36",
+      "kind": "note_sentence",
+      "display": "Impaired Skin Integrity    Assessment:    +yeast perirectally.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s36",
+      "text": "Impaired Skin Integrity    Assessment:    +yeast perirectally."
+    },
+    {
+      "id": "E:note:row346921:37",
+      "kind": "note_sentence",
+      "display": "Pt has a stage II pressure sore with poorly    defined edges is located over his",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s37",
+      "text": "Pt has a stage II pressure sore with poorly    defined edges is located over his coccyx."
+    },
+    {
+      "id": "E:note:row346921:38",
+      "kind": "note_sentence",
+      "display": "A moderate amount of bleeding    from the wound is noted.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s38",
+      "text": "A moderate amount of bleeding    from the wound is noted."
+    },
+    {
+      "id": "E:note:row346921:39",
+      "kind": "note_sentence",
+      "display": "Action:    Nystatin applied to yeast.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s39",
+      "text": "Action:    Nystatin applied to yeast."
+    },
+    {
+      "id": "E:note:row346921:40",
+      "kind": "note_sentence",
+      "display": "Wound was irrigated with ns and an covered    with allevyn dsg.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s40",
+      "text": "Wound was irrigated with ns and an covered    with allevyn dsg."
+    },
+    {
+      "id": "E:note:row346921:41",
+      "kind": "note_sentence",
+      "display": "Response:    unchanged    Plan:    Please contact wound care rn for a consult in",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s41",
+      "text": "Response:    unchanged    Plan:    Please contact wound care rn for a consult in the am."
+    },
+    {
+      "id": "E:note:row346921:42",
+      "kind": "note_sentence",
+      "display": "Consider change    to a kinear bed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row346921#s42",
+      "text": "Consider change    to a kinear bed."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|431": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|34290": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1911": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2763": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|34830": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99731": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2760": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|23875": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|28984": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42731": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41400": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4581": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2724": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25200": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2749": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2449": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70703": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70722": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|79029": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78039": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:23"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|04112": [
+      "E:cond:24"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "intracerebral hemorrhage": [
+      "E:cond:1"
+    ],
+    "hemiplegia, unspecified, affecting unspecified side": [
+      "E:cond:2"
+    ],
+    "malignant neoplasm of frontal lobe": [
+      "E:cond:3"
+    ],
+    "acute respiratory failure": [
+      "E:cond:4"
+    ],
+    "alkalosis": [
+      "E:cond:5"
+    ],
+    "encephalopathy, unspecified": [
+      "E:cond:6"
+    ],
+    "ventilator associated pneumonia": [
+      "E:cond:7"
+    ],
+    "hyperosmolality and/or hypernatremia": [
+      "E:cond:8"
+    ],
+    "myelodysplastic syndrome, unspecified": [
+      "E:cond:9"
+    ],
+    "heparin-induced thrombocytopenia (hit)": [
+      "E:cond:10"
+    ],
+    "atrial fibrillation": [
+      "E:cond:11"
+    ],
+    "coronary atherosclerosis of unspecified type of vessel, native or graft": [
+      "E:cond:12"
+    ],
+    "aortocoronary bypass status": [
+      "E:cond:13"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:14"
+    ],
+    "other and unspecified hyperlipidemia": [
+      "E:cond:15"
+    ],
+    "hyperparathyroidism, unspecified": [
+      "E:cond:16"
+    ],
+    "gout, unspecified": [
+      "E:cond:17"
+    ],
+    "unspecified acquired hypothyroidism": [
+      "E:cond:18"
+    ],
+    "pressure ulcer, lower back": [
+      "E:cond:19"
+    ],
+    "pressure ulcer, stage ii": [
+      "E:cond:20"
+    ],
+    "other abnormal glucose": [
+      "E:cond:21"
+    ],
+    "other convulsions": [
+      "E:cond:22"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:23"
+    ],
+    "methicillin resistant staphylococcus aureus in conditions classified elsewhere and of unspecified site": [
+      "E:cond:24"
+    ],
+    "temporary tracheostomy": [
+      "E:proc:1"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:2"
+    ],
+    "transfusion of platelets": [
+      "E:proc:3"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:4"
+    ],
+    "transfusion of packed cells": [
+      "E:proc:5"
+    ],
+    "closed [percutaneous] [needle] biopsy of brain": [
+      "E:proc:6"
+    ],
+    "fiber-optic bronchoscopy": [
+      "E:proc:7"
+    ],
+    "other immobilization, pressure, and attention to wound": [
+      "E:proc:8"
+    ],
+    "the pt ia an unfortunate 80yo man with multiple medical problems who initiall": [
+      "E:note:row346921:1"
+    ],
+    "a head ct revealed a hemorrhagic cva at the site of a known brain tumor.": [
+      "E:note:row346921:2"
+    ],
+    "he now has left sided hemiparesis and his medical course at the osh has been": [
+      "E:note:row346921:3"
+    ],
+    "his care has been further complicated by a h/o mds for which he is chronicall": [
+      "E:note:row346921:4"
+    ],
+    "the pt has required nearly daily transfusions to maintain a plt count >50k an": [
+      "E:note:row346921:5"
+    ],
+    "he was transferred to [**hospital1 54**] last evening at his family request f": [
+      "E:note:row346921:6"
+    ],
+    "pmh: (in addition to the above) cad s/p cabg x4 06; afib now off coumadin; bi": [
+      "E:note:row346921:7"
+    ],
+    "tmax 100.1 orally on arrival to the micu.": [
+      "E:note:row346921:8"
+    ],
+    "pt was pancultured and the foley catheter was replaced.": [
+      "E:note:row346921:9"
+    ],
+    "action: received tylenol x1 prior to a plt transfusion.": [
+      "E:note:row346921:10"
+    ],
+    "receiving abx coverage for mrsa, psa, and c. diff.": [
+      "E:note:row346921:11"
+    ],
+    "response: pt continues to have a low grade fever with a rising lactate level.": [
+      "E:note:row346921:12"
+    ],
+    "plan: follow temperature curve; con t abx coverage as ordered; micu team to": [
+      "E:note:row346921:13"
+    ],
+    "pneumonia, bacterial, ventilator acquired (vap) assessment: pt arrived ora": [
+      "E:note:row346921:14"
+    ],
+    "he was placed on ac 20x500 w/peep5 and o2 100%.": [
+      "E:note:row346921:15"
+    ],
+    "a repeat abg revealed a metabolic alkalosis of unknown etiology.": [
+      "E:note:row346921:16"
+    ],
+    "the pt s pao2 was only 75 at that time.": [
+      "E:note:row346921:17"
+    ],
+    "sats >95%.": [
+      "E:note:row346921:18"
+    ],
+    "lung sound rhonchorous with bibaslar rales.": [
+      "E:note:row346921:19"
+    ],
+    "action: peep increased to 10cm for relative hypoxemia.": [
+      "E:note:row346921:20"
+    ],
+    "a bedside us of the lungs was performed by the attending w/o evidence of an e": [
+      "E:note:row346921:21"
+    ],
+    "a cxr was also obtained.": [
+      "E:note:row346921:22"
+    ],
+    "response: pt is tolerating a slow fio2 wean and is currently on o2 60%.": [
+      "E:note:row346921:23"
+    ],
+    "etiology of hypoxemia in unclear.": [
+      "E:note:row346921:24"
+    ],
+    "[**name2 (ni) 440**]: follow serial abg s with appropriate ventilatory change": [
+      "E:note:row346921:25"
+    ],
+    "per attending, pt may also have a bronchoscopy.": [
+      "E:note:row346921:26"
+    ],
+    "cva (stroke, cerebral infarction), hemorrhagic assessment: left sided hemi": [
+      "E:note:row346921:27"
+    ],
+    "pt is able to move his right arm up to his chest, squeeze his hand, move his": [
+      "E:note:row346921:28"
+    ],
+    "perrl @3mm. +corneals, gag, and cough reflexes.": [
+      "E:note:row346921:29"
+    ],
+    "the pt is following simple commands.": [
+      "E:note:row346921:30"
+    ],
+    "he is not responding to questions re: his pain status.": [
+      "E:note:row346921:31"
+    ],
+    "action: pt transfused w/1 unit plts overnoc for a goal plt count of >50. cva": [
+      "E:note:row346921:32"
+    ],
+    "response: awaiting repeat plt count results.": [
+      "E:note:row346921:33"
+    ],
+    "neuron exam unchanged.": [
+      "E:note:row346921:34"
+    ],
+    "plan: follow neuron exam; transfuse as needed; neurosurgical consult in the": [
+      "E:note:row346921:35"
+    ],
+    "impaired skin integrity assessment: +yeast perirectally.": [
+      "E:note:row346921:36"
+    ],
+    "pt has a stage ii pressure sore with poorly defined edges is located over his": [
+      "E:note:row346921:37"
+    ],
+    "a moderate amount of bleeding from the wound is noted.": [
+      "E:note:row346921:38"
+    ],
+    "action: nystatin applied to yeast.": [
+      "E:note:row346921:39"
+    ],
+    "wound was irrigated with ns and an covered with allevyn dsg.": [
+      "E:note:row346921:40"
+    ],
+    "response: unchanged plan: please contact wound care rn for a consult in": [
+      "E:note:row346921:41"
+    ],
+    "consider change to a kinear bed.": [
+      "E:note:row346921:42"
+    ]
+  },
+  "by_date": {
+    "2171-10-07": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8"
+    ]
+  }
+}

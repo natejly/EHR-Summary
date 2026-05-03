@@ -1,0 +1,459 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-59877-143996",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-59877",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-59877",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-143996",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-143996",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2153-02-14T00:00:00",
+          "end": "2153-02-27T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143996-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143996-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "03819",
+              "display": "Other staphylococcal septicemia"
+            }
+          ],
+          "text": "Other staphylococcal septicemia"
+        },
+        "onsetDateTime": "2153-02-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143996-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143996-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4210",
+              "display": "Acute and subacute bacterial endocarditis"
+            }
+          ],
+          "text": "Acute and subacute bacterial endocarditis"
+        },
+        "onsetDateTime": "2153-02-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143996-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143996-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "430",
+              "display": "Subarachnoid hemorrhage"
+            }
+          ],
+          "text": "Subarachnoid hemorrhage"
+        },
+        "onsetDateTime": "2153-02-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143996-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143996-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "570",
+              "display": "Acute and subacute necrosis of liver"
+            }
+          ],
+          "text": "Acute and subacute necrosis of liver"
+        },
+        "onsetDateTime": "2153-02-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143996-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143996-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2153-02-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143996-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143996-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2866",
+              "display": "Defibrination syndrome"
+            }
+          ],
+          "text": "Defibrination syndrome"
+        },
+        "onsetDateTime": "2153-02-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143996-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143996-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2153-02-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143996-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143996-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41071",
+              "display": "Subendocardial infarction, initial episode of care"
+            }
+          ],
+          "text": "Subendocardial infarction, initial episode of care"
+        },
+        "onsetDateTime": "2153-02-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143996-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143996-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "56723",
+              "display": "Spontaneous bacterial peritonitis"
+            }
+          ],
+          "text": "Spontaneous bacterial peritonitis"
+        },
+        "onsetDateTime": "2153-02-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143996-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143996-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "00845",
+              "display": "Intestinal infection due to Clostridium difficile"
+            }
+          ],
+          "text": "Intestinal infection due to Clostridium difficile"
+        },
+        "onsetDateTime": "2153-02-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143996-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143996-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "59381",
+              "display": "Vascular disorders of kidney"
+            }
+          ],
+          "text": "Vascular disorders of kidney"
+        },
+        "onsetDateTime": "2153-02-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143996-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143996-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99592",
+              "display": "Severe sepsis"
+            }
+          ],
+          "text": "Severe sepsis"
+        },
+        "onsetDateTime": "2153-02-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143996-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143996-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1950",
+              "display": "Malignant neoplasm of head, face, and neck"
+            }
+          ],
+          "text": "Malignant neoplasm of head, face, and neck"
+        },
+        "onsetDateTime": "2153-02-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143996-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143996-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5715",
+              "display": "Cirrhosis of liver without mention of alcohol"
+            }
+          ],
+          "text": "Cirrhosis of liver without mention of alcohol"
+        },
+        "onsetDateTime": "2153-02-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143996-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143996-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "07054",
+              "display": "Chronic hepatitis C without mention of hepatic coma"
+            }
+          ],
+          "text": "Chronic hepatitis C without mention of hepatic coma"
+        },
+        "onsetDateTime": "2153-02-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143996-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143996-1",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2153-02-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143996-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143996-2",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2153-02-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143996-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143996-3",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2153-02-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143996-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143996-4",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization for renal dialysis"
+        },
+        "performedDateTime": "2153-02-14"
+      }
+    }
+  ]
+}

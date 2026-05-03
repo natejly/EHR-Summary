@@ -1,0 +1,386 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:13"
+      ],
+      "rationale": "The patient has a recorded diagnosis of Systemic lupus erythematosus."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:1"
+      ],
+      "rationale": "The candidate evidence explicitly lists obesity as one of the patient's conditions."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:1"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is a woman with prior thyroid lymphoma."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:12"
+      ],
+      "rationale": "The candidate evidence explicitly lists a diagnosis of unspecified acquired hypothyroidism."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:2"
+      ],
+      "rationale": "The evidence explicitly states the patient continued to be bradycardic in the ED."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:11"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Atrioventricular block, complete', which is the clinical term for complete heart block."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:30"
+      ],
+      "rationale": "The evidence explicitly states the patient's heart rate (PADs) was in the low 20s."
+    },
+    {
+      "claim_id": "C9",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence lists antibiotics (cefepime, vanco, flagyl) but does not mention epinephrine."
+    },
+    {
+      "claim_id": "C10",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:proc:1"
+      ],
+      "rationale": "The candidate evidence confirms the insertion of transvenous leads into the atrium and ventricle, which matches the claim of transvenous pacing wire placement."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:3"
+      ],
+      "rationale": "The evidence explicitly states that the patient was intubated."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:3",
+        "E:note:row629067:17",
+        "E:note:row629067:29"
+      ],
+      "rationale": "Multiple entries confirm the patient was started on and received IV dopamine."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:3"
+      ],
+      "rationale": "The evidence explicitly states the patient was started on propofol."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:4"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient 'is in a hard collar'."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:7"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Heart block, complete (CHB)' as part of the assessment."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:10"
+      ],
+      "rationale": "The candidate evidence explicitly states the heart rate as 80 s-100s NSR/ST."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:12"
+      ],
+      "rationale": "The evidence explicitly states that Magnesium was repleted."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:12"
+      ],
+      "rationale": "The evidence explicitly states that Phosphate was repleted."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:13"
+      ],
+      "rationale": "The candidate evidence explicitly states that an EKG was obtained."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:14"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan for a permanent PCM once the patient is afebrile."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:17"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Hypotension (not Shock)' in the assessment section."
+    },
+    {
+      "claim_id": "C24",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C25",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence refers to a history of Hodgkin's disease and does not contain any blood pressure readings."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:18",
+        "E:note:row629067:23"
+      ],
+      "rationale": "Multiple candidate sentences explicitly state 'CVP 10.'"
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:19"
+      ],
+      "rationale": "The candidate evidence explicitly states that UOP is ~50ml/hr."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:22"
+      ],
+      "rationale": "The candidate evidence explicitly states that the PA line was placed over wire (R IJ TLC) at 17:00."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:18",
+        "E:note:row629067:23"
+      ],
+      "rationale": "Two candidate sentences explicitly state 'CVP 10'."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:24"
+      ],
+      "rationale": "The candidate evidence explicitly states a PCWP of 22."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:24"
+      ],
+      "rationale": "The candidate evidence explicitly states 'PAD 22'."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:25"
+      ],
+      "rationale": "The candidate evidence explicitly states MVO2 is 68."
+    },
+    {
+      "claim_id": "C33",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:29"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has a BP in the 90s-100s."
+    },
+    {
+      "claim_id": "C35",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:29"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient's MAPs are in the high 50s-60s."
+    },
+    {
+      "claim_id": "C36",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:29"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is on dopamine at 8mcg/kg/min."
+    },
+    {
+      "claim_id": "C37",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:30"
+      ],
+      "rationale": "The candidate evidence explicitly states that PADs are in the low 20s."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:36"
+      ],
+      "rationale": "The candidate evidence explicitly lists the diagnosis of Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin) in the assessment section."
+    },
+    {
+      "claim_id": "C39",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C40",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:40"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Lactate 2.0', which matches the claim."
+    },
+    {
+      "claim_id": "C42",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:42"
+      ],
+      "rationale": "The evidence explicitly lists cefepime as part of the triple IV antibiotic regimen."
+    },
+    {
+      "claim_id": "C43",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:42"
+      ],
+      "rationale": "The evidence explicitly lists 'vanco' as part of the triple IV antibiotic regimen administered to the patient."
+    },
+    {
+      "claim_id": "C44",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:42"
+      ],
+      "rationale": "The evidence explicitly lists flagyl as part of the triple IV antibiotic regimen administered to the patient."
+    },
+    {
+      "claim_id": "C45",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C46",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C47",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:2"
+      ],
+      "rationale": "The candidate evidence E:cond:2 explicitly lists a diagnosis of 'Acute respiratory failure'."
+    },
+    {
+      "claim_id": "C48",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:52"
+      ],
+      "rationale": "The candidate evidence explicitly states that the FiO2 decreased to 50%."
+    },
+    {
+      "claim_id": "C49",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:44"
+      ],
+      "rationale": "The candidate evidence explicitly states that SPO2 is >94%."
+    },
+    {
+      "claim_id": "C50",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row629067:47"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has likely aspiration pneumonitis."
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "case_id": "mimic-1860-195382-329634",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2464,
+    "summary_chars": 1064,
+    "target_min_chars": 492,
+    "target_max_chars": 739,
+    "achieved_ratio": 0.4318181818181818,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 10,
+    "cited_evidence_ids": [
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:15",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:6",
+      "E:cond:9",
+      "E:note:row329634:1",
+      "E:note:row329634:12",
+      "E:note:row329634:13",
+      "E:note:row329634:14",
+      "E:note:row329634:2",
+      "E:note:row329634:22",
+      "E:note:row329634:23",
+      "E:note:row329634:25",
+      "E:note:row329634:3",
+      "E:note:row329634:31",
+      "E:note:row329634:36",
+      "E:note:row329634:37",
+      "E:note:row329634:5",
+      "E:note:row329634:8",
+      "E:note:row329634:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "SCLC [E:note:row329634:1], acute respiratory failure [E:cond:2], hypoxic respiratory failure [E:note:row329634:5], pneumonia [E:cond:4], and large right pleural effusion [E:note:row329634:2] with RLL consolidation [E:note:row329634:14].",
+        "severity": "medium",
+        "reason": "The summary introduces specific clinical details (SCLC, hypoxic, large right, RLL consolidation) not present in the provided fact sheet."
+      },
+      {
+        "sentence": "ESRD [E:cond:3] with anuria [E:note:row329634:37].",
+        "severity": "medium",
+        "reason": "Anuria is not mentioned in the provided fact sheet."
+      },
+      {
+        "sentence": "Intestinal obstruction [E:cond:6], ileus [E:note:row329634:13], and obstipation [E:note:row329634:23].",
+        "severity": "medium",
+        "reason": "Ileus and obstipation are not mentioned in the provided fact sheet."
+      },
+      {
+        "sentence": "AFib [E:cond:15], HTN [E:note:row329634:1], DMII [E:note:row329634:1], and hyperlipidemia [E:note:row329634:1].",
+        "severity": "medium",
+        "reason": "HTN, DMII, and hyperlipidemia are not mentioned in the provided fact sheet."
+      },
+      {
+        "sentence": "Hypotension [E:note:row329634:1].",
+        "severity": "medium",
+        "reason": "Hypotension is not explicitly listed as a problem, though low SBP is in vitals; the citation is also incorrect."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "SCLC [E:note:row329634:1], acute respiratory failure [E:cond:2], hypoxic respiratory failure [E:note:row329634:5], pneumonia [E:cond:4], and large right pleural effusion [E:note:row329634:2] with RLL consolidation [E:note:row329634:14].",
+        "suggested": "Malignant neoplasm of bronchus or lung [E:cond:5], acute respiratory failure [E:cond:2], pneumonia [E:cond:4], and pleural effusion [E:cond:1].",
+        "reason": "Align with the specific terminology and evidence provided in the fact sheet."
+      },
+      {
+        "original": "ESRD [E:cond:3] with anuria [E:note:row329634:37].",
+        "suggested": "End stage renal disease [E:cond:3].",
+        "reason": "Remove anuria as it is not in the fact sheet."
+      },
+      {
+        "original": "Intestinal obstruction [E:cond:6], ileus [E:note:row329634:13], and obstipation [E:note:row329634:23].",
+        "suggested": "Intestinal obstruction [E:cond:6].",
+        "reason": "Remove ileus and obstipation as they are not in the fact sheet."
+      },
+      {
+        "original": "AFib [E:cond:15], HTN [E:note:row329634:1], DMII [E:note:row329634:1], and hyperlipidemia [E:note:row329634:1].",
+        "suggested": "Atrial fibrillation [E:cond:15].",
+        "reason": "Remove HTN, DMII, and hyperlipidemia as they are not in the fact sheet."
+      },
+      {
+        "original": "Hypotension [E:note:row329634:1].",
+        "suggested": "Low blood pressure (SBP 60s-110s) [E:note:row329634:15, E:note:row329634:17, E:note:row329634:19, E:note:row329634:21, E:note:row329634:35].",
+        "reason": "Correct the citation and base the claim on the vitals section of the fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 5,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-1860-195382-329634/summary_revised.md",
+  "revised_check_passed": false,
+  "patient_summary": {
+    "fk_grade": 8.68,
+    "fk_words": 185,
+    "fk_sentences": 17,
+    "fk_syllables": 314,
+    "chars": 1986,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-1860-195382-329634/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0020721249748021364,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 172.40233737498056,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 366.8790164590464,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0017181250150315464,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 15.863063333032187,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 206.30488112504827,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0024361249525099993,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 85.08615487499628,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

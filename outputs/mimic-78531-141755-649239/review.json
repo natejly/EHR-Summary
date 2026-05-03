@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Procedures performed include ventricular shunt, brain biopsy, spinal tap, endotracheal tube insertion, arterial and venous catheterization, and mechanical ventilation (patient now extubated) [E:proc:1][E:proc:2][E:proc:3][E:proc:4][E:proc:5][E:proc:6][E:proc:7][E:note:row649239:4].",
+      "severity": "medium",
+      "reason": "The claim that the patient is 'now extubated' is not supported by the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Procedures performed include ventricular shunt, brain biopsy, spinal tap, endotracheal tube insertion, arterial and venous catheterization, and mechanical ventilation (patient now extubated) [E:proc:1][E:proc:2][E:proc:3][E:proc:4][E:proc:5][E:proc:6][E:proc:7][E:note:row649239:4].",
+      "suggested": "Procedures performed include ventricular shunt, brain biopsy, spinal tap, endotracheal tube insertion, arterial and venous catheterization, and mechanical ventilation [E:proc:1][E:proc:2][E:proc:3][E:proc:4][E:proc:5][E:proc:6][E:proc:7][E:note:row649239:4].",
+      "reason": "Removed unsupported claim regarding extubation status."
+    }
+  ]
+}

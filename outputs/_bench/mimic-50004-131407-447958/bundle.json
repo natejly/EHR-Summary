@@ -1,0 +1,521 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-50004-131407",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-50004",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-50004",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-131407",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-131407",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2141-04-13T00:00:00",
+          "end": "2141-04-18T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-131407-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-131407-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99681",
+              "display": "Complications of transplanted kidney"
+            }
+          ],
+          "text": "Complications of transplanted kidney"
+        },
+        "onsetDateTime": "2141-04-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-131407-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-131407-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99594",
+              "display": "Systemic inflammatory response syndrome due to noninfectious process with acute organ dysfunction"
+            }
+          ],
+          "text": "Systemic inflammatory response syndrome due to noninfectious process with acute organ dysfunction"
+        },
+        "onsetDateTime": "2141-04-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-131407-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-131407-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2141-04-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-131407-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-131407-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5845",
+              "display": "Acute kidney failure with lesion of tubular necrosis"
+            }
+          ],
+          "text": "Acute kidney failure with lesion of tubular necrosis"
+        },
+        "onsetDateTime": "2141-04-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-131407-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-131407-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "570",
+              "display": "Acute and subacute necrosis of liver"
+            }
+          ],
+          "text": "Acute and subacute necrosis of liver"
+        },
+        "onsetDateTime": "2141-04-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-131407-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-131407-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "20280",
+              "display": "Other malignant lymphomas, unspecified site, extranodal and solid organ sites"
+            }
+          ],
+          "text": "Other malignant lymphomas, unspecified site, extranodal and solid organ sites"
+        },
+        "onsetDateTime": "2141-04-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-131407-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-131407-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2762",
+              "display": "Acidosis"
+            }
+          ],
+          "text": "Acidosis"
+        },
+        "onsetDateTime": "2141-04-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-131407-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-131407-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2761",
+              "display": "Hyposmolality and/or hyponatremia"
+            }
+          ],
+          "text": "Hyposmolality and/or hyponatremia"
+        },
+        "onsetDateTime": "2141-04-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-131407-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-131407-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2867",
+              "display": "Acquired coagulation factor deficiency"
+            }
+          ],
+          "text": "Acquired coagulation factor deficiency"
+        },
+        "onsetDateTime": "2141-04-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-131407-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-131407-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2851",
+              "display": "Acute posthemorrhagic anemia"
+            }
+          ],
+          "text": "Acute posthemorrhagic anemia"
+        },
+        "onsetDateTime": "2141-04-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-131407-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-131407-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5780",
+              "display": "Hematemesis"
+            }
+          ],
+          "text": "Hematemesis"
+        },
+        "onsetDateTime": "2141-04-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-131407-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-131407-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "60000",
+              "display": "Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)"
+            }
+          ],
+          "text": "Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)"
+        },
+        "onsetDateTime": "2141-04-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-131407-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-131407-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2875",
+              "display": "Thrombocytopenia, unspecified"
+            }
+          ],
+          "text": "Thrombocytopenia, unspecified"
+        },
+        "onsetDateTime": "2141-04-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-131407-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-131407-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2511",
+              "display": "Other specified hypoglycemia"
+            }
+          ],
+          "text": "Other specified hypoglycemia"
+        },
+        "onsetDateTime": "2141-04-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-131407-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-131407-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5839",
+              "display": "Nephritis and nephropathy, not specified as acute or chronic, with unspecified pathological lesion in kidney"
+            }
+          ],
+          "text": "Nephritis and nephropathy, not specified as acute or chronic, with unspecified pathological lesion in kidney"
+        },
+        "onsetDateTime": "2141-04-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-131407-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-131407-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78559",
+              "display": "Other shock without mention of trauma"
+            }
+          ],
+          "text": "Other shock without mention of trauma"
+        },
+        "onsetDateTime": "2141-04-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-131407-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-131407-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2141-04-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-131407-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-131407-1",
+        "status": "completed",
+        "code": {
+          "text": "Laparoscopy"
+        },
+        "performedDateTime": "2141-04-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-131407-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-131407-2",
+        "status": "completed",
+        "code": {
+          "text": "Biopsy of lymphatic structure"
+        },
+        "performedDateTime": "2141-04-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-131407-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-131407-3",
+        "status": "completed",
+        "code": {
+          "text": "Biopsy of bone marrow"
+        },
+        "performedDateTime": "2141-04-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-131407-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-131407-4",
+        "status": "completed",
+        "code": {
+          "text": "Hemodialysis"
+        },
+        "performedDateTime": "2141-04-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-131407-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-131407-5",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2141-04-13"
+      }
+    }
+  ]
+}

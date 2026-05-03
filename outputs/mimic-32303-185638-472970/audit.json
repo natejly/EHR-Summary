@@ -1,0 +1,128 @@
+{
+  "case_id": "mimic-32303-185638-472970",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 1788,
+    "summary_chars": 642,
+    "target_min_chars": 357,
+    "target_max_chars": 536,
+    "achieved_ratio": 0.35906040268456374,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 8,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:12",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:2",
+      "E:cond:21",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:note:row472970:1"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Patient has septic shock [E:cond:4], severe sepsis [E:cond:10], and unspecified septicemia [E:cond:1] with sepsis without organ dysfunction [E:note:row472970:1].",
+        "severity": "high",
+        "reason": "Internal inconsistency: the sentence claims both 'severe sepsis' and 'sepsis without organ dysfunction', which are clinically contradictory."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Patient has septic shock [E:cond:4], severe sepsis [E:cond:10], and unspecified septicemia [E:cond:1] with sepsis without organ dysfunction [E:note:row472970:1].",
+        "suggested": "Patient has septic shock [E:cond:4], severe sepsis [E:cond:10], and unspecified septicemia [E:cond:1].",
+        "reason": "Removed contradictory claim of sepsis without organ dysfunction to align with the diagnosis of severe sepsis and septic shock."
+      }
+    ]
+  },
+  "review_passed": false,
+  "review_concern_counts": {
+    "high": 1,
+    "medium": 0,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-32303-185638-472970/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 11.58,
+    "fk_words": 171,
+    "fk_sentences": 8,
+    "fk_syllables": 273,
+    "chars": 1516,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-32303-185638-472970/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.002214916981756687,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 108.96896445797756,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 13.300852457992733,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0017593750380910933,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 11.837158208014444,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 5.321970582997892,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0032563750282861292,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 5.93252458400093,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

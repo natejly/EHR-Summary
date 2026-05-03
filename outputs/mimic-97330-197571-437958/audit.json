@@ -1,0 +1,139 @@
+{
+  "case_id": "mimic-97330-197571-437958",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2114,
+    "summary_chars": 966,
+    "target_min_chars": 422,
+    "target_max_chars": 634,
+    "achieved_ratio": 0.45695364238410596,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 13,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:13",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:2",
+      "E:cond:22",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row437958:1",
+      "E:note:row437958:12",
+      "E:note:row437958:13",
+      "E:note:row437958:15",
+      "E:note:row437958:20",
+      "E:note:row437958:5",
+      "E:note:row437958:7",
+      "E:note:row437958:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Multiple fractures: lower femur [E:cond:1][E:note:row437958:1], T8 vertebra [E:cond:3], 8+ ribs [E:cond:5], ilium [E:cond:6], acetabulum [E:cond:11], patella [E:cond:13], and tib-fib [E:cond:10][E:note:row437958:1].",
+        "severity": "low",
+        "reason": "The summary specifies 'T8 vertebra', but the fact sheet only states 'dorsal [thoracic] vertebra' without specifying the level."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Multiple fractures: lower femur [E:cond:1][E:note:row437958:1], T8 vertebra [E:cond:3], 8+ ribs [E:cond:5], ilium [E:cond:6], acetabulum [E:cond:11], patella [E:cond:13], and tib-fib [E:cond:10][E:note:row437958:1].",
+        "suggested": "Multiple fractures: lower femur [E:cond:1][E:note:row437958:1], thoracic vertebra [E:cond:3], 8+ ribs [E:cond:5], ilium [E:cond:6], acetabulum [E:cond:11], patella [E:cond:13], and tib-fib [E:cond:10][E:note:row437958:1].",
+        "reason": "Corrects the specific vertebral level to match the general thoracic description in the fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 0,
+    "low": 1
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-97330-197571-437958/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.92,
+    "fk_words": 185,
+    "fk_sentences": 18,
+    "fk_syllables": 290,
+    "chars": 1518,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-97330-197571-437958/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.002972375019453466,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 164.18308345897822,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 91.84694483299972,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.002404291008133441,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 12.00048358301865,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 10.95983512501698,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0054850829765200615,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 9.962731833045837,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:1"
+      ],
+      "rationale": "The candidate evidence explicitly lists the diagnosis 'Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])' in the assessment section."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:11"
+      ],
+      "rationale": "The evidence explicitly states the patient was placed back to CMV."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:2"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Sat maintain>99%.'"
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:3"
+      ],
+      "rationale": "The candidate evidence contains the exact phrasing of the clinical finding described in the claim."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:7"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to start diuresis with lasix gtt."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:9"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Weaning to cpap.', which directly matches the claim."
+    },
+    {
+      "claim_id": "C7",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence describes acute kidney failure, which does not provide any information regarding respiratory rate or CPAP settings."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:11"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient was placed back to CMV."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:16"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Liver function abnormalities' in the assessment section."
+    },
+    {
+      "claim_id": "C10",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided evidence refers to hyperosmolality/hypernatremia, which does not mention jaundice."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:17"
+      ],
+      "rationale": "The candidate evidence explicitly states that liver function studies remain elevated."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:18"
+      ],
+      "rationale": "The candidate evidence explicitly states there was a marginal drop in bilirubin."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:20"
+      ],
+      "rationale": "The candidate evidence explicitly states that the Choly-tube is draining clear bile to gravity."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:21",
+        "E:note:row540683:33"
+      ],
+      "rationale": "Both candidate evidence items explicitly state 'NPO', supporting the plan for the patient to be nothing by mouth."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:22",
+        "E:note:row540683:33"
+      ],
+      "rationale": "The candidates explicitly mention TPN and the continuation of TPN."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:proc:5"
+      ],
+      "rationale": "The procedure 'Delayed closure of granulating abdominal wound' confirms the presence of an abdominal wound."
+    },
+    {
+      "claim_id": "C17",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list procedures for wound care and closure, but they do not contain the specific descriptive findings regarding the open abdomen, adaptic placement, or the beefy red appearance of the wound bed."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:28"
+      ],
+      "rationale": "The candidate evidence exactly matches the claim text."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:29"
+      ],
+      "rationale": "The candidate evidence contains the exact text as the claim."
+    },
+    {
+      "claim_id": "C20",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence contains conditions (kidney failure and hyperosmolality) but no information regarding medication plans or pre-procedure sedation."
+    },
+    {
+      "claim_id": "C21",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate evidence items mention a diagnosis of fever, hyperthermia, or pyrexia."
+    },
+    {
+      "claim_id": "C22",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:35"
+      ],
+      "rationale": "The evidence explicitly states to continue vancomycin."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:35"
+      ],
+      "rationale": "The evidence explicitly lists zosyn as a medication to be continued."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:35"
+      ],
+      "rationale": "The evidence explicitly lists 'diflucan' as part of the patient's current medication actions."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:35"
+      ],
+      "rationale": "The evidence explicitly states the action to add bactrim today."
+    },
+    {
+      "claim_id": "C27",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:36"
+      ],
+      "rationale": "The candidate evidence explicitly states that the WBC is trending down marginally today."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:39"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Acute Pain--sedation' in the assessment section."
+    },
+    {
+      "claim_id": "C30",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence describes a condition (hyperosmolality/hypernatremia) and does not mention fentanyl or versed."
+    },
+    {
+      "claim_id": "C31",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:42"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to wean fentanyl gtt as tolerated."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:48"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Tachycardia, Other' in the assessment section."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:48"
+      ],
+      "rationale": "The candidate evidence explicitly mentions 'ST 100s-110s' in the assessment section."
+    },
+    {
+      "claim_id": "C35",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:48"
+      ],
+      "rationale": "The candidate evidence explicitly states 'SBP 100s-130s'."
+    },
+    {
+      "claim_id": "C36",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row540683:51"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Impaired Physical Mobility' within the plan/assessment section."
+    },
+    {
+      "claim_id": "C37",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence refers to hyperosmolality/hypernatremia, which does not mention edema or stiffness."
+    }
+  ]
+}

@@ -1,0 +1,1017 @@
+{
+  "case_id": "mimic-68135-163192-486433",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:enc-163192",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Unspecified septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0389",
+        "display": "Unspecified septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5185",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Septic shock",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78552",
+        "display": "Septic shock"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute on chronic systolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42823",
+        "display": "Acute on chronic systolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Toxic encephalopathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34982",
+        "display": "Toxic encephalopathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Subarachnoid hemorrhage following injury without mention of open intracranial wound, unspecified state of consciousness",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "85200",
+        "display": "Subarachnoid hemorrhage following injury without mention of open intracranial wound, unspecified state of consciousness"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Ventilator associated pneumonia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99731",
+        "display": "Ventilator associated pneumonia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Obstructive hydrocephalus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3314",
+        "display": "Obstructive hydrocephalus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Hyposmolality and/or hyponatremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2761",
+        "display": "Hyposmolality and/or hyponatremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Traumatic subcutaneous emphysema",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9587",
+        "display": "Traumatic subcutaneous emphysema"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Dependence on respirator, status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4611",
+        "display": "Dependence on respirator, status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Methicillin resistant Staphylococcus aureus in conditions classified elsewhere and of unspecified site",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "04112",
+        "display": "Methicillin resistant Staphylococcus aureus in conditions classified elsewhere and of unspecified site"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Friedl?nder's bacillus infection in conditions classified elsewhere and of unspecified site",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0413",
+        "display": "Friedl?nder's bacillus infection in conditions classified elsewhere and of unspecified site"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Motor vehicle traffic accident involving collision with pedestrian injuring pedestrian",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8147",
+        "display": "Motor vehicle traffic accident involving collision with pedestrian injuring pedestrian"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Anemia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2859",
+        "display": "Anemia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Aftercare for healing traumatic fracture of other bone",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V5419",
+        "display": "Aftercare for healing traumatic fracture of other bone"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Other late effects of cerebrovascular disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "43889",
+        "display": "Other late effects of cerebrovascular disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Other disorders of muscle, ligament, and fascia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "72889",
+        "display": "Other disorders of muscle, ligament, and fascia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Abdominal aneurysm without mention of rupture",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4414",
+        "display": "Abdominal aneurysm without mention of rupture"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Aortocoronary bypass status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4581",
+        "display": "Aortocoronary bypass status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Tracheostomy status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V440",
+        "display": "Tracheostomy status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25000",
+        "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:25",
+      "kind": "condition",
+      "display": "Gastrostomy status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V441",
+        "display": "Gastrostomy status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-25",
+      "text": null
+    },
+    {
+      "id": "E:cond:26",
+      "kind": "condition",
+      "display": "Other chronic pulmonary heart diseases",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4168",
+        "display": "Other chronic pulmonary heart diseases"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:cond-163192-26",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Procedure",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:proc-163192-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Procedure",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:proc-163192-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:proc-163192-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:proc-163192-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:proc-163192-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:proc-163192-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:proc-163192-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:proc-163192-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2160-08-20",
+      "source_ref": "urn:uuid:proc-163192-9",
+      "text": null
+    },
+    {
+      "id": "E:note:row486433:1",
+      "kind": "note_sentence",
+      "display": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 11**])    Assessment:  ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row486433#s1",
+      "text": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 11**])    Assessment:    Pt alert."
+    },
+    {
+      "id": "E:note:row486433:2",
+      "kind": "note_sentence",
+      "display": "Pt nodding to questions.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row486433#s2",
+      "text": "Pt nodding to questions."
+    },
+    {
+      "id": "E:note:row486433:3",
+      "kind": "note_sentence",
+      "display": "Able to follow commands.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row486433#s3",
+      "text": "Able to follow commands."
+    },
+    {
+      "id": "E:note:row486433:4",
+      "kind": "note_sentence",
+      "display": "MAE.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row486433#s4",
+      "text": "MAE."
+    },
+    {
+      "id": "E:note:row486433:5",
+      "kind": "note_sentence",
+      "display": "Right    upper and lower extremities weaker then left.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row486433#s5",
+      "text": "Right    upper and lower extremities weaker then left."
+    },
+    {
+      "id": "E:note:row486433:6",
+      "kind": "note_sentence",
+      "display": "(pt had CVA in past).",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row486433#s6",
+      "text": "(pt had CVA in past)."
+    },
+    {
+      "id": "E:note:row486433:7",
+      "kind": "note_sentence",
+      "display": "PERRL.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row486433#s7",
+      "text": "PERRL."
+    },
+    {
+      "id": "E:note:row486433:8",
+      "kind": "note_sentence",
+      "display": "Pt remains NSR. K 3.9 and Mag 1.9 -> yesterday afternoon.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row486433#s8",
+      "text": "Pt remains NSR. K 3.9 and Mag 1.9 -> yesterday afternoon."
+    },
+    {
+      "id": "E:note:row486433:9",
+      "kind": "note_sentence",
+      "display": "BP    100-110 s/40 s. + pp by doppler.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row486433#s9",
+      "text": "BP    100-110 s/40 s. + pp by doppler."
+    },
+    {
+      "id": "E:note:row486433:10",
+      "kind": "note_sentence",
+      "display": "LS clear with dim bases.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row486433#s10",
+      "text": "LS clear with dim bases."
+    },
+    {
+      "id": "E:note:row486433:11",
+      "kind": "note_sentence",
+      "display": "Pt on CPAP    50% with 8 peep and 15 PS.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row486433#s11",
+      "text": "Pt on CPAP    50% with 8 peep and 15 PS."
+    },
+    {
+      "id": "E:note:row486433:12",
+      "kind": "note_sentence",
+      "display": "Pt initially tachypenic -> RR in the 30    Pt reports feeling anxious  and SOB. ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row486433#s12",
+      "text": "Pt initially tachypenic -> RR in the 30    Pt reports feeling anxious  and SOB.  + bs."
+    },
+    {
+      "id": "E:note:row486433:13",
+      "kind": "note_sentence",
+      "display": "TF currently at 30 cc/hr    (goal 55 cc/hr), minimal residual.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row486433#s13",
+      "text": "TF currently at 30 cc/hr    (goal 55 cc/hr), minimal residual."
+    },
+    {
+      "id": "E:note:row486433:14",
+      "kind": "note_sentence",
+      "display": "Foley draining clear yellow urine.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row486433#s14",
+      "text": "Foley draining clear yellow urine."
+    },
+    {
+      "id": "E:note:row486433:15",
+      "kind": "note_sentence",
+      "display": "Pt ~ 1400 cc s negative at midnight.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row486433#s15",
+      "text": "Pt ~ 1400 cc s negative at midnight."
+    },
+    {
+      "id": "E:note:row486433:16",
+      "kind": "note_sentence",
+      "display": "Glucose 201 last evening    Action:           Pt given trazodone 25 mg via PEG x",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row486433#s16",
+      "text": "Glucose 201 last evening    Action:           Pt given trazodone 25 mg via PEG x 1           Pt given 0.5 mg ativan IV x 1           Pt given 60 meq KCL via PEG           Pt given 2 grams mag sulfate           Pt given 15 units lantus Sc and 6 units Humalog SC for    glucose of 201    Response:    Vitals stable overnight . no effect noted after trazadone given."
+    },
+    {
+      "id": "E:note:row486433:17",
+      "kind": "note_sentence",
+      "display": "After    ativan given -> the pt was able to nod that her anxiety had resolved   ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row486433#s17",
+      "text": "After    ativan given -> the pt was able to nod that her anxiety had resolved    and her RR was down to the 20 s. pt appeared more comfortable and was    able to sleep."
+    },
+    {
+      "id": "E:note:row486433:18",
+      "kind": "note_sentence",
+      "display": "Tolerating tube feedings    Plan:    Pulm toilet, diuresis, monitor lytes/glucos",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row486433#s18",
+      "text": "Tolerating tube feedings    Plan:    Pulm toilet, diuresis, monitor lytes/glucose, monitor hemodynamics,    advance tube feeding as ordered"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|0389": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5185": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78552": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42823": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|34982": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|85200": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99731": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3314": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2761": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|9587": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4611": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|04112": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|0413": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8147": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2859": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V5419": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|43889": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|72889": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4414": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4581": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V440": [
+      "E:cond:23"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25000": [
+      "E:cond:24"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V441": [
+      "E:cond:25"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4168": [
+      "E:cond:26"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "unspecified septicemia": [
+      "E:cond:1"
+    ],
+    "diagnosis": [
+      "E:cond:2"
+    ],
+    "septic shock": [
+      "E:cond:3"
+    ],
+    "acute on chronic systolic heart failure": [
+      "E:cond:4"
+    ],
+    "toxic encephalopathy": [
+      "E:cond:5"
+    ],
+    "subarachnoid hemorrhage following injury without mention of open intracranial wound, unspecified state of consciousness": [
+      "E:cond:6"
+    ],
+    "ventilator associated pneumonia": [
+      "E:cond:7"
+    ],
+    "obstructive hydrocephalus": [
+      "E:cond:8"
+    ],
+    "hyposmolality and/or hyponatremia": [
+      "E:cond:9"
+    ],
+    "traumatic subcutaneous emphysema": [
+      "E:cond:10"
+    ],
+    "dependence on respirator, status": [
+      "E:cond:11"
+    ],
+    "severe sepsis": [
+      "E:cond:12"
+    ],
+    "methicillin resistant staphylococcus aureus in conditions classified elsewhere and of unspecified site": [
+      "E:cond:13"
+    ],
+    "friedl?nder's bacillus infection in conditions classified elsewhere and of unspecified site": [
+      "E:cond:14"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:15"
+    ],
+    "motor vehicle traffic accident involving collision with pedestrian injuring pedestrian": [
+      "E:cond:16"
+    ],
+    "anemia, unspecified": [
+      "E:cond:17"
+    ],
+    "aftercare for healing traumatic fracture of other bone": [
+      "E:cond:18"
+    ],
+    "other late effects of cerebrovascular disease": [
+      "E:cond:19"
+    ],
+    "other disorders of muscle, ligament, and fascia": [
+      "E:cond:20"
+    ],
+    "abdominal aneurysm without mention of rupture": [
+      "E:cond:21"
+    ],
+    "aortocoronary bypass status": [
+      "E:cond:22"
+    ],
+    "tracheostomy status": [
+      "E:cond:23"
+    ],
+    "diabetes mellitus without mention of complication, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:24"
+    ],
+    "gastrostomy status": [
+      "E:cond:25"
+    ],
+    "other chronic pulmonary heart diseases": [
+      "E:cond:26"
+    ],
+    "procedure": [
+      "E:proc:1",
+      "E:proc:2"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:3"
+    ],
+    "continuous invasive mechanical ventilation for less than 96 consecutive hours": [
+      "E:proc:4"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:5",
+      "E:proc:7"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:6",
+      "E:proc:9"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:8"
+    ],
+    "respiratory failure, acute (not ards/[**doctor last name 11**]) assessment:": [
+      "E:note:row486433:1"
+    ],
+    "pt nodding to questions.": [
+      "E:note:row486433:2"
+    ],
+    "able to follow commands.": [
+      "E:note:row486433:3"
+    ],
+    "mae.": [
+      "E:note:row486433:4"
+    ],
+    "right upper and lower extremities weaker then left.": [
+      "E:note:row486433:5"
+    ],
+    "(pt had cva in past).": [
+      "E:note:row486433:6"
+    ],
+    "perrl.": [
+      "E:note:row486433:7"
+    ],
+    "pt remains nsr. k 3.9 and mag 1.9 -> yesterday afternoon.": [
+      "E:note:row486433:8"
+    ],
+    "bp 100-110 s/40 s. + pp by doppler.": [
+      "E:note:row486433:9"
+    ],
+    "ls clear with dim bases.": [
+      "E:note:row486433:10"
+    ],
+    "pt on cpap 50% with 8 peep and 15 ps.": [
+      "E:note:row486433:11"
+    ],
+    "pt initially tachypenic -> rr in the 30 pt reports feeling anxious and sob.": [
+      "E:note:row486433:12"
+    ],
+    "tf currently at 30 cc/hr (goal 55 cc/hr), minimal residual.": [
+      "E:note:row486433:13"
+    ],
+    "foley draining clear yellow urine.": [
+      "E:note:row486433:14"
+    ],
+    "pt ~ 1400 cc s negative at midnight.": [
+      "E:note:row486433:15"
+    ],
+    "glucose 201 last evening action: pt given trazodone 25 mg via peg x": [
+      "E:note:row486433:16"
+    ],
+    "after ativan given -> the pt was able to nod that her anxiety had resolved": [
+      "E:note:row486433:17"
+    ],
+    "tolerating tube feedings plan: pulm toilet, diuresis, monitor lytes/glucos": [
+      "E:note:row486433:18"
+    ]
+  },
+  "by_date": {
+    "2160-08-20": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9"
+    ]
+  }
+}

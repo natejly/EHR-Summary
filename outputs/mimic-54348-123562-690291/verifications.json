@@ -1,0 +1,186 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row690291:1"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has a history of polysubstance abuse involving ethanol, heroin, and crack."
+    },
+    {
+      "claim_id": "C2",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence lists C. difficile, urinary tract, and catheter-related infections, but does not mention HCV infection."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:1"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Alcohol withdrawal', which is the clinical equivalent of 'ETOH withdrawal'."
+    },
+    {
+      "claim_id": "C4",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row690291:3"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient received 180 IV valium since MN."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row690291:3"
+      ],
+      "rationale": "The evidence explicitly states the patient was changed to PO valium this am."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row690291:4"
+      ],
+      "rationale": "The evidence explicitly states the patient is receiving PO dilt for rate control."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:1"
+      ],
+      "rationale": "The patient has a recorded condition of Alcohol withdrawal in the structured EHR."
+    },
+    {
+      "claim_id": "C9",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row690291:6"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient's heart rate was in the low 100s in the am."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence contains only condition diagnoses and no vital sign data regarding heart rate."
+    },
+    {
+      "claim_id": "C12",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C13",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row690291:8"
+      ],
+      "rationale": "The candidate evidence explicitly states 'T max 99.8po', which matches the claim."
+    },
+    {
+      "claim_id": "C15",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C16",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence contains only condition diagnoses and no vital sign data regarding heart rate."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row690291:11"
+      ],
+      "rationale": "The evidence explicitly states the patient was given 10mg iv valium."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row690291:15"
+      ],
+      "rationale": "The evidence explicitly states that the provider placed a left ej #18g piv."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row690291:16"
+      ],
+      "rationale": "The evidence explicitly states that a PICC placement under guided ultrasound was ordered for the patient."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row690291:22"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to continue CIWA scale q15 minutes."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row690291:22"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to administer valium 10-20mg iv as needed."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row690291:23"
+      ],
+      "rationale": "The evidence explicitly states that 20mg iv valium was given at 18:30."
+    },
+    {
+      "claim_id": "C23",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row690291:24"
+      ],
+      "rationale": "The evidence explicitly states that 20mg po valium x1 was given at 18:55."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row690291:24"
+      ],
+      "rationale": "The evidence explicitly states that Valium was given at 18:55 for a CIWA >10."
+    }
+  ]
+}

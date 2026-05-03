@@ -1,0 +1,131 @@
+{
+  "case_id": "mimic-53474-177016-556185",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2794,
+    "summary_chars": 901,
+    "target_min_chars": 558,
+    "target_max_chars": 838,
+    "achieved_ratio": 0.32247673586256265,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 13,
+    "cited_evidence_ids": [
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:17",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:8",
+      "E:note:row556185:20",
+      "E:note:row556185:21",
+      "E:note:row556185:23",
+      "E:note:row556185:25",
+      "E:note:row556185:29",
+      "E:note:row556185:3",
+      "E:note:row556185:30",
+      "E:note:row556185:5",
+      "E:note:row556185:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "LENI ordered for today [E:note:row556185:30].",
+        "severity": "high",
+        "reason": "The term 'LENI' does not appear in the provided fact sheet; this is a hallucination."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "LENI ordered for today [E:note:row556185:30].",
+        "suggested": "",
+        "reason": "Remove sentence as the information is not present in the provided fact sheet."
+      }
+    ]
+  },
+  "review_passed": false,
+  "review_concern_counts": {
+    "high": 1,
+    "medium": 0,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-53474-177016-556185/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 8.47,
+    "fk_words": 162,
+    "fk_sentences": 20,
+    "fk_syllables": 287,
+    "chars": 1582,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-53474-177016-556185/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0021124170161783695,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 260.2967017919873,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 190.87722229101928,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.001741624961141497,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 52.11441899999045,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 64.1003230829956,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.002703125006519258,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 4.810716416046489,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

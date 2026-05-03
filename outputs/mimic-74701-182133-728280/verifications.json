@@ -1,0 +1,403 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:28"
+      ],
+      "rationale": "The patient has a recorded condition of asymptomatic human immunodeficiency virus [HIV] infection status."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:2",
+        "E:cond:24"
+      ],
+      "rationale": "The patient has documented diagnoses for both viral hepatitis C and liver cirrhosis."
+    },
+    {
+      "claim_id": "C3",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:13"
+      ],
+      "rationale": "The patient has a recorded condition of 'Other ascites' in the EHR."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row728280:4"
+      ],
+      "rationale": "The evidence explicitly states the patient was continued on cipro for SBP treatment."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:6"
+      ],
+      "rationale": "The patient has a recorded diagnosis of toxic encephalopathy."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row728280:1"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'respiratory distress' as the Chief Complaint."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row728280:2"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was transferred last night for hepato-renal syndrome."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row728280:4"
+      ],
+      "rationale": "The evidence explicitly states the patient was continued on cipro for SBP treatment."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row728280:3"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient experienced transient hypotension overnight."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates describe enteral infusions of nutritional substances, not albumin infusions."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row728280:4"
+      ],
+      "rationale": "The evidence explicitly states the patient was continued on cipro for SBP treatment."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row728280:4"
+      ],
+      "rationale": "The evidence explicitly states the patient was started on vanco."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row728280:5"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was on 2L NC this morning."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row728280:5"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient had minimal urine output this morning."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row728280:6"
+      ],
+      "rationale": "The evidence explicitly states the patient was transferred to radiology for a CXR."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row728280:6"
+      ],
+      "rationale": "The evidence explicitly states the patient was transferred to radiology for an ultrasound."
+    },
+    {
+      "claim_id": "C18",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C19",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C20",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C21",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C22",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The only candidate is the source sentence itself, which is a clinical note and not structured EHR evidence."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row728280:8"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was given one SLNG."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row728280:8"
+      ],
+      "rationale": "The evidence explicitly states the patient was 'started on her diuretics'."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row728280:10"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient was placed on bipap while on the floor."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row728280:11"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient put out minimal urine to the diuretics."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row728280:16"
+      ],
+      "rationale": "The note sentence explicitly lists 'Acidosis, Metabolic' as part of the assessment."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row728280:16"
+      ],
+      "rationale": "The candidate evidence explicitly lists HCO 16."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row728280:16"
+      ],
+      "rationale": "The candidate evidence explicitly lists PH 7.26."
+    },
+    {
+      "claim_id": "C30",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:proc:3"
+      ],
+      "rationale": "The procedure 'Venous catheterization for renal dialysis' directly supports the claim that a dialysis line was placed."
+    },
+    {
+      "claim_id": "C32",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:5"
+      ],
+      "rationale": "The candidate E:cond:5 explicitly lists 'Acute respiratory failure' as a condition."
+    },
+    {
+      "claim_id": "C34",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence items list conditions related to coagulation, hyponatremia, infection, and anticonvulsants, but none mention tachypnea or dyspnea."
+    },
+    {
+      "claim_id": "C35",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C36",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C37",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C38",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C39",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C40",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C41",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C42",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C43",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence refers to a diagnosis of delirium and does not contain any information regarding PEEP or ventilator settings."
+    },
+    {
+      "claim_id": "C44",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C45",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C46",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:3"
+      ],
+      "rationale": "The candidate evidence explicitly lists Hepatorenal syndrome as a condition for the patient."
+    },
+    {
+      "claim_id": "C47",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C48",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C49",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C50",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C51",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C52",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C53",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C54",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C55",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C56",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C57",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C58",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    }
+  ]
+}

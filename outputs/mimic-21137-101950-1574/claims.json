@@ -1,0 +1,454 @@
+{
+  "claims": [
+    {
+      "claim_id": "C1",
+      "type": "allergy",
+      "subject": "patient",
+      "predicate": "has allergy",
+      "value": "Iodine Containing Agents",
+      "time_ref": null,
+      "source_span": "row1574#Allergies: Iodine Containing Agents"
+    },
+    {
+      "claim_id": "C2",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "cardiac arrest",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#Chief Complaint: cardiac arrest"
+    },
+    {
+      "claim_id": "C3",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent procedure",
+      "value": "ICD placement",
+      "time_ref": "2173-3-12",
+      "source_span": "row1574#an ICD was placed on [**3-12**]"
+    },
+    {
+      "claim_id": "C4",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent procedure",
+      "value": "cardiac catheterization",
+      "time_ref": "2165",
+      "source_span": "row1574#Major Surgical or Invasive Procedure: ICD placement cardiac catheterization"
+    },
+    {
+      "claim_id": "C5",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent procedure",
+      "value": "AVR",
+      "time_ref": "2165",
+      "source_span": "row1574#s/p AVR ([**2165**])"
+    },
+    {
+      "claim_id": "C6",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Coumadin",
+      "time_ref": null,
+      "source_span": "row1574#on Coumadin"
+    },
+    {
+      "claim_id": "C7",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "DM2",
+      "time_ref": null,
+      "source_span": "row1574#DM2"
+    },
+    {
+      "claim_id": "C8",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "hyperlipidemia",
+      "time_ref": null,
+      "source_span": "row1574#hyperlipidemia"
+    },
+    {
+      "claim_id": "C9",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "CHB",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#found to be in CHB"
+    },
+    {
+      "claim_id": "C10",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent procedure",
+      "value": "temporary pacing wire placement",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#s/p temporary pacing wire placement"
+    },
+    {
+      "claim_id": "C11",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has symptom",
+      "value": "progressive DOE",
+      "time_ref": "past few weeks",
+      "source_span": "row1574#patient has had progressive DOE over the past few weeks"
+    },
+    {
+      "claim_id": "C12",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has symptom",
+      "value": "increased LE edema",
+      "time_ref": "recently",
+      "source_span": "row1574#He has also had increased LE edema recently"
+    },
+    {
+      "claim_id": "C13",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "VF",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#found pt to be in VF"
+    },
+    {
+      "claim_id": "C14",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent procedure",
+      "value": "nasally intubated",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#He was nasally intubated in the field"
+    },
+    {
+      "claim_id": "C15",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "received medication",
+      "value": "IV metoprolol",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#He received IV metoprolol"
+    },
+    {
+      "claim_id": "C16",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "received medication",
+      "value": "NTG gtt",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#NTG gtt"
+    },
+    {
+      "claim_id": "C17",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "received medication",
+      "value": "atropine",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#atropine"
+    },
+    {
+      "claim_id": "C18",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "received medication",
+      "value": "Versed",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#Versed"
+    },
+    {
+      "claim_id": "C19",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "EF 30-35%",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#Bedside TTE showed EF 30-35%"
+    },
+    {
+      "claim_id": "C20",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "CK 337",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#CK was 337"
+    },
+    {
+      "claim_id": "C21",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "negative troponin T",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#negative troponin T"
+    },
+    {
+      "claim_id": "C22",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "received medication",
+      "value": "gentamicin",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#he was given gentamicin"
+    },
+    {
+      "claim_id": "C23",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "received medication",
+      "value": "metronidazole",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#metronidazole"
+    },
+    {
+      "claim_id": "C24",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "received medication",
+      "value": "cefazolin",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#cefazolin"
+    },
+    {
+      "claim_id": "C25",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent procedure",
+      "value": "Head CT",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#Head CT was done to r/o bleed"
+    },
+    {
+      "claim_id": "C26",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "HgA1C 7.5",
+      "time_ref": null,
+      "source_span": "row1574#last HgA1C 7.5"
+    },
+    {
+      "claim_id": "C27",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "metformin",
+      "time_ref": null,
+      "source_span": "row1574#on metformin"
+    },
+    {
+      "claim_id": "C28",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Hypertension",
+      "time_ref": null,
+      "source_span": "row1574#Hypertension: on atenolol"
+    },
+    {
+      "claim_id": "C29",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "atenolol",
+      "time_ref": null,
+      "source_span": "row1574#on atenolol"
+    },
+    {
+      "claim_id": "C30",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "T 99.1",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#T 99.1"
+    },
+    {
+      "claim_id": "C31",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "HR 60 (paced)",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#HR 60 (paced)"
+    },
+    {
+      "claim_id": "C32",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "BP 154/89",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#BP 154/89"
+    },
+    {
+      "claim_id": "C33",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "RR 14",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#RR 14"
+    },
+    {
+      "claim_id": "C34",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "WBC-17.4",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#WBC-17.4"
+    },
+    {
+      "claim_id": "C35",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "HGB-13.3",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#HGB-13.3"
+    },
+    {
+      "claim_id": "C36",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "INR(PT)-2.8",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#INR(PT)-2.8"
+    },
+    {
+      "claim_id": "C37",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "GLUCOSE-226",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#GLUCOSE-226"
+    },
+    {
+      "claim_id": "C38",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "mild congestive heart failure",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#There is mild congestive heart failure"
+    },
+    {
+      "claim_id": "C39",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "aspiration",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#opacity in the left lower lobe indicating aspiration"
+    },
+    {
+      "claim_id": "C40",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "ethmoid sinusitis",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#ethmoid sinusitis"
+    },
+    {
+      "claim_id": "C41",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "anoxic encephalopathy",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#cognitive and motor deficits are likely due to anoxic encephalopathy"
+    },
+    {
+      "claim_id": "C42",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Ventilator-associated pneumonia",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#empiric treatment of VAP"
+    },
+    {
+      "claim_id": "C43",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "received medication",
+      "value": "levofloxacin",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#received a 7-day course of levofloxacin"
+    },
+    {
+      "claim_id": "C44",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "received medication",
+      "value": "vancomycin",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#and vancomycin"
+    },
+    {
+      "claim_id": "C45",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "received medication",
+      "value": "IV Lasix",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#received IV Lasix for diuresis"
+    },
+    {
+      "claim_id": "C46",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "received medication",
+      "value": "olanzapine",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#responding well to olanzapine"
+    },
+    {
+      "claim_id": "C47",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "received medication",
+      "value": "vitamin K 5mg po",
+      "time_ref": "2173-3-9",
+      "source_span": "row1574#received vitamin K 5mg po on [**3-9**]"
+    },
+    {
+      "claim_id": "C48",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "received medication",
+      "value": "IV heparin",
+      "time_ref": "2173-3-12",
+      "source_span": "row1574#IV heparin was restarted s/p ICD placement"
+    },
+    {
+      "claim_id": "C49",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "hematoma from his ICD site",
+      "time_ref": "2173-3-12",
+      "source_span": "row1574#He developed a hematoma from his ICD site"
+    },
+    {
+      "claim_id": "C50",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "diastolic dysfunction",
+      "time_ref": null,
+      "source_span": "row1574#He likely has diastolic dysfunction"
+    }
+  ]
+}

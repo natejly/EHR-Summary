@@ -1,0 +1,185 @@
+{
+  "case_id": "mimic-17041-175730-1473",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 17143,
+    "summary_chars": 3323,
+    "target_min_chars": 3428,
+    "target_max_chars": 5142,
+    "achieved_ratio": 0.19384005133290555,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": false,
+    "violations": [
+      {
+        "sentence": "**Cardiac:**",
+        "rule": "missing_citation",
+        "detail": "Sentence has no [E:...] citation."
+      },
+      {
+        "sentence": "**Renal/Metabolic:**",
+        "rule": "missing_citation",
+        "detail": "Sentence has no [E:...] citation."
+      },
+      {
+        "sentence": "**Other:**",
+        "rule": "missing_citation",
+        "detail": "Sentence has no [E:...] citation."
+      },
+      {
+        "sentence": "**History/Allergies:**",
+        "rule": "missing_citation",
+        "detail": "Sentence has no [E:...] citation."
+      },
+      {
+        "sentence": "**Procedures:**",
+        "rule": "missing_citation",
+        "detail": "Sentence has no [E:...] citation."
+      }
+    ],
+    "sentence_count": 55,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:2",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:29",
+      "E:cond:3",
+      "E:cond:30",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row1473:116",
+      "E:note:row1473:119",
+      "E:note:row1473:120",
+      "E:note:row1473:126",
+      "E:note:row1473:128",
+      "E:note:row1473:136",
+      "E:note:row1473:138",
+      "E:note:row1473:140",
+      "E:note:row1473:141",
+      "E:note:row1473:145",
+      "E:note:row1473:17",
+      "E:note:row1473:22",
+      "E:note:row1473:24",
+      "E:note:row1473:25",
+      "E:note:row1473:26",
+      "E:note:row1473:28",
+      "E:note:row1473:29",
+      "E:note:row1473:33",
+      "E:note:row1473:34",
+      "E:note:row1473:38",
+      "E:note:row1473:40",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6"
+    ]
+  },
+  "review": {
+    "concerns": [],
+    "recommended_revisions": []
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
+  "revised_summary": null,
+  "revised_check_passed": null,
+  "patient_summary": {
+    "fk_grade": 6.85,
+    "fk_words": 182,
+    "fk_sentences": 21,
+    "fk_syllables": 294,
+    "chars": 1725,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-17041-175730-1473/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.003473832970485091,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 164.4201455420116,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 209.42782291700132,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0025634170160628855,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 269.41374116699444,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 154.01079941703938,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.004280499997548759,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 1.6277083749882877,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

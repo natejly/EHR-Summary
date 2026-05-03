@@ -1,0 +1,142 @@
+{
+  "case_id": "mimic-60316-171649-545713",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 1993,
+    "summary_chars": 848,
+    "target_min_chars": 398,
+    "target_max_chars": 597,
+    "achieved_ratio": 0.42548921224284997,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 15,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:5",
+      "E:cond:6",
+      "E:note:row545713:10",
+      "E:note:row545713:11",
+      "E:note:row545713:12",
+      "E:note:row545713:13",
+      "E:note:row545713:22",
+      "E:note:row545713:24",
+      "E:note:row545713:27",
+      "E:note:row545713:32",
+      "E:note:row545713:6",
+      "E:note:row545713:8"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Malignant hepatic flexure mass with obstruction/bleeding [E:cond:1].",
+        "severity": "medium",
+        "reason": "The fact sheet only mentions 'Malignant neoplasm of hepatic flexure'; obstruction and bleeding are not documented in the provided evidence."
+      },
+      {
+        "sentence": "Failed extubation [E:note:row545713:8][E:note:row545713:24].",
+        "severity": "medium",
+        "reason": "This claim is not supported by the provided fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Malignant hepatic flexure mass with obstruction/bleeding [E:cond:1].",
+        "suggested": "Malignant neoplasm of hepatic flexure [E:cond:1].",
+        "reason": "Remove unsupported claims of obstruction and bleeding."
+      },
+      {
+        "original": "Failed extubation [E:note:row545713:8][E:note:row545713:24].",
+        "suggested": "",
+        "reason": "Remove sentence as it is not supported by the provided fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 2,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-60316-171649-545713/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 5.11,
+    "fk_words": 168,
+    "fk_sentences": 20,
+    "fk_syllables": 248,
+    "chars": 1455,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-60316-171649-545713/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0017403329838998616,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 67.15951674996177,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 218.91086079203524,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0016181670362129807,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 11.68675524997525,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 9.828861750022043,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.002527666976675391,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 11.875873082957696,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

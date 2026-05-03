@@ -1,0 +1,460 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-67512-105739",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-67512",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-67512",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-105739",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-105739",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2184-01-17T00:00:00",
+          "end": "2184-01-21T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105739-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105739-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4168",
+              "display": "Other chronic pulmonary heart diseases"
+            }
+          ],
+          "text": "Other chronic pulmonary heart diseases"
+        },
+        "onsetDateTime": "2184-01-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105739-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105739-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2184-01-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105739-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105739-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42830",
+              "display": "Diastolic heart failure, unspecified"
+            }
+          ],
+          "text": "Diastolic heart failure, unspecified"
+        },
+        "onsetDateTime": "2184-01-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105739-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105739-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5856",
+              "display": "End stage renal disease"
+            }
+          ],
+          "text": "End stage renal disease"
+        },
+        "onsetDateTime": "2184-01-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105739-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105739-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "40391",
+              "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease"
+            }
+          ],
+          "text": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease"
+        },
+        "onsetDateTime": "2184-01-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105739-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105739-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78959",
+              "display": "Other ascites"
+            }
+          ],
+          "text": "Other ascites"
+        },
+        "onsetDateTime": "2184-01-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105739-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105739-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "07070",
+              "display": "Unspecified viral hepatitis C without hepatic coma"
+            }
+          ],
+          "text": "Unspecified viral hepatitis C without hepatic coma"
+        },
+        "onsetDateTime": "2184-01-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105739-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105739-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5715",
+              "display": "Cirrhosis of liver without mention of alcohol"
+            }
+          ],
+          "text": "Cirrhosis of liver without mention of alcohol"
+        },
+        "onsetDateTime": "2184-01-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105739-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105739-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2184-01-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105739-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105739-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2767",
+              "display": "Hyperpotassemia"
+            }
+          ],
+          "text": "Hyperpotassemia"
+        },
+        "onsetDateTime": "2184-01-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105739-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105739-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V08",
+              "display": "Asymptomatic human immunodeficiency virus [HIV] infection status"
+            }
+          ],
+          "text": "Asymptomatic human immunodeficiency virus [HIV] infection status"
+        },
+        "onsetDateTime": "2184-01-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105739-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105739-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "32723",
+              "display": "Obstructive sleep apnea (adult)(pediatric)"
+            }
+          ],
+          "text": "Obstructive sleep apnea (adult)(pediatric)"
+        },
+        "onsetDateTime": "2184-01-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105739-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105739-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2720",
+              "display": "Pure hypercholesterolemia"
+            }
+          ],
+          "text": "Pure hypercholesterolemia"
+        },
+        "onsetDateTime": "2184-01-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105739-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105739-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "311",
+              "display": "Depressive disorder, not elsewhere classified"
+            }
+          ],
+          "text": "Depressive disorder, not elsewhere classified"
+        },
+        "onsetDateTime": "2184-01-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105739-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105739-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "53081",
+              "display": "Esophageal reflux"
+            }
+          ],
+          "text": "Esophageal reflux"
+        },
+        "onsetDateTime": "2184-01-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105739-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105739-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "27801",
+              "display": "Morbid obesity"
+            }
+          ],
+          "text": "Morbid obesity"
+        },
+        "onsetDateTime": "2184-01-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-105739-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-105739-1",
+        "status": "completed",
+        "code": {
+          "text": "Hemodialysis"
+        },
+        "performedDateTime": "2184-01-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-105739-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-105739-2",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization for renal dialysis"
+        },
+        "performedDateTime": "2184-01-17"
+      }
+    }
+  ]
+}

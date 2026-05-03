@@ -1,0 +1,145 @@
+{
+  "case_id": "mimic-49496-112342-514701",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2908,
+    "summary_chars": 1043,
+    "target_min_chars": 581,
+    "target_max_chars": 872,
+    "achieved_ratio": 0.358665749656121,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 10,
+    "cited_evidence_ids": [
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row514701:13",
+      "E:note:row514701:16",
+      "E:note:row514701:2",
+      "E:note:row514701:24",
+      "E:note:row514701:25",
+      "E:note:row514701:26",
+      "E:note:row514701:30",
+      "E:note:row514701:5",
+      "E:note:row514701:7",
+      "E:note:row514701:8",
+      "E:proc:1"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Other findings include rapid Afib [E:note:row514701:7], total body anasarca [E:note:row514701:13], and impaired skin integrity with excoriations on coccyx and scrotum [E:note:row514701:24][E:note:row514701:25].",
+        "severity": "medium",
+        "reason": "The summary interprets a heart rate of 130-150 as 'rapid Afib', but the fact sheet only provides the heart rate without specifying the rhythm."
+      },
+      {
+        "sentence": "and progressive metabolic acidosis [E:cond:12].",
+        "severity": "low",
+        "reason": "The fact sheet only lists 'Acidosis', not 'progressive metabolic acidosis'."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Other findings include rapid Afib [E:note:row514701:7], total body anasarca [E:note:row514701:13], and impaired skin integrity with excoriations on coccyx and scrotum [E:note:row514701:24][E:note:row514701:25].",
+        "suggested": "Other findings include tachycardia (HR 130-150) [E:note:row514701:7], total body anasarca [E:note:row514701:13], and impaired skin integrity with excoriations on coccyx and scrotum [E:note:row514701:24][E:note:row514701:25].",
+        "reason": "Corrects the misinterpretation of heart rate as Atrial Fibrillation."
+      },
+      {
+        "original": "and progressive metabolic acidosis [E:cond:12].",
+        "suggested": "and acidosis [E:cond:12].",
+        "reason": "Aligns the terminology with the provided fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 1
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-49496-112342-514701/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 9.07,
+    "fk_words": 196,
+    "fk_sentences": 13,
+    "fk_syllables": 312,
+    "chars": 1689,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-49496-112342-514701/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0014799169730395079,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 436.23874570801854,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 63.089142834011,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0010050830314867198,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 69.16420925001148,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 17.754995582974516,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0021752080065198243,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 99.09586933301762,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

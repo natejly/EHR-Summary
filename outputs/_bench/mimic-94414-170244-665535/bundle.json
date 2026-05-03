@@ -1,0 +1,494 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-94414-170244",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-94414",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-94414",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-170244",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-170244",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2191-04-01T00:00:00",
+          "end": "2191-04-28T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-170244-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-170244-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "48242",
+              "display": "Methicillin resistant pneumonia due to Staphylococcus aureus"
+            }
+          ],
+          "text": "Methicillin resistant pneumonia due to Staphylococcus aureus"
+        },
+        "onsetDateTime": "2191-04-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-170244-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-170244-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2191-04-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-170244-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-170244-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4611",
+              "display": "Dependence on respirator, status"
+            }
+          ],
+          "text": "Dependence on respirator, status"
+        },
+        "onsetDateTime": "2191-04-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-170244-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-170244-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2191-04-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-170244-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-170244-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2762",
+              "display": "Acidosis"
+            }
+          ],
+          "text": "Acidosis"
+        },
+        "onsetDateTime": "2191-04-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-170244-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-170244-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4538",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2191-04-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-170244-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-170244-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2191-04-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-170244-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-170244-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2720",
+              "display": "Pure hypercholesterolemia"
+            }
+          ],
+          "text": "Pure hypercholesterolemia"
+        },
+        "onsetDateTime": "2191-04-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-170244-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-170244-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "79902",
+              "display": "Hypoxemia"
+            }
+          ],
+          "text": "Hypoxemia"
+        },
+        "onsetDateTime": "2191-04-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-170244-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-170244-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2449",
+              "display": "Unspecified acquired hypothyroidism"
+            }
+          ],
+          "text": "Unspecified acquired hypothyroidism"
+        },
+        "onsetDateTime": "2191-04-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-170244-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-170244-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4168",
+              "display": "Other chronic pulmonary heart diseases"
+            }
+          ],
+          "text": "Other chronic pulmonary heart diseases"
+        },
+        "onsetDateTime": "2191-04-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-170244-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-170244-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3004",
+              "display": "Dysthymic disorder"
+            }
+          ],
+          "text": "Dysthymic disorder"
+        },
+        "onsetDateTime": "2191-04-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-170244-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-170244-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2191-04-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-170244-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-170244-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V0254",
+              "display": "Carrier or suspected carrier of Methicillin resistant Staphylococcus aureus"
+            }
+          ],
+          "text": "Carrier or suspected carrier of Methicillin resistant Staphylococcus aureus"
+        },
+        "onsetDateTime": "2191-04-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-170244-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-170244-1",
+        "status": "completed",
+        "code": {
+          "text": "Temporary tracheostomy"
+        },
+        "performedDateTime": "2191-04-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-170244-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-170244-2",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2191-04-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-170244-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-170244-3",
+        "status": "completed",
+        "code": {
+          "text": "Non-invasive mechanical ventilation"
+        },
+        "performedDateTime": "2191-04-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-170244-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-170244-4",
+        "status": "completed",
+        "code": {
+          "text": "Fiber-optic bronchoscopy"
+        },
+        "performedDateTime": "2191-04-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-170244-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-170244-5",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous [endoscopic] gastrostomy [PEG]"
+        },
+        "performedDateTime": "2191-04-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-170244-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-170244-6",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2191-04-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-170244-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-170244-7",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2191-04-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-170244-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-170244-8",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2191-04-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-170244-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-170244-9",
+        "status": "completed",
+        "code": {
+          "text": "Injection or infusion of oxazolidinone class of antibiotics"
+        },
+        "performedDateTime": "2191-04-01"
+      }
+    }
+  ]
+}

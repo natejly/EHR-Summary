@@ -1,0 +1,384 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:1"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has a history of Crohn's disease."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:1"
+      ],
+      "rationale": "The evidence explicitly states the patient is 's/p colectomy', which indicates the procedure was performed."
+    },
+    {
+      "claim_id": "C3",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:2"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has had chills and rigors today."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:3"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has been feeling tired and unwell for 1 week."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence describes a coronary arteriography procedure but does not mention ST-elevation (STE) or the LAD territory."
+    },
+    {
+      "claim_id": "C7",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C8",
+      "status": "contradicted",
+      "evidence_ids": [
+        "E:cond:18"
+      ],
+      "rationale": "The claim states there is no obstructive coronary disease, but evidence E:cond:18 explicitly diagnoses coronary atherosclerosis of native coronary artery."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:7"
+      ],
+      "rationale": "The candidate evidence explicitly lists Takotsubo syndrome, which is the same clinical entity as takotsubo's cardiomyopathy."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:6"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Sepsis, Severe (with organ dysfunction)' in the assessment section."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:7"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is tachycardic to 120 s."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:8"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was noted to have tenacious sputum."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:9"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was hypothermic to 94F."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:10"
+      ],
+      "rationale": "The candidate evidence explicitly states that 25mg Demerol was given."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:10"
+      ],
+      "rationale": "The candidate evidence explicitly states that .5mg Ativan was given."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:11"
+      ],
+      "rationale": "The candidate evidence explicitly states that Zosyn was given."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:11"
+      ],
+      "rationale": "The candidate evidence explicitly states that Vanco was given."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:11"
+      ],
+      "rationale": "The candidate evidence explicitly states that Flagyl was given."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:11"
+      ],
+      "rationale": "The evidence explicitly states that Azithromycin was given."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:12"
+      ],
+      "rationale": "The candidate evidence explicitly states that a total of 8L NS boluses were given."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:13"
+      ],
+      "rationale": "The candidate evidence explicitly states that Levophed gtt was initiated."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:14"
+      ],
+      "rationale": "The candidate evidence explicitly states that an Aline was placed."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:14"
+      ],
+      "rationale": "The candidate evidence explicitly states that a PA Catheter was placed."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:15"
+      ],
+      "rationale": "The candidate evidence explicitly states that Vigeleo was initiated at the bedside."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:15"
+      ],
+      "rationale": "The candidate evidence explicitly states that Vigilence was initiated at the bedside."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:16"
+      ],
+      "rationale": "The candidate evidence explicitly mentions 'Bair hugger', supporting the claim that it was used."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:17"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Pan cultured.', which directly matches the claim."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:21"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to continue abx treatment."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:22"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to wean Levophed as the patient tolerates."
+    },
+    {
+      "claim_id": "C31",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence refers to tobacco use disorder and does not mention pressors or medication plans."
+    },
+    {
+      "claim_id": "C32",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:24"
+      ],
+      "rationale": "The candidate evidence explicitly states the diagnosis of acute respiratory failure."
+    },
+    {
+      "claim_id": "C34",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C35",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:26"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient was intubated at bedside."
+    },
+    {
+      "claim_id": "C36",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:29"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan for SP02 to be greater than or equal to 95%."
+    },
+    {
+      "claim_id": "C37",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:30"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Renal failure, acute (Acute renal failure, ARF)' in the assessment section."
+    },
+    {
+      "claim_id": "C38",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C39",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The evidence confirms a diagnosis of acidosis but does not provide the specific pH value of 7.1 or specify that it is metabolic acidosis."
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:31"
+      ],
+      "rationale": "The candidate evidence explicitly states the BUN/Creat values as 134/12.4."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:32"
+      ],
+      "rationale": "The evidence explicitly states that a renal fellow inserted an HD line to the left groin."
+    },
+    {
+      "claim_id": "C42",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:33"
+      ],
+      "rationale": "The candidate evidence explicitly states that CVVHDF was initiated."
+    },
+    {
+      "claim_id": "C43",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:34"
+      ],
+      "rationale": "The candidate evidence explicitly states that Cagluc/K gtts was given as per sliding scale."
+    },
+    {
+      "claim_id": "C44",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:35"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Citrate at 150cc/hr', matching the claim exactly."
+    },
+    {
+      "claim_id": "C45",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:38"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan for Q6 hr CRRT labs."
+    },
+    {
+      "claim_id": "C46",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:39"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Gastrointestinal bleed, other (GI Bleed, GIB)' in the assessment section."
+    },
+    {
+      "claim_id": "C47",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C48",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:40"
+      ],
+      "rationale": "The candidate evidence explicitly states that the HCT is stable at 30."
+    },
+    {
+      "claim_id": "C49",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:41"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient had received integrillin."
+    },
+    {
+      "claim_id": "C50",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row626355:46"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to monitor crit."
+    }
+  ]
+}

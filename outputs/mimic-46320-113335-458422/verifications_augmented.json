@@ -1,0 +1,234 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row458422:1"
+      ],
+      "rationale": "The evidence explicitly states the patient had a L thoracotomy on POD#1."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row458422:1"
+      ],
+      "rationale": "The evidence explicitly states the patient underwent a T6-T8 corpectomy on POD#1."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row458422:1"
+      ],
+      "rationale": "The evidence explicitly states that on POD#1, the patient underwent an anterior cage procedure."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row458422:1"
+      ],
+      "rationale": "The candidate evidence explicitly states 'POD#1' and 'EBL800ml'."
+    },
+    {
+      "claim_id": "C5",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates mention dorsal and dorsolumbar fusion but do not specify the exact levels (T2-L1) or the laminectomy mentioned in the claim."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C7",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the candidate evidence items mention a CT scan or an abscess."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list procedures for skin drainage, but does not explicitly state a diagnosis of Impaired Skin Integrity."
+    },
+    {
+      "claim_id": "C9",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list procedures for skin drainage and diagnoses of candidiasis, but none specifically mention skin breakdown beneath the left panniculus."
+    },
+    {
+      "claim_id": "C10",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:43",
+        "E:cond:44",
+        "E:cond:45",
+        "E:cond:46",
+        "E:cond:47",
+        "E:cond:48"
+      ],
+      "rationale": "Multiple evidence items explicitly list 'Acute respiratory failure' as a condition for the patient."
+    },
+    {
+      "claim_id": "C13",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C14",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C15",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence consists only of procedure records and contains no information regarding medications."
+    },
+    {
+      "claim_id": "C16",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence consists of diagnoses for candidiasis and C. difficile, which do not mention ET-tube suctioning or secretions."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row458422:3"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Scattered rhronchi in all lung fields', which matches the claim exactly."
+    },
+    {
+      "claim_id": "C18",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row458422:4"
+      ],
+      "rationale": "The candidate evidence explicitly lists the ABG values as 7.50 48 117 12 39, matching the claim."
+    },
+    {
+      "claim_id": "C20",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence only contains records of Clostridium difficile infections and does not mention extubation, bronchoscopy, or thoracic team plans."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:85",
+        "E:cond:86",
+        "E:cond:87",
+        "E:cond:88",
+        "E:cond:89",
+        "E:cond:90"
+      ],
+      "rationale": "Multiple candidate entries explicitly list the diagnosis of Type II Diabetes mellitus."
+    },
+    {
+      "claim_id": "C22",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C23",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates indicate long-term insulin use but do not provide information regarding a specific dose of 3 units or a restart time of 0230."
+    },
+    {
+      "claim_id": "C24",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C25",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates indicate long-term insulin use but do not provide specific dosage (1 unit/hr) or administration method (gtt) for the time specified."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row458422:5"
+      ],
+      "rationale": "The evidence explicitly lists 'acute pain, chronic pain' under pain control assessment."
+    },
+    {
+      "claim_id": "C27",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence consists only of bone graft procedures and contains no information regarding propofol or sedation medications."
+    },
+    {
+      "claim_id": "C28",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence items only contain procedure records for spinal fusion and do not mention any medications."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row458422:7"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Sepsis without organ dysfunction' in the assessment section."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row458422:7"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'MRSA operaitve sites' under the assessment."
+    },
+    {
+      "claim_id": "C31",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C32",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence consists only of procedure records and contains no laboratory results for WBC."
+    },
+    {
+      "claim_id": "C33",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    }
+  ]
+}

@@ -1,0 +1,1347 @@
+{
+  "case_id": "mimic-74701-182133-728280",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:enc-182133",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Spontaneous bacterial peritonitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "56723",
+        "display": "Spontaneous bacterial peritonitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Unspecified viral hepatitis C with hepatic coma",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "07071",
+        "display": "Unspecified viral hepatitis C with hepatic coma"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Hepatorenal syndrome",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5724",
+        "display": "Hepatorenal syndrome"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Toxic encephalopathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34982",
+        "display": "Toxic encephalopathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Pneumonia, organism unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "486",
+        "display": "Pneumonia, organism unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Unspecified septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0389",
+        "display": "Unspecified septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Septic shock",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78552",
+        "display": "Septic shock"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Acute kidney failure with lesion of tubular necrosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5845",
+        "display": "Acute kidney failure with lesion of tubular necrosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Coma",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78001",
+        "display": "Coma"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Other ascites",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78959",
+        "display": "Other ascites"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Portal hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5723",
+        "display": "Portal hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Urinary tract infection, site not specified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5990",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Delirium due to conditions classified elsewhere",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2930",
+        "display": "Delirium due to conditions classified elsewhere"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Aphasia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7843",
+        "display": "Aphasia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Other and unspecified coagulation defects",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2869",
+        "display": "Other and unspecified coagulation defects"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Hyposmolality and/or hyponatremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2761",
+        "display": "Hyposmolality and/or hyponatremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Paroxysmal supraventricular tachycardia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4270",
+        "display": "Paroxysmal supraventricular tachycardia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Glucocorticoid deficiency",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25541",
+        "display": "Glucocorticoid deficiency"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Jaundice, unspecified, not of newborn",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7824",
+        "display": "Jaundice, unspecified, not of newborn"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Cirrhosis of liver without mention of alcohol",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5715",
+        "display": "Cirrhosis of liver without mention of alcohol"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:25",
+      "kind": "condition",
+      "display": "Friedl?nder's bacillus infection in conditions classified elsewhere and of unspecified site",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0413",
+        "display": "Friedl?nder's bacillus infection in conditions classified elsewhere and of unspecified site"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-25",
+      "text": null
+    },
+    {
+      "id": "E:cond:26",
+      "kind": "condition",
+      "display": "Awaiting organ transplant status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4983",
+        "display": "Awaiting organ transplant status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-26",
+      "text": null
+    },
+    {
+      "id": "E:cond:27",
+      "kind": "condition",
+      "display": "Chronic kidney disease, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5859",
+        "display": "Chronic kidney disease, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-27",
+      "text": null
+    },
+    {
+      "id": "E:cond:28",
+      "kind": "condition",
+      "display": "Asymptomatic human immunodeficiency virus [HIV] infection status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V08",
+        "display": "Asymptomatic human immunodeficiency virus [HIV] infection status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-28",
+      "text": null
+    },
+    {
+      "id": "E:cond:29",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2766",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-29",
+      "text": null
+    },
+    {
+      "id": "E:cond:30",
+      "kind": "condition",
+      "display": "Anemia in chronic kidney disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "28521",
+        "display": "Anemia in chronic kidney disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-30",
+      "text": null
+    },
+    {
+      "id": "E:cond:31",
+      "kind": "condition",
+      "display": "Chronic obstructive asthma, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "49320",
+        "display": "Chronic obstructive asthma, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-31",
+      "text": null
+    },
+    {
+      "id": "E:cond:32",
+      "kind": "condition",
+      "display": "Aortic valve disorders",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4241",
+        "display": "Aortic valve disorders"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-32",
+      "text": null
+    },
+    {
+      "id": "E:cond:33",
+      "kind": "condition",
+      "display": "Tobacco use disorder",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3051",
+        "display": "Tobacco use disorder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-33",
+      "text": null
+    },
+    {
+      "id": "E:cond:34",
+      "kind": "condition",
+      "display": "Cocaine dependence, in remission",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "30423",
+        "display": "Cocaine dependence, in remission"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-34",
+      "text": null
+    },
+    {
+      "id": "E:cond:35",
+      "kind": "condition",
+      "display": "Other convulsions",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78039",
+        "display": "Other convulsions"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-35",
+      "text": null
+    },
+    {
+      "id": "E:cond:36",
+      "kind": "condition",
+      "display": "Thrombocytopenia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2875",
+        "display": "Thrombocytopenia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-36",
+      "text": null
+    },
+    {
+      "id": "E:cond:37",
+      "kind": "condition",
+      "display": "Unspecified acquired hypothyroidism",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2449",
+        "display": "Unspecified acquired hypothyroidism"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-37",
+      "text": null
+    },
+    {
+      "id": "E:cond:38",
+      "kind": "condition",
+      "display": "Other and unspecified anticonvulsants causing adverse effects in therapeutic use",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E9363",
+        "display": "Other and unspecified anticonvulsants causing adverse effects in therapeutic use"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-38",
+      "text": null
+    },
+    {
+      "id": "E:cond:39",
+      "kind": "condition",
+      "display": "Encounter for palliative care",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V667",
+        "display": "Encounter for palliative care"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:cond-182133-39",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:proc-182133-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:proc-182133-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Venous catheterization for renal dialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization for renal dialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:proc-182133-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Hemodialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Hemodialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:proc-182133-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:proc-182133-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:proc-182133-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:proc-182133-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:proc-182133-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:proc-182133-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:proc-182133-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:proc-182133-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:proc-182133-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-04-03",
+      "source_ref": "urn:uuid:proc-182133-13",
+      "text": null
+    },
+    {
+      "id": "E:note:row728280:1",
+      "kind": "note_sentence",
+      "display": "Chief Complaint:  respiratory distress    HPI:    45 y/o F with hx of HIV and he",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row728280#s1",
+      "text": "Chief Complaint:  respiratory distress    HPI:    45 y/o F with hx of HIV and hepatitis C cirrhosis s/p TIPS, ascites,    SBP and encephalopathy who is transferred from the [**Doctor Last Name **] [**First Name4 (NamePattern1) **] [**Last Name (NamePattern1) **]    to the MICU for respiratory distress."
+    },
+    {
+      "id": "E:note:row728280:2",
+      "kind": "note_sentence",
+      "display": "The patient was transferred from    an OSH last night for hepato-renal syndrome ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row728280#s2",
+      "text": "The patient was transferred from    an OSH last night for hepato-renal syndrome and SBP."
+    },
+    {
+      "id": "E:note:row728280:3",
+      "kind": "note_sentence",
+      "display": "She did well    overnight except for transient hypotension that responded to alb",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row728280#s3",
+      "text": "She did well    overnight except for transient hypotension that responded to albumin    infusion."
+    },
+    {
+      "id": "E:note:row728280:4",
+      "kind": "note_sentence",
+      "display": "She was continued on cipro for SBP treatment and started on    vanco for broader",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row728280#s4",
+      "text": "She was continued on cipro for SBP treatment and started on    vanco for broader coverage."
+    },
+    {
+      "id": "E:note:row728280:5",
+      "kind": "note_sentence",
+      "display": "This morning she was on 2L NC and had    minimal urine output.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row728280#s5",
+      "text": "This morning she was on 2L NC and had    minimal urine output."
+    },
+    {
+      "id": "E:note:row728280:6",
+      "kind": "note_sentence",
+      "display": "She was transferred to radiology for CXR and    ultrasound and after transport a",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row728280#s6",
+      "text": "She was transferred to radiology for CXR and    ultrasound and after transport and lying flat, became tachypneic and    desatted requiring a NRB."
+    },
+    {
+      "id": "E:note:row728280:7",
+      "kind": "note_sentence",
+      "display": "She had an ABG on the floor of 7.20/40/79    and was in obvious distress.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row728280#s7",
+      "text": "She had an ABG on the floor of 7.20/40/79    and was in obvious distress."
+    },
+    {
+      "id": "E:note:row728280:8",
+      "kind": "note_sentence",
+      "display": "She was given one SLNG for BP in    160s/110s and started on her diuretics.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row728280#s8",
+      "text": "She was given one SLNG for BP in    160s/110s and started on her diuretics."
+    },
+    {
+      "id": "E:note:row728280:9",
+      "kind": "note_sentence",
+      "display": "Her respiratory status did not    improve.    .",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row728280#s9",
+      "text": "Her respiratory status did not    improve.    ."
+    },
+    {
+      "id": "E:note:row728280:10",
+      "kind": "note_sentence",
+      "display": "On the floor, she was placed on bipap and tolerated better except for    discomf",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row728280#s10",
+      "text": "On the floor, she was placed on bipap and tolerated better except for    discomfort from the mask."
+    },
+    {
+      "id": "E:note:row728280:11",
+      "kind": "note_sentence",
+      "display": "She put out minimal urine to the diuretics.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row728280#s11",
+      "text": "She put out minimal urine to the diuretics."
+    },
+    {
+      "id": "E:note:row728280:12",
+      "kind": "note_sentence",
+      "display": "She was unable to lie flat.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row728280#s12",
+      "text": "She was unable to lie flat."
+    },
+    {
+      "id": "E:note:row728280:13",
+      "kind": "note_sentence",
+      "display": "She continues to complain of shortness of    breath.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row728280#s13",
+      "text": "She continues to complain of shortness of    breath."
+    },
+    {
+      "id": "E:note:row728280:14",
+      "kind": "note_sentence",
+      "display": "She denies chest pain, nausea, vomiting, diarrhea.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row728280#s14",
+      "text": "She denies chest pain, nausea, vomiting, diarrhea."
+    },
+    {
+      "id": "E:note:row728280:15",
+      "kind": "note_sentence",
+      "display": "She is    alert and arousable, but cannot communicate due to the discomfort from",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row728280#s15",
+      "text": "She is    alert and arousable, but cannot communicate due to the discomfort from    the mask."
+    },
+    {
+      "id": "E:note:row728280:16",
+      "kind": "note_sentence",
+      "display": "Acidosis, Metabolic    Assessment:           HCO 16           PH 7.26    Action:",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row728280#s16",
+      "text": "Acidosis, Metabolic    Assessment:           HCO 16           PH 7.26    Action:           Sodium Bicarbonate PO           Dialysis line placed    Response:           Remains acidotic    Plan:           Start CRRT tonight    Respiratory failure, acute (not ARDS/[**Doctor Last Name 76**])    Assessment:           Tachypenic and dypsenic           RR 30-40s           Anasarcic    Action:           FMV attempted           Intubated without incident           Aline placed           Diuril IV and Encyrsate IV  attempted           Bronched    Response:           Breathing non-labored even           O2Sats down 92%, PEEP increased to 10           Diurectic without response           Bronched WNLs    Plan:           Keep intubated           Start CRRT    Hepatorenal syndrome    Assessment:           A/O/X/[**2-26**] on arrival           Tbili 1.6, LFT wnl           Cr 3.2           Hyperkalemic           BRBPR in small amounts           Oliguric  Anuric           Hypotensive    Action:           Lactulose QID           Midodrine TID           GI following           No plans for Kayexlate           CRRT           HUO 0-10cc/hr           Started on Neo gtt    Response:           Dialyis line placed           Remains hyperkalemic    Plan:           Start CRRT           Follow lytes closely           Keep SBP > 90"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|56723": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|07071": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5724": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|34982": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|486": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|0389": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78552": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5845": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78001": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78959": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5723": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5990": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2930": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2762": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7843": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2869": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2761": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4270": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25541": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7824": [
+      "E:cond:23"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5715": [
+      "E:cond:24"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|0413": [
+      "E:cond:25"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4983": [
+      "E:cond:26"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5859": [
+      "E:cond:27"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V08": [
+      "E:cond:28"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2766": [
+      "E:cond:29"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|28521": [
+      "E:cond:30"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|49320": [
+      "E:cond:31"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4241": [
+      "E:cond:32"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3051": [
+      "E:cond:33"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|30423": [
+      "E:cond:34"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78039": [
+      "E:cond:35"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2875": [
+      "E:cond:36"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2449": [
+      "E:cond:37"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E9363": [
+      "E:cond:38"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V667": [
+      "E:cond:39"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "spontaneous bacterial peritonitis": [
+      "E:cond:1"
+    ],
+    "unspecified viral hepatitis c with hepatic coma": [
+      "E:cond:2"
+    ],
+    "hepatorenal syndrome": [
+      "E:cond:3"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:4"
+    ],
+    "acute respiratory failure": [
+      "E:cond:5"
+    ],
+    "toxic encephalopathy": [
+      "E:cond:6"
+    ],
+    "pneumonia, organism unspecified": [
+      "E:cond:7"
+    ],
+    "unspecified septicemia": [
+      "E:cond:8"
+    ],
+    "severe sepsis": [
+      "E:cond:9"
+    ],
+    "septic shock": [
+      "E:cond:10"
+    ],
+    "acute kidney failure with lesion of tubular necrosis": [
+      "E:cond:11"
+    ],
+    "coma": [
+      "E:cond:12"
+    ],
+    "other ascites": [
+      "E:cond:13"
+    ],
+    "portal hypertension": [
+      "E:cond:14"
+    ],
+    "urinary tract infection, site not specified": [
+      "E:cond:15"
+    ],
+    "delirium due to conditions classified elsewhere": [
+      "E:cond:16"
+    ],
+    "acidosis": [
+      "E:cond:17"
+    ],
+    "aphasia": [
+      "E:cond:18"
+    ],
+    "other and unspecified coagulation defects": [
+      "E:cond:19"
+    ],
+    "hyposmolality and/or hyponatremia": [
+      "E:cond:20"
+    ],
+    "paroxysmal supraventricular tachycardia": [
+      "E:cond:21"
+    ],
+    "glucocorticoid deficiency": [
+      "E:cond:22"
+    ],
+    "jaundice, unspecified, not of newborn": [
+      "E:cond:23"
+    ],
+    "cirrhosis of liver without mention of alcohol": [
+      "E:cond:24"
+    ],
+    "friedl?nder's bacillus infection in conditions classified elsewhere and of unspecified site": [
+      "E:cond:25"
+    ],
+    "awaiting organ transplant status": [
+      "E:cond:26"
+    ],
+    "chronic kidney disease, unspecified": [
+      "E:cond:27"
+    ],
+    "asymptomatic human immunodeficiency virus [hiv] infection status": [
+      "E:cond:28"
+    ],
+    "diagnosis": [
+      "E:cond:29"
+    ],
+    "anemia in chronic kidney disease": [
+      "E:cond:30"
+    ],
+    "chronic obstructive asthma, unspecified": [
+      "E:cond:31"
+    ],
+    "aortic valve disorders": [
+      "E:cond:32"
+    ],
+    "tobacco use disorder": [
+      "E:cond:33"
+    ],
+    "cocaine dependence, in remission": [
+      "E:cond:34"
+    ],
+    "other convulsions": [
+      "E:cond:35"
+    ],
+    "thrombocytopenia, unspecified": [
+      "E:cond:36"
+    ],
+    "unspecified acquired hypothyroidism": [
+      "E:cond:37"
+    ],
+    "other and unspecified anticonvulsants causing adverse effects in therapeutic use": [
+      "E:cond:38"
+    ],
+    "encounter for palliative care": [
+      "E:cond:39"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:1",
+      "E:proc:8",
+      "E:proc:10"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:2",
+      "E:proc:11"
+    ],
+    "venous catheterization for renal dialysis": [
+      "E:proc:3"
+    ],
+    "hemodialysis": [
+      "E:proc:4"
+    ],
+    "arterial catheterization": [
+      "E:proc:5"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:6",
+      "E:proc:13"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:7",
+      "E:proc:12"
+    ],
+    "continuous invasive mechanical ventilation for less than 96 consecutive hours": [
+      "E:proc:9"
+    ],
+    "chief complaint: respiratory distress hpi: 45 y/o f with hx of hiv and he": [
+      "E:note:row728280:1"
+    ],
+    "the patient was transferred from an osh last night for hepato-renal syndrome": [
+      "E:note:row728280:2"
+    ],
+    "she did well overnight except for transient hypotension that responded to alb": [
+      "E:note:row728280:3"
+    ],
+    "she was continued on cipro for sbp treatment and started on vanco for broader": [
+      "E:note:row728280:4"
+    ],
+    "this morning she was on 2l nc and had minimal urine output.": [
+      "E:note:row728280:5"
+    ],
+    "she was transferred to radiology for cxr and ultrasound and after transport a": [
+      "E:note:row728280:6"
+    ],
+    "she had an abg on the floor of 7.20/40/79 and was in obvious distress.": [
+      "E:note:row728280:7"
+    ],
+    "she was given one slng for bp in 160s/110s and started on her diuretics.": [
+      "E:note:row728280:8"
+    ],
+    "her respiratory status did not improve. .": [
+      "E:note:row728280:9"
+    ],
+    "on the floor, she was placed on bipap and tolerated better except for discomf": [
+      "E:note:row728280:10"
+    ],
+    "she put out minimal urine to the diuretics.": [
+      "E:note:row728280:11"
+    ],
+    "she was unable to lie flat.": [
+      "E:note:row728280:12"
+    ],
+    "she continues to complain of shortness of breath.": [
+      "E:note:row728280:13"
+    ],
+    "she denies chest pain, nausea, vomiting, diarrhea.": [
+      "E:note:row728280:14"
+    ],
+    "she is alert and arousable, but cannot communicate due to the discomfort from": [
+      "E:note:row728280:15"
+    ],
+    "acidosis, metabolic assessment: hco 16 ph 7.26 action:": [
+      "E:note:row728280:16"
+    ]
+  },
+  "by_date": {
+    "2200-04-03": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:29",
+      "E:cond:30",
+      "E:cond:31",
+      "E:cond:32",
+      "E:cond:33",
+      "E:cond:34",
+      "E:cond:35",
+      "E:cond:36",
+      "E:cond:37",
+      "E:cond:38",
+      "E:cond:39",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13"
+    ]
+  }
+}

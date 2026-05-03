@@ -1,0 +1,425 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:1"
+      ],
+      "rationale": "The evidence explicitly states the patient has a history of DM."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:1"
+      ],
+      "rationale": "The evidence explicitly lists HTN as part of the patient's medical history."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:1"
+      ],
+      "rationale": "The candidate evidence explicitly lists HLD as part of the patient's history."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:1"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'longstanding sarcoid' as part of the patient's history."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:1"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is 'on home O2'."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C7",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The evidence confirms a pacemaker is in situ as of 2182-07-16, but does not specify the type as 'DDD' or confirm the procedure occurred on 2182-5-25."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C9",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided candidates do not mention atrial fibrillation (AF) or pulmonary edema (flash), only hyperosmolality, hyperlipidemia, and cardiac catheterization."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:2"
+      ],
+      "rationale": "The evidence explicitly states that intubation was required."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:3"
+      ],
+      "rationale": "The candidate evidence explicitly states that the CK is elevated."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:proc:3",
+        "E:proc:6",
+        "E:proc:9",
+        "E:proc:10"
+      ],
+      "rationale": "Multiple catheterization procedures are documented as occurring on 2182-07-16."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:5"
+      ],
+      "rationale": "The candidate evidence explicitly states 'BMS to mLAD', matching the claim."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:5"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was 'in/out of Afib during cath'."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:8"
+      ],
+      "rationale": "The evidence explicitly states the patient was transferred on Heparin."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:8",
+        "E:note:row472627:14"
+      ],
+      "rationale": "Both evidence items explicitly mention the patient is on or receiving integrillin."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:9"
+      ],
+      "rationale": "The candidate evidence explicitly states that the INR was elevated on transfer."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:9"
+      ],
+      "rationale": "The evidence explicitly states 'heparin d/c', where 'd/c' is the standard clinical abbreviation for discontinued."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:9"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Post cath CCU- Afib/RVR 130 s.', matching the claim's diagnosis and timing."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:10"
+      ],
+      "rationale": "The evidence explicitly states that 'CDV x1' was performed."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:9",
+        "E:note:row472627:11"
+      ],
+      "rationale": "The evidence explicitly states the patient had Afib/RVR in the CCU post cath and subsequently returned to Afib."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:12"
+      ],
+      "rationale": "The candidate evidence explicitly states the recommendation for amio bolus 150mg x1."
+    },
+    {
+      "claim_id": "C23",
+      "status": "contradicted",
+      "evidence_ids": [
+        "E:note:row472627:12"
+      ],
+      "rationale": "The evidence states that propofol was changed to fent/versed due to hypotension, indicating it was discontinued."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:12",
+        "E:note:row472627:25"
+      ],
+      "rationale": "Both candidates explicitly state the patient was given or is receiving fent/versed."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:22",
+        "E:note:row472627:12"
+      ],
+      "rationale": "The patient is documented as having hypotension in both the condition list and the clinical note."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:13"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Myocardial infarction, acute (AMI, STEMI, NSTEMI)' in the assessment section."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:13"
+      ],
+      "rationale": "The candidate evidence explicitly states 'CK neg' in the assessment section."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:14"
+      ],
+      "rationale": "The candidate evidence explicitly states 'K+ 3.7', which matches the claim."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:14"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Integrillin 2mcq/k/min' as part of the patient's current status/medications."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:14"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'ASA allergy' for the patient."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:16"
+      ],
+      "rationale": "The evidence explicitly states 'TEE done', confirming the patient underwent a transesophageal echocardiogram."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:16"
+      ],
+      "rationale": "The evidence explicitly states that ASA desensitization started at 1430."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:16"
+      ],
+      "rationale": "The evidence explicitly states that KCL was repleted."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:17"
+      ],
+      "rationale": "The evidence explicitly states 'Integrellin d/c', where 'd/c' is a standard clinical abbreviation for discontinued."
+    },
+    {
+      "claim_id": "C35",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:17"
+      ],
+      "rationale": "The evidence explicitly mentions the administration of 81 mg asa."
+    },
+    {
+      "claim_id": "C36",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C37",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:12"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Atrial fibrillation' as a condition for the patient."
+    },
+    {
+      "claim_id": "C39",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:18"
+      ],
+      "rationale": "The evidence explicitly states that Diltiazem gtt was discontinued (d/c) at 0830."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:18"
+      ],
+      "rationale": "The evidence explicitly states the patient continues on Diltiazem PO 60 mg qid."
+    },
+    {
+      "claim_id": "C42",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:19"
+      ],
+      "rationale": "The candidate evidence explicitly lists the diagnosis 'Respiratory failure, acute (not ARDS/[**Doctor Last Name 11**])'."
+    },
+    {
+      "claim_id": "C43",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C44",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:20"
+      ],
+      "rationale": "The candidate evidence explicitly states the ABG result as 7.36/56/63 on 4-30."
+    },
+    {
+      "claim_id": "C45",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C46",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:19"
+      ],
+      "rationale": "The candidate evidence confirms a diagnosis of unspecified fever, which aligns with the claim of fever of unknown origin/pyrexia."
+    },
+    {
+      "claim_id": "C47",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C48",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C49",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:21"
+      ],
+      "rationale": "The evidence explicitly states that a dose of vanco was given."
+    },
+    {
+      "claim_id": "C50",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:21"
+      ],
+      "rationale": "The evidence explicitly states that a dose of cefipime was given."
+    },
+    {
+      "claim_id": "C51",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:21"
+      ],
+      "rationale": "The evidence explicitly states that a dose of flagyl was given."
+    },
+    {
+      "claim_id": "C52",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C53",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:25"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is receiving Fent/versed for sedation."
+    },
+    {
+      "claim_id": "C54",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence only mentions 'Fent.' without any information regarding titration, dosage, or current rate."
+    },
+    {
+      "claim_id": "C55",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row472627:28"
+      ],
+      "rationale": "The candidate evidence explicitly states that Versed was titrated up to 3mg/hr."
+    }
+  ]
+}

@@ -1,0 +1,819 @@
+{
+  "case_id": "mimic-50004-131407-447958",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:enc-131407",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Complications of transplanted kidney",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99681",
+        "display": "Complications of transplanted kidney"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:cond-131407-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Systemic inflammatory response syndrome due to noninfectious process with acute organ dysfunction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99594",
+        "display": "Systemic inflammatory response syndrome due to noninfectious process with acute organ dysfunction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:cond-131407-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:cond-131407-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute kidney failure with lesion of tubular necrosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5845",
+        "display": "Acute kidney failure with lesion of tubular necrosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:cond-131407-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Acute and subacute necrosis of liver",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "570",
+        "display": "Acute and subacute necrosis of liver"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:cond-131407-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Other malignant lymphomas, unspecified site, extranodal and solid organ sites",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "20280",
+        "display": "Other malignant lymphomas, unspecified site, extranodal and solid organ sites"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:cond-131407-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:cond-131407-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Hyposmolality and/or hyponatremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2761",
+        "display": "Hyposmolality and/or hyponatremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:cond-131407-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Acquired coagulation factor deficiency",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2867",
+        "display": "Acquired coagulation factor deficiency"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:cond-131407-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Acute posthemorrhagic anemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2851",
+        "display": "Acute posthemorrhagic anemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:cond-131407-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Hematemesis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5780",
+        "display": "Hematemesis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:cond-131407-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "60000",
+        "display": "Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:cond-131407-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Thrombocytopenia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2875",
+        "display": "Thrombocytopenia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:cond-131407-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Other specified hypoglycemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2511",
+        "display": "Other specified hypoglycemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:cond-131407-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Nephritis and nephropathy, not specified as acute or chronic, with unspecified pathological lesion in kidney",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5839",
+        "display": "Nephritis and nephropathy, not specified as acute or chronic, with unspecified pathological lesion in kidney"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:cond-131407-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Other shock without mention of trauma",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78559",
+        "display": "Other shock without mention of trauma"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:cond-131407-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:cond-131407-17",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Laparoscopy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Laparoscopy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:proc-131407-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Biopsy of lymphatic structure",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Biopsy of lymphatic structure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:proc-131407-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Biopsy of bone marrow",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Biopsy of bone marrow"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:proc-131407-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Hemodialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Hemodialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:proc-131407-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-04-13",
+      "source_ref": "urn:uuid:proc-131407-5",
+      "text": null
+    },
+    {
+      "id": "E:note:row447958:1",
+      "kind": "note_sentence",
+      "display": "This is a 62 yo M with pmh of kidney transplant in [**Country 297**] 3 years ago",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s1",
+      "text": "This is a 62 yo M with pmh of kidney transplant in [**Country 297**] 3 years ago    who has been in the US for the last 4 months and is experiencing    intermittent fevers to 102 without source for the last week."
+    },
+    {
+      "id": "E:note:row447958:2",
+      "kind": "note_sentence",
+      "display": "He was at    [**Hospital1 1200**] for these fevers for the last 3 days without a",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s2",
+      "text": "He was at    [**Hospital1 1200**] for these fevers for the last 3 days without a diagnosis and    has continued to experience fevers at home."
+    },
+    {
+      "id": "E:note:row447958:3",
+      "kind": "note_sentence",
+      "display": "There he was given Zosyn    without improvement.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s3",
+      "text": "There he was given Zosyn    without improvement."
+    },
+    {
+      "id": "E:note:row447958:4",
+      "kind": "note_sentence",
+      "display": "He therefore presented to the ED for further    evaluation.    .",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s4",
+      "text": "He therefore presented to the ED for further    evaluation.    ."
+    },
+    {
+      "id": "E:note:row447958:5",
+      "kind": "note_sentence",
+      "display": "In the ED, initial VS were 99.2 101 18 136/83 97% on RA.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s5",
+      "text": "In the ED, initial VS were 99.2 101 18 136/83 97% on RA."
+    },
+    {
+      "id": "E:note:row447958:6",
+      "kind": "note_sentence",
+      "display": "His blood    work revealed a lactate of 7.5, an LDH of 2635 and an AG acidosis.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s6",
+      "text": "His blood    work revealed a lactate of 7.5, an LDH of 2635 and an AG acidosis."
+    },
+    {
+      "id": "E:note:row447958:7",
+      "kind": "note_sentence",
+      "display": "He    also had a leukocytosis with left shift.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s7",
+      "text": "He    also had a leukocytosis with left shift."
+    },
+    {
+      "id": "E:note:row447958:8",
+      "kind": "note_sentence",
+      "display": "He spiked a fever to 102.6    and was given tylenol 1 gm, vanc/cefepime given co",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s8",
+      "text": "He spiked a fever to 102.6    and was given tylenol 1 gm, vanc/cefepime given concern for fever in    the setting of immunocomprise."
+    },
+    {
+      "id": "E:note:row447958:9",
+      "kind": "note_sentence",
+      "display": "He rec'd a total of 4L of NS.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s9",
+      "text": "He rec'd a total of 4L of NS."
+    },
+    {
+      "id": "E:note:row447958:10",
+      "kind": "note_sentence",
+      "display": "His    lactate came down to 5.4.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s10",
+      "text": "His    lactate came down to 5.4."
+    },
+    {
+      "id": "E:note:row447958:11",
+      "kind": "note_sentence",
+      "display": "He was HD stable throughout his ED stay, but    given his elevated lactate, he w",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s11",
+      "text": "He was HD stable throughout his ED stay, but    given his elevated lactate, he was transferred to the ICU for closer    monitoring."
+    },
+    {
+      "id": "E:note:row447958:12",
+      "kind": "note_sentence",
+      "display": "Fever, unknown origin (FUO, Hyperthermia, Pyrexia)    Assessment:    Afebrile th",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s12",
+      "text": "Fever, unknown origin (FUO, Hyperthermia, Pyrexia)    Assessment:    Afebrile this shift., cx."
+    },
+    {
+      "id": "E:note:row447958:13",
+      "kind": "note_sentence",
+      "display": "Data pnding.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s13",
+      "text": "Data pnding."
+    },
+    {
+      "id": "E:note:row447958:14",
+      "kind": "note_sentence",
+      "display": "WBC 14.5.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s14",
+      "text": "WBC 14.5."
+    },
+    {
+      "id": "E:note:row447958:15",
+      "kind": "note_sentence",
+      "display": "Lactate down to 4.5    (reportedly fevers have diurnal pattern.)    Action:    A",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s15",
+      "text": "Lactate down to 4.5    (reportedly fevers have diurnal pattern.)    Action:    Antibiotics held, continued monitoring, fluid resuscitation."
+    },
+    {
+      "id": "E:note:row447958:16",
+      "kind": "note_sentence",
+      "display": "Response:    Afebrile since admission, lactate decreasing to 4.5    Plan:    Con",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s16",
+      "text": "Response:    Afebrile since admission, lactate decreasing to 4.5    Plan:    Continue monitoring for temp curve, F/U culture results, ID consult    this AM."
+    },
+    {
+      "id": "E:note:row447958:17",
+      "kind": "note_sentence",
+      "display": "CMV/EBV labs sent to eval.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s17",
+      "text": "CMV/EBV labs sent to eval."
+    },
+    {
+      "id": "E:note:row447958:18",
+      "kind": "note_sentence",
+      "display": "For PTLD.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s18",
+      "text": "For PTLD."
+    },
+    {
+      "id": "E:note:row447958:19",
+      "kind": "note_sentence",
+      "display": "Considering Lymph node    biopsy.    .H/O renal failure, Chronic (Chronic renal ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s19",
+      "text": "Considering Lymph node    biopsy.    .H/O renal failure, Chronic (Chronic renal failure, CRF, Chronic kidney    disease)    Assessment:    h/o renal transplant 3yrs ago in [**Country 297**], He does report increased    frequency of urination with decrease volume of urine for the last 4    days."
+    },
+    {
+      "id": "E:note:row447958:20",
+      "kind": "note_sentence",
+      "display": "No burning with urination.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s20",
+      "text": "No burning with urination."
+    },
+    {
+      "id": "E:note:row447958:21",
+      "kind": "note_sentence",
+      "display": "No tenderness over his transplant    site. decreased PO intake over the last wee",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s21",
+      "text": "No tenderness over his transplant    site. decreased PO intake over the last week    Action:    Fluid resuscitation NS 150ml/hr    Response:    BUN 24 and creat 1.2, voiding good amount of urine."
+    },
+    {
+      "id": "E:note:row447958:22",
+      "kind": "note_sentence",
+      "display": "Plan:    Monitor labs,continue cyclosporine 70 po , monitor UO and labs, F/U Ct ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s22",
+      "text": "Plan:    Monitor labs,continue cyclosporine 70 po , monitor UO and labs, F/U Ct    abdomen/pelvis results    PT w/ subjective feelings of sob."
+    },
+    {
+      "id": "E:note:row447958:23",
+      "kind": "note_sentence",
+      "display": "LS CTA, sats 95-98% on RA.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row447958#s23",
+      "text": "LS CTA, sats 95-98% on RA."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|99681": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99594": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5845": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|570": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|20280": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2762": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2761": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2867": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2851": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5780": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|60000": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2875": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2511": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5839": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78559": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:17"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "complications of transplanted kidney": [
+      "E:cond:1"
+    ],
+    "systemic inflammatory response syndrome due to noninfectious process with acute organ dysfunction": [
+      "E:cond:2"
+    ],
+    "acute respiratory failure": [
+      "E:cond:3"
+    ],
+    "acute kidney failure with lesion of tubular necrosis": [
+      "E:cond:4"
+    ],
+    "acute and subacute necrosis of liver": [
+      "E:cond:5"
+    ],
+    "other malignant lymphomas, unspecified site, extranodal and solid organ sites": [
+      "E:cond:6"
+    ],
+    "acidosis": [
+      "E:cond:7"
+    ],
+    "hyposmolality and/or hyponatremia": [
+      "E:cond:8"
+    ],
+    "acquired coagulation factor deficiency": [
+      "E:cond:9"
+    ],
+    "acute posthemorrhagic anemia": [
+      "E:cond:10"
+    ],
+    "hematemesis": [
+      "E:cond:11"
+    ],
+    "hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (luts)": [
+      "E:cond:12"
+    ],
+    "thrombocytopenia, unspecified": [
+      "E:cond:13"
+    ],
+    "other specified hypoglycemia": [
+      "E:cond:14"
+    ],
+    "nephritis and nephropathy, not specified as acute or chronic, with unspecified pathological lesion in kidney": [
+      "E:cond:15"
+    ],
+    "other shock without mention of trauma": [
+      "E:cond:16"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:17"
+    ],
+    "laparoscopy": [
+      "E:proc:1"
+    ],
+    "biopsy of lymphatic structure": [
+      "E:proc:2"
+    ],
+    "biopsy of bone marrow": [
+      "E:proc:3"
+    ],
+    "hemodialysis": [
+      "E:proc:4"
+    ],
+    "continuous invasive mechanical ventilation for less than 96 consecutive hours": [
+      "E:proc:5"
+    ],
+    "this is a 62 yo m with pmh of kidney transplant in [**country 297**] 3 years ago": [
+      "E:note:row447958:1"
+    ],
+    "he was at [**hospital1 1200**] for these fevers for the last 3 days without a": [
+      "E:note:row447958:2"
+    ],
+    "there he was given zosyn without improvement.": [
+      "E:note:row447958:3"
+    ],
+    "he therefore presented to the ed for further evaluation. .": [
+      "E:note:row447958:4"
+    ],
+    "in the ed, initial vs were 99.2 101 18 136/83 97% on ra.": [
+      "E:note:row447958:5"
+    ],
+    "his blood work revealed a lactate of 7.5, an ldh of 2635 and an ag acidosis.": [
+      "E:note:row447958:6"
+    ],
+    "he also had a leukocytosis with left shift.": [
+      "E:note:row447958:7"
+    ],
+    "he spiked a fever to 102.6 and was given tylenol 1 gm, vanc/cefepime given co": [
+      "E:note:row447958:8"
+    ],
+    "he rec'd a total of 4l of ns.": [
+      "E:note:row447958:9"
+    ],
+    "his lactate came down to 5.4.": [
+      "E:note:row447958:10"
+    ],
+    "he was hd stable throughout his ed stay, but given his elevated lactate, he w": [
+      "E:note:row447958:11"
+    ],
+    "fever, unknown origin (fuo, hyperthermia, pyrexia) assessment: afebrile th": [
+      "E:note:row447958:12"
+    ],
+    "data pnding.": [
+      "E:note:row447958:13"
+    ],
+    "wbc 14.5.": [
+      "E:note:row447958:14"
+    ],
+    "lactate down to 4.5 (reportedly fevers have diurnal pattern.) action: a": [
+      "E:note:row447958:15"
+    ],
+    "response: afebrile since admission, lactate decreasing to 4.5 plan: con": [
+      "E:note:row447958:16"
+    ],
+    "cmv/ebv labs sent to eval.": [
+      "E:note:row447958:17"
+    ],
+    "for ptld.": [
+      "E:note:row447958:18"
+    ],
+    "considering lymph node biopsy. .h/o renal failure, chronic (chronic renal": [
+      "E:note:row447958:19"
+    ],
+    "no burning with urination.": [
+      "E:note:row447958:20"
+    ],
+    "no tenderness over his transplant site. decreased po intake over the last wee": [
+      "E:note:row447958:21"
+    ],
+    "plan: monitor labs,continue cyclosporine 70 po , monitor uo and labs, f/u ct": [
+      "E:note:row447958:22"
+    ],
+    "ls cta, sats 95-98% on ra.": [
+      "E:note:row447958:23"
+    ]
+  },
+  "by_date": {
+    "2141-04-13": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5"
+    ]
+  }
+}

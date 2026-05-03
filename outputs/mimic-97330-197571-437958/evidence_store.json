@@ -1,0 +1,1042 @@
+{
+  "case_id": "mimic-97330-197571-437958",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:enc-197571",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Closed fracture of lower end of femur, unspecified part",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "82120",
+        "display": "Closed fracture of lower end of femur, unspecified part"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Urinary tract infection, site not specified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5990",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Closed fracture of dorsal [thoracic] vertebra without mention of spinal cord injury",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "8052",
+        "display": "Closed fracture of dorsal [thoracic] vertebra without mention of spinal cord injury"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Pulmonary collapse",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5180",
+        "display": "Pulmonary collapse"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Closed fracture of eight or more ribs",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "80708",
+        "display": "Closed fracture of eight or more ribs"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Closed fracture of ilium",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "80841",
+        "display": "Closed fracture of ilium"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Functional quadriplegia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78072",
+        "display": "Functional quadriplegia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Flail chest",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "8074",
+        "display": "Flail chest"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Closed fracture of unspecified part of fibula with tibia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "82382",
+        "display": "Closed fracture of unspecified part of fibula with tibia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Closed fracture of acetabulum",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "8080",
+        "display": "Closed fracture of acetabulum"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Injury to other gastrointestinal sites, without mention of open wound into cavity",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "86389",
+        "display": "Injury to other gastrointestinal sites, without mention of open wound into cavity"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Closed fracture of patella",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "8220",
+        "display": "Closed fracture of patella"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Street and highway accidents",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8495",
+        "display": "Street and highway accidents"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Other motor vehicle traffic accident involving collision with motor vehicle injuring driver of motor vehicle other than motorcycle",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8120",
+        "display": "Other motor vehicle traffic accident involving collision with motor vehicle injuring driver of motor vehicle other than motorcycle"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Gout, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2749",
+        "display": "Gout, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group D [Enterococcus]",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "04104",
+        "display": "Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group D [Enterococcus]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Other iatrogenic hypotension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "45829",
+        "display": "Other iatrogenic hypotension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8798",
+        "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Accidents occurring in residential institution",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8497",
+        "display": "Accidents occurring in residential institution"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25000",
+        "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Abnormal sputum",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7864",
+        "display": "Abnormal sputum"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:cond-197571-23",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Open reduction of fracture with internal fixation, femur",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Open reduction of fracture with internal fixation, femur"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:proc-197571-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Temporary tracheostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Temporary tracheostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:proc-197571-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Open reduction of fracture with internal fixation, tibia and fibula",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Open reduction of fracture with internal fixation, tibia and fibula"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:proc-197571-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Interruption of the vena cava",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Interruption of the vena cava"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:proc-197571-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Closed reduction of fracture with internal fixation, tibia and fibula",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed reduction of fracture with internal fixation, tibia and fibula"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:proc-197571-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Application of external fixator device, tibia and fibula",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Application of external fixator device, tibia and fibula"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:proc-197571-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Removal of implanted devices from bone, tibia and fibula",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Removal of implanted devices from bone, tibia and fibula"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:proc-197571-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Percutaneous [endoscopic] gastrostomy [PEG]",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous [endoscopic] gastrostomy [PEG]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:proc-197571-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:proc-197571-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:proc-197571-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:proc-197571-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-12-08",
+      "source_ref": "urn:uuid:proc-197571-12",
+      "text": null
+    },
+    {
+      "id": "E:note:row437958:1",
+      "kind": "note_sentence",
+      "display": "TITLE:    ISSUES:    - Left distal femur fracture    - Right tib-fib fracture   ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row437958#s1",
+      "text": "TITLE:    ISSUES:    - Left distal femur fracture    - Right tib-fib fracture    - Mesenteric hematoma    - Multiple rib fractures    - Sternal fracture    - T8 vertebral body fracture    .    24 HOUR EVENTS:    [**12-15**]: foley replaced; vanco to continue for the next 2 days -> then    switch to nafcillin for MSSA pna; TF held in anticipation of OR --> to    go [**12-16**] with trauma for trach/PED/IVC; IVF changed to D51/2NS w/K as Na    rising    Trauma, s/p (see above)    Assessment:    Hct down to 22.7 (24), pedal pulses dopplerable/good cap refill in both    [**Name (NI) **], pt still able to move all extremitites purposefully."
+    },
+    {
+      "id": "E:note:row437958:2",
+      "kind": "note_sentence",
+      "display": "Action:    L knee immobilizer, R ex-fix intact-pin care provided.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row437958#s2",
+      "text": "Action:    L knee immobilizer, R ex-fix intact-pin care provided."
+    },
+    {
+      "id": "E:note:row437958:3",
+      "kind": "note_sentence",
+      "display": "Pulses monitored    Q4.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row437958#s3",
+      "text": "Pulses monitored    Q4."
+    },
+    {
+      "id": "E:note:row437958:4",
+      "kind": "note_sentence",
+      "display": "Reverse T-[**Doctor Last Name **]/logroll prec. maintained.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row437958#s4",
+      "text": "Reverse T-[**Doctor Last Name **]/logroll prec. maintained."
+    },
+    {
+      "id": "E:note:row437958:5",
+      "kind": "note_sentence",
+      "display": "Response:    Ortho injuries stable-ORIF Mon.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row437958#s5",
+      "text": "Response:    Ortho injuries stable-ORIF Mon."
+    },
+    {
+      "id": "E:note:row437958:6",
+      "kind": "note_sentence",
+      "display": "[**12-19**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row437958#s6",
+      "text": "[**12-19**]."
+    },
+    {
+      "id": "E:note:row437958:7",
+      "kind": "note_sentence",
+      "display": "Plan:    Plan for trach/peg.ivc filter on Mon. clamshell brace when hob>30    Pa",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row437958#s7",
+      "text": "Plan:    Plan for trach/peg.ivc filter on Mon. clamshell brace when hob>30    Pain control (acute pain, chronic pain)    Assessment:    Appears to be in pain as evidenced by hyperdynamics with stimuli as    well as restlessness, proceeded by coughing on ETT."
+    },
+    {
+      "id": "E:note:row437958:8",
+      "kind": "note_sentence",
+      "display": "Nods yes most of    the time when asked if experiencing any pain.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row437958#s8",
+      "text": "Nods yes most of    the time when asked if experiencing any pain."
+    },
+    {
+      "id": "E:note:row437958:9",
+      "kind": "note_sentence",
+      "display": "Action:    Fentanyl and Midazolam gtts-with occasional boluses after turning or ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row437958#s9",
+      "text": "Action:    Fentanyl and Midazolam gtts-with occasional boluses after turning or    oral care required."
+    },
+    {
+      "id": "E:note:row437958:10",
+      "kind": "note_sentence",
+      "display": "Frequent re-orientation provided.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row437958#s10",
+      "text": "Frequent re-orientation provided."
+    },
+    {
+      "id": "E:note:row437958:11",
+      "kind": "note_sentence",
+      "display": "Response:    Pt appears comfortable with above meds, and responds well to RN    ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row437958#s11",
+      "text": "Response:    Pt appears comfortable with above meds, and responds well to RN    re-orientation and support."
+    },
+    {
+      "id": "E:note:row437958:12",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue sedation/pain management until post-op.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row437958#s12",
+      "text": "Plan:    Continue sedation/pain management until post-op."
+    },
+    {
+      "id": "E:note:row437958:13",
+      "kind": "note_sentence",
+      "display": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 11**])    Assessment:  ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row437958#s13",
+      "text": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 11**])    Assessment:    Persistant cuff leak from ETT, Vts majority of time have not been    affected."
+    },
+    {
+      "id": "E:note:row437958:14",
+      "kind": "note_sentence",
+      "display": "Lungs clear and equal/diminished bibasilar.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row437958#s14",
+      "text": "Lungs clear and equal/diminished bibasilar."
+    },
+    {
+      "id": "E:note:row437958:15",
+      "kind": "note_sentence",
+      "display": "ABG WNL.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row437958#s15",
+      "text": "ABG WNL."
+    },
+    {
+      "id": "E:note:row437958:16",
+      "kind": "note_sentence",
+      "display": "Action:    Sxnd for sm amts thick yellow secretions from ETT.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row437958#s16",
+      "text": "Action:    Sxnd for sm amts thick yellow secretions from ETT."
+    },
+    {
+      "id": "E:note:row437958:17",
+      "kind": "note_sentence",
+      "display": "No vent changes made    in anticipation for OR today.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row437958#s17",
+      "text": "No vent changes made    in anticipation for OR today."
+    },
+    {
+      "id": "E:note:row437958:18",
+      "kind": "note_sentence",
+      "display": "Pt required multiple boluses to settle    overnight-due to biting of ETT/coughin",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row437958#s18",
+      "text": "Pt required multiple boluses to settle    overnight-due to biting of ETT/coughing, and cuff leak."
+    },
+    {
+      "id": "E:note:row437958:19",
+      "kind": "note_sentence",
+      "display": "Response:    With adequate sedation pt s resp status stable.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row437958#s19",
+      "text": "Response:    With adequate sedation pt s resp status stable."
+    },
+    {
+      "id": "E:note:row437958:20",
+      "kind": "note_sentence",
+      "display": "Plan:    Trach @ 10am today-wean vent as tol post-op., cont. pulmonary hygiene, ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row437958#s20",
+      "text": "Plan:    Trach @ 10am today-wean vent as tol post-op., cont. pulmonary hygiene,    as well as Vanco for +sputum cx."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|82120": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5990": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|8052": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5180": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|80708": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|80841": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78072": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|8074": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|82382": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|8080": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|86389": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|8220": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8495": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8120": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2749": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|04104": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|45829": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8798": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8497": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25000": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7864": [
+      "E:cond:23"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "closed fracture of lower end of femur, unspecified part": [
+      "E:cond:1"
+    ],
+    "urinary tract infection, site not specified": [
+      "E:cond:2"
+    ],
+    "closed fracture of dorsal [thoracic] vertebra without mention of spinal cord injury": [
+      "E:cond:3"
+    ],
+    "pulmonary collapse": [
+      "E:cond:4"
+    ],
+    "closed fracture of eight or more ribs": [
+      "E:cond:5"
+    ],
+    "closed fracture of ilium": [
+      "E:cond:6"
+    ],
+    "acute respiratory failure": [
+      "E:cond:7"
+    ],
+    "functional quadriplegia": [
+      "E:cond:8"
+    ],
+    "flail chest": [
+      "E:cond:9"
+    ],
+    "closed fracture of unspecified part of fibula with tibia": [
+      "E:cond:10"
+    ],
+    "closed fracture of acetabulum": [
+      "E:cond:11"
+    ],
+    "injury to other gastrointestinal sites, without mention of open wound into cavity": [
+      "E:cond:12"
+    ],
+    "closed fracture of patella": [
+      "E:cond:13"
+    ],
+    "street and highway accidents": [
+      "E:cond:14"
+    ],
+    "other motor vehicle traffic accident involving collision with motor vehicle injuring driver of motor vehicle other than motorcycle": [
+      "E:cond:15"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:16"
+    ],
+    "gout, unspecified": [
+      "E:cond:17"
+    ],
+    "streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group d [enterococcus]": [
+      "E:cond:18"
+    ],
+    "other iatrogenic hypotension": [
+      "E:cond:19"
+    ],
+    "other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure": [
+      "E:cond:20"
+    ],
+    "accidents occurring in residential institution": [
+      "E:cond:21"
+    ],
+    "diabetes mellitus without mention of complication, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:22"
+    ],
+    "abnormal sputum": [
+      "E:cond:23"
+    ],
+    "open reduction of fracture with internal fixation, femur": [
+      "E:proc:1"
+    ],
+    "temporary tracheostomy": [
+      "E:proc:2"
+    ],
+    "open reduction of fracture with internal fixation, tibia and fibula": [
+      "E:proc:3"
+    ],
+    "interruption of the vena cava": [
+      "E:proc:4"
+    ],
+    "closed reduction of fracture with internal fixation, tibia and fibula": [
+      "E:proc:5"
+    ],
+    "application of external fixator device, tibia and fibula": [
+      "E:proc:6"
+    ],
+    "removal of implanted devices from bone, tibia and fibula": [
+      "E:proc:7"
+    ],
+    "percutaneous [endoscopic] gastrostomy [peg]": [
+      "E:proc:8"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:9"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:10"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:11"
+    ],
+    "arterial catheterization": [
+      "E:proc:12"
+    ],
+    "title: issues: - left distal femur fracture - right tib-fib fracture": [
+      "E:note:row437958:1"
+    ],
+    "action: l knee immobilizer, r ex-fix intact-pin care provided.": [
+      "E:note:row437958:2"
+    ],
+    "pulses monitored q4.": [
+      "E:note:row437958:3"
+    ],
+    "reverse t-[**doctor last name **]/logroll prec. maintained.": [
+      "E:note:row437958:4"
+    ],
+    "response: ortho injuries stable-orif mon.": [
+      "E:note:row437958:5"
+    ],
+    "[**12-19**].": [
+      "E:note:row437958:6"
+    ],
+    "plan: plan for trach/peg.ivc filter on mon. clamshell brace when hob>30 pa": [
+      "E:note:row437958:7"
+    ],
+    "nods yes most of the time when asked if experiencing any pain.": [
+      "E:note:row437958:8"
+    ],
+    "action: fentanyl and midazolam gtts-with occasional boluses after turning or": [
+      "E:note:row437958:9"
+    ],
+    "frequent re-orientation provided.": [
+      "E:note:row437958:10"
+    ],
+    "response: pt appears comfortable with above meds, and responds well to rn": [
+      "E:note:row437958:11"
+    ],
+    "plan: continue sedation/pain management until post-op.": [
+      "E:note:row437958:12"
+    ],
+    "respiratory failure, acute (not ards/[**doctor last name 11**]) assessment:": [
+      "E:note:row437958:13"
+    ],
+    "lungs clear and equal/diminished bibasilar.": [
+      "E:note:row437958:14"
+    ],
+    "abg wnl.": [
+      "E:note:row437958:15"
+    ],
+    "action: sxnd for sm amts thick yellow secretions from ett.": [
+      "E:note:row437958:16"
+    ],
+    "no vent changes made in anticipation for or today.": [
+      "E:note:row437958:17"
+    ],
+    "pt required multiple boluses to settle overnight-due to biting of ett/coughin": [
+      "E:note:row437958:18"
+    ],
+    "response: with adequate sedation pt s resp status stable.": [
+      "E:note:row437958:19"
+    ],
+    "plan: trach @ 10am today-wean vent as tol post-op., cont. pulmonary hygiene,": [
+      "E:note:row437958:20"
+    ]
+  },
+  "by_date": {
+    "2163-12-08": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12"
+    ]
+  }
+}

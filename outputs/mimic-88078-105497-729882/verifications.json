@@ -1,0 +1,187 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row729882:1"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is s/p unwitnessed fall onto concrete on [**4-8**]."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row729882:3"
+      ],
+      "rationale": "The candidate evidence explicitly states that injuries include a large PTX."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row729882:3"
+      ],
+      "rationale": "The evidence explicitly states that injuries include subcutaneous air."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row729882:3"
+      ],
+      "rationale": "The candidate evidence explicitly states that an anterior chest tube was placed."
+    },
+    {
+      "claim_id": "C5",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row729882:6"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is receiving morphine IVP for pain."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row729882:10"
+      ],
+      "rationale": "The candidate evidence explicitly states that a R posterior CT was placed on [**4-9**]."
+    },
+    {
+      "claim_id": "C10",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the candidate conditions match the diagnosis of acute respiratory failure."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates indicate a dependence on supplemental oxygen but do not provide specific oxygen saturation percentages or FiO2 levels."
+    },
+    {
+      "claim_id": "C12",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row729882:18"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Tmax 99.5', which matches the claim."
+    },
+    {
+      "claim_id": "C14",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row729882:19"
+      ],
+      "rationale": "The evidence explicitly lists 'ipatropium nebs' as part of the action/medication plan."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row729882:20",
+        "E:note:row729882:26"
+      ],
+      "rationale": "Both candidate evidence items explicitly list Tylenol as a medication for the patient."
+    },
+    {
+      "claim_id": "C17",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list procedures already performed (mechanical ventilation and catheter insertion), but does not contain a plan or order to intubate for respiratory distress."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:27",
+        "E:cond:28"
+      ],
+      "rationale": "The patient has two recorded diagnoses of acute pain due to trauma."
+    },
+    {
+      "claim_id": "C19",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list acute pain and chronic pulmonary/bronchitis conditions, but does not mention chronic pain."
+    },
+    {
+      "claim_id": "C20",
+      "status": "contradicted",
+      "evidence_ids": [
+        "E:cond:9",
+        "E:cond:10"
+      ],
+      "rationale": "The claim specifies 6-2 ribs on the right side, while the evidence explicitly states a fracture of seven ribs."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row729882:25"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is at high risk for pneumonia."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row729882:26"
+      ],
+      "rationale": "The candidate evidence explicitly lists toradol as an action/medication."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row729882:26"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'lidocain patchy' as an action/medication administered."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row729882:26"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'po Tylenol' as an action for the specified date."
+    },
+    {
+      "claim_id": "C25",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    }
+  ]
+}

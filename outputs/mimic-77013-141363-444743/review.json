@@ -1,0 +1,36 @@
+{
+  "concerns": [
+    {
+      "sentence": "Additional diagnoses include hospital acquired pneumonia [E:note:row444743:2], etoh abuse [E:note:row444743:1], alcohol withdrawal [E:cond:9][E:cond:10], and acute alcoholic hepatitis [E:cond:41][E:cond:42].",
+      "severity": "medium",
+      "reason": "The fact sheet does not contain evidence for hospital acquired pneumonia, etoh abuse, or acute alcoholic hepatitis."
+    },
+    {
+      "sentence": "Nutritional deficits include beriberi [E:cond:1][E:cond:2], pellagra [E:cond:43][E:cond:44], nutritional marasmus [E:cond:11][E:cond:12], and refeeding syndrome [E:note:row444743:3].",
+      "severity": "medium",
+      "reason": "The fact sheet does not contain evidence for pellagra or refeeding syndrome."
+    },
+    {
+      "sentence": "Neurological findings include quadriplegia [E:cond:13][E:cond:14], subdural hemorrhage [E:cond:23][E:cond:24], encephalopathy [E:cond:31][E:cond:32], and altered mental status [E:note:row444743:3].",
+      "severity": "medium",
+      "reason": "The fact sheet does not contain evidence for encephalopathy or altered mental status."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Additional diagnoses include hospital acquired pneumonia [E:note:row444743:2], etoh abuse [E:note:row444743:1], alcohol withdrawal [E:cond:9][E:cond:10], and acute alcoholic hepatitis [E:cond:41][E:cond:42].",
+      "suggested": "Additional diagnoses include alcohol withdrawal [E:cond:9][E:cond:10].",
+      "reason": "Removed diagnoses not present in the provided fact sheet."
+    },
+    {
+      "original": "Nutritional deficits include beriberi [E:cond:1][E:cond:2], pellagra [E:cond:43][E:cond:44], nutritional marasmus [E:cond:11][E:cond:12], and refeeding syndrome [E:note:row444743:3].",
+      "suggested": "Nutritional deficits include beriberi [E:cond:1][E:cond:2] and nutritional marasmus [E:cond:11][E:cond:12].",
+      "reason": "Removed conditions not present in the provided fact sheet."
+    },
+    {
+      "original": "Neurological findings include quadriplegia [E:cond:13][E:cond:14], subdural hemorrhage [E:cond:23][E:cond:24], encephalopathy [E:cond:31][E:cond:32], and altered mental status [E:note:row444743:3].",
+      "suggested": "Neurological findings include quadriplegia [E:cond:13][E:cond:14] and subdural hemorrhage [E:cond:23][E:cond:24].",
+      "reason": "Removed conditions not present in the provided fact sheet."
+    }
+  ]
+}

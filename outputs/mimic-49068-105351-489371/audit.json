@@ -1,0 +1,141 @@
+{
+  "case_id": "mimic-49068-105351-489371",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 1810,
+    "summary_chars": 828,
+    "target_min_chars": 362,
+    "target_max_chars": 543,
+    "achieved_ratio": 0.4574585635359116,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 9,
+    "cited_evidence_ids": [
+      "E:cond:2",
+      "E:cond:20",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:7",
+      "E:note:row489371:1",
+      "E:note:row489371:10",
+      "E:note:row489371:11",
+      "E:note:row489371:13",
+      "E:note:row489371:15",
+      "E:note:row489371:4",
+      "E:note:row489371:5",
+      "E:note:row489371:6",
+      "E:note:row489371:7",
+      "E:note:row489371:8",
+      "E:note:row489371:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Acute renal failure [E:cond:3][E:note:row489371:10], spontaneous retroperitoneal bleed [E:note:row489371:7], and GI hemorrhage [E:cond:7].",
+        "severity": "high",
+        "reason": "The claim of 'spontaneous retroperitoneal bleed' is not supported by the provided fact sheet."
+      },
+      {
+        "sentence": "DM [E:note:row489371:1][E:note:row489371:4], Afib [E:cond:20][E:note:row489371:13], and runs of vtach [E:note:row489371:15].",
+        "severity": "high",
+        "reason": "DM, Afib, and runs of vtach are not mentioned in the provided fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Acute renal failure [E:cond:3][E:note:row489371:10], spontaneous retroperitoneal bleed [E:note:row489371:7], and GI hemorrhage [E:cond:7].",
+        "suggested": "Acute renal failure [E:cond:3] and GI hemorrhage [E:cond:7].",
+        "reason": "Removed unsupported claim of retroperitoneal bleed and corrected citations to match fact sheet."
+      },
+      {
+        "original": "DM [E:note:row489371:1][E:note:row489371:4], Afib [E:cond:20][E:note:row489371:13], and runs of vtach [E:note:row489371:15].",
+        "suggested": "",
+        "reason": "Remove entire sentence as these conditions are not present in the fact sheet."
+      }
+    ]
+  },
+  "review_passed": false,
+  "review_concern_counts": {
+    "high": 2,
+    "medium": 0,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-49068-105351-489371/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.45,
+    "fk_words": 207,
+    "fk_sentences": 23,
+    "fk_syllables": 325,
+    "chars": 1933,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-49068-105351-489371/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0020698749576695263,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 174.68722983298358,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 116.22220866696443,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.002649833040777594,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 20.885656750004273,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 12.284952999965753,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0038631250499747694,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 52.62829808302922,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

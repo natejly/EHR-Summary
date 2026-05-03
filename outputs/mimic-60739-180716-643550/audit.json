@@ -1,0 +1,145 @@
+{
+  "case_id": "mimic-60739-180716-643550",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 1640,
+    "summary_chars": 736,
+    "target_min_chars": 328,
+    "target_max_chars": 492,
+    "achieved_ratio": 0.44878048780487806,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 6,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:2",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:note:row643550:1",
+      "E:note:row643550:3",
+      "E:note:row643550:6",
+      "E:note:row643550:8"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "NSTEMI [E:note:row643550:1],",
+        "severity": "medium",
+        "reason": "The citation E:note:row643550:1 does not exist in the fact sheet; the correct evidence for subendocardial infarction is E:cond:7 and E:cond:8."
+      },
+      {
+        "sentence": "Diverticulitis with hemorrhage [E:cond:1][E:cond:2], acute on chronic diastolic HF [E:cond:3][E:cond:4], acute kidney failure [E:cond:5][E:cond:6], NSTEMI [E:note:row643550:1], posthemorrhagic anemia [E:cond:11][E:cond:12], C. difficile infection [E:cond:13][E:cond:14], delirium [E:cond:15][E:cond:16], acidosis [E:cond:17][E:cond:18], hypernatremia [E:cond:19][E:cond:20], PSVT [E:cond:21][E:cond:22], AFib [E:cond:25][E:cond:26], and DM with renal manifestations [E:cond:27][E:cond:28].",
+        "severity": "low",
+        "reason": "Missing hypertensive chronic kidney disease from the active problems list."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Diverticulitis with hemorrhage [E:cond:1][E:cond:2], acute on chronic diastolic HF [E:cond:3][E:cond:4], acute kidney failure [E:cond:5][E:cond:6], NSTEMI [E:note:row643550:1], posthemorrhagic anemia [E:cond:11][E:cond:12], C. difficile infection [E:cond:13][E:cond:14], delirium [E:cond:15][E:cond:16], acidosis [E:cond:17][E:cond:18], hypernatremia [E:cond:19][E:cond:20], PSVT [E:cond:21][E:cond:22], AFib [E:cond:25][E:cond:26], and DM with renal manifestations [E:cond:27][E:cond:28].",
+        "suggested": "Diverticulitis with hemorrhage [E:cond:1][E:cond:2], acute on chronic diastolic HF [E:cond:3][E:cond:4], acute kidney failure [E:cond:5][E:cond:6], subendocardial infarction [E:cond:7][E:cond:8], posthemorrhagic anemia [E:cond:11][E:cond:12], C. difficile infection [E:cond:13][E:cond:14], delirium [E:cond:15][E:cond:16], acidosis [E:cond:17][E:cond:18], hypernatremia [E:cond:19][E:cond:20], PSVT [E:cond:21][E:cond:22], AFib [E:cond:25][E:cond:26], DM with renal manifestations [E:cond:27][E:cond:28], and hypertensive chronic kidney disease [E:cond:29][E:cond:30].",
+        "reason": "Corrects hallucinated citation for NSTEMI and adds missing chronic kidney disease diagnosis."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 1
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-60739-180716-643550/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 8.58,
+    "fk_words": 169,
+    "fk_sentences": 20,
+    "fk_syllables": 299,
+    "chars": 1752,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-60739-180716-643550/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0017890830058604479,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 238.87336158304242,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 43.33014325000113,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0027581669855862856,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 16.249442666012328,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 11.566559500002768,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0020724160131067038,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 57.44438662502216,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

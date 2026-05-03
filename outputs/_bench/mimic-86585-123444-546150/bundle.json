@@ -1,0 +1,409 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-86585-123444",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-86585",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-86585",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-123444",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-123444",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2137-12-09T00:00:00",
+          "end": "2137-12-20T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123444-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123444-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2137-12-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123444-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123444-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42823",
+              "display": "Acute on chronic systolic heart failure"
+            }
+          ],
+          "text": "Acute on chronic systolic heart failure"
+        },
+        "onsetDateTime": "2137-12-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123444-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123444-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2137-12-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123444-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123444-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99731",
+              "display": "Ventilator associated pneumonia"
+            }
+          ],
+          "text": "Ventilator associated pneumonia"
+        },
+        "onsetDateTime": "2137-12-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123444-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123444-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99672",
+              "display": "Other complications due to other cardiac device, implant, and graft"
+            }
+          ],
+          "text": "Other complications due to other cardiac device, implant, and graft"
+        },
+        "onsetDateTime": "2137-12-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123444-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123444-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2137-12-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123444-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123444-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41401",
+              "display": "Coronary atherosclerosis of native coronary artery"
+            }
+          ],
+          "text": "Coronary atherosclerosis of native coronary artery"
+        },
+        "onsetDateTime": "2137-12-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123444-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123444-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42731",
+              "display": "Atrial fibrillation"
+            }
+          ],
+          "text": "Atrial fibrillation"
+        },
+        "onsetDateTime": "2137-12-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123444-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123444-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2859",
+              "display": "Anemia, unspecified"
+            }
+          ],
+          "text": "Anemia, unspecified"
+        },
+        "onsetDateTime": "2137-12-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123444-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123444-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5859",
+              "display": "Chronic kidney disease, unspecified"
+            }
+          ],
+          "text": "Chronic kidney disease, unspecified"
+        },
+        "onsetDateTime": "2137-12-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123444-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123444-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4240",
+              "display": "Mitral valve disorders"
+            }
+          ],
+          "text": "Mitral valve disorders"
+        },
+        "onsetDateTime": "2137-12-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123444-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123444-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70709",
+              "display": "Pressure ulcer, other site"
+            }
+          ],
+          "text": "Pressure ulcer, other site"
+        },
+        "onsetDateTime": "2137-12-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123444-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123444-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70722",
+              "display": "Pressure ulcer, stage II"
+            }
+          ],
+          "text": "Pressure ulcer, stage II"
+        },
+        "onsetDateTime": "2137-12-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123444-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123444-1",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2137-12-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123444-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123444-2",
+        "status": "completed",
+        "code": {
+          "text": "Combined right and left heart cardiac catheterization"
+        },
+        "performedDateTime": "2137-12-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123444-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123444-3",
+        "status": "completed",
+        "code": {
+          "text": "Coronary arteriography using two catheters"
+        },
+        "performedDateTime": "2137-12-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123444-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123444-4",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2137-12-09"
+      }
+    }
+  ]
+}

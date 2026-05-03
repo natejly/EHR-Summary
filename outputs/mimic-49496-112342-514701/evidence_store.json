@@ -1,0 +1,1143 @@
+{
+  "case_id": "mimic-49496-112342-514701",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "ELECTIVE",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:enc-112342",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Encounter for antineoplastic immunotherapy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V5812",
+        "display": "Encounter for antineoplastic immunotherapy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Methicillin resistant Staphylococcus aureus septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "03812",
+        "display": "Methicillin resistant Staphylococcus aureus septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Septic shock",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78552",
+        "display": "Septic shock"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Pneumonitis due to inhalation of food or vomitus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5070",
+        "display": "Pneumonitis due to inhalation of food or vomitus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Toxic encephalopathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34982",
+        "display": "Toxic encephalopathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Malignant neoplasm of kidney, except pelvis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1890",
+        "display": "Malignant neoplasm of kidney, except pelvis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Secondary malignant neoplasm of lung",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1970",
+        "display": "Secondary malignant neoplasm of lung"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Secondary malignant neoplasm of brain and spinal cord",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1983",
+        "display": "Secondary malignant neoplasm of brain and spinal cord"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Unspecified intestinal obstruction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5609",
+        "display": "Unspecified intestinal obstruction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Gangrene",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7854",
+        "display": "Gangrene"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Urinary tract infection, site not specified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5990",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Other and unspecified hyperlipidemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2724",
+        "display": "Other and unspecified hyperlipidemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Esophageal reflux",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53081",
+        "display": "Esophageal reflux"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Nausea with vomiting",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78701",
+        "display": "Nausea with vomiting"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Diarrhea",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78791",
+        "display": "Diarrhea"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Dermatitis due to drugs and medicines taken internally",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "6930",
+        "display": "Dermatitis due to drugs and medicines taken internally"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Antineoplastic and immunosuppressive drugs causing adverse effects in therapeutic use",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E9331",
+        "display": "Antineoplastic and immunosuppressive drugs causing adverse effects in therapeutic use"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Anemia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2859",
+        "display": "Anemia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2874",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:25",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0414",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:cond-112342-25",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "High-dose infusion interleukin-2 [IL-2]",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "High-dose infusion interleukin-2 [IL-2]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:proc-112342-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Injection or infusion of oxazolidinone class of antibiotics",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Injection or infusion of oxazolidinone class of antibiotics"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:proc-112342-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Hemodialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Hemodialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:proc-112342-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:proc-112342-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:proc-112342-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:proc-112342-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Fiber-optic bronchoscopy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Fiber-optic bronchoscopy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2124-02-29",
+      "source_ref": "urn:uuid:proc-112342-7",
+      "text": null
+    },
+    {
+      "id": "E:note:row514701:1",
+      "kind": "note_sentence",
+      "display": "Mr. [**Known lastname 6130**] is a 68 yo with met renal cell CA (to lung and bra",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s1",
+      "text": "Mr. [**Known lastname 6130**] is a 68 yo with met renal cell CA (to lung and brain)    admitted on [**2124-2-29**] for week 2 of high dose IL-2 therapy."
+    },
+    {
+      "id": "E:note:row514701:2",
+      "kind": "note_sentence",
+      "display": "His last    dose was complicated by shock requiring dopamine and brief atrial   ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s2",
+      "text": "His last    dose was complicated by shock requiring dopamine and brief atrial    fibrillation, spontaneously reverting back when dopamine was changed to    neo."
+    },
+    {
+      "id": "E:note:row514701:3",
+      "kind": "note_sentence",
+      "display": "His current course was given from [**2-29**] to [**3-4**] and has been    compli",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s3",
+      "text": "His current course was given from [**2-29**] to [**3-4**] and has been    complicated by nausea/vomiting, encephalopathy, diarrhea, rigors,    hypotension in the 70s systolic requiring neo ARF with decreasing UOP    (355 total cc's on [**3-5**], none on [**3-4**], + ~ 14L LOC but without detailed    recording of his UOP), and progressive metabolic acidosis despite    bicarb infusion."
+    },
+    {
+      "id": "E:note:row514701:4",
+      "kind": "note_sentence",
+      "display": "His Cr has risen progressively from 1.9 on admission    to 6.6 on the evening of",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s4",
+      "text": "His Cr has risen progressively from 1.9 on admission    to 6.6 on the evening of transfer."
+    },
+    {
+      "id": "E:note:row514701:5",
+      "kind": "note_sentence",
+      "display": "Because of his progressive renal    failure, dopamine was added to improve renal",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s5",
+      "text": "Because of his progressive renal    failure, dopamine was added to improve renal perfusion."
+    },
+    {
+      "id": "E:note:row514701:6",
+      "kind": "note_sentence",
+      "display": "Pt. transferred    here to ICU early morning [**3-6**] for further management of",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s6",
+      "text": "Pt. transferred    here to ICU early morning [**3-6**] for further management of hypotension    and renal failure."
+    },
+    {
+      "id": "E:note:row514701:7",
+      "kind": "note_sentence",
+      "display": "Events;Pt went into rapid Afib with HR 130-150,NBP systolic dropped to    65 ,MD",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s7",
+      "text": "Events;Pt went into rapid Afib with HR 130-150,NBP systolic dropped to    65 ,MD [**First Name (Titles) **] [**Last Name (Titles) 1523**],NS 1L bolused,pt already on lovo,added neo and    titrated,HR continued to be as high as 150,cardiverted with 100J,150 J    respectively,ABG done,NBp improved Amiodarone gtt started and team at    [**Last Name (Titles) 1523**],will call wife and update."
+    },
+    {
+      "id": "E:note:row514701:8",
+      "kind": "note_sentence",
+      "display": "Renal failure, acute (Acute renal failure, ARF)    Assessment:    Pt. continues ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s8",
+      "text": "Renal failure, acute (Acute renal failure, ARF)    Assessment:    Pt. continues in renal failure Foley in place draining scant amounts of    dark amber urine."
+    },
+    {
+      "id": "E:note:row514701:9",
+      "kind": "note_sentence",
+      "display": "Action:    UO monitored closely.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s9",
+      "text": "Action:    UO monitored closely."
+    },
+    {
+      "id": "E:note:row514701:10",
+      "kind": "note_sentence",
+      "display": "BUN/Cr monitored as well.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s10",
+      "text": "BUN/Cr monitored as well."
+    },
+    {
+      "id": "E:note:row514701:11",
+      "kind": "note_sentence",
+      "display": "Response:    UO remains scant.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s11",
+      "text": "Response:    UO remains scant."
+    },
+    {
+      "id": "E:note:row514701:12",
+      "kind": "note_sentence",
+      "display": "BUN/Cr as noted above.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s12",
+      "text": "BUN/Cr as noted above."
+    },
+    {
+      "id": "E:note:row514701:13",
+      "kind": "note_sentence",
+      "display": "Pt. with total body anasarca    and weeping edema.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s13",
+      "text": "Pt. with total body anasarca    and weeping edema."
+    },
+    {
+      "id": "E:note:row514701:14",
+      "kind": "note_sentence",
+      "display": "Plan:    Monitor UO and BUN/Cr.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s14",
+      "text": "Plan:    Monitor UO and BUN/Cr."
+    },
+    {
+      "id": "E:note:row514701:15",
+      "kind": "note_sentence",
+      "display": "Renal following pt. closely.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s15",
+      "text": "Renal following pt. closely."
+    },
+    {
+      "id": "E:note:row514701:16",
+      "kind": "note_sentence",
+      "display": "CRRT may be    possibility if renal function does not improve.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s16",
+      "text": "CRRT may be    possibility if renal function does not improve."
+    },
+    {
+      "id": "E:note:row514701:17",
+      "kind": "note_sentence",
+      "display": "Altered mental status (not Delirium)    Assessment:    Pt. extremely confused  a",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s17",
+      "text": "Altered mental status (not Delirium)    Assessment:    Pt. extremely confused  and agitated  while waking him up for    assessments and care,Pulling at tubes, taking off clothing."
+    },
+    {
+      "id": "E:note:row514701:18",
+      "kind": "note_sentence",
+      "display": "Action:     MD informed.Bed in lowest position and locked.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s18",
+      "text": "Action:     MD informed.Bed in lowest position and locked."
+    },
+    {
+      "id": "E:note:row514701:19",
+      "kind": "note_sentence",
+      "display": "Side rails up.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s19",
+      "text": "Side rails up."
+    },
+    {
+      "id": "E:note:row514701:20",
+      "kind": "note_sentence",
+      "display": "All    tubes concealed.upper extrimities are restrained for safety.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s20",
+      "text": "All    tubes concealed.upper extrimities are restrained for safety."
+    },
+    {
+      "id": "E:note:row514701:21",
+      "kind": "note_sentence",
+      "display": "Did not require  any meds  at the beginning,then continued to be    agitated,med",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s21",
+      "text": "Did not require  any meds  at the beginning,then continued to be    agitated,medicated with Ativan 1Mg with effect."
+    },
+    {
+      "id": "E:note:row514701:22",
+      "kind": "note_sentence",
+      "display": "Response:    Pt. continues to be agitated and confused mostly with stimulation  ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s22",
+      "text": "Response:    Pt. continues to be agitated and confused mostly with stimulation    Plan:    Maintain pt. safety."
+    },
+    {
+      "id": "E:note:row514701:23",
+      "kind": "note_sentence",
+      "display": "[**Name (NI) **] pt. as often as needed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s23",
+      "text": "[**Name (NI) **] pt. as often as needed."
+    },
+    {
+      "id": "E:note:row514701:24",
+      "kind": "note_sentence",
+      "display": "Continue with IV    ativan PRN. Impaired Skin Integrity    Assessment:    Pt. wi",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s24",
+      "text": "Continue with IV    ativan PRN. Impaired Skin Integrity    Assessment:    Pt. with sloughing skin from IL 2 therapy."
+    },
+    {
+      "id": "E:note:row514701:25",
+      "kind": "note_sentence",
+      "display": "Pt. also with multiple    excoriated areas on coccyx and scrotum.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s25",
+      "text": "Pt. also with multiple    excoriated areas on coccyx and scrotum."
+    },
+    {
+      "id": "E:note:row514701:26",
+      "kind": "note_sentence",
+      "display": "Action:    PRN lotions applied to dry skin as needed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s26",
+      "text": "Action:    PRN lotions applied to dry skin as needed."
+    },
+    {
+      "id": "E:note:row514701:27",
+      "kind": "note_sentence",
+      "display": "Pt. turned from side to side to keep off coccyx.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s27",
+      "text": "Pt. turned from side to side to keep off coccyx."
+    },
+    {
+      "id": "E:note:row514701:28",
+      "kind": "note_sentence",
+      "display": "Response:    Ongoing assessment.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s28",
+      "text": "Response:    Ongoing assessment."
+    },
+    {
+      "id": "E:note:row514701:29",
+      "kind": "note_sentence",
+      "display": "Pt. continues with multiple skin issues.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s29",
+      "text": "Pt. continues with multiple skin issues."
+    },
+    {
+      "id": "E:note:row514701:30",
+      "kind": "note_sentence",
+      "display": "Plan:    PRN lotions as ordered.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s30",
+      "text": "Plan:    PRN lotions as ordered."
+    },
+    {
+      "id": "E:note:row514701:31",
+      "kind": "note_sentence",
+      "display": "Keep pt. off coccyx as often as possible.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514701#s31",
+      "text": "Keep pt. off coccyx as often as possible."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|V5812": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|03812": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78552": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5070": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|34982": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1890": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1970": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1983": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2762": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5609": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7854": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5990": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2724": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|53081": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78701": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78791": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|6930": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E9331": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2859": [
+      "E:cond:23"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2874": [
+      "E:cond:24"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|0414": [
+      "E:cond:25"
+    ]
+  },
+  "by_display": {
+    "elective": [
+      "E:enc:1"
+    ],
+    "encounter for antineoplastic immunotherapy": [
+      "E:cond:1"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:2"
+    ],
+    "methicillin resistant staphylococcus aureus septicemia": [
+      "E:cond:3"
+    ],
+    "severe sepsis": [
+      "E:cond:4"
+    ],
+    "septic shock": [
+      "E:cond:5"
+    ],
+    "acute respiratory failure": [
+      "E:cond:6"
+    ],
+    "pneumonitis due to inhalation of food or vomitus": [
+      "E:cond:7"
+    ],
+    "toxic encephalopathy": [
+      "E:cond:8"
+    ],
+    "malignant neoplasm of kidney, except pelvis": [
+      "E:cond:9"
+    ],
+    "secondary malignant neoplasm of lung": [
+      "E:cond:10"
+    ],
+    "secondary malignant neoplasm of brain and spinal cord": [
+      "E:cond:11"
+    ],
+    "acidosis": [
+      "E:cond:12"
+    ],
+    "unspecified intestinal obstruction": [
+      "E:cond:13"
+    ],
+    "gangrene": [
+      "E:cond:14"
+    ],
+    "urinary tract infection, site not specified": [
+      "E:cond:15"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:16"
+    ],
+    "other and unspecified hyperlipidemia": [
+      "E:cond:17"
+    ],
+    "esophageal reflux": [
+      "E:cond:18"
+    ],
+    "nausea with vomiting": [
+      "E:cond:19"
+    ],
+    "diarrhea": [
+      "E:cond:20"
+    ],
+    "dermatitis due to drugs and medicines taken internally": [
+      "E:cond:21"
+    ],
+    "antineoplastic and immunosuppressive drugs causing adverse effects in therapeutic use": [
+      "E:cond:22"
+    ],
+    "anemia, unspecified": [
+      "E:cond:23"
+    ],
+    "diagnosis": [
+      "E:cond:24",
+      "E:cond:25"
+    ],
+    "high-dose infusion interleukin-2 [il-2]": [
+      "E:proc:1"
+    ],
+    "injection or infusion of oxazolidinone class of antibiotics": [
+      "E:proc:2"
+    ],
+    "hemodialysis": [
+      "E:proc:3"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:4"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:5"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:6"
+    ],
+    "fiber-optic bronchoscopy": [
+      "E:proc:7"
+    ],
+    "mr. [**known lastname 6130**] is a 68 yo with met renal cell ca (to lung and bra": [
+      "E:note:row514701:1"
+    ],
+    "his last dose was complicated by shock requiring dopamine and brief atrial": [
+      "E:note:row514701:2"
+    ],
+    "his current course was given from [**2-29**] to [**3-4**] and has been compli": [
+      "E:note:row514701:3"
+    ],
+    "his cr has risen progressively from 1.9 on admission to 6.6 on the evening of": [
+      "E:note:row514701:4"
+    ],
+    "because of his progressive renal failure, dopamine was added to improve renal": [
+      "E:note:row514701:5"
+    ],
+    "pt. transferred here to icu early morning [**3-6**] for further management of": [
+      "E:note:row514701:6"
+    ],
+    "events;pt went into rapid afib with hr 130-150,nbp systolic dropped to 65 ,md": [
+      "E:note:row514701:7"
+    ],
+    "renal failure, acute (acute renal failure, arf) assessment: pt. continues": [
+      "E:note:row514701:8"
+    ],
+    "action: uo monitored closely.": [
+      "E:note:row514701:9"
+    ],
+    "bun/cr monitored as well.": [
+      "E:note:row514701:10"
+    ],
+    "response: uo remains scant.": [
+      "E:note:row514701:11"
+    ],
+    "bun/cr as noted above.": [
+      "E:note:row514701:12"
+    ],
+    "pt. with total body anasarca and weeping edema.": [
+      "E:note:row514701:13"
+    ],
+    "plan: monitor uo and bun/cr.": [
+      "E:note:row514701:14"
+    ],
+    "renal following pt. closely.": [
+      "E:note:row514701:15"
+    ],
+    "crrt may be possibility if renal function does not improve.": [
+      "E:note:row514701:16"
+    ],
+    "altered mental status (not delirium) assessment: pt. extremely confused a": [
+      "E:note:row514701:17"
+    ],
+    "action: md informed.bed in lowest position and locked.": [
+      "E:note:row514701:18"
+    ],
+    "side rails up.": [
+      "E:note:row514701:19"
+    ],
+    "all tubes concealed.upper extrimities are restrained for safety.": [
+      "E:note:row514701:20"
+    ],
+    "did not require any meds at the beginning,then continued to be agitated,med": [
+      "E:note:row514701:21"
+    ],
+    "response: pt. continues to be agitated and confused mostly with stimulation": [
+      "E:note:row514701:22"
+    ],
+    "[**name (ni) **] pt. as often as needed.": [
+      "E:note:row514701:23"
+    ],
+    "continue with iv ativan prn. impaired skin integrity assessment: pt. wi": [
+      "E:note:row514701:24"
+    ],
+    "pt. also with multiple excoriated areas on coccyx and scrotum.": [
+      "E:note:row514701:25"
+    ],
+    "action: prn lotions applied to dry skin as needed.": [
+      "E:note:row514701:26"
+    ],
+    "pt. turned from side to side to keep off coccyx.": [
+      "E:note:row514701:27"
+    ],
+    "response: ongoing assessment.": [
+      "E:note:row514701:28"
+    ],
+    "pt. continues with multiple skin issues.": [
+      "E:note:row514701:29"
+    ],
+    "plan: prn lotions as ordered.": [
+      "E:note:row514701:30"
+    ],
+    "keep pt. off coccyx as often as possible.": [
+      "E:note:row514701:31"
+    ]
+  },
+  "by_date": {
+    "2124-02-29": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7"
+    ]
+  }
+}

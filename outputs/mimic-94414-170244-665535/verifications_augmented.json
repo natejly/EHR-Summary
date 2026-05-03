@@ -1,0 +1,314 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:7"
+      ],
+      "rationale": "The patient has a recorded condition of unspecified essential hypertension."
+    },
+    {
+      "claim_id": "C2",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:1",
+        "E:note:row665535:23"
+      ],
+      "rationale": "Both the condition record and the note sentence explicitly confirm a diagnosis of pneumonia."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:12"
+      ],
+      "rationale": "The evidence explicitly mentions 'persistent hypoxia', confirming the patient was being evaluated for and experiencing this condition."
+    },
+    {
+      "claim_id": "C5",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The evidence mentions a cough on 3-18, but the claim specifies the date 3-16."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:19"
+      ],
+      "rationale": "The evidence explicitly states the patient arrives with anxiety regarding sob."
+    },
+    {
+      "claim_id": "C7",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence is dated 2191-04-01, which does not match the claim's time reference of 3-16."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:3"
+      ],
+      "rationale": "The evidence explicitly states the patient was admitted on 3-18 with cough."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:3"
+      ],
+      "rationale": "The evidence explicitly states the patient was admitted on 3-18 with diarrhea."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:4"
+      ],
+      "rationale": "The evidence explicitly states the patient was started on Levaquin IV."
+    },
+    {
+      "claim_id": "C13",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C14",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:6"
+      ],
+      "rationale": "The evidence explicitly states that IV steroids were started during the hospitalization."
+    },
+    {
+      "claim_id": "C16",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C17",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:8"
+      ],
+      "rationale": "The candidate evidence explicitly states that the CT showed 'no PE'."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:8"
+      ],
+      "rationale": "The evidence explicitly states that zosyn was started."
+    },
+    {
+      "claim_id": "C20",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:9"
+      ],
+      "rationale": "The evidence explicitly states that an echo showed mild pulmonary hypertension."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:10"
+      ],
+      "rationale": "The evidence explicitly states that IV vancomycin was started on 3-30."
+    },
+    {
+      "claim_id": "C23",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The claim incorrectly identifies 'concern for PCP' as a medication, whereas the evidence indicates it is the clinical reason for starting a medication."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:12"
+      ],
+      "rationale": "The evidence explicitly states the patient has persistent hypoxia."
+    },
+    {
+      "claim_id": "C25",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence is truncated ('Cxr w/ bilat.') and does not explicitly confirm the presence of 'Ground glass opacity'."
+    },
+    {
+      "claim_id": "C26",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence describes mechanical ventilation, which is unrelated to the claim regarding EKG results."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:15"
+      ],
+      "rationale": "The candidate evidence explicitly states the ABG result as 7.37/41/56."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:16"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan for intubation for CT."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:18"
+      ],
+      "rationale": "The candidate evidence explicitly states the WBC is 17.1 today."
+    },
+    {
+      "claim_id": "C30",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:18"
+      ],
+      "rationale": "The candidate evidence explicitly states there is a pending HIV test at the transferring facility."
+    },
+    {
+      "claim_id": "C32",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The evidence describes a patient's feeling of anxiety regarding shortness of breath, not a clinical diagnosis of Anxiety."
+    },
+    {
+      "claim_id": "C33",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list acute respiratory failure and acute kidney failure, but there is no mention of acute anxiety."
+    },
+    {
+      "claim_id": "C34",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C35",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C36",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:20"
+      ],
+      "rationale": "The candidate evidence explicitly states the regimen was changed to PRN IV Lorazepam."
+    },
+    {
+      "claim_id": "C37",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:20"
+      ],
+      "rationale": "The evidence explicitly states that the patient's regimen was changed to include Morphine."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:23"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Pneumonia, bacterial, community acquired (CAP)' in the assessment section."
+    },
+    {
+      "claim_id": "C39",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:26"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is 'afebrile'."
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:16",
+        "E:note:row665535:33"
+      ],
+      "rationale": "Both candidates explicitly state the plan for intubation today."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:28"
+      ],
+      "rationale": "The evidence explicitly states 'Once resp. status stable plan for CT'."
+    },
+    {
+      "claim_id": "C42",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:28"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan for '? bronch' once respiratory status is stable."
+    },
+    {
+      "claim_id": "C43",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row665535:35"
+      ],
+      "rationale": "The candidate evidence explicitly states 'No aspiration noted recent swallow eval norm', which directly matches the claim."
+    }
+  ]
+}

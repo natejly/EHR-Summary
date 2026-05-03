@@ -1,0 +1,26 @@
+{
+  "concerns": [
+    {
+      "sentence": "Acute renal failure [E:cond:3][E:note:row489371:10], spontaneous retroperitoneal bleed [E:note:row489371:7], and GI hemorrhage [E:cond:7].",
+      "severity": "high",
+      "reason": "The claim of 'spontaneous retroperitoneal bleed' is not supported by the provided fact sheet."
+    },
+    {
+      "sentence": "DM [E:note:row489371:1][E:note:row489371:4], Afib [E:cond:20][E:note:row489371:13], and runs of vtach [E:note:row489371:15].",
+      "severity": "high",
+      "reason": "DM, Afib, and runs of vtach are not mentioned in the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Acute renal failure [E:cond:3][E:note:row489371:10], spontaneous retroperitoneal bleed [E:note:row489371:7], and GI hemorrhage [E:cond:7].",
+      "suggested": "Acute renal failure [E:cond:3] and GI hemorrhage [E:cond:7].",
+      "reason": "Removed unsupported claim of retroperitoneal bleed and corrected citations to match fact sheet."
+    },
+    {
+      "original": "DM [E:note:row489371:1][E:note:row489371:4], Afib [E:cond:20][E:note:row489371:13], and runs of vtach [E:note:row489371:15].",
+      "suggested": "",
+      "reason": "Remove entire sentence as these conditions are not present in the fact sheet."
+    }
+  ]
+}

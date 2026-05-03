@@ -1,0 +1,316 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C2",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C3",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:2"
+      ],
+      "rationale": "The evidence explicitly states the patient was 'On Cipro x 2days'."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:2"
+      ],
+      "rationale": "The evidence explicitly states the patient is on Cipro for UTI."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:2"
+      ],
+      "rationale": "The evidence explicitly states the patient was switched to Amox."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:3"
+      ],
+      "rationale": "The evidence explicitly states the patient developed a cough 2 days prior to admission."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:3"
+      ],
+      "rationale": "The evidence explicitly states the patient developed pleuritic chest pain 2 days prior to admission."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:3"
+      ],
+      "rationale": "The evidence explicitly states the patient developed SOB 2 days prior to admission."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:3"
+      ],
+      "rationale": "The evidence explicitly states the patient developed orthopnea 2 days prior to admission."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:4"
+      ],
+      "rationale": "The evidence explicitly states the patient was started on po Cipro on 11-11."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:4"
+      ],
+      "rationale": "The evidence explicitly mentions the patient was started on Cipro for leukocytes in urine on 11-11."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:4",
+        "E:note:row419476:6"
+      ],
+      "rationale": "The candidates explicitly mention a temp spike on 11-11 and specify the temperature reached 102."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:5"
+      ],
+      "rationale": "The evidence explicitly states the patient had continued tachypnea on 11-12."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:5"
+      ],
+      "rationale": "The evidence explicitly states the patient had tachycardia on 11-12."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:6"
+      ],
+      "rationale": "The evidence explicitly states a temperature spike to 102."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:7"
+      ],
+      "rationale": "The evidence explicitly states the patient had high grade bacteremia on 5-5."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:7"
+      ],
+      "rationale": "The candidate evidence explicitly states that on 5-5, the blood culture (bc) was positive for GPC in pairs +clusters."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:8"
+      ],
+      "rationale": "The evidence explicitly states that a TEE was done."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:9"
+      ],
+      "rationale": "The candidate evidence explicitly states a preliminary report with severe AR w/ flail leaflet."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:9"
+      ],
+      "rationale": "The candidate evidence explicitly mentions '?abcess in annules' as part of a preliminary report."
+    },
+    {
+      "claim_id": "C23",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:10"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient has congenital aortic valve malformation."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:12"
+      ],
+      "rationale": "The evidence explicitly states that a 'Repeat echo' was 'done today Wednesday [**11-15'."
+    },
+    {
+      "claim_id": "C26",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list aortic valve disorders and insufficiency, but none specifically mention 'worsening hypertrophy' or 'valve compromise'."
+    },
+    {
+      "claim_id": "C27",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C28",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C29",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:2",
+        "E:cond:14"
+      ],
+      "rationale": "The patient has documented diagnoses of acute diastolic heart failure and congestive heart failure, which support the claim of worsening heart failure."
+    },
+    {
+      "claim_id": "C31",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:18"
+      ],
+      "rationale": "The evidence explicitly states that captopril was held today due to low blood pressure."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:18"
+      ],
+      "rationale": "The evidence explicitly states that captopril was held due to 'lowish BP today'."
+    },
+    {
+      "claim_id": "C34",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C35",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C36",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C37",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list heart failure, endocarditis, and intubation, but do not mention Acute Respiratory Distress Syndrome (ARDS)."
+    },
+    {
+      "claim_id": "C38",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C39",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:22"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Endocarditis, Bacterial' within the assessment section."
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:22"
+      ],
+      "rationale": "The candidate evidence explicitly states the maximum temperature today was 100.9 oral."
+    },
+    {
+      "claim_id": "C41",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C42",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The evidence mentions Tylenol but does not specify the frequency or timing as 'around the clock'."
+    },
+    {
+      "claim_id": "C43",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row419476:26"
+      ],
+      "rationale": "The candidate evidence explicitly states 'NPO after midnight'."
+    }
+  ]
+}

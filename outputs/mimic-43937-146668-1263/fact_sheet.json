@@ -1,0 +1,375 @@
+{
+  "case_id": "mimic-43937-146668-1263",
+  "sections": {
+    "hpi": [],
+    "active_problems": [
+      {
+        "text": "Unspecified septicemia (2200-08-04)",
+        "evidence_ids": [
+          "E:cond:1"
+        ]
+      },
+      {
+        "text": "Acute respiratory failure (2200-08-04)",
+        "evidence_ids": [
+          "E:cond:2"
+        ]
+      },
+      {
+        "text": "Septic shock (2200-08-04)",
+        "evidence_ids": [
+          "E:cond:3"
+        ]
+      },
+      {
+        "text": "Pneumonia, organism unspecified (2200-08-04)",
+        "evidence_ids": [
+          "E:cond:4"
+        ]
+      },
+      {
+        "text": "Acidosis (2200-08-04)",
+        "evidence_ids": [
+          "E:cond:5"
+        ]
+      },
+      {
+        "text": "Hyperosmolality and/or hypernatremia (2200-08-04)",
+        "evidence_ids": [
+          "E:cond:6"
+        ]
+      },
+      {
+        "text": "Acute kidney failure, unspecified (2200-08-04)",
+        "evidence_ids": [
+          "E:cond:7"
+        ]
+      },
+      {
+        "text": "Chronic systolic heart failure (2200-08-04)",
+        "evidence_ids": [
+          "E:cond:8"
+        ]
+      },
+      {
+        "text": "Severe sepsis (2200-08-04)",
+        "evidence_ids": [
+          "E:cond:9"
+        ]
+      },
+      {
+        "text": "Congestive heart failure, unspecified (2200-08-04)",
+        "evidence_ids": [
+          "E:cond:10"
+        ]
+      },
+      {
+        "text": "Do not resuscitate status (2200-08-04)",
+        "evidence_ids": [
+          "E:cond:11"
+        ]
+      },
+      {
+        "text": "Coronary atherosclerosis of native coronary artery (2200-08-04)",
+        "evidence_ids": [
+          "E:cond:12"
+        ]
+      },
+      {
+        "text": "Percutaneous transluminal coronary angioplasty status (2200-08-04)",
+        "evidence_ids": [
+          "E:cond:13"
+        ]
+      },
+      {
+        "text": "Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits (2200-08-04)",
+        "evidence_ids": [
+          "E:cond:14"
+        ]
+      },
+      {
+        "text": "Dementia, unspecified, without behavioral disturbance (2200-08-04)",
+        "evidence_ids": [
+          "E:cond:15"
+        ]
+      },
+      {
+        "text": "Other specified forms of chronic ischemic heart disease (2200-08-04)",
+        "evidence_ids": [
+          "E:cond:16"
+        ]
+      },
+      {
+        "text": "Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS) (2200-08-04)",
+        "evidence_ids": [
+          "E:cond:17"
+        ]
+      },
+      {
+        "text": "Anemia, unspecified (2200-08-04)",
+        "evidence_ids": [
+          "E:cond:18"
+        ]
+      },
+      {
+        "text": "Procedure: Insertion of endotracheal tube (2200-08-04)",
+        "evidence_ids": [
+          "E:proc:1"
+        ]
+      },
+      {
+        "text": "Procedure: Continuous invasive mechanical ventilation for less than 96 consecutive hours (2200-08-04)",
+        "evidence_ids": [
+          "E:proc:2"
+        ]
+      },
+      {
+        "text": "Procedure: Venous catheterization, not elsewhere classified (2200-08-04)",
+        "evidence_ids": [
+          "E:proc:3"
+        ]
+      },
+      {
+        "text": "Procedure: Arterial catheterization (2200-08-04)",
+        "evidence_ids": [
+          "E:proc:4"
+        ]
+      },
+      {
+        "text": "has diagnosis: dementia",
+        "evidence_ids": [
+          "E:cond:15"
+        ]
+      },
+      {
+        "text": "has diagnosis: respiratory distress",
+        "evidence_ids": [
+          "E:note:row1263:12"
+        ]
+      },
+      {
+        "text": "underwent procedure: Intubation",
+        "evidence_ids": [
+          "E:note:row1263:2"
+        ]
+      },
+      {
+        "text": "underwent procedure: CVL",
+        "evidence_ids": [
+          "E:note:row1263:2"
+        ]
+      },
+      {
+        "text": "underwent procedure: intubated with a 7.5 ETT",
+        "evidence_ids": [
+          "E:note:row1263:14"
+        ]
+      },
+      {
+        "text": "underwent procedure: right IJ placed into the cavoatrial junction",
+        "evidence_ids": [
+          "E:note:row1263:19"
+        ]
+      },
+      {
+        "text": "has diagnosis: ST elevation in lead 3",
+        "evidence_ids": [
+          "E:note:row1263:24"
+        ]
+      },
+      {
+        "text": "has diagnosis: LBBB",
+        "evidence_ids": [
+          "E:note:row1263:24"
+        ]
+      },
+      {
+        "text": "has diagnosis: Coronary artery disease",
+        "evidence_ids": [
+          "E:note:row1263:28"
+        ]
+      },
+      {
+        "text": "has diagnosis: Congestive heart failure",
+        "evidence_ids": [
+          "E:cond:10"
+        ]
+      },
+      {
+        "text": "has diagnosis: sepsis",
+        "evidence_ids": [
+          "E:cond:9"
+        ]
+      },
+      {
+        "text": "has diagnosis: hypernatremia",
+        "evidence_ids": [
+          "E:cond:6"
+        ]
+      }
+    ],
+    "medications": [
+      {
+        "text": "takes medication: vanco/zosyn",
+        "evidence_ids": [
+          "E:note:row1263:23"
+        ]
+      },
+      {
+        "text": "takes medication: etomidate",
+        "evidence_ids": [
+          "E:note:row1263:14"
+        ]
+      },
+      {
+        "text": "takes medication: fentanyl",
+        "evidence_ids": [
+          "E:note:row1263:15"
+        ]
+      },
+      {
+        "text": "takes medication: midazolam",
+        "evidence_ids": [
+          "E:note:row1263:15"
+        ]
+      },
+      {
+        "text": "takes medication: 6L NS",
+        "evidence_ids": [
+          "E:note:row1263:20"
+        ]
+      },
+      {
+        "text": "takes medication: vanco/cefepime/cipro",
+        "evidence_ids": [
+          "E:note:row1263:48"
+        ]
+      },
+      {
+        "text": "takes medication: heparin drip",
+        "evidence_ids": [
+          "E:note:row1263:49"
+        ]
+      },
+      {
+        "text": "takes medication: statin",
+        "evidence_ids": [
+          "E:note:row1263:52"
+        ]
+      },
+      {
+        "text": "takes medication: plavix",
+        "evidence_ids": [
+          "E:note:row1263:52"
+        ]
+      },
+      {
+        "text": "takes medication: Clopidogrel 75 mg PO DAILY",
+        "evidence_ids": [
+          "E:note:row1263:64"
+        ]
+      },
+      {
+        "text": "takes medication: Docusate Sodium 100 mg PO BID:PRN constipation",
+        "evidence_ids": [
+          "E:note:row1263:65"
+        ]
+      },
+      {
+        "text": "takes medication: Doxazosin 8 mg PO HS",
+        "evidence_ids": [
+          "E:note:row1263:66"
+        ]
+      },
+      {
+        "text": "takes medication: Gabapentin 200 mg PO HS",
+        "evidence_ids": [
+          "E:note:row1263:67"
+        ]
+      },
+      {
+        "text": "takes medication: Lorazepam 0.5 mg PO HS",
+        "evidence_ids": [
+          "E:note:row1263:68"
+        ]
+      },
+      {
+        "text": "takes medication: Metoprolol Tartrate 25mg PO BID",
+        "evidence_ids": [
+          "E:note:row1263:69"
+        ]
+      },
+      {
+        "text": "takes medication: Mirtazapine 30 mg PO HS",
+        "evidence_ids": [
+          "E:note:row1263:70"
+        ]
+      },
+      {
+        "text": "takes medication: Senna 1 TAB PO BID",
+        "evidence_ids": [
+          "E:note:row1263:71"
+        ]
+      },
+      {
+        "text": "takes medication: Lisinopril 5 mg PO DAILY",
+        "evidence_ids": [
+          "E:note:row1263:72"
+        ]
+      },
+      {
+        "text": "takes medication: Nitroglycerin Patch 0.2 mg/hr TD Q24H 9am-9pm",
+        "evidence_ids": [
+          "E:note:row1263:73"
+        ]
+      },
+      {
+        "text": "takes medication: Furosemide 20-40 mg PO DAILY",
+        "evidence_ids": [
+          "E:note:row1263:74"
+        ]
+      },
+      {
+        "text": "takes medication: Multivitamin",
+        "evidence_ids": [
+          "E:note:row1263:75"
+        ]
+      },
+      {
+        "text": "takes medication: Cortisporin otic 2 drops qhs",
+        "evidence_ids": [
+          "E:note:row1263:76"
+        ]
+      }
+    ],
+    "labs": [
+      {
+        "text": "lab result: UA returned positive",
+        "evidence_ids": [
+          "E:note:row1263:21"
+        ]
+      },
+      {
+        "text": "lab result: WBC-12.8",
+        "evidence_ids": [
+          "E:note:row1263:34"
+        ]
+      }
+    ],
+    "vitals": [
+      {
+        "text": "vital sign: tachycardic to the 130s",
+        "evidence_ids": [
+          "E:note:row1263:16"
+        ]
+      },
+      {
+        "text": "vital sign: blood pressure in the systolics of 60",
+        "evidence_ids": [
+          "E:note:row1263:16"
+        ]
+      }
+    ],
+    "plan": []
+  }
+}

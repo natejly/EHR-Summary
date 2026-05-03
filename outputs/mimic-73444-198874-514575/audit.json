@@ -1,0 +1,122 @@
+{
+  "case_id": "mimic-73444-198874-514575",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 1160,
+    "summary_chars": 394,
+    "target_min_chars": 232,
+    "target_max_chars": 348,
+    "achieved_ratio": 0.3396551724137931,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 5,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:9",
+      "E:note:row514575:7"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Subendocardial infarction [E:cond:1], NSTEMI [E:note:row514575:7], acute respiratory failure [E:cond:2], acute on chronic systolic HF [E:cond:3], cerebral embolism [E:cond:4], pneumonitis [E:cond:5], alcohol withdrawal delirium [E:cond:9], and T2DM [E:cond:10].",
+        "severity": "medium",
+        "reason": "The summary includes 'NSTEMI' which is not present in the provided fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Subendocardial infarction [E:cond:1], NSTEMI [E:note:row514575:7], acute respiratory failure [E:cond:2], acute on chronic systolic HF [E:cond:3], cerebral embolism [E:cond:4], pneumonitis [E:cond:5], alcohol withdrawal delirium [E:cond:9], and T2DM [E:cond:10].",
+        "suggested": "Subendocardial infarction [E:cond:1], acute respiratory failure [E:cond:2], acute on chronic systolic HF [E:cond:3], cerebral embolism [E:cond:4], pneumonitis [E:cond:5], alcohol withdrawal delirium [E:cond:9], and T2DM [E:cond:10].",
+        "reason": "Removed NSTEMI as it is not supported by the provided fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-73444-198874-514575/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.55,
+    "fk_words": 150,
+    "fk_sentences": 14,
+    "fk_syllables": 241,
+    "chars": 1266,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-73444-198874-514575/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0016525830142199993,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 46.6779677500017,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 58.27288541698363,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.001502834027633071,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 14.976380458974745,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 3.919087957998272,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0021633749711327255,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 12.754332291951869,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

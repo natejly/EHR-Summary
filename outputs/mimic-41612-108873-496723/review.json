@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Sepsis, bacterial pneumonia, acute respiratory failure [E:cond:1][E:cond:2][E:cond:3], AKI [E:cond:4], toxic encephalopathy [E:cond:5], and influenza [E:cond:10].",
+      "severity": "medium",
+      "reason": "Omits critical active problems from the fact sheet including acidosis, coagulation defects, and hypovolemia."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Sepsis, bacterial pneumonia, acute respiratory failure [E:cond:1][E:cond:2][E:cond:3], AKI [E:cond:4], toxic encephalopathy [E:cond:5], and influenza [E:cond:10].",
+      "suggested": "Sepsis, bacterial pneumonia, acute respiratory failure [E:cond:1][E:cond:2][E:cond:3], AKI [E:cond:4], toxic encephalopathy [E:cond:5], influenza [E:cond:10], acidosis [E:cond:6], coagulation defects [E:cond:7], and hypovolemia [E:cond:11].",
+      "reason": "Includes missing critical diagnoses from the fact sheet."
+    }
+  ]
+}

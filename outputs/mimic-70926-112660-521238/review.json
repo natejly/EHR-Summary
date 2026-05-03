@@ -1,0 +1,36 @@
+{
+  "concerns": [
+    {
+      "sentence": "Sepsis, septicemia, and acute respiratory, kidney, and hepatic failure [E:cond:1][E:cond:2][E:cond:3][E:cond:4][E:cond:5].",
+      "severity": "medium",
+      "reason": "Misinterprets 'Hepatic encephalopathy' as 'hepatic failure'."
+    },
+    {
+      "sentence": "Cirrhosis, NASH, acidosis, pleural effusion, UTI, and blood in stool [E:cond:6][E:cond:8][E:cond:9][E:cond:10][E:note:row521238:1][E:note:row521238:2].",
+      "severity": "medium",
+      "reason": "Introduces 'NASH' which is not present in the fact sheet."
+    },
+    {
+      "sentence": "HTN, hypercholesterolemia, LBP, depression, anxiety, and dysthymic disorder [E:cond:11][E:note:row521238:1].",
+      "severity": "medium",
+      "reason": "Introduces multiple conditions (HTN, hypercholesterolemia, LBP, depression, anxiety) not present in the fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Sepsis, septicemia, and acute respiratory, kidney, and hepatic failure [E:cond:1][E:cond:2][E:cond:3][E:cond:4][E:cond:5].",
+      "suggested": "Sepsis, septicemia, acute respiratory failure, acute kidney failure, and hepatic encephalopathy [E:cond:1][E:cond:2][E:cond:3][E:cond:4][E:cond:5].",
+      "reason": "Corrects 'hepatic failure' to 'hepatic encephalopathy' per the fact sheet."
+    },
+    {
+      "original": "Cirrhosis, NASH, acidosis, pleural effusion, UTI, and blood in stool [E:cond:6][E:cond:8][E:cond:9][E:cond:10][E:note:row521238:1][E:note:row521238:2].",
+      "suggested": "Cirrhosis, acidosis, pleural effusion, UTI, and blood in stool [E:cond:6][E:cond:8][E:cond:9][E:cond:10].",
+      "reason": "Removes 'NASH' and unsupported citations."
+    },
+    {
+      "original": "HTN, hypercholesterolemia, LBP, depression, anxiety, and dysthymic disorder [E:cond:11][E:note:row521238:1].",
+      "suggested": "Dysthymic disorder [E:cond:11].",
+      "reason": "Removes all conditions not listed in the fact sheet."
+    }
+  ]
+}

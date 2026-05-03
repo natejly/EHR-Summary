@@ -1,0 +1,732 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-20421-168753",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-20421",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-20421",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-168753",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-168753",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2171-10-07T00:00:00",
+          "end": "2171-10-21T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "431",
+              "display": "Intracerebral hemorrhage"
+            }
+          ],
+          "text": "Intracerebral hemorrhage"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "34290",
+              "display": "Hemiplegia, unspecified, affecting unspecified side"
+            }
+          ],
+          "text": "Hemiplegia, unspecified, affecting unspecified side"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1911",
+              "display": "Malignant neoplasm of frontal lobe"
+            }
+          ],
+          "text": "Malignant neoplasm of frontal lobe"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2763",
+              "display": "Alkalosis"
+            }
+          ],
+          "text": "Alkalosis"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "34830",
+              "display": "Encephalopathy, unspecified"
+            }
+          ],
+          "text": "Encephalopathy, unspecified"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99731",
+              "display": "Ventilator associated pneumonia"
+            }
+          ],
+          "text": "Ventilator associated pneumonia"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2760",
+              "display": "Hyperosmolality and/or hypernatremia"
+            }
+          ],
+          "text": "Hyperosmolality and/or hypernatremia"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "23875",
+              "display": "Myelodysplastic syndrome, unspecified"
+            }
+          ],
+          "text": "Myelodysplastic syndrome, unspecified"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "28984",
+              "display": "Heparin-induced thrombocytopenia (HIT)"
+            }
+          ],
+          "text": "Heparin-induced thrombocytopenia (HIT)"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42731",
+              "display": "Atrial fibrillation"
+            }
+          ],
+          "text": "Atrial fibrillation"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41400",
+              "display": "Coronary atherosclerosis of unspecified type of vessel, native or graft"
+            }
+          ],
+          "text": "Coronary atherosclerosis of unspecified type of vessel, native or graft"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4581",
+              "display": "Aortocoronary bypass status"
+            }
+          ],
+          "text": "Aortocoronary bypass status"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2724",
+              "display": "Other and unspecified hyperlipidemia"
+            }
+          ],
+          "text": "Other and unspecified hyperlipidemia"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25200",
+              "display": "Hyperparathyroidism, unspecified"
+            }
+          ],
+          "text": "Hyperparathyroidism, unspecified"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2749",
+              "display": "Gout, unspecified"
+            }
+          ],
+          "text": "Gout, unspecified"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2449",
+              "display": "Unspecified acquired hypothyroidism"
+            }
+          ],
+          "text": "Unspecified acquired hypothyroidism"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70703",
+              "display": "Pressure ulcer, lower back"
+            }
+          ],
+          "text": "Pressure ulcer, lower back"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70722",
+              "display": "Pressure ulcer, stage II"
+            }
+          ],
+          "text": "Pressure ulcer, stage II"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "79029",
+              "display": "Other abnormal glucose"
+            }
+          ],
+          "text": "Other abnormal glucose"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78039",
+              "display": "Other convulsions"
+            }
+          ],
+          "text": "Other convulsions"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-168753-24",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-168753-24",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "04112",
+              "display": "Methicillin resistant Staphylococcus aureus in conditions classified elsewhere and of unspecified site"
+            }
+          ],
+          "text": "Methicillin resistant Staphylococcus aureus in conditions classified elsewhere and of unspecified site"
+        },
+        "onsetDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-168753-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-168753-1",
+        "status": "completed",
+        "code": {
+          "text": "Temporary tracheostomy"
+        },
+        "performedDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-168753-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-168753-2",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-168753-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-168753-3",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of platelets"
+        },
+        "performedDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-168753-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-168753-4",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-168753-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-168753-5",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of packed cells"
+        },
+        "performedDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-168753-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-168753-6",
+        "status": "completed",
+        "code": {
+          "text": "Closed [percutaneous] [needle] biopsy of brain"
+        },
+        "performedDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-168753-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-168753-7",
+        "status": "completed",
+        "code": {
+          "text": "Fiber-optic bronchoscopy"
+        },
+        "performedDateTime": "2171-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-168753-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-168753-8",
+        "status": "completed",
+        "code": {
+          "text": "Other immobilization, pressure, and attention to wound"
+        },
+        "performedDateTime": "2171-10-07"
+      }
+    }
+  ]
+}

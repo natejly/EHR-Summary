@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Additional findings: stage III pressure ulcers (buttock, lower back) [E:cond:7][E:cond:8][E:cond:19][E:cond:20][E:cond:21][E:cond:22], hypernatremia [E:cond:9][E:cond:10], coagulopathy [E:cond:13][E:cond:14][E:note:row600430:15], and anemia [E:cond:41][E:cond:42].",
+      "severity": "medium",
+      "reason": "The summary includes 'anemia' and 'coagulopathy' citations (E:cond:41, E:cond:42, E:note:row600430:15) that are not present in the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Additional findings: stage III pressure ulcers (buttock, lower back) [E:cond:7][E:cond:8][E:cond:19][E:cond:20][E:cond:21][E:cond:22], hypernatremia [E:cond:9][E:cond:10], coagulopathy [E:cond:13][E:cond:14][E:note:row600430:15], and anemia [E:cond:41][E:cond:42].",
+      "suggested": "Additional findings: stage III pressure ulcers (buttock, lower back) [E:cond:7][E:cond:8][E:cond:19][E:cond:20][E:cond:21][E:cond:22], hypernatremia [E:cond:9][E:cond:10], and coagulation defects [E:cond:13][E:cond:14].",
+      "reason": "Remove anemia and the unsupported citation for coagulopathy as they are absent from the fact sheet."
+    }
+  ]
+}

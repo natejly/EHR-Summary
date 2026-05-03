@@ -1,0 +1,127 @@
+{
+  "case_id": "mimic-29307-175627-318233",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 784,
+    "summary_chars": 500,
+    "target_min_chars": 200,
+    "target_max_chars": 300,
+    "achieved_ratio": 0.6377551020408163,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 6,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:note:row318233:2",
+      "E:note:row318233:3",
+      "E:note:row318233:4",
+      "E:note:row318233:5",
+      "E:note:row318233:8",
+      "E:note:row318233:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Methylpred [E:note:row318233:4], vanco, and levaquin [E:note:row318233:8].",
+        "severity": "medium",
+        "reason": "Vanco is missing its specific citation from the fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Methylpred [E:note:row318233:4], vanco, and levaquin [E:note:row318233:8].",
+        "suggested": "Methylpred [E:note:row318233:4], vanco [E:note:row318233:8], and levaquin [E:note:row318233:8].",
+        "reason": "Ensure all medications are explicitly cited according to the fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-29307-175627-318233/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.51,
+    "fk_words": 177,
+    "fk_sentences": 18,
+    "fk_syllables": 274,
+    "chars": 1490,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-29307-175627-318233/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.003611000021919608,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 106.39941279200139,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 77.08196025004145,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.002098167024087161,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 69.79589912499068,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 9.012992874952033,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0033167919609695673,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 8.074573040998075,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

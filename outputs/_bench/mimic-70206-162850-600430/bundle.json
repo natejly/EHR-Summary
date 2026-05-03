@@ -1,0 +1,1556 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-70206-162850",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-70206",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-70206",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-162850",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-162850",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2145-09-20T00:00:00",
+          "end": "2145-09-30T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5722",
+              "display": "Hepatic encephalopathy"
+            }
+          ],
+          "text": "Hepatic encephalopathy"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5722",
+              "display": "Hepatic encephalopathy"
+            }
+          ],
+          "text": "Hepatic encephalopathy"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5845",
+              "display": "Acute kidney failure with lesion of tubular necrosis"
+            }
+          ],
+          "text": "Acute kidney failure with lesion of tubular necrosis"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5845",
+              "display": "Acute kidney failure with lesion of tubular necrosis"
+            }
+          ],
+          "text": "Acute kidney failure with lesion of tubular necrosis"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70723",
+              "display": "Pressure ulcer, stage III"
+            }
+          ],
+          "text": "Pressure ulcer, stage III"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70723",
+              "display": "Pressure ulcer, stage III"
+            }
+          ],
+          "text": "Pressure ulcer, stage III"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2760",
+              "display": "Hyperosmolality and/or hypernatremia"
+            }
+          ],
+          "text": "Hyperosmolality and/or hypernatremia"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2760",
+              "display": "Hyperosmolality and/or hypernatremia"
+            }
+          ],
+          "text": "Hyperosmolality and/or hypernatremia"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1976",
+              "display": "Secondary malignant neoplasm of retroperitoneum and peritoneum"
+            }
+          ],
+          "text": "Secondary malignant neoplasm of retroperitoneum and peritoneum"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1976",
+              "display": "Secondary malignant neoplasm of retroperitoneum and peritoneum"
+            }
+          ],
+          "text": "Secondary malignant neoplasm of retroperitoneum and peritoneum"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2869",
+              "display": "Other and unspecified coagulation defects"
+            }
+          ],
+          "text": "Other and unspecified coagulation defects"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2869",
+              "display": "Other and unspecified coagulation defects"
+            }
+          ],
+          "text": "Other and unspecified coagulation defects"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5715",
+              "display": "Cirrhosis of liver without mention of alcohol"
+            }
+          ],
+          "text": "Cirrhosis of liver without mention of alcohol"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5715",
+              "display": "Cirrhosis of liver without mention of alcohol"
+            }
+          ],
+          "text": "Cirrhosis of liver without mention of alcohol"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V440",
+              "display": "Tracheostomy status"
+            }
+          ],
+          "text": "Tracheostomy status"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V440",
+              "display": "Tracheostomy status"
+            }
+          ],
+          "text": "Tracheostomy status"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70705",
+              "display": "Pressure ulcer, buttock"
+            }
+          ],
+          "text": "Pressure ulcer, buttock"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70705",
+              "display": "Pressure ulcer, buttock"
+            }
+          ],
+          "text": "Pressure ulcer, buttock"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70703",
+              "display": "Pressure ulcer, lower back"
+            }
+          ],
+          "text": "Pressure ulcer, lower back"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70703",
+              "display": "Pressure ulcer, lower back"
+            }
+          ],
+          "text": "Pressure ulcer, lower back"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0549",
+              "display": "Herpes simplex without mention of complication"
+            }
+          ],
+          "text": "Herpes simplex without mention of complication"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0549",
+              "display": "Herpes simplex without mention of complication"
+            }
+          ],
+          "text": "Herpes simplex without mention of complication"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "311",
+              "display": "Depressive disorder, not elsewhere classified"
+            }
+          ],
+          "text": "Depressive disorder, not elsewhere classified"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "311",
+              "display": "Depressive disorder, not elsewhere classified"
+            }
+          ],
+          "text": "Depressive disorder, not elsewhere classified"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "49390",
+              "display": "Asthma, unspecified type, unspecified"
+            }
+          ],
+          "text": "Asthma, unspecified type, unspecified"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "49390",
+              "display": "Asthma, unspecified type, unspecified"
+            }
+          ],
+          "text": "Asthma, unspecified type, unspecified"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25001",
+              "display": "Diabetes mellitus without mention of complication, type I [juvenile type], not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type I [juvenile type], not stated as uncontrolled"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25001",
+              "display": "Diabetes mellitus without mention of complication, type I [juvenile type], not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type I [juvenile type], not stated as uncontrolled"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "32723",
+              "display": "Obstructive sleep apnea (adult)(pediatric)"
+            }
+          ],
+          "text": "Obstructive sleep apnea (adult)(pediatric)"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "32723",
+              "display": "Obstructive sleep apnea (adult)(pediatric)"
+            }
+          ],
+          "text": "Obstructive sleep apnea (adult)(pediatric)"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "27801",
+              "display": "Morbid obesity"
+            }
+          ],
+          "text": "Morbid obesity"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "27801",
+              "display": "Morbid obesity"
+            }
+          ],
+          "text": "Morbid obesity"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "59970",
+              "display": "Hematuria, unspecified"
+            }
+          ],
+          "text": "Hematuria, unspecified"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "59970",
+              "display": "Hematuria, unspecified"
+            }
+          ],
+          "text": "Hematuria, unspecified"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2724",
+              "display": "Other and unspecified hyperlipidemia"
+            }
+          ],
+          "text": "Other and unspecified hyperlipidemia"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2724",
+              "display": "Other and unspecified hyperlipidemia"
+            }
+          ],
+          "text": "Other and unspecified hyperlipidemia"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7220",
+              "display": "Displacement of cervical intervertebral disc without myelopathy"
+            }
+          ],
+          "text": "Displacement of cervical intervertebral disc without myelopathy"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7220",
+              "display": "Displacement of cervical intervertebral disc without myelopathy"
+            }
+          ],
+          "text": "Displacement of cervical intervertebral disc without myelopathy"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2859",
+              "display": "Anemia, unspecified"
+            }
+          ],
+          "text": "Anemia, unspecified"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2859",
+              "display": "Anemia, unspecified"
+            }
+          ],
+          "text": "Anemia, unspecified"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2875",
+              "display": "Thrombocytopenia, unspecified"
+            }
+          ],
+          "text": "Thrombocytopenia, unspecified"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2875",
+              "display": "Thrombocytopenia, unspecified"
+            }
+          ],
+          "text": "Thrombocytopenia, unspecified"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "71590",
+              "display": "Osteoarthrosis, unspecified whether generalized or localized, site unspecified"
+            }
+          ],
+          "text": "Osteoarthrosis, unspecified whether generalized or localized, site unspecified"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "71590",
+              "display": "Osteoarthrosis, unspecified whether generalized or localized, site unspecified"
+            }
+          ],
+          "text": "Osteoarthrosis, unspecified whether generalized or localized, site unspecified"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-24",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-24",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V5867",
+              "display": "Long-term (current) use of insulin"
+            }
+          ],
+          "text": "Long-term (current) use of insulin"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-24",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-24",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V5867",
+              "display": "Long-term (current) use of insulin"
+            }
+          ],
+          "text": "Long-term (current) use of insulin"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-25",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-25",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V1005",
+              "display": "Personal history of malignant neoplasm of large intestine"
+            }
+          ],
+          "text": "Personal history of malignant neoplasm of large intestine"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-25",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-25",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V1005",
+              "display": "Personal history of malignant neoplasm of large intestine"
+            }
+          ],
+          "text": "Personal history of malignant neoplasm of large intestine"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-26",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-26",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4572",
+              "display": "Acquired absence of intestine (large) (small)"
+            }
+          ],
+          "text": "Acquired absence of intestine (large) (small)"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-26",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-26",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4572",
+              "display": "Acquired absence of intestine (large) (small)"
+            }
+          ],
+          "text": "Acquired absence of intestine (large) (small)"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-27",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-27",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V8741",
+              "display": "Personal history of antineoplastic chemotherapy"
+            }
+          ],
+          "text": "Personal history of antineoplastic chemotherapy"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-27",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-27",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V8741",
+              "display": "Personal history of antineoplastic chemotherapy"
+            }
+          ],
+          "text": "Personal history of antineoplastic chemotherapy"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-28",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-28",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V153",
+              "display": "Personal history of irradiation, presenting hazards to health"
+            }
+          ],
+          "text": "Personal history of irradiation, presenting hazards to health"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-162850-28",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-162850-28",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V153",
+              "display": "Personal history of irradiation, presenting hazards to health"
+            }
+          ],
+          "text": "Personal history of irradiation, presenting hazards to health"
+        },
+        "onsetDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-162850-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-162850-1",
+        "status": "completed",
+        "code": {
+          "text": "Spinal tap"
+        },
+        "performedDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-162850-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-162850-1",
+        "status": "completed",
+        "code": {
+          "text": "Spinal tap"
+        },
+        "performedDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-162850-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-162850-2",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-162850-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-162850-2",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-162850-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-162850-3",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of (naso-)intestinal tube"
+        },
+        "performedDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-162850-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-162850-3",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of (naso-)intestinal tube"
+        },
+        "performedDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-162850-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-162850-4",
+        "status": "completed",
+        "code": {
+          "text": "Other x-ray of intestine"
+        },
+        "performedDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-162850-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-162850-4",
+        "status": "completed",
+        "code": {
+          "text": "Other x-ray of intestine"
+        },
+        "performedDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-162850-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-162850-5",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2145-09-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-162850-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-162850-5",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2145-09-20"
+      }
+    }
+  ]
+}

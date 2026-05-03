@@ -1,0 +1,1321 @@
+{
+  "case_id": "mimic-78481-143054-640463",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "ELECTIVE",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:enc-143054",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Incisional hernia without mention of obstruction or gangrene",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "55321",
+        "display": "Incisional hernia without mention of obstruction or gangrene"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Unspecified septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0389",
+        "display": "Unspecified septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Other postoperative infection",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99859",
+        "display": "Other postoperative infection"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99591",
+        "display": "Sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Acute posthemorrhagic anemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2851",
+        "display": "Acute posthemorrhagic anemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Toxic encephalopathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34982",
+        "display": "Toxic encephalopathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Persistent postoperative fistula",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9986",
+        "display": "Persistent postoperative fistula"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Jaundice, unspecified, not of newborn",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7824",
+        "display": "Jaundice, unspecified, not of newborn"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Disruption of internal operation (surgical) wound",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99831",
+        "display": "Disruption of internal operation (surgical) wound"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4538",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Acute kidney failure with lesion of tubular necrosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5845",
+        "display": "Acute kidney failure with lesion of tubular necrosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Intestinal infection due to Clostridium difficile",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "00845",
+        "display": "Intestinal infection due to Clostridium difficile"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Epilepsy, unspecified, without mention of intractable epilepsy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34590",
+        "display": "Epilepsy, unspecified, without mention of intractable epilepsy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Dysthymic disorder",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3004",
+        "display": "Dysthymic disorder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Mitral valve disorders",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4240",
+        "display": "Mitral valve disorders"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Other specified surgical operations and procedures causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8788",
+        "display": "Other specified surgical operations and procedures causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Bipolar disorder, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "29680",
+        "display": "Bipolar disorder, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Other specified disorders of biliary tract",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5768",
+        "display": "Other specified disorders of biliary tract"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Other diseases of trachea and bronchus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51919",
+        "display": "Other diseases of trachea and bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Hypopotassemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2768",
+        "display": "Hypopotassemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Peritoneal adhesions (postoperative) (postinfection)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5680",
+        "display": "Peritoneal adhesions (postoperative) (postinfection)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:cond-143054-23",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Other lysis of peritoneal adhesions",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other lysis of peritoneal adhesions"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:proc-143054-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Temporary tracheostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Temporary tracheostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:proc-143054-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Other open incisional hernia repair with graft or prosthesis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other open incisional hernia repair with graft or prosthesis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:proc-143054-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Incision of abdominal wall",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Incision of abdominal wall"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:proc-143054-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Excisional debridement of wound, infection, or burn",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Excisional debridement of wound, infection, or burn"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:proc-143054-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Reopening of recent laparotomy site",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Reopening of recent laparotomy site"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:proc-143054-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Incision of abdominal wall",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Incision of abdominal wall"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:proc-143054-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Excision or destruction of lesion or tissue of abdominal wall or umbilicus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Excision or destruction of lesion or tissue of abdominal wall or umbilicus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:proc-143054-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Application or administration of an adhesion barrier substance",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Application or administration of an adhesion barrier substance"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:proc-143054-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:proc-143054-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Parenteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Parenteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:proc-143054-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Spinal tap",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Spinal tap"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:proc-143054-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Transfusion of packed cells",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of packed cells"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:proc-143054-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:14",
+      "kind": "procedure",
+      "display": "Transfusion of other serum",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of other serum"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:proc-143054-14",
+      "text": null
+    },
+    {
+      "id": "E:proc:15",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:proc-143054-15",
+      "text": null
+    },
+    {
+      "id": "E:proc:16",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:proc-143054-16",
+      "text": null
+    },
+    {
+      "id": "E:proc:17",
+      "kind": "procedure",
+      "display": "Hemodialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Hemodialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:proc-143054-17",
+      "text": null
+    },
+    {
+      "id": "E:proc:18",
+      "kind": "procedure",
+      "display": "Venous catheterization for renal dialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization for renal dialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:proc-143054-18",
+      "text": null
+    },
+    {
+      "id": "E:proc:19",
+      "kind": "procedure",
+      "display": "Fiber-optic bronchoscopy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Fiber-optic bronchoscopy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:proc-143054-19",
+      "text": null
+    },
+    {
+      "id": "E:proc:20",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:proc-143054-20",
+      "text": null
+    },
+    {
+      "id": "E:proc:21",
+      "kind": "procedure",
+      "display": "Fiber-optic bronchoscopy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Fiber-optic bronchoscopy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2101-09-01",
+      "source_ref": "urn:uuid:proc-143054-21",
+      "text": null
+    },
+    {
+      "id": "E:note:row640463:1",
+      "kind": "note_sentence",
+      "display": "This is a 68 year-old woman POD 5 s/p ventral hernia repair.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s1",
+      "text": "This is a 68 year-old woman POD 5 s/p ventral hernia repair."
+    },
+    {
+      "id": "E:note:row640463:2",
+      "kind": "note_sentence",
+      "display": "Post-operative course complicated by tachycardia, persistent fevers,    and alte",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s2",
+      "text": "Post-operative course complicated by tachycardia, persistent fevers,    and altered mental status."
+    },
+    {
+      "id": "E:note:row640463:3",
+      "kind": "note_sentence",
+      "display": "Recent surgery at OSH for SBO complicated by    wound infection and abscess as w",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s3",
+      "text": "Recent surgery at OSH for SBO complicated by    wound infection and abscess as well as ventral hernia, which was the    subject of this current surgery."
+    },
+    {
+      "id": "E:note:row640463:4",
+      "kind": "note_sentence",
+      "display": "Central line inserted on [**9-9**],    peripheral IV for IV contrast was tried b",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s4",
+      "text": "Central line inserted on [**9-9**],    peripheral IV for IV contrast was tried by IV nurse and the team under    ultrasound guidance, to no avail."
+    },
+    {
+      "id": "E:note:row640463:5",
+      "kind": "note_sentence",
+      "display": "CT was then done with only with oral    contrast.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s5",
+      "text": "CT was then done with only with oral    contrast."
+    },
+    {
+      "id": "E:note:row640463:6",
+      "kind": "note_sentence",
+      "display": "CT scan of abdomen and sinuses done on [**9-20**], continued on    Vancomycin an",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s6",
+      "text": "CT scan of abdomen and sinuses done on [**9-20**], continued on    Vancomycin and Zosyn."
+    },
+    {
+      "id": "E:note:row640463:7",
+      "kind": "note_sentence",
+      "display": "The CT scan of abdomen of abdomen showed a    hematoma.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s7",
+      "text": "The CT scan of abdomen of abdomen showed a    hematoma."
+    },
+    {
+      "id": "E:note:row640463:8",
+      "kind": "note_sentence",
+      "display": "Pt needs to be sent to OR for evacuation of hematoma.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s8",
+      "text": "Pt needs to be sent to OR for evacuation of hematoma."
+    },
+    {
+      "id": "E:note:row640463:9",
+      "kind": "note_sentence",
+      "display": "Acute Pain    Assessment:    Pt c/o constant pain; at times verbalizes abdominal",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s9",
+      "text": "Acute Pain    Assessment:    Pt c/o constant pain; at times verbalizes abdominal pain [**9-2**], other    times just moans and the pain cannot be scored, tachycardiac and had a    short episode of HR in 150s and BP above 160/100  after she came back    from CT scan of abdomen and sinuses."
+    },
+    {
+      "id": "E:note:row640463:10",
+      "kind": "note_sentence",
+      "display": "Action:    Received Dilaudid 2-4 mg IV Q 2-4 hrs.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s10",
+      "text": "Action:    Received Dilaudid 2-4 mg IV Q 2-4 hrs."
+    },
+    {
+      "id": "E:note:row640463:11",
+      "kind": "note_sentence",
+      "display": "Given 500 cc NS bolus, also    given 10 mg Lopressor IV  for tachycardia.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s11",
+      "text": "Given 500 cc NS bolus, also    given 10 mg Lopressor IV  for tachycardia."
+    },
+    {
+      "id": "E:note:row640463:12",
+      "kind": "note_sentence",
+      "display": "Response:    Pain is still constant, HR 120s, BP one teens, afebrile, Temp has b",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s12",
+      "text": "Response:    Pain is still constant, HR 120s, BP one teens, afebrile, Temp has been    less than 100 all throughout the shift."
+    },
+    {
+      "id": "E:note:row640463:13",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue assessing pain and V/S, consider starting a standing order of ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s13",
+      "text": "Plan:    Continue assessing pain and V/S, consider starting a standing order of    pain medication and probably anxiolytics."
+    },
+    {
+      "id": "E:note:row640463:14",
+      "kind": "note_sentence",
+      "display": "Thromboembolism, other    Assessment:    Pt was found to have DVT in Rt IJ; righ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s14",
+      "text": "Thromboembolism, other    Assessment:    Pt was found to have DVT in Rt IJ; right arm is swollen, cool to touch,    and blanchable secondary to? clot.."
+    },
+    {
+      "id": "E:note:row640463:15",
+      "kind": "note_sentence",
+      "display": "Action:    Rt arm elevated over 2 pillows.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s15",
+      "text": "Action:    Rt arm elevated over 2 pillows."
+    },
+    {
+      "id": "E:note:row640463:16",
+      "kind": "note_sentence",
+      "display": "Pt was started on Heparin drip at 1500    units/hr.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s16",
+      "text": "Pt was started on Heparin drip at 1500    units/hr."
+    },
+    {
+      "id": "E:note:row640463:17",
+      "kind": "note_sentence",
+      "display": "Response:    PTT and INR high at the start of Heparin drip.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s17",
+      "text": "Response:    PTT and INR high at the start of Heparin drip."
+    },
+    {
+      "id": "E:note:row640463:18",
+      "kind": "note_sentence",
+      "display": "Heparin stopped at 5: 30    am for OR.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s18",
+      "text": "Heparin stopped at 5: 30    am for OR."
+    },
+    {
+      "id": "E:note:row640463:19",
+      "kind": "note_sentence",
+      "display": "Plan:    Check PTT, ?? resume heparin post-op for DVT.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s19",
+      "text": "Plan:    Check PTT, ?? resume heparin post-op for DVT."
+    },
+    {
+      "id": "E:note:row640463:20",
+      "kind": "note_sentence",
+      "display": "Anemia, other    Assessment:    Pt looks pale; Hct was 23.1, then 24.2.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s20",
+      "text": "Anemia, other    Assessment:    Pt looks pale; Hct was 23.1, then 24.2."
+    },
+    {
+      "id": "E:note:row640463:21",
+      "kind": "note_sentence",
+      "display": "Action:    Pt transfused with one unit of blood (still being infused)    Respons",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s21",
+      "text": "Action:    Pt transfused with one unit of blood (still being infused)    Response:    No reaction to one unit of PRBCs."
+    },
+    {
+      "id": "E:note:row640463:22",
+      "kind": "note_sentence",
+      "display": "Plan:    Check Hct around 8 a.m. and assess s/s of bleeding, transfuse as    nee",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s22",
+      "text": "Plan:    Check Hct around 8 a.m. and assess s/s of bleeding, transfuse as    needed."
+    },
+    {
+      "id": "E:note:row640463:23",
+      "kind": "note_sentence",
+      "display": "Others:    Potassium was 3.1, repleted with IV KCL as per sliding scale.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s23",
+      "text": "Others:    Potassium was 3.1, repleted with IV KCL as per sliding scale."
+    },
+    {
+      "id": "E:note:row640463:24",
+      "kind": "note_sentence",
+      "display": "Calcium    gluconate also given, pt to receive potassium phosphate when availabl",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s24",
+      "text": "Calcium    gluconate also given, pt to receive potassium phosphate when available    from the pharmacy."
+    },
+    {
+      "id": "E:note:row640463:25",
+      "kind": "note_sentence",
+      "display": "NG tube was attached to low intermittent suction, no drainage, stool    for C-Di",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s25",
+      "text": "NG tube was attached to low intermittent suction, no drainage, stool    for C-Diff sent."
+    },
+    {
+      "id": "E:note:row640463:26",
+      "kind": "note_sentence",
+      "display": "FS was 165, insulin given per sliding scale.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s26",
+      "text": "FS was 165, insulin given per sliding scale."
+    },
+    {
+      "id": "E:note:row640463:27",
+      "kind": "note_sentence",
+      "display": "Wound cleaned and packed 2x, dressing was soaked with moderate    serosanguinous",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s27",
+      "text": "Wound cleaned and packed 2x, dressing was soaked with moderate    serosanguinous secretions, presently dry, clean, and intact."
+    },
+    {
+      "id": "E:note:row640463:28",
+      "kind": "note_sentence",
+      "display": "U/O was low, received NS bolus with moderate effect.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row640463#s28",
+      "text": "U/O was low, received NS bolus with moderate effect."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|55321": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|0389": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99859": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99591": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2851": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|34982": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|9986": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7824": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99831": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4538": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5845": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|00845": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|34590": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3004": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4240": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8788": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|29680": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5768": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51919": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2768": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5680": [
+      "E:cond:23"
+    ]
+  },
+  "by_display": {
+    "elective": [
+      "E:enc:1"
+    ],
+    "incisional hernia without mention of obstruction or gangrene": [
+      "E:cond:1"
+    ],
+    "unspecified septicemia": [
+      "E:cond:2"
+    ],
+    "other postoperative infection": [
+      "E:cond:3"
+    ],
+    "sepsis": [
+      "E:cond:4"
+    ],
+    "acute posthemorrhagic anemia": [
+      "E:cond:5"
+    ],
+    "toxic encephalopathy": [
+      "E:cond:6"
+    ],
+    "persistent postoperative fistula": [
+      "E:cond:7"
+    ],
+    "jaundice, unspecified, not of newborn": [
+      "E:cond:8"
+    ],
+    "disruption of internal operation (surgical) wound": [
+      "E:cond:9"
+    ],
+    "acute respiratory failure": [
+      "E:cond:10"
+    ],
+    "diagnosis": [
+      "E:cond:11"
+    ],
+    "acute kidney failure with lesion of tubular necrosis": [
+      "E:cond:12"
+    ],
+    "intestinal infection due to clostridium difficile": [
+      "E:cond:13"
+    ],
+    "epilepsy, unspecified, without mention of intractable epilepsy": [
+      "E:cond:14"
+    ],
+    "dysthymic disorder": [
+      "E:cond:15"
+    ],
+    "mitral valve disorders": [
+      "E:cond:16"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:17"
+    ],
+    "other specified surgical operations and procedures causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation": [
+      "E:cond:18"
+    ],
+    "bipolar disorder, unspecified": [
+      "E:cond:19"
+    ],
+    "other specified disorders of biliary tract": [
+      "E:cond:20"
+    ],
+    "other diseases of trachea and bronchus": [
+      "E:cond:21"
+    ],
+    "hypopotassemia": [
+      "E:cond:22"
+    ],
+    "peritoneal adhesions (postoperative) (postinfection)": [
+      "E:cond:23"
+    ],
+    "other lysis of peritoneal adhesions": [
+      "E:proc:1"
+    ],
+    "temporary tracheostomy": [
+      "E:proc:2"
+    ],
+    "other open incisional hernia repair with graft or prosthesis": [
+      "E:proc:3"
+    ],
+    "incision of abdominal wall": [
+      "E:proc:4",
+      "E:proc:7"
+    ],
+    "excisional debridement of wound, infection, or burn": [
+      "E:proc:5"
+    ],
+    "reopening of recent laparotomy site": [
+      "E:proc:6"
+    ],
+    "excision or destruction of lesion or tissue of abdominal wall or umbilicus": [
+      "E:proc:8"
+    ],
+    "application or administration of an adhesion barrier substance": [
+      "E:proc:9"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:10"
+    ],
+    "parenteral infusion of concentrated nutritional substances": [
+      "E:proc:11"
+    ],
+    "spinal tap": [
+      "E:proc:12"
+    ],
+    "transfusion of packed cells": [
+      "E:proc:13"
+    ],
+    "transfusion of other serum": [
+      "E:proc:14"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:15"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:16"
+    ],
+    "hemodialysis": [
+      "E:proc:17"
+    ],
+    "venous catheterization for renal dialysis": [
+      "E:proc:18"
+    ],
+    "fiber-optic bronchoscopy": [
+      "E:proc:19",
+      "E:proc:21"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:20"
+    ],
+    "this is a 68 year-old woman pod 5 s/p ventral hernia repair.": [
+      "E:note:row640463:1"
+    ],
+    "post-operative course complicated by tachycardia, persistent fevers, and alte": [
+      "E:note:row640463:2"
+    ],
+    "recent surgery at osh for sbo complicated by wound infection and abscess as w": [
+      "E:note:row640463:3"
+    ],
+    "central line inserted on [**9-9**], peripheral iv for iv contrast was tried b": [
+      "E:note:row640463:4"
+    ],
+    "ct was then done with only with oral contrast.": [
+      "E:note:row640463:5"
+    ],
+    "ct scan of abdomen and sinuses done on [**9-20**], continued on vancomycin an": [
+      "E:note:row640463:6"
+    ],
+    "the ct scan of abdomen of abdomen showed a hematoma.": [
+      "E:note:row640463:7"
+    ],
+    "pt needs to be sent to or for evacuation of hematoma.": [
+      "E:note:row640463:8"
+    ],
+    "acute pain assessment: pt c/o constant pain; at times verbalizes abdominal": [
+      "E:note:row640463:9"
+    ],
+    "action: received dilaudid 2-4 mg iv q 2-4 hrs.": [
+      "E:note:row640463:10"
+    ],
+    "given 500 cc ns bolus, also given 10 mg lopressor iv for tachycardia.": [
+      "E:note:row640463:11"
+    ],
+    "response: pain is still constant, hr 120s, bp one teens, afebrile, temp has b": [
+      "E:note:row640463:12"
+    ],
+    "plan: continue assessing pain and v/s, consider starting a standing order of": [
+      "E:note:row640463:13"
+    ],
+    "thromboembolism, other assessment: pt was found to have dvt in rt ij; righ": [
+      "E:note:row640463:14"
+    ],
+    "action: rt arm elevated over 2 pillows.": [
+      "E:note:row640463:15"
+    ],
+    "pt was started on heparin drip at 1500 units/hr.": [
+      "E:note:row640463:16"
+    ],
+    "response: ptt and inr high at the start of heparin drip.": [
+      "E:note:row640463:17"
+    ],
+    "heparin stopped at 5: 30 am for or.": [
+      "E:note:row640463:18"
+    ],
+    "plan: check ptt, ?? resume heparin post-op for dvt.": [
+      "E:note:row640463:19"
+    ],
+    "anemia, other assessment: pt looks pale; hct was 23.1, then 24.2.": [
+      "E:note:row640463:20"
+    ],
+    "action: pt transfused with one unit of blood (still being infused) respons": [
+      "E:note:row640463:21"
+    ],
+    "plan: check hct around 8 a.m. and assess s/s of bleeding, transfuse as nee": [
+      "E:note:row640463:22"
+    ],
+    "others: potassium was 3.1, repleted with iv kcl as per sliding scale.": [
+      "E:note:row640463:23"
+    ],
+    "calcium gluconate also given, pt to receive potassium phosphate when availabl": [
+      "E:note:row640463:24"
+    ],
+    "ng tube was attached to low intermittent suction, no drainage, stool for c-di": [
+      "E:note:row640463:25"
+    ],
+    "fs was 165, insulin given per sliding scale.": [
+      "E:note:row640463:26"
+    ],
+    "wound cleaned and packed 2x, dressing was soaked with moderate serosanguinous": [
+      "E:note:row640463:27"
+    ],
+    "u/o was low, received ns bolus with moderate effect.": [
+      "E:note:row640463:28"
+    ]
+  },
+  "by_date": {
+    "2101-09-01": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13",
+      "E:proc:14",
+      "E:proc:15",
+      "E:proc:16",
+      "E:proc:17",
+      "E:proc:18",
+      "E:proc:19",
+      "E:proc:20",
+      "E:proc:21"
+    ]
+  }
+}

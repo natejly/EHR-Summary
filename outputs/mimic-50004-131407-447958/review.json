@@ -1,0 +1,26 @@
+{
+  "concerns": [
+    {
+      "sentence": "Other issues: SIRS with organ dysfunction [E:cond:2], malignant lymphoma [E:cond:6], AG acidosis [E:note:row447958:6], shock [E:cond:16], hematemesis [E:cond:11], and thrombocytopenia [E:cond:13].",
+      "severity": "medium",
+      "reason": "The summary claims 'AG acidosis' citing a lactate result, but the fact sheet only lists 'Acidosis' [E:cond:7] without specifying an anion gap."
+    },
+    {
+      "sentence": "Procedures include hemodialysis [E:proc:4] and mechanical ventilation [E:proc:5].",
+      "severity": "high",
+      "reason": "These procedures are not listed anywhere in the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Other issues: SIRS with organ dysfunction [E:cond:2], malignant lymphoma [E:cond:6], AG acidosis [E:note:row447958:6], shock [E:cond:16], hematemesis [E:cond:11], and thrombocytopenia [E:cond:13].",
+      "suggested": "Other issues: SIRS with organ dysfunction [E:cond:2], malignant lymphoma [E:cond:6], acidosis [E:cond:7], shock [E:cond:16], hematemesis [E:cond:11], and thrombocytopenia [E:cond:13].",
+      "reason": "Corrects the specific type of acidosis to match the fact sheet and uses the correct evidence ID."
+    },
+    {
+      "original": "Procedures include hemodialysis [E:proc:4] and mechanical ventilation [E:proc:5].",
+      "suggested": "",
+      "reason": "Remove sentence as it contains hallucinations not supported by the fact sheet."
+    }
+  ]
+}

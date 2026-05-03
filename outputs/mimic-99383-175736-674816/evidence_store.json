@@ -1,0 +1,1035 @@
+{
+  "case_id": "mimic-99383-175736-674816",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:enc-175736",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Dieulafoy lesion (hemorrhagic) of stomach and duodenum",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53784",
+        "display": "Dieulafoy lesion (hemorrhagic) of stomach and duodenum"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:cond-175736-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute pancreatitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5770",
+        "display": "Acute pancreatitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:cond-175736-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Unspecified septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0389",
+        "display": "Unspecified septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:cond-175736-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:cond-175736-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Septic shock",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78552",
+        "display": "Septic shock"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:cond-175736-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:cond-175736-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:cond-175736-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Cardiac arrest",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4275",
+        "display": "Cardiac arrest"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:cond-175736-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Anoxic brain damage",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3481",
+        "display": "Anoxic brain damage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:cond-175736-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Toxic encephalopathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34982",
+        "display": "Toxic encephalopathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:cond-175736-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Glucocorticoid deficiency",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25541",
+        "display": "Glucocorticoid deficiency"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:cond-175736-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Other convulsions",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78039",
+        "display": "Other convulsions"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:cond-175736-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Thrombocytopenia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2875",
+        "display": "Thrombocytopenia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:cond-175736-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Cerebral edema",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3485",
+        "display": "Cerebral edema"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:cond-175736-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Other and unspecified coagulation defects",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2869",
+        "display": "Other and unspecified coagulation defects"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:cond-175736-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Acute alcoholic hepatitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5711",
+        "display": "Acute alcoholic hepatitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:cond-175736-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Other and unspecified alcohol dependence, continuous",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "30391",
+        "display": "Other and unspecified alcohol dependence, continuous"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:cond-175736-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Other and unspecified noninfectious gastroenteritis and colitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5589",
+        "display": "Other and unspecified noninfectious gastroenteritis and colitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:cond-175736-18",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Temporary tracheostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Temporary tracheostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:proc-175736-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:proc-175736-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Other intubation of respiratory tract",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other intubation of respiratory tract"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:proc-175736-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:proc-175736-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:proc-175736-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Injection or infusion of oxazolidinone class of antibiotics",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Injection or infusion of oxazolidinone class of antibiotics"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:proc-175736-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:proc-175736-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Venous catheterization for renal dialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization for renal dialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:proc-175736-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Hemodialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Hemodialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:proc-175736-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:proc-175736-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Parenteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Parenteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:proc-175736-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Closed biopsy of skin and subcutaneous tissue",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed biopsy of skin and subcutaneous tissue"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:proc-175736-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Other endoscopy of small intestine",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other endoscopy of small intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-05-17",
+      "source_ref": "urn:uuid:proc-175736-13",
+      "text": null
+    },
+    {
+      "id": "E:note:row674816:1",
+      "kind": "note_sentence",
+      "display": "Pancreatitis, acute    Assessment:    Pt with h/o etoh abuse (6 large  hard liqu",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s1",
+      "text": "Pancreatitis, acute    Assessment:    Pt with h/o etoh abuse (6 large  hard liquor drinks per day)."
+    },
+    {
+      "id": "E:note:row674816:2",
+      "kind": "note_sentence",
+      "display": "Panc    enymes/LFTs elevated.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s2",
+      "text": "Panc    enymes/LFTs elevated."
+    },
+    {
+      "id": "E:note:row674816:3",
+      "kind": "note_sentence",
+      "display": "CT remarkable for pancreatitis and fatty liver    changes.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s3",
+      "text": "CT remarkable for pancreatitis and fatty liver    changes."
+    },
+    {
+      "id": "E:note:row674816:4",
+      "kind": "note_sentence",
+      "display": "Lactate 8.1 in ED. + Bowel sounds in all 4 quads; abdomen    obese/distended.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s4",
+      "text": "Lactate 8.1 in ED. + Bowel sounds in all 4 quads; abdomen    obese/distended."
+    },
+    {
+      "id": "E:note:row674816:5",
+      "kind": "note_sentence",
+      "display": "Action:    NPO; 2L NS boluses; NS maintenance fluid for several hours now    mai",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s5",
+      "text": "Action:    NPO; 2L NS boluses; NS maintenance fluid for several hours now    maintenance fluid of D5W with 3 amps of Bicarb    Response:    Patient s urine output has decreased and continues to require    aggressive fluid resuscitation."
+    },
+    {
+      "id": "E:note:row674816:6",
+      "kind": "note_sentence",
+      "display": "Plan:    Remain NPO; fluid resuscitation; continue to monitor labs; surgery    c",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s6",
+      "text": "Plan:    Remain NPO; fluid resuscitation; continue to monitor labs; surgery    consult now since second [**Location (un) 118**] of CT shows 30% of pancreas necrotic."
+    },
+    {
+      "id": "E:note:row674816:7",
+      "kind": "note_sentence",
+      "display": "Gastrointestinal bleed, upper (Melena, GI Bleed, GIB)    Assessment:    Pt prese",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s7",
+      "text": "Gastrointestinal bleed, upper (Melena, GI Bleed, GIB)    Assessment:    Pt presented with L NGT not putting out any drainage; no melena/no    emesis."
+    },
+    {
+      "id": "E:note:row674816:8",
+      "kind": "note_sentence",
+      "display": "Action:    Intubated for endoscopy  patient was extremely difficult/impossible t",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s8",
+      "text": "Action:    Intubated for endoscopy  patient was extremely difficult/impossible to    sedate properly for procedure, necessitating large doses of sedatives    (see metavision and [**Month (only) **]); endoscopy; resent crit."
+    },
+    {
+      "id": "E:note:row674816:9",
+      "kind": "note_sentence",
+      "display": "On    Octreotide/protonix gtts.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s9",
+      "text": "On    Octreotide/protonix gtts."
+    },
+    {
+      "id": "E:note:row674816:10",
+      "kind": "note_sentence",
+      "display": "Response:    Pt became barely sedated after multiple gtts initiated; able to    ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s10",
+      "text": "Response:    Pt became barely sedated after multiple gtts initiated; able to    tolerate endoscopy."
+    },
+    {
+      "id": "E:note:row674816:11",
+      "kind": "note_sentence",
+      "display": "Repeat crit stable, slightly decreased but in    setting of multiple fluid bolus",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s11",
+      "text": "Repeat crit stable, slightly decreased but in    setting of multiple fluid boluses."
+    },
+    {
+      "id": "E:note:row674816:12",
+      "kind": "note_sentence",
+      "display": "Endoscopy showed multiple gastric    erosion sites.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s12",
+      "text": "Endoscopy showed multiple gastric    erosion sites."
+    },
+    {
+      "id": "E:note:row674816:13",
+      "kind": "note_sentence",
+      "display": "No active bleeding site indentified.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s13",
+      "text": "No active bleeding site indentified."
+    },
+    {
+      "id": "E:note:row674816:14",
+      "kind": "note_sentence",
+      "display": "NGT D/Ced.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s14",
+      "text": "NGT D/Ced."
+    },
+    {
+      "id": "E:note:row674816:15",
+      "kind": "note_sentence",
+      "display": "No    evidence of varices so Octreotide gtt D/Ced.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s15",
+      "text": "No    evidence of varices so Octreotide gtt D/Ced."
+    },
+    {
+      "id": "E:note:row674816:16",
+      "kind": "note_sentence",
+      "display": "Plan:    NPO; monitor crit closely; continue protonix gtt until at least    tomo",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s16",
+      "text": "Plan:    NPO; monitor crit closely; continue protonix gtt until at least    tomorrow per GI."
+    },
+    {
+      "id": "E:note:row674816:17",
+      "kind": "note_sentence",
+      "display": "Alcohol withdrawal (including delirium tremens, DTs, seizures)    Assessment:   ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s17",
+      "text": "Alcohol withdrawal (including delirium tremens, DTs, seizures)    Assessment:    Pt drinks daily in large quantities, hard liquor."
+    },
+    {
+      "id": "E:note:row674816:18",
+      "kind": "note_sentence",
+      "display": "Reports at times,    feeling tremulous at home if he has not had a drink in a wh",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s18",
+      "text": "Reports at times,    feeling tremulous at home if he has not had a drink in a while."
+    },
+    {
+      "id": "E:note:row674816:19",
+      "kind": "note_sentence",
+      "display": "Pt last    drank night of [**5-16**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s19",
+      "text": "Pt last    drank night of [**5-16**]."
+    },
+    {
+      "id": "E:note:row674816:20",
+      "kind": "note_sentence",
+      "display": "Patient appears anxious, tachycardic, tremulous,    slightly diaphoretic and con",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s20",
+      "text": "Patient appears anxious, tachycardic, tremulous,    slightly diaphoretic and confused as to date."
+    },
+    {
+      "id": "E:note:row674816:21",
+      "kind": "note_sentence",
+      "display": "Action:    Followed CIWA scale.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s21",
+      "text": "Action:    Followed CIWA scale."
+    },
+    {
+      "id": "E:note:row674816:22",
+      "kind": "note_sentence",
+      "display": "Patient s CIWA scale 11.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s22",
+      "text": "Patient s CIWA scale 11."
+    },
+    {
+      "id": "E:note:row674816:23",
+      "kind": "note_sentence",
+      "display": "Ativan administered,    later diazepam when Ativan discontinued.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s23",
+      "text": "Ativan administered,    later diazepam when Ativan discontinued."
+    },
+    {
+      "id": "E:note:row674816:24",
+      "kind": "note_sentence",
+      "display": "Response:    Patient slightly less tremulous; remembers date and recalls locatio",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s24",
+      "text": "Response:    Patient slightly less tremulous; remembers date and recalls location    ([**Hospital1 **]; ICU) better than he did when first presenting to SICU."
+    },
+    {
+      "id": "E:note:row674816:25",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue to follow CIWA scale and treat with diazepam when CIWA scale  ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s25",
+      "text": "Plan:    Continue to follow CIWA scale and treat with diazepam when CIWA scale    above 10."
+    },
+    {
+      "id": "E:note:row674816:26",
+      "kind": "note_sentence",
+      "display": "Monitor closely.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row674816#s26",
+      "text": "Monitor closely."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|53784": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5770": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|0389": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78552": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4275": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3481": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|34982": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25541": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78039": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2875": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3485": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2869": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5711": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|30391": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5589": [
+      "E:cond:18"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "dieulafoy lesion (hemorrhagic) of stomach and duodenum": [
+      "E:cond:1"
+    ],
+    "acute pancreatitis": [
+      "E:cond:2"
+    ],
+    "unspecified septicemia": [
+      "E:cond:3"
+    ],
+    "severe sepsis": [
+      "E:cond:4"
+    ],
+    "septic shock": [
+      "E:cond:5"
+    ],
+    "acute respiratory failure": [
+      "E:cond:6"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:7"
+    ],
+    "cardiac arrest": [
+      "E:cond:8"
+    ],
+    "anoxic brain damage": [
+      "E:cond:9"
+    ],
+    "toxic encephalopathy": [
+      "E:cond:10"
+    ],
+    "glucocorticoid deficiency": [
+      "E:cond:11"
+    ],
+    "other convulsions": [
+      "E:cond:12"
+    ],
+    "thrombocytopenia, unspecified": [
+      "E:cond:13"
+    ],
+    "cerebral edema": [
+      "E:cond:14"
+    ],
+    "other and unspecified coagulation defects": [
+      "E:cond:15"
+    ],
+    "acute alcoholic hepatitis": [
+      "E:cond:16"
+    ],
+    "other and unspecified alcohol dependence, continuous": [
+      "E:cond:17"
+    ],
+    "other and unspecified noninfectious gastroenteritis and colitis": [
+      "E:cond:18"
+    ],
+    "temporary tracheostomy": [
+      "E:proc:1"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:2"
+    ],
+    "other intubation of respiratory tract": [
+      "E:proc:3"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:4"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:5"
+    ],
+    "injection or infusion of oxazolidinone class of antibiotics": [
+      "E:proc:6"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:7"
+    ],
+    "venous catheterization for renal dialysis": [
+      "E:proc:8"
+    ],
+    "hemodialysis": [
+      "E:proc:9"
+    ],
+    "arterial catheterization": [
+      "E:proc:10"
+    ],
+    "parenteral infusion of concentrated nutritional substances": [
+      "E:proc:11"
+    ],
+    "closed biopsy of skin and subcutaneous tissue": [
+      "E:proc:12"
+    ],
+    "other endoscopy of small intestine": [
+      "E:proc:13"
+    ],
+    "pancreatitis, acute assessment: pt with h/o etoh abuse (6 large hard liqu": [
+      "E:note:row674816:1"
+    ],
+    "panc enymes/lfts elevated.": [
+      "E:note:row674816:2"
+    ],
+    "ct remarkable for pancreatitis and fatty liver changes.": [
+      "E:note:row674816:3"
+    ],
+    "lactate 8.1 in ed. + bowel sounds in all 4 quads; abdomen obese/distended.": [
+      "E:note:row674816:4"
+    ],
+    "action: npo; 2l ns boluses; ns maintenance fluid for several hours now mai": [
+      "E:note:row674816:5"
+    ],
+    "plan: remain npo; fluid resuscitation; continue to monitor labs; surgery c": [
+      "E:note:row674816:6"
+    ],
+    "gastrointestinal bleed, upper (melena, gi bleed, gib) assessment: pt prese": [
+      "E:note:row674816:7"
+    ],
+    "action: intubated for endoscopy patient was extremely difficult/impossible t": [
+      "E:note:row674816:8"
+    ],
+    "on octreotide/protonix gtts.": [
+      "E:note:row674816:9"
+    ],
+    "response: pt became barely sedated after multiple gtts initiated; able to": [
+      "E:note:row674816:10"
+    ],
+    "repeat crit stable, slightly decreased but in setting of multiple fluid bolus": [
+      "E:note:row674816:11"
+    ],
+    "endoscopy showed multiple gastric erosion sites.": [
+      "E:note:row674816:12"
+    ],
+    "no active bleeding site indentified.": [
+      "E:note:row674816:13"
+    ],
+    "ngt d/ced.": [
+      "E:note:row674816:14"
+    ],
+    "no evidence of varices so octreotide gtt d/ced.": [
+      "E:note:row674816:15"
+    ],
+    "plan: npo; monitor crit closely; continue protonix gtt until at least tomo": [
+      "E:note:row674816:16"
+    ],
+    "alcohol withdrawal (including delirium tremens, dts, seizures) assessment:": [
+      "E:note:row674816:17"
+    ],
+    "reports at times, feeling tremulous at home if he has not had a drink in a wh": [
+      "E:note:row674816:18"
+    ],
+    "pt last drank night of [**5-16**].": [
+      "E:note:row674816:19"
+    ],
+    "patient appears anxious, tachycardic, tremulous, slightly diaphoretic and con": [
+      "E:note:row674816:20"
+    ],
+    "action: followed ciwa scale.": [
+      "E:note:row674816:21"
+    ],
+    "patient s ciwa scale 11.": [
+      "E:note:row674816:22"
+    ],
+    "ativan administered, later diazepam when ativan discontinued.": [
+      "E:note:row674816:23"
+    ],
+    "response: patient slightly less tremulous; remembers date and recalls locatio": [
+      "E:note:row674816:24"
+    ],
+    "plan: continue to follow ciwa scale and treat with diazepam when ciwa scale": [
+      "E:note:row674816:25"
+    ],
+    "monitor closely.": [
+      "E:note:row674816:26"
+    ]
+  },
+  "by_date": {
+    "2131-05-17": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13"
+    ]
+  }
+}

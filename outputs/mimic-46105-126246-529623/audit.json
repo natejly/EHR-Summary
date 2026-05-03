@@ -1,0 +1,150 @@
+{
+  "case_id": "mimic-46105-126246-529623",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 4893,
+    "summary_chars": 1892,
+    "target_min_chars": 978,
+    "target_max_chars": 1467,
+    "achieved_ratio": 0.38667484161046395,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 16,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:2",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row529623:1",
+      "E:note:row529623:11",
+      "E:note:row529623:15",
+      "E:note:row529623:19",
+      "E:note:row529623:2",
+      "E:note:row529623:20",
+      "E:note:row529623:27",
+      "E:note:row529623:33",
+      "E:note:row529623:43",
+      "E:note:row529623:44",
+      "E:note:row529623:5",
+      "E:note:row529623:6",
+      "E:note:row529623:8"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Received one tide dose of vancomycin and a standing dose [E:note:row529623:19].",
+        "severity": "medium",
+        "reason": "The term 'tide dose' is likely a transcription error for 'TID dose' (three times a day) and should be corrected for clinical accuracy."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Received one tide dose of vancomycin and a standing dose [E:note:row529623:19].",
+        "suggested": "Received one TID dose of vancomycin and a standing dose [E:note:row529623:19].",
+        "reason": "Corrects a likely typographical error from 'tide' to 'TID' to reflect standard medical dosing frequency."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-46105-126246-529623/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 8.03,
+    "fk_words": 196,
+    "fk_sentences": 16,
+    "fk_syllables": 313,
+    "chars": 1678,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-46105-126246-529623/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.00320416601607576,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 105.2401968750055,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 91.74987554200925,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0027188339736312628,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 14.021445624995977,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 22.423789666965604,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.005249999987427145,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 172.8445874589961,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

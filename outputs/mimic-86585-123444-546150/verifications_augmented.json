@@ -1,0 +1,314 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:1"
+      ],
+      "rationale": "The candidate evidence explicitly lists CABG as part of the patient's cardiac history."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:1",
+        "E:note:row546150:6"
+      ],
+      "rationale": "Both candidates explicitly list CHF (Congestive Heart Failure) as part of the patient's medical history or current assessment."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:1"
+      ],
+      "rationale": "The candidate evidence explicitly lists I-CMP as part of the patient's cardiac history."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:27"
+      ],
+      "rationale": "The evidence explicitly states '+smoker per repo', confirming the patient's status as a smoker."
+    },
+    {
+      "claim_id": "C5",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list acute respiratory, heart, and kidney failure, but none specifically list a diagnosis of 'acute SOB' (shortness of breath)."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:2",
+        "E:note:row546150:3"
+      ],
+      "rationale": "Both evidence items explicitly state that the patient required or underwent intubation."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:6"
+      ],
+      "rationale": "The candidate evidence explicitly lists the diagnosis 'Heart failure (CHF), Systolic, Acute on Chronic'."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C9",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:7"
+      ],
+      "rationale": "The candidate evidence explicitly states that Lasix was weaned to 8mg/hr."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:7"
+      ],
+      "rationale": "The candidate evidence explicitly states that 'Uop continues ~100cc/hr'."
+    },
+    {
+      "claim_id": "C12",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence describes a cardiac device complication and does not mention Lasix or a weaning plan."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:8"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to 'Monitor Cr.'"
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:9"
+      ],
+      "rationale": "The candidate evidence explicitly states 'TTE today', matching the claim."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:9"
+      ],
+      "rationale": "The candidate evidence explicitly mentions the plan of '? adding ACE-I as BP tolerates'."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:1"
+      ],
+      "rationale": "The candidate E:cond:1 explicitly lists 'Acute respiratory failure' as a condition."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:11"
+      ],
+      "rationale": "The candidate evidence explicitly states 'AM RSBI 52', which matches the claim."
+    },
+    {
+      "claim_id": "C18",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C19",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:14"
+      ],
+      "rationale": "The evidence explicitly states that PRN fentanyl and Versed IVP were given for comfort."
+    },
+    {
+      "claim_id": "C21",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence items relate to cardiac complications and mechanical ventilation, and do not mention monitoring MS or the use of Versed/fentanyl."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:8"
+      ],
+      "rationale": "The patient's condition list explicitly includes Atrial fibrillation."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:15"
+      ],
+      "rationale": "The candidate evidence explicitly states 'HR 80-90s AFib', matching the claim exactly."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:17"
+      ],
+      "rationale": "The candidate evidence explicitly states that the Heparin gtt was started at 1400units/hr."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:17"
+      ],
+      "rationale": "The evidence explicitly states that 40meQ KCL was given."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:17"
+      ],
+      "rationale": "The evidence explicitly states '40meQ KCL given for K 3.7', confirming the potassium level."
+    },
+    {
+      "claim_id": "C27",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence refers to a cardiac device complication and does not mention PTT labs or a timing plan."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:18"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to titrate heparin gtt for a goal PTT of 60-100."
+    },
+    {
+      "claim_id": "C29",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided candidates contain information about coronary atherosclerosis and an endotracheal tube insertion, but no mention of fever or hyperthermia."
+    },
+    {
+      "claim_id": "C30",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:19"
+      ],
+      "rationale": "The candidate evidence explicitly states 'TMax 99.7', which matches the claim."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:20"
+      ],
+      "rationale": "The evidence explicitly states that a 1 time dose of Zosyn was given."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:20"
+      ],
+      "rationale": "The evidence explicitly states that Azythromycin IV was ordered for the patient."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:22"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Impaired Skin Integrity' as a diagnosis/condition."
+    },
+    {
+      "claim_id": "C35",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C36",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:25"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Anemia, chronic' in the assessment section."
+    },
+    {
+      "claim_id": "C37",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:25"
+      ],
+      "rationale": "The candidate evidence explicitly states the HCT drop from 38.3 to 26 in OSH."
+    },
+    {
+      "claim_id": "C38",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence describes a heart failure condition and does not contain any lab results for HCT."
+    },
+    {
+      "claim_id": "C39",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence describes mechanical ventilation and does not mention monitoring for bleeding or Guiac stools."
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:27"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to 'Monitor HCTs, ?transfuse'."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row546150:27"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Knowledge Deficit' within the assessment section of the note."
+    },
+    {
+      "claim_id": "C42",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    }
+  ]
+}

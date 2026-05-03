@@ -1,0 +1,146 @@
+{
+  "case_id": "mimic-46320-113335-462509",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 1644,
+    "summary_chars": 708,
+    "target_min_chars": 328,
+    "target_max_chars": 493,
+    "achieved_ratio": 0.4306569343065693,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 8,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:13",
+      "E:cond:31",
+      "E:cond:32",
+      "E:cond:43",
+      "E:cond:49",
+      "E:cond:55",
+      "E:cond:61",
+      "E:cond:67",
+      "E:cond:7",
+      "E:note:row462509:11",
+      "E:note:row462509:2",
+      "E:note:row462509:3",
+      "E:note:row462509:7",
+      "E:note:row462509:9",
+      "E:proc:133",
+      "E:proc:134"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Acute respiratory failure [E:cond:43] with bilateral pleural effusions [E:note:row462509:7].",
+        "severity": "medium",
+        "reason": "The fact sheet lists 'Unspecified pleural effusion' [E:cond:25-30], but does not specify that they are 'bilateral'."
+      },
+      {
+        "sentence": "DM2 [E:note:row462509:2], HTN [E:note:row462509:2], and chronic diastolic heart failure [E:cond:61].",
+        "severity": "medium",
+        "reason": "HTN is not listed in the provided fact sheet."
+      },
+      {
+        "sentence": "Ultrasound and tapping of pleural effusions [E:note:row462509:9], and PEG placement [E:proc:133][E:proc:134].",
+        "severity": "high",
+        "reason": "The 'plan' section of the fact sheet is empty; these procedures are not supported by the provided evidence."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Acute respiratory failure [E:cond:43] with bilateral pleural effusions [E:note:row462509:7].",
+        "suggested": "Acute respiratory failure [E:cond:43] and pleural effusions [E:cond:25].",
+        "reason": "Remove 'bilateral' as it is not supported and correct the citation to the condition list."
+      },
+      {
+        "original": "DM2 [E:note:row462509:2], HTN [E:note:row462509:2], and chronic diastolic heart failure [E:cond:61].",
+        "suggested": "DM2 [E:cond:85] and chronic diastolic heart failure [E:cond:61].",
+        "reason": "Remove HTN as it is not in the fact sheet and update DM2 citation."
+      }
+    ]
+  },
+  "review_passed": false,
+  "review_concern_counts": {
+    "high": 1,
+    "medium": 2,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-46320-113335-462509/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 8.28,
+    "fk_words": 167,
+    "fk_sentences": 14,
+    "fk_syllables": 272,
+    "chars": 1419,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-46320-113335-462509/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.006233250023797154,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 456.58178208302706,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 356.6948428750038,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.006234250031411648,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 248.61211354105035,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 16.981408999999985,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0037749999901279807,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 14.752841417037416,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

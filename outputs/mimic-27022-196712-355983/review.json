@@ -1,0 +1,41 @@
+{
+  "concerns": [
+    {
+      "sentence": "Biliary cirrhosis [E:cond:1][E:cond:2], PSC [E:note:row355983:1], and portal hypertension [E:cond:31][E:cond:32].",
+      "severity": "medium",
+      "reason": "PSC and portal hypertension are not listed in the provided fact sheet."
+    },
+    {
+      "sentence": "Bleeding esophageal varices [E:cond:5][E:cond:6] with melenotic stool [E:note:row355983:17] and vomiting \"cranberry juice\" [E:note:row355983:2].",
+      "severity": "medium",
+      "reason": "Melenotic stool and 'cranberry juice' vomiting are not present in the provided fact sheet."
+    },
+    {
+      "sentence": "CHF [E:cond:29][E:cond:30], coronary atherosclerosis [E:cond:45][E:cond:46], and old MI [E:cond:53][E:cond:54].",
+      "severity": "medium",
+      "reason": "Coronary atherosclerosis and old MI are not listed in the provided fact sheet."
+    },
+    {
+      "sentence": "## Active Problems\nBiliary cirrhosis [E:cond:1][E:cond:2], PSC [E:note:row355983:1], and portal hypertension [E:cond:31][E:cond:32]. Bleeding esophageal varices [E:cond:5][E:cond:6] with melenotic stool [E:note:row355983:17] and vomiting \"cranberry juice\" [E:note:row355983:2]. Acute posthemorrhagic anemia [E:cond:7][E:cond:8]. Acute kidney failure [E:cond:17][E:cond:18], hyperosmolality/hypernatremia [E:cond:19][E:cond:20], and ascites [E:cond:21][E:cond:22]. CHF [E:cond:29][E:cond:30], coronary atherosclerosis [E:cond:45][E:cond:46], and old MI [E:cond:53][E:cond:54].",
+      "severity": "high",
+      "reason": "The summary omits critical acute findings from the fact sheet, specifically pneumonitis due to inhalation, protein-calorie malnutrition, candidiasis, and suppurative peritonitis."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Biliary cirrhosis [E:cond:1][E:cond:2], PSC [E:note:row355983:1], and portal hypertension [E:cond:31][E:cond:32].",
+      "suggested": "Biliary cirrhosis [E:cond:1][E:cond:2].",
+      "reason": "Remove conditions not supported by the fact sheet."
+    },
+    {
+      "original": "Bleeding esophageal varices [E:cond:5][E:cond:6] with melenotic stool [E:note:row355983:17] and vomiting \"cranberry juice\" [E:note:row355983:2].",
+      "suggested": "Esophageal varices with bleeding [E:cond:5][E:cond:6].",
+      "reason": "Remove unsupported clinical descriptions."
+    },
+    {
+      "original": "CHF [E:cond:29][E:cond:30], coronary atherosclerosis [E:cond:45][E:cond:46], and old MI [E:cond:53][E:cond:54].",
+      "suggested": "Congestive heart failure [E:cond:29][E:cond:30].",
+      "reason": "Remove conditions not supported by the fact sheet."
+    }
+  ]
+}

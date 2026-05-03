@@ -1,0 +1,676 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-49930-144435",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-49930",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-49930",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-144435",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-144435",
+        "status": "finished",
+        "class": {
+          "code": "AMB",
+          "display": "ELECTIVE"
+        },
+        "type": [
+          {
+            "text": "ELECTIVE"
+          }
+        ],
+        "period": {
+          "start": "2162-08-04T00:00:00",
+          "end": "2162-10-29T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-144435-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-144435-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1505",
+              "display": "Malignant neoplasm of lower third of esophagus"
+            }
+          ],
+          "text": "Malignant neoplasm of lower third of esophagus"
+        },
+        "onsetDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-144435-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-144435-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99739",
+              "display": "Other respiratory complications"
+            }
+          ],
+          "text": "Other respiratory complications"
+        },
+        "onsetDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-144435-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-144435-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-144435-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-144435-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99859",
+              "display": "Other postoperative infection"
+            }
+          ],
+          "text": "Other postoperative infection"
+        },
+        "onsetDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-144435-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-144435-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0388",
+              "display": "Other specified septicemias"
+            }
+          ],
+          "text": "Other specified septicemias"
+        },
+        "onsetDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-144435-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-144435-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99592",
+              "display": "Severe sepsis"
+            }
+          ],
+          "text": "Severe sepsis"
+        },
+        "onsetDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-144435-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-144435-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5845",
+              "display": "Acute kidney failure with lesion of tubular necrosis"
+            }
+          ],
+          "text": "Acute kidney failure with lesion of tubular necrosis"
+        },
+        "onsetDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-144435-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-144435-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "486",
+              "display": "Pneumonia, organism unspecified"
+            }
+          ],
+          "text": "Pneumonia, organism unspecified"
+        },
+        "onsetDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-144435-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-144435-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "9974",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-144435-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-144435-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2639",
+              "display": "Unspecified protein-calorie malnutrition"
+            }
+          ],
+          "text": "Unspecified protein-calorie malnutrition"
+        },
+        "onsetDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-144435-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-144435-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2760",
+              "display": "Hyperosmolality and/or hypernatremia"
+            }
+          ],
+          "text": "Hyperosmolality and/or hypernatremia"
+        },
+        "onsetDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-144435-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-144435-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5750",
+              "display": "Acute cholecystitis"
+            }
+          ],
+          "text": "Acute cholecystitis"
+        },
+        "onsetDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-144435-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-144435-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5119",
+              "display": "Unspecified pleural effusion"
+            }
+          ],
+          "text": "Unspecified pleural effusion"
+        },
+        "onsetDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-144435-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-144435-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2767",
+              "display": "Hyperpotassemia"
+            }
+          ],
+          "text": "Hyperpotassemia"
+        },
+        "onsetDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-144435-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-144435-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "34839",
+              "display": "Other encephalopathy"
+            }
+          ],
+          "text": "Other encephalopathy"
+        },
+        "onsetDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-144435-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-144435-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "49390",
+              "display": "Asthma, unspecified type, unspecified"
+            }
+          ],
+          "text": "Asthma, unspecified type, unspecified"
+        },
+        "onsetDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-144435-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-144435-1",
+        "status": "completed",
+        "code": {
+          "text": "Temporary tracheostomy"
+        },
+        "performedDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-144435-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-144435-2",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-144435-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-144435-3",
+        "status": "completed",
+        "code": {
+          "text": "Total esophagectomy"
+        },
+        "performedDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-144435-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-144435-4",
+        "status": "completed",
+        "code": {
+          "text": "Other cholecystostomy"
+        },
+        "performedDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-144435-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-144435-5",
+        "status": "completed",
+        "code": {
+          "text": "Delayed closure of granulating abdominal wound"
+        },
+        "performedDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-144435-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-144435-6",
+        "status": "completed",
+        "code": {
+          "text": "Other antesternal anastomosis of esophagus"
+        },
+        "performedDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-144435-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-144435-7",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of intercostal catheter for drainage"
+        },
+        "performedDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-144435-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-144435-8",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous aspiration of gallbladder"
+        },
+        "performedDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-144435-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-144435-9",
+        "status": "completed",
+        "code": {
+          "text": "Bronchoscopy through artificial stoma"
+        },
+        "performedDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-144435-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-144435-10",
+        "status": "completed",
+        "code": {
+          "text": "Bronchoscopy through artificial stoma"
+        },
+        "performedDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-144435-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-144435-11",
+        "status": "completed",
+        "code": {
+          "text": "Fiber-optic bronchoscopy"
+        },
+        "performedDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-144435-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-144435-12",
+        "status": "completed",
+        "code": {
+          "text": "Application of other wound dressing"
+        },
+        "performedDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-144435-13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-144435-13",
+        "status": "completed",
+        "code": {
+          "text": "Other irrigation of wound"
+        },
+        "performedDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-144435-14",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-144435-14",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of intercostal catheter for drainage"
+        },
+        "performedDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-144435-15",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-144435-15",
+        "status": "completed",
+        "code": {
+          "text": "Fiber-optic bronchoscopy"
+        },
+        "performedDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-144435-16",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-144435-16",
+        "status": "completed",
+        "code": {
+          "text": "Other endoscopy of small intestine"
+        },
+        "performedDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-144435-17",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-144435-17",
+        "status": "completed",
+        "code": {
+          "text": "Thoracentesis"
+        },
+        "performedDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-144435-18",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-144435-18",
+        "status": "completed",
+        "code": {
+          "text": "Other endoscopy of small intestine"
+        },
+        "performedDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-144435-19",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-144435-19",
+        "status": "completed",
+        "code": {
+          "text": "Parenteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2162-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-144435-20",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-144435-20",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2162-08-04"
+      }
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "case_id": "mimic-98435-148017-646532",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 3021,
+    "summary_chars": 1604,
+    "target_min_chars": 604,
+    "target_max_chars": 906,
+    "achieved_ratio": 0.530950016550811,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 16,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row646532:10",
+      "E:note:row646532:12",
+      "E:note:row646532:13",
+      "E:note:row646532:17",
+      "E:note:row646532:18",
+      "E:note:row646532:21",
+      "E:note:row646532:26",
+      "E:note:row646532:28",
+      "E:note:row646532:29",
+      "E:note:row646532:3",
+      "E:note:row646532:30",
+      "E:note:row646532:36",
+      "E:note:row646532:41",
+      "E:note:row646532:43",
+      "E:note:row646532:46",
+      "E:note:row646532:47"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Patient is withdrawn, lethargic, and has intermittent hypotension [E:note:row646532:46].",
+        "severity": "high",
+        "reason": "The cited evidence ID [E:note:row646532:46] does not exist in the provided fact sheet."
+      },
+      {
+        "sentence": "Comorbidities include acute respiratory failure [E:cond:2], ventilator associated pneumonia [E:cond:7], and acute kidney failure [E:cond:5][E:note:row646532:28].",
+        "severity": "medium",
+        "reason": "The citation [E:note:row646532:28] does not exist in the provided fact sheet."
+      },
+      {
+        "sentence": "Other diagnoses include subendocardial infarction [E:cond:4], C. difficile infection [E:cond:6][E:note:row646532:21], gastric ulcer [E:cond:12], type II diabetes mellitus [E:cond:11], and anemia of chronic disease [E:cond:13].",
+        "severity": "medium",
+        "reason": "The citation [E:note:row646532:21] does not exist in the provided fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Patient is withdrawn, lethargic, and has intermittent hypotension [E:note:row646532:46].",
+        "suggested": "Remove sentence.",
+        "reason": "The information is not supported by the provided fact sheet."
+      },
+      {
+        "original": "Comorbidities include acute respiratory failure [E:cond:2], ventilator associated pneumonia [E:cond:7], and acute kidney failure [E:cond:5][E:note:row646532:28].",
+        "suggested": "Comorbidities include acute respiratory failure [E:cond:2], ventilator associated pneumonia [E:cond:7], and acute kidney failure [E:cond:5].",
+        "reason": "Remove hallucinated citation."
+      },
+      {
+        "original": "Other diagnoses include subendocardial infarction [E:cond:4], C. difficile infection [E:cond:6][E:note:row646532:21], gastric ulcer [E:cond:12], type II diabetes mellitus [E:cond:11], and anemia of chronic disease [E:cond:13].",
+        "suggested": "Other diagnoses include subendocardial infarction [E:cond:4], C. difficile infection [E:cond:6], gastric ulcer [E:cond:12], type II diabetes mellitus [E:cond:11], and anemia of chronic disease [E:cond:13].",
+        "reason": "Remove hallucinated citation."
+      }
+    ]
+  },
+  "review_passed": false,
+  "review_concern_counts": {
+    "high": 1,
+    "medium": 2,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-98435-148017-646532/summary_revised.md",
+  "revised_check_passed": false,
+  "patient_summary": {
+    "fk_grade": 7.8,
+    "fk_words": 188,
+    "fk_sentences": 25,
+    "fk_syllables": 326,
+    "chars": 1836,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-98435-148017-646532/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0029324580100364983,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 215.7590420000488,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 147.96277637500316,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0018820000113919377,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 17.57477025000844,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 19.264068332966417,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.003132999991066754,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 26.951006791961845,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

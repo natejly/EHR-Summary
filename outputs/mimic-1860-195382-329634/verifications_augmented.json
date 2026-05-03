@@ -1,0 +1,474 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:1"
+      ],
+      "rationale": "The evidence explicitly states the patient is a 70yo female with SCLC."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:1"
+      ],
+      "rationale": "The candidate evidence explicitly lists DMII as part of the patient's medical history."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:1"
+      ],
+      "rationale": "The candidate evidence explicitly lists HTN as one of the patient's comorbidities."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:1"
+      ],
+      "rationale": "The candidate evidence explicitly lists Hyperlipidemia as part of the patient's medical history."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:36"
+      ],
+      "rationale": "The evidence explicitly states the patient converted to afib during an NGT attempt."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C7",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:1",
+        "E:note:row329634:19"
+      ],
+      "rationale": "Both candidates explicitly list hypotension as the chief complaint and as part of the assessment."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:2"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was found to have a large right pleural effusion."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:3"
+      ],
+      "rationale": "The evidence explicitly states the patient was tapped on 6-25."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:3"
+      ],
+      "rationale": "The evidence explicitly states the fluid was transudative on 6-25."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:4"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient had a right mainstem bronch stent placed on 7-13."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:5"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient had hypoxic respiratory failure."
+    },
+    {
+      "claim_id": "C14",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The only procedure record (E:proc:6) has a date of 2141-06-24, which does not match the claim's time reference of 7-13."
+    },
+    {
+      "claim_id": "C15",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:8"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has had a rising WBC this week."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:8"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has concerns for postob PNA this week."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:9"
+      ],
+      "rationale": "The evidence explicitly states the patient was recently started on vanco."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:9"
+      ],
+      "rationale": "The evidence explicitly states the patient was recently started on levaquin."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:10"
+      ],
+      "rationale": "The evidence explicitly states the patient has had constipation over the last 3 days."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:10"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has had increasing abd pain over the last 3 days."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:11",
+        "E:note:row329634:18",
+        "E:note:row329634:25"
+      ],
+      "rationale": "Multiple candidate sentences explicitly state that the patient underwent manual disimpaction."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:12"
+      ],
+      "rationale": "The candidate evidence explicitly states that today the lactate was 2.6."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:13",
+        "E:note:row329634:24"
+      ],
+      "rationale": "Both candidate evidence items explicitly state that the CT scan showed ileus."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:14"
+      ],
+      "rationale": "The candidate evidence explicitly states that the CT showed RLL consolidation with effusion."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:15"
+      ],
+      "rationale": "The candidate evidence explicitly states that tonight at 7pm, the patient was found to have SBP 60s."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:16"
+      ],
+      "rationale": "The evidence explicitly states the patient received a 1.3 L bolus via the HD line."
+    },
+    {
+      "claim_id": "C28",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:17"
+      ],
+      "rationale": "The candidate evidence explicitly states that in the MICU, the arterial line confirmed an SBP of 90-110."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:11",
+        "E:note:row329634:18",
+        "E:note:row329634:25"
+      ],
+      "rationale": "Multiple candidate sentences explicitly state that the patient underwent manual disimpaction."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:19"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Manual bp variable, 70-90s', matching the claim exactly."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:20"
+      ],
+      "rationale": "The evidence explicitly states that 2L NS x2 was given during transfer."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:20"
+      ],
+      "rationale": "The evidence explicitly states that an 'aline' was placed during transfer."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:21"
+      ],
+      "rationale": "The evidence explicitly states that an additional 500cc NS bolus was given."
+    },
+    {
+      "claim_id": "C35",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:21"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Response: Abp 90s-110s', which matches the claim."
+    },
+    {
+      "claim_id": "C36",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C37",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:22"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Bolus PRN', matching the claim."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:23"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Constipation (Obstipation, FOS)' in the assessment section."
+    },
+    {
+      "claim_id": "C39",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:13",
+        "E:note:row329634:24"
+      ],
+      "rationale": "Both candidate sentences explicitly state that the CT scan showed ileus."
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:25",
+        "E:note:row329634:28"
+      ],
+      "rationale": "The evidence explicitly states that Lactulose was given and that there was no response to it."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:25"
+      ],
+      "rationale": "The candidate evidence explicitly states that 'manual disimpaction x2' was performed as an action."
+    },
+    {
+      "claim_id": "C42",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:25"
+      ],
+      "rationale": "The evidence explicitly states that a fleets enema was given."
+    },
+    {
+      "claim_id": "C43",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:26"
+      ],
+      "rationale": "The candidate evidence explicitly states that an NGT was attempted."
+    },
+    {
+      "claim_id": "C44",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:26",
+        "E:note:row329634:37"
+      ],
+      "rationale": "Both candidate evidence items explicitly state that a mushroom cath was placed."
+    },
+    {
+      "claim_id": "C45",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:31"
+      ],
+      "rationale": "The candidate evidence explicitly lists '?NGT placement' under the Plan section."
+    },
+    {
+      "claim_id": "C46",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:31"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'disimpacted PRN' under the Plan section."
+    },
+    {
+      "claim_id": "C47",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:31"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is 'alert and oriented' under the Neuro section."
+    },
+    {
+      "claim_id": "C48",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:33"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is afebrile."
+    },
+    {
+      "claim_id": "C49",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:33"
+      ],
+      "rationale": "The candidate evidence explicitly states that blood cultures (bld cx) were sent."
+    },
+    {
+      "claim_id": "C50",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:34"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Resp: NC 2L', which matches the claim value."
+    },
+    {
+      "claim_id": "C51",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:34"
+      ],
+      "rationale": "The candidate evidence explicitly states 'LSC diminished at bases' in the respiratory assessment."
+    },
+    {
+      "claim_id": "C52",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:35"
+      ],
+      "rationale": "The candidate evidence explicitly states the sbp was in the 90s-110s."
+    },
+    {
+      "claim_id": "C53",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:36"
+      ],
+      "rationale": "The evidence explicitly mentions 'NSR-ST' in the context of the patient's cardiac rhythm."
+    },
+    {
+      "claim_id": "C54",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:36"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient converted to afib 150s-160s during the NGT attempt."
+    },
+    {
+      "claim_id": "C55",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:36"
+      ],
+      "rationale": "The evidence explicitly states '5mg metoprololx2 give', which matches the claim."
+    },
+    {
+      "claim_id": "C56",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:37"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is 'anuric' under the GI/GU section."
+    },
+    {
+      "claim_id": "C57",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:37"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is on HD Tues/Thurs/Sat."
+    },
+    {
+      "claim_id": "C58",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:37"
+      ],
+      "rationale": "The evidence explicitly states the patient is 'constipated' in the GI/GU section."
+    },
+    {
+      "claim_id": "C59",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row329634:26",
+        "E:note:row329634:37"
+      ],
+      "rationale": "Both candidate sentences explicitly state that a mushroom cath was placed."
+    }
+  ]
+}

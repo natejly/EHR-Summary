@@ -1,0 +1,665 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-47829-175022",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-47829",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-47829",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-175022",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-175022",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2102-09-27T00:00:00",
+          "end": "2102-10-27T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175022-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175022-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "08881",
+              "display": "Lyme Disease"
+            }
+          ],
+          "text": "Lyme Disease"
+        },
+        "onsetDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175022-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175022-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "32341",
+              "display": "Other encephalitis and encephalomyelitis due to other infections classified elsewhere"
+            }
+          ],
+          "text": "Other encephalitis and encephalomyelitis due to other infections classified elsewhere"
+        },
+        "onsetDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175022-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175022-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175022-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175022-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "49121",
+              "display": "Obstructive chronic bronchitis with (acute) exacerbation"
+            }
+          ],
+          "text": "Obstructive chronic bronchitis with (acute) exacerbation"
+        },
+        "onsetDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175022-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175022-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2760",
+              "display": "Hyperosmolality and/or hypernatremia"
+            }
+          ],
+          "text": "Hyperosmolality and/or hypernatremia"
+        },
+        "onsetDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175022-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175022-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "28731",
+              "display": "Immune thrombocytopenic purpura"
+            }
+          ],
+          "text": "Immune thrombocytopenic purpura"
+        },
+        "onsetDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175022-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175022-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2930",
+              "display": "Delirium due to conditions classified elsewhere"
+            }
+          ],
+          "text": "Delirium due to conditions classified elsewhere"
+        },
+        "onsetDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175022-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175022-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5180",
+              "display": "Pulmonary collapse"
+            }
+          ],
+          "text": "Pulmonary collapse"
+        },
+        "onsetDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175022-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175022-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "30391",
+              "display": "Other and unspecified alcohol dependence, continuous"
+            }
+          ],
+          "text": "Other and unspecified alcohol dependence, continuous"
+        },
+        "onsetDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175022-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175022-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3051",
+              "display": "Tobacco use disorder"
+            }
+          ],
+          "text": "Tobacco use disorder"
+        },
+        "onsetDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175022-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175022-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4589",
+              "display": "Hypotension, unspecified"
+            }
+          ],
+          "text": "Hypotension, unspecified"
+        },
+        "onsetDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175022-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175022-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "37000",
+              "display": "Corneal ulcer, unspecified"
+            }
+          ],
+          "text": "Corneal ulcer, unspecified"
+        },
+        "onsetDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175022-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175022-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4552",
+              "display": "Internal hemorrhoids with other complication"
+            }
+          ],
+          "text": "Internal hemorrhoids with other complication"
+        },
+        "onsetDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175022-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175022-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "56409",
+              "display": "Other constipation"
+            }
+          ],
+          "text": "Other constipation"
+        },
+        "onsetDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175022-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175022-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175022-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175022-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5533",
+              "display": "Diaphragmatic hernia without mention of obstruction or gangrene"
+            }
+          ],
+          "text": "Diaphragmatic hernia without mention of obstruction or gangrene"
+        },
+        "onsetDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175022-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175022-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42789",
+              "display": "Other specified cardiac dysrhythmias"
+            }
+          ],
+          "text": "Other specified cardiac dysrhythmias"
+        },
+        "onsetDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175022-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175022-1",
+        "status": "completed",
+        "code": {
+          "text": "Temporary tracheostomy"
+        },
+        "performedDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175022-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175022-2",
+        "status": "completed",
+        "code": {
+          "text": "Blepharorrhaphy"
+        },
+        "performedDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175022-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175022-3",
+        "status": "completed",
+        "code": {
+          "text": "Fiber-optic bronchoscopy"
+        },
+        "performedDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175022-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175022-4",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous [endoscopic] gastrostomy [PEG]"
+        },
+        "performedDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175022-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175022-5",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175022-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175022-6",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175022-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175022-7",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175022-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175022-8",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175022-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175022-9",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175022-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175022-10",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175022-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175022-11",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175022-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175022-12",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175022-13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175022-13",
+        "status": "completed",
+        "code": {
+          "text": "Spinal tap"
+        },
+        "performedDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175022-14",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175022-14",
+        "status": "completed",
+        "code": {
+          "text": "Spinal tap"
+        },
+        "performedDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175022-15",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175022-15",
+        "status": "completed",
+        "code": {
+          "text": "Fiber-optic bronchoscopy"
+        },
+        "performedDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175022-16",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175022-16",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2102-09-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175022-17",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175022-17",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2102-09-27"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Patient has HIV [E:cond:15][E:note:row701538:2], T2DM [E:cond:16], MDS [E:cond:17], and hypertension [E:cond:18].",
+      "severity": "medium",
+      "reason": "T2DM, MDS, and hypertension are not present in the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Patient has HIV [E:cond:15][E:note:row701538:2], T2DM [E:cond:16], MDS [E:cond:17], and hypertension [E:cond:18].",
+      "suggested": "Patient has HIV [E:cond:15][E:note:row701538:2].",
+      "reason": "Remove conditions not listed in the provided fact sheet."
+    }
+  ]
+}

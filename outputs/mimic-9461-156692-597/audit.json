@@ -1,0 +1,155 @@
+{
+  "case_id": "mimic-9461-156692-597",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 6460,
+    "summary_chars": 2452,
+    "target_min_chars": 1292,
+    "target_max_chars": 1938,
+    "achieved_ratio": 0.37956656346749224,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 19,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row597:10",
+      "E:note:row597:15",
+      "E:note:row597:16",
+      "E:note:row597:17",
+      "E:note:row597:18",
+      "E:note:row597:19",
+      "E:note:row597:20",
+      "E:note:row597:33",
+      "E:note:row597:34",
+      "E:note:row597:35",
+      "E:note:row597:36",
+      "E:note:row597:46",
+      "E:note:row597:47",
+      "E:note:row597:50",
+      "E:note:row597:51",
+      "E:note:row597:55",
+      "E:note:row597:56",
+      "E:note:row597:58",
+      "E:note:row597:59",
+      "E:note:row597:60",
+      "E:note:row597:61",
+      "E:note:row597:62",
+      "E:note:row597:63",
+      "E:note:row597:64",
+      "E:note:row597:65",
+      "E:note:row597:9",
+      "E:proc:1",
+      "E:proc:10",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Patient underwent angioplasty with two distal stent placements [E:note:row597:46], involving both drug-eluting [E:proc:3] and non-drug-eluting coronary artery stents [E:proc:4][E:proc:9].",
+        "severity": "medium",
+        "reason": "The fact sheet confirms the insertion of both types of stents, but does not specify that there were exactly 'two distal' placements."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Patient underwent angioplasty with two distal stent placements [E:note:row597:46], involving both drug-eluting [E:proc:3] and non-drug-eluting coronary artery stents [E:proc:4][E:proc:9].",
+        "suggested": "Patient underwent angioplasty [E:note:row597:46], involving both drug-eluting [E:proc:3] and non-drug-eluting coronary artery stents [E:proc:4][E:proc:9].",
+        "reason": "Removed specific count and location of stents not supported by the provided fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-9461-156692-597/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.71,
+    "fk_words": 173,
+    "fk_sentences": 25,
+    "fk_syllables": 302,
+    "chars": 1805,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-9461-156692-597/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.009830041031818837,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 136.41775058303028,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 195.61762608296704,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0013806669740006328,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 39.87069720897125,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 17.487788625003304,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.10207129101036116,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 42.93044495797949,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "concerns": [
+    {
+      "sentence": "History of CABG [E:note:row546150:1], I-CMP [E:note:row546150:1], coronary atherosclerosis [E:cond:7], atrial fibrillation [E:cond:8], and mitral valve disorders [E:cond:11].",
+      "severity": "medium",
+      "reason": "The summary cites E:note:row546150:1 for CABG and I-CMP, but these specific terms are not present in the provided fact sheet."
+    },
+    {
+      "sentence": "Chronic kidney disease [E:cond:10] and chronic anemia [E:note:row546150:25].",
+      "severity": "medium",
+      "reason": "The summary describes anemia as 'chronic', but the fact sheet only lists 'Anemia, unspecified' and a HCT drop."
+    },
+    {
+      "sentence": "Stage II pressure ulcer [E:cond:13] and impaired skin integrity [E:note:row546150:22].",
+      "severity": "medium",
+      "reason": "The term 'impaired skin integrity' is not present in the provided fact sheet."
+    },
+    {
+      "sentence": "Patient is a smoker [E:note:row546150:27].",
+      "severity": "high",
+      "reason": "The fact sheet lists E:note:row546150:27 as a plan to monitor HCTs/transfuse, not as evidence of smoking status."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "History of CABG [E:note:row546150:1], I-CMP [E:note:row546150:1], coronary atherosclerosis [E:cond:7], atrial fibrillation [E:cond:8], and mitral valve disorders [E:cond:11].",
+      "suggested": "History of coronary atherosclerosis [E:cond:7], atrial fibrillation [E:cond:8], and mitral valve disorders [E:cond:11].",
+      "reason": "Remove unsupported claims regarding CABG and I-CMP."
+    },
+    {
+      "original": "Chronic kidney disease [E:cond:10] and chronic anemia [E:note:row546150:25].",
+      "suggested": "Chronic kidney disease [E:cond:10] and anemia [E:note:row546150:25].",
+      "reason": "Remove the word 'chronic' from anemia as it is not specified in the fact sheet."
+    },
+    {
+      "original": "Stage II pressure ulcer [E:cond:13] and impaired skin integrity [E:note:row546150:22].",
+      "suggested": "Stage II pressure ulcer [E:cond:13].",
+      "reason": "Remove 'impaired skin integrity' as it is not in the fact sheet."
+    },
+    {
+      "original": "Patient is a smoker [E:note:row546150:27].",
+      "suggested": "",
+      "reason": "Remove this sentence entirely as it is not supported by the fact sheet and misuses the citation."
+    }
+  ]
+}

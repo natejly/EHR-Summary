@@ -1,0 +1,911 @@
+{
+  "case_id": "mimic-28126-161069-328226",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:enc-161069",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Malignant neoplasm of ovary",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1830",
+        "display": "Malignant neoplasm of ovary"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:cond-161069-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Unspecified intestinal obstruction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5609",
+        "display": "Unspecified intestinal obstruction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:cond-161069-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Secondary malignant neoplasm of small intestine including duodenum",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1974",
+        "display": "Secondary malignant neoplasm of small intestine including duodenum"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:cond-161069-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Secondary malignant neoplasm of large intestine and rectum",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1975",
+        "display": "Secondary malignant neoplasm of large intestine and rectum"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:cond-161069-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Secondary malignant neoplasm of retroperitoneum and peritoneum",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1976",
+        "display": "Secondary malignant neoplasm of retroperitoneum and peritoneum"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:cond-161069-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Secondary and unspecified malignant neoplasm of intra-abdominal lymph nodes",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1962",
+        "display": "Secondary and unspecified malignant neoplasm of intra-abdominal lymph nodes"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:cond-161069-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Secondary malignant neoplasm of genital organs",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "19882",
+        "display": "Secondary malignant neoplasm of genital organs"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:cond-161069-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Secondary malignant neoplasm of other specified sites",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "19889",
+        "display": "Secondary malignant neoplasm of other specified sites"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:cond-161069-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Other ascites",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78959",
+        "display": "Other ascites"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:cond-161069-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9974",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:cond-161069-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Paralytic ileus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5601",
+        "display": "Paralytic ileus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:cond-161069-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Other specified complications of procedures not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99889",
+        "display": "Other specified complications of procedures not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:cond-161069-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Other iatrogenic hypotension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "45829",
+        "display": "Other iatrogenic hypotension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:cond-161069-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Other specified cardiac dysrhythmias",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42789",
+        "display": "Other specified cardiac dysrhythmias"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:cond-161069-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7806",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:cond-161069-15",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Other removal of both ovaries and tubes at same operative episode",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other removal of both ovaries and tubes at same operative episode"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:proc-161069-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Other and unspecified total abdominal hysterectomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other and unspecified total abdominal hysterectomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:proc-161069-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Excision or destruction of peritoneal tissue",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Excision or destruction of peritoneal tissue"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:proc-161069-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Excision of lesion or tissue of diaphragm",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Excision of lesion or tissue of diaphragm"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:proc-161069-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Other resection of rectum",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other resection of rectum"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:proc-161069-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Other small-to-large intestinal anastomosis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other small-to-large intestinal anastomosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:proc-161069-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Large-to-large intestinal anastomosis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Large-to-large intestinal anastomosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:proc-161069-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Open and other cecectomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Open and other cecectomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:proc-161069-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Rigid proctosigmoidoscopy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Rigid proctosigmoidoscopy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:proc-161069-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Parenteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Parenteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:proc-161069-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Transfusion of packed cells",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of packed cells"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:proc-161069-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:proc-161069-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Insertion of other (naso-)gastric tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of other (naso-)gastric tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2165-07-16",
+      "source_ref": "urn:uuid:proc-161069-13",
+      "text": null
+    },
+    {
+      "id": "E:note:row328226:1",
+      "kind": "note_sentence",
+      "display": "Chief Complaint:  Severe abdominal pain    HPI:    44 yr with recent diagnosis o",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row328226#s1",
+      "text": "Chief Complaint:  Severe abdominal pain    HPI:    44 yr with recent diagnosis of mullerian adenocarcinoma presented to    [**Hospital1 54**] ER on [**2165-7-16**] with severe abdominal pain and vomiting."
+    },
+    {
+      "id": "E:note:row328226:2",
+      "kind": "note_sentence",
+      "display": "CT scan    revealed large pelvic mass with peritoneal spread and high grade smal",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row328226#s2",
+      "text": "CT scan    revealed large pelvic mass with peritoneal spread and high grade small    bowel obstruction."
+    },
+    {
+      "id": "E:note:row328226:3",
+      "kind": "note_sentence",
+      "display": "Pt underwent ultrasound guided drainage. cytology final report from the    ultra",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row328226#s3",
+      "text": "Pt underwent ultrasound guided drainage. cytology final report from the    ultrasound guided drainage showed neoplastic cells consistent with    mullerian adenocarcinoma."
+    },
+    {
+      "id": "E:note:row328226:4",
+      "kind": "note_sentence",
+      "display": "CT scan and MRI demonstrated extensive    disease.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row328226#s4",
+      "text": "CT scan and MRI demonstrated extensive    disease."
+    },
+    {
+      "id": "E:note:row328226:5",
+      "kind": "note_sentence",
+      "display": "Patient underwent TAH BSO with small bowel and sigmoid resection and    omentect",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row328226#s5",
+      "text": "Patient underwent TAH BSO with small bowel and sigmoid resection and    omentectomy [**7-18**]  and intermittently required neo gtt. remained    intubated post op for airway protection r/t large doses of narcotics    given."
+    },
+    {
+      "id": "E:note:row328226:6",
+      "kind": "note_sentence",
+      "display": "Tachycardia, Other    Assessment:    ST 120s-130s  BP 100s-110s, cvp 3-5, tmax 9",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row328226#s6",
+      "text": "Tachycardia, Other    Assessment:    ST 120s-130s  BP 100s-110s, cvp 3-5, tmax 99.3    Action:    Sedation increased, fent@125 and versed26. 500cc LR bolus x2 and 1L LR    bolusx1 given, EKG done,    D-Dimer sent."
+    },
+    {
+      "id": "E:note:row328226:7",
+      "kind": "note_sentence",
+      "display": "Response:    Remains tachy, BP stable, cvp 8-10, pt sedated and appears comforta",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row328226#s7",
+      "text": "Response:    Remains tachy, BP stable, cvp 8-10, pt sedated and appears comfortable."
+    },
+    {
+      "id": "E:note:row328226:8",
+      "kind": "note_sentence",
+      "display": "Plan:    Cont to monitor, ?PE    Pain control (acute pain, chronic pain)    Asse",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row328226#s8",
+      "text": "Plan:    Cont to monitor, ?PE    Pain control (acute pain, chronic pain)    Assessment:    Sedated on arrival to MICU, pt alert and nodding yes to pain, pain    controlled w/ boluses on fent and versed."
+    },
+    {
+      "id": "E:note:row328226:9",
+      "kind": "note_sentence",
+      "display": "Action:    Pt cont to be uncomfortable and becoming tachy, versed and fent gtts ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row328226#s9",
+      "text": "Action:    Pt cont to be uncomfortable and becoming tachy, versed and fent gtts    started."
+    },
+    {
+      "id": "E:note:row328226:10",
+      "kind": "note_sentence",
+      "display": "Response:    Pt sedated and comfortable, remains tachy.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row328226#s10",
+      "text": "Response:    Pt sedated and comfortable, remains tachy."
+    },
+    {
+      "id": "E:note:row328226:11",
+      "kind": "note_sentence",
+      "display": "Plan:    Cont gtts, wean as tolerated.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row328226#s11",
+      "text": "Plan:    Cont gtts, wean as tolerated."
+    },
+    {
+      "id": "E:note:row328226:12",
+      "kind": "note_sentence",
+      "display": "Airway, Inability to Protect (Risk for Aspiration, Altered Gag, Airway    Cleara",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row328226#s12",
+      "text": "Airway, Inability to Protect (Risk for Aspiration, Altered Gag, Airway    Clearance, Cough)    Assessment:    Large doses of narcotics given in surgery, remains intubated for airway    protection."
+    },
+    {
+      "id": "E:note:row328226:13",
+      "kind": "note_sentence",
+      "display": "Action:    Current vent setting CMV/40%/450/14/5    Response:    O2 sat 98-100%,",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row328226#s13",
+      "text": "Action:    Current vent setting CMV/40%/450/14/5    Response:    O2 sat 98-100%, 7.37/34/146    Plan:    Monitor O2 sat, extuabte when stable."
+    },
+    {
+      "id": "E:note:row328226:14",
+      "kind": "note_sentence",
+      "display": "Neuro: sedated, opens eyes to pain.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row328226#s14",
+      "text": "Neuro: sedated, opens eyes to pain."
+    },
+    {
+      "id": "E:note:row328226:15",
+      "kind": "note_sentence",
+      "display": "Hypotermic on arrival, bair hugger    on pt. current temp 99.3ax. fent and verse",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row328226#s15",
+      "text": "Hypotermic on arrival, bair hugger    on pt. current temp 99.3ax. fent and versed gtts for sedation and pain    control."
+    },
+    {
+      "id": "E:note:row328226:16",
+      "kind": "note_sentence",
+      "display": "Resp: remains intubated for airway protection.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row328226#s16",
+      "text": "Resp: remains intubated for airway protection."
+    },
+    {
+      "id": "E:note:row328226:17",
+      "kind": "note_sentence",
+      "display": "LSC, O2 sat 98-100%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row328226#s17",
+      "text": "LSC, O2 sat 98-100%."
+    },
+    {
+      "id": "E:note:row328226:18",
+      "kind": "note_sentence",
+      "display": "CV: ST 120s-130s, no ectopy noted, BP 110s.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row328226#s18",
+      "text": "CV: ST 120s-130s, no ectopy noted, BP 110s."
+    },
+    {
+      "id": "E:note:row328226:19",
+      "kind": "note_sentence",
+      "display": "GI/GU: abdominal incision, drsng C/D/I.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row328226#s19",
+      "text": "GI/GU: abdominal incision, drsng C/D/I."
+    },
+    {
+      "id": "E:note:row328226:20",
+      "kind": "note_sentence",
+      "display": "BS, NGT to low wall suction,    no outpt.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row328226#s20",
+      "text": "BS, NGT to low wall suction,    no outpt."
+    },
+    {
+      "id": "E:note:row328226:21",
+      "kind": "note_sentence",
+      "display": "Foley patent and draining yellow urine, approx 50cc/hr.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row328226#s21",
+      "text": "Foley patent and draining yellow urine, approx 50cc/hr."
+    },
+    {
+      "id": "E:note:row328226:22",
+      "kind": "note_sentence",
+      "display": "Access: R TL IJ, R aline.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row328226#s22",
+      "text": "Access: R TL IJ, R aline."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|1830": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5609": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1974": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1975": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1976": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1962": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|19882": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|19889": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78959": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|9974": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5601": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99889": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|45829": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42789": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7806": [
+      "E:cond:15"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "malignant neoplasm of ovary": [
+      "E:cond:1"
+    ],
+    "unspecified intestinal obstruction": [
+      "E:cond:2"
+    ],
+    "secondary malignant neoplasm of small intestine including duodenum": [
+      "E:cond:3"
+    ],
+    "secondary malignant neoplasm of large intestine and rectum": [
+      "E:cond:4"
+    ],
+    "secondary malignant neoplasm of retroperitoneum and peritoneum": [
+      "E:cond:5"
+    ],
+    "secondary and unspecified malignant neoplasm of intra-abdominal lymph nodes": [
+      "E:cond:6"
+    ],
+    "secondary malignant neoplasm of genital organs": [
+      "E:cond:7"
+    ],
+    "secondary malignant neoplasm of other specified sites": [
+      "E:cond:8"
+    ],
+    "other ascites": [
+      "E:cond:9"
+    ],
+    "diagnosis": [
+      "E:cond:10",
+      "E:cond:15"
+    ],
+    "paralytic ileus": [
+      "E:cond:11"
+    ],
+    "other specified complications of procedures not elsewhere classified": [
+      "E:cond:12"
+    ],
+    "other iatrogenic hypotension": [
+      "E:cond:13"
+    ],
+    "other specified cardiac dysrhythmias": [
+      "E:cond:14"
+    ],
+    "other removal of both ovaries and tubes at same operative episode": [
+      "E:proc:1"
+    ],
+    "other and unspecified total abdominal hysterectomy": [
+      "E:proc:2"
+    ],
+    "excision or destruction of peritoneal tissue": [
+      "E:proc:3"
+    ],
+    "excision of lesion or tissue of diaphragm": [
+      "E:proc:4"
+    ],
+    "other resection of rectum": [
+      "E:proc:5"
+    ],
+    "other small-to-large intestinal anastomosis": [
+      "E:proc:6"
+    ],
+    "large-to-large intestinal anastomosis": [
+      "E:proc:7"
+    ],
+    "open and other cecectomy": [
+      "E:proc:8"
+    ],
+    "rigid proctosigmoidoscopy": [
+      "E:proc:9"
+    ],
+    "parenteral infusion of concentrated nutritional substances": [
+      "E:proc:10"
+    ],
+    "transfusion of packed cells": [
+      "E:proc:11"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:12"
+    ],
+    "insertion of other (naso-)gastric tube": [
+      "E:proc:13"
+    ],
+    "chief complaint: severe abdominal pain hpi: 44 yr with recent diagnosis o": [
+      "E:note:row328226:1"
+    ],
+    "ct scan revealed large pelvic mass with peritoneal spread and high grade smal": [
+      "E:note:row328226:2"
+    ],
+    "pt underwent ultrasound guided drainage. cytology final report from the ultra": [
+      "E:note:row328226:3"
+    ],
+    "ct scan and mri demonstrated extensive disease.": [
+      "E:note:row328226:4"
+    ],
+    "patient underwent tah bso with small bowel and sigmoid resection and omentect": [
+      "E:note:row328226:5"
+    ],
+    "tachycardia, other assessment: st 120s-130s bp 100s-110s, cvp 3-5, tmax 9": [
+      "E:note:row328226:6"
+    ],
+    "response: remains tachy, bp stable, cvp 8-10, pt sedated and appears comforta": [
+      "E:note:row328226:7"
+    ],
+    "plan: cont to monitor, ?pe pain control (acute pain, chronic pain) asse": [
+      "E:note:row328226:8"
+    ],
+    "action: pt cont to be uncomfortable and becoming tachy, versed and fent gtts": [
+      "E:note:row328226:9"
+    ],
+    "response: pt sedated and comfortable, remains tachy.": [
+      "E:note:row328226:10"
+    ],
+    "plan: cont gtts, wean as tolerated.": [
+      "E:note:row328226:11"
+    ],
+    "airway, inability to protect (risk for aspiration, altered gag, airway cleara": [
+      "E:note:row328226:12"
+    ],
+    "action: current vent setting cmv/40%/450/14/5 response: o2 sat 98-100%,": [
+      "E:note:row328226:13"
+    ],
+    "neuro: sedated, opens eyes to pain.": [
+      "E:note:row328226:14"
+    ],
+    "hypotermic on arrival, bair hugger on pt. current temp 99.3ax. fent and verse": [
+      "E:note:row328226:15"
+    ],
+    "resp: remains intubated for airway protection.": [
+      "E:note:row328226:16"
+    ],
+    "lsc, o2 sat 98-100%.": [
+      "E:note:row328226:17"
+    ],
+    "cv: st 120s-130s, no ectopy noted, bp 110s.": [
+      "E:note:row328226:18"
+    ],
+    "gi/gu: abdominal incision, drsng c/d/i.": [
+      "E:note:row328226:19"
+    ],
+    "bs, ngt to low wall suction, no outpt.": [
+      "E:note:row328226:20"
+    ],
+    "foley patent and draining yellow urine, approx 50cc/hr.": [
+      "E:note:row328226:21"
+    ],
+    "access: r tl ij, r aline.": [
+      "E:note:row328226:22"
+    ]
+  },
+  "by_date": {
+    "2165-07-16": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13"
+    ]
+  }
+}

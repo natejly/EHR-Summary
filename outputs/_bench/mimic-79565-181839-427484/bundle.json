@@ -1,0 +1,818 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-79565-181839",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-79565",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-79565",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-181839",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-181839",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2146-11-23T00:00:00",
+          "end": "2146-12-15T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5568",
+              "display": "Other ulcerative colitis"
+            }
+          ],
+          "text": "Other ulcerative colitis"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "261",
+              "display": "Nutritional marasmus"
+            }
+          ],
+          "text": "Nutritional marasmus"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4846",
+              "display": "Pneumonia in aspergillosis"
+            }
+          ],
+          "text": "Pneumonia in aspergillosis"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1173",
+              "display": "Aspergillosis"
+            }
+          ],
+          "text": "Aspergillosis"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5781",
+              "display": "Blood in stool"
+            }
+          ],
+          "text": "Blood in stool"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2851",
+              "display": "Acute posthemorrhagic anemia"
+            }
+          ],
+          "text": "Acute posthemorrhagic anemia"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "45341",
+              "display": "Acute venous embolism and thrombosis of deep vessels of proximal lower extremity"
+            }
+          ],
+          "text": "Acute venous embolism and thrombosis of deep vessels of proximal lower extremity"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51189",
+              "display": "Other specified forms of effusion, except tuberculous"
+            }
+          ],
+          "text": "Other specified forms of effusion, except tuberculous"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2763",
+              "display": "Alkalosis"
+            }
+          ],
+          "text": "Alkalosis"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5601",
+              "display": "Paralytic ileus"
+            }
+          ],
+          "text": "Paralytic ileus"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2449",
+              "display": "Unspecified acquired hypothyroidism"
+            }
+          ],
+          "text": "Unspecified acquired hypothyroidism"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2738",
+              "display": "Other disorders of plasma protein metabolism"
+            }
+          ],
+          "text": "Other disorders of plasma protein metabolism"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7823",
+              "display": "Edema"
+            }
+          ],
+          "text": "Edema"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70703",
+              "display": "Pressure ulcer, lower back"
+            }
+          ],
+          "text": "Pressure ulcer, lower back"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70707",
+              "display": "Pressure ulcer, heel"
+            }
+          ],
+          "text": "Pressure ulcer, heel"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70722",
+              "display": "Pressure ulcer, stage II"
+            }
+          ],
+          "text": "Pressure ulcer, stage II"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4928",
+              "display": "Other emphysema"
+            }
+          ],
+          "text": "Other emphysema"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2875",
+              "display": "Thrombocytopenia, unspecified"
+            }
+          ],
+          "text": "Thrombocytopenia, unspecified"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4275",
+              "display": "Cardiac arrest"
+            }
+          ],
+          "text": "Cardiac arrest"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "412",
+              "display": "Old myocardial infarction"
+            }
+          ],
+          "text": "Old myocardial infarction"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V1011",
+              "display": "Personal history of malignant neoplasm of bronchus and lung"
+            }
+          ],
+          "text": "Personal history of malignant neoplasm of bronchus and lung"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V1046",
+              "display": "Personal history of malignant neoplasm of prostate"
+            }
+          ],
+          "text": "Personal history of malignant neoplasm of prostate"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-24",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-24",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4582",
+              "display": "Percutaneous transluminal coronary angioplasty status"
+            }
+          ],
+          "text": "Percutaneous transluminal coronary angioplasty status"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-25",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-25",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V1582",
+              "display": "Personal history of tobacco use"
+            }
+          ],
+          "text": "Personal history of tobacco use"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181839-26",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181839-26",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V667",
+              "display": "Encounter for palliative care"
+            }
+          ],
+          "text": "Encounter for palliative care"
+        },
+        "onsetDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-181839-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-181839-1",
+        "status": "completed",
+        "code": {
+          "text": "Interruption of the vena cava"
+        },
+        "performedDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-181839-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-181839-2",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of rectum"
+        },
+        "performedDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-181839-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-181839-3",
+        "status": "completed",
+        "code": {
+          "text": "Flexible sigmoidoscopy"
+        },
+        "performedDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-181839-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-181839-4",
+        "status": "completed",
+        "code": {
+          "text": "Fiber-optic bronchoscopy"
+        },
+        "performedDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-181839-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-181839-5",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-181839-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-181839-6",
+        "status": "completed",
+        "code": {
+          "text": "Parenteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-181839-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-181839-7",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-181839-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-181839-8",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of packed cells"
+        },
+        "performedDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-181839-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-181839-9",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of platelets"
+        },
+        "performedDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-181839-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-181839-10",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2146-11-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-181839-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-181839-11",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2146-11-23"
+      }
+    }
+  ]
+}

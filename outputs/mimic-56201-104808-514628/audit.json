@@ -1,0 +1,140 @@
+{
+  "case_id": "mimic-56201-104808-514628",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2298,
+    "summary_chars": 1099,
+    "target_min_chars": 459,
+    "target_max_chars": 689,
+    "achieved_ratio": 0.4782419495213229,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 7,
+    "cited_evidence_ids": [
+      "E:cond:10",
+      "E:cond:12",
+      "E:cond:14",
+      "E:cond:16",
+      "E:cond:19",
+      "E:cond:2",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:note:row514628:1",
+      "E:note:row514628:12",
+      "E:note:row514628:13",
+      "E:note:row514628:16",
+      "E:note:row514628:2",
+      "E:note:row514628:22",
+      "E:note:row514628:28",
+      "E:note:row514628:3",
+      "E:note:row514628:36",
+      "E:note:row514628:42",
+      "E:note:row514628:5",
+      "E:note:row514628:7",
+      "E:note:row514628:8"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Patient presents with acute respiratory failure [E:cond:3], multifocal pneumonia including VAP [E:cond:2][E:note:row514628:7][E:note:row514628:36], and cardiac tamponade due to large pericardial effusion [E:cond:14][E:note:row514628:7][E:note:row514628:13].",
+        "severity": "medium",
+        "reason": "The summary specifies 'multifocal pneumonia including VAP' and 'large pericardial effusion', but the fact sheet only lists 'Pneumonia, organism unspecified' and 'Cardiac tamponade'."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Patient presents with acute respiratory failure [E:cond:3], multifocal pneumonia including VAP [E:cond:2][E:note:row514628:7][E:note:row514628:36], and cardiac tamponade due to large pericardial effusion [E:cond:14][E:note:row514628:7][E:note:row514628:13].",
+        "suggested": "Patient presents with acute respiratory failure [E:cond:3], pneumonia [E:cond:2][E:note:row514628:7][E:note:row514628:36], and cardiac tamponade [E:cond:14][E:note:row514628:7][E:note:row514628:13].",
+        "reason": "Remove specific descriptors like 'multifocal', 'VAP', and 'large pericardial effusion' not explicitly present in the provided fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-56201-104808-514628/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.65,
+    "fk_words": 198,
+    "fk_sentences": 18,
+    "fk_syllables": 318,
+    "chars": 1839,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-56201-104808-514628/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.003083165967836976,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 100.53300975001184,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 123.60128616605652,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0027540000155568123,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 29.58338458405342,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 36.24888245895272,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.004000291984993964,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 11.998568915994838,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

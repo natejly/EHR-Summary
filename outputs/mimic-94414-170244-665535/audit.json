@@ -1,0 +1,144 @@
+{
+  "case_id": "mimic-94414-170244-665535",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2859,
+    "summary_chars": 1389,
+    "target_min_chars": 571,
+    "target_max_chars": 857,
+    "achieved_ratio": 0.4858342077649528,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 14,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row665535:10",
+      "E:note:row665535:12",
+      "E:note:row665535:15",
+      "E:note:row665535:16",
+      "E:note:row665535:18",
+      "E:note:row665535:19",
+      "E:note:row665535:20",
+      "E:note:row665535:23",
+      "E:note:row665535:26",
+      "E:note:row665535:28",
+      "E:note:row665535:3",
+      "E:note:row665535:33",
+      "E:note:row665535:35",
+      "E:note:row665535:4",
+      "E:note:row665535:6",
+      "E:note:row665535:8",
+      "E:note:row665535:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Findings include mild pulmonary hypertension and no pulmonary embolism [E:note:row665535:8][E:note:row665535:9].",
+        "severity": "medium",
+        "reason": "The cited evidence IDs are not present in the provided fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Findings include mild pulmonary hypertension and no pulmonary embolism [E:note:row665535:8][E:note:row665535:9].",
+        "suggested": "",
+        "reason": "Remove sentence as the supporting evidence is missing from the fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-94414-170244-665535/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 5.74,
+    "fk_words": 202,
+    "fk_sentences": 21,
+    "fk_syllables": 301,
+    "chars": 1684,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-94414-170244-665535/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0019966669497080147,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 82.46320891700452,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 187.556638457987,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0016710420022718608,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 79.15612999995938,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 33.30121408298146,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0028875420102849603,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 9.594065958983265,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

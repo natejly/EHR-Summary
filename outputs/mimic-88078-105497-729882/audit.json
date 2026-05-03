@@ -1,0 +1,157 @@
+{
+  "case_id": "mimic-88078-105497-729882",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 3215,
+    "summary_chars": 1489,
+    "target_min_chars": 643,
+    "target_max_chars": 964,
+    "achieved_ratio": 0.46314152410575427,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 9,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:19",
+      "E:cond:2",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:29",
+      "E:cond:3",
+      "E:cond:30",
+      "E:cond:33",
+      "E:cond:34",
+      "E:cond:37",
+      "E:cond:38",
+      "E:cond:39",
+      "E:cond:4",
+      "E:cond:40",
+      "E:cond:41",
+      "E:cond:42",
+      "E:cond:43",
+      "E:cond:44",
+      "E:cond:45",
+      "E:cond:46",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row729882:1",
+      "E:note:row729882:19",
+      "E:note:row729882:20",
+      "E:note:row729882:25",
+      "E:note:row729882:26",
+      "E:note:row729882:3",
+      "E:note:row729882:6"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Patient status post unwitnessed fall onto concrete [E:note:row729882:1] resulting in traumatic pneumothorax [E:cond:19][E:cond:20], large PTX [E:note:row729882:3], and traumatic subcutaneous emphysema [E:cond:21][E:cond:22] with subcutaneous air [E:note:row729882:3].",
+        "severity": "medium",
+        "reason": "The fact sheet describes a 'Fall from other slipping, tripping, or stumbling' but does not specify it was 'unwitnessed' or 'onto concrete'."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Patient status post unwitnessed fall onto concrete [E:note:row729882:1] resulting in traumatic pneumothorax [E:cond:19][E:cond:20], large PTX [E:note:row729882:3], and traumatic subcutaneous emphysema [E:cond:21][E:cond:22] with subcutaneous air [E:note:row729882:3].",
+        "suggested": "Patient status post fall [E:note:row729882:1] resulting in traumatic pneumothorax [E:cond:19][E:cond:20], large PTX [E:note:row729882:3], and traumatic subcutaneous emphysema [E:cond:21][E:cond:22] with subcutaneous air [E:note:row729882:3].",
+        "reason": "Removed unsupported details regarding the nature of the fall (unwitnessed, concrete)."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-88078-105497-729882/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.47,
+    "fk_words": 164,
+    "fk_sentences": 23,
+    "fk_syllables": 268,
+    "chars": 1526,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-88078-105497-729882/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0023890830343589187,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 857.6735807919758,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 90.93110087502282,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.002130375010892749,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 17.430057082965504,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 117.32169412501389,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.003051958978176117,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 97.3747649579891,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "case_id": "mimic-88078-105497-730292",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 1454,
+    "summary_chars": 730,
+    "target_min_chars": 290,
+    "target_max_chars": 436,
+    "achieved_ratio": 0.5020632737276479,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 5,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:19",
+      "E:cond:2",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row730292:2",
+      "E:note:row730292:4",
+      "E:note:row730292:6",
+      "E:note:row730292:8"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Lung contusion [E:cond:1][E:cond:2], pneumonia [E:cond:3][E:cond:4], acute lung edema [E:cond:7][E:cond:8], 7 closed rib fractures [E:cond:9][E:cond:10], acute respiratory failure [E:note:row730292:4], iatrogenic and traumatic pneumothorax [E:cond:13][E:cond:14][E:cond:19][E:cond:20], subcutaneous emphysema [E:cond:21][E:cond:22], diaphragmatic hernia [E:cond:23][E:cond:24], and acute trauma pain [E:cond:27][E:cond:28].",
+        "severity": "medium",
+        "reason": "The summary omits several significant active problems listed in the fact sheet, including obstructive chronic bronchitis with acute exacerbation and pathologic fracture of vertebrae."
+      },
+      {
+        "sentence": "Lung contusion [E:cond:1][E:cond:2], pneumonia [E:cond:3][E:cond:4], acute lung edema [E:cond:7][E:cond:8], 7 closed rib fractures [E:cond:9][E:cond:10], acute respiratory failure [E:note:row730292:4], iatrogenic and traumatic pneumothorax [E:cond:13][E:cond:14][E:cond:19][E:cond:20], subcutaneous emphysema [E:cond:21][E:cond:22], diaphragmatic hernia [E:cond:23][E:cond:24], and acute trauma pain [E:cond:27][E:cond:28].",
+        "severity": "high",
+        "reason": "The citation [E:note:row730292:4] for 'acute respiratory failure' does not exist in the provided fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Lung contusion [E:cond:1][E:cond:2], pneumonia [E:cond:3][E:cond:4], acute lung edema [E:cond:7][E:cond:8], 7 closed rib fractures [E:cond:9][E:cond:10], acute respiratory failure [E:note:row730292:4], iatrogenic and traumatic pneumothorax [E:cond:13][E:cond:14][E:cond:19][E:cond:20], subcutaneous emphysema [E:cond:21][E:cond:22], diaphragmatic hernia [E:cond:23][E:cond:24], and acute trauma pain [E:cond:27][E:cond:28].",
+        "suggested": "Lung contusion [E:cond:1][E:cond:2], pneumonia [E:cond:3][E:cond:4], acute lung edema [E:cond:7][E:cond:8], 7 closed rib fractures [E:cond:9][E:cond:10], obstructive chronic bronchitis with acute exacerbation [E:cond:11][E:cond:12], iatrogenic and traumatic pneumothorax [E:cond:13][E:cond:14][E:cond:19][E:cond:20], pathologic fracture of vertebrae [E:cond:15][E:cond:16], subcutaneous emphysema [E:cond:21][E:cond:22], diaphragmatic hernia [E:cond:23][E:cond:24], and acute trauma pain [E:cond:27][E:cond:28].",
+        "reason": "Removed unsupported claim of respiratory failure and added missing active problems from the fact sheet."
+      }
+    ]
+  },
+  "review_passed": false,
+  "review_concern_counts": {
+    "high": 1,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-88078-105497-730292/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.7,
+    "fk_words": 193,
+    "fk_sentences": 22,
+    "fk_syllables": 325,
+    "chars": 1956,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-88078-105497-730292/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.004038791987113655,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 44.82642837497406,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 174.22343895799713,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0018268750282004476,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 44.438210124964826,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 12.398813291976694,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.002950625028461218,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 106.53229541704059,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

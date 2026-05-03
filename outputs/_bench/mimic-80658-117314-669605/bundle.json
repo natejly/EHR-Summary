@@ -1,0 +1,707 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-80658-117314",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-80658",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-80658",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-117314",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-117314",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2111-04-12T00:00:00",
+          "end": "2111-05-01T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4178",
+              "display": "Other specified diseases of pulmonary circulation"
+            }
+          ],
+          "text": "Other specified diseases of pulmonary circulation"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7863",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1120",
+              "display": "Candidiasis of mouth"
+            }
+          ],
+          "text": "Candidiasis of mouth"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2851",
+              "display": "Acute posthemorrhagic anemia"
+            }
+          ],
+          "text": "Acute posthemorrhagic anemia"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2766",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "515",
+              "display": "Postinflammatory pulmonary fibrosis"
+            }
+          ],
+          "text": "Postinflammatory pulmonary fibrosis"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42731",
+              "display": "Atrial fibrillation"
+            }
+          ],
+          "text": "Atrial fibrillation"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V5861",
+              "display": "Long-term (current) use of anticoagulants"
+            }
+          ],
+          "text": "Long-term (current) use of anticoagulants"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "32723",
+              "display": "Obstructive sleep apnea (adult)(pediatric)"
+            }
+          ],
+          "text": "Obstructive sleep apnea (adult)(pediatric)"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "45829",
+              "display": "Other iatrogenic hypotension"
+            }
+          ],
+          "text": "Other iatrogenic hypotension"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E9320",
+              "display": "Adrenal cortical steroids causing adverse effects in therapeutic use"
+            }
+          ],
+          "text": "Adrenal cortical steroids causing adverse effects in therapeutic use"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41401",
+              "display": "Coronary atherosclerosis of native coronary artery"
+            }
+          ],
+          "text": "Coronary atherosclerosis of native coronary artery"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4582",
+              "display": "Percutaneous transluminal coronary angioplasty status"
+            }
+          ],
+          "text": "Percutaneous transluminal coronary angioplasty status"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2449",
+              "display": "Unspecified acquired hypothyroidism"
+            }
+          ],
+          "text": "Unspecified acquired hypothyroidism"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2724",
+              "display": "Other and unspecified hyperlipidemia"
+            }
+          ],
+          "text": "Other and unspecified hyperlipidemia"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25000",
+              "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "60000",
+              "display": "Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)"
+            }
+          ],
+          "text": "Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "30000",
+              "display": "Anxiety state, unspecified"
+            }
+          ],
+          "text": "Anxiety state, unspecified"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "53085",
+              "display": "Barrett's esophagus"
+            }
+          ],
+          "text": "Barrett's esophagus"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "72400",
+              "display": "Spinal stenosis, unspecified region"
+            }
+          ],
+          "text": "Spinal stenosis, unspecified region"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V1582",
+              "display": "Personal history of tobacco use"
+            }
+          ],
+          "text": "Personal history of tobacco use"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-117314-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-117314-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5718",
+              "display": "Other chronic nonalcoholic liver disease"
+            }
+          ],
+          "text": "Other chronic nonalcoholic liver disease"
+        },
+        "onsetDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-117314-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-117314-1",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-117314-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-117314-2",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-117314-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-117314-3",
+        "status": "completed",
+        "code": {
+          "text": "Laryngoscopy and other tracheoscopy"
+        },
+        "performedDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-117314-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-117314-4",
+        "status": "completed",
+        "code": {
+          "text": "Arterial catheterization"
+        },
+        "performedDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-117314-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-117314-5",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-117314-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-117314-6",
+        "status": "completed",
+        "code": {
+          "text": "Diagnostic ultrasound of heart"
+        },
+        "performedDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-117314-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-117314-7",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2111-04-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-117314-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-117314-8",
+        "status": "completed",
+        "code": {
+          "text": "Non-invasive mechanical ventilation"
+        },
+        "performedDateTime": "2111-04-12"
+      }
+    }
+  ]
+}

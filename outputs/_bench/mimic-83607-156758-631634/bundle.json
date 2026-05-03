@@ -1,0 +1,866 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-83607-156758",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-83607",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-83607",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-156758",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-156758",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2168-04-05T00:00:00",
+          "end": "2168-04-25T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99931",
+              "display": "Other and unspecified infection due to central venous catheter"
+            }
+          ],
+          "text": "Other and unspecified infection due to central venous catheter"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1125",
+              "display": "Disseminated candidiasis"
+            }
+          ],
+          "text": "Disseminated candidiasis"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78552",
+              "display": "Septic shock"
+            }
+          ],
+          "text": "Septic shock"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5856",
+              "display": "End stage renal disease"
+            }
+          ],
+          "text": "End stage renal disease"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "452",
+              "display": "Portal vein thrombosis"
+            }
+          ],
+          "text": "Portal vein thrombosis"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "34830",
+              "display": "Encephalopathy, unspecified"
+            }
+          ],
+          "text": "Encephalopathy, unspecified"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99592",
+              "display": "Severe sepsis"
+            }
+          ],
+          "text": "Severe sepsis"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "40391",
+              "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease"
+            }
+          ],
+          "text": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "07032",
+              "display": "Chronic viral hepatitis B without mention of hepatic coma without mention of hepatitis delta"
+            }
+          ],
+          "text": "Chronic viral hepatitis B without mention of hepatic coma without mention of hepatitis delta"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "00845",
+              "display": "Intestinal infection due to Clostridium difficile"
+            }
+          ],
+          "text": "Intestinal infection due to Clostridium difficile"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99674",
+              "display": "Other complications due to other vascular device, implant, and graft"
+            }
+          ],
+          "text": "Other complications due to other vascular device, implant, and graft"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "45385",
+              "display": "Acute venous embolism and thrombosis of subclavian veins"
+            }
+          ],
+          "text": "Acute venous embolism and thrombosis of subclavian veins"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "45382",
+              "display": "Acute venous embolism and thrombosis of deep veins of upper extremity"
+            }
+          ],
+          "text": "Acute venous embolism and thrombosis of deep veins of upper extremity"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2639",
+              "display": "Unspecified protein-calorie malnutrition"
+            }
+          ],
+          "text": "Unspecified protein-calorie malnutrition"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5761",
+              "display": "Cholangitis"
+            }
+          ],
+          "text": "Cholangitis"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78959",
+              "display": "Other ascites"
+            }
+          ],
+          "text": "Other ascites"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5119",
+              "display": "Unspecified pleural effusion"
+            }
+          ],
+          "text": "Unspecified pleural effusion"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8798",
+              "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+            }
+          ],
+          "text": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25040",
+              "display": "Diabetes with renal manifestations, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes with renal manifestations, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4511",
+              "display": "Renal dialysis status"
+            }
+          ],
+          "text": "Renal dialysis status"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25050",
+              "display": "Diabetes with ophthalmic manifestations, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes with ophthalmic manifestations, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "36201",
+              "display": "Background diabetic retinopathy"
+            }
+          ],
+          "text": "Background diabetic retinopathy"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-24",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-24",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25060",
+              "display": "Diabetes with neurological manifestations, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes with neurological manifestations, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-25",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-25",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3572",
+              "display": "Polyneuropathy in diabetes"
+            }
+          ],
+          "text": "Polyneuropathy in diabetes"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156758-26",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156758-26",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "28521",
+              "display": "Anemia in chronic kidney disease"
+            }
+          ],
+          "text": "Anemia in chronic kidney disease"
+        },
+        "onsetDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156758-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156758-1",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156758-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156758-2",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156758-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156758-3",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156758-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156758-4",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156758-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156758-5",
+        "status": "completed",
+        "code": {
+          "text": "Parenteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156758-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156758-6",
+        "status": "completed",
+        "code": {
+          "text": "Thoracentesis"
+        },
+        "performedDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156758-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156758-7",
+        "status": "completed",
+        "code": {
+          "text": "Hemodialysis"
+        },
+        "performedDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156758-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156758-8",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization for renal dialysis"
+        },
+        "performedDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156758-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156758-9",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156758-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156758-10",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156758-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156758-11",
+        "status": "completed",
+        "code": {
+          "text": "Removal of other device from thorax"
+        },
+        "performedDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156758-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156758-12",
+        "status": "completed",
+        "code": {
+          "text": "Aspiration of other soft tissue"
+        },
+        "performedDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156758-13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156758-13",
+        "status": "completed",
+        "code": {
+          "text": "Aspiration of other soft tissue"
+        },
+        "performedDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156758-14",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156758-14",
+        "status": "completed",
+        "code": {
+          "text": "Diagnostic ultrasound of heart"
+        },
+        "performedDateTime": "2168-04-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156758-15",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156758-15",
+        "status": "completed",
+        "code": {
+          "text": "Diagnostic ultrasound of heart"
+        },
+        "performedDateTime": "2168-04-05"
+      }
+    }
+  ]
+}

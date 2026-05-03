@@ -1,0 +1,936 @@
+{
+  "case_id": "mimic-68589-152895-642898",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:enc-152895",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Subdural hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "85221",
+        "display": "Subdural hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Subdural hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "85221",
+        "display": "Subdural hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5128",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5128",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5185",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5185",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Intestinal infection due to Clostridium difficile",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "00845",
+        "display": "Intestinal infection due to Clostridium difficile"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Intestinal infection due to Clostridium difficile",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "00845",
+        "display": "Intestinal infection due to Clostridium difficile"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Unspecified transient mental disorder in conditions classified elsewhere",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2939",
+        "display": "Unspecified transient mental disorder in conditions classified elsewhere"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Unspecified transient mental disorder in conditions classified elsewhere",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2939",
+        "display": "Unspecified transient mental disorder in conditions classified elsewhere"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Encephalopathy, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34830",
+        "display": "Encephalopathy, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Encephalopathy, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34830",
+        "display": "Encephalopathy, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Pneumonia due to other gram-negative bacteria",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "48283",
+        "display": "Pneumonia due to other gram-negative bacteria"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Pneumonia due to other gram-negative bacteria",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "48283",
+        "display": "Pneumonia due to other gram-negative bacteria"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Ventilator associated pneumonia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99731",
+        "display": "Ventilator associated pneumonia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Ventilator associated pneumonia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99731",
+        "display": "Ventilator associated pneumonia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Accidental fall from ladder",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8810",
+        "display": "Accidental fall from ladder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Accidental fall from ladder",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8810",
+        "display": "Accidental fall from ladder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Other and unspecified intracranial hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "85301",
+        "display": "Other and unspecified intracranial hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Other and unspecified intracranial hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "85301",
+        "display": "Other and unspecified intracranial hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Other specified cardiac dysrhythmias",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42789",
+        "display": "Other specified cardiac dysrhythmias"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Other specified cardiac dysrhythmias",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42789",
+        "display": "Other specified cardiac dysrhythmias"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Unspecified acquired hypothyroidism",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2449",
+        "display": "Unspecified acquired hypothyroidism"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Unspecified acquired hypothyroidism",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2449",
+        "display": "Unspecified acquired hypothyroidism"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:cond-152895-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Incision of cerebral meninges",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Incision of cerebral meninges"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:proc-152895-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Incision of cerebral meninges",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Incision of cerebral meninges"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:proc-152895-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Temporary tracheostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Temporary tracheostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:proc-152895-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Temporary tracheostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Temporary tracheostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:proc-152895-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Percutaneous [endoscopic] gastrostomy [PEG]",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous [endoscopic] gastrostomy [PEG]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:proc-152895-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Percutaneous [endoscopic] gastrostomy [PEG]",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous [endoscopic] gastrostomy [PEG]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:proc-152895-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:proc-152895-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:proc-152895-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:proc-152895-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:proc-152895-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Injection or infusion of oxazolidinone class of antibiotics",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Injection or infusion of oxazolidinone class of antibiotics"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:proc-152895-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Injection or infusion of oxazolidinone class of antibiotics",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Injection or infusion of oxazolidinone class of antibiotics"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:proc-152895-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:proc-152895-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:14",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:proc-152895-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:15",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:proc-152895-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:16",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:proc-152895-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:17",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:proc-152895-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:18",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:proc-152895-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:19",
+      "kind": "procedure",
+      "display": "Insertion of intercostal catheter for drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of intercostal catheter for drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:proc-152895-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:20",
+      "kind": "procedure",
+      "display": "Insertion of intercostal catheter for drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of intercostal catheter for drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2156-12-05",
+      "source_ref": "urn:uuid:proc-152895-10",
+      "text": null
+    },
+    {
+      "id": "E:note:row642898:1",
+      "kind": "note_sentence",
+      "display": "Anxiety    Assessment:    Episodes of restlessness through out shift, does not f",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row642898#s1",
+      "text": "Anxiety    Assessment:    Episodes of restlessness through out shift, does not follow commands    consistently, combative with staff    Action:    Seroquel increased to   50mg  tid, attempts to reorient pt thru out    shift, pt oob to chair."
+    },
+    {
+      "id": "E:note:row642898:2",
+      "kind": "note_sentence",
+      "display": "Response:    Pt continued to wax and wane between epidsodes of resting quietly  ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row642898#s2",
+      "text": "Response:    Pt continued to wax and wane between epidsodes of resting quietly  to    constanty fidgeting and restlessness and pull arm immobilziers    Plan:    Cont with seroquel as ordered, attempt to restablish normal sleeping    pattern ? icu psychosis or neuro affects for sdh."
+    },
+    {
+      "id": "E:note:row642898:3",
+      "kind": "note_sentence",
+      "display": "Inc activity to    promote sleep patter during night    Fever, unknown origin (F",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row642898#s3",
+      "text": "Inc activity to    promote sleep patter during night    Fever, unknown origin (FUO, Hyperthermia, Pyrexia)    Assessment:    Temp max  100.5,  one episode of diaphoresis, blood cx results still    pending, urine cx negative for growth, sputum thick tannnish, pt unable    to effectively clear secretions    Action:    Vanco dosing increased to 1500mg tid, Tylenol 650 given q 6 ,, pt    suctioned numerous times for thick tan secretions, oral care given,    nystatinoral  prn    Response:    Current temp 100.5, needs vanco trough tonight before 4am dose, needs    another sputum cx sent sice previous one contaminated."
+    },
+    {
+      "id": "E:note:row642898:4",
+      "kind": "note_sentence",
+      "display": "Plan:    Send new sputum cx, cont with q 6 to 8 hr Tylenol, check blood cx,    S",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row642898#s4",
+      "text": "Plan:    Send new sputum cx, cont with q 6 to 8 hr Tylenol, check blood cx,    Subdural hemorrhage (SDH)    Assessment:    Pt lethargic to alert, inconsistently following commands, moves all    exts, lifts both arms, uses both legs to push self up in chair, perrla    at 2mm, waxws and wanes from napping to constantly fidgeting in the bed    or chair,    Action:    Cont to attempt to reorient pt, q 3 hr neuron checks, fent sedation    remains 150mcg, seroquel inc to 50 mg tid    Response:    Reorientation not effective, pt contintues to have episodes of    restlessness, does not follow commands consistenly, can be combative    Plan:    Cont with neuron checks q 3 hrs, try to restablish normal sleeping    pattern, limit sedation meds,    Volume overload: pt currently only 50 cc negative despite lasix inc to    20 mg tid, will inform md, ? checking evening lytes."
+    },
+    {
+      "id": "E:note:row642898:5",
+      "kind": "note_sentence",
+      "display": "Team wants pt [**2-18**]    liters negative",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row642898#s5",
+      "text": "Team wants pt [**2-18**]    liters negative"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|85221": [
+      "E:cond:1",
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5128": [
+      "E:cond:3",
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5185": [
+      "E:cond:5",
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|00845": [
+      "E:cond:7",
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2939": [
+      "E:cond:9",
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|34830": [
+      "E:cond:11",
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|48283": [
+      "E:cond:13",
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99731": [
+      "E:cond:15",
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8810": [
+      "E:cond:17",
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|85301": [
+      "E:cond:19",
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42789": [
+      "E:cond:21",
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2449": [
+      "E:cond:23",
+      "E:cond:24"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "subdural hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness": [
+      "E:cond:1",
+      "E:cond:2"
+    ],
+    "diagnosis": [
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6"
+    ],
+    "intestinal infection due to clostridium difficile": [
+      "E:cond:7",
+      "E:cond:8"
+    ],
+    "unspecified transient mental disorder in conditions classified elsewhere": [
+      "E:cond:9",
+      "E:cond:10"
+    ],
+    "encephalopathy, unspecified": [
+      "E:cond:11",
+      "E:cond:12"
+    ],
+    "pneumonia due to other gram-negative bacteria": [
+      "E:cond:13",
+      "E:cond:14"
+    ],
+    "ventilator associated pneumonia": [
+      "E:cond:15",
+      "E:cond:16"
+    ],
+    "accidental fall from ladder": [
+      "E:cond:17",
+      "E:cond:18"
+    ],
+    "other and unspecified intracranial hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness": [
+      "E:cond:19",
+      "E:cond:20"
+    ],
+    "other specified cardiac dysrhythmias": [
+      "E:cond:21",
+      "E:cond:22"
+    ],
+    "unspecified acquired hypothyroidism": [
+      "E:cond:23",
+      "E:cond:24"
+    ],
+    "incision of cerebral meninges": [
+      "E:proc:1",
+      "E:proc:2"
+    ],
+    "temporary tracheostomy": [
+      "E:proc:3",
+      "E:proc:4"
+    ],
+    "percutaneous [endoscopic] gastrostomy [peg]": [
+      "E:proc:5",
+      "E:proc:6"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:7",
+      "E:proc:8"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:9",
+      "E:proc:10"
+    ],
+    "injection or infusion of oxazolidinone class of antibiotics": [
+      "E:proc:11",
+      "E:proc:12"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:13",
+      "E:proc:14"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:15",
+      "E:proc:16"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:17",
+      "E:proc:18"
+    ],
+    "insertion of intercostal catheter for drainage": [
+      "E:proc:19",
+      "E:proc:20"
+    ],
+    "anxiety assessment: episodes of restlessness through out shift, does not f": [
+      "E:note:row642898:1"
+    ],
+    "response: pt continued to wax and wane between epidsodes of resting quietly": [
+      "E:note:row642898:2"
+    ],
+    "inc activity to promote sleep patter during night fever, unknown origin (f": [
+      "E:note:row642898:3"
+    ],
+    "plan: send new sputum cx, cont with q 6 to 8 hr tylenol, check blood cx, s": [
+      "E:note:row642898:4"
+    ],
+    "team wants pt [**2-18**] liters negative": [
+      "E:note:row642898:5"
+    ]
+  },
+  "by_date": {
+    "2156-12-05": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13",
+      "E:proc:14",
+      "E:proc:15",
+      "E:proc:16",
+      "E:proc:17",
+      "E:proc:18",
+      "E:proc:19",
+      "E:proc:20"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Heparin [E:note:row427484:2], coumadin [E:note:row427484:2], levofloxacin [E:note:row427484:5], flagyl [E:note:row427484:5], Vancomycin [E:note:row427484:5], zosyn [E:note:row427484:5], and IV lasix (total 40mg) [E:note:row427484:45][E:note:row427484:48].",
+      "severity": "medium",
+      "reason": "The summary calculates a total dose of 40mg which is not explicitly stated in the fact sheet, creating a derived value."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Heparin [E:note:row427484:2], coumadin [E:note:row427484:2], levofloxacin [E:note:row427484:5], flagyl [E:note:row427484:5], Vancomycin [E:note:row427484:5], zosyn [E:note:row427484:5], and IV lasix (total 40mg) [E:note:row427484:45][E:note:row427484:48].",
+      "suggested": "Heparin [E:note:row427484:2], coumadin [E:note:row427484:2], levofloxacin [E:note:row427484:5], flagyl [E:note:row427484:5], Vancomycin [E:note:row427484:5], zosyn [E:note:row427484:5], and IV lasix 20mg [E:note:row427484:45] with an additional 20mg [E:note:row427484:48].",
+      "reason": "Aligns medication dosing exactly with the provided evidence without performing external arithmetic."
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-99883-150755",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-99883",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-99883",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-150755",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-150755",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2131-12-24T00:00:00",
+          "end": "2131-12-27T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-150755-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-150755-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41401",
+              "display": "Coronary atherosclerosis of native coronary artery"
+            }
+          ],
+          "text": "Coronary atherosclerosis of native coronary artery"
+        },
+        "onsetDateTime": "2131-12-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-150755-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-150755-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42823",
+              "display": "Acute on chronic systolic heart failure"
+            }
+          ],
+          "text": "Acute on chronic systolic heart failure"
+        },
+        "onsetDateTime": "2131-12-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-150755-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-150755-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5185",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2131-12-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-150755-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-150755-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "49322",
+              "display": "Chronic obstructive asthma with (acute) exacerbation"
+            }
+          ],
+          "text": "Chronic obstructive asthma with (acute) exacerbation"
+        },
+        "onsetDateTime": "2131-12-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-150755-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-150755-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "9994",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2131-12-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-150755-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-150755-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2131-12-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-150755-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-150755-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99527",
+              "display": "Other drug allergy"
+            }
+          ],
+          "text": "Other drug allergy"
+        },
+        "onsetDateTime": "2131-12-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-150755-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-150755-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E9353",
+              "display": "Salicylates causing adverse effects in therapeutic use"
+            }
+          ],
+          "text": "Salicylates causing adverse effects in therapeutic use"
+        },
+        "onsetDateTime": "2131-12-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-150755-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-150755-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42731",
+              "display": "Atrial fibrillation"
+            }
+          ],
+          "text": "Atrial fibrillation"
+        },
+        "onsetDateTime": "2131-12-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-150755-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-150755-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E9478",
+              "display": "Other drugs and medicinal substances causing adverse effects in therapeutic use"
+            }
+          ],
+          "text": "Other drugs and medicinal substances causing adverse effects in therapeutic use"
+        },
+        "onsetDateTime": "2131-12-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-150755-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-150755-1",
+        "status": "completed",
+        "code": {
+          "text": "Combined right and left heart cardiac catheterization"
+        },
+        "performedDateTime": "2131-12-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-150755-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-150755-2",
+        "status": "completed",
+        "code": {
+          "text": "Coronary arteriography using two catheters"
+        },
+        "performedDateTime": "2131-12-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-150755-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-150755-3",
+        "status": "completed",
+        "code": {
+          "text": "Immunization for allergy"
+        },
+        "performedDateTime": "2131-12-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-150755-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-150755-4",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2131-12-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-150755-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-150755-5",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2131-12-24"
+      }
+    }
+  ]
+}

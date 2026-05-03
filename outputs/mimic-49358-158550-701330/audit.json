@@ -1,0 +1,159 @@
+{
+  "case_id": "mimic-49358-158550-701330",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 3360,
+    "summary_chars": 1343,
+    "target_min_chars": 672,
+    "target_max_chars": 1008,
+    "achieved_ratio": 0.399702380952381,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 13,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:note:row701330:1",
+      "E:note:row701330:13",
+      "E:note:row701330:15",
+      "E:note:row701330:17",
+      "E:note:row701330:23",
+      "E:note:row701330:26",
+      "E:note:row701330:28",
+      "E:note:row701330:30",
+      "E:note:row701330:38",
+      "E:note:row701330:45",
+      "E:note:row701330:5",
+      "E:note:row701330:54",
+      "E:note:row701330:6",
+      "E:note:row701330:7",
+      "E:note:row701330:9",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Comorbidities include acute kidney failure [E:cond:2], respiratory acidosis [E:note:row701330:54], and paralytic ileus [E:cond:5].",
+        "severity": "high",
+        "reason": "The summary cites respiratory acidosis [E:note:row701330:54], but this information is not present in the provided fact sheet."
+      },
+      {
+        "sentence": "Patient presents with severe sepsis [E:cond:6] and unspecified septicemia [E:cond:1], with concern for sepsis [E:note:row701330:9].",
+        "severity": "high",
+        "reason": "The summary cites 'concern for sepsis' [E:note:row701330:9], but this information is not present in the provided fact sheet."
+      },
+      {
+        "sentence": "Blood sugars, renal function, and electrolytes are within normal limits [E:note:row701330:26][E:note:row701330:28].",
+        "severity": "medium",
+        "reason": "This contradicts the 'Active Problems' section which lists 'Acute kidney failure' [E:cond:2]."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Patient presents with severe sepsis [E:cond:6] and unspecified septicemia [E:cond:1], with concern for sepsis [E:note:row701330:9].",
+        "suggested": "Patient presents with severe sepsis [E:cond:6] and unspecified septicemia [E:cond:1].",
+        "reason": "Remove hallucinated evidence citation."
+      },
+      {
+        "original": "Comorbidities include acute kidney failure [E:cond:2], respiratory acidosis [E:note:row701330:54], and paralytic ileus [E:cond:5].",
+        "suggested": "Comorbidities include acute kidney failure [E:cond:2] and paralytic ileus [E:cond:5].",
+        "reason": "Remove hallucinated evidence citation."
+      },
+      {
+        "original": "Blood sugars, renal function, and electrolytes are within normal limits [E:note:row701330:26][E:note:row701330:28].",
+        "suggested": "Blood sugars [E:note:row701330:26] and electrolytes [E:note:row701330:28] are within normal limits; renal function is noted as wnl [E:note:row701330:28] despite diagnosis of acute kidney failure [E:cond:2].",
+        "reason": "Address the internal inconsistency between the lab results and the active problem list."
+      }
+    ]
+  },
+  "review_passed": false,
+  "review_concern_counts": {
+    "high": 2,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-49358-158550-701330/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.55,
+    "fk_words": 193,
+    "fk_sentences": 18,
+    "fk_syllables": 310,
+    "chars": 1696,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-49358-158550-701330/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0029381249914877117,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 88.69876587501494,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 269.1088966669631,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.002369374968111515,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 12.683749374991748,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 12.514684583991766,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0023449999862350523,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 99.20194787497167,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

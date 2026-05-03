@@ -1,0 +1,133 @@
+{
+  "case_id": "mimic-96621-138277-705450",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2752,
+    "summary_chars": 983,
+    "target_min_chars": 550,
+    "target_max_chars": 825,
+    "achieved_ratio": 0.35719476744186046,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 11,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row705450:1",
+      "E:note:row705450:14",
+      "E:note:row705450:16",
+      "E:note:row705450:18",
+      "E:note:row705450:24",
+      "E:note:row705450:5",
+      "E:note:row705450:7"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "History of left shoulder surgery [E:note:row705450:7].",
+        "severity": "medium",
+        "reason": "The fact sheet describes a complication from a surgical operation with an implant, but does not specify it was a left shoulder surgery."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "History of left shoulder surgery [E:note:row705450:7].",
+        "suggested": "History of surgical operation with implant complication [E:cond:7].",
+        "reason": "Corrects the anatomical location and nature of the surgical history based on the provided fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-96621-138277-705450/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.69,
+    "fk_words": 199,
+    "fk_sentences": 18,
+    "fk_syllables": 303,
+    "chars": 1575,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-96621-138277-705450/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0031704159919172525,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 284.33436612499645,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 181.2604226669646,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0027423339779488742,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 14.428335167001933,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 19.754631666000932,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.00315912498626858,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 5.262166833039373,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

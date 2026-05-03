@@ -1,0 +1,768 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-1860-195382",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-1860",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-1860",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-195382",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-195382",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2141-06-24T00:00:00",
+          "end": "2141-07-19T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5119",
+              "display": "Unspecified pleural effusion"
+            }
+          ],
+          "text": "Unspecified pleural effusion"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5856",
+              "display": "End stage renal disease"
+            }
+          ],
+          "text": "End stage renal disease"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "486",
+              "display": "Pneumonia, organism unspecified"
+            }
+          ],
+          "text": "Pneumonia, organism unspecified"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1628",
+              "display": "Malignant neoplasm of other parts of bronchus or lung"
+            }
+          ],
+          "text": "Malignant neoplasm of other parts of bronchus or lung"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "56089",
+              "display": "Other specified intestinal obstruction"
+            }
+          ],
+          "text": "Other specified intestinal obstruction"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5180",
+              "display": "Pulmonary collapse"
+            }
+          ],
+          "text": "Pulmonary collapse"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5570",
+              "display": "Acute vascular insufficiency of intestine"
+            }
+          ],
+          "text": "Acute vascular insufficiency of intestine"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2762",
+              "display": "Acidosis"
+            }
+          ],
+          "text": "Acidosis"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0389",
+              "display": "Unspecified septicemia"
+            }
+          ],
+          "text": "Unspecified septicemia"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99592",
+              "display": "Severe sepsis"
+            }
+          ],
+          "text": "Severe sepsis"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7801",
+              "display": "Hallucinations"
+            }
+          ],
+          "text": "Hallucinations"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "40391",
+              "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease"
+            }
+          ],
+          "text": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "496",
+              "display": "Chronic airway obstruction, not elsewhere classified"
+            }
+          ],
+          "text": "Chronic airway obstruction, not elsewhere classified"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42731",
+              "display": "Atrial fibrillation"
+            }
+          ],
+          "text": "Atrial fibrillation"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25000",
+              "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V5867",
+              "display": "Long-term (current) use of insulin"
+            }
+          ],
+          "text": "Long-term (current) use of insulin"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V5861",
+              "display": "Long-term (current) use of anticoagulants"
+            }
+          ],
+          "text": "Long-term (current) use of anticoagulants"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7842",
+              "display": "Swelling, mass, or lump in head and neck"
+            }
+          ],
+          "text": "Swelling, mass, or lump in head and neck"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51919",
+              "display": "Other diseases of trachea and bronchus"
+            }
+          ],
+          "text": "Other diseases of trachea and bronchus"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3383",
+              "display": "Neoplasm related pain (acute) (chronic)"
+            }
+          ],
+          "text": "Neoplasm related pain (acute) (chronic)"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3332",
+              "display": "Myoclonus"
+            }
+          ],
+          "text": "Myoclonus"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E9352",
+              "display": "Other opiates and related narcotics causing adverse effects in therapeutic use"
+            }
+          ],
+          "text": "Other opiates and related narcotics causing adverse effects in therapeutic use"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-195382-24",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-195382-24",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "32723",
+              "display": "Obstructive sleep apnea (adult)(pediatric)"
+            }
+          ],
+          "text": "Obstructive sleep apnea (adult)(pediatric)"
+        },
+        "onsetDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-195382-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-195382-1",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-195382-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-195382-2",
+        "status": "completed",
+        "code": {
+          "text": "Thoracentesis"
+        },
+        "performedDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-195382-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-195382-3",
+        "status": "completed",
+        "code": {
+          "text": "Hemodialysis"
+        },
+        "performedDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-195382-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-195382-4",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization for renal dialysis"
+        },
+        "performedDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-195382-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-195382-5",
+        "status": "completed",
+        "code": {
+          "text": "Other bronchoscopy"
+        },
+        "performedDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-195382-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-195382-6",
+        "status": "completed",
+        "code": {
+          "text": "Other intubation of respiratory tract"
+        },
+        "performedDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-195382-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-195382-7",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-195382-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-195382-8",
+        "status": "completed",
+        "code": {
+          "text": "Thoracentesis"
+        },
+        "performedDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-195382-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-195382-9",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-195382-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-195382-10",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2141-06-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-195382-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-195382-11",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2141-06-24"
+      }
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-9461-156692",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-9461",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-9461",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-156692",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-156692",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2167-08-11T00:00:00",
+          "end": "2167-08-15T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156692-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156692-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41071",
+              "display": "Subendocardial infarction, initial episode of care"
+            }
+          ],
+          "text": "Subendocardial infarction, initial episode of care"
+        },
+        "onsetDateTime": "2167-08-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156692-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156692-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99672",
+              "display": "Other complications due to other cardiac device, implant, and graft"
+            }
+          ],
+          "text": "Other complications due to other cardiac device, implant, and graft"
+        },
+        "onsetDateTime": "2167-08-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156692-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156692-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "9971",
+              "display": "Cardiac complications, not elsewhere classified"
+            }
+          ],
+          "text": "Cardiac complications, not elsewhere classified"
+        },
+        "onsetDateTime": "2167-08-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156692-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156692-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99812",
+              "display": "Hematoma complicating a procedure"
+            }
+          ],
+          "text": "Hematoma complicating a procedure"
+        },
+        "onsetDateTime": "2167-08-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156692-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156692-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2765",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2167-08-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156692-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156692-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41401",
+              "display": "Coronary atherosclerosis of native coronary artery"
+            }
+          ],
+          "text": "Coronary atherosclerosis of native coronary artery"
+        },
+        "onsetDateTime": "2167-08-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156692-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156692-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41402",
+              "display": "Coronary atherosclerosis of autologous vein bypass graft"
+            }
+          ],
+          "text": "Coronary atherosclerosis of autologous vein bypass graft"
+        },
+        "onsetDateTime": "2167-08-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156692-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156692-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2167-08-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-156692-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-156692-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2720",
+              "display": "Pure hypercholesterolemia"
+            }
+          ],
+          "text": "Pure hypercholesterolemia"
+        },
+        "onsetDateTime": "2167-08-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156692-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156692-1",
+        "status": "completed",
+        "code": {
+          "text": "Implant of pulsation balloon"
+        },
+        "performedDateTime": "2167-08-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156692-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156692-2",
+        "status": "completed",
+        "code": {
+          "text": "Procedure"
+        },
+        "performedDateTime": "2167-08-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156692-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156692-3",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of drug-eluting coronary artery stent(s)"
+        },
+        "performedDateTime": "2167-08-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156692-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156692-4",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of non-drug-eluting coronary artery stent(s)"
+        },
+        "performedDateTime": "2167-08-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156692-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156692-5",
+        "status": "completed",
+        "code": {
+          "text": "Left heart cardiac catheterization"
+        },
+        "performedDateTime": "2167-08-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156692-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156692-6",
+        "status": "completed",
+        "code": {
+          "text": "Coronary arteriography using two catheters"
+        },
+        "performedDateTime": "2167-08-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156692-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156692-7",
+        "status": "completed",
+        "code": {
+          "text": "Injection or infusion of platelet inhibitor"
+        },
+        "performedDateTime": "2167-08-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156692-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156692-8",
+        "status": "completed",
+        "code": {
+          "text": "Procedure"
+        },
+        "performedDateTime": "2167-08-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156692-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156692-9",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of non-drug-eluting coronary artery stent(s)"
+        },
+        "performedDateTime": "2167-08-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-156692-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-156692-10",
+        "status": "completed",
+        "code": {
+          "text": "Combined right and left heart cardiac catheterization"
+        },
+        "performedDateTime": "2167-08-11"
+      }
+    }
+  ]
+}

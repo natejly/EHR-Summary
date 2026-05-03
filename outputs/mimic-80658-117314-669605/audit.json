@@ -1,0 +1,135 @@
+{
+  "case_id": "mimic-80658-117314-669605",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2297,
+    "summary_chars": 1013,
+    "target_min_chars": 459,
+    "target_max_chars": 689,
+    "achieved_ratio": 0.44101001306051374,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 8,
+    "cited_evidence_ids": [
+      "E:cond:10",
+      "E:cond:13",
+      "E:cond:17",
+      "E:cond:2",
+      "E:cond:22",
+      "E:cond:5",
+      "E:cond:7",
+      "E:cond:8",
+      "E:note:row669605:1",
+      "E:note:row669605:10",
+      "E:note:row669605:11",
+      "E:note:row669605:14",
+      "E:note:row669605:18",
+      "E:note:row669605:20",
+      "E:note:row669605:24",
+      "E:note:row669605:26",
+      "E:note:row669605:3",
+      "E:note:row669605:4",
+      "E:note:row669605:6",
+      "E:note:row669605:8",
+      "E:note:row669605:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Acute respiratory failure [E:cond:2], ILD/IPF/NSIP [E:note:row669605:1][E:note:row669605:18], postinflammatory pulmonary fibrosis [E:cond:7], and diffuse ground glass opacities [E:note:row669605:8].",
+        "severity": "medium",
+        "reason": "The summary lists ILD/IPF/NSIP and ground glass opacities as active problems, but these specific terms are not present in the provided fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Acute respiratory failure [E:cond:2], ILD/IPF/NSIP [E:note:row669605:1][E:note:row669605:18], postinflammatory pulmonary fibrosis [E:cond:7], and diffuse ground glass opacities [E:note:row669605:8].",
+        "suggested": "Acute respiratory failure [E:cond:2] and postinflammatory pulmonary fibrosis [E:cond:7].",
+        "reason": "Removed diagnoses not supported by the provided fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-80658-117314-669605/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 8.02,
+    "fk_words": 223,
+    "fk_sentences": 20,
+    "fk_syllables": 364,
+    "chars": 2044,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-80658-117314-669605/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0018380829715169966,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 116.17586737498641,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 404.12230433296645,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.34704587497981265,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 424.5258041659836,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 12.97195824998198,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0029912919853813946,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 122.26185933401575,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

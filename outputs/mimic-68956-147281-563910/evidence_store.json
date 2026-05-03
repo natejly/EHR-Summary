@@ -1,0 +1,1580 @@
+{
+  "case_id": "mimic-68956-147281-563910",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:enc-147281",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Unspecified septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0389",
+        "display": "Unspecified septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Pneumonia, organism unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "486",
+        "display": "Pneumonia, organism unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Hyposmolality and/or hyponatremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2761",
+        "display": "Hyposmolality and/or hyponatremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Malignant neoplasm of other parts of bronchus or lung",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1628",
+        "display": "Malignant neoplasm of other parts of bronchus or lung"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4538",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Systolic heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42820",
+        "display": "Systolic heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Other pulmonary embolism and infarction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41519",
+        "display": "Other pulmonary embolism and infarction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Septic shock",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78552",
+        "display": "Septic shock"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Other and unspecified mycoses",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1179",
+        "display": "Other and unspecified mycoses"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Irradiation cystitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "59582",
+        "display": "Irradiation cystitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Personal history of malignant neoplasm of prostate",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V1046",
+        "display": "Personal history of malignant neoplasm of prostate"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Chronic airway obstruction, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "496",
+        "display": "Chronic airway obstruction, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Osteoporosis, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "73300",
+        "display": "Osteoporosis, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Unspecified disease of pancreas",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5779",
+        "display": "Unspecified disease of pancreas"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Calculus of gallbladder without mention of cholecystitis, without mention of obstruction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "57420",
+        "display": "Calculus of gallbladder without mention of cholecystitis, without mention of obstruction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Hypoxemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "79902",
+        "display": "Hypoxemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Anemia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2859",
+        "display": "Anemia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Late effect of radiation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9092",
+        "display": "Late effect of radiation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:25",
+      "kind": "condition",
+      "display": "Radiological procedure and radiotherapy as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8792",
+        "display": "Radiological procedure and radiotherapy as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-25",
+      "text": null
+    },
+    {
+      "id": "E:cond:26",
+      "kind": "condition",
+      "display": "Accidents occurring in other specified places",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8498",
+        "display": "Accidents occurring in other specified places"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-26",
+      "text": null
+    },
+    {
+      "id": "E:cond:27",
+      "kind": "condition",
+      "display": "Hematuria, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "59970",
+        "display": "Hematuria, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:cond-147281-27",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:proc-147281-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:proc-147281-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Parenteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Parenteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:proc-147281-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Injection or infusion of thrombolytic agent",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Injection or infusion of thrombolytic agent"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-04-21",
+      "source_ref": "urn:uuid:proc-147281-4",
+      "text": null
+    },
+    {
+      "id": "E:note:row563910:1",
+      "kind": "note_sentence",
+      "display": "PMH:  COPD.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s1",
+      "text": "PMH:  COPD."
+    },
+    {
+      "id": "E:note:row563910:2",
+      "kind": "note_sentence",
+      "display": "PAF.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s2",
+      "text": "PAF."
+    },
+    {
+      "id": "E:note:row563910:3",
+      "kind": "note_sentence",
+      "display": "DEPRESSION.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s3",
+      "text": "DEPRESSION."
+    },
+    {
+      "id": "E:note:row563910:4",
+      "kind": "note_sentence",
+      "display": "HIP FX WITH L INTERROCHANTERIC NAIL '[**97**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s4",
+      "text": "HIP FX WITH L INTERROCHANTERIC NAIL '[**97**]."
+    },
+    {
+      "id": "E:note:row563910:5",
+      "kind": "note_sentence",
+      "display": "HYPERLIDEMIA.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s5",
+      "text": "HYPERLIDEMIA."
+    },
+    {
+      "id": "E:note:row563910:6",
+      "kind": "note_sentence",
+      "display": "OSTEROPOROSIS.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s6",
+      "text": "OSTEROPOROSIS."
+    },
+    {
+      "id": "E:note:row563910:7",
+      "kind": "note_sentence",
+      "display": "CRI 1.3-1.5.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s7",
+      "text": "CRI 1.3-1.5."
+    },
+    {
+      "id": "E:note:row563910:8",
+      "kind": "note_sentence",
+      "display": "MILD COGNITIVE IMPAIRMENT.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s8",
+      "text": "MILD COGNITIVE IMPAIRMENT."
+    },
+    {
+      "id": "E:note:row563910:9",
+      "kind": "note_sentence",
+      "display": "LUNG CA T1 ADENOCARCINOMA.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s9",
+      "text": "LUNG CA T1 ADENOCARCINOMA."
+    },
+    {
+      "id": "E:note:row563910:10",
+      "kind": "note_sentence",
+      "display": "RUL WEDGE RESECTION DUE TO POOR RESP    RESERVE.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s10",
+      "text": "RUL WEDGE RESECTION DUE TO POOR RESP    RESERVE."
+    },
+    {
+      "id": "E:note:row563910:11",
+      "kind": "note_sentence",
+      "display": "PROSTATE CA-HIGH GRADE-S/P LUPRON & XRT [**12-11**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s11",
+      "text": "PROSTATE CA-HIGH GRADE-S/P LUPRON & XRT [**12-11**]."
+    },
+    {
+      "id": "E:note:row563910:12",
+      "kind": "note_sentence",
+      "display": "PANCREATIC    MASS.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s12",
+      "text": "PANCREATIC    MASS."
+    },
+    {
+      "id": "E:note:row563910:13",
+      "kind": "note_sentence",
+      "display": "RECENT ADMIT [**Date range (1) 4918**] FOR RUPTURED APENDIX AND ILEUS/PARTIAL   ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s13",
+      "text": "RECENT ADMIT [**Date range (1) 4918**] FOR RUPTURED APENDIX AND ILEUS/PARTIAL    SBO, MEDICALLY MANAGED."
+    },
+    {
+      "id": "E:note:row563910:14",
+      "kind": "note_sentence",
+      "display": "ALSO R SUBCLAVIAN DVT SENT TO REHAB ON LOVANOX.    l PICC PLACED ON THAT ADMISSI",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s14",
+      "text": "ALSO R SUBCLAVIAN DVT SENT TO REHAB ON LOVANOX.    l PICC PLACED ON THAT ADMISSION."
+    },
+    {
+      "id": "E:note:row563910:15",
+      "kind": "note_sentence",
+      "display": "EPISODES OF TACHYCARDIA 140-150S ON    THAT ADMISSION.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s15",
+      "text": "EPISODES OF TACHYCARDIA 140-150S ON    THAT ADMISSION."
+    },
+    {
+      "id": "E:note:row563910:16",
+      "kind": "note_sentence",
+      "display": "Pt at rehab and went into RAF and was also noted to be hypernatremic to    150.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s16",
+      "text": "Pt at rehab and went into RAF and was also noted to be hypernatremic to    150."
+    },
+    {
+      "id": "E:note:row563910:17",
+      "kind": "note_sentence",
+      "display": "He came to EW with hr 150, bp 80s/50s.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s17",
+      "text": "He came to EW with hr 150, bp 80s/50s."
+    },
+    {
+      "id": "E:note:row563910:18",
+      "kind": "note_sentence",
+      "display": "Pt appeared to be tireing.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s18",
+      "text": "Pt appeared to be tireing."
+    },
+    {
+      "id": "E:note:row563910:19",
+      "kind": "note_sentence",
+      "display": "He was started on heparin 1000 units/hr and diltiazem drip, first at 5    then u",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s19",
+      "text": "He was started on heparin 1000 units/hr and diltiazem drip, first at 5    then up to 10mg/hr with stable bp and hr in 120s."
+    },
+    {
+      "id": "E:note:row563910:20",
+      "kind": "note_sentence",
+      "display": "Code status clarified    and pt full code and agreed to intubation in EW.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s20",
+      "text": "Code status clarified    and pt full code and agreed to intubation in EW."
+    },
+    {
+      "id": "E:note:row563910:21",
+      "kind": "note_sentence",
+      "display": "He was intubated at    1430 and received bolus sedation of versed and fentanyl.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s21",
+      "text": "He was intubated at    1430 and received bolus sedation of versed and fentanyl."
+    },
+    {
+      "id": "E:note:row563910:22",
+      "kind": "note_sentence",
+      "display": "Foley placed    and he received dose of vancomycin and zosyn.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s22",
+      "text": "Foley placed    and he received dose of vancomycin and zosyn."
+    },
+    {
+      "id": "E:note:row563910:23",
+      "kind": "note_sentence",
+      "display": "He transfered to CCU at    1630.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s23",
+      "text": "He transfered to CCU at    1630."
+    },
+    {
+      "id": "E:note:row563910:24",
+      "kind": "note_sentence",
+      "display": "MS: Pt rousing intermittently, not following commands.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s24",
+      "text": "MS: Pt rousing intermittently, not following commands."
+    },
+    {
+      "id": "E:note:row563910:25",
+      "kind": "note_sentence",
+      "display": "RENAL:    Urine output poor, urine appears consentrated.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s25",
+      "text": "RENAL:    Urine output poor, urine appears consentrated."
+    },
+    {
+      "id": "E:note:row563910:26",
+      "kind": "note_sentence",
+      "display": "ID: Temp 100.6 rectal.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s26",
+      "text": "ID: Temp 100.6 rectal."
+    },
+    {
+      "id": "E:note:row563910:27",
+      "kind": "note_sentence",
+      "display": "He has been started on flagyl and pipercillin.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s27",
+      "text": "He has been started on flagyl and pipercillin."
+    },
+    {
+      "id": "E:note:row563910:28",
+      "kind": "note_sentence",
+      "display": "Atrial fibrillation (Afib)    Assessment:    Pt arrived on diltiazem at 10mg/hr ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s28",
+      "text": "Atrial fibrillation (Afib)    Assessment:    Pt arrived on diltiazem at 10mg/hr hr ranging 110-120s AF."
+    },
+    {
+      "id": "E:note:row563910:29",
+      "kind": "note_sentence",
+      "display": "Blood    pressure stable in 90s-120/50s.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s29",
+      "text": "Blood    pressure stable in 90s-120/50s."
+    },
+    {
+      "id": "E:note:row563910:30",
+      "kind": "note_sentence",
+      "display": "Heparin running at 1000 units/hr.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s30",
+      "text": "Heparin running at 1000 units/hr."
+    },
+    {
+      "id": "E:note:row563910:31",
+      "kind": "note_sentence",
+      "display": "Drips    running through PICC.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s31",
+      "text": "Drips    running through PICC."
+    },
+    {
+      "id": "E:note:row563910:32",
+      "kind": "note_sentence",
+      "display": "Awaiting verification of location of PICC.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s32",
+      "text": "Awaiting verification of location of PICC."
+    },
+    {
+      "id": "E:note:row563910:33",
+      "kind": "note_sentence",
+      "display": "R arm    has known clot and L arm has PICC and peripheral IV, therefore BP    ob",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s33",
+      "text": "R arm    has known clot and L arm has PICC and peripheral IV, therefore BP    obtained on R thigh."
+    },
+    {
+      "id": "E:note:row563910:34",
+      "kind": "note_sentence",
+      "display": "Action:    Drips maintained at same rate.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s34",
+      "text": "Action:    Drips maintained at same rate."
+    },
+    {
+      "id": "E:note:row563910:35",
+      "kind": "note_sentence",
+      "display": "Maintainence fluid ordered of D51/2NS at    125/hr for 2 liters.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s35",
+      "text": "Maintainence fluid ordered of D51/2NS at    125/hr for 2 liters."
+    },
+    {
+      "id": "E:note:row563910:36",
+      "kind": "note_sentence",
+      "display": "A-line requested, but pt very difficult stick with    poor axis.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s36",
+      "text": "A-line requested, but pt very difficult stick with    poor axis."
+    },
+    {
+      "id": "E:note:row563910:37",
+      "kind": "note_sentence",
+      "display": "Response:    Pt remains in a-fib, hemodynamically stable.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s37",
+      "text": "Response:    Pt remains in a-fib, hemodynamically stable."
+    },
+    {
+      "id": "E:note:row563910:38",
+      "kind": "note_sentence",
+      "display": "Plan:    Monitor for rhythm change.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s38",
+      "text": "Plan:    Monitor for rhythm change."
+    },
+    {
+      "id": "E:note:row563910:39",
+      "kind": "note_sentence",
+      "display": "Wean dilt as tolerated.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s39",
+      "text": "Wean dilt as tolerated."
+    },
+    {
+      "id": "E:note:row563910:40",
+      "kind": "note_sentence",
+      "display": "Check PTT at 2100. ?",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s40",
+      "text": "Check PTT at 2100. ?"
+    },
+    {
+      "id": "E:note:row563910:41",
+      "kind": "note_sentence",
+      "display": "Aline.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s41",
+      "text": "Aline."
+    },
+    {
+      "id": "E:note:row563910:42",
+      "kind": "note_sentence",
+      "display": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:   ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s42",
+      "text": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    Pt arrived intubated  on 100% AC."
+    },
+    {
+      "id": "E:note:row563910:43",
+      "kind": "note_sentence",
+      "display": "He received bolus sedation prior to    leaving EW, but was rousing.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s43",
+      "text": "He received bolus sedation prior to    leaving EW, but was rousing."
+    },
+    {
+      "id": "E:note:row563910:44",
+      "kind": "note_sentence",
+      "display": "Breath sounds were rhonchorous throughout.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s44",
+      "text": "Breath sounds were rhonchorous throughout."
+    },
+    {
+      "id": "E:note:row563910:45",
+      "kind": "note_sentence",
+      "display": "He was suctioned for thick yellow secretions.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s45",
+      "text": "He was suctioned for thick yellow secretions."
+    },
+    {
+      "id": "E:note:row563910:46",
+      "kind": "note_sentence",
+      "display": "He had very thick    grey/yellow oral secretions.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s46",
+      "text": "He had very thick    grey/yellow oral secretions."
+    },
+    {
+      "id": "E:note:row563910:47",
+      "kind": "note_sentence",
+      "display": "He had no OG tube.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s47",
+      "text": "He had no OG tube."
+    },
+    {
+      "id": "E:note:row563910:48",
+      "kind": "note_sentence",
+      "display": "Action:    Blood gas 7.22/43/302/-9.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s48",
+      "text": "Action:    Blood gas 7.22/43/302/-9."
+    },
+    {
+      "id": "E:note:row563910:49",
+      "kind": "note_sentence",
+      "display": "Vent setting changed to AC 600 X 14    overbreathing to 20, 5 PEEP and 40%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s49",
+      "text": "Vent setting changed to AC 600 X 14    overbreathing to 20, 5 PEEP and 40%."
+    },
+    {
+      "id": "E:note:row563910:50",
+      "kind": "note_sentence",
+      "display": "He is sating 99-100%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s50",
+      "text": "He is sating 99-100%."
+    },
+    {
+      "id": "E:note:row563910:51",
+      "kind": "note_sentence",
+      "display": "He is    suctioned infrequently for similar secretions.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s51",
+      "text": "He is    suctioned infrequently for similar secretions."
+    },
+    {
+      "id": "E:note:row563910:52",
+      "kind": "note_sentence",
+      "display": "OG tube placed and    verified by X-ray.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s52",
+      "text": "OG tube placed and    verified by X-ray."
+    },
+    {
+      "id": "E:note:row563910:53",
+      "kind": "note_sentence",
+      "display": "Stomach had small amt old blood, but mouth too was    bloody.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s53",
+      "text": "Stomach had small amt old blood, but mouth too was    bloody."
+    },
+    {
+      "id": "E:note:row563910:54",
+      "kind": "note_sentence",
+      "display": "VAP care done and HOB at ~45 degrees.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s54",
+      "text": "VAP care done and HOB at ~45 degrees."
+    },
+    {
+      "id": "E:note:row563910:55",
+      "kind": "note_sentence",
+      "display": "Pt placed on versed drip    at 1mg/hr and fentanyl at 50 mic/min.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s55",
+      "text": "Pt placed on versed drip    at 1mg/hr and fentanyl at 50 mic/min."
+    },
+    {
+      "id": "E:note:row563910:56",
+      "kind": "note_sentence",
+      "display": "Response:    Breath sounds less course.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s56",
+      "text": "Response:    Breath sounds less course."
+    },
+    {
+      "id": "E:note:row563910:57",
+      "kind": "note_sentence",
+      "display": "Only minimal secretions from stomach.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s57",
+      "text": "Only minimal secretions from stomach."
+    },
+    {
+      "id": "E:note:row563910:58",
+      "kind": "note_sentence",
+      "display": "Pt    resting comfortably.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s58",
+      "text": "Pt    resting comfortably."
+    },
+    {
+      "id": "E:note:row563910:59",
+      "kind": "note_sentence",
+      "display": "Plan:    Rest on vent overnight.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s59",
+      "text": "Plan:    Rest on vent overnight."
+    },
+    {
+      "id": "E:note:row563910:60",
+      "kind": "note_sentence",
+      "display": "Have team Get blood gas    Impaired Skin Integrity    Assessment:    Pt R arm ed",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s60",
+      "text": "Have team Get blood gas    Impaired Skin Integrity    Assessment:    Pt R arm edematous with thin skin and old PICC site."
+    },
+    {
+      "id": "E:note:row563910:61",
+      "kind": "note_sentence",
+      "display": "Entire groin area    red and excoriated.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s61",
+      "text": "Entire groin area    red and excoriated."
+    },
+    {
+      "id": "E:note:row563910:62",
+      "kind": "note_sentence",
+      "display": "Covered with desitin cream.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s62",
+      "text": "Covered with desitin cream."
+    },
+    {
+      "id": "E:note:row563910:63",
+      "kind": "note_sentence",
+      "display": "Action:    Response:    Plan:",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row563910#s63",
+      "text": "Action:    Response:    Plan:"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|0389": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|486": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2761": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1628": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4538": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42820": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41519": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78552": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2762": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1179": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|59582": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V1046": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|496": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42731": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|73300": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5779": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|57420": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|79902": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2859": [
+      "E:cond:23"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|9092": [
+      "E:cond:24"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8792": [
+      "E:cond:25"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8498": [
+      "E:cond:26"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|59970": [
+      "E:cond:27"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "unspecified septicemia": [
+      "E:cond:1"
+    ],
+    "pneumonia, organism unspecified": [
+      "E:cond:2"
+    ],
+    "hyposmolality and/or hyponatremia": [
+      "E:cond:3"
+    ],
+    "acute respiratory failure": [
+      "E:cond:4"
+    ],
+    "malignant neoplasm of other parts of bronchus or lung": [
+      "E:cond:5"
+    ],
+    "diagnosis": [
+      "E:cond:6"
+    ],
+    "systolic heart failure, unspecified": [
+      "E:cond:7"
+    ],
+    "other pulmonary embolism and infarction": [
+      "E:cond:8"
+    ],
+    "septic shock": [
+      "E:cond:9"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:10"
+    ],
+    "acidosis": [
+      "E:cond:11"
+    ],
+    "other and unspecified mycoses": [
+      "E:cond:12"
+    ],
+    "irradiation cystitis": [
+      "E:cond:13"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:14"
+    ],
+    "severe sepsis": [
+      "E:cond:15"
+    ],
+    "personal history of malignant neoplasm of prostate": [
+      "E:cond:16"
+    ],
+    "chronic airway obstruction, not elsewhere classified": [
+      "E:cond:17"
+    ],
+    "atrial fibrillation": [
+      "E:cond:18"
+    ],
+    "osteoporosis, unspecified": [
+      "E:cond:19"
+    ],
+    "unspecified disease of pancreas": [
+      "E:cond:20"
+    ],
+    "calculus of gallbladder without mention of cholecystitis, without mention of obstruction": [
+      "E:cond:21"
+    ],
+    "hypoxemia": [
+      "E:cond:22"
+    ],
+    "anemia, unspecified": [
+      "E:cond:23"
+    ],
+    "late effect of radiation": [
+      "E:cond:24"
+    ],
+    "radiological procedure and radiotherapy as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure": [
+      "E:cond:25"
+    ],
+    "accidents occurring in other specified places": [
+      "E:cond:26"
+    ],
+    "hematuria, unspecified": [
+      "E:cond:27"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:1"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:2"
+    ],
+    "parenteral infusion of concentrated nutritional substances": [
+      "E:proc:3"
+    ],
+    "injection or infusion of thrombolytic agent": [
+      "E:proc:4"
+    ],
+    "pmh: copd.": [
+      "E:note:row563910:1"
+    ],
+    "paf.": [
+      "E:note:row563910:2"
+    ],
+    "depression.": [
+      "E:note:row563910:3"
+    ],
+    "hip fx with l interrochanteric nail '[**97**].": [
+      "E:note:row563910:4"
+    ],
+    "hyperlidemia.": [
+      "E:note:row563910:5"
+    ],
+    "osteroporosis.": [
+      "E:note:row563910:6"
+    ],
+    "cri 1.3-1.5.": [
+      "E:note:row563910:7"
+    ],
+    "mild cognitive impairment.": [
+      "E:note:row563910:8"
+    ],
+    "lung ca t1 adenocarcinoma.": [
+      "E:note:row563910:9"
+    ],
+    "rul wedge resection due to poor resp reserve.": [
+      "E:note:row563910:10"
+    ],
+    "prostate ca-high grade-s/p lupron & xrt [**12-11**].": [
+      "E:note:row563910:11"
+    ],
+    "pancreatic mass.": [
+      "E:note:row563910:12"
+    ],
+    "recent admit [**date range (1) 4918**] for ruptured apendix and ileus/partial": [
+      "E:note:row563910:13"
+    ],
+    "also r subclavian dvt sent to rehab on lovanox. l picc placed on that admissi": [
+      "E:note:row563910:14"
+    ],
+    "episodes of tachycardia 140-150s on that admission.": [
+      "E:note:row563910:15"
+    ],
+    "pt at rehab and went into raf and was also noted to be hypernatremic to 150.": [
+      "E:note:row563910:16"
+    ],
+    "he came to ew with hr 150, bp 80s/50s.": [
+      "E:note:row563910:17"
+    ],
+    "pt appeared to be tireing.": [
+      "E:note:row563910:18"
+    ],
+    "he was started on heparin 1000 units/hr and diltiazem drip, first at 5 then u": [
+      "E:note:row563910:19"
+    ],
+    "code status clarified and pt full code and agreed to intubation in ew.": [
+      "E:note:row563910:20"
+    ],
+    "he was intubated at 1430 and received bolus sedation of versed and fentanyl.": [
+      "E:note:row563910:21"
+    ],
+    "foley placed and he received dose of vancomycin and zosyn.": [
+      "E:note:row563910:22"
+    ],
+    "he transfered to ccu at 1630.": [
+      "E:note:row563910:23"
+    ],
+    "ms: pt rousing intermittently, not following commands.": [
+      "E:note:row563910:24"
+    ],
+    "renal: urine output poor, urine appears consentrated.": [
+      "E:note:row563910:25"
+    ],
+    "id: temp 100.6 rectal.": [
+      "E:note:row563910:26"
+    ],
+    "he has been started on flagyl and pipercillin.": [
+      "E:note:row563910:27"
+    ],
+    "atrial fibrillation (afib) assessment: pt arrived on diltiazem at 10mg/hr": [
+      "E:note:row563910:28"
+    ],
+    "blood pressure stable in 90s-120/50s.": [
+      "E:note:row563910:29"
+    ],
+    "heparin running at 1000 units/hr.": [
+      "E:note:row563910:30"
+    ],
+    "drips running through picc.": [
+      "E:note:row563910:31"
+    ],
+    "awaiting verification of location of picc.": [
+      "E:note:row563910:32"
+    ],
+    "r arm has known clot and l arm has picc and peripheral iv, therefore bp ob": [
+      "E:note:row563910:33"
+    ],
+    "action: drips maintained at same rate.": [
+      "E:note:row563910:34"
+    ],
+    "maintainence fluid ordered of d51/2ns at 125/hr for 2 liters.": [
+      "E:note:row563910:35"
+    ],
+    "a-line requested, but pt very difficult stick with poor axis.": [
+      "E:note:row563910:36"
+    ],
+    "response: pt remains in a-fib, hemodynamically stable.": [
+      "E:note:row563910:37"
+    ],
+    "plan: monitor for rhythm change.": [
+      "E:note:row563910:38"
+    ],
+    "wean dilt as tolerated.": [
+      "E:note:row563910:39"
+    ],
+    "check ptt at 2100. ?": [
+      "E:note:row563910:40"
+    ],
+    "aline.": [
+      "E:note:row563910:41"
+    ],
+    "respiratory failure, acute (not ards/[**doctor last name 2**]) assessment:": [
+      "E:note:row563910:42"
+    ],
+    "he received bolus sedation prior to leaving ew, but was rousing.": [
+      "E:note:row563910:43"
+    ],
+    "breath sounds were rhonchorous throughout.": [
+      "E:note:row563910:44"
+    ],
+    "he was suctioned for thick yellow secretions.": [
+      "E:note:row563910:45"
+    ],
+    "he had very thick grey/yellow oral secretions.": [
+      "E:note:row563910:46"
+    ],
+    "he had no og tube.": [
+      "E:note:row563910:47"
+    ],
+    "action: blood gas 7.22/43/302/-9.": [
+      "E:note:row563910:48"
+    ],
+    "vent setting changed to ac 600 x 14 overbreathing to 20, 5 peep and 40%.": [
+      "E:note:row563910:49"
+    ],
+    "he is sating 99-100%.": [
+      "E:note:row563910:50"
+    ],
+    "he is suctioned infrequently for similar secretions.": [
+      "E:note:row563910:51"
+    ],
+    "og tube placed and verified by x-ray.": [
+      "E:note:row563910:52"
+    ],
+    "stomach had small amt old blood, but mouth too was bloody.": [
+      "E:note:row563910:53"
+    ],
+    "vap care done and hob at ~45 degrees.": [
+      "E:note:row563910:54"
+    ],
+    "pt placed on versed drip at 1mg/hr and fentanyl at 50 mic/min.": [
+      "E:note:row563910:55"
+    ],
+    "response: breath sounds less course.": [
+      "E:note:row563910:56"
+    ],
+    "only minimal secretions from stomach.": [
+      "E:note:row563910:57"
+    ],
+    "pt resting comfortably.": [
+      "E:note:row563910:58"
+    ],
+    "plan: rest on vent overnight.": [
+      "E:note:row563910:59"
+    ],
+    "have team get blood gas impaired skin integrity assessment: pt r arm ed": [
+      "E:note:row563910:60"
+    ],
+    "entire groin area red and excoriated.": [
+      "E:note:row563910:61"
+    ],
+    "covered with desitin cream.": [
+      "E:note:row563910:62"
+    ],
+    "action: response: plan:": [
+      "E:note:row563910:63"
+    ]
+  },
+  "by_date": {
+    "2107-04-21": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:27",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4"
+    ]
+  }
+}

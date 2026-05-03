@@ -1,0 +1,151 @@
+{
+  "case_id": "mimic-88649-135549-588579",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 3063,
+    "summary_chars": 1673,
+    "target_min_chars": 612,
+    "target_max_chars": 918,
+    "achieved_ratio": 0.5461965393405158,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 10,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:2",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row588579:13",
+      "E:note:row588579:15",
+      "E:note:row588579:16",
+      "E:note:row588579:19",
+      "E:note:row588579:2",
+      "E:note:row588579:22",
+      "E:note:row588579:23",
+      "E:note:row588579:24",
+      "E:note:row588579:3",
+      "E:note:row588579:30",
+      "E:note:row588579:31",
+      "E:note:row588579:34",
+      "E:note:row588579:35",
+      "E:note:row588579:36",
+      "E:note:row588579:4",
+      "E:note:row588579:41",
+      "E:note:row588579:50",
+      "E:note:row588579:52",
+      "E:note:row588579:55",
+      "E:note:row588579:58"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Respiratory status is critical with acute respiratory failure [E:cond:5], tachypnea, labored breathing, audible wheezing, and bilateral upper lobe crackles with diminished bases [E:note:row588579:15][E:note:row588579:16][E:note:row588579:13].",
+        "severity": "medium",
+        "reason": "The term 'critical' is an interpretation not explicitly stated in the fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Respiratory status is critical with acute respiratory failure [E:cond:5], tachypnea, labored breathing, audible wheezing, and bilateral upper lobe crackles with diminished bases [E:note:row588579:15][E:note:row588579:16][E:note:row588579:13].",
+        "suggested": "Respiratory findings include acute respiratory failure [E:cond:5], tachypnea, labored breathing, audible wheezing, and bilateral upper lobe crackles with diminished bases [E:note:row588579:15][E:note:row588579:16][E:note:row588579:13].",
+        "reason": "Removed the subjective descriptor 'critical' to align with the provided evidence."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-88649-135549-588579/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 9.41,
+    "fk_words": 222,
+    "fk_sentences": 14,
+    "fk_syllables": 354,
+    "chars": 2073,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-88649-135549-588579/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0018332090112380683,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 109.45019987499109,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 123.4276876670192,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0021592499688267708,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 17.332853792002425,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 23.292444208054803,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.003220875049009919,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 83.04222637502244,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

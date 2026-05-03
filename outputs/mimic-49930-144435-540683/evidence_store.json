@@ -1,0 +1,1492 @@
+{
+  "case_id": "mimic-49930-144435-540683",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "ELECTIVE",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:enc-144435",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Malignant neoplasm of lower third of esophagus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1505",
+        "display": "Malignant neoplasm of lower third of esophagus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:cond-144435-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Other respiratory complications",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99739",
+        "display": "Other respiratory complications"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:cond-144435-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:cond-144435-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Other postoperative infection",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99859",
+        "display": "Other postoperative infection"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:cond-144435-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Other specified septicemias",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0388",
+        "display": "Other specified septicemias"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:cond-144435-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:cond-144435-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Acute kidney failure with lesion of tubular necrosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5845",
+        "display": "Acute kidney failure with lesion of tubular necrosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:cond-144435-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Pneumonia, organism unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "486",
+        "display": "Pneumonia, organism unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:cond-144435-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9974",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:cond-144435-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Unspecified protein-calorie malnutrition",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2639",
+        "display": "Unspecified protein-calorie malnutrition"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:cond-144435-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Hyperosmolality and/or hypernatremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2760",
+        "display": "Hyperosmolality and/or hypernatremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:cond-144435-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Acute cholecystitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5750",
+        "display": "Acute cholecystitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:cond-144435-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Unspecified pleural effusion",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5119",
+        "display": "Unspecified pleural effusion"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:cond-144435-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Hyperpotassemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2767",
+        "display": "Hyperpotassemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:cond-144435-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Other encephalopathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34839",
+        "display": "Other encephalopathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:cond-144435-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Asthma, unspecified type, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "49390",
+        "display": "Asthma, unspecified type, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:cond-144435-16",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Temporary tracheostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Temporary tracheostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:proc-144435-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:proc-144435-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Total esophagectomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Total esophagectomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:proc-144435-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Other cholecystostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other cholecystostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:proc-144435-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Delayed closure of granulating abdominal wound",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Delayed closure of granulating abdominal wound"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:proc-144435-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Other antesternal anastomosis of esophagus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other antesternal anastomosis of esophagus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:proc-144435-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Insertion of intercostal catheter for drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of intercostal catheter for drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:proc-144435-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Percutaneous aspiration of gallbladder",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous aspiration of gallbladder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:proc-144435-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Bronchoscopy through artificial stoma",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Bronchoscopy through artificial stoma"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:proc-144435-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Bronchoscopy through artificial stoma",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Bronchoscopy through artificial stoma"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:proc-144435-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Fiber-optic bronchoscopy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Fiber-optic bronchoscopy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:proc-144435-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Application of other wound dressing",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Application of other wound dressing"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:proc-144435-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Other irrigation of wound",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other irrigation of wound"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:proc-144435-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:14",
+      "kind": "procedure",
+      "display": "Insertion of intercostal catheter for drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of intercostal catheter for drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:proc-144435-14",
+      "text": null
+    },
+    {
+      "id": "E:proc:15",
+      "kind": "procedure",
+      "display": "Fiber-optic bronchoscopy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Fiber-optic bronchoscopy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:proc-144435-15",
+      "text": null
+    },
+    {
+      "id": "E:proc:16",
+      "kind": "procedure",
+      "display": "Other endoscopy of small intestine",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other endoscopy of small intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:proc-144435-16",
+      "text": null
+    },
+    {
+      "id": "E:proc:17",
+      "kind": "procedure",
+      "display": "Thoracentesis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Thoracentesis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:proc-144435-17",
+      "text": null
+    },
+    {
+      "id": "E:proc:18",
+      "kind": "procedure",
+      "display": "Other endoscopy of small intestine",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other endoscopy of small intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:proc-144435-18",
+      "text": null
+    },
+    {
+      "id": "E:proc:19",
+      "kind": "procedure",
+      "display": "Parenteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Parenteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:proc-144435-19",
+      "text": null
+    },
+    {
+      "id": "E:proc:20",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2162-08-04",
+      "source_ref": "urn:uuid:proc-144435-20",
+      "text": null
+    },
+    {
+      "id": "E:note:row540683:1",
+      "kind": "note_sentence",
+      "display": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:   ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s1",
+      "text": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    Received patient on CMV> Breathing even, overbreathing vent by [**4-13**]    breaths."
+    },
+    {
+      "id": "E:note:row540683:2",
+      "kind": "note_sentence",
+      "display": "Sat maintain>99%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s2",
+      "text": "Sat maintain>99%."
+    },
+    {
+      "id": "E:note:row540683:3",
+      "kind": "note_sentence",
+      "display": "LS rhonchus, diminish with crackles in    bases.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s3",
+      "text": "LS rhonchus, diminish with crackles in    bases."
+    },
+    {
+      "id": "E:note:row540683:4",
+      "kind": "note_sentence",
+      "display": "Action:    Suction moderate amt light yellow secretions from lung  mod amt oral ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s4",
+      "text": "Action:    Suction moderate amt light yellow secretions from lung  mod amt oral    secretions."
+    },
+    {
+      "id": "E:note:row540683:5",
+      "kind": "note_sentence",
+      "display": "Vap protocol.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s5",
+      "text": "Vap protocol."
+    },
+    {
+      "id": "E:note:row540683:6",
+      "kind": "note_sentence",
+      "display": "Cxr today.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s6",
+      "text": "Cxr today."
+    },
+    {
+      "id": "E:note:row540683:7",
+      "kind": "note_sentence",
+      "display": "Start diuresis with lasix gtt.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s7",
+      "text": "Start diuresis with lasix gtt."
+    },
+    {
+      "id": "E:note:row540683:8",
+      "kind": "note_sentence",
+      "display": "Repositions.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s8",
+      "text": "Repositions."
+    },
+    {
+      "id": "E:note:row540683:9",
+      "kind": "note_sentence",
+      "display": "Weaning to cpap.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s9",
+      "text": "Weaning to cpap."
+    },
+    {
+      "id": "E:note:row540683:10",
+      "kind": "note_sentence",
+      "display": "Gas per flowsheet    Response:    Patient ^^ tachpneas 40s on cpap even with IPS",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s10",
+      "text": "Gas per flowsheet    Response:    Patient ^^ tachpneas 40s on cpap even with IPS 20."
+    },
+    {
+      "id": "E:note:row540683:11",
+      "kind": "note_sentence",
+      "display": "Placed back to CMV.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s11",
+      "text": "Placed back to CMV."
+    },
+    {
+      "id": "E:note:row540683:12",
+      "kind": "note_sentence",
+      "display": "Plan:    Pulm hygiene, diuresis.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s12",
+      "text": "Plan:    Pulm hygiene, diuresis."
+    },
+    {
+      "id": "E:note:row540683:13",
+      "kind": "note_sentence",
+      "display": "Vap protocol.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s13",
+      "text": "Vap protocol."
+    },
+    {
+      "id": "E:note:row540683:14",
+      "kind": "note_sentence",
+      "display": "Support.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s14",
+      "text": "Support."
+    },
+    {
+      "id": "E:note:row540683:15",
+      "kind": "note_sentence",
+      "display": "Wean vent if tolerated.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s15",
+      "text": "Wean vent if tolerated."
+    },
+    {
+      "id": "E:note:row540683:16",
+      "kind": "note_sentence",
+      "display": "Liver function abnormalities    Assessment:    Patient body and both eyes are st",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s16",
+      "text": "Liver function abnormalities    Assessment:    Patient body and both eyes are still jaundiced."
+    },
+    {
+      "id": "E:note:row540683:17",
+      "kind": "note_sentence",
+      "display": "Liver function studies    remain elevated.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s17",
+      "text": "Liver function studies    remain elevated."
+    },
+    {
+      "id": "E:note:row540683:18",
+      "kind": "note_sentence",
+      "display": "Marginal drop in bilirubin.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s18",
+      "text": "Marginal drop in bilirubin."
+    },
+    {
+      "id": "E:note:row540683:19",
+      "kind": "note_sentence",
+      "display": "Coags per flowsheet.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s19",
+      "text": "Coags per flowsheet."
+    },
+    {
+      "id": "E:note:row540683:20",
+      "kind": "note_sentence",
+      "display": "Choly-tube draining clear bile to gravity    Action:    Con t monitor.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s20",
+      "text": "Choly-tube draining clear bile to gravity    Action:    Con t monitor."
+    },
+    {
+      "id": "E:note:row540683:21",
+      "kind": "note_sentence",
+      "display": "NPO.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s21",
+      "text": "NPO."
+    },
+    {
+      "id": "E:note:row540683:22",
+      "kind": "note_sentence",
+      "display": "TPN.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s22",
+      "text": "TPN."
+    },
+    {
+      "id": "E:note:row540683:23",
+      "kind": "note_sentence",
+      "display": "Changed choly-tube dsd site as ordered.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s23",
+      "text": "Changed choly-tube dsd site as ordered."
+    },
+    {
+      "id": "E:note:row540683:24",
+      "kind": "note_sentence",
+      "display": "Response:    Plan:    Reassess.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s24",
+      "text": "Response:    Plan:    Reassess."
+    },
+    {
+      "id": "E:note:row540683:25",
+      "kind": "note_sentence",
+      "display": "Monitor.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s25",
+      "text": "Monitor."
+    },
+    {
+      "id": "E:note:row540683:26",
+      "kind": "note_sentence",
+      "display": "No afternoon labs per attending    [**Last Name 19**] Problem - [**Name (NI) 20*",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s26",
+      "text": "No afternoon labs per attending    [**Last Name 19**] Problem - [**Name (NI) 20**] Description In Comments ABDOMEN WOUND."
+    },
+    {
+      "id": "E:note:row540683:27",
+      "kind": "note_sentence",
+      "display": "Assessment:    Abdomen open ->, adaptic over liver/below LLQ, wound bed beefy re",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s27",
+      "text": "Assessment:    Abdomen open ->, adaptic over liver/below LLQ, wound bed beefy red."
+    },
+    {
+      "id": "E:note:row540683:28",
+      "kind": "note_sentence",
+      "display": "Edges with mod amt yellow fibrin/exudate.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s28",
+      "text": "Edges with mod amt yellow fibrin/exudate."
+    },
+    {
+      "id": "E:note:row540683:29",
+      "kind": "note_sentence",
+      "display": "Draining catheter at fistula    site->golden liquid matter to low sxn.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s29",
+      "text": "Draining catheter at fistula    site->golden liquid matter to low sxn."
+    },
+    {
+      "id": "E:note:row540683:30",
+      "kind": "note_sentence",
+      "display": "Wound appartous pouch covered.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s30",
+      "text": "Wound appartous pouch covered."
+    },
+    {
+      "id": "E:note:row540683:31",
+      "kind": "note_sentence",
+      "display": "Choly-tub site cdi- draining clear bile-to gravity    Action:           Irrigate",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s31",
+      "text": "Choly-tub site cdi- draining clear bile-to gravity    Action:           Irrigate and clean abdomen wound TID as recommended (pre    medicate with versed and fentanyl ivp pre-procedure for comfort)."
+    },
+    {
+      "id": "E:note:row540683:32",
+      "kind": "note_sentence",
+      "display": "Change choly-tube site as ordered daily.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s32",
+      "text": "Change choly-tube site as ordered daily."
+    },
+    {
+      "id": "E:note:row540683:33",
+      "kind": "note_sentence",
+      "display": "NPO, con t TPN           Start diuresis    Response:    Plan:    Fever (Hyperthe",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s33",
+      "text": "NPO, con t TPN           Start diuresis    Response:    Plan:    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Con t low grade temp. body warm."
+    },
+    {
+      "id": "E:note:row540683:34",
+      "kind": "note_sentence",
+      "display": "No chill.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s34",
+      "text": "No chill."
+    },
+    {
+      "id": "E:note:row540683:35",
+      "kind": "note_sentence",
+      "display": "Action:    Con t vancomycin, zosyn, and diflucan ed bactrim today for    positiv",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s35",
+      "text": "Action:    Con t vancomycin, zosyn, and diflucan ed bactrim today for    positive sputum cx on[**9-25**]  sent urine cx per tsicu/thoracic."
+    },
+    {
+      "id": "E:note:row540683:36",
+      "kind": "note_sentence",
+      "display": "Contact    precaution    Response:    Wbc  trending down marginally today.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s36",
+      "text": "Contact    precaution    Response:    Wbc  trending down marginally today."
+    },
+    {
+      "id": "E:note:row540683:37",
+      "kind": "note_sentence",
+      "display": "No ID consult per thoracic team.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s37",
+      "text": "No ID consult per thoracic team."
+    },
+    {
+      "id": "E:note:row540683:38",
+      "kind": "note_sentence",
+      "display": "Blood cx P    Plan:    f/u cultures/labs. ? add differential for tomorrow lab.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s38",
+      "text": "Blood cx P    Plan:    f/u cultures/labs. ? add differential for tomorrow lab."
+    },
+    {
+      "id": "E:note:row540683:39",
+      "kind": "note_sentence",
+      "display": "Acute Pain--sedation    Assessment:    Received patient on fentanyl and versed g",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s39",
+      "text": "Acute Pain--sedation    Assessment:    Received patient on fentanyl and versed gtt."
+    },
+    {
+      "id": "E:note:row540683:40",
+      "kind": "note_sentence",
+      "display": "Arouse to voice.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s40",
+      "text": "Arouse to voice."
+    },
+    {
+      "id": "E:note:row540683:41",
+      "kind": "note_sentence",
+      "display": "Maex 4 to    command-but minimally    Action:    D c versed gtt-started on prn i",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s41",
+      "text": "Maex 4 to    command-but minimally    Action:    D c versed gtt-started on prn iv."
+    },
+    {
+      "id": "E:note:row540683:42",
+      "kind": "note_sentence",
+      "display": "Wean fentanyl gtt as tolerate.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s42",
+      "text": "Wean fentanyl gtt as tolerate."
+    },
+    {
+      "id": "E:note:row540683:43",
+      "kind": "note_sentence",
+      "display": "Music    on.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s43",
+      "text": "Music    on."
+    },
+    {
+      "id": "E:note:row540683:44",
+      "kind": "note_sentence",
+      "display": "Calm approach.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s44",
+      "text": "Calm approach."
+    },
+    {
+      "id": "E:note:row540683:45",
+      "kind": "note_sentence",
+      "display": "Response:    Patient appear comfortable- denies pain.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s45",
+      "text": "Response:    Patient appear comfortable- denies pain."
+    },
+    {
+      "id": "E:note:row540683:46",
+      "kind": "note_sentence",
+      "display": "Plan:    Cont fentanyl gtt, give versed ivp as needed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s46",
+      "text": "Plan:    Cont fentanyl gtt, give versed ivp as needed."
+    },
+    {
+      "id": "E:note:row540683:47",
+      "kind": "note_sentence",
+      "display": "Wean only if patient    tolerated.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s47",
+      "text": "Wean only if patient    tolerated."
+    },
+    {
+      "id": "E:note:row540683:48",
+      "kind": "note_sentence",
+      "display": "Tachycardia, Other    Assessment:    Con t ST 100s-110s, SBP 100s-130s relate to",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s48",
+      "text": "Tachycardia, Other    Assessment:    Con t ST 100s-110s, SBP 100s-130s relate to pain and weaning sedation.    no ectopies."
+    },
+    {
+      "id": "E:note:row540683:49",
+      "kind": "note_sentence",
+      "display": "Action:    HR and BP improved with pain and anxiety control.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s49",
+      "text": "Action:    HR and BP improved with pain and anxiety control."
+    },
+    {
+      "id": "E:note:row540683:50",
+      "kind": "note_sentence",
+      "display": "Response:    NO BB per team.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s50",
+      "text": "Response:    NO BB per team."
+    },
+    {
+      "id": "E:note:row540683:51",
+      "kind": "note_sentence",
+      "display": "Plan:    Reassess & monitor    Impaired Physical Mobility    Assessment:    Pati",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s51",
+      "text": "Plan:    Reassess & monitor    Impaired Physical Mobility    Assessment:    Patient bodily very edematous and stiff very difficult to perform ROM."
+    },
+    {
+      "id": "E:note:row540683:52",
+      "kind": "note_sentence",
+      "display": "Action:    Passive ROM as tolerate, reposition.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s52",
+      "text": "Action:    Passive ROM as tolerate, reposition."
+    },
+    {
+      "id": "E:note:row540683:53",
+      "kind": "note_sentence",
+      "display": "Response:    Plan:    Need OT to work with patient.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row540683#s53",
+      "text": "Response:    Plan:    Need OT to work with patient."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|1505": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99739": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99859": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|0388": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5845": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|486": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|9974": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2639": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2760": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5750": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5119": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2767": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|34839": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|49390": [
+      "E:cond:16"
+    ]
+  },
+  "by_display": {
+    "elective": [
+      "E:enc:1"
+    ],
+    "malignant neoplasm of lower third of esophagus": [
+      "E:cond:1"
+    ],
+    "other respiratory complications": [
+      "E:cond:2"
+    ],
+    "acute respiratory failure": [
+      "E:cond:3"
+    ],
+    "other postoperative infection": [
+      "E:cond:4"
+    ],
+    "other specified septicemias": [
+      "E:cond:5"
+    ],
+    "severe sepsis": [
+      "E:cond:6"
+    ],
+    "acute kidney failure with lesion of tubular necrosis": [
+      "E:cond:7"
+    ],
+    "pneumonia, organism unspecified": [
+      "E:cond:8"
+    ],
+    "diagnosis": [
+      "E:cond:9"
+    ],
+    "unspecified protein-calorie malnutrition": [
+      "E:cond:10"
+    ],
+    "hyperosmolality and/or hypernatremia": [
+      "E:cond:11"
+    ],
+    "acute cholecystitis": [
+      "E:cond:12"
+    ],
+    "unspecified pleural effusion": [
+      "E:cond:13"
+    ],
+    "hyperpotassemia": [
+      "E:cond:14"
+    ],
+    "other encephalopathy": [
+      "E:cond:15"
+    ],
+    "asthma, unspecified type, unspecified": [
+      "E:cond:16"
+    ],
+    "temporary tracheostomy": [
+      "E:proc:1"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:2"
+    ],
+    "total esophagectomy": [
+      "E:proc:3"
+    ],
+    "other cholecystostomy": [
+      "E:proc:4"
+    ],
+    "delayed closure of granulating abdominal wound": [
+      "E:proc:5"
+    ],
+    "other antesternal anastomosis of esophagus": [
+      "E:proc:6"
+    ],
+    "insertion of intercostal catheter for drainage": [
+      "E:proc:7",
+      "E:proc:14"
+    ],
+    "percutaneous aspiration of gallbladder": [
+      "E:proc:8"
+    ],
+    "bronchoscopy through artificial stoma": [
+      "E:proc:9",
+      "E:proc:10"
+    ],
+    "fiber-optic bronchoscopy": [
+      "E:proc:11",
+      "E:proc:15"
+    ],
+    "application of other wound dressing": [
+      "E:proc:12"
+    ],
+    "other irrigation of wound": [
+      "E:proc:13"
+    ],
+    "other endoscopy of small intestine": [
+      "E:proc:16",
+      "E:proc:18"
+    ],
+    "thoracentesis": [
+      "E:proc:17"
+    ],
+    "parenteral infusion of concentrated nutritional substances": [
+      "E:proc:19"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:20"
+    ],
+    "respiratory failure, acute (not ards/[**doctor last name 2**]) assessment:": [
+      "E:note:row540683:1"
+    ],
+    "sat maintain>99%.": [
+      "E:note:row540683:2"
+    ],
+    "ls rhonchus, diminish with crackles in bases.": [
+      "E:note:row540683:3"
+    ],
+    "action: suction moderate amt light yellow secretions from lung mod amt oral": [
+      "E:note:row540683:4"
+    ],
+    "vap protocol.": [
+      "E:note:row540683:5",
+      "E:note:row540683:13"
+    ],
+    "cxr today.": [
+      "E:note:row540683:6"
+    ],
+    "start diuresis with lasix gtt.": [
+      "E:note:row540683:7"
+    ],
+    "repositions.": [
+      "E:note:row540683:8"
+    ],
+    "weaning to cpap.": [
+      "E:note:row540683:9"
+    ],
+    "gas per flowsheet response: patient ^^ tachpneas 40s on cpap even with ips": [
+      "E:note:row540683:10"
+    ],
+    "placed back to cmv.": [
+      "E:note:row540683:11"
+    ],
+    "plan: pulm hygiene, diuresis.": [
+      "E:note:row540683:12"
+    ],
+    "support.": [
+      "E:note:row540683:14"
+    ],
+    "wean vent if tolerated.": [
+      "E:note:row540683:15"
+    ],
+    "liver function abnormalities assessment: patient body and both eyes are st": [
+      "E:note:row540683:16"
+    ],
+    "liver function studies remain elevated.": [
+      "E:note:row540683:17"
+    ],
+    "marginal drop in bilirubin.": [
+      "E:note:row540683:18"
+    ],
+    "coags per flowsheet.": [
+      "E:note:row540683:19"
+    ],
+    "choly-tube draining clear bile to gravity action: con t monitor.": [
+      "E:note:row540683:20"
+    ],
+    "npo.": [
+      "E:note:row540683:21"
+    ],
+    "tpn.": [
+      "E:note:row540683:22"
+    ],
+    "changed choly-tube dsd site as ordered.": [
+      "E:note:row540683:23"
+    ],
+    "response: plan: reassess.": [
+      "E:note:row540683:24"
+    ],
+    "monitor.": [
+      "E:note:row540683:25"
+    ],
+    "no afternoon labs per attending [**last name 19**] problem - [**name (ni) 20*": [
+      "E:note:row540683:26"
+    ],
+    "assessment: abdomen open ->, adaptic over liver/below llq, wound bed beefy re": [
+      "E:note:row540683:27"
+    ],
+    "edges with mod amt yellow fibrin/exudate.": [
+      "E:note:row540683:28"
+    ],
+    "draining catheter at fistula site->golden liquid matter to low sxn.": [
+      "E:note:row540683:29"
+    ],
+    "wound appartous pouch covered.": [
+      "E:note:row540683:30"
+    ],
+    "choly-tub site cdi- draining clear bile-to gravity action: irrigate": [
+      "E:note:row540683:31"
+    ],
+    "change choly-tube site as ordered daily.": [
+      "E:note:row540683:32"
+    ],
+    "npo, con t tpn start diuresis response: plan: fever (hyperthe": [
+      "E:note:row540683:33"
+    ],
+    "no chill.": [
+      "E:note:row540683:34"
+    ],
+    "action: con t vancomycin, zosyn, and diflucan ed bactrim today for positiv": [
+      "E:note:row540683:35"
+    ],
+    "contact precaution response: wbc trending down marginally today.": [
+      "E:note:row540683:36"
+    ],
+    "no id consult per thoracic team.": [
+      "E:note:row540683:37"
+    ],
+    "blood cx p plan: f/u cultures/labs. ? add differential for tomorrow lab.": [
+      "E:note:row540683:38"
+    ],
+    "acute pain--sedation assessment: received patient on fentanyl and versed g": [
+      "E:note:row540683:39"
+    ],
+    "arouse to voice.": [
+      "E:note:row540683:40"
+    ],
+    "maex 4 to command-but minimally action: d c versed gtt-started on prn i": [
+      "E:note:row540683:41"
+    ],
+    "wean fentanyl gtt as tolerate.": [
+      "E:note:row540683:42"
+    ],
+    "music on.": [
+      "E:note:row540683:43"
+    ],
+    "calm approach.": [
+      "E:note:row540683:44"
+    ],
+    "response: patient appear comfortable- denies pain.": [
+      "E:note:row540683:45"
+    ],
+    "plan: cont fentanyl gtt, give versed ivp as needed.": [
+      "E:note:row540683:46"
+    ],
+    "wean only if patient tolerated.": [
+      "E:note:row540683:47"
+    ],
+    "tachycardia, other assessment: con t st 100s-110s, sbp 100s-130s relate to": [
+      "E:note:row540683:48"
+    ],
+    "action: hr and bp improved with pain and anxiety control.": [
+      "E:note:row540683:49"
+    ],
+    "response: no bb per team.": [
+      "E:note:row540683:50"
+    ],
+    "plan: reassess & monitor impaired physical mobility assessment: pati": [
+      "E:note:row540683:51"
+    ],
+    "action: passive rom as tolerate, reposition.": [
+      "E:note:row540683:52"
+    ],
+    "response: plan: need ot to work with patient.": [
+      "E:note:row540683:53"
+    ]
+  },
+  "by_date": {
+    "2162-08-04": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13",
+      "E:proc:14",
+      "E:proc:15",
+      "E:proc:16",
+      "E:proc:17",
+      "E:proc:18",
+      "E:proc:19",
+      "E:proc:20"
+    ]
+  }
+}

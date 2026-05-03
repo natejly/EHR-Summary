@@ -1,0 +1,794 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-68135-163192",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-68135",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-68135",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-163192",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-163192",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2160-08-20T00:00:00",
+          "end": "2160-09-15T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0389",
+              "display": "Unspecified septicemia"
+            }
+          ],
+          "text": "Unspecified septicemia"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5185",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78552",
+              "display": "Septic shock"
+            }
+          ],
+          "text": "Septic shock"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42823",
+              "display": "Acute on chronic systolic heart failure"
+            }
+          ],
+          "text": "Acute on chronic systolic heart failure"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "34982",
+              "display": "Toxic encephalopathy"
+            }
+          ],
+          "text": "Toxic encephalopathy"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "85200",
+              "display": "Subarachnoid hemorrhage following injury without mention of open intracranial wound, unspecified state of consciousness"
+            }
+          ],
+          "text": "Subarachnoid hemorrhage following injury without mention of open intracranial wound, unspecified state of consciousness"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99731",
+              "display": "Ventilator associated pneumonia"
+            }
+          ],
+          "text": "Ventilator associated pneumonia"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3314",
+              "display": "Obstructive hydrocephalus"
+            }
+          ],
+          "text": "Obstructive hydrocephalus"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2761",
+              "display": "Hyposmolality and/or hyponatremia"
+            }
+          ],
+          "text": "Hyposmolality and/or hyponatremia"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "9587",
+              "display": "Traumatic subcutaneous emphysema"
+            }
+          ],
+          "text": "Traumatic subcutaneous emphysema"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4611",
+              "display": "Dependence on respirator, status"
+            }
+          ],
+          "text": "Dependence on respirator, status"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99592",
+              "display": "Severe sepsis"
+            }
+          ],
+          "text": "Severe sepsis"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "04112",
+              "display": "Methicillin resistant Staphylococcus aureus in conditions classified elsewhere and of unspecified site"
+            }
+          ],
+          "text": "Methicillin resistant Staphylococcus aureus in conditions classified elsewhere and of unspecified site"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0413",
+              "display": "Friedl?nder's bacillus infection in conditions classified elsewhere and of unspecified site"
+            }
+          ],
+          "text": "Friedl?nder's bacillus infection in conditions classified elsewhere and of unspecified site"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8147",
+              "display": "Motor vehicle traffic accident involving collision with pedestrian injuring pedestrian"
+            }
+          ],
+          "text": "Motor vehicle traffic accident involving collision with pedestrian injuring pedestrian"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2859",
+              "display": "Anemia, unspecified"
+            }
+          ],
+          "text": "Anemia, unspecified"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V5419",
+              "display": "Aftercare for healing traumatic fracture of other bone"
+            }
+          ],
+          "text": "Aftercare for healing traumatic fracture of other bone"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "43889",
+              "display": "Other late effects of cerebrovascular disease"
+            }
+          ],
+          "text": "Other late effects of cerebrovascular disease"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "72889",
+              "display": "Other disorders of muscle, ligament, and fascia"
+            }
+          ],
+          "text": "Other disorders of muscle, ligament, and fascia"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4414",
+              "display": "Abdominal aneurysm without mention of rupture"
+            }
+          ],
+          "text": "Abdominal aneurysm without mention of rupture"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4581",
+              "display": "Aortocoronary bypass status"
+            }
+          ],
+          "text": "Aortocoronary bypass status"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V440",
+              "display": "Tracheostomy status"
+            }
+          ],
+          "text": "Tracheostomy status"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-24",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-24",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25000",
+              "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-25",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-25",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V441",
+              "display": "Gastrostomy status"
+            }
+          ],
+          "text": "Gastrostomy status"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-163192-26",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-163192-26",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4168",
+              "display": "Other chronic pulmonary heart diseases"
+            }
+          ],
+          "text": "Other chronic pulmonary heart diseases"
+        },
+        "onsetDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-163192-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-163192-1",
+        "status": "completed",
+        "code": {
+          "text": "Procedure"
+        },
+        "performedDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-163192-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-163192-2",
+        "status": "completed",
+        "code": {
+          "text": "Procedure"
+        },
+        "performedDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-163192-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-163192-3",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-163192-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-163192-4",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-163192-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-163192-5",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-163192-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-163192-6",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-163192-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-163192-7",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-163192-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-163192-8",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2160-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-163192-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-163192-9",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2160-08-20"
+      }
+    }
+  ]
+}

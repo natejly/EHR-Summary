@@ -1,0 +1,919 @@
+{
+  "case_id": "mimic-76541-139921-737066",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:enc-139921",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Acute alcoholic hepatitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5711",
+        "display": "Acute alcoholic hepatitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Hepatorenal syndrome",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5724",
+        "display": "Hepatorenal syndrome"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Hepatic encephalopathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5722",
+        "display": "Hepatic encephalopathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Esophageal varices in diseases classified elsewhere, with bleeding",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "45620",
+        "display": "Esophageal varices in diseases classified elsewhere, with bleeding"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Acute kidney failure with lesion of tubular necrosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5845",
+        "display": "Acute kidney failure with lesion of tubular necrosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Other severe protein-calorie malnutrition",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "262",
+        "display": "Other severe protein-calorie malnutrition"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Other and unspecified coagulation defects",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2869",
+        "display": "Other and unspecified coagulation defects"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Other ascites",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78959",
+        "display": "Other ascites"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Urinary tract infection, site not specified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5990",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Shock, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78550",
+        "display": "Shock, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Hyposmolality and/or hyponatremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2761",
+        "display": "Hyposmolality and/or hyponatremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7863",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Anorexia nervosa",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3071",
+        "display": "Anorexia nervosa"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Portal hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5723",
+        "display": "Portal hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Other and unspecified alcohol dependence, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "30390",
+        "display": "Other and unspecified alcohol dependence, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Alcoholic cirrhosis of liver",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5712",
+        "display": "Alcoholic cirrhosis of liver"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2874",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Alcohol-induced persisting amnestic disorder",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2911",
+        "display": "Alcohol-induced persisting amnestic disorder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0414",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Anemia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2859",
+        "display": "Anemia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Dysphagia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78720",
+        "display": "Dysphagia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Edema",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7823",
+        "display": "Edema"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:25",
+      "kind": "condition",
+      "display": "Hypothermia not associated with low environmental temperature",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78065",
+        "display": "Hypothermia not associated with low environmental temperature"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-25",
+      "text": null
+    },
+    {
+      "id": "E:cond:26",
+      "kind": "condition",
+      "display": "Hypopotassemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2768",
+        "display": "Hypopotassemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-26",
+      "text": null
+    },
+    {
+      "id": "E:cond:27",
+      "kind": "condition",
+      "display": "Electrolyte and fluid disorders not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2769",
+        "display": "Electrolyte and fluid disorders not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-27",
+      "text": null
+    },
+    {
+      "id": "E:cond:28",
+      "kind": "condition",
+      "display": "Lupus erythematosus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "6954",
+        "display": "Lupus erythematosus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:cond-139921-28",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:proc-139921-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:proc-139921-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:proc-139921-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:proc-139921-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:proc-139921-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Other endoscopy of small intestine",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other endoscopy of small intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:proc-139921-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:proc-139921-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Endoscopic excision or destruction of lesion or tissue of esophagus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Endoscopic excision or destruction of lesion or tissue of esophagus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:proc-139921-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-03-16",
+      "source_ref": "urn:uuid:proc-139921-9",
+      "text": null
+    },
+    {
+      "id": "E:note:row737066:1",
+      "kind": "note_sentence",
+      "display": "Ms. [**Known lastname 12641**] is a 45 year old female with past medical history",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row737066#s1",
+      "text": "Ms. [**Known lastname 12641**] is a 45 year old female with past medical history    significant for discoid lupus, anorexia/bulimia who was admitted    [**2168-3-15**] to [**Hospital 680**] Hospital with lethargy and jaundice."
+    },
+    {
+      "id": "E:note:row737066:2",
+      "kind": "note_sentence",
+      "display": "Father called    EMS after seeing her jaundice and the patient was not speaking ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row737066#s2",
+      "text": "Father called    EMS after seeing her jaundice and the patient was not speaking clearly    to him and was complaining of weakness, joint aches and malaise."
+    },
+    {
+      "id": "E:note:row737066:3",
+      "kind": "note_sentence",
+      "display": "Patient unable to provide full history but per OSH notes and reports    from her",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row737066#s3",
+      "text": "Patient unable to provide full history but per OSH notes and reports    from her father she was very socially withdrawn for past few months and    has refused to let family and her boyfriend visit her all but a few    times."
+    },
+    {
+      "id": "E:note:row737066:4",
+      "kind": "note_sentence",
+      "display": "Father was not sure whether patient has been abusing laxatives    or using recen",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row737066#s4",
+      "text": "Father was not sure whether patient has been abusing laxatives    or using recent drugs or alcohol.    ."
+    },
+    {
+      "id": "E:note:row737066:5",
+      "kind": "note_sentence",
+      "display": "At OSH, she presented with extreme lethargy, coffee ground emesis and    additio",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row737066#s5",
+      "text": "At OSH, she presented with extreme lethargy, coffee ground emesis and    additional melanotic stools."
+    },
+    {
+      "id": "E:note:row737066:6",
+      "kind": "note_sentence",
+      "display": "She was seen by GI and placed on    Octreotide drip, IV PPI, and abdominal US sh",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row737066#s6",
+      "text": "She was seen by GI and placed on    Octreotide drip, IV PPI, and abdominal US showed ascites and portal HTN    but no GB stones and common bile duct was normal size."
+    },
+    {
+      "id": "E:note:row737066:7",
+      "kind": "note_sentence",
+      "display": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 76**])    Assessment:  ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row737066#s7",
+      "text": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 76**])    Assessment:     Pr remains on a/c 40/600/20/5 sats 100%."
+    },
+    {
+      "id": "E:note:row737066:8",
+      "kind": "note_sentence",
+      "display": "Lungs course throughout, pt    suctioned for small amounts of  billious looking ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row737066#s8",
+      "text": "Lungs course throughout, pt    suctioned for small amounts of  billious looking secreations    Action:    Abg at 1430 7.49/18/127    Response:    Slight improvement in bicarb    Plan:    No plans for further vent changes    Pr remains fluid positive    Hepatorenal syndrome    Assessment:    Pt continues with ecteric urine between 30-80 cc hr    Action:     Pt had ivf which have finished and no plans for more fluids since  pt    is 3liter pos    Response:    Will follow urine output    Plan:    Will start lactolose today    Tube feeds  will start when we have  recommendation from nutrition    Altered mental status (not Delirium)    Assessment:    Pt s mental status remains altered,  this am pt truning lt should in    posteruing on lt side. with bibinisky on lt leg pupils 3-4 mm [**Doctor Last Name **],    Action:    Pt sent for head ct, and pr continues to get q2 neuro checks, propofol    drip stopped at 10 am    Response:    No significant findings on am ct. pt more alert does not follow    commands, grimmas to pain    Plan:    Continue with neuro checks q2    Will restart lactolose this afternoon    Alteration in Nutrition    Assessment:    Pt has been npo  since admission    Action:    Pedi feeding tube placed this afternoon, will have chest xray to    confirm    Response:    Awaiting chest xray    Plan:    Will start tube feeds this afternoon when  feeding tube confirmed    .H/O gastric Varices / Portal Hypertensive Gastropathy    Assessment:    Pt  has no signs of bleeding pt remains on octerotide  drip until1800    Action:    Pt has hct checked at 1430    Response:    Hct 25 no signs of bleeding    Plan:    Will need  repeat hct at 10 pm"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|5711": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5724": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5722": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|45620": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5845": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|262": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2869": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78959": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5990": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78550": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2762": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2761": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7863": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3071": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5723": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|30390": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5712": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2874": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2911": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|0414": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2859": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78720": [
+      "E:cond:23"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7823": [
+      "E:cond:24"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78065": [
+      "E:cond:25"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2768": [
+      "E:cond:26"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2769": [
+      "E:cond:27"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|6954": [
+      "E:cond:28"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "acute alcoholic hepatitis": [
+      "E:cond:1"
+    ],
+    "hepatorenal syndrome": [
+      "E:cond:2"
+    ],
+    "hepatic encephalopathy": [
+      "E:cond:3"
+    ],
+    "esophageal varices in diseases classified elsewhere, with bleeding": [
+      "E:cond:4"
+    ],
+    "acute kidney failure with lesion of tubular necrosis": [
+      "E:cond:5"
+    ],
+    "other severe protein-calorie malnutrition": [
+      "E:cond:6"
+    ],
+    "acute respiratory failure": [
+      "E:cond:7"
+    ],
+    "other and unspecified coagulation defects": [
+      "E:cond:8"
+    ],
+    "other ascites": [
+      "E:cond:9"
+    ],
+    "urinary tract infection, site not specified": [
+      "E:cond:10"
+    ],
+    "shock, unspecified": [
+      "E:cond:11"
+    ],
+    "acidosis": [
+      "E:cond:12"
+    ],
+    "hyposmolality and/or hyponatremia": [
+      "E:cond:13"
+    ],
+    "diagnosis": [
+      "E:cond:14",
+      "E:cond:19",
+      "E:cond:21"
+    ],
+    "anorexia nervosa": [
+      "E:cond:15"
+    ],
+    "portal hypertension": [
+      "E:cond:16"
+    ],
+    "other and unspecified alcohol dependence, unspecified": [
+      "E:cond:17"
+    ],
+    "alcoholic cirrhosis of liver": [
+      "E:cond:18"
+    ],
+    "alcohol-induced persisting amnestic disorder": [
+      "E:cond:20"
+    ],
+    "anemia, unspecified": [
+      "E:cond:22"
+    ],
+    "dysphagia, unspecified": [
+      "E:cond:23"
+    ],
+    "edema": [
+      "E:cond:24"
+    ],
+    "hypothermia not associated with low environmental temperature": [
+      "E:cond:25"
+    ],
+    "hypopotassemia": [
+      "E:cond:26"
+    ],
+    "electrolyte and fluid disorders not elsewhere classified": [
+      "E:cond:27"
+    ],
+    "lupus erythematosus": [
+      "E:cond:28"
+    ],
+    "continuous invasive mechanical ventilation for less than 96 consecutive hours": [
+      "E:proc:1"
+    ],
+    "arterial catheterization": [
+      "E:proc:2"
+    ],
+    "percutaneous abdominal drainage": [
+      "E:proc:3",
+      "E:proc:7",
+      "E:proc:9"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:4"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:5"
+    ],
+    "other endoscopy of small intestine": [
+      "E:proc:6"
+    ],
+    "endoscopic excision or destruction of lesion or tissue of esophagus": [
+      "E:proc:8"
+    ],
+    "ms. [**known lastname 12641**] is a 45 year old female with past medical history": [
+      "E:note:row737066:1"
+    ],
+    "father called ems after seeing her jaundice and the patient was not speaking": [
+      "E:note:row737066:2"
+    ],
+    "patient unable to provide full history but per osh notes and reports from her": [
+      "E:note:row737066:3"
+    ],
+    "father was not sure whether patient has been abusing laxatives or using recen": [
+      "E:note:row737066:4"
+    ],
+    "at osh, she presented with extreme lethargy, coffee ground emesis and additio": [
+      "E:note:row737066:5"
+    ],
+    "she was seen by gi and placed on octreotide drip, iv ppi, and abdominal us sh": [
+      "E:note:row737066:6"
+    ],
+    "respiratory failure, acute (not ards/[**doctor last name 76**]) assessment:": [
+      "E:note:row737066:7"
+    ],
+    "lungs course throughout, pt suctioned for small amounts of billious looking": [
+      "E:note:row737066:8"
+    ]
+  },
+  "by_date": {
+    "2168-03-16": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:27",
+      "E:cond:28",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9"
+    ]
+  }
+}

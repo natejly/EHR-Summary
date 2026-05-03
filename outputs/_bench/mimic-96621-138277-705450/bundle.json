@@ -1,0 +1,421 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-96621-138277",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-96621",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-96621",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-138277",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-138277",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2182-12-02T00:00:00",
+          "end": "2182-12-09T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-138277-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-138277-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "80629",
+              "display": "Closed fracture of T7-T12 level with other specified spinal cord injury"
+            }
+          ],
+          "text": "Closed fracture of T7-T12 level with other specified spinal cord injury"
+        },
+        "onsetDateTime": "2182-12-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-138277-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-138277-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "486",
+              "display": "Pneumonia, organism unspecified"
+            }
+          ],
+          "text": "Pneumonia, organism unspecified"
+        },
+        "onsetDateTime": "2182-12-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-138277-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-138277-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99739",
+              "display": "Other respiratory complications"
+            }
+          ],
+          "text": "Other respiratory complications"
+        },
+        "onsetDateTime": "2182-12-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-138277-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-138277-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "8730",
+              "display": "Open wound of scalp, without mention of complication"
+            }
+          ],
+          "text": "Open wound of scalp, without mention of complication"
+        },
+        "onsetDateTime": "2182-12-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-138277-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-138277-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "920",
+              "display": "Contusion of face, scalp, and neck except eye(s)"
+            }
+          ],
+          "text": "Contusion of face, scalp, and neck except eye(s)"
+        },
+        "onsetDateTime": "2182-12-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-138277-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-138277-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8810",
+              "display": "Accidental fall from ladder"
+            }
+          ],
+          "text": "Accidental fall from ladder"
+        },
+        "onsetDateTime": "2182-12-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-138277-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-138277-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8781",
+              "display": "Surgical operation with implant of artificial internal device causing abnormal patient reaction, or later complication,without mention of misadventure at time of operation"
+            }
+          ],
+          "text": "Surgical operation with implant of artificial internal device causing abnormal patient reaction, or later complication,without mention of misadventure at time of operation"
+        },
+        "onsetDateTime": "2182-12-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-138277-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-138277-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2182-12-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-138277-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-138277-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2724",
+              "display": "Other and unspecified hyperlipidemia"
+            }
+          ],
+          "text": "Other and unspecified hyperlipidemia"
+        },
+        "onsetDateTime": "2182-12-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-138277-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-138277-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "30000",
+              "display": "Anxiety state, unspecified"
+            }
+          ],
+          "text": "Anxiety state, unspecified"
+        },
+        "onsetDateTime": "2182-12-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-138277-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-138277-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "30001",
+              "display": "Panic disorder without agoraphobia"
+            }
+          ],
+          "text": "Panic disorder without agoraphobia"
+        },
+        "onsetDateTime": "2182-12-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-138277-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-138277-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "24200",
+              "display": "Toxic diffuse goiter without mention of thyrotoxic crisis or storm"
+            }
+          ],
+          "text": "Toxic diffuse goiter without mention of thyrotoxic crisis or storm"
+        },
+        "onsetDateTime": "2182-12-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-138277-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-138277-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "79902",
+              "display": "Hypoxemia"
+            }
+          ],
+          "text": "Hypoxemia"
+        },
+        "onsetDateTime": "2182-12-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-138277-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-138277-1",
+        "status": "completed",
+        "code": {
+          "text": "Dorsal and dorsolumbar fusion of the posterior column, posterior technique"
+        },
+        "performedDateTime": "2182-12-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-138277-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-138277-2",
+        "status": "completed",
+        "code": {
+          "text": "Repair of vertebral fracture"
+        },
+        "performedDateTime": "2182-12-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-138277-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-138277-3",
+        "status": "completed",
+        "code": {
+          "text": "Excision of bone for graft, other bones"
+        },
+        "performedDateTime": "2182-12-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-138277-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-138277-4",
+        "status": "completed",
+        "code": {
+          "text": "Fusion or refusion of 4-8 vertebrae"
+        },
+        "performedDateTime": "2182-12-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-138277-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-138277-5",
+        "status": "completed",
+        "code": {
+          "text": "Closure of skin and subcutaneous tissue of other sites"
+        },
+        "performedDateTime": "2182-12-02"
+      }
+    }
+  ]
+}

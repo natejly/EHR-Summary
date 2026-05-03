@@ -1,0 +1,147 @@
+{
+  "case_id": "mimic-47927-161682-717576",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2592,
+    "summary_chars": 985,
+    "target_min_chars": 518,
+    "target_max_chars": 777,
+    "achieved_ratio": 0.3800154320987654,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 8,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row717576:1",
+      "E:note:row717576:11",
+      "E:note:row717576:2",
+      "E:note:row717576:4",
+      "E:note:row717576:5",
+      "E:note:row717576:7",
+      "E:note:row717576:8"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Other conditions include SLE (severe), cryoglobulinemia vasculitis, V Fib arrest, and sepsis concern [E:cond:10][E:cond:12][E:note:row717576:1][E:note:row717576:4].",
+        "severity": "medium",
+        "reason": "The summary adds descriptors ('severe', 'cryoglobulinemia vasculitis', 'V Fib', 'sepsis concern') not present in the provided fact sheet."
+      },
+      {
+        "sentence": "Additional issues: coagulation defects, drug withdrawal, opioid and sedative dependence, alkalosis, paraproteinemias, cardiac dysrhythmias, anemia, epilepsy, and PVD with critical limb ischemia [E:cond:5][E:cond:6][E:cond:7][E:cond:8][E:cond:9][E:cond:11][E:cond:14][E:cond:15][E:cond:16][E:cond:17].",
+        "severity": "medium",
+        "reason": "The summary includes 'epilepsy' and 'PVD with critical limb ischemia' which are not listed in the provided fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Other conditions include SLE (severe), cryoglobulinemia vasculitis, V Fib arrest, and sepsis concern [E:cond:10][E:cond:12][E:note:row717576:1][E:note:row717576:4].",
+        "suggested": "Other conditions include systemic lupus erythematosus and cardiac arrest [E:cond:10][E:cond:12].",
+        "reason": "Remove unverified descriptors and conditions not found in the fact sheet."
+      },
+      {
+        "original": "Additional issues: coagulation defects, drug withdrawal, opioid and sedative dependence, alkalosis, paraproteinemias, cardiac dysrhythmias, anemia, epilepsy, and PVD with critical limb ischemia [E:cond:5][E:cond:6][E:cond:7][E:cond:8][E:cond:9][E:cond:11][E:cond:14][E:cond:15][E:cond:16][E:cond:17].",
+        "suggested": "Additional issues: coagulation defects, drug withdrawal, opioid and sedative dependence, alkalosis, paraproteinemias, cardiac dysrhythmias, and anemia [E:cond:5][E:cond:6][E:cond:7][E:cond:8][E:cond:9][E:cond:11][E:cond:14][E:cond:15].",
+        "reason": "Remove epilepsy and PVD as they are not in the provided fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 2,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-47927-161682-717576/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 5.63,
+    "fk_words": 187,
+    "fk_sentences": 28,
+    "fk_syllables": 295,
+    "chars": 1714,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-47927-161682-717576/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.04835183301474899,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 125.61079295899253,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 203.4328742910293,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.002549750031903386,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 12.508806833007839,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 43.50884475000203,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.004514499974902719,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 22.03228666598443,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

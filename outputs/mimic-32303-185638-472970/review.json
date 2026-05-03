@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Patient has septic shock [E:cond:4], severe sepsis [E:cond:10], and unspecified septicemia [E:cond:1] with sepsis without organ dysfunction [E:note:row472970:1].",
+      "severity": "high",
+      "reason": "Internal inconsistency: the sentence claims both 'severe sepsis' and 'sepsis without organ dysfunction', which are clinically contradictory."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Patient has septic shock [E:cond:4], severe sepsis [E:cond:10], and unspecified septicemia [E:cond:1] with sepsis without organ dysfunction [E:note:row472970:1].",
+      "suggested": "Patient has septic shock [E:cond:4], severe sepsis [E:cond:10], and unspecified septicemia [E:cond:1].",
+      "reason": "Removed contradictory claim of sepsis without organ dysfunction to align with the diagnosis of severe sepsis and septic shock."
+    }
+  ]
+}

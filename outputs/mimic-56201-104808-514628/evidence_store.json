@@ -1,0 +1,1310 @@
+{
+  "case_id": "mimic-56201-104808-514628",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:enc-104808",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Unspecified disease of pericardium",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4239",
+        "display": "Unspecified disease of pericardium"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:cond-104808-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Pneumonia, organism unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "486",
+        "display": "Pneumonia, organism unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:cond-104808-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:cond-104808-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Cerebral artery occlusion, unspecified with cerebral infarction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "43491",
+        "display": "Cerebral artery occlusion, unspecified with cerebral infarction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:cond-104808-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:cond-104808-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Toxic encephalopathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34982",
+        "display": "Toxic encephalopathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:cond-104808-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Hyperosmolality and/or hypernatremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2760",
+        "display": "Hyperosmolality and/or hypernatremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:cond-104808-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:cond-104808-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Unspecified pleural effusion",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5119",
+        "display": "Unspecified pleural effusion"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:cond-104808-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Systolic heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42820",
+        "display": "Systolic heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:cond-104808-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Unspecified protein-calorie malnutrition",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2639",
+        "display": "Unspecified protein-calorie malnutrition"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:cond-104808-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Atrial flutter",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42732",
+        "display": "Atrial flutter"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:cond-104808-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Dependence on respirator, status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4611",
+        "display": "Dependence on respirator, status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:cond-104808-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Cardiac tamponade",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4233",
+        "display": "Cardiac tamponade"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:cond-104808-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Anemia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2859",
+        "display": "Anemia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:cond-104808-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:cond-104808-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Hematuria, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "59970",
+        "display": "Hematuria, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:cond-104808-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "60000",
+        "display": "Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:cond-104808-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:cond-104808-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25000",
+        "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:cond-104808-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:cond-104808-21",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Right heart cardiac catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Right heart cardiac catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:proc-104808-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Pericardiocentesis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Pericardiocentesis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:proc-104808-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Thoracentesis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Thoracentesis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:proc-104808-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Percutaneous [endoscopic] gastrostomy [PEG]",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous [endoscopic] gastrostomy [PEG]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:proc-104808-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:proc-104808-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:proc-104808-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:proc-104808-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:proc-104808-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Other bronchoscopy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other bronchoscopy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:proc-104808-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2107-01-10",
+      "source_ref": "urn:uuid:proc-104808-10",
+      "text": null
+    },
+    {
+      "id": "E:note:row514628:1",
+      "kind": "note_sentence",
+      "display": "The patient is a 70 yo man with h/o DM2, HTN, and recent diagnoses of    AFib wh",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s1",
+      "text": "The patient is a 70 yo man with h/o DM2, HTN, and recent diagnoses of    AFib who was transferred from OSH for further evaluation of pericardial    effusion."
+    },
+    {
+      "id": "E:note:row514628:2",
+      "kind": "note_sentence",
+      "display": "He was dx with Afib beginning of [**Month (only) **].  started on coumadin by PM",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s2",
+      "text": "He was dx with Afib beginning of [**Month (only) **].  started on coumadin by PMD."
+    },
+    {
+      "id": "E:note:row514628:3",
+      "kind": "note_sentence",
+      "display": "Was    also started on diuretic prior to this.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s3",
+      "text": "Was    also started on diuretic prior to this."
+    },
+    {
+      "id": "E:note:row514628:4",
+      "kind": "note_sentence",
+      "display": "Presented to [**Hospital3 **]    [**12-27**] with increase Dyspnea  and chills. ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s4",
+      "text": "Presented to [**Hospital3 **]    [**12-27**] with increase Dyspnea  and chills.   was intubated in EW there."
+    },
+    {
+      "id": "E:note:row514628:5",
+      "kind": "note_sentence",
+      "display": "Rx with diuresis and dilt gtt.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s5",
+      "text": "Rx with diuresis and dilt gtt."
+    },
+    {
+      "id": "E:note:row514628:6",
+      "kind": "note_sentence",
+      "display": "He was extubated [**1-6**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s6",
+      "text": "He was extubated [**1-6**]."
+    },
+    {
+      "id": "E:note:row514628:7",
+      "kind": "note_sentence",
+      "display": "Chest CT    showing large pericardial effusion and multilfocal PNA.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s7",
+      "text": "Chest CT    showing large pericardial effusion and multilfocal PNA."
+    },
+    {
+      "id": "E:note:row514628:8",
+      "kind": "note_sentence",
+      "display": "Started on    IVAB.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s8",
+      "text": "Started on    IVAB."
+    },
+    {
+      "id": "E:note:row514628:9",
+      "kind": "note_sentence",
+      "display": "Attempted TEE/CDV however unable dt report of atrial clot.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s9",
+      "text": "Attempted TEE/CDV however unable dt report of atrial clot."
+    },
+    {
+      "id": "E:note:row514628:10",
+      "kind": "note_sentence",
+      "display": "Repeat CT    showed increase in pericardial effusion and he was transferred to [",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s10",
+      "text": "Repeat CT    showed increase in pericardial effusion and he was transferred to [**Hospital1 19**]    for care."
+    },
+    {
+      "id": "E:note:row514628:11",
+      "kind": "note_sentence",
+      "display": "Of note; post extubation pt. had change in MS and confusion.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s11",
+      "text": "Of note; post extubation pt. had change in MS and confusion."
+    },
+    {
+      "id": "E:note:row514628:12",
+      "kind": "note_sentence",
+      "display": "Head CT    c/w toxic metabolic encephalopathy.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s12",
+      "text": "Head CT    c/w toxic metabolic encephalopathy."
+    },
+    {
+      "id": "E:note:row514628:13",
+      "kind": "note_sentence",
+      "display": "Pericardial effusion with tamponade    Assessment:    Pericardial drain intact.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s13",
+      "text": "Pericardial effusion with tamponade    Assessment:    Pericardial drain intact."
+    },
+    {
+      "id": "E:note:row514628:14",
+      "kind": "note_sentence",
+      "display": "Bloody drainage.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s14",
+      "text": "Bloody drainage."
+    },
+    {
+      "id": "E:note:row514628:15",
+      "kind": "note_sentence",
+      "display": "Denies pain.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s15",
+      "text": "Denies pain."
+    },
+    {
+      "id": "E:note:row514628:16",
+      "kind": "note_sentence",
+      "display": "HR 70    aflutter.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s16",
+      "text": "HR 70    aflutter."
+    },
+    {
+      "id": "E:note:row514628:17",
+      "kind": "note_sentence",
+      "display": "BP 130-150 s/60    Right fem.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s17",
+      "text": "BP 130-150 s/60    Right fem."
+    },
+    {
+      "id": "E:note:row514628:18",
+      "kind": "note_sentence",
+      "display": "Cath site D/I.  pulses palp.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s18",
+      "text": "Cath site D/I.  pulses palp."
+    },
+    {
+      "id": "E:note:row514628:19",
+      "kind": "note_sentence",
+      "display": "Action:    Maintained integrity of drain.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s19",
+      "text": "Action:    Maintained integrity of drain."
+    },
+    {
+      "id": "E:note:row514628:20",
+      "kind": "note_sentence",
+      "display": "Monitored drainage.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s20",
+      "text": "Monitored drainage."
+    },
+    {
+      "id": "E:note:row514628:21",
+      "kind": "note_sentence",
+      "display": "Cotin.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s21",
+      "text": "Cotin."
+    },
+    {
+      "id": "E:note:row514628:22",
+      "kind": "note_sentence",
+      "display": "On lopressor, dilt , amlodipine pNGT    Response:    Plan:    Delirium / confusi",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s22",
+      "text": "On lopressor, dilt , amlodipine pNGT    Response:    Plan:    Delirium / confusion    Assessment:    Pt. oriented to self only."
+    },
+    {
+      "id": "E:note:row514628:23",
+      "kind": "note_sentence",
+      "display": "Becoming more restless, agitated through    the evening .picking, trying to get ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s23",
+      "text": "Becoming more restless, agitated through    the evening .picking, trying to get OOB, swinging legs over    siderails.   taking off oxygen."
+    },
+    {
+      "id": "E:note:row514628:24",
+      "kind": "note_sentence",
+      "display": "Becoming increase safety risk.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s24",
+      "text": "Becoming increase safety risk."
+    },
+    {
+      "id": "E:note:row514628:25",
+      "kind": "note_sentence",
+      "display": "Talking to self, yelling out.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s25",
+      "text": "Talking to self, yelling out."
+    },
+    {
+      "id": "E:note:row514628:26",
+      "kind": "note_sentence",
+      "display": "Asking for beer and cigarettes.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s26",
+      "text": "Asking for beer and cigarettes."
+    },
+    {
+      "id": "E:note:row514628:27",
+      "kind": "note_sentence",
+      "display": "Action:    Soft wrist restraints placed bilat.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s27",
+      "text": "Action:    Soft wrist restraints placed bilat."
+    },
+    {
+      "id": "E:note:row514628:28",
+      "kind": "note_sentence",
+      "display": "Zyprexa 5mg PNGT at 2200.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s28",
+      "text": "Zyprexa 5mg PNGT at 2200."
+    },
+    {
+      "id": "E:note:row514628:29",
+      "kind": "note_sentence",
+      "display": "Response:    Quieter but contin.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s29",
+      "text": "Response:    Quieter but contin."
+    },
+    {
+      "id": "E:note:row514628:30",
+      "kind": "note_sentence",
+      "display": "With delirium/confusion.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s30",
+      "text": "With delirium/confusion."
+    },
+    {
+      "id": "E:note:row514628:31",
+      "kind": "note_sentence",
+      "display": "Awake all night.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s31",
+      "text": "Awake all night."
+    },
+    {
+      "id": "E:note:row514628:32",
+      "kind": "note_sentence",
+      "display": "Ox1 only.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s32",
+      "text": "Ox1 only."
+    },
+    {
+      "id": "E:note:row514628:33",
+      "kind": "note_sentence",
+      "display": "Yelling out.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s33",
+      "text": "Yelling out."
+    },
+    {
+      "id": "E:note:row514628:34",
+      "kind": "note_sentence",
+      "display": "Moving all extremeties equally.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s34",
+      "text": "Moving all extremeties equally."
+    },
+    {
+      "id": "E:note:row514628:35",
+      "kind": "note_sentence",
+      "display": "Hands restrained.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s35",
+      "text": "Hands restrained."
+    },
+    {
+      "id": "E:note:row514628:36",
+      "kind": "note_sentence",
+      "display": "Plan:    Pneumonia, bacterial, ventilator acquired (VAP)    Assessment:    Cours",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s36",
+      "text": "Plan:    Pneumonia, bacterial, ventilator acquired (VAP)    Assessment:    Course, rhonchorous BS bilat."
+    },
+    {
+      "id": "E:note:row514628:37",
+      "kind": "note_sentence",
+      "display": "Initially on NRB 100% with sats    96-98%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s37",
+      "text": "Initially on NRB 100% with sats    96-98%."
+    },
+    {
+      "id": "E:note:row514628:38",
+      "kind": "note_sentence",
+      "display": "However, sats dropping to 80% when pt. pulling O2 off  (prior    to hands restra",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s38",
+      "text": "However, sats dropping to 80% when pt. pulling O2 off  (prior    to hands restrained)."
+    },
+    {
+      "id": "E:note:row514628:39",
+      "kind": "note_sentence",
+      "display": "Strong cough,  but unable to bring secretions up.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s39",
+      "text": "Strong cough,  but unable to bring secretions up."
+    },
+    {
+      "id": "E:note:row514628:40",
+      "kind": "note_sentence",
+      "display": "Collect in back of    throat requiring deep subglottal suction for thick blood t",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s40",
+      "text": "Collect in back of    throat requiring deep subglottal suction for thick blood tinged    secretions."
+    },
+    {
+      "id": "E:note:row514628:41",
+      "kind": "note_sentence",
+      "display": "Action:    Changed over to 95% high flow mask for humidity.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s41",
+      "text": "Action:    Changed over to 95% high flow mask for humidity."
+    },
+    {
+      "id": "E:note:row514628:42",
+      "kind": "note_sentence",
+      "display": "Alb/Atrovent nebs    q6hr.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s42",
+      "text": "Alb/Atrovent nebs    q6hr."
+    },
+    {
+      "id": "E:note:row514628:43",
+      "kind": "note_sentence",
+      "display": "VAP care q2-4 hour with oral suction as needed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s43",
+      "text": "VAP care q2-4 hour with oral suction as needed."
+    },
+    {
+      "id": "E:note:row514628:44",
+      "kind": "note_sentence",
+      "display": "Response:    Sats 92-95% on mask.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s44",
+      "text": "Response:    Sats 92-95% on mask."
+    },
+    {
+      "id": "E:note:row514628:45",
+      "kind": "note_sentence",
+      "display": "Plan:",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514628#s45",
+      "text": "Plan:"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|4239": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|486": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|43491": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|34982": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2760": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2762": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5119": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42820": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2639": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42732": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4611": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4233": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2859": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|59970": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|60000": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42731": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25000": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:21"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "unspecified disease of pericardium": [
+      "E:cond:1"
+    ],
+    "pneumonia, organism unspecified": [
+      "E:cond:2"
+    ],
+    "acute respiratory failure": [
+      "E:cond:3"
+    ],
+    "cerebral artery occlusion, unspecified with cerebral infarction": [
+      "E:cond:4"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:5"
+    ],
+    "toxic encephalopathy": [
+      "E:cond:6"
+    ],
+    "hyperosmolality and/or hypernatremia": [
+      "E:cond:7"
+    ],
+    "acidosis": [
+      "E:cond:8"
+    ],
+    "unspecified pleural effusion": [
+      "E:cond:9"
+    ],
+    "systolic heart failure, unspecified": [
+      "E:cond:10"
+    ],
+    "unspecified protein-calorie malnutrition": [
+      "E:cond:11"
+    ],
+    "atrial flutter": [
+      "E:cond:12"
+    ],
+    "dependence on respirator, status": [
+      "E:cond:13"
+    ],
+    "cardiac tamponade": [
+      "E:cond:14"
+    ],
+    "anemia, unspecified": [
+      "E:cond:15"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:16"
+    ],
+    "hematuria, unspecified": [
+      "E:cond:17"
+    ],
+    "hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (luts)": [
+      "E:cond:18"
+    ],
+    "atrial fibrillation": [
+      "E:cond:19"
+    ],
+    "diabetes mellitus without mention of complication, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:20"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:21"
+    ],
+    "right heart cardiac catheterization": [
+      "E:proc:1"
+    ],
+    "pericardiocentesis": [
+      "E:proc:2"
+    ],
+    "thoracentesis": [
+      "E:proc:3"
+    ],
+    "percutaneous [endoscopic] gastrostomy [peg]": [
+      "E:proc:4"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:5"
+    ],
+    "continuous invasive mechanical ventilation for less than 96 consecutive hours": [
+      "E:proc:6"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:7"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:8"
+    ],
+    "other bronchoscopy": [
+      "E:proc:9"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:10"
+    ],
+    "the patient is a 70 yo man with h/o dm2, htn, and recent diagnoses of afib wh": [
+      "E:note:row514628:1"
+    ],
+    "he was dx with afib beginning of [**month (only) **]. started on coumadin by pm": [
+      "E:note:row514628:2"
+    ],
+    "was also started on diuretic prior to this.": [
+      "E:note:row514628:3"
+    ],
+    "presented to [**hospital3 **] [**12-27**] with increase dyspnea and chills.": [
+      "E:note:row514628:4"
+    ],
+    "rx with diuresis and dilt gtt.": [
+      "E:note:row514628:5"
+    ],
+    "he was extubated [**1-6**].": [
+      "E:note:row514628:6"
+    ],
+    "chest ct showing large pericardial effusion and multilfocal pna.": [
+      "E:note:row514628:7"
+    ],
+    "started on ivab.": [
+      "E:note:row514628:8"
+    ],
+    "attempted tee/cdv however unable dt report of atrial clot.": [
+      "E:note:row514628:9"
+    ],
+    "repeat ct showed increase in pericardial effusion and he was transferred to [": [
+      "E:note:row514628:10"
+    ],
+    "of note; post extubation pt. had change in ms and confusion.": [
+      "E:note:row514628:11"
+    ],
+    "head ct c/w toxic metabolic encephalopathy.": [
+      "E:note:row514628:12"
+    ],
+    "pericardial effusion with tamponade assessment: pericardial drain intact.": [
+      "E:note:row514628:13"
+    ],
+    "bloody drainage.": [
+      "E:note:row514628:14"
+    ],
+    "denies pain.": [
+      "E:note:row514628:15"
+    ],
+    "hr 70 aflutter.": [
+      "E:note:row514628:16"
+    ],
+    "bp 130-150 s/60 right fem.": [
+      "E:note:row514628:17"
+    ],
+    "cath site d/i. pulses palp.": [
+      "E:note:row514628:18"
+    ],
+    "action: maintained integrity of drain.": [
+      "E:note:row514628:19"
+    ],
+    "monitored drainage.": [
+      "E:note:row514628:20"
+    ],
+    "cotin.": [
+      "E:note:row514628:21"
+    ],
+    "on lopressor, dilt , amlodipine pngt response: plan: delirium / confusi": [
+      "E:note:row514628:22"
+    ],
+    "becoming more restless, agitated through the evening .picking, trying to get": [
+      "E:note:row514628:23"
+    ],
+    "becoming increase safety risk.": [
+      "E:note:row514628:24"
+    ],
+    "talking to self, yelling out.": [
+      "E:note:row514628:25"
+    ],
+    "asking for beer and cigarettes.": [
+      "E:note:row514628:26"
+    ],
+    "action: soft wrist restraints placed bilat.": [
+      "E:note:row514628:27"
+    ],
+    "zyprexa 5mg pngt at 2200.": [
+      "E:note:row514628:28"
+    ],
+    "response: quieter but contin.": [
+      "E:note:row514628:29"
+    ],
+    "with delirium/confusion.": [
+      "E:note:row514628:30"
+    ],
+    "awake all night.": [
+      "E:note:row514628:31"
+    ],
+    "ox1 only.": [
+      "E:note:row514628:32"
+    ],
+    "yelling out.": [
+      "E:note:row514628:33"
+    ],
+    "moving all extremeties equally.": [
+      "E:note:row514628:34"
+    ],
+    "hands restrained.": [
+      "E:note:row514628:35"
+    ],
+    "plan: pneumonia, bacterial, ventilator acquired (vap) assessment: cours": [
+      "E:note:row514628:36"
+    ],
+    "initially on nrb 100% with sats 96-98%.": [
+      "E:note:row514628:37"
+    ],
+    "however, sats dropping to 80% when pt. pulling o2 off (prior to hands restra": [
+      "E:note:row514628:38"
+    ],
+    "strong cough, but unable to bring secretions up.": [
+      "E:note:row514628:39"
+    ],
+    "collect in back of throat requiring deep subglottal suction for thick blood t": [
+      "E:note:row514628:40"
+    ],
+    "action: changed over to 95% high flow mask for humidity.": [
+      "E:note:row514628:41"
+    ],
+    "alb/atrovent nebs q6hr.": [
+      "E:note:row514628:42"
+    ],
+    "vap care q2-4 hour with oral suction as needed.": [
+      "E:note:row514628:43"
+    ],
+    "response: sats 92-95% on mask.": [
+      "E:note:row514628:44"
+    ],
+    "plan:": [
+      "E:note:row514628:45"
+    ]
+  },
+  "by_date": {
+    "2107-01-10": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10"
+    ]
+  }
+}

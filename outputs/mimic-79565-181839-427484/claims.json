@@ -1,0 +1,382 @@
+{
+  "claims": [
+    {
+      "claim_id": "C1",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "ulcerative colitis",
+      "time_ref": null,
+      "source_span": "row427484#0"
+    },
+    {
+      "claim_id": "C2",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "coronary artery disease",
+      "time_ref": null,
+      "source_span": "row427484#0"
+    },
+    {
+      "claim_id": "C3",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "non-small cell lung cancer",
+      "time_ref": null,
+      "source_span": "row427484#0"
+    },
+    {
+      "claim_id": "C4",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "VATs and left upper lobectomy",
+      "time_ref": "2146-11-4",
+      "source_span": "row427484#0"
+    },
+    {
+      "claim_id": "C5",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "solumedrol",
+      "time_ref": null,
+      "source_span": "row427484#1"
+    },
+    {
+      "claim_id": "C6",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "cyclosporine",
+      "time_ref": null,
+      "source_span": "row427484#1"
+    },
+    {
+      "claim_id": "C7",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "left DVT",
+      "time_ref": null,
+      "source_span": "row427484#2"
+    },
+    {
+      "claim_id": "C8",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "heparin",
+      "time_ref": null,
+      "source_span": "row427484#2"
+    },
+    {
+      "claim_id": "C9",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "coumadin",
+      "time_ref": null,
+      "source_span": "row427484#2"
+    },
+    {
+      "claim_id": "C10",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "left hydropneumothorax",
+      "time_ref": "12-6",
+      "source_span": "row427484#4"
+    },
+    {
+      "claim_id": "C11",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "multi-focal pneumonia",
+      "time_ref": "12-6",
+      "source_span": "row427484#4"
+    },
+    {
+      "claim_id": "C12",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "levofloxacin",
+      "time_ref": null,
+      "source_span": "row427484#5"
+    },
+    {
+      "claim_id": "C13",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "flagyl",
+      "time_ref": null,
+      "source_span": "row427484#5"
+    },
+    {
+      "claim_id": "C14",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Vancomycin",
+      "time_ref": "12-7",
+      "source_span": "row427484#5"
+    },
+    {
+      "claim_id": "C15",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "zosyn",
+      "time_ref": "12-7",
+      "source_span": "row427484#5"
+    },
+    {
+      "claim_id": "C16",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "hematocrit 27",
+      "time_ref": "past 48 hours",
+      "source_span": "row427484#7"
+    },
+    {
+      "claim_id": "C17",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "hematocrit 22",
+      "time_ref": "this am",
+      "source_span": "row427484#7"
+    },
+    {
+      "claim_id": "C18",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "Transfused with 2 units prbc",
+      "time_ref": null,
+      "source_span": "row427484#8"
+    },
+    {
+      "claim_id": "C19",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Delirium / confusion",
+      "time_ref": null,
+      "source_span": "row427484#9"
+    },
+    {
+      "claim_id": "C20",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Anemia, acute, secondary to blood loss (Hemorrhage, Bleeding)",
+      "time_ref": null,
+      "source_span": "row427484#15"
+    },
+    {
+      "claim_id": "C21",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "am hct was 22",
+      "time_ref": null,
+      "source_span": "row427484#16"
+    },
+    {
+      "claim_id": "C22",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "sbp in 90s-100s",
+      "time_ref": null,
+      "source_span": "row427484#16"
+    },
+    {
+      "claim_id": "C23",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "tachycardic in 100s",
+      "time_ref": null,
+      "source_span": "row427484#16"
+    },
+    {
+      "claim_id": "C24",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Am k 4.0",
+      "time_ref": null,
+      "source_span": "row427484#16"
+    },
+    {
+      "claim_id": "C25",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "mag 1.9",
+      "time_ref": null,
+      "source_span": "row427484#16"
+    },
+    {
+      "claim_id": "C26",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "phosphate 2.4",
+      "time_ref": null,
+      "source_span": "row427484#16"
+    },
+    {
+      "claim_id": "C27",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "Received 2 units prbc",
+      "time_ref": null,
+      "source_span": "row427484#18"
+    },
+    {
+      "claim_id": "C28",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "Magnesium, calcium repleted",
+      "time_ref": null,
+      "source_span": "row427484#19"
+    },
+    {
+      "claim_id": "C29",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "Phosphate being repleted with iv kphos",
+      "time_ref": null,
+      "source_span": "row427484#19"
+    },
+    {
+      "claim_id": "C30",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Pm hct stable at 28.7",
+      "time_ref": null,
+      "source_span": "row427484#20"
+    },
+    {
+      "claim_id": "C31",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "pm k 8.1",
+      "time_ref": null,
+      "source_span": "row427484#20"
+    },
+    {
+      "claim_id": "C32",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "venous blood gas: 4.1",
+      "time_ref": null,
+      "source_span": "row427484#20"
+    },
+    {
+      "claim_id": "C33",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "ionlized calcium 1.12",
+      "time_ref": null,
+      "source_span": "row427484#20"
+    },
+    {
+      "claim_id": "C34",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Impaired Skin Integrity",
+      "time_ref": null,
+      "source_span": "row427484#23"
+    },
+    {
+      "claim_id": "C35",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "stage 2 pressure ulcer on coccyx",
+      "time_ref": "12-8",
+      "source_span": "row427484#24"
+    },
+    {
+      "claim_id": "C36",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "old areas of dehision on left mid axillary area from vats",
+      "time_ref": null,
+      "source_span": "row427484#24"
+    },
+    {
+      "claim_id": "C37",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 11**])",
+      "time_ref": null,
+      "source_span": "row427484#28"
+    },
+    {
+      "claim_id": "C38",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "witnessed aspiration",
+      "time_ref": "last eve",
+      "source_span": "row427484#29"
+    },
+    {
+      "claim_id": "C39",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Vbg in afternoon: 7.51/30/27",
+      "time_ref": null,
+      "source_span": "row427484#30"
+    },
+    {
+      "claim_id": "C40",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "abg in am was 7.57/26/139",
+      "time_ref": null,
+      "source_span": "row427484#30"
+    },
+    {
+      "claim_id": "C41",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "20mg iv lasix",
+      "time_ref": null,
+      "source_span": "row427484#30"
+    },
+    {
+      "claim_id": "C42",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "additional 20mg iv Lasix",
+      "time_ref": "18:30",
+      "source_span": "row427484#31"
+    }
+  ]
+}

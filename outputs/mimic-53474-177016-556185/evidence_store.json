@@ -1,0 +1,992 @@
+{
+  "case_id": "mimic-53474-177016-556185",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "ELECTIVE",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:enc-177016",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Osteoarthrosis, localized, not specified whether primary or secondary, lower leg",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "71536",
+        "display": "Osteoarthrosis, localized, not specified whether primary or secondary, lower leg"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:cond-177016-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5185",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:cond-177016-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute kidney failure with lesion of tubular necrosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5845",
+        "display": "Acute kidney failure with lesion of tubular necrosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:cond-177016-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Pulmonary collapse",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5180",
+        "display": "Pulmonary collapse"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:cond-177016-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Pneumonitis due to inhalation of food or vomitus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5070",
+        "display": "Pneumonitis due to inhalation of food or vomitus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:cond-177016-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Delirium due to conditions classified elsewhere",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2930",
+        "display": "Delirium due to conditions classified elsewhere"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:cond-177016-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Other respiratory complications",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99739",
+        "display": "Other respiratory complications"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:cond-177016-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Pneumonia, organism unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "486",
+        "display": "Pneumonia, organism unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:cond-177016-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Urinary complications, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9975",
+        "display": "Urinary complications, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:cond-177016-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Esophageal reflux",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53081",
+        "display": "Esophageal reflux"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:cond-177016-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Hypovolemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "27652",
+        "display": "Hypovolemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:cond-177016-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Obstructive sleep apnea (adult)(pediatric)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "32723",
+        "display": "Obstructive sleep apnea (adult)(pediatric)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:cond-177016-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type II or unspecified type, uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25002",
+        "display": "Diabetes mellitus without mention of complication, type II or unspecified type, uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:cond-177016-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Other diseases of lung, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51889",
+        "display": "Other diseases of lung, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:cond-177016-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Dysthymic disorder",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3004",
+        "display": "Dysthymic disorder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:cond-177016-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Other hyperalimentation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2788",
+        "display": "Other hyperalimentation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:cond-177016-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Morbid obesity",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "27801",
+        "display": "Morbid obesity"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:cond-177016-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Unspecified polyarthropathy or polyarthritis, site unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "71650",
+        "display": "Unspecified polyarthropathy or polyarthritis, site unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:cond-177016-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Other sedatives and hypnotics causing adverse effects in therapeutic use",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E9378",
+        "display": "Other sedatives and hypnotics causing adverse effects in therapeutic use"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:cond-177016-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Surgical operation with implant of artificial internal device causing abnormal patient reaction, or later complication,without mention of misadventure at time of operation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8781",
+        "display": "Surgical operation with implant of artificial internal device causing abnormal patient reaction, or later complication,without mention of misadventure at time of operation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:cond-177016-20",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Total knee replacement",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Total knee replacement"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:proc-177016-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:proc-177016-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Other bronchoscopy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other bronchoscopy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:proc-177016-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-01-11",
+      "source_ref": "urn:uuid:proc-177016-4",
+      "text": null
+    },
+    {
+      "id": "E:note:row556185:1",
+      "kind": "note_sentence",
+      "display": "He is a 45-year-old man with a past medical history most notable for    obesity,",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s1",
+      "text": "He is a 45-year-old man with a past medical history most notable for    obesity, diabetes, hypertension, and multiple orthopedic procedures."
+    },
+    {
+      "id": "E:note:row556185:2",
+      "kind": "note_sentence",
+      "display": "Pt    has bipap maching at home but stated he does not use r/t claustrophobia.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s2",
+      "text": "Pt    has bipap maching at home but stated he does not use r/t claustrophobia."
+    },
+    {
+      "id": "E:note:row556185:3",
+      "kind": "note_sentence",
+      "display": "He underwent left knee total arthroplasty by Dr. [**Last Name (STitle) **] on [*",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s3",
+      "text": "He underwent left knee total arthroplasty by Dr. [**Last Name (STitle) **] on [**2131-1-11**]."
+    },
+    {
+      "id": "E:note:row556185:4",
+      "kind": "note_sentence",
+      "display": "His post-operative course is detailed in the record    but is especially notable",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s4",
+      "text": "His post-operative course is detailed in the record    but is especially notable for acute renal failure (Cr 1.0  3.0  2.0),    hypoxemia, and hypercarbia."
+    },
+    {
+      "id": "E:note:row556185:5",
+      "kind": "note_sentence",
+      "display": "Hypercarbia was attributed to narcotics in    the setting of OSA, and he was tre",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s5",
+      "text": "Hypercarbia was attributed to narcotics in    the setting of OSA, and he was treated with nalaxone."
+    },
+    {
+      "id": "E:note:row556185:6",
+      "kind": "note_sentence",
+      "display": "On [**1-15**] pt was on    nasal CPAP on the floor and remained hypercarbic and ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s6",
+      "text": "On [**1-15**] pt was on    nasal CPAP on the floor and remained hypercarbic and acidodic."
+    },
+    {
+      "id": "E:note:row556185:7",
+      "kind": "note_sentence",
+      "display": "Was    transferred from 12 R to M/SICU overnight for further mgt.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s7",
+      "text": "Was    transferred from 12 R to M/SICU overnight for further mgt."
+    },
+    {
+      "id": "E:note:row556185:8",
+      "kind": "note_sentence",
+      "display": "Upon arrival    to M/SICU pt was placed on NIMV 15/5 and 60% FIO2 by RRT.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s8",
+      "text": "Upon arrival    to M/SICU pt was placed on NIMV 15/5 and 60% FIO2 by RRT."
+    },
+    {
+      "id": "E:note:row556185:9",
+      "kind": "note_sentence",
+      "display": "Pt was mildly    disoriented and anxious following placement of mask ventilation",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s9",
+      "text": "Pt was mildly    disoriented and anxious following placement of mask ventilation."
+    },
+    {
+      "id": "E:note:row556185:10",
+      "kind": "note_sentence",
+      "display": "ABG    following one hour of NIMV was 7.26/75/193.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s10",
+      "text": "ABG    following one hour of NIMV was 7.26/75/193."
+    },
+    {
+      "id": "E:note:row556185:11",
+      "kind": "note_sentence",
+      "display": "Medical team aware and    decision made to continue NIMV.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s11",
+      "text": "Medical team aware and    decision made to continue NIMV."
+    },
+    {
+      "id": "E:note:row556185:12",
+      "kind": "note_sentence",
+      "display": "Overnight Events:           At approx 0245 pt suddenly became disoriented and ag",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s12",
+      "text": "Overnight Events:           At approx 0245 pt suddenly became disoriented and agitated    with MD team present prepping for a-line placement."
+    },
+    {
+      "id": "E:note:row556185:13",
+      "kind": "note_sentence",
+      "display": "He pulled off his    face mask and yelled for police to be called.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s13",
+      "text": "He pulled off his    face mask and yelled for police to be called."
+    },
+    {
+      "id": "E:note:row556185:14",
+      "kind": "note_sentence",
+      "display": "He said he thought he    was in a secure facility  and demanded to see credentia",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s14",
+      "text": "He said he thought he    was in a secure facility  and demanded to see credentials of all staff    in room."
+    },
+    {
+      "id": "E:note:row556185:15",
+      "kind": "note_sentence",
+      "display": "He attempted to pull out IV s but was unsuccessful.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s15",
+      "text": "He attempted to pull out IV s but was unsuccessful."
+    },
+    {
+      "id": "E:note:row556185:16",
+      "kind": "note_sentence",
+      "display": "Code    purple called and security and police arrived shortly.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s16",
+      "text": "Code    purple called and security and police arrived shortly."
+    },
+    {
+      "id": "E:note:row556185:17",
+      "kind": "note_sentence",
+      "display": "Pt did not    become physically violent and did not require restraint.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s17",
+      "text": "Pt did not    become physically violent and did not require restraint."
+    },
+    {
+      "id": "E:note:row556185:18",
+      "kind": "note_sentence",
+      "display": "Attempts made by RN and medical team to re-orient pt    unsuccessful and decisio",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s18",
+      "text": "Attempts made by RN and medical team to re-orient pt    unsuccessful and decision made to intubate pt."
+    },
+    {
+      "id": "E:note:row556185:19",
+      "kind": "note_sentence",
+      "display": "Pt was orally intubated    by anesthesia at approx 0315, tube placement confirme",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s19",
+      "text": "Pt was orally intubated    by anesthesia at approx 0315, tube placement confirmed by CXR."
+    },
+    {
+      "id": "E:note:row556185:20",
+      "kind": "note_sentence",
+      "display": "Following intubation pt went into narrow complex SVT w/ HR    130-150.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s20",
+      "text": "Following intubation pt went into narrow complex SVT w/ HR    130-150."
+    },
+    {
+      "id": "E:note:row556185:21",
+      "kind": "note_sentence",
+      "display": "MD performed carotid massage and SVT converted to SR. Pt was    requiring 80mcs/",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s21",
+      "text": "MD performed carotid massage and SVT converted to SR. Pt was    requiring 80mcs/hr propofol for adequate sedation and SBP dropped to    80 s w/ MAP to 40 s. 1000cc NS bolus hung and propofol gtt stopped."
+    },
+    {
+      "id": "E:note:row556185:22",
+      "kind": "note_sentence",
+      "display": "SBP    improved to >100 and pt became restless and sedation restarted with    fe",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s22",
+      "text": "SBP    improved to >100 and pt became restless and sedation restarted with    fentanyl and midaz."
+    },
+    {
+      "id": "E:note:row556185:23",
+      "kind": "note_sentence",
+      "display": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:   ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s23",
+      "text": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    Pt intubated    Vent AC 20/600 PEEP 5, FIO2 0.60    02 sats 98-100%    LS rhonchi upper, diminished bases."
+    },
+    {
+      "id": "E:note:row556185:24",
+      "kind": "note_sentence",
+      "display": "Hemodynamically stable at present.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s24",
+      "text": "Hemodynamically stable at present."
+    },
+    {
+      "id": "E:note:row556185:25",
+      "kind": "note_sentence",
+      "display": "Sedated w/ fentanyl and midaz gtts.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s25",
+      "text": "Sedated w/ fentanyl and midaz gtts."
+    },
+    {
+      "id": "E:note:row556185:26",
+      "kind": "note_sentence",
+      "display": "Action:    Suctioned copious amts thick white.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s26",
+      "text": "Action:    Suctioned copious amts thick white."
+    },
+    {
+      "id": "E:note:row556185:27",
+      "kind": "note_sentence",
+      "display": "Medical team placing central access and a-line at present.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s27",
+      "text": "Medical team placing central access and a-line at present."
+    },
+    {
+      "id": "E:note:row556185:28",
+      "kind": "note_sentence",
+      "display": "Response:    02 sats remain 98-100%    HR and BP remain stable.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s28",
+      "text": "Response:    02 sats remain 98-100%    HR and BP remain stable."
+    },
+    {
+      "id": "E:note:row556185:29",
+      "kind": "note_sentence",
+      "display": "Plan:    Re-check ABG following a-line placement (pt difficult arterial stick)  ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s29",
+      "text": "Plan:    Re-check ABG following a-line placement (pt difficult arterial stick)    Heparin gtt ordered to be started post-line placement r/t ?"
+    },
+    {
+      "id": "E:note:row556185:30",
+      "kind": "note_sentence",
+      "display": "PE    LENI s ordered for today.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s30",
+      "text": "PE    LENI s ordered for today."
+    },
+    {
+      "id": "E:note:row556185:31",
+      "kind": "note_sentence",
+      "display": "Cont to monitor oxygenation and ventilation.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s31",
+      "text": "Cont to monitor oxygenation and ventilation."
+    },
+    {
+      "id": "E:note:row556185:32",
+      "kind": "note_sentence",
+      "display": "Cont to monitor pts vitals.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row556185#s32",
+      "text": "Cont to monitor pts vitals."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|71536": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5185": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5845": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5180": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5070": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2930": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99739": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|486": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|9975": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|53081": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|27652": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|32723": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25002": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51889": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3004": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2788": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|27801": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|71650": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E9378": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8781": [
+      "E:cond:20"
+    ]
+  },
+  "by_display": {
+    "elective": [
+      "E:enc:1"
+    ],
+    "osteoarthrosis, localized, not specified whether primary or secondary, lower leg": [
+      "E:cond:1"
+    ],
+    "diagnosis": [
+      "E:cond:2"
+    ],
+    "acute kidney failure with lesion of tubular necrosis": [
+      "E:cond:3"
+    ],
+    "pulmonary collapse": [
+      "E:cond:4"
+    ],
+    "pneumonitis due to inhalation of food or vomitus": [
+      "E:cond:5"
+    ],
+    "delirium due to conditions classified elsewhere": [
+      "E:cond:6"
+    ],
+    "other respiratory complications": [
+      "E:cond:7"
+    ],
+    "pneumonia, organism unspecified": [
+      "E:cond:8"
+    ],
+    "urinary complications, not elsewhere classified": [
+      "E:cond:9"
+    ],
+    "esophageal reflux": [
+      "E:cond:10"
+    ],
+    "hypovolemia": [
+      "E:cond:11"
+    ],
+    "obstructive sleep apnea (adult)(pediatric)": [
+      "E:cond:12"
+    ],
+    "diabetes mellitus without mention of complication, type ii or unspecified type, uncontrolled": [
+      "E:cond:13"
+    ],
+    "other diseases of lung, not elsewhere classified": [
+      "E:cond:14"
+    ],
+    "dysthymic disorder": [
+      "E:cond:15"
+    ],
+    "other hyperalimentation": [
+      "E:cond:16"
+    ],
+    "morbid obesity": [
+      "E:cond:17"
+    ],
+    "unspecified polyarthropathy or polyarthritis, site unspecified": [
+      "E:cond:18"
+    ],
+    "other sedatives and hypnotics causing adverse effects in therapeutic use": [
+      "E:cond:19"
+    ],
+    "surgical operation with implant of artificial internal device causing abnormal patient reaction, or later complication,without mention of misadventure at time of operation": [
+      "E:cond:20"
+    ],
+    "total knee replacement": [
+      "E:proc:1"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:2"
+    ],
+    "other bronchoscopy": [
+      "E:proc:3"
+    ],
+    "continuous invasive mechanical ventilation for less than 96 consecutive hours": [
+      "E:proc:4"
+    ],
+    "he is a 45-year-old man with a past medical history most notable for obesity,": [
+      "E:note:row556185:1"
+    ],
+    "pt has bipap maching at home but stated he does not use r/t claustrophobia.": [
+      "E:note:row556185:2"
+    ],
+    "he underwent left knee total arthroplasty by dr. [**last name (stitle) **] on [*": [
+      "E:note:row556185:3"
+    ],
+    "his post-operative course is detailed in the record but is especially notable": [
+      "E:note:row556185:4"
+    ],
+    "hypercarbia was attributed to narcotics in the setting of osa, and he was tre": [
+      "E:note:row556185:5"
+    ],
+    "on [**1-15**] pt was on nasal cpap on the floor and remained hypercarbic and": [
+      "E:note:row556185:6"
+    ],
+    "was transferred from 12 r to m/sicu overnight for further mgt.": [
+      "E:note:row556185:7"
+    ],
+    "upon arrival to m/sicu pt was placed on nimv 15/5 and 60% fio2 by rrt.": [
+      "E:note:row556185:8"
+    ],
+    "pt was mildly disoriented and anxious following placement of mask ventilation": [
+      "E:note:row556185:9"
+    ],
+    "abg following one hour of nimv was 7.26/75/193.": [
+      "E:note:row556185:10"
+    ],
+    "medical team aware and decision made to continue nimv.": [
+      "E:note:row556185:11"
+    ],
+    "overnight events: at approx 0245 pt suddenly became disoriented and ag": [
+      "E:note:row556185:12"
+    ],
+    "he pulled off his face mask and yelled for police to be called.": [
+      "E:note:row556185:13"
+    ],
+    "he said he thought he was in a secure facility and demanded to see credentia": [
+      "E:note:row556185:14"
+    ],
+    "he attempted to pull out iv s but was unsuccessful.": [
+      "E:note:row556185:15"
+    ],
+    "code purple called and security and police arrived shortly.": [
+      "E:note:row556185:16"
+    ],
+    "pt did not become physically violent and did not require restraint.": [
+      "E:note:row556185:17"
+    ],
+    "attempts made by rn and medical team to re-orient pt unsuccessful and decisio": [
+      "E:note:row556185:18"
+    ],
+    "pt was orally intubated by anesthesia at approx 0315, tube placement confirme": [
+      "E:note:row556185:19"
+    ],
+    "following intubation pt went into narrow complex svt w/ hr 130-150.": [
+      "E:note:row556185:20"
+    ],
+    "md performed carotid massage and svt converted to sr. pt was requiring 80mcs/": [
+      "E:note:row556185:21"
+    ],
+    "sbp improved to >100 and pt became restless and sedation restarted with fe": [
+      "E:note:row556185:22"
+    ],
+    "respiratory failure, acute (not ards/[**doctor last name 2**]) assessment:": [
+      "E:note:row556185:23"
+    ],
+    "hemodynamically stable at present.": [
+      "E:note:row556185:24"
+    ],
+    "sedated w/ fentanyl and midaz gtts.": [
+      "E:note:row556185:25"
+    ],
+    "action: suctioned copious amts thick white.": [
+      "E:note:row556185:26"
+    ],
+    "medical team placing central access and a-line at present.": [
+      "E:note:row556185:27"
+    ],
+    "response: 02 sats remain 98-100% hr and bp remain stable.": [
+      "E:note:row556185:28"
+    ],
+    "plan: re-check abg following a-line placement (pt difficult arterial stick)": [
+      "E:note:row556185:29"
+    ],
+    "pe leni s ordered for today.": [
+      "E:note:row556185:30"
+    ],
+    "cont to monitor oxygenation and ventilation.": [
+      "E:note:row556185:31"
+    ],
+    "cont to monitor pts vitals.": [
+      "E:note:row556185:32"
+    ]
+  },
+  "by_date": {
+    "2131-01-11": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4"
+    ]
+  }
+}

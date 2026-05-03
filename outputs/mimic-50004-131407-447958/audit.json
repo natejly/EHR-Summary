@@ -1,0 +1,148 @@
+{
+  "case_id": "mimic-50004-131407-447958",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2143,
+    "summary_chars": 1093,
+    "target_min_chars": 428,
+    "target_max_chars": 642,
+    "achieved_ratio": 0.5100326644890341,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 11,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:11",
+      "E:cond:13",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:note:row447958:1",
+      "E:note:row447958:10",
+      "E:note:row447958:14",
+      "E:note:row447958:15",
+      "E:note:row447958:17",
+      "E:note:row447958:19",
+      "E:note:row447958:22",
+      "E:note:row447958:3",
+      "E:note:row447958:6",
+      "E:note:row447958:7",
+      "E:note:row447958:8",
+      "E:note:row447958:9",
+      "E:proc:4",
+      "E:proc:5"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Other issues: SIRS with organ dysfunction [E:cond:2], malignant lymphoma [E:cond:6], AG acidosis [E:note:row447958:6], shock [E:cond:16], hematemesis [E:cond:11], and thrombocytopenia [E:cond:13].",
+        "severity": "medium",
+        "reason": "The summary claims 'AG acidosis' citing a lactate result, but the fact sheet only lists 'Acidosis' [E:cond:7] without specifying an anion gap."
+      },
+      {
+        "sentence": "Procedures include hemodialysis [E:proc:4] and mechanical ventilation [E:proc:5].",
+        "severity": "high",
+        "reason": "These procedures are not listed anywhere in the provided fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Other issues: SIRS with organ dysfunction [E:cond:2], malignant lymphoma [E:cond:6], AG acidosis [E:note:row447958:6], shock [E:cond:16], hematemesis [E:cond:11], and thrombocytopenia [E:cond:13].",
+        "suggested": "Other issues: SIRS with organ dysfunction [E:cond:2], malignant lymphoma [E:cond:6], acidosis [E:cond:7], shock [E:cond:16], hematemesis [E:cond:11], and thrombocytopenia [E:cond:13].",
+        "reason": "Corrects the specific type of acidosis to match the fact sheet and uses the correct evidence ID."
+      },
+      {
+        "original": "Procedures include hemodialysis [E:proc:4] and mechanical ventilation [E:proc:5].",
+        "suggested": "",
+        "reason": "Remove sentence as it contains hallucinations not supported by the fact sheet."
+      }
+    ]
+  },
+  "review_passed": false,
+  "review_concern_counts": {
+    "high": 1,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-50004-131407-447958/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 9.44,
+    "fk_words": 198,
+    "fk_sentences": 12,
+    "fk_syllables": 312,
+    "chars": 1888,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-50004-131407-447958/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0016679589753039181,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 93.4322600410087,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 79.10652908397606,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0018019579583778977,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 17.607450084004086,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 278.83619637496304,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.003296124981716275,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 17.57936391700059,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

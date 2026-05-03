@@ -1,0 +1,1037 @@
+{
+  "case_id": "mimic-82313-116027-681825",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:enc-116027",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Complications of transplanted bone marrow",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99685",
+        "display": "Complications of transplanted bone marrow"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute myocardial infarction of inferolateral wall, initial episode of care",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41021",
+        "display": "Acute myocardial infarction of inferolateral wall, initial episode of care"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Hyperosmolality and/or hypernatremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2760",
+        "display": "Hyperosmolality and/or hypernatremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Unspecified septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0389",
+        "display": "Unspecified septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Other complications due to renal dialysis device, implant, and graft",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99673",
+        "display": "Other complications due to renal dialysis device, implant, and graft"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Pneumonia due to parainfluenza virus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4802",
+        "display": "Pneumonia due to parainfluenza virus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Myelofibrosis with myeloid metaplasia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "23876",
+        "display": "Myelofibrosis with myeloid metaplasia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Jaundice, unspecified, not of newborn",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7824",
+        "display": "Jaundice, unspecified, not of newborn"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2841",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Acute graft-versus-host disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "27951",
+        "display": "Acute graft-versus-host disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1731",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Other specified disorders of rectum and anus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "56949",
+        "display": "Other specified disorders of rectum and anus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8798",
+        "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Accidents occurring in other specified places",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8498",
+        "display": "Accidents occurring in other specified places"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Contact dermatitis and other eczema, unspecified cause",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "6929",
+        "display": "Contact dermatitis and other eczema, unspecified cause"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Cholecystitis, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "57510",
+        "display": "Cholecystitis, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Neoplasm related pain (acute) (chronic)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3383",
+        "display": "Neoplasm related pain (acute) (chronic)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Other and unspecified noninfectious gastroenteritis and colitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5589",
+        "display": "Other and unspecified noninfectious gastroenteritis and colitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of native coronary artery",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41401",
+        "display": "Coronary atherosclerosis of native coronary artery"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Adult failure to thrive",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7837",
+        "display": "Adult failure to thrive"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:25",
+      "kind": "condition",
+      "display": "Other specified viral infection",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "07989",
+        "display": "Other specified viral infection"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-25",
+      "text": null
+    },
+    {
+      "id": "E:cond:26",
+      "kind": "condition",
+      "display": "Hypoxemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "79902",
+        "display": "Hypoxemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-26",
+      "text": null
+    },
+    {
+      "id": "E:cond:27",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-27",
+      "text": null
+    },
+    {
+      "id": "E:cond:28",
+      "kind": "condition",
+      "display": "Surgical or other procedure not carried out because of contraindication",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V641",
+        "display": "Surgical or other procedure not carried out because of contraindication"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-28",
+      "text": null
+    },
+    {
+      "id": "E:cond:29",
+      "kind": "condition",
+      "display": "Other specified bacterial infections in conditions classified elsewhere and of unspecified site, other specified bacteria",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "04189",
+        "display": "Other specified bacterial infections in conditions classified elsewhere and of unspecified site, other specified bacteria"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-29",
+      "text": null
+    },
+    {
+      "id": "E:cond:30",
+      "kind": "condition",
+      "display": "Kidney dialysis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8791",
+        "display": "Kidney dialysis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-30",
+      "text": null
+    },
+    {
+      "id": "E:cond:31",
+      "kind": "condition",
+      "display": "Accidents occurring in residential institution",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8497",
+        "display": "Accidents occurring in residential institution"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:cond-116027-31",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Biopsy of eyelid",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Biopsy of eyelid"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:proc-116027-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Biopsy of eyelid",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Biopsy of eyelid"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:proc-116027-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Closed biopsy of skin and subcutaneous tissue",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed biopsy of skin and subcutaneous tissue"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:proc-116027-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of large intestine",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of large intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:proc-116027-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of rectum",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of rectum"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:proc-116027-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Biopsy of bone marrow",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Biopsy of bone marrow"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:proc-116027-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:proc-116027-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Percutaneous aspiration of gallbladder",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous aspiration of gallbladder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:proc-116027-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Parenteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Parenteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:proc-116027-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:proc-116027-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:proc-116027-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Venous catheterization for renal dialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization for renal dialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:proc-116027-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Hemodialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Hemodialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2126-05-08",
+      "source_ref": "urn:uuid:proc-116027-13",
+      "text": null
+    },
+    {
+      "id": "E:note:row681825:1",
+      "kind": "note_sentence",
+      "display": "This is a 65 yo M with h/o MDS who is day +68 s/p nonablative matched    unrelat",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row681825#s1",
+      "text": "This is a 65 yo M with h/o MDS who is day +68 s/p nonablative matched    unrelated donor stem cell transplant complicated by acute GVHD of the    skin and gut who initially presented with FTT and now is transferred to    the [**Hospital Unit Name 4**] in setting of worsening respiratory distress and hypoxia."
+    },
+    {
+      "id": "E:note:row681825:2",
+      "kind": "note_sentence",
+      "display": "Following his transplant on [**2126-4-11**], the patient has been nearly    cont",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row681825#s2",
+      "text": "Following his transplant on [**2126-4-11**], the patient has been nearly    continuously hospitalized for complications of GVHD."
+    },
+    {
+      "id": "E:note:row681825:3",
+      "kind": "note_sentence",
+      "display": "This current    admission has been complicated by worsening diarrhea [**2-4**] G",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row681825#s3",
+      "text": "This current    admission has been complicated by worsening diarrhea [**2-4**] GVHD in    setting of attempts to wean down on steroids due to concern for a    possible occult infection as the patient was complaining of a cough and    weakness, intermittent AMS that was thought to be [**2-4**] delirium after    CT/MRI of the head were unrevealing."
+    },
+    {
+      "id": "E:note:row681825:4",
+      "kind": "note_sentence",
+      "display": "Pt had increased o2 requirements    [**6-18**] and was transferred to [**Wardnam",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row681825#s4",
+      "text": "Pt had increased o2 requirements    [**6-18**] and was transferred to [**Wardname **] 4 ICU for further workup."
+    },
+    {
+      "id": "E:note:row681825:5",
+      "kind": "note_sentence",
+      "display": "Positive for    parainfluenza.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row681825#s5",
+      "text": "Positive for    parainfluenza."
+    },
+    {
+      "id": "E:note:row681825:6",
+      "kind": "note_sentence",
+      "display": "Diarrhea    Assessment:    Pt with continuous liquid diarrhea, slowed around 010",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row681825#s6",
+      "text": "Diarrhea    Assessment:    Pt with continuous liquid diarrhea, slowed around 0100    Action:    Offered pt fecal incontinence bag, on bedpan as needed, am electrolytes    sent    Response:    Pt refused fecal incontinence bag at this time will continue to use    bedpan as needed, diarrhea slowing as noted above from 3x/hr at    beginning of shift to every couple of hours later on    Plan:    Continue to monitor, pt with GVHD, ongoing, pt on SS for electrolyte    repletion    Hypoxemia    Assessment:    Obtained pt on cool aerosol at 70% with FM, breath sounds with rhonchi    in upper lobes dim at bases, non-productive cough, pt denies SOB except    when laying on side, O2 sats 91-98%    Action:    Trending ABGs, titrating O2 as tolerated, 20mg IVP lasix given 0230, pt    being ruled out for TB, changed to negative pressure room and placed on    airborne precautions, induced sputum sent, AM cxray    Response:    Pt initially tolerating fiO2 of 50%, noted to be desating to low 90s    and then mid 80s around 0000, fiO2 increased to 70 and then 100% in    response, ABG obtained and pt placed on NRB, O2sats on NRB 95-98%,    lasix given as noted above    Plan:    Bronch today, f/u culture data, continue to trend ABGs, titrate    supplemental O2 as tolerated"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|99685": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41021": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2760": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|0389": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99673": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4802": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|23876": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7824": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2841": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|27951": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1731": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|56949": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8798": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8498": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|6929": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|57510": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3383": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5589": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41401": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:23"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7837": [
+      "E:cond:24"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|07989": [
+      "E:cond:25"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|79902": [
+      "E:cond:26"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42731": [
+      "E:cond:27"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V641": [
+      "E:cond:28"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|04189": [
+      "E:cond:29"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8791": [
+      "E:cond:30"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8497": [
+      "E:cond:31"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "complications of transplanted bone marrow": [
+      "E:cond:1"
+    ],
+    "acute respiratory failure": [
+      "E:cond:2"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:3"
+    ],
+    "acute myocardial infarction of inferolateral wall, initial episode of care": [
+      "E:cond:4"
+    ],
+    "hyperosmolality and/or hypernatremia": [
+      "E:cond:5"
+    ],
+    "unspecified septicemia": [
+      "E:cond:6"
+    ],
+    "severe sepsis": [
+      "E:cond:7"
+    ],
+    "other complications due to renal dialysis device, implant, and graft": [
+      "E:cond:8"
+    ],
+    "pneumonia due to parainfluenza virus": [
+      "E:cond:9"
+    ],
+    "myelofibrosis with myeloid metaplasia": [
+      "E:cond:10"
+    ],
+    "jaundice, unspecified, not of newborn": [
+      "E:cond:11"
+    ],
+    "diagnosis": [
+      "E:cond:12",
+      "E:cond:14"
+    ],
+    "acute graft-versus-host disease": [
+      "E:cond:13"
+    ],
+    "other specified disorders of rectum and anus": [
+      "E:cond:15"
+    ],
+    "other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure": [
+      "E:cond:16"
+    ],
+    "accidents occurring in other specified places": [
+      "E:cond:17"
+    ],
+    "contact dermatitis and other eczema, unspecified cause": [
+      "E:cond:18"
+    ],
+    "cholecystitis, unspecified": [
+      "E:cond:19"
+    ],
+    "neoplasm related pain (acute) (chronic)": [
+      "E:cond:20"
+    ],
+    "other and unspecified noninfectious gastroenteritis and colitis": [
+      "E:cond:21"
+    ],
+    "coronary atherosclerosis of native coronary artery": [
+      "E:cond:22"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:23"
+    ],
+    "adult failure to thrive": [
+      "E:cond:24"
+    ],
+    "other specified viral infection": [
+      "E:cond:25"
+    ],
+    "hypoxemia": [
+      "E:cond:26"
+    ],
+    "atrial fibrillation": [
+      "E:cond:27"
+    ],
+    "surgical or other procedure not carried out because of contraindication": [
+      "E:cond:28"
+    ],
+    "other specified bacterial infections in conditions classified elsewhere and of unspecified site, other specified bacteria": [
+      "E:cond:29"
+    ],
+    "kidney dialysis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure": [
+      "E:cond:30"
+    ],
+    "accidents occurring in residential institution": [
+      "E:cond:31"
+    ],
+    "biopsy of eyelid": [
+      "E:proc:1",
+      "E:proc:2"
+    ],
+    "closed biopsy of skin and subcutaneous tissue": [
+      "E:proc:3"
+    ],
+    "closed [endoscopic] biopsy of large intestine": [
+      "E:proc:4"
+    ],
+    "closed [endoscopic] biopsy of rectum": [
+      "E:proc:5"
+    ],
+    "biopsy of bone marrow": [
+      "E:proc:6"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:7"
+    ],
+    "percutaneous aspiration of gallbladder": [
+      "E:proc:8"
+    ],
+    "parenteral infusion of concentrated nutritional substances": [
+      "E:proc:9"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:10"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:11"
+    ],
+    "venous catheterization for renal dialysis": [
+      "E:proc:12"
+    ],
+    "hemodialysis": [
+      "E:proc:13"
+    ],
+    "this is a 65 yo m with h/o mds who is day +68 s/p nonablative matched unrelat": [
+      "E:note:row681825:1"
+    ],
+    "following his transplant on [**2126-4-11**], the patient has been nearly cont": [
+      "E:note:row681825:2"
+    ],
+    "this current admission has been complicated by worsening diarrhea [**2-4**] g": [
+      "E:note:row681825:3"
+    ],
+    "pt had increased o2 requirements [**6-18**] and was transferred to [**wardnam": [
+      "E:note:row681825:4"
+    ],
+    "positive for parainfluenza.": [
+      "E:note:row681825:5"
+    ],
+    "diarrhea assessment: pt with continuous liquid diarrhea, slowed around 010": [
+      "E:note:row681825:6"
+    ]
+  },
+  "by_date": {
+    "2126-05-08": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:29",
+      "E:cond:30",
+      "E:cond:31",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13"
+    ]
+  }
+}

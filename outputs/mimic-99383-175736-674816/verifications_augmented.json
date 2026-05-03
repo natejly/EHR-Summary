@@ -1,0 +1,317 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:1"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Pancreatitis, acute' in the assessment section."
+    },
+    {
+      "claim_id": "C2",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:2"
+      ],
+      "rationale": "The candidate evidence explicitly states that pancreatic enzymes and LFTs are elevated."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:2",
+        "E:note:row674816:1",
+        "E:note:row674816:3"
+      ],
+      "rationale": "The claim is supported by a structured condition record for acute pancreatitis and multiple mentions in the clinical notes."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:3"
+      ],
+      "rationale": "The candidate evidence explicitly states that the CT was remarkable for fatty liver changes."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:4"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Lactate 8.1 in ED'."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:4"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Bowel sounds in all 4 quads'."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:4"
+      ],
+      "rationale": "The candidate evidence explicitly states that the abdomen is obese/distended."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:6",
+        "E:note:row674816:16"
+      ],
+      "rationale": "Multiple plan entries explicitly state the patient should remain NPO."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:5"
+      ],
+      "rationale": "The candidate evidence explicitly lists '2L NS boluses' as an action taken."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:5"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has been receiving 'NS maintenance fluid for several hours now'."
+    },
+    {
+      "claim_id": "C12",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate evidence items mention D5W or Bicarb maintenance fluids."
+    },
+    {
+      "claim_id": "C13",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:6"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Remain NPO' as part of the plan."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:6"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'fluid resuscitation' under the Plan section."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:6"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan is to 'continue to monitor labs'."
+    },
+    {
+      "claim_id": "C17",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C18",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate evidence items mention pancreatic necrosis or any diagnosis related to the pancreas."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:7"
+      ],
+      "rationale": "The candidate evidence explicitly lists the diagnosis 'Gastrointestinal bleed, upper (Melena, GI Bleed, GIB)'."
+    },
+    {
+      "claim_id": "C20",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence describes a venous catheterization, which is unrelated to the drainage of a left nasogastric tube (NGT)."
+    },
+    {
+      "claim_id": "C21",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:8"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was 'Intubated for endoscopy'."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:proc:13",
+        "E:note:row674816:8",
+        "E:note:row674816:12"
+      ],
+      "rationale": "The patient's record explicitly lists an endoscopy procedure and notes describing the process and findings of the endoscopy."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:9"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is on Octreotide/protonix gtts."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:proc:13",
+        "E:note:row674816:8",
+        "E:note:row674816:12"
+      ],
+      "rationale": "Multiple evidence items, including a procedure record and clinical notes, confirm the patient underwent an endoscopy."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:12"
+      ],
+      "rationale": "The candidate evidence explicitly states that endoscopy showed multiple gastric erosion sites."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:13"
+      ],
+      "rationale": "The candidate evidence explicitly states that no active bleeding site was identified."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:15"
+      ],
+      "rationale": "The candidate evidence explicitly states there is no evidence of varices."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:15"
+      ],
+      "rationale": "The evidence explicitly states that Octreotide gtt was D/Ced (discontinued)."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:5",
+        "E:note:row674816:6",
+        "E:note:row674816:16"
+      ],
+      "rationale": "Multiple candidates explicitly state the plan for the patient to be NPO."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:16"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to 'monitor crit closely'."
+    },
+    {
+      "claim_id": "C32",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:17"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Alcohol withdrawal (including delirium tremens, DTs, seizures)' under the Assessment section."
+    },
+    {
+      "claim_id": "C34",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C35",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence describes a venous catheterization procedure and does not mention alcohol use or tremulousness."
+    },
+    {
+      "claim_id": "C36",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence contains diagnoses and procedures but no clinical observations or vitals regarding anxiety, tachycardia, tremors, diaphoresis, or confusion."
+    },
+    {
+      "claim_id": "C37",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:22"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient's CIWA scale is 11."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:23"
+      ],
+      "rationale": "The evidence explicitly states that Ativan was administered."
+    },
+    {
+      "claim_id": "C39",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:23"
+      ],
+      "rationale": "The evidence explicitly states that diazepam was used when Ativan was discontinued."
+    },
+    {
+      "claim_id": "C40",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence contains diagnoses and procedures but no information regarding a treatment plan, CIWA scale, or diazepam administration."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row674816:26"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Monitor closely.', which matches the claim."
+    }
+  ]
+}

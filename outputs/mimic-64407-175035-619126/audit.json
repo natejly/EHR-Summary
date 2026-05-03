@@ -1,0 +1,140 @@
+{
+  "case_id": "mimic-64407-175035-619126",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2071,
+    "summary_chars": 1088,
+    "target_min_chars": 414,
+    "target_max_chars": 621,
+    "achieved_ratio": 0.5253500724287784,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 18,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row619126:1",
+      "E:note:row619126:10",
+      "E:note:row619126:11",
+      "E:note:row619126:12",
+      "E:note:row619126:13",
+      "E:note:row619126:14",
+      "E:note:row619126:15",
+      "E:note:row619126:16",
+      "E:note:row619126:18",
+      "E:note:row619126:20",
+      "E:note:row619126:26",
+      "E:note:row619126:4",
+      "E:note:row619126:6",
+      "E:note:row619126:7"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Delirium [E:cond:8], acidosis [E:cond:9], and hyperpotassemia [E:cond:10].",
+        "severity": "medium",
+        "reason": "Internal inconsistency: The summary lists hyperpotassemia as an active problem, but the Labs section states K+ is WNL."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Delirium [E:cond:8], acidosis [E:cond:9], and hyperpotassemia [E:cond:10].",
+        "suggested": "Delirium [E:cond:8] and acidosis [E:cond:9]; hyperpotassemia [E:cond:10] recently improved to WNL [E:note:row619126:6].",
+        "reason": "Reconciles the active problem list with the current lab result."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-64407-175035-619126/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.72,
+    "fk_words": 234,
+    "fk_sentences": 24,
+    "fk_syllables": 367,
+    "chars": 2072,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-64407-175035-619126/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.003183875000104308,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 144.57683074998204,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 222.11108020803658,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.00229870795737952,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 29.37737358402228,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 79.42458970897133,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.004041792009957135,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 5.945832500001416,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

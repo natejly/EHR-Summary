@@ -1,0 +1,56 @@
+{
+  "concerns": [
+    {
+      "sentence": "Other encephalopathy [E:cond:15] and asthma [E:cond:16].",
+      "severity": "medium",
+      "reason": "Asthma [E:cond:16] is not present in the provided fact sheet."
+    },
+    {
+      "sentence": "Tachycardia [E:note:row540683:48], liver function abnormalities [E:note:row540683:16], and impaired physical mobility [E:note:row540683:51].",
+      "severity": "medium",
+      "reason": "Liver function abnormalities [E:note:row540683:16] and impaired physical mobility [E:note:row540683:51] are not in the fact sheet."
+    },
+    {
+      "sentence": "Abdominal wound [E:proc:5] with yellow fibrin/exudate [E:note:row540683:28].",
+      "severity": "medium",
+      "reason": "Abdominal wound [E:proc:5] and exudate description [E:note:row540683:28] are not in the fact sheet."
+    },
+    {
+      "sentence": "Start diuresis with lasix gtt [E:note:row540683:7].",
+      "severity": "medium",
+      "reason": "Lasix gtt [E:note:row540683:7] is not present in the fact sheet."
+    },
+    {
+      "sentence": "Wean to CPAP [E:note:row540683:9] and wean fentanyl gtt as tolerated [E:note:row540683:42].",
+      "severity": "medium",
+      "reason": "Wean to CPAP [E:note:row540683:9] is not present in the fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Other encephalopathy [E:cond:15] and asthma [E:cond:16].",
+      "suggested": "Other encephalopathy [E:cond:15].",
+      "reason": "Remove asthma as it is not in the fact sheet."
+    },
+    {
+      "original": "Tachycardia [E:note:row540683:48], liver function abnormalities [E:note:row540683:16], and impaired physical mobility [E:note:row540683:51].",
+      "suggested": "Tachycardia [E:note:row540683:48].",
+      "reason": "Remove liver function abnormalities and impaired physical mobility as they are not in the fact sheet."
+    },
+    {
+      "original": "Abdominal wound [E:proc:5] with yellow fibrin/exudate [E:note:row540683:28].",
+      "suggested": "",
+      "reason": "Remove entire sentence as neither the wound nor the exudate are in the fact sheet."
+    },
+    {
+      "original": "Start diuresis with lasix gtt [E:note:row540683:7].",
+      "suggested": "",
+      "reason": "Remove as this is not in the fact sheet."
+    },
+    {
+      "original": "Wean to CPAP [E:note:row540683:9] and wean fentanyl gtt as tolerated [E:note:row540683:42].",
+      "suggested": "Wean fentanyl gtt as tolerated [E:note:row540683:42].",
+      "reason": "Remove CPAP as it is not in the fact sheet."
+    }
+  ]
+}

@@ -1,0 +1,777 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-50847-123701",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-50847",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-50847",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-123701",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-123701",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2130-11-11T00:00:00",
+          "end": "2130-11-28T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123701-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123701-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4210",
+              "display": "Acute and subacute bacterial endocarditis"
+            }
+          ],
+          "text": "Acute and subacute bacterial endocarditis"
+        },
+        "onsetDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123701-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123701-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42831",
+              "display": "Acute diastolic heart failure"
+            }
+          ],
+          "text": "Acute diastolic heart failure"
+        },
+        "onsetDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123701-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123701-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "03819",
+              "display": "Other staphylococcal septicemia"
+            }
+          ],
+          "text": "Other staphylococcal septicemia"
+        },
+        "onsetDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123701-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123701-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99591",
+              "display": "Sepsis"
+            }
+          ],
+          "text": "Sepsis"
+        },
+        "onsetDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123701-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123701-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5185",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123701-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123701-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42741",
+              "display": "Ventricular fibrillation"
+            }
+          ],
+          "text": "Ventricular fibrillation"
+        },
+        "onsetDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123701-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123701-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "9980",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123701-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123701-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7464",
+              "display": "Congenital insufficiency of aortic valve"
+            }
+          ],
+          "text": "Congenital insufficiency of aortic valve"
+        },
+        "onsetDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123701-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123701-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "00845",
+              "display": "Intestinal infection due to Clostridium difficile"
+            }
+          ],
+          "text": "Intestinal infection due to Clostridium difficile"
+        },
+        "onsetDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123701-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123701-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2761",
+              "display": "Hyposmolality and/or hyponatremia"
+            }
+          ],
+          "text": "Hyposmolality and/or hyponatremia"
+        },
+        "onsetDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123701-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123701-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2763",
+              "display": "Alkalosis"
+            }
+          ],
+          "text": "Alkalosis"
+        },
+        "onsetDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123701-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123701-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4241",
+              "display": "Aortic valve disorders"
+            }
+          ],
+          "text": "Aortic valve disorders"
+        },
+        "onsetDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123701-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123701-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42989",
+              "display": "Other ill-defined heart diseases"
+            }
+          ],
+          "text": "Other ill-defined heart diseases"
+        },
+        "onsetDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123701-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123701-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123701-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123701-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8781",
+              "display": "Surgical operation with implant of artificial internal device causing abnormal patient reaction, or later complication,without mention of misadventure at time of operation"
+            }
+          ],
+          "text": "Surgical operation with implant of artificial internal device causing abnormal patient reaction, or later complication,without mention of misadventure at time of operation"
+        },
+        "onsetDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123701-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123701-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7904",
+              "display": "Nonspecific elevation of levels of transaminase or lactic acid dehydrogenase [LDH]"
+            }
+          ],
+          "text": "Nonspecific elevation of levels of transaminase or lactic acid dehydrogenase [LDH]"
+        },
+        "onsetDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123701-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123701-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2859",
+              "display": "Anemia, unspecified"
+            }
+          ],
+          "text": "Anemia, unspecified"
+        },
+        "onsetDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123701-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123701-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42789",
+              "display": "Other specified cardiac dysrhythmias"
+            }
+          ],
+          "text": "Other specified cardiac dysrhythmias"
+        },
+        "onsetDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123701-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123701-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "79092",
+              "display": "Abnormal coagulation profile"
+            }
+          ],
+          "text": "Abnormal coagulation profile"
+        },
+        "onsetDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123701-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123701-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "71996",
+              "display": "Unspecified disorder of joint, lower leg"
+            }
+          ],
+          "text": "Unspecified disorder of joint, lower leg"
+        },
+        "onsetDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123701-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123701-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V163",
+              "display": "Family history of malignant neoplasm of breast"
+            }
+          ],
+          "text": "Family history of malignant neoplasm of breast"
+        },
+        "onsetDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123701-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123701-1",
+        "status": "completed",
+        "code": {
+          "text": "Open and other replacement of aortic valve"
+        },
+        "performedDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123701-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123701-2",
+        "status": "completed",
+        "code": {
+          "text": "Other operations on valves of heart"
+        },
+        "performedDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123701-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123701-3",
+        "status": "completed",
+        "code": {
+          "text": "Extracorporeal circulation auxiliary to open heart surgery"
+        },
+        "performedDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123701-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123701-4",
+        "status": "completed",
+        "code": {
+          "text": "Intraoperative cardiac pacemaker"
+        },
+        "performedDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123701-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123701-5",
+        "status": "completed",
+        "code": {
+          "text": "Other electric countershock of heart"
+        },
+        "performedDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123701-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123701-6",
+        "status": "completed",
+        "code": {
+          "text": "Diagnostic ultrasound of heart"
+        },
+        "performedDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123701-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123701-7",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123701-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123701-8",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123701-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123701-9",
+        "status": "completed",
+        "code": {
+          "text": "Laryngoscopy and other tracheoscopy"
+        },
+        "performedDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123701-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123701-10",
+        "status": "completed",
+        "code": {
+          "text": "Arthrocentesis"
+        },
+        "performedDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123701-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123701-11",
+        "status": "completed",
+        "code": {
+          "text": "Arthrocentesis"
+        },
+        "performedDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123701-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123701-12",
+        "status": "completed",
+        "code": {
+          "text": "Other intubation of respiratory tract"
+        },
+        "performedDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123701-13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123701-13",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123701-14",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123701-14",
+        "status": "completed",
+        "code": {
+          "text": "Diagnostic ultrasound of heart"
+        },
+        "performedDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123701-15",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123701-15",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of other serum"
+        },
+        "performedDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123701-16",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123701-16",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123701-17",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123701-17",
+        "status": "completed",
+        "code": {
+          "text": "Diagnostic ultrasound of heart"
+        },
+        "performedDateTime": "2130-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123701-18",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123701-18",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2130-11-11"
+      }
+    }
+  ]
+}

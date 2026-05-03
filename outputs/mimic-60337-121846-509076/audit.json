@@ -1,0 +1,182 @@
+{
+  "case_id": "mimic-60337-121846-509076",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2510,
+    "summary_chars": 1093,
+    "target_min_chars": 502,
+    "target_max_chars": 753,
+    "achieved_ratio": 0.43545816733067727,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 10,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:2",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row509076:1",
+      "E:note:row509076:13",
+      "E:note:row509076:14",
+      "E:note:row509076:21",
+      "E:note:row509076:22",
+      "E:note:row509076:27",
+      "E:note:row509076:6",
+      "E:note:row509076:8"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Multiple myeloma [E:cond:1][E:note:row509076:1], acute on chronic diastolic heart failure [E:cond:2], toxic encephalopathy [E:cond:3], and acute respiratory failure [E:cond:4][E:note:row509076:8].",
+        "severity": "medium",
+        "reason": "Citations E:note:row509076:1 and E:note:row509076:8 are not present in the provided fact sheet."
+      },
+      {
+        "sentence": "Severe sepsis [E:cond:7] with unspecified septicemia [E:cond:6], UTI [E:cond:12], and Enterococcus infection [E:cond:19].",
+        "severity": "medium",
+        "reason": "Enterococcus infection [E:cond:19] is not listed in the provided fact sheet."
+      },
+      {
+        "sentence": "Anoxic brain damage [E:cond:11], neutropenia [E:cond:21], and chemotherapy-induced mucositis [E:cond:22].",
+        "severity": "medium",
+        "reason": "Neutropenia [E:cond:21] and chemotherapy-induced mucositis [E:cond:22] are not listed in the provided fact sheet."
+      },
+      {
+        "sentence": "Pleural effusion [E:cond:13], hyperlipidemia [E:cond:17], and esophageal reflux [E:cond:18].",
+        "severity": "medium",
+        "reason": "Hyperlipidemia [E:cond:17] and esophageal reflux [E:cond:18] are not listed in the provided fact sheet."
+      },
+      {
+        "sentence": "Hypertensive heart and kidney disease [E:cond:8], cardiomyopathy [E:cond:9], atrial flutter [E:cond:10], and Afib [E:cond:16][E:note:row509076:13].",
+        "severity": "medium",
+        "reason": "Afib [E:cond:16] and citation E:note:row509076:13 are not present in the provided fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Multiple myeloma [E:cond:1][E:note:row509076:1], acute on chronic diastolic heart failure [E:cond:2], toxic encephalopathy [E:cond:3], and acute respiratory failure [E:cond:4][E:note:row509076:8].",
+        "suggested": "Multiple myeloma [E:cond:1], acute on chronic diastolic heart failure [E:cond:2], toxic encephalopathy [E:cond:3], and acute respiratory failure [E:cond:4].",
+        "reason": "Remove citations not found in the fact sheet."
+      },
+      {
+        "original": "Severe sepsis [E:cond:7] with unspecified septicemia [E:cond:6], UTI [E:cond:12], and Enterococcus infection [E:cond:19].",
+        "suggested": "Severe sepsis [E:cond:7] with unspecified septicemia [E:cond:6] and UTI [E:cond:12].",
+        "reason": "Remove Enterococcus infection as it is not in the fact sheet."
+      },
+      {
+        "original": "Anoxic brain damage [E:cond:11], neutropenia [E:cond:21], and chemotherapy-induced mucositis [E:cond:22].",
+        "suggested": "Anoxic brain damage [E:cond:11].",
+        "reason": "Remove conditions not listed in the fact sheet."
+      },
+      {
+        "original": "Pleural effusion [E:cond:13], hyperlipidemia [E:cond:17], and esophageal reflux [E:cond:18].",
+        "suggested": "Pleural effusion [E:cond:13].",
+        "reason": "Remove conditions not listed in the fact sheet."
+      },
+      {
+        "original": "Hypertensive heart and kidney disease [E:cond:8], cardiomyopathy [E:cond:9], atrial flutter [E:cond:10], and Afib [E:cond:16][E:note:row509076:13].",
+        "suggested": "Hypertensive heart and kidney disease [E:cond:8], cardiomyopathy [E:cond:9], and atrial flutter [E:cond:10].",
+        "reason": "Remove Afib and associated citations not found in the fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 5,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-60337-121846-509076/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.37,
+    "fk_words": 215,
+    "fk_sentences": 20,
+    "fk_syllables": 342,
+    "chars": 1786,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-60337-121846-509076/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.001630250015296042,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 115.72092475002864,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 249.7220977919642,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.002589042007457465,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 148.39749570796266,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 8.88650854199659,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0026788749964907765,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 139.05552850000095,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

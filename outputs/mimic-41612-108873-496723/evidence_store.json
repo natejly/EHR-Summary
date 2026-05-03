@@ -1,0 +1,831 @@
+{
+  "case_id": "mimic-41612-108873-496723",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:enc-108873",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Unspecified septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0389",
+        "display": "Unspecified septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:cond-108873-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Bacterial pneumonia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4829",
+        "display": "Bacterial pneumonia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:cond-108873-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:cond-108873-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute kidney failure with lesion of tubular necrosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5845",
+        "display": "Acute kidney failure with lesion of tubular necrosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:cond-108873-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Toxic encephalopathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34982",
+        "display": "Toxic encephalopathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:cond-108873-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:cond-108873-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Other and unspecified coagulation defects",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2869",
+        "display": "Other and unspecified coagulation defects"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:cond-108873-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Alkalosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2763",
+        "display": "Alkalosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:cond-108873-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:cond-108873-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Influenza with other respiratory manifestations",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4871",
+        "display": "Influenza with other respiratory manifestations"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:cond-108873-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Hypovolemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "27652",
+        "display": "Hypovolemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:cond-108873-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25000",
+        "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:cond-108873-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Hyperpotassemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2767",
+        "display": "Hyperpotassemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:cond-108873-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Other and unspecified hyperlipidemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2724",
+        "display": "Other and unspecified hyperlipidemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:cond-108873-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Esophageal reflux",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53081",
+        "display": "Esophageal reflux"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:cond-108873-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Glossitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5290",
+        "display": "Glossitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:cond-108873-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Anemia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2859",
+        "display": "Anemia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:cond-108873-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Rash and other nonspecific skin eruption",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7821",
+        "display": "Rash and other nonspecific skin eruption"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:cond-108873-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Nonspecific elevation of levels of transaminase or lactic acid dehydrogenase [LDH]",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7904",
+        "display": "Nonspecific elevation of levels of transaminase or lactic acid dehydrogenase [LDH]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:cond-108873-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Other nonspecific positive culture findings",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "79539",
+        "display": "Other nonspecific positive culture findings"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:cond-108873-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Depressive disorder, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "311",
+        "display": "Depressive disorder, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:cond-108873-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Obesity, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "27800",
+        "display": "Obesity, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:cond-108873-22",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:proc-108873-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:proc-108873-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:proc-108873-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:proc-108873-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:proc-108873-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:proc-108873-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:proc-108873-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:proc-108873-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2187-11-20",
+      "source_ref": "urn:uuid:proc-108873-9",
+      "text": null
+    },
+    {
+      "id": "E:note:row496723:1",
+      "kind": "note_sentence",
+      "display": "63F who presented to OSH ED with flu like symptoms, fever, and SOB.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row496723#s1",
+      "text": "63F who presented to OSH ED with flu like symptoms, fever, and SOB."
+    },
+    {
+      "id": "E:note:row496723:2",
+      "kind": "note_sentence",
+      "display": "Her    symptoms began Friday [**11-16**] with body aches and a cough.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row496723#s2",
+      "text": "Her    symptoms began Friday [**11-16**] with body aches and a cough."
+    },
+    {
+      "id": "E:note:row496723:3",
+      "kind": "note_sentence",
+      "display": "She also    reports an H1N1 outbreak in her area, developed fever to 102 and chi",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row496723#s3",
+      "text": "She also    reports an H1N1 outbreak in her area, developed fever to 102 and chills    last night, and today developed wheezing."
+    },
+    {
+      "id": "E:note:row496723:4",
+      "kind": "note_sentence",
+      "display": "Cough was dry,    non-productive, Symptoms associated with generalized fatigue a",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row496723#s4",
+      "text": "Cough was dry,    non-productive, Symptoms associated with generalized fatigue and    weakness and lightheadedness especially on standing."
+    },
+    {
+      "id": "E:note:row496723:5",
+      "kind": "note_sentence",
+      "display": "She had nausea but    no vomiting, and did have diarrhea x 3 today.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row496723#s5",
+      "text": "She had nausea but    no vomiting, and did have diarrhea x 3 today."
+    },
+    {
+      "id": "E:note:row496723:6",
+      "kind": "note_sentence",
+      "display": "She presented to an OSH    ED, where she was noted to be hypoxic to 85% RA, and ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row496723#s6",
+      "text": "She presented to an OSH    ED, where she was noted to be hypoxic to 85% RA, and hypotensive to    80s."
+    },
+    {
+      "id": "E:note:row496723:7",
+      "kind": "note_sentence",
+      "display": "CXR showed bilat infiltrates.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row496723#s7",
+      "text": "CXR showed bilat infiltrates."
+    },
+    {
+      "id": "E:note:row496723:8",
+      "kind": "note_sentence",
+      "display": "Received 2l IVF CTX, azithro, and    transferred to [**Hospital1 19**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row496723#s8",
+      "text": "Received 2l IVF CTX, azithro, and    transferred to [**Hospital1 19**]."
+    },
+    {
+      "id": "E:note:row496723:9",
+      "kind": "note_sentence",
+      "display": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 11**])    Assessment:  ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row496723#s9",
+      "text": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 11**])    Assessment:    New admission from ED,confirmed H1N1 from OSH    Afebrile HR 100 s,RR 35-40,unable to lie flat,sats 92-95% on NC 5L    Systolic pressure 100-120 admitted with  levophed  0.04 mic    Action:      Team notified about  tachypnea, NRBM  changed to NC  5L    NS 1L bolus blood culture    On triple antibiotics, awaiting for ID approval for tamiflu    Response:    CVP  4 ,levo turned off,NBP stable    Pt  reports that she is comfortable with her breathing initially after    admission but by 0600 c/o more SOB, I cant relax , informed MD,team  at    bedside to evaluate.NC changed to NRBM ."
+    },
+    {
+      "id": "E:note:row496723:10",
+      "kind": "note_sentence",
+      "display": "Plan:    Monitor resp status,on droplet precaution.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row496723#s10",
+      "text": "Plan:    Monitor resp status,on droplet precaution."
+    },
+    {
+      "id": "E:note:row496723:11",
+      "kind": "note_sentence",
+      "display": "Supplemental o2 as needed    Possible intubation  for worsening resp status",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row496723#s11",
+      "text": "Supplemental o2 as needed    Possible intubation  for worsening resp status"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|0389": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4829": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5845": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|34982": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2762": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2869": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2763": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4871": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|27652": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25000": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2767": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2724": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|53081": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5290": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2859": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7821": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7904": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|79539": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|311": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|27800": [
+      "E:cond:22"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "unspecified septicemia": [
+      "E:cond:1"
+    ],
+    "bacterial pneumonia, unspecified": [
+      "E:cond:2"
+    ],
+    "acute respiratory failure": [
+      "E:cond:3"
+    ],
+    "acute kidney failure with lesion of tubular necrosis": [
+      "E:cond:4"
+    ],
+    "toxic encephalopathy": [
+      "E:cond:5"
+    ],
+    "acidosis": [
+      "E:cond:6"
+    ],
+    "other and unspecified coagulation defects": [
+      "E:cond:7"
+    ],
+    "alkalosis": [
+      "E:cond:8"
+    ],
+    "severe sepsis": [
+      "E:cond:9"
+    ],
+    "influenza with other respiratory manifestations": [
+      "E:cond:10"
+    ],
+    "hypovolemia": [
+      "E:cond:11"
+    ],
+    "diabetes mellitus without mention of complication, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:12"
+    ],
+    "hyperpotassemia": [
+      "E:cond:13"
+    ],
+    "other and unspecified hyperlipidemia": [
+      "E:cond:14"
+    ],
+    "esophageal reflux": [
+      "E:cond:15"
+    ],
+    "glossitis": [
+      "E:cond:16"
+    ],
+    "anemia, unspecified": [
+      "E:cond:17"
+    ],
+    "rash and other nonspecific skin eruption": [
+      "E:cond:18"
+    ],
+    "nonspecific elevation of levels of transaminase or lactic acid dehydrogenase [ldh]": [
+      "E:cond:19"
+    ],
+    "other nonspecific positive culture findings": [
+      "E:cond:20"
+    ],
+    "depressive disorder, not elsewhere classified": [
+      "E:cond:21"
+    ],
+    "obesity, unspecified": [
+      "E:cond:22"
+    ],
+    "continuous invasive mechanical ventilation for less than 96 consecutive hours": [
+      "E:proc:1"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:2"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:3"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:4"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:5",
+      "E:proc:9"
+    ],
+    "arterial catheterization": [
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8"
+    ],
+    "63f who presented to osh ed with flu like symptoms, fever, and sob.": [
+      "E:note:row496723:1"
+    ],
+    "her symptoms began friday [**11-16**] with body aches and a cough.": [
+      "E:note:row496723:2"
+    ],
+    "she also reports an h1n1 outbreak in her area, developed fever to 102 and chi": [
+      "E:note:row496723:3"
+    ],
+    "cough was dry, non-productive, symptoms associated with generalized fatigue a": [
+      "E:note:row496723:4"
+    ],
+    "she had nausea but no vomiting, and did have diarrhea x 3 today.": [
+      "E:note:row496723:5"
+    ],
+    "she presented to an osh ed, where she was noted to be hypoxic to 85% ra, and": [
+      "E:note:row496723:6"
+    ],
+    "cxr showed bilat infiltrates.": [
+      "E:note:row496723:7"
+    ],
+    "received 2l ivf ctx, azithro, and transferred to [**hospital1 19**].": [
+      "E:note:row496723:8"
+    ],
+    "respiratory failure, acute (not ards/[**doctor last name 11**]) assessment:": [
+      "E:note:row496723:9"
+    ],
+    "plan: monitor resp status,on droplet precaution.": [
+      "E:note:row496723:10"
+    ],
+    "supplemental o2 as needed possible intubation for worsening resp status": [
+      "E:note:row496723:11"
+    ]
+  },
+  "by_date": {
+    "2187-11-20": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9"
+    ]
+  }
+}

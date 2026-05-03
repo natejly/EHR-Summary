@@ -1,0 +1,36 @@
+{
+  "concerns": [
+    {
+      "sentence": "Patient presents with multiple comorbidities including alcoholic cirrhosis [E:cond:29][E:cond:30], DM2 [E:note:row671542:3], chronic renal insufficiency [E:note:row671542:3], and alcohol dependence [E:note:row671542:3].",
+      "severity": "high",
+      "reason": "The summary claims DM2, chronic renal insufficiency, and alcohol dependence based on E:note:row671542:3, but this evidence is not present in the provided fact sheet."
+    },
+    {
+      "sentence": "Surgical complications include a pathologic vertebral fracture [E:cond:17][E:cond:18], dural puncture [E:cond:33][E:cond:34], and posthemorrhagic anemia [E:cond:35][E:cond:36] following 5L blood loss [E:note:row671542:2].",
+      "severity": "high",
+      "reason": "Dural puncture and posthemorrhagic anemia are cited but are not listed in the provided fact sheet."
+    },
+    {
+      "sentence": "Other findings include spinal stenosis [E:cond:67][E:cond:68], pleural effusion [E:cond:9][E:cond:10], and delirium [E:cond:25][E:cond:26].",
+      "severity": "high",
+      "reason": "Spinal stenosis is cited but is not listed in the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Patient presents with multiple comorbidities including alcoholic cirrhosis [E:cond:29][E:cond:30], DM2 [E:note:row671542:3], chronic renal insufficiency [E:note:row671542:3], and alcohol dependence [E:note:row671542:3].",
+      "suggested": "Patient presents with comorbidities including alcoholic cirrhosis [E:cond:29][E:cond:30].",
+      "reason": "Remove unsupported claims regarding DM2, renal insufficiency, and alcohol dependence."
+    },
+    {
+      "original": "Surgical complications include a pathologic vertebral fracture [E:cond:17][E:cond:18], dural puncture [E:cond:33][E:cond:34], and posthemorrhagic anemia [E:cond:35][E:cond:36] following 5L blood loss [E:note:row671542:2].",
+      "suggested": "Findings include a pathologic vertebral fracture [E:cond:17][E:cond:18] and 5L blood loss [E:note:row671542:2].",
+      "reason": "Remove unsupported claims regarding dural puncture and posthemorrhagic anemia."
+    },
+    {
+      "original": "Other findings include spinal stenosis [E:cond:67][E:cond:68], pleural effusion [E:cond:9][E:cond:10], and delirium [E:cond:25][E:cond:26].",
+      "suggested": "Other findings include pleural effusion [E:cond:9][E:cond:10] and delirium [E:cond:25][E:cond:26].",
+      "reason": "Remove unsupported claim regarding spinal stenosis."
+    }
+  ]
+}

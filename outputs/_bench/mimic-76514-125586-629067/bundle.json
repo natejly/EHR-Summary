@@ -1,0 +1,670 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-76514-125586",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-76514",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-76514",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-125586",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-125586",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2149-04-10T00:00:00",
+          "end": "2149-04-25T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-125586-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125586-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42789",
+              "display": "Other specified cardiac dysrhythmias"
+            }
+          ],
+          "text": "Other specified cardiac dysrhythmias"
+        },
+        "onsetDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-125586-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125586-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-125586-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125586-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0389",
+              "display": "Unspecified septicemia"
+            }
+          ],
+          "text": "Unspecified septicemia"
+        },
+        "onsetDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-125586-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125586-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99591",
+              "display": "Sepsis"
+            }
+          ],
+          "text": "Sepsis"
+        },
+        "onsetDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-125586-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125586-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5070",
+              "display": "Pneumonitis due to inhalation of food or vomitus"
+            }
+          ],
+          "text": "Pneumonitis due to inhalation of food or vomitus"
+        },
+        "onsetDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-125586-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125586-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99812",
+              "display": "Hematoma complicating a procedure"
+            }
+          ],
+          "text": "Hematoma complicating a procedure"
+        },
+        "onsetDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-125586-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125586-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99859",
+              "display": "Other postoperative infection"
+            }
+          ],
+          "text": "Other postoperative infection"
+        },
+        "onsetDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-125586-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125586-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99739",
+              "display": "Other respiratory complications"
+            }
+          ],
+          "text": "Other respiratory complications"
+        },
+        "onsetDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-125586-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125586-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2939",
+              "display": "Unspecified transient mental disorder in conditions classified elsewhere"
+            }
+          ],
+          "text": "Unspecified transient mental disorder in conditions classified elsewhere"
+        },
+        "onsetDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-125586-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125586-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7863",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-125586-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125586-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4260",
+              "display": "Atrioventricular block, complete"
+            }
+          ],
+          "text": "Atrioventricular block, complete"
+        },
+        "onsetDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-125586-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125586-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2449",
+              "display": "Unspecified acquired hypothyroidism"
+            }
+          ],
+          "text": "Unspecified acquired hypothyroidism"
+        },
+        "onsetDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-125586-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125586-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7100",
+              "display": "Systemic lupus erythematosus"
+            }
+          ],
+          "text": "Systemic lupus erythematosus"
+        },
+        "onsetDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-125586-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125586-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78057",
+              "display": "Unspecified sleep apnea"
+            }
+          ],
+          "text": "Unspecified sleep apnea"
+        },
+        "onsetDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-125586-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125586-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2859",
+              "display": "Anemia, unspecified"
+            }
+          ],
+          "text": "Anemia, unspecified"
+        },
+        "onsetDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-125586-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125586-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2875",
+              "display": "Thrombocytopenia, unspecified"
+            }
+          ],
+          "text": "Thrombocytopenia, unspecified"
+        },
+        "onsetDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-125586-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125586-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "73300",
+              "display": "Osteoporosis, unspecified"
+            }
+          ],
+          "text": "Osteoporosis, unspecified"
+        },
+        "onsetDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-125586-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125586-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3004",
+              "display": "Dysthymic disorder"
+            }
+          ],
+          "text": "Dysthymic disorder"
+        },
+        "onsetDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-125586-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125586-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-125586-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125586-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "53081",
+              "display": "Esophageal reflux"
+            }
+          ],
+          "text": "Esophageal reflux"
+        },
+        "onsetDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-125586-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125586-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7291",
+              "display": "Myalgia and myositis, unspecified"
+            }
+          ],
+          "text": "Myalgia and myositis, unspecified"
+        },
+        "onsetDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-125586-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125586-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V1072",
+              "display": "Personal history of hodgkin's disease"
+            }
+          ],
+          "text": "Personal history of hodgkin's disease"
+        },
+        "onsetDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-125586-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-125586-1",
+        "status": "completed",
+        "code": {
+          "text": "Initial insertion of transvenous leads [electrodes] into atrium and ventricle"
+        },
+        "performedDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-125586-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-125586-2",
+        "status": "completed",
+        "code": {
+          "text": "Initial insertion of dual-chamber device"
+        },
+        "performedDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-125586-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-125586-3",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-125586-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-125586-4",
+        "status": "completed",
+        "code": {
+          "text": "Arterial catheterization"
+        },
+        "performedDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-125586-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-125586-5",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-125586-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-125586-6",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2149-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-125586-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-125586-7",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2149-04-10"
+      }
+    }
+  ]
+}

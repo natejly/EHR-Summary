@@ -1,0 +1,21 @@
+{
+  "concerns": [
+    {
+      "sentence": "Patient presented with altered mental status [E:note:row422543:8], hypoxemia [E:note:row422543:12], hypotension [E:note:row422543:15], and fever of unknown origin [E:note:row422543:5].",
+      "severity": "high",
+      "reason": "The summary misinterprets evidence: row 422543:12 refers to oxygen delivery, not hypoxemia, and row 422543:15 refers to Levophed dosing, not hypotension."
+    },
+    {
+      "sentence": "Patient presented with altered mental status [E:note:row422543:8], hypoxemia [E:note:row422543:12], hypotension [E:note:row422543:15], and fever of unknown origin [E:note:row422543:5].",
+      "severity": "medium",
+      "reason": "The fact sheet does not state the fever was of 'unknown origin', only that the patient presented with fevers."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Patient presented with altered mental status [E:note:row422543:8], hypoxemia [E:note:row422543:12], hypotension [E:note:row422543:15], and fever of unknown origin [E:note:row422543:5].",
+      "suggested": "Patient presented with fevers [E:note:row422543:3], hypotension [E:note:row422543:3], and a temperature of 100 [E:note:row422543:5].",
+      "reason": "Corrects misattributed citations and removes unsupported claims of hypoxemia and 'unknown origin' for fever."
+    }
+  ]
+}

@@ -1,0 +1,876 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-68589-152895",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-68589",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-68589",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-152895",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-152895",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2156-12-05T00:00:00",
+          "end": "2157-01-12T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "85221",
+              "display": "Subdural hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness"
+            }
+          ],
+          "text": "Subdural hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "85221",
+              "display": "Subdural hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness"
+            }
+          ],
+          "text": "Subdural hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5128",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5128",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5185",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5185",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "00845",
+              "display": "Intestinal infection due to Clostridium difficile"
+            }
+          ],
+          "text": "Intestinal infection due to Clostridium difficile"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "00845",
+              "display": "Intestinal infection due to Clostridium difficile"
+            }
+          ],
+          "text": "Intestinal infection due to Clostridium difficile"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2939",
+              "display": "Unspecified transient mental disorder in conditions classified elsewhere"
+            }
+          ],
+          "text": "Unspecified transient mental disorder in conditions classified elsewhere"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2939",
+              "display": "Unspecified transient mental disorder in conditions classified elsewhere"
+            }
+          ],
+          "text": "Unspecified transient mental disorder in conditions classified elsewhere"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "34830",
+              "display": "Encephalopathy, unspecified"
+            }
+          ],
+          "text": "Encephalopathy, unspecified"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "34830",
+              "display": "Encephalopathy, unspecified"
+            }
+          ],
+          "text": "Encephalopathy, unspecified"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "48283",
+              "display": "Pneumonia due to other gram-negative bacteria"
+            }
+          ],
+          "text": "Pneumonia due to other gram-negative bacteria"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "48283",
+              "display": "Pneumonia due to other gram-negative bacteria"
+            }
+          ],
+          "text": "Pneumonia due to other gram-negative bacteria"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99731",
+              "display": "Ventilator associated pneumonia"
+            }
+          ],
+          "text": "Ventilator associated pneumonia"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99731",
+              "display": "Ventilator associated pneumonia"
+            }
+          ],
+          "text": "Ventilator associated pneumonia"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8810",
+              "display": "Accidental fall from ladder"
+            }
+          ],
+          "text": "Accidental fall from ladder"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8810",
+              "display": "Accidental fall from ladder"
+            }
+          ],
+          "text": "Accidental fall from ladder"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "85301",
+              "display": "Other and unspecified intracranial hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness"
+            }
+          ],
+          "text": "Other and unspecified intracranial hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "85301",
+              "display": "Other and unspecified intracranial hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness"
+            }
+          ],
+          "text": "Other and unspecified intracranial hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42789",
+              "display": "Other specified cardiac dysrhythmias"
+            }
+          ],
+          "text": "Other specified cardiac dysrhythmias"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42789",
+              "display": "Other specified cardiac dysrhythmias"
+            }
+          ],
+          "text": "Other specified cardiac dysrhythmias"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2449",
+              "display": "Unspecified acquired hypothyroidism"
+            }
+          ],
+          "text": "Unspecified acquired hypothyroidism"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-152895-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-152895-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2449",
+              "display": "Unspecified acquired hypothyroidism"
+            }
+          ],
+          "text": "Unspecified acquired hypothyroidism"
+        },
+        "onsetDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-152895-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-152895-1",
+        "status": "completed",
+        "code": {
+          "text": "Incision of cerebral meninges"
+        },
+        "performedDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-152895-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-152895-1",
+        "status": "completed",
+        "code": {
+          "text": "Incision of cerebral meninges"
+        },
+        "performedDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-152895-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-152895-2",
+        "status": "completed",
+        "code": {
+          "text": "Temporary tracheostomy"
+        },
+        "performedDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-152895-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-152895-2",
+        "status": "completed",
+        "code": {
+          "text": "Temporary tracheostomy"
+        },
+        "performedDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-152895-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-152895-3",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous [endoscopic] gastrostomy [PEG]"
+        },
+        "performedDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-152895-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-152895-3",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous [endoscopic] gastrostomy [PEG]"
+        },
+        "performedDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-152895-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-152895-4",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-152895-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-152895-4",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-152895-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-152895-5",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-152895-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-152895-5",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-152895-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-152895-6",
+        "status": "completed",
+        "code": {
+          "text": "Injection or infusion of oxazolidinone class of antibiotics"
+        },
+        "performedDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-152895-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-152895-6",
+        "status": "completed",
+        "code": {
+          "text": "Injection or infusion of oxazolidinone class of antibiotics"
+        },
+        "performedDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-152895-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-152895-7",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-152895-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-152895-7",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-152895-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-152895-8",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-152895-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-152895-8",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-152895-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-152895-9",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-152895-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-152895-9",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-152895-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-152895-10",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of intercostal catheter for drainage"
+        },
+        "performedDateTime": "2156-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-152895-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-152895-10",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of intercostal catheter for drainage"
+        },
+        "performedDateTime": "2156-12-05"
+      }
+    }
+  ]
+}

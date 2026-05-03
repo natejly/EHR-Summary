@@ -1,0 +1,170 @@
+{
+  "case_id": "mimic-54229-165594-598031",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2337,
+    "summary_chars": 1441,
+    "target_min_chars": 467,
+    "target_max_chars": 701,
+    "achieved_ratio": 0.6166024818142918,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 23,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:2",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:29",
+      "E:cond:3",
+      "E:cond:30",
+      "E:cond:31",
+      "E:cond:32",
+      "E:cond:33",
+      "E:cond:34",
+      "E:cond:35",
+      "E:cond:36",
+      "E:cond:37",
+      "E:cond:38",
+      "E:cond:39",
+      "E:cond:4",
+      "E:cond:40",
+      "E:cond:43",
+      "E:cond:44",
+      "E:cond:45",
+      "E:cond:46",
+      "E:cond:47",
+      "E:cond:48",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row598031:1",
+      "E:note:row598031:11",
+      "E:note:row598031:12",
+      "E:note:row598031:14",
+      "E:note:row598031:16",
+      "E:note:row598031:19",
+      "E:note:row598031:21",
+      "E:note:row598031:29",
+      "E:note:row598031:30",
+      "E:note:row598031:7"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Type II diabetes on insulin [E:cond:29][E:cond:30][E:cond:47][E:cond:48].",
+        "severity": "medium",
+        "reason": "The fact sheet does not mention insulin use; it only specifies Type II diabetes."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Type II diabetes on insulin [E:cond:29][E:cond:30][E:cond:47][E:cond:48].",
+        "suggested": "Type II diabetes [E:cond:29][E:cond:30][E:cond:47][E:cond:48].",
+        "reason": "Remove reference to insulin as it is not supported by the provided fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-54229-165594-598031/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.1,
+    "fk_words": 205,
+    "fk_sentences": 24,
+    "fk_syllables": 319,
+    "chars": 2133,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-54229-165594-598031/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.004600459011271596,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 129.6034430830041,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 41.91082524997182,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0025766250328160822,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 24.24329412501538,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 17.91687075002119,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0034908329835161567,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 17.99539191700751,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

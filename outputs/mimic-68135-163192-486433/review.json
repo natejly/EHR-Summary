@@ -1,0 +1,26 @@
+{
+  "concerns": [
+    {
+      "sentence": "VAP, acute respiratory failure, and respirator dependence [E:cond:7][E:cond:11][E:note:row486433:1].",
+      "severity": "medium",
+      "reason": "The summary claims 'acute respiratory failure', but this is not listed in the provided fact sheet."
+    },
+    {
+      "sentence": "DM type II [E:cond:24].",
+      "severity": "medium",
+      "reason": "DM type II is cited as E:cond:24, but this condition is not present in the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "VAP, acute respiratory failure, and respirator dependence [E:cond:7][E:cond:11][E:note:row486433:1].",
+      "suggested": "VAP and respirator dependence [E:cond:7][E:cond:11].",
+      "reason": "Removed 'acute respiratory failure' as it is not supported by the fact sheet and removed the unsupported citation E:note:row486433:1."
+    },
+    {
+      "original": "DM type II [E:cond:24].",
+      "suggested": "",
+      "reason": "Remove entirely as the condition is not in the fact sheet."
+    }
+  ]
+}

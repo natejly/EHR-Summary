@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Malignancies include lung adenocarcinoma (T1) [E:cond:5][E:note:row563910:9] and high-grade prostate cancer [E:cond:16][E:note:row563910:11].",
+      "severity": "medium",
+      "reason": "The fact sheet lists 'Malignant neoplasm of other parts of bronchus or lung' but does not specify 'adenocarcinoma' or 'T1' stage."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Malignancies include lung adenocarcinoma (T1) [E:cond:5][E:note:row563910:9] and high-grade prostate cancer [E:cond:16][E:note:row563910:11].",
+      "suggested": "Malignancies include malignant neoplasm of the bronchus or lung [E:cond:5][E:note:row563910:9] and high-grade prostate cancer [E:cond:16][E:note:row563910:11].",
+      "reason": "Removed specific pathology and staging not present in the provided fact sheet."
+    }
+  ]
+}

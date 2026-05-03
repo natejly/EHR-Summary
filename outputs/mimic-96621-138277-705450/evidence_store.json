@@ -1,0 +1,759 @@
+{
+  "case_id": "mimic-96621-138277-705450",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2182-12-02",
+      "source_ref": "urn:uuid:enc-138277",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Closed fracture of T7-T12 level with other specified spinal cord injury",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "80629",
+        "display": "Closed fracture of T7-T12 level with other specified spinal cord injury"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-12-02",
+      "source_ref": "urn:uuid:cond-138277-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Pneumonia, organism unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "486",
+        "display": "Pneumonia, organism unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-12-02",
+      "source_ref": "urn:uuid:cond-138277-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Other respiratory complications",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99739",
+        "display": "Other respiratory complications"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-12-02",
+      "source_ref": "urn:uuid:cond-138277-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Open wound of scalp, without mention of complication",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "8730",
+        "display": "Open wound of scalp, without mention of complication"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-12-02",
+      "source_ref": "urn:uuid:cond-138277-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Contusion of face, scalp, and neck except eye(s)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "920",
+        "display": "Contusion of face, scalp, and neck except eye(s)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-12-02",
+      "source_ref": "urn:uuid:cond-138277-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Accidental fall from ladder",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8810",
+        "display": "Accidental fall from ladder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-12-02",
+      "source_ref": "urn:uuid:cond-138277-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Surgical operation with implant of artificial internal device causing abnormal patient reaction, or later complication,without mention of misadventure at time of operation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8781",
+        "display": "Surgical operation with implant of artificial internal device causing abnormal patient reaction, or later complication,without mention of misadventure at time of operation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-12-02",
+      "source_ref": "urn:uuid:cond-138277-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-12-02",
+      "source_ref": "urn:uuid:cond-138277-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Other and unspecified hyperlipidemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2724",
+        "display": "Other and unspecified hyperlipidemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-12-02",
+      "source_ref": "urn:uuid:cond-138277-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Anxiety state, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "30000",
+        "display": "Anxiety state, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-12-02",
+      "source_ref": "urn:uuid:cond-138277-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Panic disorder without agoraphobia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "30001",
+        "display": "Panic disorder without agoraphobia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-12-02",
+      "source_ref": "urn:uuid:cond-138277-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Toxic diffuse goiter without mention of thyrotoxic crisis or storm",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "24200",
+        "display": "Toxic diffuse goiter without mention of thyrotoxic crisis or storm"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-12-02",
+      "source_ref": "urn:uuid:cond-138277-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Hypoxemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "79902",
+        "display": "Hypoxemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-12-02",
+      "source_ref": "urn:uuid:cond-138277-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Dorsal and dorsolumbar fusion of the posterior column, posterior technique",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Dorsal and dorsolumbar fusion of the posterior column, posterior technique"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-12-02",
+      "source_ref": "urn:uuid:proc-138277-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Repair of vertebral fracture",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Repair of vertebral fracture"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-12-02",
+      "source_ref": "urn:uuid:proc-138277-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Excision of bone for graft, other bones",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Excision of bone for graft, other bones"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-12-02",
+      "source_ref": "urn:uuid:proc-138277-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Fusion or refusion of 4-8 vertebrae",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Fusion or refusion of 4-8 vertebrae"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-12-02",
+      "source_ref": "urn:uuid:proc-138277-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Closure of skin and subcutaneous tissue of other sites",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closure of skin and subcutaneous tissue of other sites"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-12-02",
+      "source_ref": "urn:uuid:proc-138277-5",
+      "text": null
+    },
+    {
+      "id": "E:note:row705450:1",
+      "kind": "note_sentence",
+      "display": "Pt is a 66 y/o male admitted to EW s/p fall from ladder.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s1",
+      "text": "Pt is a 66 y/o male admitted to EW s/p fall from ladder."
+    },
+    {
+      "id": "E:note:row705450:2",
+      "kind": "note_sentence",
+      "display": "He was at    work at a construction site and fell from 4^th wrung on a ladder   ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s2",
+      "text": "He was at    work at a construction site and fell from 4^th wrung on a ladder    breaking through a barrier beam and into a trench approx 14-20 feet    deep."
+    },
+    {
+      "id": "E:note:row705450:3",
+      "kind": "note_sentence",
+      "display": "Pt had no LOC at the scene and was MAE s.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s3",
+      "text": "Pt had no LOC at the scene and was MAE s."
+    },
+    {
+      "id": "E:note:row705450:4",
+      "kind": "note_sentence",
+      "display": "He was brought to ED     where he was scanned and an occipital head laceration w",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s4",
+      "text": "He was brought to ED     where he was scanned and an occipital head laceration was stapled."
+    },
+    {
+      "id": "E:note:row705450:5",
+      "kind": "note_sentence",
+      "display": "Scans revealed negative Head CT, C-spine clear radiographically and    clinicall",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s5",
+      "text": "Scans revealed negative Head CT, C-spine clear radiographically and    clinically,  yet torso scan showed T11 vertebral body fx, T9 and T10    spinus process fx s, the T10 fx extending inferiorly to the facets and    leading to an anterior sublaxation of the T10 vertebral body over the    T11 vertbral body, small fragments noted posterior to the T10 cord."
+    },
+    {
+      "id": "E:note:row705450:6",
+      "kind": "note_sentence",
+      "display": "Pt hemodynamicaly stable.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s6",
+      "text": "Pt hemodynamicaly stable."
+    },
+    {
+      "id": "E:note:row705450:7",
+      "kind": "note_sentence",
+      "display": "PMHx:  remote smoker, ^ chol, anxiety    PSHx:  Left shoulder surgery three year",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s7",
+      "text": "PMHx:  remote smoker, ^ chol, anxiety    PSHx:  Left shoulder surgery three years ago for a locked  shoulder."
+    },
+    {
+      "id": "E:note:row705450:8",
+      "kind": "note_sentence",
+      "display": "NKDA    Trauma, s/p    Assessment:    Pt alert and oriented times three, moving ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s8",
+      "text": "NKDA    Trauma, s/p    Assessment:    Pt alert and oriented times three, moving all extremites w/o difficulty    or deficit, pt denies numbness or tingling in any extremity, sensitive    to touch and temperature."
+    },
+    {
+      "id": "E:note:row705450:9",
+      "kind": "note_sentence",
+      "display": "Extremities warm w/ palpable pulses,    hemodynamicaly stable in SR with HR 80-9",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s9",
+      "text": "Extremities warm w/ palpable pulses,    hemodynamicaly stable in SR with HR 80-90 s, SBP 120-160."
+    },
+    {
+      "id": "E:note:row705450:10",
+      "kind": "note_sentence",
+      "display": "O2 sats on    RA from 94-100, RR 10-22 non labored and breath sounds clear    bi",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s10",
+      "text": "O2 sats on    RA from 94-100, RR 10-22 non labored and breath sounds clear    bilaterally."
+    },
+    {
+      "id": "E:note:row705450:11",
+      "kind": "note_sentence",
+      "display": "Abd soft, bowel sounds present.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s11",
+      "text": "Abd soft, bowel sounds present."
+    },
+    {
+      "id": "E:note:row705450:12",
+      "kind": "note_sentence",
+      "display": "Pt voiding via urinal    w/o diff.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s12",
+      "text": "Pt voiding via urinal    w/o diff."
+    },
+    {
+      "id": "E:note:row705450:13",
+      "kind": "note_sentence",
+      "display": "AM labs pnd.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s13",
+      "text": "AM labs pnd."
+    },
+    {
+      "id": "E:note:row705450:14",
+      "kind": "note_sentence",
+      "display": "Action:    Neuro checks every two hours, NPO after midnight for OR    Response: ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s14",
+      "text": "Action:    Neuro checks every two hours, NPO after midnight for OR    Response:    Pt remains hemodynamicaly stable and neurologically intact over night."
+    },
+    {
+      "id": "E:note:row705450:15",
+      "kind": "note_sentence",
+      "display": "Plan:    Con t to monitor closely, pre-op teaching for OR, con t log roll    pre",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s15",
+      "text": "Plan:    Con t to monitor closely, pre-op teaching for OR, con t log roll    precautions."
+    },
+    {
+      "id": "E:note:row705450:16",
+      "kind": "note_sentence",
+      "display": "Acute Pain    Assessment:    Pt c/o pain in back, primarily the thoracic area, d",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s16",
+      "text": "Acute Pain    Assessment:    Pt c/o pain in back, primarily the thoracic area, describes pain as    sharp and constant, from level [**6-6**]."
+    },
+    {
+      "id": "E:note:row705450:17",
+      "kind": "note_sentence",
+      "display": "Having difficulty getting    comfortable in bed, needs frequent reminders to mai",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s17",
+      "text": "Having difficulty getting    comfortable in bed, needs frequent reminders to maintain logroll    precautions."
+    },
+    {
+      "id": "E:note:row705450:18",
+      "kind": "note_sentence",
+      "display": "Action:    Pt medicated with morphine 2mg every 2-4 hours.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s18",
+      "text": "Action:    Pt medicated with morphine 2mg every 2-4 hours."
+    },
+    {
+      "id": "E:note:row705450:19",
+      "kind": "note_sentence",
+      "display": "Repositioned  with in    logroll perameters.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s19",
+      "text": "Repositioned  with in    logroll perameters."
+    },
+    {
+      "id": "E:note:row705450:20",
+      "kind": "note_sentence",
+      "display": "Response:    Pt able to sleep intermittently, transient relief of pain noted.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s20",
+      "text": "Response:    Pt able to sleep intermittently, transient relief of pain noted."
+    },
+    {
+      "id": "E:note:row705450:21",
+      "kind": "note_sentence",
+      "display": "Plan:    Con t to monitor and assess frequently, titrate pain med as needed,    ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s21",
+      "text": "Plan:    Con t to monitor and assess frequently, titrate pain med as needed,    monitor respiratory status closely.    .H/O anxiety    Assessment:    Pt admitted c/o anxiety, anxious about going to MRI,    Action:    Pt premedicated with ativan and morphine for MRI of spine, reviewed    procedure with patient explaining importance of study, given additional    medication in MRI."
+    },
+    {
+      "id": "E:note:row705450:22",
+      "kind": "note_sentence",
+      "display": "Response:    Pt unable to tolerate completing whole scan of spine secondary to  ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s22",
+      "text": "Response:    Pt unable to tolerate completing whole scan of spine secondary to    aniety and clausterphobia despite repeated reassurance and medication    totaling 2mg ativan and 4mg morphine."
+    },
+    {
+      "id": "E:note:row705450:23",
+      "kind": "note_sentence",
+      "display": "Plan:    MRI incomplete, team notified.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s23",
+      "text": "Plan:    MRI incomplete, team notified."
+    },
+    {
+      "id": "E:note:row705450:24",
+      "kind": "note_sentence",
+      "display": "Plan for OR  for T6-L2 fusion today in    add on case.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s24",
+      "text": "Plan for OR  for T6-L2 fusion today in    add on case."
+    },
+    {
+      "id": "E:note:row705450:25",
+      "kind": "note_sentence",
+      "display": "Consult with Team in am re: MRI",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row705450#s25",
+      "text": "Consult with Team in am re: MRI"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|80629": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|486": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99739": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|8730": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|920": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8810": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8781": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2724": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|30000": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|30001": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|24200": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|79902": [
+      "E:cond:13"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "closed fracture of t7-t12 level with other specified spinal cord injury": [
+      "E:cond:1"
+    ],
+    "pneumonia, organism unspecified": [
+      "E:cond:2"
+    ],
+    "other respiratory complications": [
+      "E:cond:3"
+    ],
+    "open wound of scalp, without mention of complication": [
+      "E:cond:4"
+    ],
+    "contusion of face, scalp, and neck except eye(s)": [
+      "E:cond:5"
+    ],
+    "accidental fall from ladder": [
+      "E:cond:6"
+    ],
+    "surgical operation with implant of artificial internal device causing abnormal patient reaction, or later complication,without mention of misadventure at time of operation": [
+      "E:cond:7"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:8"
+    ],
+    "other and unspecified hyperlipidemia": [
+      "E:cond:9"
+    ],
+    "anxiety state, unspecified": [
+      "E:cond:10"
+    ],
+    "panic disorder without agoraphobia": [
+      "E:cond:11"
+    ],
+    "toxic diffuse goiter without mention of thyrotoxic crisis or storm": [
+      "E:cond:12"
+    ],
+    "hypoxemia": [
+      "E:cond:13"
+    ],
+    "dorsal and dorsolumbar fusion of the posterior column, posterior technique": [
+      "E:proc:1"
+    ],
+    "repair of vertebral fracture": [
+      "E:proc:2"
+    ],
+    "excision of bone for graft, other bones": [
+      "E:proc:3"
+    ],
+    "fusion or refusion of 4-8 vertebrae": [
+      "E:proc:4"
+    ],
+    "closure of skin and subcutaneous tissue of other sites": [
+      "E:proc:5"
+    ],
+    "pt is a 66 y/o male admitted to ew s/p fall from ladder.": [
+      "E:note:row705450:1"
+    ],
+    "he was at work at a construction site and fell from 4^th wrung on a ladder": [
+      "E:note:row705450:2"
+    ],
+    "pt had no loc at the scene and was mae s.": [
+      "E:note:row705450:3"
+    ],
+    "he was brought to ed where he was scanned and an occipital head laceration w": [
+      "E:note:row705450:4"
+    ],
+    "scans revealed negative head ct, c-spine clear radiographically and clinicall": [
+      "E:note:row705450:5"
+    ],
+    "pt hemodynamicaly stable.": [
+      "E:note:row705450:6"
+    ],
+    "pmhx: remote smoker, ^ chol, anxiety pshx: left shoulder surgery three year": [
+      "E:note:row705450:7"
+    ],
+    "nkda trauma, s/p assessment: pt alert and oriented times three, moving": [
+      "E:note:row705450:8"
+    ],
+    "extremities warm w/ palpable pulses, hemodynamicaly stable in sr with hr 80-9": [
+      "E:note:row705450:9"
+    ],
+    "o2 sats on ra from 94-100, rr 10-22 non labored and breath sounds clear bi": [
+      "E:note:row705450:10"
+    ],
+    "abd soft, bowel sounds present.": [
+      "E:note:row705450:11"
+    ],
+    "pt voiding via urinal w/o diff.": [
+      "E:note:row705450:12"
+    ],
+    "am labs pnd.": [
+      "E:note:row705450:13"
+    ],
+    "action: neuro checks every two hours, npo after midnight for or response:": [
+      "E:note:row705450:14"
+    ],
+    "plan: con t to monitor closely, pre-op teaching for or, con t log roll pre": [
+      "E:note:row705450:15"
+    ],
+    "acute pain assessment: pt c/o pain in back, primarily the thoracic area, d": [
+      "E:note:row705450:16"
+    ],
+    "having difficulty getting comfortable in bed, needs frequent reminders to mai": [
+      "E:note:row705450:17"
+    ],
+    "action: pt medicated with morphine 2mg every 2-4 hours.": [
+      "E:note:row705450:18"
+    ],
+    "repositioned with in logroll perameters.": [
+      "E:note:row705450:19"
+    ],
+    "response: pt able to sleep intermittently, transient relief of pain noted.": [
+      "E:note:row705450:20"
+    ],
+    "plan: con t to monitor and assess frequently, titrate pain med as needed,": [
+      "E:note:row705450:21"
+    ],
+    "response: pt unable to tolerate completing whole scan of spine secondary to": [
+      "E:note:row705450:22"
+    ],
+    "plan: mri incomplete, team notified.": [
+      "E:note:row705450:23"
+    ],
+    "plan for or for t6-l2 fusion today in add on case.": [
+      "E:note:row705450:24"
+    ],
+    "consult with team in am re: mri": [
+      "E:note:row705450:25"
+    ]
+  },
+  "by_date": {
+    "2182-12-02": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5"
+    ]
+  }
+}

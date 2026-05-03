@@ -1,0 +1,501 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:1"
+      ],
+      "rationale": "The candidate evidence explicitly lists CAD in the patient's past medical history (PMH)."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:1"
+      ],
+      "rationale": "The patient's past medical history (PMH) explicitly lists HTN."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:1",
+        "E:note:row695419:53"
+      ],
+      "rationale": "The patient's past medical history explicitly lists DM and Diabetes Mellitus (DM), Type II."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:1"
+      ],
+      "rationale": "The candidate evidence explicitly lists Afib as part of the patient's past medical history."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:1"
+      ],
+      "rationale": "The patient's past medical history (PMH) explicitly lists Alzheimers."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:14",
+        "E:note:row695419:1"
+      ],
+      "rationale": "The patient is documented to have anemia in both the condition list (Acute posthemorrhagic anemia) and the PMH section of the note."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:1",
+        "E:note:row695419:24"
+      ],
+      "rationale": "Both candidates explicitly list GIB (Gastrointestinal bleed) as part of the patient's past medical history or assessment."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C9",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C10",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:2"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was found unresponsive and bradycardic on 8-5."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:3"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was transferred with a bloody mouth."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:3"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient had an INR level of 10."
+    },
+    {
+      "claim_id": "C15",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The only candidate evidence refers to a pressure ulcer, not GI bleeds."
+    },
+    {
+      "claim_id": "C16",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C17",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:4"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was hypothermic in the ED."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:4"
+      ],
+      "rationale": "The candidate evidence explicitly states 'In ED; ... INR 5', which directly supports the claim."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:4"
+      ],
+      "rationale": "The candidate evidence explicitly states 'In ED... HCT 20', matching the claim's value and time reference."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:4",
+        "E:note:row695419:5"
+      ],
+      "rationale": "Multiple evidence items explicitly state that 2 units of FFP were given in the ED."
+    },
+    {
+      "claim_id": "C22",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence items refer to conditions (blood in stool and dementia) and do not mention any procedures or the placement of a triple lumen catheter."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:5",
+        "E:note:row695419:20"
+      ],
+      "rationale": "Both candidate evidence items explicitly state that 3 liters of IVF were administered."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:4",
+        "E:note:row695419:5"
+      ],
+      "rationale": "Multiple candidates explicitly state that 2 units of FFP were given in the ED."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:5",
+        "E:note:row695419:25"
+      ],
+      "rationale": "Both evidence items explicitly state that 2 units of PRBC were given."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:5",
+        "E:note:row695419:11",
+        "E:note:row695419:12",
+        "E:note:row695419:14"
+      ],
+      "rationale": "Multiple candidate sentences explicitly state that the patient was given or received a dopamine gtt."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:6",
+        "E:note:row695419:35"
+      ],
+      "rationale": "The candidates explicitly state that an EGD was performed at the bedside and provide the results of that procedure."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:proc:8",
+        "E:note:row695419:6"
+      ],
+      "rationale": "Both the procedure record and the note sentence confirm that a bronchoscopy was performed."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:8"
+      ],
+      "rationale": "The evidence explicitly states the patient remained on low-dose dopamine overnight."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:14"
+      ],
+      "rationale": "The evidence explicitly states the goal is to maintain MAP > 65."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:9",
+        "E:note:row695419:50"
+      ],
+      "rationale": "Multiple candidate sentences explicitly state the patient is receiving IV antibiotics."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:11"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Hypotension (not Shock)' in the assessment."
+    },
+    {
+      "claim_id": "C33",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C34",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C35",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C36",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "Venous insufficiency is a cause of edema, but it is not the same as a diagnosis of peripheral edema."
+    },
+    {
+      "claim_id": "C37",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:16"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Renal failure, acute (Acute renal failure, ARF)' in the assessment section."
+    },
+    {
+      "claim_id": "C39",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:17"
+      ],
+      "rationale": "The candidate evidence explicitly states the Cr level was 2.7 this pm."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:18"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Urine yellow & cloudy', matching the claim exactly."
+    },
+    {
+      "claim_id": "C42",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:20"
+      ],
+      "rationale": "The candidate evidence explicitly states that the prior shift completed Foley irrigation."
+    },
+    {
+      "claim_id": "C43",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:21"
+      ],
+      "rationale": "The candidate evidence explicitly states that urine output remains poor at approximately 10 ml/hr."
+    },
+    {
+      "claim_id": "C44",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C45",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence describes mechanical ventilation and dialysis catheterization, which do not mention UTI or antibiotic coverage."
+    },
+    {
+      "claim_id": "C46",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence contains information about kidney disease but does not mention any medications."
+    },
+    {
+      "claim_id": "C47",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:24"
+      ],
+      "rationale": "The candidate evidence explicitly lists the diagnosis of upper gastrointestinal bleed."
+    },
+    {
+      "claim_id": "C48",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:25"
+      ],
+      "rationale": "The candidate evidence explicitly states 'INR 2 from this afternoon'."
+    },
+    {
+      "claim_id": "C49",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:26"
+      ],
+      "rationale": "The candidate evidence exactly matches the claim text regarding oral secretions tinged with dark blood."
+    },
+    {
+      "claim_id": "C50",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:29"
+      ],
+      "rationale": "The candidate evidence explicitly states that IV protonix was administered."
+    },
+    {
+      "claim_id": "C51",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:32"
+      ],
+      "rationale": "The candidate evidence explicitly states the 8 pm HCT level was 32.3."
+    },
+    {
+      "claim_id": "C52",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:32"
+      ],
+      "rationale": "The evidence explicitly states that at 8 pm, the INR was 1.8."
+    },
+    {
+      "claim_id": "C53",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:32"
+      ],
+      "rationale": "The candidate evidence explicitly states '2 am HCT level 32.3'."
+    },
+    {
+      "claim_id": "C54",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:39"
+      ],
+      "rationale": "The candidate evidence explicitly states the diagnosis of 'Respiratory failure, acute (not ARDS/[**Doctor Last Name 76**])'."
+    },
+    {
+      "claim_id": "C55",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided candidates contain only condition diagnoses and do not mention ventilator settings or procedures."
+    },
+    {
+      "claim_id": "C56",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:44"
+      ],
+      "rationale": "The candidate evidence explicitly states that the Fentanyl gtt was increased from 25 to 50 mcg/hr."
+    },
+    {
+      "claim_id": "C57",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C58",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:53"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Diabetes Mellitus (DM), Type II' and notes the patient has a history of DM."
+    },
+    {
+      "claim_id": "C59",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C60",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:54"
+      ],
+      "rationale": "The evidence explicitly states that amp D50% was administered as part of the response."
+    },
+    {
+      "claim_id": "C61",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:55"
+      ],
+      "rationale": "The evidence explicitly states a BG level of 95 by midnight."
+    },
+    {
+      "claim_id": "C62",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:55"
+      ],
+      "rationale": "The candidate evidence explicitly states '06 am level: 84', matching the claim."
+    },
+    {
+      "claim_id": "C63",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:57"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Impaired Skin Integrity' as an assessment."
+    },
+    {
+      "claim_id": "C64",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C65",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row695419:59"
+      ],
+      "rationale": "The evidence explicitly mentions the presence of 'some oral blisters'."
+    },
+    {
+      "claim_id": "C66",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence items list pneumonia and pneumonitis, but do not mention pitting edema."
+    }
+  ]
+}

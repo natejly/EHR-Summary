@@ -1,0 +1,300 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row598031:1"
+      ],
+      "rationale": "The evidence explicitly states the patient is 'on HD-anuric'."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row598031:1"
+      ],
+      "rationale": "The evidence explicitly states the patient has a history of AFib."
+    },
+    {
+      "claim_id": "C3",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row598031:3"
+      ],
+      "rationale": "The evidence explicitly states the patient was noted to be in acute respiratory distress."
+    },
+    {
+      "claim_id": "C5",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate conditions mention subdural hematoma (SDH)."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:21",
+        "E:cond:22"
+      ],
+      "rationale": "The patient has a documented diagnosis of recurrent seizures in the EHR."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C9",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row598031:3"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was in acute respiratory distress this evening."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence contains only diagnosis codes and does not provide any oxygen saturation levels or nasal cannula settings."
+    },
+    {
+      "claim_id": "C12",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence contains only diagnosis codes and does not include any vital signs or oxygen saturation levels."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row598031:4"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient's blood pressure dropped to the 70's systolic."
+    },
+    {
+      "claim_id": "C14",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C15",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates contain diagnosis codes for pneumonia and vascular device infection, but no temperature readings or vital signs."
+    },
+    {
+      "claim_id": "C16",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C17",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C18",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C19",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence contains only diagnosis codes for pneumonia and vascular device infection, with no blood pressure or vital sign data."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:11",
+        "E:cond:12"
+      ],
+      "rationale": "The patient has a recorded diagnosis of Acute respiratory failure in the EHR."
+    },
+    {
+      "claim_id": "C21",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row598031:7"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Sats 94-97%', which matches the claim."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row598031:7"
+      ],
+      "rationale": "The evidence explicitly states the patient is sedated on fentanyl drips."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row598031:7"
+      ],
+      "rationale": "The evidence explicitly states the patient is sedated on versed drips."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row598031:11"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to 'Wean vent as tolerated.'"
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row598031:12"
+      ],
+      "rationale": "The candidate evidence explicitly states 'CXR in am', matching the claim."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row598031:12"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan for a line placement if long term ventilation is needed."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row598031:13"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Fever, unknown origin (FUO, Hyperthermia, Pyrexia)' as part of the assessment."
+    },
+    {
+      "claim_id": "C29",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row598031:14"
+      ],
+      "rationale": "The evidence explicitly states that Rectal Tylenol was given to the patient."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row598031:16"
+      ],
+      "rationale": "The evidence explicitly states the patient was started on cefepime."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row598031:17"
+      ],
+      "rationale": "The candidate evidence explicitly states that the temperature decreased to 97.9."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row598031:19"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to administer Tylenol as needed."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row598031:20"
+      ],
+      "rationale": "The candidate evidence explicitly mentions the diagnosis of 'Hypotension (not Shock)'."
+    },
+    {
+      "claim_id": "C35",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row598031:20"
+      ],
+      "rationale": "The candidate evidence explicitly states 'HR 90 s SR', which matches the claim."
+    },
+    {
+      "claim_id": "C36",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C37",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row598031:21"
+      ],
+      "rationale": "The evidence explicitly states the patient remains on a levophed drip."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row598031:24"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient is HD dependent."
+    },
+    {
+      "claim_id": "C39",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row598031:29"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to wean levophed to off if tolerated."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row598031:30"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Dialysis tomorrow.', which directly supports the claim."
+    }
+  ]
+}

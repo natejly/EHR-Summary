@@ -1,0 +1,454 @@
+{
+  "claims": [
+    {
+      "claim_id": "C1",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Crohn's disease",
+      "time_ref": null,
+      "source_span": "row626355#0"
+    },
+    {
+      "claim_id": "C2",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "colectomy",
+      "time_ref": null,
+      "source_span": "row626355#0"
+    },
+    {
+      "claim_id": "C3",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has complaint of",
+      "value": "intermittent chest pain",
+      "time_ref": "x 1 day",
+      "source_span": "row626355#0"
+    },
+    {
+      "claim_id": "C4",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has symptom",
+      "value": "chills and rigors",
+      "time_ref": "today",
+      "source_span": "row626355#1"
+    },
+    {
+      "claim_id": "C5",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has symptom",
+      "value": "feeling tired and unwell",
+      "time_ref": "x 1 week",
+      "source_span": "row626355#2"
+    },
+    {
+      "claim_id": "C6",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "found to have",
+      "value": "STE in a LAD territory",
+      "time_ref": null,
+      "source_span": "row626355#3"
+    },
+    {
+      "claim_id": "C7",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "PCI",
+      "time_ref": null,
+      "source_span": "row626355#3"
+    },
+    {
+      "claim_id": "C8",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "found to have",
+      "value": "no obstructive coronary disease",
+      "time_ref": null,
+      "source_span": "row626355#3"
+    },
+    {
+      "claim_id": "C9",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "found to have",
+      "value": "takotsubo's cardiomyopathy",
+      "time_ref": null,
+      "source_span": "row626355#3"
+    },
+    {
+      "claim_id": "C10",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Sepsis, Severe (with organ dysfunction)",
+      "time_ref": null,
+      "source_span": "row626355#5"
+    },
+    {
+      "claim_id": "C11",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "SBP in the 70 s",
+      "time_ref": null,
+      "source_span": "row626355#6"
+    },
+    {
+      "claim_id": "C12",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "Tachycardic to the 120 s",
+      "time_ref": null,
+      "source_span": "row626355#7"
+    },
+    {
+      "claim_id": "C13",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has symptom",
+      "value": "tenacious sputum",
+      "time_ref": null,
+      "source_span": "row626355#8"
+    },
+    {
+      "claim_id": "C14",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "Hypothermic to 94F",
+      "time_ref": null,
+      "source_span": "row626355#9"
+    },
+    {
+      "claim_id": "C15",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "given",
+      "value": "25mg Demerol",
+      "time_ref": null,
+      "source_span": "row626355#11"
+    },
+    {
+      "claim_id": "C16",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "given",
+      "value": ".5mg Ativan",
+      "time_ref": null,
+      "source_span": "row626355#11"
+    },
+    {
+      "claim_id": "C17",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "given",
+      "value": "Zosyn",
+      "time_ref": null,
+      "source_span": "row626355#12"
+    },
+    {
+      "claim_id": "C18",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "given",
+      "value": "Vanco",
+      "time_ref": null,
+      "source_span": "row626355#12"
+    },
+    {
+      "claim_id": "C19",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "given",
+      "value": "Flagyl",
+      "time_ref": null,
+      "source_span": "row626355#12"
+    },
+    {
+      "claim_id": "C20",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "given",
+      "value": "Azithromycin",
+      "time_ref": null,
+      "source_span": "row626355#12"
+    },
+    {
+      "claim_id": "C21",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "given",
+      "value": "8L NS boluses",
+      "time_ref": null,
+      "source_span": "row626355#13"
+    },
+    {
+      "claim_id": "C22",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "initiated",
+      "value": "Levophed gtt",
+      "time_ref": null,
+      "source_span": "row626355#14"
+    },
+    {
+      "claim_id": "C23",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "placed",
+      "value": "Aline",
+      "time_ref": null,
+      "source_span": "row626355#15"
+    },
+    {
+      "claim_id": "C24",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "placed",
+      "value": "PA Catheter",
+      "time_ref": null,
+      "source_span": "row626355#15"
+    },
+    {
+      "claim_id": "C25",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "initiated",
+      "value": "Vigeleo",
+      "time_ref": null,
+      "source_span": "row626355#16"
+    },
+    {
+      "claim_id": "C26",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "initiated",
+      "value": "Vigilence",
+      "time_ref": null,
+      "source_span": "row626355#16"
+    },
+    {
+      "claim_id": "C27",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "used",
+      "value": "Bair hugger",
+      "time_ref": null,
+      "source_span": "row626355#17"
+    },
+    {
+      "claim_id": "C28",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "performed",
+      "value": "Pan cultured",
+      "time_ref": null,
+      "source_span": "row626355#18"
+    },
+    {
+      "claim_id": "C29",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "Continue abx treatment",
+      "time_ref": null,
+      "source_span": "row626355#21"
+    },
+    {
+      "claim_id": "C30",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "Wean Levophed as pt will tolerate",
+      "time_ref": null,
+      "source_span": "row626355#22"
+    },
+    {
+      "claim_id": "C31",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "use neo and vasopressin as additional pressors if needed",
+      "time_ref": null,
+      "source_span": "row626355#23"
+    },
+    {
+      "claim_id": "C32",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "avoid Dobutamine/Dopamine",
+      "time_ref": null,
+      "source_span": "row626355#23"
+    },
+    {
+      "claim_id": "C33",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])",
+      "time_ref": null,
+      "source_span": "row626355#24"
+    },
+    {
+      "claim_id": "C34",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "desaturation to the high 80 s",
+      "time_ref": null,
+      "source_span": "row626355#25"
+    },
+    {
+      "claim_id": "C35",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "Intubated at bedside",
+      "time_ref": null,
+      "source_span": "row626355#27"
+    },
+    {
+      "claim_id": "C36",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "SP02 > or = to 95%",
+      "time_ref": null,
+      "source_span": "row626355#29"
+    },
+    {
+      "claim_id": "C37",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Renal failure, acute (Acute renal failure, ARF)",
+      "time_ref": null,
+      "source_span": "row626355#30"
+    },
+    {
+      "claim_id": "C38",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "hyperkalemia",
+      "time_ref": null,
+      "source_span": "row626355#31"
+    },
+    {
+      "claim_id": "C39",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "metabolic acidosis with PH of 7.1",
+      "time_ref": null,
+      "source_span": "row626355#31"
+    },
+    {
+      "claim_id": "C40",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "BUN/Creat of 134/12.4",
+      "time_ref": null,
+      "source_span": "row626355#32"
+    },
+    {
+      "claim_id": "C41",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "HD line to left groin",
+      "time_ref": null,
+      "source_span": "row626355#33"
+    },
+    {
+      "claim_id": "C42",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "initiated",
+      "value": "CVVHDF",
+      "time_ref": null,
+      "source_span": "row626355#34"
+    },
+    {
+      "claim_id": "C43",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "given",
+      "value": "Cagluc/K gtts",
+      "time_ref": null,
+      "source_span": "row626355#35"
+    },
+    {
+      "claim_id": "C44",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "given",
+      "value": "Citrate at 150cc/hr",
+      "time_ref": null,
+      "source_span": "row626355#36"
+    },
+    {
+      "claim_id": "C45",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "Q6 hr CRRT labs",
+      "time_ref": null,
+      "source_span": "row626355#38"
+    },
+    {
+      "claim_id": "C46",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Gastrointestinal bleed, other (GI Bleed, GIB)",
+      "time_ref": null,
+      "source_span": "row626355#39"
+    },
+    {
+      "claim_id": "C47",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has symptom",
+      "value": "coffee grounds via OGT",
+      "time_ref": null,
+      "source_span": "row626355#40"
+    },
+    {
+      "claim_id": "C48",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "HCT stable at 30",
+      "time_ref": null,
+      "source_span": "row626355#41"
+    },
+    {
+      "claim_id": "C49",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "received",
+      "value": "integrillin",
+      "time_ref": null,
+      "source_span": "row626355#42"
+    },
+    {
+      "claim_id": "C50",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "monitor crit",
+      "time_ref": null,
+      "source_span": "row626355#45"
+    }
+  ]
+}

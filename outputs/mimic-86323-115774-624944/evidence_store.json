@@ -1,0 +1,1461 @@
+{
+  "case_id": "mimic-86323-115774-624944",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:enc-115774",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:cond-115774-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Pneumonitis due to inhalation of food or vomitus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5070",
+        "display": "Pneumonitis due to inhalation of food or vomitus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:cond-115774-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:cond-115774-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Shock, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78550",
+        "display": "Shock, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:cond-115774-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Chronic pancreatitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5771",
+        "display": "Chronic pancreatitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:cond-115774-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Unspecified pleural effusion",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5119",
+        "display": "Unspecified pleural effusion"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:cond-115774-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Alkalosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2763",
+        "display": "Alkalosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:cond-115774-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Endocarditis, valve unspecified, unspecified cause",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42490",
+        "display": "Endocarditis, valve unspecified, unspecified cause"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:cond-115774-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Cardiac arrest",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4275",
+        "display": "Cardiac arrest"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:cond-115774-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:cond-115774-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25000",
+        "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:cond-115774-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Other and unspecified hyperlipidemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2724",
+        "display": "Other and unspecified hyperlipidemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:cond-115774-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Esophageal reflux",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53081",
+        "display": "Esophageal reflux"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:cond-115774-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Anemia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2859",
+        "display": "Anemia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:cond-115774-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Esophagitis, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53010",
+        "display": "Esophagitis, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:cond-115774-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Unspecified acquired hypothyroidism",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2449",
+        "display": "Unspecified acquired hypothyroidism"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:cond-115774-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of unspecified type of vessel, native or graft",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41400",
+        "display": "Coronary atherosclerosis of unspecified type of vessel, native or graft"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:cond-115774-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Aortocoronary bypass status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4581",
+        "display": "Aortocoronary bypass status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:cond-115774-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Cardiac pacemaker in situ",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4501",
+        "display": "Cardiac pacemaker in situ"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:cond-115774-19",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:proc-115774-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:proc-115774-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:proc-115774-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:proc-115774-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:proc-115774-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Thoracentesis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Thoracentesis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:proc-115774-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Replacement of gastrostomy tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Replacement of gastrostomy tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-03-02",
+      "source_ref": "urn:uuid:proc-115774-7",
+      "text": null
+    },
+    {
+      "id": "E:note:row624944:1",
+      "kind": "note_sentence",
+      "display": "68 year old gentleman was transferred to [**Hospital1 1**] (scheduled for floor ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s1",
+      "text": "68 year old gentleman was transferred to [**Hospital1 1**] (scheduled for floor    admission) from [**Hospital 11374**] Community Hospital at the request of his    family for ongoing pneumonia."
+    },
+    {
+      "id": "E:note:row624944:2",
+      "kind": "note_sentence",
+      "display": "During the Medivac (per flow sheet):    patient ambulatory prior to flight.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s2",
+      "text": "During the Medivac (per flow sheet):    patient ambulatory prior to flight."
+    },
+    {
+      "id": "E:note:row624944:3",
+      "kind": "note_sentence",
+      "display": "During the flight he was in Afib,    satting 96-100% on 3L NC.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s3",
+      "text": "During the flight he was in Afib,    satting 96-100% on 3L NC."
+    },
+    {
+      "id": "E:note:row624944:4",
+      "kind": "note_sentence",
+      "display": "Never hypotensive or tachycardic.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s4",
+      "text": "Never hypotensive or tachycardic."
+    },
+    {
+      "id": "E:note:row624944:5",
+      "kind": "note_sentence",
+      "display": "BS varied    from 81-441 (pre/post dextrose administration).",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s5",
+      "text": "BS varied    from 81-441 (pre/post dextrose administration)."
+    },
+    {
+      "id": "E:note:row624944:6",
+      "kind": "note_sentence",
+      "display": "Patient became    confused ~1615.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s6",
+      "text": "Patient became    confused ~1615."
+    },
+    {
+      "id": "E:note:row624944:7",
+      "kind": "note_sentence",
+      "display": "His rate increased to 110 ~ 1700, labeled as ? for    which he received 100mg Li",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s7",
+      "text": "His rate increased to 110 ~ 1700, labeled as ? for    which he received 100mg Lidocaine, presumably IV just prior to arrival    at [**Hospital1 1**]."
+    },
+    {
+      "id": "E:note:row624944:8",
+      "kind": "note_sentence",
+      "display": "After deplaning from a medivac flight, the patient became    unresponsive and wa",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s8",
+      "text": "After deplaning from a medivac flight, the patient became    unresponsive and was transferred to the [**Hospital1 1**] emergency room."
+    },
+    {
+      "id": "E:note:row624944:9",
+      "kind": "note_sentence",
+      "display": "In the ED, vital signs were initially: 96.9 69 180/84 12 100% NRB.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s9",
+      "text": "In the ED, vital signs were initially: 96.9 69 180/84 12 100% NRB."
+    },
+    {
+      "id": "E:note:row624944:10",
+      "kind": "note_sentence",
+      "display": "Patient was intubated for airway protection given unresponsiveness.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s10",
+      "text": "Patient was intubated for airway protection given unresponsiveness."
+    },
+    {
+      "id": "E:note:row624944:11",
+      "kind": "note_sentence",
+      "display": "He    was given Vanc/Zosyn for HAP vs. abdominal process.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s11",
+      "text": "He    was given Vanc/Zosyn for HAP vs. abdominal process."
+    },
+    {
+      "id": "E:note:row624944:12",
+      "kind": "note_sentence",
+      "display": "BS in the 70s,    given D50 without change in mental status.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s12",
+      "text": "BS in the 70s,    given D50 without change in mental status."
+    },
+    {
+      "id": "E:note:row624944:13",
+      "kind": "note_sentence",
+      "display": "Transferred to the MICU.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s13",
+      "text": "Transferred to the MICU."
+    },
+    {
+      "id": "E:note:row624944:14",
+      "kind": "note_sentence",
+      "display": "On arrival to the floor, the patient is not responsive to voice or    sternal ru",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s14",
+      "text": "On arrival to the floor, the patient is not responsive to voice or    sternal rub."
+    },
+    {
+      "id": "E:note:row624944:15",
+      "kind": "note_sentence",
+      "display": "His family is present and confirm the hospital course.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s15",
+      "text": "His family is present and confirm the hospital course."
+    },
+    {
+      "id": "E:note:row624944:16",
+      "kind": "note_sentence",
+      "display": "Per all reports, he was independent at home and still working but    \"slowing do",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s16",
+      "text": "Per all reports, he was independent at home and still working but    \"slowing down\" recently with weight loss, several recent    hospitalizations for pneumonia."
+    },
+    {
+      "id": "E:note:row624944:17",
+      "kind": "note_sentence",
+      "display": "His rapid change in status today was    unexpected and not at all resembling his",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s17",
+      "text": "His rapid change in status today was    unexpected and not at all resembling his recent hospital course."
+    },
+    {
+      "id": "E:note:row624944:18",
+      "kind": "note_sentence",
+      "display": "Brief Hospital Course per included records:    The patient was seen in the [**Ho",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s18",
+      "text": "Brief Hospital Course per included records:    The patient was seen in the [**Hospital 11374**] Community Hospital ED on [**2-20**]    for confusion."
+    },
+    {
+      "id": "E:note:row624944:19",
+      "kind": "note_sentence",
+      "display": "He was started on levaquin and ceftriaxone then    admitted to the floor for PNA",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s19",
+      "text": "He was started on levaquin and ceftriaxone then    admitted to the floor for PNA."
+    },
+    {
+      "id": "E:note:row624944:20",
+      "kind": "note_sentence",
+      "display": "Never hypotensive in their ED.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s20",
+      "text": "Never hypotensive in their ED."
+    },
+    {
+      "id": "E:note:row624944:21",
+      "kind": "note_sentence",
+      "display": "Some    confusion but no unresponsiveness for which an LP was performed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s21",
+      "text": "Some    confusion but no unresponsiveness for which an LP was performed."
+    },
+    {
+      "id": "E:note:row624944:22",
+      "kind": "note_sentence",
+      "display": "Cards,    ID, Endocrine consulted with the major change being abx switced to    ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s22",
+      "text": "Cards,    ID, Endocrine consulted with the major change being abx switced to    Zosyn for PNA."
+    },
+    {
+      "id": "E:note:row624944:23",
+      "kind": "note_sentence",
+      "display": "Progress notes are only available after [**2-25**], but the patent failed a    v",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s23",
+      "text": "Progress notes are only available after [**2-25**], but the patent failed a    video swallow and was thought to have erosive esophagitis and a G-tube    was placed on ?[**2-26**]."
+    },
+    {
+      "id": "E:note:row624944:24",
+      "kind": "note_sentence",
+      "display": "The patient was awake and oriented during the    hospital course.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s24",
+      "text": "The patient was awake and oriented during the    hospital course."
+    },
+    {
+      "id": "E:note:row624944:25",
+      "kind": "note_sentence",
+      "display": "He was started on metoprolol--> diltiazem and coumadin    for Afib.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s25",
+      "text": "He was started on metoprolol--> diltiazem and coumadin    for Afib."
+    },
+    {
+      "id": "E:note:row624944:26",
+      "kind": "note_sentence",
+      "display": "On [**2-28**], he was found to be in heart failure based on CXR    findings and ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s26",
+      "text": "On [**2-28**], he was found to be in heart failure based on CXR    findings and started on bolus lasix, but exam not consistent with CHF."
+    },
+    {
+      "id": "E:note:row624944:27",
+      "kind": "note_sentence",
+      "display": "Digoxin was added for rate control.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s27",
+      "text": "Digoxin was added for rate control."
+    },
+    {
+      "id": "E:note:row624944:28",
+      "kind": "note_sentence",
+      "display": "On [**3-2**], a ? of LUE DVT was raised    as was a tricuspid valve vegitation.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s28",
+      "text": "On [**3-2**], a ? of LUE DVT was raised    as was a tricuspid valve vegitation."
+    },
+    {
+      "id": "E:note:row624944:29",
+      "kind": "note_sentence",
+      "display": "Altered mental status (not Delirium)    Assessment:    Received patient on 20mcg",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s29",
+      "text": "Altered mental status (not Delirium)    Assessment:    Received patient on 20mcg of propofol."
+    },
+    {
+      "id": "E:note:row624944:30",
+      "kind": "note_sentence",
+      "display": "Arouses to voice, will opens    eyes and follow commands.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s30",
+      "text": "Arouses to voice, will opens    eyes and follow commands."
+    },
+    {
+      "id": "E:note:row624944:31",
+      "kind": "note_sentence",
+      "display": "Moving all extremities.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s31",
+      "text": "Moving all extremities."
+    },
+    {
+      "id": "E:note:row624944:32",
+      "kind": "note_sentence",
+      "display": "No signs of pain or    discomfort.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s32",
+      "text": "No signs of pain or    discomfort."
+    },
+    {
+      "id": "E:note:row624944:33",
+      "kind": "note_sentence",
+      "display": "Soft wrist restraints for safety of lines and tubes.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s33",
+      "text": "Soft wrist restraints for safety of lines and tubes."
+    },
+    {
+      "id": "E:note:row624944:34",
+      "kind": "note_sentence",
+      "display": "Head    CT negative.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s34",
+      "text": "Head    CT negative."
+    },
+    {
+      "id": "E:note:row624944:35",
+      "kind": "note_sentence",
+      "display": "Action:    Monitoring mental status.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s35",
+      "text": "Action:    Monitoring mental status."
+    },
+    {
+      "id": "E:note:row624944:36",
+      "kind": "note_sentence",
+      "display": "Weaning propofol to off for daily wake-ups.    2pt soft wrist restraints.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s36",
+      "text": "Weaning propofol to off for daily wake-ups.    2pt soft wrist restraints."
+    },
+    {
+      "id": "E:note:row624944:37",
+      "kind": "note_sentence",
+      "display": "Response:    No changes in neuro exam.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s37",
+      "text": "Response:    No changes in neuro exam."
+    },
+    {
+      "id": "E:note:row624944:38",
+      "kind": "note_sentence",
+      "display": "Plan:    Daily wake-ups, maintain on minimal dose of propofol as tolerated.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s38",
+      "text": "Plan:    Daily wake-ups, maintain on minimal dose of propofol as tolerated."
+    },
+    {
+      "id": "E:note:row624944:39",
+      "kind": "note_sentence",
+      "display": "ECHO to evaluate for clot/vegetation.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s39",
+      "text": "ECHO to evaluate for clot/vegetation."
+    },
+    {
+      "id": "E:note:row624944:40",
+      "kind": "note_sentence",
+      "display": "F/u on OSH CSF cultures.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s40",
+      "text": "F/u on OSH CSF cultures."
+    },
+    {
+      "id": "E:note:row624944:41",
+      "kind": "note_sentence",
+      "display": "Pneumonia, aspiration    Assessment:    Received intubated on vent on settings A",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s41",
+      "text": "Pneumonia, aspiration    Assessment:    Received intubated on vent on settings A/C 450x14 40% +5peep."
+    },
+    {
+      "id": "E:note:row624944:42",
+      "kind": "note_sentence",
+      "display": "Rarely    overbreathing vent.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s42",
+      "text": "Rarely    overbreathing vent."
+    },
+    {
+      "id": "E:note:row624944:43",
+      "kind": "note_sentence",
+      "display": "Sats 100%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s43",
+      "text": "Sats 100%."
+    },
+    {
+      "id": "E:note:row624944:44",
+      "kind": "note_sentence",
+      "display": "Lung sounds clear with diminished left    base.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s44",
+      "text": "Lung sounds clear with diminished left    base."
+    },
+    {
+      "id": "E:note:row624944:45",
+      "kind": "note_sentence",
+      "display": "Comfortably sedated on propofol.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s45",
+      "text": "Comfortably sedated on propofol."
+    },
+    {
+      "id": "E:note:row624944:46",
+      "kind": "note_sentence",
+      "display": "Urine output ~95cc/hr s/p fluid    bolus.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s46",
+      "text": "Urine output ~95cc/hr s/p fluid    bolus."
+    },
+    {
+      "id": "E:note:row624944:47",
+      "kind": "note_sentence",
+      "display": "Afebrile.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s47",
+      "text": "Afebrile."
+    },
+    {
+      "id": "E:note:row624944:48",
+      "kind": "note_sentence",
+      "display": "Abd CT with possible vegetation vs clot vs neoplasm on    TR.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s48",
+      "text": "Abd CT with possible vegetation vs clot vs neoplasm on    TR."
+    },
+    {
+      "id": "E:note:row624944:49",
+      "kind": "note_sentence",
+      "display": "Action:    Maintained on current vent settings.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s49",
+      "text": "Action:    Maintained on current vent settings."
+    },
+    {
+      "id": "E:note:row624944:50",
+      "kind": "note_sentence",
+      "display": "Vanco and zosyn.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s50",
+      "text": "Vanco and zosyn."
+    },
+    {
+      "id": "E:note:row624944:51",
+      "kind": "note_sentence",
+      "display": "Response:    RR 14-25 with sats 98-100%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s51",
+      "text": "Response:    RR 14-25 with sats 98-100%."
+    },
+    {
+      "id": "E:note:row624944:52",
+      "kind": "note_sentence",
+      "display": "Lung sounds clearer.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s52",
+      "text": "Lung sounds clearer."
+    },
+    {
+      "id": "E:note:row624944:53",
+      "kind": "note_sentence",
+      "display": "Suctioned for thick,    yellow sputum.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s53",
+      "text": "Suctioned for thick,    yellow sputum."
+    },
+    {
+      "id": "E:note:row624944:54",
+      "kind": "note_sentence",
+      "display": "Chest CT with no PE, has LUL PNA, b/l pleural effusions    (R>L).",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s54",
+      "text": "Chest CT with no PE, has LUL PNA, b/l pleural effusions    (R>L)."
+    },
+    {
+      "id": "E:note:row624944:55",
+      "kind": "note_sentence",
+      "display": "Torso concerning for ?hepatic lesion (?neoplasm).",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s55",
+      "text": "Torso concerning for ?hepatic lesion (?neoplasm)."
+    },
+    {
+      "id": "E:note:row624944:56",
+      "kind": "note_sentence",
+      "display": "Urine output    improved 70-80cc/hr.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s56",
+      "text": "Urine output    improved 70-80cc/hr."
+    },
+    {
+      "id": "E:note:row624944:57",
+      "kind": "note_sentence",
+      "display": "Temp up to 99.5 now trending back to 97.5 off    blanket.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s57",
+      "text": "Temp up to 99.5 now trending back to 97.5 off    blanket."
+    },
+    {
+      "id": "E:note:row624944:58",
+      "kind": "note_sentence",
+      "display": "WBC 8.1.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s58",
+      "text": "WBC 8.1."
+    },
+    {
+      "id": "E:note:row624944:59",
+      "kind": "note_sentence",
+      "display": "Plan:    Wean vent as tolerated.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s59",
+      "text": "Plan:    Wean vent as tolerated."
+    },
+    {
+      "id": "E:note:row624944:60",
+      "kind": "note_sentence",
+      "display": "Continue antibiotics as ordered.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s60",
+      "text": "Continue antibiotics as ordered."
+    },
+    {
+      "id": "E:note:row624944:61",
+      "kind": "note_sentence",
+      "display": "F/u on blood and sputum cultures.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s61",
+      "text": "F/u on blood and sputum cultures."
+    },
+    {
+      "id": "E:note:row624944:62",
+      "kind": "note_sentence",
+      "display": "F/u with final reads of CT    Monitor urine output.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s62",
+      "text": "F/u with final reads of CT    Monitor urine output."
+    },
+    {
+      "id": "E:note:row624944:63",
+      "kind": "note_sentence",
+      "display": "Monitor Temperature.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row624944#s63",
+      "text": "Monitor Temperature."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5070": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78550": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5771": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5119": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2763": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42490": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4275": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42731": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25000": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2724": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|53081": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2859": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|53010": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2449": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41400": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4581": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4501": [
+      "E:cond:19"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "acute respiratory failure": [
+      "E:cond:1"
+    ],
+    "pneumonitis due to inhalation of food or vomitus": [
+      "E:cond:2"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:3"
+    ],
+    "shock, unspecified": [
+      "E:cond:4"
+    ],
+    "chronic pancreatitis": [
+      "E:cond:5"
+    ],
+    "unspecified pleural effusion": [
+      "E:cond:6"
+    ],
+    "alkalosis": [
+      "E:cond:7"
+    ],
+    "endocarditis, valve unspecified, unspecified cause": [
+      "E:cond:8"
+    ],
+    "cardiac arrest": [
+      "E:cond:9"
+    ],
+    "atrial fibrillation": [
+      "E:cond:10"
+    ],
+    "diabetes mellitus without mention of complication, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:11"
+    ],
+    "other and unspecified hyperlipidemia": [
+      "E:cond:12"
+    ],
+    "esophageal reflux": [
+      "E:cond:13"
+    ],
+    "anemia, unspecified": [
+      "E:cond:14"
+    ],
+    "esophagitis, unspecified": [
+      "E:cond:15"
+    ],
+    "unspecified acquired hypothyroidism": [
+      "E:cond:16"
+    ],
+    "coronary atherosclerosis of unspecified type of vessel, native or graft": [
+      "E:cond:17"
+    ],
+    "aortocoronary bypass status": [
+      "E:cond:18"
+    ],
+    "cardiac pacemaker in situ": [
+      "E:cond:19"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:1"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:2"
+    ],
+    "continuous invasive mechanical ventilation for less than 96 consecutive hours": [
+      "E:proc:3"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:4"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:5"
+    ],
+    "thoracentesis": [
+      "E:proc:6"
+    ],
+    "replacement of gastrostomy tube": [
+      "E:proc:7"
+    ],
+    "68 year old gentleman was transferred to [**hospital1 1**] (scheduled for floor": [
+      "E:note:row624944:1"
+    ],
+    "during the medivac (per flow sheet): patient ambulatory prior to flight.": [
+      "E:note:row624944:2"
+    ],
+    "during the flight he was in afib, satting 96-100% on 3l nc.": [
+      "E:note:row624944:3"
+    ],
+    "never hypotensive or tachycardic.": [
+      "E:note:row624944:4"
+    ],
+    "bs varied from 81-441 (pre/post dextrose administration).": [
+      "E:note:row624944:5"
+    ],
+    "patient became confused ~1615.": [
+      "E:note:row624944:6"
+    ],
+    "his rate increased to 110 ~ 1700, labeled as ? for which he received 100mg li": [
+      "E:note:row624944:7"
+    ],
+    "after deplaning from a medivac flight, the patient became unresponsive and wa": [
+      "E:note:row624944:8"
+    ],
+    "in the ed, vital signs were initially: 96.9 69 180/84 12 100% nrb.": [
+      "E:note:row624944:9"
+    ],
+    "patient was intubated for airway protection given unresponsiveness.": [
+      "E:note:row624944:10"
+    ],
+    "he was given vanc/zosyn for hap vs. abdominal process.": [
+      "E:note:row624944:11"
+    ],
+    "bs in the 70s, given d50 without change in mental status.": [
+      "E:note:row624944:12"
+    ],
+    "transferred to the micu.": [
+      "E:note:row624944:13"
+    ],
+    "on arrival to the floor, the patient is not responsive to voice or sternal ru": [
+      "E:note:row624944:14"
+    ],
+    "his family is present and confirm the hospital course.": [
+      "E:note:row624944:15"
+    ],
+    "per all reports, he was independent at home and still working but \"slowing do": [
+      "E:note:row624944:16"
+    ],
+    "his rapid change in status today was unexpected and not at all resembling his": [
+      "E:note:row624944:17"
+    ],
+    "brief hospital course per included records: the patient was seen in the [**ho": [
+      "E:note:row624944:18"
+    ],
+    "he was started on levaquin and ceftriaxone then admitted to the floor for pna": [
+      "E:note:row624944:19"
+    ],
+    "never hypotensive in their ed.": [
+      "E:note:row624944:20"
+    ],
+    "some confusion but no unresponsiveness for which an lp was performed.": [
+      "E:note:row624944:21"
+    ],
+    "cards, id, endocrine consulted with the major change being abx switced to": [
+      "E:note:row624944:22"
+    ],
+    "progress notes are only available after [**2-25**], but the patent failed a v": [
+      "E:note:row624944:23"
+    ],
+    "the patient was awake and oriented during the hospital course.": [
+      "E:note:row624944:24"
+    ],
+    "he was started on metoprolol--> diltiazem and coumadin for afib.": [
+      "E:note:row624944:25"
+    ],
+    "on [**2-28**], he was found to be in heart failure based on cxr findings and": [
+      "E:note:row624944:26"
+    ],
+    "digoxin was added for rate control.": [
+      "E:note:row624944:27"
+    ],
+    "on [**3-2**], a ? of lue dvt was raised as was a tricuspid valve vegitation.": [
+      "E:note:row624944:28"
+    ],
+    "altered mental status (not delirium) assessment: received patient on 20mcg": [
+      "E:note:row624944:29"
+    ],
+    "arouses to voice, will opens eyes and follow commands.": [
+      "E:note:row624944:30"
+    ],
+    "moving all extremities.": [
+      "E:note:row624944:31"
+    ],
+    "no signs of pain or discomfort.": [
+      "E:note:row624944:32"
+    ],
+    "soft wrist restraints for safety of lines and tubes.": [
+      "E:note:row624944:33"
+    ],
+    "head ct negative.": [
+      "E:note:row624944:34"
+    ],
+    "action: monitoring mental status.": [
+      "E:note:row624944:35"
+    ],
+    "weaning propofol to off for daily wake-ups. 2pt soft wrist restraints.": [
+      "E:note:row624944:36"
+    ],
+    "response: no changes in neuro exam.": [
+      "E:note:row624944:37"
+    ],
+    "plan: daily wake-ups, maintain on minimal dose of propofol as tolerated.": [
+      "E:note:row624944:38"
+    ],
+    "echo to evaluate for clot/vegetation.": [
+      "E:note:row624944:39"
+    ],
+    "f/u on osh csf cultures.": [
+      "E:note:row624944:40"
+    ],
+    "pneumonia, aspiration assessment: received intubated on vent on settings a": [
+      "E:note:row624944:41"
+    ],
+    "rarely overbreathing vent.": [
+      "E:note:row624944:42"
+    ],
+    "sats 100%.": [
+      "E:note:row624944:43"
+    ],
+    "lung sounds clear with diminished left base.": [
+      "E:note:row624944:44"
+    ],
+    "comfortably sedated on propofol.": [
+      "E:note:row624944:45"
+    ],
+    "urine output ~95cc/hr s/p fluid bolus.": [
+      "E:note:row624944:46"
+    ],
+    "afebrile.": [
+      "E:note:row624944:47"
+    ],
+    "abd ct with possible vegetation vs clot vs neoplasm on tr.": [
+      "E:note:row624944:48"
+    ],
+    "action: maintained on current vent settings.": [
+      "E:note:row624944:49"
+    ],
+    "vanco and zosyn.": [
+      "E:note:row624944:50"
+    ],
+    "response: rr 14-25 with sats 98-100%.": [
+      "E:note:row624944:51"
+    ],
+    "lung sounds clearer.": [
+      "E:note:row624944:52"
+    ],
+    "suctioned for thick, yellow sputum.": [
+      "E:note:row624944:53"
+    ],
+    "chest ct with no pe, has lul pna, b/l pleural effusions (r>l).": [
+      "E:note:row624944:54"
+    ],
+    "torso concerning for ?hepatic lesion (?neoplasm).": [
+      "E:note:row624944:55"
+    ],
+    "urine output improved 70-80cc/hr.": [
+      "E:note:row624944:56"
+    ],
+    "temp up to 99.5 now trending back to 97.5 off blanket.": [
+      "E:note:row624944:57"
+    ],
+    "wbc 8.1.": [
+      "E:note:row624944:58"
+    ],
+    "plan: wean vent as tolerated.": [
+      "E:note:row624944:59"
+    ],
+    "continue antibiotics as ordered.": [
+      "E:note:row624944:60"
+    ],
+    "f/u on blood and sputum cultures.": [
+      "E:note:row624944:61"
+    ],
+    "f/u with final reads of ct monitor urine output.": [
+      "E:note:row624944:62"
+    ],
+    "monitor temperature.": [
+      "E:note:row624944:63"
+    ]
+  },
+  "by_date": {
+    "2171-03-02": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7"
+    ]
+  }
+}

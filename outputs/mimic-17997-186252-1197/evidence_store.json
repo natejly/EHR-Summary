@@ -1,0 +1,1643 @@
+{
+  "case_id": "mimic-17997-186252-1197",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2125-08-18",
+      "source_ref": "urn:uuid:enc-186252",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2765",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2125-08-18",
+      "source_ref": "urn:uuid:cond-186252-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Diabetes with renal manifestations, type I [juvenile type], not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25041",
+        "display": "Diabetes with renal manifestations, type I [juvenile type], not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2125-08-18",
+      "source_ref": "urn:uuid:cond-186252-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "40391",
+        "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2125-08-18",
+      "source_ref": "urn:uuid:cond-186252-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Diabetes with ophthalmic manifestations, type I [juvenile type], not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25051",
+        "display": "Diabetes with ophthalmic manifestations, type I [juvenile type], not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2125-08-18",
+      "source_ref": "urn:uuid:cond-186252-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Urinary tract infection, site not specified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5990",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2125-08-18",
+      "source_ref": "urn:uuid:cond-186252-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4582",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2125-08-18",
+      "source_ref": "urn:uuid:cond-186252-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Other antihypertensive agents causing adverse effects in therapeutic use",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E9426",
+        "display": "Other antihypertensive agents causing adverse effects in therapeutic use"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2125-08-18",
+      "source_ref": "urn:uuid:cond-186252-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Home accidents",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8490",
+        "display": "Home accidents"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2125-08-18",
+      "source_ref": "urn:uuid:cond-186252-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Nephritis and nephropathy, not specified as acute or chronic, in diseases classified elsewhere",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "58381",
+        "display": "Nephritis and nephropathy, not specified as acute or chronic, in diseases classified elsewhere"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2125-08-18",
+      "source_ref": "urn:uuid:cond-186252-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Peritoneal dialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Peritoneal dialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2125-08-18",
+      "source_ref": "urn:uuid:proc-186252-1",
+      "text": null
+    },
+    {
+      "id": "E:note:row1197:1",
+      "kind": "note_sentence",
+      "display": "Admission Date:  [**2125-8-18**]       Discharge Date:  [**2125-8-21**]  Date of",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s1",
+      "text": "Admission Date:  [**2125-8-18**]       Discharge Date:  [**2125-8-21**]  Date of Birth:   [**2080-11-28**]       Sex:  F  Service:  HISTORY OF PRESENT ILLNESS:  The patient is a 44-year-old female with severe diabetes type 1 with end-stage renal disease, coronary artery disease and the patient is also blind."
+    },
+    {
+      "id": "E:note:row1197:2",
+      "kind": "note_sentence",
+      "display": "She was recently admitted prior to this admission on [**2125-8-10**] to [**2125-",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s2",
+      "text": "She was recently admitted prior to this admission on [**2125-8-10**] to [**2125-8-17**] diagnosed with acute rheumatic fever."
+    },
+    {
+      "id": "E:note:row1197:3",
+      "kind": "note_sentence",
+      "display": "During that admission she developed a small pericardial effusion.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s3",
+      "text": "During that admission she developed a small pericardial effusion."
+    },
+    {
+      "id": "E:note:row1197:4",
+      "kind": "note_sentence",
+      "display": "She had positive ASO titer and she developed progressive migratory arthralgias.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s4",
+      "text": "She had positive ASO titer and she developed progressive migratory arthralgias."
+    },
+    {
+      "id": "E:note:row1197:5",
+      "kind": "note_sentence",
+      "display": "She was discharged on prednisone and erythromycin.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s5",
+      "text": "She was discharged on prednisone and erythromycin."
+    },
+    {
+      "id": "E:note:row1197:6",
+      "kind": "note_sentence",
+      "display": "On the day of admission she awoke feeling shaky with a temperature of 99, no swe",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s6",
+      "text": "On the day of admission she awoke feeling shaky with a temperature of 99, no sweats at that time."
+    },
+    {
+      "id": "E:note:row1197:7",
+      "kind": "note_sentence",
+      "display": "Her fasting sugar was 334.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s7",
+      "text": "Her fasting sugar was 334."
+    },
+    {
+      "id": "E:note:row1197:8",
+      "kind": "note_sentence",
+      "display": "She went back to sleep and woke up a couple of hours later feeling just generall",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s8",
+      "text": "She went back to sleep and woke up a couple of hours later feeling just generally uncomfortable, achy and weak."
+    },
+    {
+      "id": "E:note:row1197:9",
+      "kind": "note_sentence",
+      "display": "She also noted that she had decreased hearing bilaterally.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s9",
+      "text": "She also noted that she had decreased hearing bilaterally."
+    },
+    {
+      "id": "E:note:row1197:10",
+      "kind": "note_sentence",
+      "display": "Her fasting sugar at that point was 265 and she administered subcutaneous insuli",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s10",
+      "text": "Her fasting sugar at that point was 265 and she administered subcutaneous insulin."
+    },
+    {
+      "id": "E:note:row1197:11",
+      "kind": "note_sentence",
+      "display": "Her blood pressure at home was measured 44/32 in the emergency room.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s11",
+      "text": "Her blood pressure at home was measured 44/32 in the emergency room."
+    },
+    {
+      "id": "E:note:row1197:12",
+      "kind": "note_sentence",
+      "display": "When she arrived it was 74/45.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s12",
+      "text": "When she arrived it was 74/45."
+    },
+    {
+      "id": "E:note:row1197:13",
+      "kind": "note_sentence",
+      "display": "She reports no headache, no sore throat, no cough, no sputum, no shortness of br",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s13",
+      "text": "She reports no headache, no sore throat, no cough, no sputum, no shortness of breath, no chest pain, palpitations, lightheadedness, loss of consciousness, no further joint pains, rash, nausea, vomiting or diarrhea."
+    },
+    {
+      "id": "E:note:row1197:14",
+      "kind": "note_sentence",
+      "display": "The patient was not feeling lightheaded and was mentating properly.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s14",
+      "text": "The patient was not feeling lightheaded and was mentating properly."
+    },
+    {
+      "id": "E:note:row1197:15",
+      "kind": "note_sentence",
+      "display": "In the emergency room she received 500 cc of fluid and her blood pressure slowly",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s15",
+      "text": "In the emergency room she received 500 cc of fluid and her blood pressure slowly increased to the 90s or 100s systolic, always mentating well."
+    },
+    {
+      "id": "E:note:row1197:16",
+      "kind": "note_sentence",
+      "display": "She also received prednisone, erythromycin, Percocet, Lactulose and Tylenol that",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s16",
+      "text": "She also received prednisone, erythromycin, Percocet, Lactulose and Tylenol that day."
+    },
+    {
+      "id": "E:note:row1197:17",
+      "kind": "note_sentence",
+      "display": "PAST MEDICAL HISTORY:  1.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s17",
+      "text": "PAST MEDICAL HISTORY:  1."
+    },
+    {
+      "id": "E:note:row1197:18",
+      "kind": "note_sentence",
+      "display": "Type 1 diabetes diagnosed at age seven.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s18",
+      "text": "Type 1 diabetes diagnosed at age seven."
+    },
+    {
+      "id": "E:note:row1197:19",
+      "kind": "note_sentence",
+      "display": "She is fine from retinopathy.  2.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s19",
+      "text": "She is fine from retinopathy.  2."
+    },
+    {
+      "id": "E:note:row1197:20",
+      "kind": "note_sentence",
+      "display": "End-stage renal disease on peritoneal dialysis.  3.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s20",
+      "text": "End-stage renal disease on peritoneal dialysis.  3."
+    },
+    {
+      "id": "E:note:row1197:21",
+      "kind": "note_sentence",
+      "display": "Coronary artery disease. 4.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s21",
+      "text": "Coronary artery disease. 4."
+    },
+    {
+      "id": "E:note:row1197:22",
+      "kind": "note_sentence",
+      "display": "Neuropathy.  5.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s22",
+      "text": "Neuropathy.  5."
+    },
+    {
+      "id": "E:note:row1197:23",
+      "kind": "note_sentence",
+      "display": "History of anemia on Epogen.  6.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s23",
+      "text": "History of anemia on Epogen.  6."
+    },
+    {
+      "id": "E:note:row1197:24",
+      "kind": "note_sentence",
+      "display": "Acute rheumatic fever diagnosed on the last admission.  7.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s24",
+      "text": "Acute rheumatic fever diagnosed on the last admission.  7."
+    },
+    {
+      "id": "E:note:row1197:25",
+      "kind": "note_sentence",
+      "display": "Questionable transient ischemic attack about 15 years ago. 8.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s25",
+      "text": "Questionable transient ischemic attack about 15 years ago. 8."
+    },
+    {
+      "id": "E:note:row1197:26",
+      "kind": "note_sentence",
+      "display": "History of hypertension.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s26",
+      "text": "History of hypertension."
+    },
+    {
+      "id": "E:note:row1197:27",
+      "kind": "note_sentence",
+      "display": "ALLERGIES:  Keflex causes swelling and itching.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s27",
+      "text": "ALLERGIES:  Keflex causes swelling and itching."
+    },
+    {
+      "id": "E:note:row1197:28",
+      "kind": "note_sentence",
+      "display": "Penicillin causes swelling and itching.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s28",
+      "text": "Penicillin causes swelling and itching."
+    },
+    {
+      "id": "E:note:row1197:29",
+      "kind": "note_sentence",
+      "display": "MEDICATIONS ON ADMISSION:  1.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s29",
+      "text": "MEDICATIONS ON ADMISSION:  1."
+    },
+    {
+      "id": "E:note:row1197:30",
+      "kind": "note_sentence",
+      "display": "Aspirin.  2.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s30",
+      "text": "Aspirin.  2."
+    },
+    {
+      "id": "E:note:row1197:31",
+      "kind": "note_sentence",
+      "display": "Prednisone.  3.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s31",
+      "text": "Prednisone.  3."
+    },
+    {
+      "id": "E:note:row1197:32",
+      "kind": "note_sentence",
+      "display": "Erythromycin.  4.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s32",
+      "text": "Erythromycin.  4."
+    },
+    {
+      "id": "E:note:row1197:33",
+      "kind": "note_sentence",
+      "display": "Epoetin.  5.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s33",
+      "text": "Epoetin.  5."
+    },
+    {
+      "id": "E:note:row1197:34",
+      "kind": "note_sentence",
+      "display": "Protonix.  6.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s34",
+      "text": "Protonix.  6."
+    },
+    {
+      "id": "E:note:row1197:35",
+      "kind": "note_sentence",
+      "display": "Insulin.  7.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s35",
+      "text": "Insulin.  7."
+    },
+    {
+      "id": "E:note:row1197:36",
+      "kind": "note_sentence",
+      "display": "Ticlopidine.  8.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s36",
+      "text": "Ticlopidine.  8."
+    },
+    {
+      "id": "E:note:row1197:37",
+      "kind": "note_sentence",
+      "display": "B12.  9.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s37",
+      "text": "B12.  9."
+    },
+    {
+      "id": "E:note:row1197:38",
+      "kind": "note_sentence",
+      "display": "Calcium.  10.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s38",
+      "text": "Calcium.  10."
+    },
+    {
+      "id": "E:note:row1197:39",
+      "kind": "note_sentence",
+      "display": "Vitamin C.  11.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s39",
+      "text": "Vitamin C.  11."
+    },
+    {
+      "id": "E:note:row1197:40",
+      "kind": "note_sentence",
+      "display": "Lopressor.  12.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s40",
+      "text": "Lopressor.  12."
+    },
+    {
+      "id": "E:note:row1197:41",
+      "kind": "note_sentence",
+      "display": "Calcitriol.  13.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s41",
+      "text": "Calcitriol.  13."
+    },
+    {
+      "id": "E:note:row1197:42",
+      "kind": "note_sentence",
+      "display": "Lipitor.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s42",
+      "text": "Lipitor."
+    },
+    {
+      "id": "E:note:row1197:43",
+      "kind": "note_sentence",
+      "display": "SOCIAL HISTORY:  She lives with her husband.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s43",
+      "text": "SOCIAL HISTORY:  She lives with her husband."
+    },
+    {
+      "id": "E:note:row1197:44",
+      "kind": "note_sentence",
+      "display": "She drinks alcohol socially; no tobacco or drugs.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s44",
+      "text": "She drinks alcohol socially; no tobacco or drugs."
+    },
+    {
+      "id": "E:note:row1197:45",
+      "kind": "note_sentence",
+      "display": "FAMILY HISTORY:  There is a family history of diabetes.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s45",
+      "text": "FAMILY HISTORY:  There is a family history of diabetes."
+    },
+    {
+      "id": "E:note:row1197:46",
+      "kind": "note_sentence",
+      "display": "PHYSICAL EXAMINATION:  In the emergency room on initial physical examination her",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s46",
+      "text": "PHYSICAL EXAMINATION:  In the emergency room on initial physical examination her blood pressure was 97/60, oxygen saturation 96% on room air, temperature 98.2, respiratory rate 17."
+    },
+    {
+      "id": "E:note:row1197:47",
+      "kind": "note_sentence",
+      "display": "In general she was in no acute distress, alert and oriented.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s47",
+      "text": "In general she was in no acute distress, alert and oriented."
+    },
+    {
+      "id": "E:note:row1197:48",
+      "kind": "note_sentence",
+      "display": "HEENT:  Behind the left tympanic membrane she had a small amount of fluid and th",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s48",
+      "text": "HEENT:  Behind the left tympanic membrane she had a small amount of fluid and the right tympanic membrane was clear and normal."
+    },
+    {
+      "id": "E:note:row1197:49",
+      "kind": "note_sentence",
+      "display": "Neck:  Supple with no lymphadenopathy.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s49",
+      "text": "Neck:  Supple with no lymphadenopathy."
+    },
+    {
+      "id": "E:note:row1197:50",
+      "kind": "note_sentence",
+      "display": "Tender to palpation over the trapezoid muscle.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s50",
+      "text": "Tender to palpation over the trapezoid muscle."
+    },
+    {
+      "id": "E:note:row1197:51",
+      "kind": "note_sentence",
+      "display": "Cardiovascular:  Regular rate and rhythm, no murmurs, gallops, or rubs.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s51",
+      "text": "Cardiovascular:  Regular rate and rhythm, no murmurs, gallops, or rubs."
+    },
+    {
+      "id": "E:note:row1197:52",
+      "kind": "note_sentence",
+      "display": "Lungs:  Clear to auscultation bilaterally.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s52",
+      "text": "Lungs:  Clear to auscultation bilaterally."
+    },
+    {
+      "id": "E:note:row1197:53",
+      "kind": "note_sentence",
+      "display": "Abdomen:  Positive bowel sounds, mildly distended, nontender.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s53",
+      "text": "Abdomen:  Positive bowel sounds, mildly distended, nontender."
+    },
+    {
+      "id": "E:note:row1197:54",
+      "kind": "note_sentence",
+      "display": "Extremities:  Warm, 3+ edema to the knee.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s54",
+      "text": "Extremities:  Warm, 3+ edema to the knee."
+    },
+    {
+      "id": "E:note:row1197:55",
+      "kind": "note_sentence",
+      "display": "LABORATORY DATA:  On initial laboratory studies she had a sodium of 127, potassi",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s55",
+      "text": "LABORATORY DATA:  On initial laboratory studies she had a sodium of 127, potassium 3.6, chloride 86, bicarbonate 24, BUN 72, creatinine 9.4, which is about her baseline."
+    },
+    {
+      "id": "E:note:row1197:56",
+      "kind": "note_sentence",
+      "display": "Glucose 196.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s56",
+      "text": "Glucose 196."
+    },
+    {
+      "id": "E:note:row1197:57",
+      "kind": "note_sentence",
+      "display": "HOSPITAL COURSE:  The patient's beta blocker, Lopressor, was held.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s57",
+      "text": "HOSPITAL COURSE:  The patient's beta blocker, Lopressor, was held."
+    },
+    {
+      "id": "E:note:row1197:58",
+      "kind": "note_sentence",
+      "display": "Her blood pressure remained stable throughout the remainder of her hospitalizati",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s58",
+      "text": "Her blood pressure remained stable throughout the remainder of her hospitalization."
+    },
+    {
+      "id": "E:note:row1197:59",
+      "kind": "note_sentence",
+      "display": "On the first morning of her hospitalization, [**2125-8-19**], she developed a le",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s59",
+      "text": "On the first morning of her hospitalization, [**2125-8-19**], she developed a leukocytosis with a left shift, eight bands."
+    },
+    {
+      "id": "E:note:row1197:60",
+      "kind": "note_sentence",
+      "display": "Blood cultures, urine cultures and sputum cultures were obtained and antibiotics",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s60",
+      "text": "Blood cultures, urine cultures and sputum cultures were obtained and antibiotics were not initially started."
+    },
+    {
+      "id": "E:note:row1197:61",
+      "kind": "note_sentence",
+      "display": "The patient was not febrile and had no symptoms of infection.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s61",
+      "text": "The patient was not febrile and had no symptoms of infection."
+    },
+    {
+      "id": "E:note:row1197:62",
+      "kind": "note_sentence",
+      "display": "On [**2125-8-20**] the patient's urine culture showed 10,000 to 100,000 Gram-neg",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s62",
+      "text": "On [**2125-8-20**] the patient's urine culture showed 10,000 to 100,000 Gram-negative rods."
+    },
+    {
+      "id": "E:note:row1197:63",
+      "kind": "note_sentence",
+      "display": "It grew out Klebsiella, which was pansensitive.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s63",
+      "text": "It grew out Klebsiella, which was pansensitive."
+    },
+    {
+      "id": "E:note:row1197:64",
+      "kind": "note_sentence",
+      "display": "She was started on levofloxacin.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s64",
+      "text": "She was started on levofloxacin."
+    },
+    {
+      "id": "E:note:row1197:65",
+      "kind": "note_sentence",
+      "display": "The patient was also followed by rheumatology throughout her hospitalization.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s65",
+      "text": "The patient was also followed by rheumatology throughout her hospitalization."
+    },
+    {
+      "id": "E:note:row1197:66",
+      "kind": "note_sentence",
+      "display": "Her ESR, CRP were also repeated.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s66",
+      "text": "Her ESR, CRP were also repeated."
+    },
+    {
+      "id": "E:note:row1197:67",
+      "kind": "note_sentence",
+      "display": "CRP had decreased from previous admission.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s67",
+      "text": "CRP had decreased from previous admission."
+    },
+    {
+      "id": "E:note:row1197:68",
+      "kind": "note_sentence",
+      "display": "ESR had increased from 65 to 122.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s68",
+      "text": "ESR had increased from 65 to 122."
+    },
+    {
+      "id": "E:note:row1197:69",
+      "kind": "note_sentence",
+      "display": "She also had a repeat echocardiogram which showed decreasing small effusion.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s69",
+      "text": "She also had a repeat echocardiogram which showed decreasing small effusion."
+    },
+    {
+      "id": "E:note:row1197:70",
+      "kind": "note_sentence",
+      "display": "Rheumatology suggested prednisone taper to decrease by 5 mg every day.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s70",
+      "text": "Rheumatology suggested prednisone taper to decrease by 5 mg every day."
+    },
+    {
+      "id": "E:note:row1197:71",
+      "kind": "note_sentence",
+      "display": "The patient was also seen by cardiology.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s71",
+      "text": "The patient was also seen by cardiology."
+    },
+    {
+      "id": "E:note:row1197:72",
+      "kind": "note_sentence",
+      "display": "She was ruled out for an myocardial infarction and they suggested holding her Lo",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s72",
+      "text": "She was ruled out for an myocardial infarction and they suggested holding her Lopressor for the hypotension."
+    },
+    {
+      "id": "E:note:row1197:73",
+      "kind": "note_sentence",
+      "display": "The nephrology service suggested that her Lopressor not be restarted until she w",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s73",
+      "text": "The nephrology service suggested that her Lopressor not be restarted until she was back to her baseline dry weight from dialysis."
+    },
+    {
+      "id": "E:note:row1197:74",
+      "kind": "note_sentence",
+      "display": "The patient was also closely followed by [**Last Name (un) **] and suggested tha",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s74",
+      "text": "The patient was also closely followed by [**Last Name (un) **] and suggested that she continue her sliding scale as the prednisone was increasing her insulin requirements."
+    },
+    {
+      "id": "E:note:row1197:75",
+      "kind": "note_sentence",
+      "display": "The patient's blood pressure remained stable through [**2125-8-21**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s75",
+      "text": "The patient's blood pressure remained stable through [**2125-8-21**]."
+    },
+    {
+      "id": "E:note:row1197:76",
+      "kind": "note_sentence",
+      "display": "She was discharged to home in stable condition.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s76",
+      "text": "She was discharged to home in stable condition."
+    },
+    {
+      "id": "E:note:row1197:77",
+      "kind": "note_sentence",
+      "display": "DISCHARGE DIAGNOSES:  Hypotension likely secondary to beta blocker, Lopressor, t",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s77",
+      "text": "DISCHARGE DIAGNOSES:  Hypotension likely secondary to beta blocker, Lopressor, that was started on the previous admission and possibly hypovolemia."
+    },
+    {
+      "id": "E:note:row1197:78",
+      "kind": "note_sentence",
+      "display": "DISCHARGE INSTRUCTIONS:  The patient is to follow up with nephrology, Dr.[**Doct",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s78",
+      "text": "DISCHARGE INSTRUCTIONS:  The patient is to follow up with nephrology, Dr.[**Doctor Last Name 4849**] in one week; cardiology with Dr. [**Last Name (STitle) **] in one week; with her primary care physician, [**Last Name (NamePattern4) **]."
+    },
+    {
+      "id": "E:note:row1197:79",
+      "kind": "note_sentence",
+      "display": "[**Last Name (STitle) 174**], in the next two weeks; infectious disease at [**Te",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s79",
+      "text": "[**Last Name (STitle) 174**], in the next two weeks; infectious disease at [**Telephone/Fax (1) 457**], call to make follow-up appointment; and her rheumatologisst in one to two days."
+    },
+    {
+      "id": "E:note:row1197:80",
+      "kind": "note_sentence",
+      "display": "The patient has the doctor's phone number.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s80",
+      "text": "The patient has the doctor's phone number."
+    },
+    {
+      "id": "E:note:row1197:81",
+      "kind": "note_sentence",
+      "display": "She will also follow up with audiology, patient is to call in one week to make a",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s81",
+      "text": "She will also follow up with audiology, patient is to call in one week to make an appointment."
+    },
+    {
+      "id": "E:note:row1197:82",
+      "kind": "note_sentence",
+      "display": "DISCHARGE MEDICATIONS: 1.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s82",
+      "text": "DISCHARGE MEDICATIONS: 1."
+    },
+    {
+      "id": "E:note:row1197:83",
+      "kind": "note_sentence",
+      "display": "Erythromycin 250 mg q. 12 hours. 2.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s83",
+      "text": "Erythromycin 250 mg q. 12 hours. 2."
+    },
+    {
+      "id": "E:note:row1197:84",
+      "kind": "note_sentence",
+      "display": "Aspirin 81 mg q. day. 3.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s84",
+      "text": "Aspirin 81 mg q. day. 3."
+    },
+    {
+      "id": "E:note:row1197:85",
+      "kind": "note_sentence",
+      "display": "Prednisone 25 mg on the [**2125-8-22**], 20 mg on [**2125-8-23**], 15 mg on [**2",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s85",
+      "text": "Prednisone 25 mg on the [**2125-8-22**], 20 mg on [**2125-8-23**], 15 mg on [**2125-8-24**], 10 mg on [**2125-8-25**], 5 mg on [**2125-8-26**], and then she is to discontinue the prednisone. 4."
+    },
+    {
+      "id": "E:note:row1197:86",
+      "kind": "note_sentence",
+      "display": "Pantoprazole 40 mg q.d. 5.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s86",
+      "text": "Pantoprazole 40 mg q.d. 5."
+    },
+    {
+      "id": "E:note:row1197:87",
+      "kind": "note_sentence",
+      "display": "Ticlopidine 250 mg b.i.d. 6.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s87",
+      "text": "Ticlopidine 250 mg b.i.d. 6."
+    },
+    {
+      "id": "E:note:row1197:88",
+      "kind": "note_sentence",
+      "display": "Vitamin B12, 50 mcg tablets q.d. 7.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s88",
+      "text": "Vitamin B12, 50 mcg tablets q.d. 7."
+    },
+    {
+      "id": "E:note:row1197:89",
+      "kind": "note_sentence",
+      "display": "Calcium carbonate 500 mg tablets q.d. 8.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s89",
+      "text": "Calcium carbonate 500 mg tablets q.d. 8."
+    },
+    {
+      "id": "E:note:row1197:90",
+      "kind": "note_sentence",
+      "display": "Atorvastatin 10 mg three times a week. 9.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s90",
+      "text": "Atorvastatin 10 mg three times a week. 9."
+    },
+    {
+      "id": "E:note:row1197:91",
+      "kind": "note_sentence",
+      "display": "Sevelamer 800 mg three times a day. 10.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s91",
+      "text": "Sevelamer 800 mg three times a day. 10."
+    },
+    {
+      "id": "E:note:row1197:92",
+      "kind": "note_sentence",
+      "display": "Calcitriol 0.5 mcg q.d. 11.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s92",
+      "text": "Calcitriol 0.5 mcg q.d. 11."
+    },
+    {
+      "id": "E:note:row1197:93",
+      "kind": "note_sentence",
+      "display": "Vitamin C 500 mg b.i.d. 12.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s93",
+      "text": "Vitamin C 500 mg b.i.d. 12."
+    },
+    {
+      "id": "E:note:row1197:94",
+      "kind": "note_sentence",
+      "display": "Lactulose q. 6 hours as needed for constipation. 13.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s94",
+      "text": "Lactulose q. 6 hours as needed for constipation. 13."
+    },
+    {
+      "id": "E:note:row1197:95",
+      "kind": "note_sentence",
+      "display": "Folic acid 1 mg q.d. 14.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s95",
+      "text": "Folic acid 1 mg q.d. 14."
+    },
+    {
+      "id": "E:note:row1197:96",
+      "kind": "note_sentence",
+      "display": "Levofloxacin 250 mg q. 48 hours for seven days. 15.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s96",
+      "text": "Levofloxacin 250 mg q. 48 hours for seven days. 15."
+    },
+    {
+      "id": "E:note:row1197:97",
+      "kind": "note_sentence",
+      "display": "Erythropoietin injection once per week. 16.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s97",
+      "text": "Erythropoietin injection once per week. 16."
+    },
+    {
+      "id": "E:note:row1197:98",
+      "kind": "note_sentence",
+      "display": "Insulin as per her home regimen.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s98",
+      "text": "Insulin as per her home regimen."
+    },
+    {
+      "id": "E:note:row1197:99",
+      "kind": "note_sentence",
+      "display": "[**First Name8 (NamePattern2) **] [**Name8 (MD) **], M.D.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s99",
+      "text": "[**First Name8 (NamePattern2) **] [**Name8 (MD) **], M.D."
+    },
+    {
+      "id": "E:note:row1197:100",
+      "kind": "note_sentence",
+      "display": "[**MD Number(1) 7585**]  Dictated By:[**Last Name (NamePattern1) 7586**] MEDQUIS",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1197#s100",
+      "text": "[**MD Number(1) 7585**]  Dictated By:[**Last Name (NamePattern1) 7586**] MEDQUIST36  D:  [**2125-8-21**]  12:41 T:  [**2125-8-21**]  12:55 JOB#:  [**Job Number 7587**]"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|2765": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25041": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|40391": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25051": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5990": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4582": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E9426": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8490": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|58381": [
+      "E:cond:9"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "diagnosis": [
+      "E:cond:1",
+      "E:cond:6"
+    ],
+    "diabetes with renal manifestations, type i [juvenile type], not stated as uncontrolled": [
+      "E:cond:2"
+    ],
+    "hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage v or end stage renal disease": [
+      "E:cond:3"
+    ],
+    "diabetes with ophthalmic manifestations, type i [juvenile type], not stated as uncontrolled": [
+      "E:cond:4"
+    ],
+    "urinary tract infection, site not specified": [
+      "E:cond:5"
+    ],
+    "other antihypertensive agents causing adverse effects in therapeutic use": [
+      "E:cond:7"
+    ],
+    "home accidents": [
+      "E:cond:8"
+    ],
+    "nephritis and nephropathy, not specified as acute or chronic, in diseases classified elsewhere": [
+      "E:cond:9"
+    ],
+    "peritoneal dialysis": [
+      "E:proc:1"
+    ],
+    "admission date: [**2125-8-18**] discharge date: [**2125-8-21**] date of": [
+      "E:note:row1197:1"
+    ],
+    "she was recently admitted prior to this admission on [**2125-8-10**] to [**2125-": [
+      "E:note:row1197:2"
+    ],
+    "during that admission she developed a small pericardial effusion.": [
+      "E:note:row1197:3"
+    ],
+    "she had positive aso titer and she developed progressive migratory arthralgias.": [
+      "E:note:row1197:4"
+    ],
+    "she was discharged on prednisone and erythromycin.": [
+      "E:note:row1197:5"
+    ],
+    "on the day of admission she awoke feeling shaky with a temperature of 99, no swe": [
+      "E:note:row1197:6"
+    ],
+    "her fasting sugar was 334.": [
+      "E:note:row1197:7"
+    ],
+    "she went back to sleep and woke up a couple of hours later feeling just generall": [
+      "E:note:row1197:8"
+    ],
+    "she also noted that she had decreased hearing bilaterally.": [
+      "E:note:row1197:9"
+    ],
+    "her fasting sugar at that point was 265 and she administered subcutaneous insuli": [
+      "E:note:row1197:10"
+    ],
+    "her blood pressure at home was measured 44/32 in the emergency room.": [
+      "E:note:row1197:11"
+    ],
+    "when she arrived it was 74/45.": [
+      "E:note:row1197:12"
+    ],
+    "she reports no headache, no sore throat, no cough, no sputum, no shortness of br": [
+      "E:note:row1197:13"
+    ],
+    "the patient was not feeling lightheaded and was mentating properly.": [
+      "E:note:row1197:14"
+    ],
+    "in the emergency room she received 500 cc of fluid and her blood pressure slowly": [
+      "E:note:row1197:15"
+    ],
+    "she also received prednisone, erythromycin, percocet, lactulose and tylenol that": [
+      "E:note:row1197:16"
+    ],
+    "past medical history: 1.": [
+      "E:note:row1197:17"
+    ],
+    "type 1 diabetes diagnosed at age seven.": [
+      "E:note:row1197:18"
+    ],
+    "she is fine from retinopathy. 2.": [
+      "E:note:row1197:19"
+    ],
+    "end-stage renal disease on peritoneal dialysis. 3.": [
+      "E:note:row1197:20"
+    ],
+    "coronary artery disease. 4.": [
+      "E:note:row1197:21"
+    ],
+    "neuropathy. 5.": [
+      "E:note:row1197:22"
+    ],
+    "history of anemia on epogen. 6.": [
+      "E:note:row1197:23"
+    ],
+    "acute rheumatic fever diagnosed on the last admission. 7.": [
+      "E:note:row1197:24"
+    ],
+    "questionable transient ischemic attack about 15 years ago. 8.": [
+      "E:note:row1197:25"
+    ],
+    "history of hypertension.": [
+      "E:note:row1197:26"
+    ],
+    "allergies: keflex causes swelling and itching.": [
+      "E:note:row1197:27"
+    ],
+    "penicillin causes swelling and itching.": [
+      "E:note:row1197:28"
+    ],
+    "medications on admission: 1.": [
+      "E:note:row1197:29"
+    ],
+    "aspirin. 2.": [
+      "E:note:row1197:30"
+    ],
+    "prednisone. 3.": [
+      "E:note:row1197:31"
+    ],
+    "erythromycin. 4.": [
+      "E:note:row1197:32"
+    ],
+    "epoetin. 5.": [
+      "E:note:row1197:33"
+    ],
+    "protonix. 6.": [
+      "E:note:row1197:34"
+    ],
+    "insulin. 7.": [
+      "E:note:row1197:35"
+    ],
+    "ticlopidine. 8.": [
+      "E:note:row1197:36"
+    ],
+    "b12. 9.": [
+      "E:note:row1197:37"
+    ],
+    "calcium. 10.": [
+      "E:note:row1197:38"
+    ],
+    "vitamin c. 11.": [
+      "E:note:row1197:39"
+    ],
+    "lopressor. 12.": [
+      "E:note:row1197:40"
+    ],
+    "calcitriol. 13.": [
+      "E:note:row1197:41"
+    ],
+    "lipitor.": [
+      "E:note:row1197:42"
+    ],
+    "social history: she lives with her husband.": [
+      "E:note:row1197:43"
+    ],
+    "she drinks alcohol socially; no tobacco or drugs.": [
+      "E:note:row1197:44"
+    ],
+    "family history: there is a family history of diabetes.": [
+      "E:note:row1197:45"
+    ],
+    "physical examination: in the emergency room on initial physical examination her": [
+      "E:note:row1197:46"
+    ],
+    "in general she was in no acute distress, alert and oriented.": [
+      "E:note:row1197:47"
+    ],
+    "heent: behind the left tympanic membrane she had a small amount of fluid and th": [
+      "E:note:row1197:48"
+    ],
+    "neck: supple with no lymphadenopathy.": [
+      "E:note:row1197:49"
+    ],
+    "tender to palpation over the trapezoid muscle.": [
+      "E:note:row1197:50"
+    ],
+    "cardiovascular: regular rate and rhythm, no murmurs, gallops, or rubs.": [
+      "E:note:row1197:51"
+    ],
+    "lungs: clear to auscultation bilaterally.": [
+      "E:note:row1197:52"
+    ],
+    "abdomen: positive bowel sounds, mildly distended, nontender.": [
+      "E:note:row1197:53"
+    ],
+    "extremities: warm, 3+ edema to the knee.": [
+      "E:note:row1197:54"
+    ],
+    "laboratory data: on initial laboratory studies she had a sodium of 127, potassi": [
+      "E:note:row1197:55"
+    ],
+    "glucose 196.": [
+      "E:note:row1197:56"
+    ],
+    "hospital course: the patient's beta blocker, lopressor, was held.": [
+      "E:note:row1197:57"
+    ],
+    "her blood pressure remained stable throughout the remainder of her hospitalizati": [
+      "E:note:row1197:58"
+    ],
+    "on the first morning of her hospitalization, [**2125-8-19**], she developed a le": [
+      "E:note:row1197:59"
+    ],
+    "blood cultures, urine cultures and sputum cultures were obtained and antibiotics": [
+      "E:note:row1197:60"
+    ],
+    "the patient was not febrile and had no symptoms of infection.": [
+      "E:note:row1197:61"
+    ],
+    "on [**2125-8-20**] the patient's urine culture showed 10,000 to 100,000 gram-neg": [
+      "E:note:row1197:62"
+    ],
+    "it grew out klebsiella, which was pansensitive.": [
+      "E:note:row1197:63"
+    ],
+    "she was started on levofloxacin.": [
+      "E:note:row1197:64"
+    ],
+    "the patient was also followed by rheumatology throughout her hospitalization.": [
+      "E:note:row1197:65"
+    ],
+    "her esr, crp were also repeated.": [
+      "E:note:row1197:66"
+    ],
+    "crp had decreased from previous admission.": [
+      "E:note:row1197:67"
+    ],
+    "esr had increased from 65 to 122.": [
+      "E:note:row1197:68"
+    ],
+    "she also had a repeat echocardiogram which showed decreasing small effusion.": [
+      "E:note:row1197:69"
+    ],
+    "rheumatology suggested prednisone taper to decrease by 5 mg every day.": [
+      "E:note:row1197:70"
+    ],
+    "the patient was also seen by cardiology.": [
+      "E:note:row1197:71"
+    ],
+    "she was ruled out for an myocardial infarction and they suggested holding her lo": [
+      "E:note:row1197:72"
+    ],
+    "the nephrology service suggested that her lopressor not be restarted until she w": [
+      "E:note:row1197:73"
+    ],
+    "the patient was also closely followed by [**last name (un) **] and suggested tha": [
+      "E:note:row1197:74"
+    ],
+    "the patient's blood pressure remained stable through [**2125-8-21**].": [
+      "E:note:row1197:75"
+    ],
+    "she was discharged to home in stable condition.": [
+      "E:note:row1197:76"
+    ],
+    "discharge diagnoses: hypotension likely secondary to beta blocker, lopressor, t": [
+      "E:note:row1197:77"
+    ],
+    "discharge instructions: the patient is to follow up with nephrology, dr.[**doct": [
+      "E:note:row1197:78"
+    ],
+    "[**last name (stitle) 174**], in the next two weeks; infectious disease at [**te": [
+      "E:note:row1197:79"
+    ],
+    "the patient has the doctor's phone number.": [
+      "E:note:row1197:80"
+    ],
+    "she will also follow up with audiology, patient is to call in one week to make a": [
+      "E:note:row1197:81"
+    ],
+    "discharge medications: 1.": [
+      "E:note:row1197:82"
+    ],
+    "erythromycin 250 mg q. 12 hours. 2.": [
+      "E:note:row1197:83"
+    ],
+    "aspirin 81 mg q. day. 3.": [
+      "E:note:row1197:84"
+    ],
+    "prednisone 25 mg on the [**2125-8-22**], 20 mg on [**2125-8-23**], 15 mg on [**2": [
+      "E:note:row1197:85"
+    ],
+    "pantoprazole 40 mg q.d. 5.": [
+      "E:note:row1197:86"
+    ],
+    "ticlopidine 250 mg b.i.d. 6.": [
+      "E:note:row1197:87"
+    ],
+    "vitamin b12, 50 mcg tablets q.d. 7.": [
+      "E:note:row1197:88"
+    ],
+    "calcium carbonate 500 mg tablets q.d. 8.": [
+      "E:note:row1197:89"
+    ],
+    "atorvastatin 10 mg three times a week. 9.": [
+      "E:note:row1197:90"
+    ],
+    "sevelamer 800 mg three times a day. 10.": [
+      "E:note:row1197:91"
+    ],
+    "calcitriol 0.5 mcg q.d. 11.": [
+      "E:note:row1197:92"
+    ],
+    "vitamin c 500 mg b.i.d. 12.": [
+      "E:note:row1197:93"
+    ],
+    "lactulose q. 6 hours as needed for constipation. 13.": [
+      "E:note:row1197:94"
+    ],
+    "folic acid 1 mg q.d. 14.": [
+      "E:note:row1197:95"
+    ],
+    "levofloxacin 250 mg q. 48 hours for seven days. 15.": [
+      "E:note:row1197:96"
+    ],
+    "erythropoietin injection once per week. 16.": [
+      "E:note:row1197:97"
+    ],
+    "insulin as per her home regimen.": [
+      "E:note:row1197:98"
+    ],
+    "[**first name8 (namepattern2) **] [**name8 (md) **], m.d.": [
+      "E:note:row1197:99"
+    ],
+    "[**md number(1) 7585**] dictated by:[**last name (namepattern1) 7586**] medquis": [
+      "E:note:row1197:100"
+    ]
+  },
+  "by_date": {
+    "2125-08-18": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:proc:1"
+    ]
+  }
+}

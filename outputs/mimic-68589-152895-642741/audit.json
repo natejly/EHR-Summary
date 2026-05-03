@@ -1,0 +1,150 @@
+{
+  "case_id": "mimic-68589-152895-642741",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2031,
+    "summary_chars": 912,
+    "target_min_chars": 406,
+    "target_max_chars": 609,
+    "achieved_ratio": 0.44903988183161003,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 8,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:2",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row642741:1",
+      "E:note:row642741:15",
+      "E:note:row642741:16",
+      "E:note:row642741:2",
+      "E:note:row642741:20",
+      "E:note:row642741:3"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Subdural hemorrhage and other intracranial hemorrhage following fall from 10 ft ladder [E:cond:1][E:cond:2][E:cond:17][E:cond:18][E:cond:19][E:cond:20][E:note:row642741:1].",
+        "severity": "medium",
+        "reason": "The summary specifies a '10 ft ladder', but the fact sheet only mentions 'fall from ladder' without specifying height."
+      },
+      {
+        "sentence": "Symptoms include 3d HA, dizziness, n/v, and 3 witnessed LOC [E:note:row642741:1].",
+        "severity": "high",
+        "reason": "The summary claims '3 witnessed LOC', but the fact sheet explicitly states 'no loss of consciousness' for both hemorrhage entries."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Subdural hemorrhage and other intracranial hemorrhage following fall from 10 ft ladder [E:cond:1][E:cond:2][E:cond:17][E:cond:18][E:cond:19][E:cond:20][E:note:row642741:1].",
+        "suggested": "Subdural hemorrhage and other intracranial hemorrhage following fall from ladder [E:cond:1][E:cond:2][E:cond:17][E:cond:18][E:cond:19][E:cond:20][E:note:row642741:1].",
+        "reason": "Remove unverified height of the ladder."
+      },
+      {
+        "original": "Symptoms include 3d HA, dizziness, n/v, and 3 witnessed LOC [E:note:row642741:1].",
+        "suggested": "Symptoms include 3d HA, dizziness, and n/v [E:note:row642741:1].",
+        "reason": "Remove claim of loss of consciousness as it contradicts the fact sheet."
+      }
+    ]
+  },
+  "review_passed": false,
+  "review_concern_counts": {
+    "high": 1,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-68589-152895-642741/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 9.11,
+    "fk_words": 164,
+    "fk_sentences": 17,
+    "fk_syllables": 291,
+    "chars": 1693,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-68589-152895-642741/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0016216659569181502,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 196.3977562499931,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 246.39514558401424,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0018380420515313745,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 71.13956016703742,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 10.201737124996725,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0032757919980213046,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 12.123997708025854,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

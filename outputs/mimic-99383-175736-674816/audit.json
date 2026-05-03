@@ -1,0 +1,158 @@
+{
+  "case_id": "mimic-99383-175736-674816",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2275,
+    "summary_chars": 1233,
+    "target_min_chars": 455,
+    "target_max_chars": 682,
+    "achieved_ratio": 0.541978021978022,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 8,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:2",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row674816:1",
+      "E:note:row674816:12",
+      "E:note:row674816:15",
+      "E:note:row674816:16",
+      "E:note:row674816:17",
+      "E:note:row674816:2",
+      "E:note:row674816:22",
+      "E:note:row674816:23",
+      "E:note:row674816:26",
+      "E:note:row674816:4",
+      "E:note:row674816:5",
+      "E:note:row674816:6",
+      "E:note:row674816:7",
+      "E:note:row674816:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Patient presents with hemorrhagic Dieulafoy lesion of stomach/duodenum [E:cond:1], upper GI bleed [E:note:row674816:7], and multiple gastric erosion sites [E:note:row674816:12].",
+        "severity": "medium",
+        "reason": "The summary cites evidence IDs [E:note:row674816:7] and [E:note:row674816:12] for GI bleed and gastric erosions, but these IDs are not present in the provided fact sheet."
+      },
+      {
+        "sentence": "Other issues include anoxic brain damage [E:cond:9], cardiac arrest [E:cond:8], alcohol dependence [E:cond:17] with withdrawal [E:note:row674816:17], and acute alcoholic hepatitis [E:cond:16].",
+        "severity": "medium",
+        "reason": "The summary cites evidence IDs [E:cond:17], [E:note:row674816:17], and [E:cond:16], but these are not present in the provided fact sheet."
+      },
+      {
+        "sentence": "Comorbidities include acute pancreatitis [E:cond:2][E:note:row674816:1], septic shock [E:cond:5], severe sepsis [E:cond:4], and acute respiratory [E:cond:6] and kidney failure [E:cond:7].",
+        "severity": "low",
+        "reason": "The summary cites [E:note:row674816:1] for pancreatitis, but this ID is not in the fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Patient presents with hemorrhagic Dieulafoy lesion of stomach/duodenum [E:cond:1], upper GI bleed [E:note:row674816:7], and multiple gastric erosion sites [E:note:row674816:12].",
+        "suggested": "Patient presents with hemorrhagic Dieulafoy lesion of stomach and duodenum [E:cond:1].",
+        "reason": "Remove claims and citations not supported by the provided fact sheet."
+      },
+      {
+        "original": "Comorbidities include acute pancreatitis [E:cond:2][E:note:row674816:1], septic shock [E:cond:5], severe sepsis [E:cond:4], and acute respiratory [E:cond:6] and kidney failure [E:cond:7].",
+        "suggested": "Comorbidities include acute pancreatitis [E:cond:2], septic shock [E:cond:5], severe sepsis [E:cond:4], and acute respiratory [E:cond:6] and kidney failure [E:cond:7].",
+        "reason": "Remove unsupported citation [E:note:row674816:1]."
+      },
+      {
+        "original": "Other issues include anoxic brain damage [E:cond:9], cardiac arrest [E:cond:8], alcohol dependence [E:cond:17] with withdrawal [E:note:row674816:17], and acute alcoholic hepatitis [E:cond:16].",
+        "suggested": "Other issues include anoxic brain damage [E:cond:9] and cardiac arrest [E:cond:8].",
+        "reason": "Remove claims and citations regarding alcohol dependence and hepatitis as they are not in the fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 2,
+    "low": 1
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-99383-175736-674816/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.91,
+    "fk_words": 197,
+    "fk_sentences": 26,
+    "fk_syllables": 343,
+    "chars": 1953,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-99383-175736-674816/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.001636708970181644,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 70.31329954200191,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 88.80754675000207,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0013863749918527901,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 24.315599374996964,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 11.002680625009816,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0022781669977121055,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 28.15102508297423,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

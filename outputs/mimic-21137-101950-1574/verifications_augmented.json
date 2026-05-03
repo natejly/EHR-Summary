@@ -1,0 +1,387 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:2"
+      ],
+      "rationale": "The candidate condition E:cond:2 explicitly lists 'Cardiac arrest' with the matching date of 2173-03-09."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:66"
+      ],
+      "rationale": "The evidence explicitly mentions the patient is status post (s/p) ICD placement."
+    },
+    {
+      "claim_id": "C4",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate procedure occurred on 2173-03-09, which does not match the claim's time reference of 2165."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:23"
+      ],
+      "rationale": "The evidence explicitly states the patient had an AVR in 2165."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:23",
+        "E:note:row1574:68",
+        "E:note:row1574:69",
+        "E:note:row1574:102"
+      ],
+      "rationale": "Multiple evidence items explicitly state the patient is on or was prescribed Coumadin."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:24",
+        "E:note:row1574:90"
+      ],
+      "rationale": "Both candidate sentences explicitly list DM2 as a diagnosis for the patient."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:25"
+      ],
+      "rationale": "The candidate evidence explicitly lists hyperlipidemia as a diagnosis."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:2"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was found to be in CHB."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:2"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is s/p (status post) temporary pacing wire placement."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:3"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has had progressive DOE over the past few weeks."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:4"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient has had increased LE edema recently."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:9"
+      ],
+      "rationale": "The evidence explicitly states that EMS found the patient to be in VF."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:11"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient was nasally intubated in the field."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:15"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient received IV metoprolol."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:15"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient received NTG gtt."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:15"
+      ],
+      "rationale": "The evidence explicitly states the patient received atropine."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:15"
+      ],
+      "rationale": "The evidence explicitly states that the patient received Versed."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:16"
+      ],
+      "rationale": "The candidate evidence explicitly states that the bedside TTE showed an EF of 30-35%."
+    },
+    {
+      "claim_id": "C20",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C21",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:19"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient was given gentamicin."
+    },
+    {
+      "claim_id": "C23",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C24",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:20"
+      ],
+      "rationale": "The candidate evidence explicitly states that a Head CT was performed."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:24"
+      ],
+      "rationale": "The candidate evidence explicitly states the last HgA1C was 7.5."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:24",
+        "E:note:row1574:91",
+        "E:note:row1574:102",
+        "E:note:row1574:111"
+      ],
+      "rationale": "Multiple entries confirm the patient is taking metformin, including medication lists and clinical notes."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:13"
+      ],
+      "rationale": "The patient's condition list explicitly includes 'Unspecified essential hypertension'."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:26",
+        "E:note:row1574:102",
+        "E:note:row1574:109"
+      ],
+      "rationale": "Multiple evidence items explicitly state the patient is taking atenolol."
+    },
+    {
+      "claim_id": "C30",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C31",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C32",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C33",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C34",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C35",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C36",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C37",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:29"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has mild congestive heart failure."
+    },
+    {
+      "claim_id": "C39",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:30"
+      ],
+      "rationale": "The evidence explicitly states that opacity in the left lower lobe indicates aspiration."
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:32"
+      ],
+      "rationale": "The CT head report explicitly lists ethmoid sinusitis as a finding."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:77"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient's deficits are likely due to anoxic encephalopathy."
+    },
+    {
+      "claim_id": "C42",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:116"
+      ],
+      "rationale": "The candidate evidence explicitly lists Ventilator-associated pneumonia as a condition."
+    },
+    {
+      "claim_id": "C43",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:94"
+      ],
+      "rationale": "The evidence explicitly states the patient was switched to levofloxacin."
+    },
+    {
+      "claim_id": "C44",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:92",
+        "E:note:row1574:94"
+      ],
+      "rationale": "Both evidence items explicitly state the patient was treated with and maintained on vancomycin."
+    },
+    {
+      "claim_id": "C45",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:81",
+        "E:note:row1574:89"
+      ],
+      "rationale": "Both candidate sentences explicitly state that the patient received IV Lasix."
+    },
+    {
+      "claim_id": "C46",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:75"
+      ],
+      "rationale": "The evidence explicitly states the patient was maintained on olanzapine."
+    },
+    {
+      "claim_id": "C47",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:65"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient received vitamin K 5mg po on 3-9."
+    },
+    {
+      "claim_id": "C48",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:66"
+      ],
+      "rationale": "The candidate evidence explicitly states that IV heparin was restarted."
+    },
+    {
+      "claim_id": "C49",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row1574:61"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient developed a hematoma from his ICD site."
+    },
+    {
+      "claim_id": "C50",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:6"
+      ],
+      "rationale": "The patient has a recorded diagnosis of Acute diastolic heart failure, which supports the claim of diastolic dysfunction."
+    }
+  ]
+}

@@ -1,0 +1,672 @@
+{
+  "case_id": "mimic-59877-143996-528894",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-14",
+      "source_ref": "urn:uuid:enc-143996",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Other staphylococcal septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "03819",
+        "display": "Other staphylococcal septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-14",
+      "source_ref": "urn:uuid:cond-143996-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute and subacute bacterial endocarditis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4210",
+        "display": "Acute and subacute bacterial endocarditis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-14",
+      "source_ref": "urn:uuid:cond-143996-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Subarachnoid hemorrhage",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "430",
+        "display": "Subarachnoid hemorrhage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-14",
+      "source_ref": "urn:uuid:cond-143996-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute and subacute necrosis of liver",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "570",
+        "display": "Acute and subacute necrosis of liver"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-14",
+      "source_ref": "urn:uuid:cond-143996-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-14",
+      "source_ref": "urn:uuid:cond-143996-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Defibrination syndrome",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2866",
+        "display": "Defibrination syndrome"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-14",
+      "source_ref": "urn:uuid:cond-143996-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-14",
+      "source_ref": "urn:uuid:cond-143996-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Subendocardial infarction, initial episode of care",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41071",
+        "display": "Subendocardial infarction, initial episode of care"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-14",
+      "source_ref": "urn:uuid:cond-143996-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Spontaneous bacterial peritonitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "56723",
+        "display": "Spontaneous bacterial peritonitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-14",
+      "source_ref": "urn:uuid:cond-143996-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Intestinal infection due to Clostridium difficile",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "00845",
+        "display": "Intestinal infection due to Clostridium difficile"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-14",
+      "source_ref": "urn:uuid:cond-143996-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Vascular disorders of kidney",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "59381",
+        "display": "Vascular disorders of kidney"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-14",
+      "source_ref": "urn:uuid:cond-143996-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-14",
+      "source_ref": "urn:uuid:cond-143996-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Malignant neoplasm of head, face, and neck",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1950",
+        "display": "Malignant neoplasm of head, face, and neck"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-14",
+      "source_ref": "urn:uuid:cond-143996-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Cirrhosis of liver without mention of alcohol",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5715",
+        "display": "Cirrhosis of liver without mention of alcohol"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-14",
+      "source_ref": "urn:uuid:cond-143996-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Chronic hepatitis C without mention of hepatic coma",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "07054",
+        "display": "Chronic hepatitis C without mention of hepatic coma"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-14",
+      "source_ref": "urn:uuid:cond-143996-15",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-14",
+      "source_ref": "urn:uuid:proc-143996-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-14",
+      "source_ref": "urn:uuid:proc-143996-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-14",
+      "source_ref": "urn:uuid:proc-143996-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Venous catheterization for renal dialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization for renal dialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-14",
+      "source_ref": "urn:uuid:proc-143996-4",
+      "text": null
+    },
+    {
+      "id": "E:note:row528894:1",
+      "kind": "note_sentence",
+      "display": "51 yo M admitted to [**Hospital1 **] for altered MS(his sister found him earlier",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row528894#s1",
+      "text": "51 yo M admitted to [**Hospital1 **] for altered MS(his sister found him earlier    on [**2-14**] lethargic and she brought him to ED)He had a CT which showed    SAH.He was transfered to [**Hospital1 **].In ED he was intubated for altered MS.Pt in    DIC and CT of head and torso showed stable SAh and multiple septic    emboli and infarcts to kidneys and spleen.In sepsis with lactate of 14    at OSH down to 9.6 here.Pt transferred to MICU for further management."
+    },
+    {
+      "id": "E:note:row528894:2",
+      "kind": "note_sentence",
+      "display": "Subarachnoid hemorrhage (SAH)    Assessment:    Pt with SAH.Rd the pt from ED se",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row528894#s2",
+      "text": "Subarachnoid hemorrhage (SAH)    Assessment:    Pt with SAH.Rd the pt from ED sedated on propofol.CT in ED with stable    bleed with not change from the one done from the OSH."
+    },
+    {
+      "id": "E:note:row528894:3",
+      "kind": "note_sentence",
+      "display": "Action:    Neurosurg following.Q 1hr neuro obs stable.Remains sedated on propofo",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row528894#s3",
+      "text": "Action:    Neurosurg following.Q 1hr neuro obs stable.Remains sedated on propofol    for pt comfort."
+    },
+    {
+      "id": "E:note:row528894:4",
+      "kind": "note_sentence",
+      "display": "Response:    Neuro exam unchanged.Pt localizes to nailbed stimuli.PEARL size 2.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row528894#s4",
+      "text": "Response:    Neuro exam unchanged.Pt localizes to nailbed stimuli.PEARL size 2."
+    },
+    {
+      "id": "E:note:row528894:5",
+      "kind": "note_sentence",
+      "display": "Plan:    Cont Q 1hr neuro checks.CT head in am.Keep INR <1.4 and plts >50 as per",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row528894#s5",
+      "text": "Plan:    Cont Q 1hr neuro checks.CT head in am.Keep INR <1.4 and plts >50 as per    neurosurgery recs."
+    },
+    {
+      "id": "E:note:row528894:6",
+      "kind": "note_sentence",
+      "display": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 11**])    Assessment:  ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row528894#s6",
+      "text": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 11**])    Assessment:    Pt was intubated in ED for acute MS changes.Rd the pt on AC 50%/PEEP    5/TV 530/RR 16.Pt overbreathing on the vent.LS clear."
+    },
+    {
+      "id": "E:note:row528894:7",
+      "kind": "note_sentence",
+      "display": "Action:    Serial ABG.Weaned O2 to 40%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row528894#s7",
+      "text": "Action:    Serial ABG.Weaned O2 to 40%."
+    },
+    {
+      "id": "E:note:row528894:8",
+      "kind": "note_sentence",
+      "display": "Response:    Bld gases good.Sating 99-100%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row528894#s8",
+      "text": "Response:    Bld gases good.Sating 99-100%."
+    },
+    {
+      "id": "E:note:row528894:9",
+      "kind": "note_sentence",
+      "display": "Plan:    Wean in am.Cont AC for now.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row528894#s9",
+      "text": "Plan:    Wean in am.Cont AC for now."
+    },
+    {
+      "id": "E:note:row528894:10",
+      "kind": "note_sentence",
+      "display": "Disseminated Intravascular Coagulation (DIC)    Assessment:    Pt in DIC as from",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row528894#s10",
+      "text": "Disseminated Intravascular Coagulation (DIC)    Assessment:    Pt in DIC as from lab reports  at OSH with plts 7, INR 1.9, and    petachaie."
+    },
+    {
+      "id": "E:note:row528894:11",
+      "kind": "note_sentence",
+      "display": "DIC most likely from malignancy and sepsis.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row528894#s11",
+      "text": "DIC most likely from malignancy and sepsis."
+    },
+    {
+      "id": "E:note:row528894:12",
+      "kind": "note_sentence",
+      "display": "Action:    Pt was given 2 units FFP and 2 units Plts.Got additional 2 units FFP ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row528894#s12",
+      "text": "Action:    Pt was given 2 units FFP and 2 units Plts.Got additional 2 units FFP    and 1 unit plts in ICU."
+    },
+    {
+      "id": "E:note:row528894:13",
+      "kind": "note_sentence",
+      "display": "Response:    Plt count improving.INR.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row528894#s13",
+      "text": "Response:    Plt count improving.INR."
+    },
+    {
+      "id": "E:note:row528894:14",
+      "kind": "note_sentence",
+      "display": "Plan:    Sepsis, Severe (with organ dysfunction)    Assessment:    Pt with temp ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row528894#s14",
+      "text": "Plan:    Sepsis, Severe (with organ dysfunction)    Assessment:    Pt with temp 104 inED and lactate 9.6.Met sepsis criteria.Pt in NSR    with stable BP.Rd 5 lit FB in ED,    Action:    Pan cultured from ED, IV Abx cefepime/gentamycin/vanc now."
+    },
+    {
+      "id": "E:note:row528894:15",
+      "kind": "note_sentence",
+      "display": "Pt rd    additional IV Flagyl in ED.Trending lactate.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row528894#s15",
+      "text": "Pt rd    additional IV Flagyl in ED.Trending lactate."
+    },
+    {
+      "id": "E:note:row528894:16",
+      "kind": "note_sentence",
+      "display": "Response:    Lactate improving.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row528894#s16",
+      "text": "Response:    Lactate improving."
+    },
+    {
+      "id": "E:note:row528894:17",
+      "kind": "note_sentence",
+      "display": "Plan:",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row528894#s17",
+      "text": "Plan:"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|03819": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4210": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|430": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|570": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2866": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41071": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|56723": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|00845": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|59381": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1950": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5715": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|07054": [
+      "E:cond:15"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "other staphylococcal septicemia": [
+      "E:cond:1"
+    ],
+    "acute and subacute bacterial endocarditis": [
+      "E:cond:2"
+    ],
+    "subarachnoid hemorrhage": [
+      "E:cond:3"
+    ],
+    "acute and subacute necrosis of liver": [
+      "E:cond:4"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:5"
+    ],
+    "defibrination syndrome": [
+      "E:cond:6"
+    ],
+    "acute respiratory failure": [
+      "E:cond:7"
+    ],
+    "subendocardial infarction, initial episode of care": [
+      "E:cond:8"
+    ],
+    "spontaneous bacterial peritonitis": [
+      "E:cond:9"
+    ],
+    "intestinal infection due to clostridium difficile": [
+      "E:cond:10"
+    ],
+    "vascular disorders of kidney": [
+      "E:cond:11"
+    ],
+    "severe sepsis": [
+      "E:cond:12"
+    ],
+    "malignant neoplasm of head, face, and neck": [
+      "E:cond:13"
+    ],
+    "cirrhosis of liver without mention of alcohol": [
+      "E:cond:14"
+    ],
+    "chronic hepatitis c without mention of hepatic coma": [
+      "E:cond:15"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:1"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:2"
+    ],
+    "percutaneous abdominal drainage": [
+      "E:proc:3"
+    ],
+    "venous catheterization for renal dialysis": [
+      "E:proc:4"
+    ],
+    "51 yo m admitted to [**hospital1 **] for altered ms(his sister found him earlier": [
+      "E:note:row528894:1"
+    ],
+    "subarachnoid hemorrhage (sah) assessment: pt with sah.rd the pt from ed se": [
+      "E:note:row528894:2"
+    ],
+    "action: neurosurg following.q 1hr neuro obs stable.remains sedated on propofo": [
+      "E:note:row528894:3"
+    ],
+    "response: neuro exam unchanged.pt localizes to nailbed stimuli.pearl size 2.": [
+      "E:note:row528894:4"
+    ],
+    "plan: cont q 1hr neuro checks.ct head in am.keep inr <1.4 and plts >50 as per": [
+      "E:note:row528894:5"
+    ],
+    "respiratory failure, acute (not ards/[**doctor last name 11**]) assessment:": [
+      "E:note:row528894:6"
+    ],
+    "action: serial abg.weaned o2 to 40%.": [
+      "E:note:row528894:7"
+    ],
+    "response: bld gases good.sating 99-100%.": [
+      "E:note:row528894:8"
+    ],
+    "plan: wean in am.cont ac for now.": [
+      "E:note:row528894:9"
+    ],
+    "disseminated intravascular coagulation (dic) assessment: pt in dic as from": [
+      "E:note:row528894:10"
+    ],
+    "dic most likely from malignancy and sepsis.": [
+      "E:note:row528894:11"
+    ],
+    "action: pt was given 2 units ffp and 2 units plts.got additional 2 units ffp": [
+      "E:note:row528894:12"
+    ],
+    "response: plt count improving.inr.": [
+      "E:note:row528894:13"
+    ],
+    "plan: sepsis, severe (with organ dysfunction) assessment: pt with temp": [
+      "E:note:row528894:14"
+    ],
+    "pt rd additional iv flagyl in ed.trending lactate.": [
+      "E:note:row528894:15"
+    ],
+    "response: lactate improving.": [
+      "E:note:row528894:16"
+    ],
+    "plan:": [
+      "E:note:row528894:17"
+    ]
+  },
+  "by_date": {
+    "2153-02-14": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4"
+    ]
+  }
+}

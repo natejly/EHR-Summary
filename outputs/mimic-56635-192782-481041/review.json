@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Additional findings include R groin hematoma [E:cond:7], generalized edema [E:note:row481041:38], and essential hypertension [E:cond:19].",
+      "severity": "medium",
+      "reason": "The summary specifies 'R groin hematoma', but the fact sheet only states 'Hematoma complicating a procedure' without specifying the location."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Additional findings include R groin hematoma [E:cond:7], generalized edema [E:note:row481041:38], and essential hypertension [E:cond:19].",
+      "suggested": "Additional findings include hematoma complicating a procedure [E:cond:7], generalized edema [E:note:row481041:38], and essential hypertension [E:cond:19].",
+      "reason": "Corrects the location of the hematoma to match the provided evidence."
+    }
+  ]
+}

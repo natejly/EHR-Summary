@@ -1,0 +1,166 @@
+{
+  "case_id": "mimic-86585-123444-546150",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2785,
+    "summary_chars": 1300,
+    "target_min_chars": 557,
+    "target_max_chars": 835,
+    "achieved_ratio": 0.466786355475763,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 14,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:13",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:7",
+      "E:cond:8",
+      "E:note:row546150:1",
+      "E:note:row546150:14",
+      "E:note:row546150:17",
+      "E:note:row546150:18",
+      "E:note:row546150:20",
+      "E:note:row546150:22",
+      "E:note:row546150:25",
+      "E:note:row546150:27",
+      "E:note:row546150:6",
+      "E:note:row546150:7",
+      "E:note:row546150:8",
+      "E:note:row546150:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "History of CABG [E:note:row546150:1], I-CMP [E:note:row546150:1], coronary atherosclerosis [E:cond:7], atrial fibrillation [E:cond:8], and mitral valve disorders [E:cond:11].",
+        "severity": "medium",
+        "reason": "The summary cites E:note:row546150:1 for CABG and I-CMP, but these specific terms are not present in the provided fact sheet."
+      },
+      {
+        "sentence": "Chronic kidney disease [E:cond:10] and chronic anemia [E:note:row546150:25].",
+        "severity": "medium",
+        "reason": "The summary describes anemia as 'chronic', but the fact sheet only lists 'Anemia, unspecified' and a HCT drop."
+      },
+      {
+        "sentence": "Stage II pressure ulcer [E:cond:13] and impaired skin integrity [E:note:row546150:22].",
+        "severity": "medium",
+        "reason": "The term 'impaired skin integrity' is not present in the provided fact sheet."
+      },
+      {
+        "sentence": "Patient is a smoker [E:note:row546150:27].",
+        "severity": "high",
+        "reason": "The fact sheet lists E:note:row546150:27 as a plan to monitor HCTs/transfuse, not as evidence of smoking status."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "History of CABG [E:note:row546150:1], I-CMP [E:note:row546150:1], coronary atherosclerosis [E:cond:7], atrial fibrillation [E:cond:8], and mitral valve disorders [E:cond:11].",
+        "suggested": "History of coronary atherosclerosis [E:cond:7], atrial fibrillation [E:cond:8], and mitral valve disorders [E:cond:11].",
+        "reason": "Remove unsupported claims regarding CABG and I-CMP."
+      },
+      {
+        "original": "Chronic kidney disease [E:cond:10] and chronic anemia [E:note:row546150:25].",
+        "suggested": "Chronic kidney disease [E:cond:10] and anemia [E:note:row546150:25].",
+        "reason": "Remove the word 'chronic' from anemia as it is not specified in the fact sheet."
+      },
+      {
+        "original": "Stage II pressure ulcer [E:cond:13] and impaired skin integrity [E:note:row546150:22].",
+        "suggested": "Stage II pressure ulcer [E:cond:13].",
+        "reason": "Remove 'impaired skin integrity' as it is not in the fact sheet."
+      },
+      {
+        "original": "Patient is a smoker [E:note:row546150:27].",
+        "suggested": "",
+        "reason": "Remove this sentence entirely as it is not supported by the fact sheet and misuses the citation."
+      }
+    ]
+  },
+  "review_passed": false,
+  "review_concern_counts": {
+    "high": 1,
+    "medium": 3,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-86585-123444-546150/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.94,
+    "fk_words": 193,
+    "fk_sentences": 19,
+    "fk_syllables": 320,
+    "chars": 1737,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-86585-123444-546150/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0019582079839892685,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 165.27982108399738,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 113.8609650839935,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0028506669914349914,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 68.35249774996191,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 40.485789333004504,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0030796670471318066,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 62.141980958986096,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

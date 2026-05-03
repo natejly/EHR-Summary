@@ -1,0 +1,26 @@
+{
+  "concerns": [
+    {
+      "sentence": "Malignant hepatic flexure mass with obstruction/bleeding [E:cond:1].",
+      "severity": "medium",
+      "reason": "The fact sheet only mentions 'Malignant neoplasm of hepatic flexure'; obstruction and bleeding are not documented in the provided evidence."
+    },
+    {
+      "sentence": "Failed extubation [E:note:row545713:8][E:note:row545713:24].",
+      "severity": "medium",
+      "reason": "This claim is not supported by the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Malignant hepatic flexure mass with obstruction/bleeding [E:cond:1].",
+      "suggested": "Malignant neoplasm of hepatic flexure [E:cond:1].",
+      "reason": "Remove unsupported claims of obstruction and bleeding."
+    },
+    {
+      "original": "Failed extubation [E:note:row545713:8][E:note:row545713:24].",
+      "suggested": "",
+      "reason": "Remove sentence as it is not supported by the provided fact sheet."
+    }
+  ]
+}

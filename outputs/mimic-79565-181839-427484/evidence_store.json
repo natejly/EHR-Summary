@@ -1,0 +1,1507 @@
+{
+  "case_id": "mimic-79565-181839-427484",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:enc-181839",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Other ulcerative colitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5568",
+        "display": "Other ulcerative colitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Nutritional marasmus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "261",
+        "display": "Nutritional marasmus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Pneumonia in aspergillosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4846",
+        "display": "Pneumonia in aspergillosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Aspergillosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1173",
+        "display": "Aspergillosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Blood in stool",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5781",
+        "display": "Blood in stool"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Acute posthemorrhagic anemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2851",
+        "display": "Acute posthemorrhagic anemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Acute venous embolism and thrombosis of deep vessels of proximal lower extremity",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "45341",
+        "display": "Acute venous embolism and thrombosis of deep vessels of proximal lower extremity"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Other specified forms of effusion, except tuberculous",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51189",
+        "display": "Other specified forms of effusion, except tuberculous"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Alkalosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2763",
+        "display": "Alkalosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Paralytic ileus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5601",
+        "display": "Paralytic ileus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Unspecified acquired hypothyroidism",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2449",
+        "display": "Unspecified acquired hypothyroidism"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Other disorders of plasma protein metabolism",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2738",
+        "display": "Other disorders of plasma protein metabolism"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Edema",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7823",
+        "display": "Edema"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Pressure ulcer, lower back",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70703",
+        "display": "Pressure ulcer, lower back"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Pressure ulcer, heel",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70707",
+        "display": "Pressure ulcer, heel"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Pressure ulcer, stage II",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70722",
+        "display": "Pressure ulcer, stage II"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Other emphysema",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4928",
+        "display": "Other emphysema"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Thrombocytopenia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2875",
+        "display": "Thrombocytopenia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Cardiac arrest",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4275",
+        "display": "Cardiac arrest"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Old myocardial infarction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "412",
+        "display": "Old myocardial infarction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Personal history of malignant neoplasm of bronchus and lung",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V1011",
+        "display": "Personal history of malignant neoplasm of bronchus and lung"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Personal history of malignant neoplasm of prostate",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V1046",
+        "display": "Personal history of malignant neoplasm of prostate"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Percutaneous transluminal coronary angioplasty status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4582",
+        "display": "Percutaneous transluminal coronary angioplasty status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:25",
+      "kind": "condition",
+      "display": "Personal history of tobacco use",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V1582",
+        "display": "Personal history of tobacco use"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-25",
+      "text": null
+    },
+    {
+      "id": "E:cond:26",
+      "kind": "condition",
+      "display": "Encounter for palliative care",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V667",
+        "display": "Encounter for palliative care"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:cond-181839-26",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Interruption of the vena cava",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Interruption of the vena cava"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:proc-181839-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of rectum",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of rectum"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:proc-181839-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Flexible sigmoidoscopy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Flexible sigmoidoscopy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:proc-181839-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Fiber-optic bronchoscopy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Fiber-optic bronchoscopy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:proc-181839-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:proc-181839-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Parenteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Parenteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:proc-181839-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:proc-181839-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Transfusion of packed cells",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of packed cells"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:proc-181839-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Transfusion of platelets",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of platelets"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:proc-181839-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:proc-181839-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2146-11-23",
+      "source_ref": "urn:uuid:proc-181839-11",
+      "text": null
+    },
+    {
+      "id": "E:note:row427484:1",
+      "kind": "note_sentence",
+      "display": "Mr. [**Known lastname 3957**] is a 74 year old male with a history of ulcerative",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s1",
+      "text": "Mr. [**Known lastname 3957**] is a 74 year old male with a history of ulcerative colitis    now on prolonged immunosuppressive therapy, coronary artery disease and    non-small cell lung cancer s/p VATs and left upper lobectomy in    [**2146-11-4**] who is transferred to the ICU for increasing oxygen    requirements and tacypnea.Patient was continued on solumedrol and also    given cyclosporine."
+    },
+    {
+      "id": "E:note:row427484:2",
+      "kind": "note_sentence",
+      "display": "Also found to have left DVT and started heparin    and bridged to coumadin.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s2",
+      "text": "Also found to have left DVT and started heparin    and bridged to coumadin."
+    },
+    {
+      "id": "E:note:row427484:3",
+      "kind": "note_sentence",
+      "display": "On [**12-5**], decreased oxygen saturation and    dyspnea.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s3",
+      "text": "On [**12-5**], decreased oxygen saturation and    dyspnea."
+    },
+    {
+      "id": "E:note:row427484:4",
+      "kind": "note_sentence",
+      "display": "CT scan on [**12-6**] revealed left hydropneumothorax and also    bilateral infi",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s4",
+      "text": "CT scan on [**12-6**] revealed left hydropneumothorax and also    bilateral infiltrates consistent with multi-focal pneumonia."
+    },
+    {
+      "id": "E:note:row427484:5",
+      "kind": "note_sentence",
+      "display": "Started    on levofloxacin and flagyl and then started Vancomycin and zosyn [**1",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s5",
+      "text": "Started    on levofloxacin and flagyl and then started Vancomycin and zosyn [**12-7**]    Over past 48 hours, oxygenation has worsened."
+    },
+    {
+      "id": "E:note:row427484:6",
+      "kind": "note_sentence",
+      "display": "Also, had drop in    hematocrit from 27 to 22 this am.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s6",
+      "text": "Also, had drop in    hematocrit from 27 to 22 this am."
+    },
+    {
+      "id": "E:note:row427484:7",
+      "kind": "note_sentence",
+      "display": "Transfused with 2 units prbc.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s7",
+      "text": "Transfused with 2 units prbc."
+    },
+    {
+      "id": "E:note:row427484:8",
+      "kind": "note_sentence",
+      "display": "Delirium / confusion    Assessment:    Difficult to assess at times d/t tachypne",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s8",
+      "text": "Delirium / confusion    Assessment:    Difficult to assess at times d/t tachypnea, wearing mask, hard to hear    with mask on."
+    },
+    {
+      "id": "E:note:row427484:9",
+      "kind": "note_sentence",
+      "display": "Lethargic but easily arousable.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s9",
+      "text": "Lethargic but easily arousable."
+    },
+    {
+      "id": "E:note:row427484:10",
+      "kind": "note_sentence",
+      "display": "Oriented x3 with cueing.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s10",
+      "text": "Oriented x3 with cueing."
+    },
+    {
+      "id": "E:note:row427484:11",
+      "kind": "note_sentence",
+      "display": "No signs of agitation but does require calming down after repositioned    as he ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s11",
+      "text": "No signs of agitation but does require calming down after repositioned    as he gets very winded and desats if mask off even for a few seconds."
+    },
+    {
+      "id": "E:note:row427484:12",
+      "kind": "note_sentence",
+      "display": "Reported by night nurse to have appeared sundowning  over the last    several ni",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s12",
+      "text": "Reported by night nurse to have appeared sundowning  over the last    several nights."
+    },
+    {
+      "id": "E:note:row427484:13",
+      "kind": "note_sentence",
+      "display": "Cooperative with care this shift.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s13",
+      "text": "Cooperative with care this shift."
+    },
+    {
+      "id": "E:note:row427484:14",
+      "kind": "note_sentence",
+      "display": "Action:    Oriented with cueing.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s14",
+      "text": "Action:    Oriented with cueing."
+    },
+    {
+      "id": "E:note:row427484:15",
+      "kind": "note_sentence",
+      "display": "Safety precautions with bed alarm on, 3 side    rails up, call light within reac",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s15",
+      "text": "Safety precautions with bed alarm on, 3 side    rails up, call light within reach."
+    },
+    {
+      "id": "E:note:row427484:16",
+      "kind": "note_sentence",
+      "display": "Response:    Oriented and cooperative with care    Plan:    Continue to assess m",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s16",
+      "text": "Response:    Oriented and cooperative with care    Plan:    Continue to assess mental status, reorient prn, safety precautions."
+    },
+    {
+      "id": "E:note:row427484:17",
+      "kind": "note_sentence",
+      "display": "Anemia, acute, secondary to blood loss (Hemorrhage, Bleeding)    Assessment:    ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s17",
+      "text": "Anemia, acute, secondary to blood loss (Hemorrhage, Bleeding)    Assessment:    Am hct was 22. pt lethargic but arousable."
+    },
+    {
+      "id": "E:note:row427484:18",
+      "kind": "note_sentence",
+      "display": "Oriented x3, sbp in    90s-100s. remains tachycardic in 100s with frequent pvcs.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s18",
+      "text": "Oriented x3, sbp in    90s-100s. remains tachycardic in 100s with frequent pvcs. 2  15 beat    runs vtach-pt asymptomatic."
+    },
+    {
+      "id": "E:note:row427484:19",
+      "kind": "note_sentence",
+      "display": "Am k 4.0, mag 1.9, phosphate 2.4. no bm    today-pt did try on bedpan today.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s19",
+      "text": "Am k 4.0, mag 1.9, phosphate 2.4. no bm    today-pt did try on bedpan today."
+    },
+    {
+      "id": "E:note:row427484:20",
+      "kind": "note_sentence",
+      "display": "Action:    Received 2 units prbc (one on previous shift and one this shift).",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s20",
+      "text": "Action:    Received 2 units prbc (one on previous shift and one this shift)."
+    },
+    {
+      "id": "E:note:row427484:21",
+      "kind": "note_sentence",
+      "display": "Magnesium, calcium repleted.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s21",
+      "text": "Magnesium, calcium repleted."
+    },
+    {
+      "id": "E:note:row427484:22",
+      "kind": "note_sentence",
+      "display": "Phosphate being repleted with iv kphos.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s22",
+      "text": "Phosphate being repleted with iv kphos."
+    },
+    {
+      "id": "E:note:row427484:23",
+      "kind": "note_sentence",
+      "display": "Response:    Pm hct stable at 28.7, pm k 8.1 not hemolyzed-repeat k sent off ven",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s23",
+      "text": "Response:    Pm hct stable at 28.7, pm k 8.1 not hemolyzed-repeat k sent off venous    blood gas: 4.1. ionlized calcium 1.12. ekg with no changes [**Name8 (MD) **] md."
+    },
+    {
+      "id": "E:note:row427484:24",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue to monitor hct, guaiac all stool, monitor and replete lytes.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s24",
+      "text": "Plan:    Continue to monitor hct, guaiac all stool, monitor and replete lytes."
+    },
+    {
+      "id": "E:note:row427484:25",
+      "kind": "note_sentence",
+      "display": "Impaired Skin Integrity    Assessment:    Pt with documented stage 2 pressure ul",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s25",
+      "text": "Impaired Skin Integrity    Assessment:    Pt with documented stage 2 pressure ulcer on coccyx-last changed on    days [**12-8**] with duoderm gel and allyven."
+    },
+    {
+      "id": "E:note:row427484:26",
+      "kind": "note_sentence",
+      "display": "Also with old areas of    dehision on left mid axillary area from vats with tega",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s26",
+      "text": "Also with old areas of    dehision on left mid axillary area from vats with tegaderm in upper    area and nu-gauze and 4x4 in lower area, intact."
+    },
+    {
+      "id": "E:note:row427484:27",
+      "kind": "note_sentence",
+      "display": "Action:    Wound care rn up to change dressings.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s27",
+      "text": "Action:    Wound care rn up to change dressings."
+    },
+    {
+      "id": "E:note:row427484:28",
+      "kind": "note_sentence",
+      "display": "Coccyx dressing a stage 3    wound care note for details.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s28",
+      "text": "Coccyx dressing a stage 3    wound care note for details."
+    },
+    {
+      "id": "E:note:row427484:29",
+      "kind": "note_sentence",
+      "display": "Aquacell applied until aquacell ag    available. 4x4 and softsorb on top of aqua",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s29",
+      "text": "Aquacell applied until aquacell ag    available. 4x4 and softsorb on top of aquacell."
+    },
+    {
+      "id": "E:note:row427484:30",
+      "kind": "note_sentence",
+      "display": "Tegaderm left on upper    area of left mid axillary area.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s30",
+      "text": "Tegaderm left on upper    area of left mid axillary area."
+    },
+    {
+      "id": "E:note:row427484:31",
+      "kind": "note_sentence",
+      "display": "Dressing on lower part of axilla    changed with duoderm gel applied on wound wi",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s31",
+      "text": "Dressing on lower part of axilla    changed with duoderm gel applied on wound with 4x4 on top."
+    },
+    {
+      "id": "E:note:row427484:32",
+      "kind": "note_sentence",
+      "display": "Response:    Wounds appear more extensive than last documented.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s32",
+      "text": "Response:    Wounds appear more extensive than last documented."
+    },
+    {
+      "id": "E:note:row427484:33",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue dressing changes daily to coccyx and left mid axillary area as",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s33",
+      "text": "Plan:    Continue dressing changes daily to coccyx and left mid axillary area as    directed."
+    },
+    {
+      "id": "E:note:row427484:34",
+      "kind": "note_sentence",
+      "display": "Wound care rn to follow prn. Respiratory failure, acute (not ARDS/[**Doctor Last",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s34",
+      "text": "Wound care rn to follow prn. Respiratory failure, acute (not ARDS/[**Doctor Last Name 11**])    Assessment:    Lungs diminished with crackles at bases."
+    },
+    {
+      "id": "E:note:row427484:35",
+      "kind": "note_sentence",
+      "display": "Occasionally with scattered    wheezing.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s35",
+      "text": "Occasionally with scattered    wheezing."
+    },
+    {
+      "id": "E:note:row427484:36",
+      "kind": "note_sentence",
+      "display": "Desats very easily with any exertion to the mid  to upper 80s    even with mask ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s36",
+      "text": "Desats very easily with any exertion to the mid  to upper 80s    even with mask on."
+    },
+    {
+      "id": "E:note:row427484:37",
+      "kind": "note_sentence",
+      "display": "Desats to low 80s with mask off-pt found with mask    off intermittently.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s37",
+      "text": "Desats to low 80s with mask off-pt found with mask    off intermittently."
+    },
+    {
+      "id": "E:note:row427484:38",
+      "kind": "note_sentence",
+      "display": "Dry cough.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s38",
+      "text": "Dry cough."
+    },
+    {
+      "id": "E:note:row427484:39",
+      "kind": "note_sentence",
+      "display": "Pt slightly restless in early evening    but easily redirected.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s39",
+      "text": "Pt slightly restless in early evening    but easily redirected."
+    },
+    {
+      "id": "E:note:row427484:40",
+      "kind": "note_sentence",
+      "display": "Had witnessed aspiration last eve.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s40",
+      "text": "Had witnessed aspiration last eve."
+    },
+    {
+      "id": "E:note:row427484:41",
+      "kind": "note_sentence",
+      "display": "Over 1 liter    positive.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s41",
+      "text": "Over 1 liter    positive."
+    },
+    {
+      "id": "E:note:row427484:42",
+      "kind": "note_sentence",
+      "display": "Action:    Pt encouraged to cough and deep breathe.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s42",
+      "text": "Action:    Pt encouraged to cough and deep breathe."
+    },
+    {
+      "id": "E:note:row427484:43",
+      "kind": "note_sentence",
+      "display": "Vbg in afternoon: 7.51/30/27    (abg in am was 7.57/26/139).",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s43",
+      "text": "Vbg in afternoon: 7.51/30/27    (abg in am was 7.57/26/139)."
+    },
+    {
+      "id": "E:note:row427484:44",
+      "kind": "note_sentence",
+      "display": "Speech and swallow eval deferred d/t    witnessed aspiration while drinking yest",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s44",
+      "text": "Speech and swallow eval deferred d/t    witnessed aspiration while drinking yesterday."
+    },
+    {
+      "id": "E:note:row427484:45",
+      "kind": "note_sentence",
+      "display": "Given 20mg iv lasix.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s45",
+      "text": "Given 20mg iv lasix."
+    },
+    {
+      "id": "E:note:row427484:46",
+      "kind": "note_sentence",
+      "display": "Response:    Continues to desat with minimal activity, remains alkalotic but    ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s46",
+      "text": "Response:    Continues to desat with minimal activity, remains alkalotic but    acceptable vbg."
+    },
+    {
+      "id": "E:note:row427484:47",
+      "kind": "note_sentence",
+      "display": "Diuresing well in early afternoon but still 500cc +.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s47",
+      "text": "Diuresing well in early afternoon but still 500cc +."
+    },
+    {
+      "id": "E:note:row427484:48",
+      "kind": "note_sentence",
+      "display": "Given an additional 20mg iv Lasix at 18:30, awaiting response.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s48",
+      "text": "Given an additional 20mg iv Lasix at 18:30, awaiting response."
+    },
+    {
+      "id": "E:note:row427484:49",
+      "kind": "note_sentence",
+      "display": "Plan:    Monitor resp status, encourage to cough and deep breathe, iv abx.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s49",
+      "text": "Plan:    Monitor resp status, encourage to cough and deep breathe, iv abx."
+    },
+    {
+      "id": "E:note:row427484:50",
+      "kind": "note_sentence",
+      "display": "Continue to monitor fluid status with goal of 1 liter negative.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row427484#s50",
+      "text": "Continue to monitor fluid status with goal of 1 liter negative."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|5568": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|261": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4846": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1173": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5781": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2851": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|45341": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51189": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2763": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5601": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2449": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2738": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7823": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70703": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70707": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70722": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4928": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2875": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4275": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|412": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V1011": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V1046": [
+      "E:cond:23"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4582": [
+      "E:cond:24"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V1582": [
+      "E:cond:25"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V667": [
+      "E:cond:26"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "other ulcerative colitis": [
+      "E:cond:1"
+    ],
+    "nutritional marasmus": [
+      "E:cond:2"
+    ],
+    "acute respiratory failure": [
+      "E:cond:3"
+    ],
+    "pneumonia in aspergillosis": [
+      "E:cond:4"
+    ],
+    "aspergillosis": [
+      "E:cond:5"
+    ],
+    "blood in stool": [
+      "E:cond:6"
+    ],
+    "acute posthemorrhagic anemia": [
+      "E:cond:7"
+    ],
+    "acute venous embolism and thrombosis of deep vessels of proximal lower extremity": [
+      "E:cond:8"
+    ],
+    "other specified forms of effusion, except tuberculous": [
+      "E:cond:9"
+    ],
+    "alkalosis": [
+      "E:cond:10"
+    ],
+    "paralytic ileus": [
+      "E:cond:11"
+    ],
+    "unspecified acquired hypothyroidism": [
+      "E:cond:12"
+    ],
+    "other disorders of plasma protein metabolism": [
+      "E:cond:13"
+    ],
+    "edema": [
+      "E:cond:14"
+    ],
+    "pressure ulcer, lower back": [
+      "E:cond:15"
+    ],
+    "pressure ulcer, heel": [
+      "E:cond:16"
+    ],
+    "pressure ulcer, stage ii": [
+      "E:cond:17"
+    ],
+    "other emphysema": [
+      "E:cond:18"
+    ],
+    "thrombocytopenia, unspecified": [
+      "E:cond:19"
+    ],
+    "cardiac arrest": [
+      "E:cond:20"
+    ],
+    "old myocardial infarction": [
+      "E:cond:21"
+    ],
+    "personal history of malignant neoplasm of bronchus and lung": [
+      "E:cond:22"
+    ],
+    "personal history of malignant neoplasm of prostate": [
+      "E:cond:23"
+    ],
+    "percutaneous transluminal coronary angioplasty status": [
+      "E:cond:24"
+    ],
+    "personal history of tobacco use": [
+      "E:cond:25"
+    ],
+    "encounter for palliative care": [
+      "E:cond:26"
+    ],
+    "interruption of the vena cava": [
+      "E:proc:1"
+    ],
+    "closed [endoscopic] biopsy of rectum": [
+      "E:proc:2"
+    ],
+    "flexible sigmoidoscopy": [
+      "E:proc:3"
+    ],
+    "fiber-optic bronchoscopy": [
+      "E:proc:4"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:5",
+      "E:proc:7"
+    ],
+    "parenteral infusion of concentrated nutritional substances": [
+      "E:proc:6"
+    ],
+    "transfusion of packed cells": [
+      "E:proc:8"
+    ],
+    "transfusion of platelets": [
+      "E:proc:9"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:10"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:11"
+    ],
+    "mr. [**known lastname 3957**] is a 74 year old male with a history of ulcerative": [
+      "E:note:row427484:1"
+    ],
+    "also found to have left dvt and started heparin and bridged to coumadin.": [
+      "E:note:row427484:2"
+    ],
+    "on [**12-5**], decreased oxygen saturation and dyspnea.": [
+      "E:note:row427484:3"
+    ],
+    "ct scan on [**12-6**] revealed left hydropneumothorax and also bilateral infi": [
+      "E:note:row427484:4"
+    ],
+    "started on levofloxacin and flagyl and then started vancomycin and zosyn [**1": [
+      "E:note:row427484:5"
+    ],
+    "also, had drop in hematocrit from 27 to 22 this am.": [
+      "E:note:row427484:6"
+    ],
+    "transfused with 2 units prbc.": [
+      "E:note:row427484:7"
+    ],
+    "delirium / confusion assessment: difficult to assess at times d/t tachypne": [
+      "E:note:row427484:8"
+    ],
+    "lethargic but easily arousable.": [
+      "E:note:row427484:9"
+    ],
+    "oriented x3 with cueing.": [
+      "E:note:row427484:10"
+    ],
+    "no signs of agitation but does require calming down after repositioned as he": [
+      "E:note:row427484:11"
+    ],
+    "reported by night nurse to have appeared sundowning over the last several ni": [
+      "E:note:row427484:12"
+    ],
+    "cooperative with care this shift.": [
+      "E:note:row427484:13"
+    ],
+    "action: oriented with cueing.": [
+      "E:note:row427484:14"
+    ],
+    "safety precautions with bed alarm on, 3 side rails up, call light within reac": [
+      "E:note:row427484:15"
+    ],
+    "response: oriented and cooperative with care plan: continue to assess m": [
+      "E:note:row427484:16"
+    ],
+    "anemia, acute, secondary to blood loss (hemorrhage, bleeding) assessment:": [
+      "E:note:row427484:17"
+    ],
+    "oriented x3, sbp in 90s-100s. remains tachycardic in 100s with frequent pvcs.": [
+      "E:note:row427484:18"
+    ],
+    "am k 4.0, mag 1.9, phosphate 2.4. no bm today-pt did try on bedpan today.": [
+      "E:note:row427484:19"
+    ],
+    "action: received 2 units prbc (one on previous shift and one this shift).": [
+      "E:note:row427484:20"
+    ],
+    "magnesium, calcium repleted.": [
+      "E:note:row427484:21"
+    ],
+    "phosphate being repleted with iv kphos.": [
+      "E:note:row427484:22"
+    ],
+    "response: pm hct stable at 28.7, pm k 8.1 not hemolyzed-repeat k sent off ven": [
+      "E:note:row427484:23"
+    ],
+    "plan: continue to monitor hct, guaiac all stool, monitor and replete lytes.": [
+      "E:note:row427484:24"
+    ],
+    "impaired skin integrity assessment: pt with documented stage 2 pressure ul": [
+      "E:note:row427484:25"
+    ],
+    "also with old areas of dehision on left mid axillary area from vats with tega": [
+      "E:note:row427484:26"
+    ],
+    "action: wound care rn up to change dressings.": [
+      "E:note:row427484:27"
+    ],
+    "coccyx dressing a stage 3 wound care note for details.": [
+      "E:note:row427484:28"
+    ],
+    "aquacell applied until aquacell ag available. 4x4 and softsorb on top of aqua": [
+      "E:note:row427484:29"
+    ],
+    "tegaderm left on upper area of left mid axillary area.": [
+      "E:note:row427484:30"
+    ],
+    "dressing on lower part of axilla changed with duoderm gel applied on wound wi": [
+      "E:note:row427484:31"
+    ],
+    "response: wounds appear more extensive than last documented.": [
+      "E:note:row427484:32"
+    ],
+    "plan: continue dressing changes daily to coccyx and left mid axillary area as": [
+      "E:note:row427484:33"
+    ],
+    "wound care rn to follow prn. respiratory failure, acute (not ards/[**doctor last": [
+      "E:note:row427484:34"
+    ],
+    "occasionally with scattered wheezing.": [
+      "E:note:row427484:35"
+    ],
+    "desats very easily with any exertion to the mid to upper 80s even with mask": [
+      "E:note:row427484:36"
+    ],
+    "desats to low 80s with mask off-pt found with mask off intermittently.": [
+      "E:note:row427484:37"
+    ],
+    "dry cough.": [
+      "E:note:row427484:38"
+    ],
+    "pt slightly restless in early evening but easily redirected.": [
+      "E:note:row427484:39"
+    ],
+    "had witnessed aspiration last eve.": [
+      "E:note:row427484:40"
+    ],
+    "over 1 liter positive.": [
+      "E:note:row427484:41"
+    ],
+    "action: pt encouraged to cough and deep breathe.": [
+      "E:note:row427484:42"
+    ],
+    "vbg in afternoon: 7.51/30/27 (abg in am was 7.57/26/139).": [
+      "E:note:row427484:43"
+    ],
+    "speech and swallow eval deferred d/t witnessed aspiration while drinking yest": [
+      "E:note:row427484:44"
+    ],
+    "given 20mg iv lasix.": [
+      "E:note:row427484:45"
+    ],
+    "response: continues to desat with minimal activity, remains alkalotic but": [
+      "E:note:row427484:46"
+    ],
+    "diuresing well in early afternoon but still 500cc +.": [
+      "E:note:row427484:47"
+    ],
+    "given an additional 20mg iv lasix at 18:30, awaiting response.": [
+      "E:note:row427484:48"
+    ],
+    "plan: monitor resp status, encourage to cough and deep breathe, iv abx.": [
+      "E:note:row427484:49"
+    ],
+    "continue to monitor fluid status with goal of 1 liter negative.": [
+      "E:note:row427484:50"
+    ]
+  },
+  "by_date": {
+    "2146-11-23": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11"
+    ]
+  }
+}

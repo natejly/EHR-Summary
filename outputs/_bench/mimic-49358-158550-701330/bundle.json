@@ -1,0 +1,246 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-49358-158550",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-49358",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-49358",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-158550",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-158550",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2100-09-04T00:00:00",
+          "end": "2100-10-10T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-158550-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-158550-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0389",
+              "display": "Unspecified septicemia"
+            }
+          ],
+          "text": "Unspecified septicemia"
+        },
+        "onsetDateTime": "2100-09-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-158550-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-158550-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2100-09-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-158550-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-158550-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5185",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2100-09-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-158550-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-158550-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "53150",
+              "display": "Chronic or unspecified gastric ulcer with perforation, without mention of obstruction"
+            }
+          ],
+          "text": "Chronic or unspecified gastric ulcer with perforation, without mention of obstruction"
+        },
+        "onsetDateTime": "2100-09-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-158550-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-158550-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5601",
+              "display": "Paralytic ileus"
+            }
+          ],
+          "text": "Paralytic ileus"
+        },
+        "onsetDateTime": "2100-09-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-158550-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-158550-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99592",
+              "display": "Severe sepsis"
+            }
+          ],
+          "text": "Severe sepsis"
+        },
+        "onsetDateTime": "2100-09-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-158550-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-158550-1",
+        "status": "completed",
+        "code": {
+          "text": "Temporary tracheostomy"
+        },
+        "performedDateTime": "2100-09-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-158550-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-158550-2",
+        "status": "completed",
+        "code": {
+          "text": "Parenteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2100-09-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-158550-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-158550-3",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2100-09-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-158550-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-158550-4",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2100-09-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-158550-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-158550-5",
+        "status": "completed",
+        "code": {
+          "text": "Diagnostic ultrasound of heart"
+        },
+        "performedDateTime": "2100-09-04"
+      }
+    }
+  ]
+}

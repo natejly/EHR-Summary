@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Other complications due to renal dialysis device, implant, and graft [E:cond:8] is missing from the summary.",
+      "severity": "medium",
+      "reason": "A significant complication related to dialysis is omitted from the active problems list."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Acute kidney failure [E:cond:3], hyperosmolality/hypernatremia [E:cond:5], and severe sepsis/septicemia [E:cond:6][E:cond:7].",
+      "suggested": "Acute kidney failure [E:cond:3], complications due to renal dialysis device, implant, and graft [E:cond:8], hyperosmolality/hypernatremia [E:cond:5], and severe sepsis/septicemia [E:cond:6][E:cond:7].",
+      "reason": "Include missing dialysis-related complication from the fact sheet."
+    }
+  ]
+}

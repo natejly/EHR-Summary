@@ -1,0 +1,681 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-56201-104808",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-56201",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-56201",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-104808",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-104808",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2107-01-10T00:00:00",
+          "end": "2107-02-01T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-104808-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-104808-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4239",
+              "display": "Unspecified disease of pericardium"
+            }
+          ],
+          "text": "Unspecified disease of pericardium"
+        },
+        "onsetDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-104808-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-104808-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "486",
+              "display": "Pneumonia, organism unspecified"
+            }
+          ],
+          "text": "Pneumonia, organism unspecified"
+        },
+        "onsetDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-104808-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-104808-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-104808-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-104808-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "43491",
+              "display": "Cerebral artery occlusion, unspecified with cerebral infarction"
+            }
+          ],
+          "text": "Cerebral artery occlusion, unspecified with cerebral infarction"
+        },
+        "onsetDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-104808-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-104808-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-104808-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-104808-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "34982",
+              "display": "Toxic encephalopathy"
+            }
+          ],
+          "text": "Toxic encephalopathy"
+        },
+        "onsetDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-104808-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-104808-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2760",
+              "display": "Hyperosmolality and/or hypernatremia"
+            }
+          ],
+          "text": "Hyperosmolality and/or hypernatremia"
+        },
+        "onsetDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-104808-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-104808-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2762",
+              "display": "Acidosis"
+            }
+          ],
+          "text": "Acidosis"
+        },
+        "onsetDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-104808-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-104808-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5119",
+              "display": "Unspecified pleural effusion"
+            }
+          ],
+          "text": "Unspecified pleural effusion"
+        },
+        "onsetDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-104808-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-104808-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42820",
+              "display": "Systolic heart failure, unspecified"
+            }
+          ],
+          "text": "Systolic heart failure, unspecified"
+        },
+        "onsetDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-104808-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-104808-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2639",
+              "display": "Unspecified protein-calorie malnutrition"
+            }
+          ],
+          "text": "Unspecified protein-calorie malnutrition"
+        },
+        "onsetDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-104808-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-104808-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42732",
+              "display": "Atrial flutter"
+            }
+          ],
+          "text": "Atrial flutter"
+        },
+        "onsetDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-104808-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-104808-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4611",
+              "display": "Dependence on respirator, status"
+            }
+          ],
+          "text": "Dependence on respirator, status"
+        },
+        "onsetDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-104808-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-104808-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4233",
+              "display": "Cardiac tamponade"
+            }
+          ],
+          "text": "Cardiac tamponade"
+        },
+        "onsetDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-104808-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-104808-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2859",
+              "display": "Anemia, unspecified"
+            }
+          ],
+          "text": "Anemia, unspecified"
+        },
+        "onsetDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-104808-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-104808-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-104808-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-104808-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "59970",
+              "display": "Hematuria, unspecified"
+            }
+          ],
+          "text": "Hematuria, unspecified"
+        },
+        "onsetDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-104808-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-104808-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "60000",
+              "display": "Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)"
+            }
+          ],
+          "text": "Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)"
+        },
+        "onsetDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-104808-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-104808-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42731",
+              "display": "Atrial fibrillation"
+            }
+          ],
+          "text": "Atrial fibrillation"
+        },
+        "onsetDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-104808-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-104808-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25000",
+              "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-104808-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-104808-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-104808-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-104808-1",
+        "status": "completed",
+        "code": {
+          "text": "Right heart cardiac catheterization"
+        },
+        "performedDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-104808-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-104808-2",
+        "status": "completed",
+        "code": {
+          "text": "Pericardiocentesis"
+        },
+        "performedDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-104808-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-104808-3",
+        "status": "completed",
+        "code": {
+          "text": "Thoracentesis"
+        },
+        "performedDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-104808-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-104808-4",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous [endoscopic] gastrostomy [PEG]"
+        },
+        "performedDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-104808-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-104808-5",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-104808-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-104808-6",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-104808-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-104808-7",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-104808-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-104808-8",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-104808-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-104808-9",
+        "status": "completed",
+        "code": {
+          "text": "Other bronchoscopy"
+        },
+        "performedDateTime": "2107-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-104808-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-104808-10",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2107-01-10"
+      }
+    }
+  ]
+}

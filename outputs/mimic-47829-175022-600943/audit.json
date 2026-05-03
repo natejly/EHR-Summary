@@ -1,0 +1,139 @@
+{
+  "case_id": "mimic-47829-175022-600943",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2733,
+    "summary_chars": 1024,
+    "target_min_chars": 546,
+    "target_max_chars": 819,
+    "achieved_ratio": 0.37467983900475665,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 8,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row600943:16",
+      "E:note:row600943:25",
+      "E:note:row600943:26",
+      "E:note:row600943:27",
+      "E:note:row600943:3",
+      "E:note:row600943:6",
+      "E:note:row600943:8",
+      "E:note:row600943:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Also noted: hypotension [E:cond:11], corneal ulcer [E:cond:12], internal hemorrhoids [E:cond:13], constipation [E:cond:14], hypertension [E:cond:15], diaphragmatic hernia [E:cond:16], cardiac dysrhythmias [E:cond:17], back/neck pain [E:note:row600943:3][E:note:row600943:26], and dyspnea [E:note:row600943:16].",
+        "severity": "medium",
+        "reason": "The summary includes several conditions (diaphragmatic hernia, cardiac dysrhythmias, back/neck pain, dyspnea) that are not present in the provided fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Also noted: hypotension [E:cond:11], corneal ulcer [E:cond:12], internal hemorrhoids [E:cond:13], constipation [E:cond:14], hypertension [E:cond:15], diaphragmatic hernia [E:cond:16], cardiac dysrhythmias [E:cond:17], back/neck pain [E:note:row600943:3][E:note:row600943:26], and dyspnea [E:note:row600943:16].",
+        "suggested": "Also noted: hypotension [E:cond:11], corneal ulcer [E:cond:12], internal hemorrhoids [E:cond:13], constipation [E:cond:14], and hypertension [E:cond:15].",
+        "reason": "Remove conditions not supported by the provided fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-47829-175022-600943/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.79,
+    "fk_words": 225,
+    "fk_sentences": 20,
+    "fk_syllables": 343,
+    "chars": 1842,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-47829-175022-600943/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0031234160414896905,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 130.23997287498787,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 48.5107702499954,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.002926916000433266,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 15.176618625002448,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 10.64586008299375,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.001569500018376857,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 13.304628915968351,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

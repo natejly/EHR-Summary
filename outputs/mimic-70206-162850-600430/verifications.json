@@ -1,0 +1,384 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:29",
+        "E:cond:30"
+      ],
+      "rationale": "The patient has a documented diagnosis of Diabetes mellitus type I."
+    },
+    {
+      "claim_id": "C2",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C3",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C4",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates indicate a history of chemotherapy as of 2145, but do not provide specific dates to verify the claim's time reference of 2141-2142."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:15",
+        "E:cond:16"
+      ],
+      "rationale": "The patient has two recorded diagnoses of cirrhosis of the liver."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:3"
+      ],
+      "rationale": "The evidence explicitly states the patient was admitted on 8-27 for shortness of breath."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:3"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was admitted on 8-27 for AMS."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:3"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was admitted on 8-27 for confusion."
+    },
+    {
+      "claim_id": "C10",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:1",
+        "E:cond:2"
+      ],
+      "rationale": "The patient has a recorded diagnosis of hepatic encephalopathy in the structured condition list."
+    },
+    {
+      "claim_id": "C12",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C13",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:4"
+      ],
+      "rationale": "The evidence explicitly states that the patient was given fluids."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:4"
+      ],
+      "rationale": "The evidence explicitly states that the patient was given dopamine."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:4"
+      ],
+      "rationale": "The candidate evidence explicitly states that Levo/Vanco was given to the patient."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:4"
+      ],
+      "rationale": "The evidence explicitly states the patient was given medications for hypotension."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:5"
+      ],
+      "rationale": "The evidence explicitly states the patient developed respiratory distress on 8-30."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:5"
+      ],
+      "rationale": "The evidence explicitly states the patient developed hypoxemia on 8-30."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:5"
+      ],
+      "rationale": "The evidence explicitly states the patient was intubated on 8-30."
+    },
+    {
+      "claim_id": "C21",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence items refer to a history of irradiation and do not mention ARDS."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:7"
+      ],
+      "rationale": "The evidence explicitly states the patient was worked up with an EEG."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:7"
+      ],
+      "rationale": "The candidate evidence explicitly states that the EEG showed toxic metabolic slowing."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:7"
+      ],
+      "rationale": "The evidence explicitly states the patient was worked up with a head CT."
+    },
+    {
+      "claim_id": "C25",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The claim specifies a 'negative' lab result but does not specify which lab; the candidates mention negative results for a head CT, cultures, and bronchoscopy, but none are identified as the specific lab result intended by the claim."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:1",
+        "E:cond:2"
+      ],
+      "rationale": "The patient has two structured condition entries for hepatic encephalopathy."
+    },
+    {
+      "claim_id": "C27",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C28",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:33",
+        "E:cond:34"
+      ],
+      "rationale": "The patient is documented as having morbid obesity, which supports the diagnosis of obesity."
+    },
+    {
+      "claim_id": "C30",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence items refer to acute kidney failure and do not mention a tracheostomy procedure or Shiley trach."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:9"
+      ],
+      "rationale": "The candidate evidence explicitly states the course was complicated by recurrent fevers to 101-102."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:10"
+      ],
+      "rationale": "The candidate evidence explicitly states that all cultures were negative."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:11"
+      ],
+      "rationale": "The evidence explicitly mentions the results of a bronchoscopy, confirming the procedure was performed."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:11"
+      ],
+      "rationale": "The candidate evidence explicitly states the bronchoscopy was negative except for the specified entity."
+    },
+    {
+      "claim_id": "C35",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:12"
+      ],
+      "rationale": "The candidate evidence explicitly states there is no evidence of ascites on US or abdominal scans."
+    },
+    {
+      "claim_id": "C36",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:13"
+      ],
+      "rationale": "The candidate evidence explicitly states that the gallbladder was shown to be enlarged."
+    },
+    {
+      "claim_id": "C37",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:13"
+      ],
+      "rationale": "The evidence explicitly states that a PCBD was placed on 9-2."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:14"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient had a creatinine (Cr) range of 0.7-1."
+    },
+    {
+      "claim_id": "C39",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence contains information about irradiation history and does not mention creatinine (Cr) levels."
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:35",
+        "E:cond:36"
+      ],
+      "rationale": "The patient has two recorded diagnoses of unspecified hematuria dated 2145-09-20."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:15"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has had persistent thrombocytopenia with values in the 60s-120s."
+    },
+    {
+      "claim_id": "C42",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C43",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:16"
+      ],
+      "rationale": "The candidate evidence explicitly mentions the patient's history of gastric lap banding."
+    },
+    {
+      "claim_id": "C44",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:16"
+      ],
+      "rationale": "The candidate evidence explicitly states that surgery had to release the band for OG placement."
+    },
+    {
+      "claim_id": "C45",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:17"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Alteration in Nutrition' as part of the assessment/diagnosis section."
+    },
+    {
+      "claim_id": "C46",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate conditions mention altered mental status."
+    },
+    {
+      "claim_id": "C47",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:7",
+        "E:cond:8",
+        "E:cond:19",
+        "E:cond:20",
+        "E:cond:21",
+        "E:cond:22"
+      ],
+      "rationale": "Decubitus ulcer is the clinical term for pressure ulcer, and multiple candidates confirm the presence of pressure ulcers."
+    },
+    {
+      "claim_id": "C48",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:29",
+        "E:cond:30"
+      ],
+      "rationale": "The candidates explicitly list a diagnosis of Type I Diabetes Mellitus."
+    },
+    {
+      "claim_id": "C49",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the candidate conditions match the diagnosis of 'Electrolyte & fluid disorder, other'."
+    },
+    {
+      "claim_id": "C50",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row600430:15"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'coagulopathy' as one of the patient's persistent issues."
+    }
+  ]
+}

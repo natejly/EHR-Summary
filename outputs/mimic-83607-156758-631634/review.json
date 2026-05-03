@@ -1,0 +1,21 @@
+{
+  "concerns": [
+    {
+      "sentence": "Other acute issues include acute respiratory failure [E:cond:6], encephalopathy [E:cond:7], and C. difficile intestinal infection [E:cond:11] with profuse diarrhea [E:note:row631634:9].",
+      "severity": "medium",
+      "reason": "The summary attributes 'profuse diarrhea' to E:note:row631634:9, but the fact sheet lists that evidence ID as 'persistent fevers'."
+    },
+    {
+      "sentence": "Leni scan showed no clot [E:note:row631634:7].",
+      "severity": "low",
+      "reason": "The term 'Leni scan' appears to be a transcription error from the fact sheet's 'Leni s done', which is likely a misspelling of 'Leg scan' or similar; it should be presented as written or flagged."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Other acute issues include acute respiratory failure [E:cond:6], encephalopathy [E:cond:7], and C. difficile intestinal infection [E:cond:11] with profuse diarrhea [E:note:row631634:9].",
+      "suggested": "Other acute issues include acute respiratory failure [E:cond:6], encephalopathy [E:cond:7], and C. difficile intestinal infection [E:cond:11].",
+      "reason": "Removed 'profuse diarrhea' as it is not supported by the cited evidence (which refers to fevers)."
+    }
+  ]
+}

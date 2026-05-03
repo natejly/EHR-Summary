@@ -1,0 +1,312 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:1"
+      ],
+      "rationale": "The evidence explicitly states the patient has a history of hepatitis."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:1"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'HCV' as part of the patient's history."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:1"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'EtOH abuse' as part of the patient's history."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:1"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is s/p (status post) fall in jail."
+    },
+    {
+      "claim_id": "C5",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:3"
+      ],
+      "rationale": "The candidate evidence explicitly lists a diagnosis of esophageal varices with bleeding."
+    },
+    {
+      "claim_id": "C7",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:3"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient was intubated."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:3"
+      ],
+      "rationale": "The evidence explicitly states the patient had a witnessed aspiration event at an outside hospital."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:4"
+      ],
+      "rationale": "The candidate evidence explicitly states that since admission to [**Hospital1 19**], the patient has been re-scoped."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:5"
+      ],
+      "rationale": "The evidence explicitly states the patient received 2 units of PRBCs."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:12"
+      ],
+      "rationale": "The evidence confirms a hematocrit (Hct) value of 30.9, which supports the claim of HCT 30."
+    },
+    {
+      "claim_id": "C13",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:6"
+      ],
+      "rationale": "The evidence explicitly mentions a 'head CT at OSH'."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:8"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient presented with an elevated white count."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:8"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient presented with bandemia."
+    },
+    {
+      "claim_id": "C17",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:9"
+      ],
+      "rationale": "The evidence explicitly states that the patient has been pan cultured."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:9",
+        "E:note:row477434:41"
+      ],
+      "rationale": "Both evidence items explicitly state the patient is being treated with broad spectrum antibiotics."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:10"
+      ],
+      "rationale": "The candidate evidence contains the exact text of the claim."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:11"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Gastrointestinal bleed, upper (Melena, GI Bleed, GIB)' as part of the assessment."
+    },
+    {
+      "claim_id": "C22",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list contains a procedure for endoscopy of the small intestine, but no record of an EGD with band placement."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:12"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Hct 30.9', which matches the claim value."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:16",
+        "E:note:row477434:19"
+      ],
+      "rationale": "Both candidate sentences explicitly state that the patient remains on or continues Protonix."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:16"
+      ],
+      "rationale": "The evidence explicitly states the patient remains on Octreotide gtts."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:20"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Respiratory failure, acute' in the assessment section."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:23"
+      ],
+      "rationale": "The candidate evidence explicitly states that a bronchoscopy was performed at the bedside."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:24"
+      ],
+      "rationale": "The candidate evidence explicitly states that the ABG was sent."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:27"
+      ],
+      "rationale": "The candidate evidence explicitly lists Vanco as a medication."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:27"
+      ],
+      "rationale": "The evidence explicitly lists Zosyn as a medication being administered."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:28"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Altered mental status' in the Plan section."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:33"
+      ],
+      "rationale": "The evidence explicitly states the patient remains on rifaximin."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:33"
+      ],
+      "rationale": "The evidence explicitly states the patient remains on lactulose."
+    },
+    {
+      "claim_id": "C34",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C35",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C36",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:37"
+      ],
+      "rationale": "The candidate evidence explicitly states the WBC value is 26.8."
+    },
+    {
+      "claim_id": "C37",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:38"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Pan cx s [**8-4**]', confirming the procedure on the specified date."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:39"
+      ],
+      "rationale": "The evidence explicitly states that Tylenol was given to the patient."
+    },
+    {
+      "claim_id": "C39",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:40"
+      ],
+      "rationale": "The candidate evidence explicitly states that BAL was sent following a bronchoscopy."
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row477434:42"
+      ],
+      "rationale": "The candidate evidence explicitly states that the temperature is down to 101.7."
+    }
+  ]
+}

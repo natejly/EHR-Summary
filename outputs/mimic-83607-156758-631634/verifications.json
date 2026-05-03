@@ -1,0 +1,358 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:10",
+        "E:note:row631634:2"
+      ],
+      "rationale": "Both the structured condition record and the note sentence explicitly state the patient has Hepatitis B."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row631634:2"
+      ],
+      "rationale": "The candidate evidence explicitly lists autoimmune cholangiopathy as a condition the patient has."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row631634:2"
+      ],
+      "rationale": "The candidate evidence explicitly lists ESRD as one of the patient's conditions."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:20",
+        "E:cond:22",
+        "E:cond:24",
+        "E:cond:25"
+      ],
+      "rationale": "Multiple condition entries explicitly document various manifestations of diabetes."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row631634:2"
+      ],
+      "rationale": "The candidate evidence explicitly lists HTN as one of the patient's conditions."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate conditions mention CVA (cerebrovascular accident) or left-sided weakness."
+    },
+    {
+      "claim_id": "C7",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list procedures for abdominal drainage, but does not explicitly state a diagnosis of abdominal wall abscess."
+    },
+    {
+      "claim_id": "C9",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C10",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate evidence items mention a closure of gastrostomy."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence refers to the removal of a device from the thorax, which does not specifically confirm a PEG (percutaneous endoscopic gastrostomy) removal."
+    },
+    {
+      "claim_id": "C12",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C13",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C14",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C15",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C16",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row631634:18"
+      ],
+      "rationale": "The candidate evidence explicitly mentions 'Hypotension' in the assessment section of the note."
+    },
+    {
+      "claim_id": "C18",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row631634:6"
+      ],
+      "rationale": "The evidence explicitly states that the patient had a paracentesis done."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row631634:6"
+      ],
+      "rationale": "The candidate evidence explicitly states that the paracentesis was done without evidence of SBP."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row631634:7"
+      ],
+      "rationale": "The candidate evidence explicitly states that the Leni was done and showed no clot."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row631634:7"
+      ],
+      "rationale": "The candidate evidence explicitly states that the upper extremity US showed an old RIJ clot."
+    },
+    {
+      "claim_id": "C23",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:5"
+      ],
+      "rationale": "Portal vein thrombosis is clinically synonymous with a portal vein clot."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row631634:9"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has persistent fevers."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row631634:9"
+      ],
+      "rationale": "The evidence explicitly states the patient has profuse diarrhea."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row631634:10"
+      ],
+      "rationale": "The evidence explicitly states the patient had a fever of 103 on 4-11."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row631634:11"
+      ],
+      "rationale": "The candidate evidence explicitly mentions '? possible febrile sz' in the clinical note."
+    },
+    {
+      "claim_id": "C29",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate conditions mention confusion or arm flapping."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row631634:12"
+      ],
+      "rationale": "The candidate evidence explicitly states that the CT scan was negative."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row631634:13"
+      ],
+      "rationale": "The evidence explicitly states the patient is 'HD dependant' and references the date 4-12."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row631634:14"
+      ],
+      "rationale": "The evidence explicitly states the patient was given 2mg dilaudid at 5am on 4-14."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row631634:16"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was found with a respiratory rate (RR) of 4."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row631634:16"
+      ],
+      "rationale": "The evidence explicitly states the patient was found to be hypotensive."
+    },
+    {
+      "claim_id": "C35",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row631634:17"
+      ],
+      "rationale": "The evidence explicitly states that the patient was intubated."
+    },
+    {
+      "claim_id": "C36",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C37",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:14"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Acute venous embolism and thrombosis of deep veins of upper extremity', which matches the claim of upper extremity clots."
+    },
+    {
+      "claim_id": "C39",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C40",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C41",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C42",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C43",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C44",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C45",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate evidence items mention the medication propofol or the dosage 20mcgs/kg."
+    },
+    {
+      "claim_id": "C46",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided candidates describe mechanical ventilation and renal dialysis catheterization, with no mention of a Head CT or bleeding."
+    },
+    {
+      "claim_id": "C47",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list existing conditions and complications, but none mention a plan for a central line to be placed by the MICU."
+    },
+    {
+      "claim_id": "C48",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence consists of condition diagnoses and does not mention any planned imaging or CT scans."
+    },
+    {
+      "claim_id": "C49",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence lists conditions related to infections and vascular devices, but contains no information regarding ventilator weaning plans."
+    },
+    {
+      "claim_id": "C50",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list a diagnosis of severe sepsis, but there is no evidence of a future plan to monitor for it."
+    },
+    {
+      "claim_id": "C51",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    }
+  ]
+}

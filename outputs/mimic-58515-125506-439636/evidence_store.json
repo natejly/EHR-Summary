@@ -1,0 +1,963 @@
+{
+  "case_id": "mimic-58515-125506-439636",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:enc-125506",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Acute pancreatitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5770",
+        "display": "Acute pancreatitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:cond-125506-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Subendocardial infarction, initial episode of care",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41071",
+        "display": "Subendocardial infarction, initial episode of care"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:cond-125506-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Cholangitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5761",
+        "display": "Cholangitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:cond-125506-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Calculus of bile duct without mention of cholecystitis, with obstruction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "57451",
+        "display": "Calculus of bile duct without mention of cholecystitis, with obstruction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:cond-125506-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Unspecified septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0389",
+        "display": "Unspecified septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:cond-125506-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:cond-125506-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:cond-125506-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:cond-125506-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Septic shock",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78552",
+        "display": "Septic shock"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:cond-125506-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Chronic systolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42822",
+        "display": "Chronic systolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:cond-125506-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Intestinal infection due to Clostridium difficile",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "00845",
+        "display": "Intestinal infection due to Clostridium difficile"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:cond-125506-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Paralytic ileus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5601",
+        "display": "Paralytic ileus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:cond-125506-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:cond-125506-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:cond-125506-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25000",
+        "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:cond-125506-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of native coronary artery",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41401",
+        "display": "Coronary atherosclerosis of native coronary artery"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:cond-125506-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "40390",
+        "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:cond-125506-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Chronic kidney disease, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5859",
+        "display": "Chronic kidney disease, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:cond-125506-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Other specified forms of hearing loss",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3898",
+        "display": "Other specified forms of hearing loss"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:cond-125506-19",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Endoscopic insertion of stent (tube) into bile duct",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Endoscopic insertion of stent (tube) into bile duct"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:proc-125506-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Endoscopic removal of stone(s) from biliary tract",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Endoscopic removal of stone(s) from biliary tract"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:proc-125506-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Endoscopic sphincterotomy and papillotomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Endoscopic sphincterotomy and papillotomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:proc-125506-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:proc-125506-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:proc-125506-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Venous catheterization for renal dialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization for renal dialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:proc-125506-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Hemodialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Hemodialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:proc-125506-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:proc-125506-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:proc-125506-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Parenteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Parenteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:proc-125506-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2122-12-19",
+      "source_ref": "urn:uuid:proc-125506-11",
+      "text": null
+    },
+    {
+      "id": "E:note:row439636:1",
+      "kind": "note_sentence",
+      "display": "FULL CODE    CC:  cholangitis, pancreatitis, respiratory failure, HOTN    83 yo ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row439636#s1",
+      "text": "FULL CODE    CC:  cholangitis, pancreatitis, respiratory failure, HOTN    83 yo M, Russian speaking only and deaf, presented to [**Hospital1 19**] ED with    sharp RUQ pain, worsening over 2d."
+    },
+    {
+      "id": "E:note:row439636:2",
+      "kind": "note_sentence",
+      "display": "In ED was tachy to 115, EKG with    nonspecific changes, increased AST/ALT, lipa",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row439636#s2",
+      "text": "In ED was tachy to 115, EKG with    nonspecific changes, increased AST/ALT, lipase 2650, CT abd/pelvis    revealed CBD stone and pancreatic head inflammation."
+    },
+    {
+      "id": "E:note:row439636:3",
+      "kind": "note_sentence",
+      "display": "Admitted to Fin    MICU for ERCP.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row439636#s3",
+      "text": "Admitted to Fin    MICU for ERCP."
+    },
+    {
+      "id": "E:note:row439636:4",
+      "kind": "note_sentence",
+      "display": "Intubated for procedure, two stones retrieved, one in    common hepatic duct and",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row439636#s4",
+      "text": "Intubated for procedure, two stones retrieved, one in    common hepatic duct and one in ampulla; sphincterotomy performed."
+    },
+    {
+      "id": "E:note:row439636:5",
+      "kind": "note_sentence",
+      "display": "Hypotensive post induction and neo started (1mg/kg/min) in GI suite.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row439636#s5",
+      "text": "Hypotensive post induction and neo started (1mg/kg/min) in GI suite."
+    },
+    {
+      "id": "E:note:row439636:6",
+      "kind": "note_sentence",
+      "display": "PMH:  HTN, DM II, Congenital Deafness (Russian sign), CAD (fixed apical    myoca",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row439636#s6",
+      "text": "PMH:  HTN, DM II, Congenital Deafness (Russian sign), CAD (fixed apical    myocardial defect with EF 40% [**5-/2121**]), Osteoarthritis, Bifasicular    block, L subclavian steal syndrome    Pt extubated at beginning of shift, minimal secretions."
+    },
+    {
+      "id": "E:note:row439636:7",
+      "kind": "note_sentence",
+      "display": "Has been on 2L    NC overnight, LSCTA b/l and satting 96%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row439636#s7",
+      "text": "Has been on 2L    NC overnight, LSCTA b/l and satting 96%."
+    },
+    {
+      "id": "E:note:row439636:8",
+      "kind": "note_sentence",
+      "display": "Myocardial infarction, acute (AMI, STEMI, NSTEMI)    Assessment:    Pt in SR, HR",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row439636#s8",
+      "text": "Myocardial infarction, acute (AMI, STEMI, NSTEMI)    Assessment:    Pt in SR, HR initially in high 80 s,  PVC s frequently observed, no    runs V-tach, denies CP."
+    },
+    {
+      "id": "E:note:row439636:9",
+      "kind": "note_sentence",
+      "display": "Increasing tachycardia overnoc, now w/ HR back    to 115.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row439636#s9",
+      "text": "Increasing tachycardia overnoc, now w/ HR back    to 115."
+    },
+    {
+      "id": "E:note:row439636:10",
+      "kind": "note_sentence",
+      "display": "T-max=100.1, endorses abd pain, BP s WNL    Action:    NS bolus 500cc x2, 250cc ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row439636#s10",
+      "text": "T-max=100.1, endorses abd pain, BP s WNL    Action:    NS bolus 500cc x2, 250cc x1, am labs sent, repeat EKG    Response:    Boluses well tolerated and slightly improved u/o but not HR."
+    },
+    {
+      "id": "E:note:row439636:11",
+      "kind": "note_sentence",
+      "display": "Narcotic    administered for pain with moderate effect on pt comfort but also no",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row439636#s11",
+      "text": "Narcotic    administered for pain with moderate effect on pt comfort but also no    effect on HR."
+    },
+    {
+      "id": "E:note:row439636:12",
+      "kind": "note_sentence",
+      "display": "EKG confirms sinus tach w/o additional changes.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row439636#s12",
+      "text": "EKG confirms sinus tach w/o additional changes."
+    },
+    {
+      "id": "E:note:row439636:13",
+      "kind": "note_sentence",
+      "display": "Hct    =39, down from 42.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row439636#s13",
+      "text": "Hct    =39, down from 42."
+    },
+    {
+      "id": "E:note:row439636:14",
+      "kind": "note_sentence",
+      "display": "Troponin =1.00, up from .89    Plan:    Continue to monitor HR/BP, pain control,",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row439636#s14",
+      "text": "Troponin =1.00, up from .89    Plan:    Continue to monitor HR/BP, pain control, monitor fever curve    Pancreatitis, acute    Assessment:    Lipase 2650."
+    },
+    {
+      "id": "E:note:row439636:15",
+      "kind": "note_sentence",
+      "display": "Pt with abdominal pain.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row439636#s15",
+      "text": "Pt with abdominal pain."
+    },
+    {
+      "id": "E:note:row439636:16",
+      "kind": "note_sentence",
+      "display": "Belly became increasingly    distended and firm overnight.  +BS in all four quad",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row439636#s16",
+      "text": "Belly became increasingly    distended and firm overnight.  +BS in all four quadrants, + flatus    Action:    IV vancomycin and zosyn as ordered, IVF boluses x3, IVF running at    150cc/hr, KUB, am labs sent, pain control    Response:    Lipase down to 1702."
+    },
+    {
+      "id": "E:note:row439636:17",
+      "kind": "note_sentence",
+      "display": "WBC climbed to 24.3.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row439636#s17",
+      "text": "WBC climbed to 24.3."
+    },
+    {
+      "id": "E:note:row439636:18",
+      "kind": "note_sentence",
+      "display": "KUB pending.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row439636#s18",
+      "text": "KUB pending."
+    },
+    {
+      "id": "E:note:row439636:19",
+      "kind": "note_sentence",
+      "display": "Morphine 1mg    IV x2, 2mg IV x2 with pt now getting some relief and resting.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row439636#s19",
+      "text": "Morphine 1mg    IV x2, 2mg IV x2 with pt now getting some relief and resting."
+    },
+    {
+      "id": "E:note:row439636:20",
+      "kind": "note_sentence",
+      "display": "ABX well    tol    Plan:    Zosyn only due this am.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row439636#s20",
+      "text": "ABX well    tol    Plan:    Zosyn only due this am."
+    },
+    {
+      "id": "E:note:row439636:21",
+      "kind": "note_sentence",
+      "display": "Continue IVF at 150cc/hr for liter #2, f/u on    KUB, monitor bowel sounds, tend",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row439636#s21",
+      "text": "Continue IVF at 150cc/hr for liter #2, f/u on    KUB, monitor bowel sounds, tenderness."
+    },
+    {
+      "id": "E:note:row439636:22",
+      "kind": "note_sentence",
+      "display": "Morphine 2-3mg IV prn pain    Son, [**Name (NI) 5449**] telephoned for update ov",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row439636#s22",
+      "text": "Morphine 2-3mg IV prn pain    Son, [**Name (NI) 5449**] telephoned for update overnight."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|5770": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41071": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5761": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|57451": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|0389": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78552": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42822": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|00845": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5601": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2762": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25000": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41401": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|40390": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5859": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3898": [
+      "E:cond:19"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "acute pancreatitis": [
+      "E:cond:1"
+    ],
+    "subendocardial infarction, initial episode of care": [
+      "E:cond:2"
+    ],
+    "cholangitis": [
+      "E:cond:3"
+    ],
+    "calculus of bile duct without mention of cholecystitis, with obstruction": [
+      "E:cond:4"
+    ],
+    "unspecified septicemia": [
+      "E:cond:5"
+    ],
+    "severe sepsis": [
+      "E:cond:6"
+    ],
+    "acute respiratory failure": [
+      "E:cond:7"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:8"
+    ],
+    "septic shock": [
+      "E:cond:9"
+    ],
+    "chronic systolic heart failure": [
+      "E:cond:10"
+    ],
+    "intestinal infection due to clostridium difficile": [
+      "E:cond:11"
+    ],
+    "paralytic ileus": [
+      "E:cond:12"
+    ],
+    "acidosis": [
+      "E:cond:13"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:14"
+    ],
+    "diabetes mellitus without mention of complication, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:15"
+    ],
+    "coronary atherosclerosis of native coronary artery": [
+      "E:cond:16"
+    ],
+    "hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage i through stage iv, or unspecified": [
+      "E:cond:17"
+    ],
+    "chronic kidney disease, unspecified": [
+      "E:cond:18"
+    ],
+    "other specified forms of hearing loss": [
+      "E:cond:19"
+    ],
+    "endoscopic insertion of stent (tube) into bile duct": [
+      "E:proc:1"
+    ],
+    "endoscopic removal of stone(s) from biliary tract": [
+      "E:proc:2"
+    ],
+    "endoscopic sphincterotomy and papillotomy": [
+      "E:proc:3"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:4"
+    ],
+    "continuous invasive mechanical ventilation for less than 96 consecutive hours": [
+      "E:proc:5"
+    ],
+    "venous catheterization for renal dialysis": [
+      "E:proc:6"
+    ],
+    "hemodialysis": [
+      "E:proc:7"
+    ],
+    "arterial catheterization": [
+      "E:proc:8"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:9"
+    ],
+    "parenteral infusion of concentrated nutritional substances": [
+      "E:proc:10"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:11"
+    ],
+    "full code cc: cholangitis, pancreatitis, respiratory failure, hotn 83 yo": [
+      "E:note:row439636:1"
+    ],
+    "in ed was tachy to 115, ekg with nonspecific changes, increased ast/alt, lipa": [
+      "E:note:row439636:2"
+    ],
+    "admitted to fin micu for ercp.": [
+      "E:note:row439636:3"
+    ],
+    "intubated for procedure, two stones retrieved, one in common hepatic duct and": [
+      "E:note:row439636:4"
+    ],
+    "hypotensive post induction and neo started (1mg/kg/min) in gi suite.": [
+      "E:note:row439636:5"
+    ],
+    "pmh: htn, dm ii, congenital deafness (russian sign), cad (fixed apical myoca": [
+      "E:note:row439636:6"
+    ],
+    "has been on 2l nc overnight, lscta b/l and satting 96%.": [
+      "E:note:row439636:7"
+    ],
+    "myocardial infarction, acute (ami, stemi, nstemi) assessment: pt in sr, hr": [
+      "E:note:row439636:8"
+    ],
+    "increasing tachycardia overnoc, now w/ hr back to 115.": [
+      "E:note:row439636:9"
+    ],
+    "t-max=100.1, endorses abd pain, bp s wnl action: ns bolus 500cc x2, 250cc": [
+      "E:note:row439636:10"
+    ],
+    "narcotic administered for pain with moderate effect on pt comfort but also no": [
+      "E:note:row439636:11"
+    ],
+    "ekg confirms sinus tach w/o additional changes.": [
+      "E:note:row439636:12"
+    ],
+    "hct =39, down from 42.": [
+      "E:note:row439636:13"
+    ],
+    "troponin =1.00, up from .89 plan: continue to monitor hr/bp, pain control,": [
+      "E:note:row439636:14"
+    ],
+    "pt with abdominal pain.": [
+      "E:note:row439636:15"
+    ],
+    "belly became increasingly distended and firm overnight. +bs in all four quad": [
+      "E:note:row439636:16"
+    ],
+    "wbc climbed to 24.3.": [
+      "E:note:row439636:17"
+    ],
+    "kub pending.": [
+      "E:note:row439636:18"
+    ],
+    "morphine 1mg iv x2, 2mg iv x2 with pt now getting some relief and resting.": [
+      "E:note:row439636:19"
+    ],
+    "abx well tol plan: zosyn only due this am.": [
+      "E:note:row439636:20"
+    ],
+    "continue ivf at 150cc/hr for liter #2, f/u on kub, monitor bowel sounds, tend": [
+      "E:note:row439636:21"
+    ],
+    "morphine 2-3mg iv prn pain son, [**name (ni) 5449**] telephoned for update ov": [
+      "E:note:row439636:22"
+    ]
+  },
+  "by_date": {
+    "2122-12-19": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11"
+    ]
+  }
+}

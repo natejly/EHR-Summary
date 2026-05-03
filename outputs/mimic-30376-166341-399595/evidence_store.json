@@ -1,0 +1,1196 @@
+{
+  "case_id": "mimic-30376-166341-399595",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:enc-166341",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Atherosclerosis of native arteries of the extremities with ulceration",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "44023",
+        "display": "Atherosclerosis of native arteries of the extremities with ulceration"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:cond-166341-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute on chronic diastolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42833",
+        "display": "Acute on chronic diastolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:cond-166341-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute kidney failure with lesion of tubular necrosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5845",
+        "display": "Acute kidney failure with lesion of tubular necrosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:cond-166341-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:cond-166341-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Pneumonia, organism unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "486",
+        "display": "Pneumonia, organism unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:cond-166341-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Occlusion and stenosis of carotid artery with cerebral infarction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "43311",
+        "display": "Occlusion and stenosis of carotid artery with cerebral infarction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:cond-166341-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Iatrogenic cerebrovascular infarction or hemorrhage",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99702",
+        "display": "Iatrogenic cerebrovascular infarction or hemorrhage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:cond-166341-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Ulcer of heel and midfoot",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70714",
+        "display": "Ulcer of heel and midfoot"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:cond-166341-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:cond-166341-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of unspecified type of vessel, native or graft",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41400",
+        "display": "Coronary atherosclerosis of unspecified type of vessel, native or graft"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:cond-166341-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Other and unspecified hyperlipidemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2724",
+        "display": "Other and unspecified hyperlipidemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:cond-166341-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Unspecified acquired hypothyroidism",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2449",
+        "display": "Unspecified acquired hypothyroidism"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:cond-166341-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Chronic kidney disease, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5859",
+        "display": "Chronic kidney disease, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:cond-166341-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "40390",
+        "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:cond-166341-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Gout, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2749",
+        "display": "Gout, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:cond-166341-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Obesity, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "27800",
+        "display": "Obesity, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:cond-166341-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Pressure ulcer, lower back",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70703",
+        "display": "Pressure ulcer, lower back"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:cond-166341-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Pressure ulcer, stage I",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70721",
+        "display": "Pressure ulcer, stage I"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:cond-166341-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Surgical operation with anastomosis, bypass, or graft, with natural or artificial tissues used as implant causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8782",
+        "display": "Surgical operation with anastomosis, bypass, or graft, with natural or artificial tissues used as implant causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:cond-166341-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Percutaneous transluminal coronary angioplasty status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4582",
+        "display": "Percutaneous transluminal coronary angioplasty status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:cond-166341-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Aortocoronary bypass status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4581",
+        "display": "Aortocoronary bypass status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:cond-166341-21",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Angioplasty of other non-coronary vessel(s)",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Angioplasty of other non-coronary vessel(s)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:proc-166341-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Endarterectomy, other vessels of head and neck",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Endarterectomy, other vessels of head and neck"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:proc-166341-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Other (peripheral) vascular shunt or bypass",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other (peripheral) vascular shunt or bypass"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:proc-166341-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Endarterectomy, lower limb arteries",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Endarterectomy, lower limb arteries"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:proc-166341-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Insertion of non-drug-eluting peripheral (non-coronary) vessel stent(s)",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of non-drug-eluting peripheral (non-coronary) vessel stent(s)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:proc-166341-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Procedure on two vessels",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Procedure on two vessels"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:proc-166341-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Insertion of two vascular stents",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of two vascular stents"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:proc-166341-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Aortography",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Aortography"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:proc-166341-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Arteriography of femoral and other lower extremity arteries",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arteriography of femoral and other lower extremity arteries"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:proc-166341-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Procedure on single vessel",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Procedure on single vessel"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:proc-166341-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Procedure on vessel bifurcation",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Procedure on vessel bifurcation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:proc-166341-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Procedure on two vessels",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Procedure on two vessels"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:proc-166341-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:proc-166341-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:14",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:proc-166341-14",
+      "text": null
+    },
+    {
+      "id": "E:proc:15",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:proc-166341-15",
+      "text": null
+    },
+    {
+      "id": "E:proc:16",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2171-01-06",
+      "source_ref": "urn:uuid:proc-166341-16",
+      "text": null
+    },
+    {
+      "id": "E:note:row399595:1",
+      "kind": "note_sentence",
+      "display": "This is a 75 year old with a  history  of Severe HTN, CAD, spinal    stenosis, H",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s1",
+      "text": "This is a 75 year old with a  history  of Severe HTN, CAD, spinal    stenosis, Hypothyroid, OA, Scoliosis, Diverticulitis, Hiatal Hernia, L    shoulder injury, L knee torn cartilage, r Knee tumor, psoriasis, TIA,    CRI, CABG x4 and MVR, B/L cataract, R Knee tumor resection, PTCA and    Stent x2."
+    },
+    {
+      "id": "E:note:row399595:2",
+      "kind": "note_sentence",
+      "display": "She was admitted on the [**1-6**] for pre angio hydration  On [**1-7**]    She u",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s2",
+      "text": "She was admitted on the [**1-6**] for pre angio hydration  On [**1-7**]    She underwent an angiogram of bilateral lower extremities, Abdominal    Aortogram and Stenting of right common iliac artery stenosis and right    external iliac artery stenosis."
+    },
+    {
+      "id": "E:note:row399595:3",
+      "kind": "note_sentence",
+      "display": "Around 1730 yesterday she developed a    severe headache along with word finding",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s3",
+      "text": "Around 1730 yesterday she developed a    severe headache along with word finding and memory difficulties    daughter felt she had some left sided weakness and facial weakness."
+    },
+    {
+      "id": "E:note:row399595:4",
+      "kind": "note_sentence",
+      "display": "Of    note her blood pressure was 220 s Then episode lasted up to 45 minutes    ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s4",
+      "text": "Of    note her blood pressure was 220 s Then episode lasted up to 45 minutes    pt was sent for a head CT which was negative but blood pressure    remained out of control so she was transferred to CVICU for a labetolol    drip."
+    },
+    {
+      "id": "E:note:row399595:5",
+      "kind": "note_sentence",
+      "display": "Peripheral vascular disease (PVD) with critical limb ischemia    Assessment:    ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s5",
+      "text": "Peripheral vascular disease (PVD) with critical limb ischemia    Assessment:    Alert and oriented X3."
+    },
+    {
+      "id": "E:note:row399595:6",
+      "kind": "note_sentence",
+      "display": "Speech clear and normal.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s6",
+      "text": "Speech clear and normal."
+    },
+    {
+      "id": "E:note:row399595:7",
+      "kind": "note_sentence",
+      "display": "Moves all extremities    with good strength.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s7",
+      "text": "Moves all extremities    with good strength."
+    },
+    {
+      "id": "E:note:row399595:8",
+      "kind": "note_sentence",
+      "display": "L upper arm slightly weak r/t prior L shoulder    injury.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s8",
+      "text": "L upper arm slightly weak r/t prior L shoulder    injury."
+    },
+    {
+      "id": "E:note:row399595:9",
+      "kind": "note_sentence",
+      "display": "Follows commands.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s9",
+      "text": "Follows commands."
+    },
+    {
+      "id": "E:note:row399595:10",
+      "kind": "note_sentence",
+      "display": "Continues to c/o frontal headache-treated with    Tylenol, cold compresses and i",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s10",
+      "text": "Continues to c/o frontal headache-treated with    Tylenol, cold compresses and ice packs with slight relief.    50-60 SB without VEA."
+    },
+    {
+      "id": "E:note:row399595:11",
+      "kind": "note_sentence",
+      "display": "SBP 150-160 s/ On heparin gtt at 500 units/hr    for PTT >150.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s11",
+      "text": "SBP 150-160 s/ On heparin gtt at 500 units/hr    for PTT >150."
+    },
+    {
+      "id": "E:note:row399595:12",
+      "kind": "note_sentence",
+      "display": "Pedal pulses by doppler,  feet warm and dry.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s12",
+      "text": "Pedal pulses by doppler,  feet warm and dry."
+    },
+    {
+      "id": "E:note:row399595:13",
+      "kind": "note_sentence",
+      "display": "Abdomen soft, ND.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s13",
+      "text": "Abdomen soft, ND."
+    },
+    {
+      "id": "E:note:row399595:14",
+      "kind": "note_sentence",
+      "display": "Tolerating clears.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s14",
+      "text": "Tolerating clears."
+    },
+    {
+      "id": "E:note:row399595:15",
+      "kind": "note_sentence",
+      "display": "No N/V.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s15",
+      "text": "No N/V."
+    },
+    {
+      "id": "E:note:row399595:16",
+      "kind": "note_sentence",
+      "display": "Voiding Q shift.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s16",
+      "text": "Voiding Q shift."
+    },
+    {
+      "id": "E:note:row399595:17",
+      "kind": "note_sentence",
+      "display": "Creat 1.7    R Fem with DSD CDI.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s17",
+      "text": "Creat 1.7    R Fem with DSD CDI."
+    },
+    {
+      "id": "E:note:row399595:18",
+      "kind": "note_sentence",
+      "display": "Pt has abrasion R buttocks, mepilex applied.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s18",
+      "text": "Pt has abrasion R buttocks, mepilex applied."
+    },
+    {
+      "id": "E:note:row399595:19",
+      "kind": "note_sentence",
+      "display": "Excoriation in L groin (?    from OR shaving)    Action:    Oral antihypertensiv",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s19",
+      "text": "Excoriation in L groin (?    from OR shaving)    Action:    Oral antihypertensives medications restarted."
+    },
+    {
+      "id": "E:note:row399595:20",
+      "kind": "note_sentence",
+      "display": "Continues on po    labetalol.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s20",
+      "text": "Continues on po    labetalol."
+    },
+    {
+      "id": "E:note:row399595:21",
+      "kind": "note_sentence",
+      "display": "Medications timed per pt s home regimen.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s21",
+      "text": "Medications timed per pt s home regimen."
+    },
+    {
+      "id": "E:note:row399595:22",
+      "kind": "note_sentence",
+      "display": "Last dose of mucomyst given 8am.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s22",
+      "text": "Last dose of mucomyst given 8am."
+    },
+    {
+      "id": "E:note:row399595:23",
+      "kind": "note_sentence",
+      "display": "K of 3.3 repleted with 40 meq oral KCL    IVF dc d, diet advanced to regular.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s23",
+      "text": "K of 3.3 repleted with 40 meq oral KCL    IVF dc d, diet advanced to regular."
+    },
+    {
+      "id": "E:note:row399595:24",
+      "kind": "note_sentence",
+      "display": "Response:    Hemodynamically stable.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s24",
+      "text": "Response:    Hemodynamically stable."
+    },
+    {
+      "id": "E:note:row399595:25",
+      "kind": "note_sentence",
+      "display": "Plan: Per Dr [**Last Name (STitle) **] OR note-The patient will need a left femo",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s25",
+      "text": "Plan: Per Dr [**Last Name (STitle) **] OR note-The patient will need a left femoral endarterectomy and a left femoral to below-knee popliteal artery bypass for her tissue loss and rest pain."
+    },
+    {
+      "id": "E:note:row399595:26",
+      "kind": "note_sentence",
+      "display": "On the right side should she develop worsening of her symptoms she would need a ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s26",
+      "text": "On the right side should she develop worsening of her symptoms she would need a right common femoral endarterectomy and possibly a right femoral to above-knee popliteal artery bypass should    her symptoms get worse."
+    },
+    {
+      "id": "E:note:row399595:27",
+      "kind": "note_sentence",
+      "display": "Pt also told this am she would need Carotid    surgery prior to above.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s27",
+      "text": "Pt also told this am she would need Carotid    surgery prior to above."
+    },
+    {
+      "id": "E:note:row399595:28",
+      "kind": "note_sentence",
+      "display": "Goal SBP 140    Demographics    Attending MD:    [**Doctor Last Name **] [**Doct",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s28",
+      "text": "Goal SBP 140    Demographics    Attending MD:    [**Doctor Last Name **] [**Doctor Last Name **] R."
+    },
+    {
+      "id": "E:note:row399595:29",
+      "kind": "note_sentence",
+      "display": "Admit diagnosis:    PERIPHERAL VASCULAR DISEASE    Code status:    Height:    64",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row399595#s29",
+      "text": "Admit diagnosis:    PERIPHERAL VASCULAR DISEASE    Code status:    Height:    64 Inch    Admission weight:    77 kg    Daily weight:    80.4 kg    Allergies/Reactions:    Bactrim (Oral) (Sulfamethoxazole/Trimethoprim)    Rash;    Tetracyclines    Rash;    Vasotec (Oral) (Enalapril Maleate)    Cough;    Isordil (Oral) (Isosorbide Dinitrate)    Rash;    Procardia (Oral) (Nifedipine)    Shortness of br    Hytrin (Oral) (Terazosin Hcl)    urinary inconti    Catapres-Tts 1 (Transderm) (Clonidine)    Rash;    Coreg (Oral) (Carvedilol)    Unknown;    Neurontin (Oral) (Gabapentin)    Back pain;    Precautions:    PMH:    CV-PMH:  CAD, Hypertension, PVD    Additional history: Severe HTN    CAD    Spinal stenosis    Hypothyroid    OA    Scoliosis    Diverticulitits    Hiatal hernia    L knee torn cartilage    L shoulder injury    R knee tumor    psoriasis    TIA    CRI    PSH:    CABGx4 and MVR    B/L cataract    R knee benign tumor resection    PTCA and stent x2    s/p stenting of right common iliac artery and right external    iliac artery [**2171-1-7**]    Surgery / Procedure and date:    Latest Vital Signs and I/O    Non-invasive BP:    S:181    D:48    Temperature:    97.9    Arterial BP:    S:    D:    Respiratory rate:    16 insp/min    Heart Rate:    67 bpm    Heart rhythm:    SR (Sinus Rhythm)    O2 delivery device:    O2 saturation:    97% %    O2 flow:    FiO2 set:    24h total in:    1,366 mL    24h total out:    1,025 mL    Pertinent Lab Results:    Sodium:    133 mEq/L    [**2171-1-8**] 05:02 AM    Potassium:    3.3 mEq/L    [**2171-1-8**] 10:58 AM    Chloride:    92 mEq/L    [**2171-1-8**] 05:02 AM    CO2:    34 mEq/L    [**2171-1-8**] 05:02 AM    BUN:    32 mg/dL    [**2171-1-8**] 05:02 AM    Creatinine:    1.7 mg/dL    [**2171-1-8**] 05:02 AM    Glucose:    137 mg/dL    [**2171-1-8**] 05:02 AM    Hematocrit:    28.5 %    [**2171-1-8**] 05:02 AM    Finger Stick Glucose:    131    [**2171-1-8**] 06:00 PM    Valuables / Signature    Patient valuables: none    Other valuables:    Clothes:  Sent home with:    Wallet / Money:    No money / wallet    Cash / Credit cards sent home with:    Jewelry:    Transferred from: [**Hospital 5716**]    Transferred to: Faar-5 VICU    Date & time of Transfer:  [**2171-1-8**]"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|44023": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42833": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5845": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|486": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|43311": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99702": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70714": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41400": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2724": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2449": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5859": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|40390": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2749": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|27800": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70703": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70721": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8782": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4582": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4581": [
+      "E:cond:21"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "atherosclerosis of native arteries of the extremities with ulceration": [
+      "E:cond:1"
+    ],
+    "acute on chronic diastolic heart failure": [
+      "E:cond:2"
+    ],
+    "acute kidney failure with lesion of tubular necrosis": [
+      "E:cond:3"
+    ],
+    "acute respiratory failure": [
+      "E:cond:4"
+    ],
+    "pneumonia, organism unspecified": [
+      "E:cond:5"
+    ],
+    "occlusion and stenosis of carotid artery with cerebral infarction": [
+      "E:cond:6"
+    ],
+    "iatrogenic cerebrovascular infarction or hemorrhage": [
+      "E:cond:7"
+    ],
+    "ulcer of heel and midfoot": [
+      "E:cond:8"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:9"
+    ],
+    "coronary atherosclerosis of unspecified type of vessel, native or graft": [
+      "E:cond:10"
+    ],
+    "other and unspecified hyperlipidemia": [
+      "E:cond:11"
+    ],
+    "unspecified acquired hypothyroidism": [
+      "E:cond:12"
+    ],
+    "chronic kidney disease, unspecified": [
+      "E:cond:13"
+    ],
+    "hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage i through stage iv, or unspecified": [
+      "E:cond:14"
+    ],
+    "gout, unspecified": [
+      "E:cond:15"
+    ],
+    "obesity, unspecified": [
+      "E:cond:16"
+    ],
+    "pressure ulcer, lower back": [
+      "E:cond:17"
+    ],
+    "pressure ulcer, stage i": [
+      "E:cond:18"
+    ],
+    "surgical operation with anastomosis, bypass, or graft, with natural or artificial tissues used as implant causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation": [
+      "E:cond:19"
+    ],
+    "percutaneous transluminal coronary angioplasty status": [
+      "E:cond:20"
+    ],
+    "aortocoronary bypass status": [
+      "E:cond:21"
+    ],
+    "angioplasty of other non-coronary vessel(s)": [
+      "E:proc:1"
+    ],
+    "endarterectomy, other vessels of head and neck": [
+      "E:proc:2"
+    ],
+    "other (peripheral) vascular shunt or bypass": [
+      "E:proc:3"
+    ],
+    "endarterectomy, lower limb arteries": [
+      "E:proc:4"
+    ],
+    "insertion of non-drug-eluting peripheral (non-coronary) vessel stent(s)": [
+      "E:proc:5"
+    ],
+    "procedure on two vessels": [
+      "E:proc:6",
+      "E:proc:12"
+    ],
+    "insertion of two vascular stents": [
+      "E:proc:7"
+    ],
+    "aortography": [
+      "E:proc:8"
+    ],
+    "arteriography of femoral and other lower extremity arteries": [
+      "E:proc:9"
+    ],
+    "procedure on single vessel": [
+      "E:proc:10"
+    ],
+    "procedure on vessel bifurcation": [
+      "E:proc:11"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:13",
+      "E:proc:14"
+    ],
+    "continuous invasive mechanical ventilation for less than 96 consecutive hours": [
+      "E:proc:15"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:16"
+    ],
+    "this is a 75 year old with a history of severe htn, cad, spinal stenosis, h": [
+      "E:note:row399595:1"
+    ],
+    "she was admitted on the [**1-6**] for pre angio hydration on [**1-7**] she u": [
+      "E:note:row399595:2"
+    ],
+    "around 1730 yesterday she developed a severe headache along with word finding": [
+      "E:note:row399595:3"
+    ],
+    "of note her blood pressure was 220 s then episode lasted up to 45 minutes": [
+      "E:note:row399595:4"
+    ],
+    "peripheral vascular disease (pvd) with critical limb ischemia assessment:": [
+      "E:note:row399595:5"
+    ],
+    "speech clear and normal.": [
+      "E:note:row399595:6"
+    ],
+    "moves all extremities with good strength.": [
+      "E:note:row399595:7"
+    ],
+    "l upper arm slightly weak r/t prior l shoulder injury.": [
+      "E:note:row399595:8"
+    ],
+    "follows commands.": [
+      "E:note:row399595:9"
+    ],
+    "continues to c/o frontal headache-treated with tylenol, cold compresses and i": [
+      "E:note:row399595:10"
+    ],
+    "sbp 150-160 s/ on heparin gtt at 500 units/hr for ptt >150.": [
+      "E:note:row399595:11"
+    ],
+    "pedal pulses by doppler, feet warm and dry.": [
+      "E:note:row399595:12"
+    ],
+    "abdomen soft, nd.": [
+      "E:note:row399595:13"
+    ],
+    "tolerating clears.": [
+      "E:note:row399595:14"
+    ],
+    "no n/v.": [
+      "E:note:row399595:15"
+    ],
+    "voiding q shift.": [
+      "E:note:row399595:16"
+    ],
+    "creat 1.7 r fem with dsd cdi.": [
+      "E:note:row399595:17"
+    ],
+    "pt has abrasion r buttocks, mepilex applied.": [
+      "E:note:row399595:18"
+    ],
+    "excoriation in l groin (? from or shaving) action: oral antihypertensiv": [
+      "E:note:row399595:19"
+    ],
+    "continues on po labetalol.": [
+      "E:note:row399595:20"
+    ],
+    "medications timed per pt s home regimen.": [
+      "E:note:row399595:21"
+    ],
+    "last dose of mucomyst given 8am.": [
+      "E:note:row399595:22"
+    ],
+    "k of 3.3 repleted with 40 meq oral kcl ivf dc d, diet advanced to regular.": [
+      "E:note:row399595:23"
+    ],
+    "response: hemodynamically stable.": [
+      "E:note:row399595:24"
+    ],
+    "plan: per dr [**last name (stitle) **] or note-the patient will need a left femo": [
+      "E:note:row399595:25"
+    ],
+    "on the right side should she develop worsening of her symptoms she would need a": [
+      "E:note:row399595:26"
+    ],
+    "pt also told this am she would need carotid surgery prior to above.": [
+      "E:note:row399595:27"
+    ],
+    "goal sbp 140 demographics attending md: [**doctor last name **] [**doct": [
+      "E:note:row399595:28"
+    ],
+    "admit diagnosis: peripheral vascular disease code status: height: 64": [
+      "E:note:row399595:29"
+    ]
+  },
+  "by_date": {
+    "2171-01-06": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13",
+      "E:proc:14",
+      "E:proc:15",
+      "E:proc:16"
+    ]
+  }
+}

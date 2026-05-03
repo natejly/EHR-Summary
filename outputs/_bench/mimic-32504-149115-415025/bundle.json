@@ -1,0 +1,870 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-32504-149115",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-32504",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-32504",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-149115",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-149115",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2120-09-13T00:00:00",
+          "end": "2120-10-04T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "03849",
+              "display": "Other septicemia due to gram-negative organisms"
+            }
+          ],
+          "text": "Other septicemia due to gram-negative organisms"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78552",
+              "display": "Septic shock"
+            }
+          ],
+          "text": "Septic shock"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42822",
+              "display": "Chronic systolic heart failure"
+            }
+          ],
+          "text": "Chronic systolic heart failure"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "57400",
+              "display": "Calculus of gallbladder with acute cholecystitis, without mention of obstruction"
+            }
+          ],
+          "text": "Calculus of gallbladder with acute cholecystitis, without mention of obstruction"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "43411",
+              "display": "Cerebral embolism with cerebral infarction"
+            }
+          ],
+          "text": "Cerebral embolism with cerebral infarction"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5845",
+              "display": "Acute kidney failure with lesion of tubular necrosis"
+            }
+          ],
+          "text": "Acute kidney failure with lesion of tubular necrosis"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2762",
+              "display": "Acidosis"
+            }
+          ],
+          "text": "Acidosis"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2930",
+              "display": "Delirium due to conditions classified elsewhere"
+            }
+          ],
+          "text": "Delirium due to conditions classified elsewhere"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5761",
+              "display": "Cholangitis"
+            }
+          ],
+          "text": "Cholangitis"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3361",
+              "display": "Vascular myelopathies"
+            }
+          ],
+          "text": "Vascular myelopathies"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99592",
+              "display": "Severe sepsis"
+            }
+          ],
+          "text": "Severe sepsis"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5859",
+              "display": "Chronic kidney disease, unspecified"
+            }
+          ],
+          "text": "Chronic kidney disease, unspecified"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "40390",
+              "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+            }
+          ],
+          "text": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25000",
+              "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70703",
+              "display": "Pressure ulcer, lower back"
+            }
+          ],
+          "text": "Pressure ulcer, lower back"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70722",
+              "display": "Pressure ulcer, stage II"
+            }
+          ],
+          "text": "Pressure ulcer, stage II"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "70709",
+              "display": "Pressure ulcer, other site"
+            }
+          ],
+          "text": "Pressure ulcer, other site"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42731",
+              "display": "Atrial fibrillation"
+            }
+          ],
+          "text": "Atrial fibrillation"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2767",
+              "display": "Hyperpotassemia"
+            }
+          ],
+          "text": "Hyperpotassemia"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41072",
+              "display": "Subendocardial infarction, subsequent episode of care"
+            }
+          ],
+          "text": "Subendocardial infarction, subsequent episode of care"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2749",
+              "display": "Gout, unspecified"
+            }
+          ],
+          "text": "Gout, unspecified"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-24",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-24",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41400",
+              "display": "Coronary atherosclerosis of unspecified type of vessel, native or graft"
+            }
+          ],
+          "text": "Coronary atherosclerosis of unspecified type of vessel, native or graft"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-25",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-25",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2859",
+              "display": "Anemia, unspecified"
+            }
+          ],
+          "text": "Anemia, unspecified"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-26",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-26",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7140",
+              "display": "Rheumatoid arthritis"
+            }
+          ],
+          "text": "Rheumatoid arthritis"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-27",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-27",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4581",
+              "display": "Aortocoronary bypass status"
+            }
+          ],
+          "text": "Aortocoronary bypass status"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-28",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-28",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "56210",
+              "display": "Diverticulosis of colon (without mention of hemorrhage)"
+            }
+          ],
+          "text": "Diverticulosis of colon (without mention of hemorrhage)"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-29",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-29",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V1254",
+              "display": "Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits"
+            }
+          ],
+          "text": "Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-149115-30",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-149115-30",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "30000",
+              "display": "Anxiety state, unspecified"
+            }
+          ],
+          "text": "Anxiety state, unspecified"
+        },
+        "onsetDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-149115-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-149115-1",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of choledochohepatic tube for decompression"
+        },
+        "performedDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-149115-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-149115-2",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-149115-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-149115-3",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of packed cells"
+        },
+        "performedDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-149115-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-149115-4",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization for renal dialysis"
+        },
+        "performedDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-149115-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-149115-5",
+        "status": "completed",
+        "code": {
+          "text": "Hemodialysis"
+        },
+        "performedDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-149115-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-149115-6",
+        "status": "completed",
+        "code": {
+          "text": "Arterial catheterization"
+        },
+        "performedDateTime": "2120-09-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-149115-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-149115-7",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2120-09-13"
+      }
+    }
+  ]
+}

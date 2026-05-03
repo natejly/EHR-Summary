@@ -1,0 +1,421 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-21137-101950",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-21137",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-21137",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-101950",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-101950",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2173-03-09T00:00:00",
+          "end": "2173-03-18T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101950-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101950-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4260",
+              "display": "Atrioventricular block, complete"
+            }
+          ],
+          "text": "Atrioventricular block, complete"
+        },
+        "onsetDateTime": "2173-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101950-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101950-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4275",
+              "display": "Cardiac arrest"
+            }
+          ],
+          "text": "Cardiac arrest"
+        },
+        "onsetDateTime": "2173-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101950-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101950-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99812",
+              "display": "Hematoma complicating a procedure"
+            }
+          ],
+          "text": "Hematoma complicating a procedure"
+        },
+        "onsetDateTime": "2173-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101950-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101950-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2173-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101950-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101950-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3481",
+              "display": "Anoxic brain damage"
+            }
+          ],
+          "text": "Anoxic brain damage"
+        },
+        "onsetDateTime": "2173-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101950-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101950-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42831",
+              "display": "Acute diastolic heart failure"
+            }
+          ],
+          "text": "Acute diastolic heart failure"
+        },
+        "onsetDateTime": "2173-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101950-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101950-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "486",
+              "display": "Pneumonia, organism unspecified"
+            }
+          ],
+          "text": "Pneumonia, organism unspecified"
+        },
+        "onsetDateTime": "2173-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101950-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101950-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5990",
+              "display": "Urinary tract infection, site not specified"
+            }
+          ],
+          "text": "Urinary tract infection, site not specified"
+        },
+        "onsetDateTime": "2173-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101950-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101950-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4271",
+              "display": "Paroxysmal ventricular tachycardia"
+            }
+          ],
+          "text": "Paroxysmal ventricular tachycardia"
+        },
+        "onsetDateTime": "2173-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101950-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101950-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V433",
+              "display": "Heart valve replaced by other means"
+            }
+          ],
+          "text": "Heart valve replaced by other means"
+        },
+        "onsetDateTime": "2173-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101950-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101950-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V5861",
+              "display": "Long-term (current) use of anticoagulants"
+            }
+          ],
+          "text": "Long-term (current) use of anticoagulants"
+        },
+        "onsetDateTime": "2173-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101950-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101950-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25000",
+              "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2173-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101950-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101950-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2173-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-101950-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-101950-1",
+        "status": "completed",
+        "code": {
+          "text": "Implantation or replacement of automatic cardioverter/defibrillator, total system [AICD]"
+        },
+        "performedDateTime": "2173-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-101950-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-101950-2",
+        "status": "completed",
+        "code": {
+          "text": "Left heart cardiac catheterization"
+        },
+        "performedDateTime": "2173-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-101950-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-101950-3",
+        "status": "completed",
+        "code": {
+          "text": "Coronary arteriography using two catheters"
+        },
+        "performedDateTime": "2173-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-101950-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-101950-4",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2173-03-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-101950-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-101950-5",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2173-03-09"
+      }
+    }
+  ]
+}

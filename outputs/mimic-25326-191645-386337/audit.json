@@ -1,0 +1,125 @@
+{
+  "case_id": "mimic-25326-191645-386337",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 865,
+    "summary_chars": 353,
+    "target_min_chars": 200,
+    "target_max_chars": 300,
+    "achieved_ratio": 0.40809248554913297,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 5,
+    "cited_evidence_ids": [
+      "E:cond:10",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row386337:2"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Severe sepsis [E:cond:5][E:cond:6], MSSA septicemia [E:cond:3][E:cond:4], acute respiratory [E:cond:7][E:cond:8] and kidney failure [E:cond:9][E:cond:10], ESRD [E:cond:13][E:cond:14], and CAD s/p MI [E:note:row386337:2].",
+        "severity": "high",
+        "reason": "The summary claims 'CAD s/p MI' based on a citation that actually refers to an Ejection Fraction (EF) of 35-40%."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Severe sepsis [E:cond:5][E:cond:6], MSSA septicemia [E:cond:3][E:cond:4], acute respiratory [E:cond:7][E:cond:8] and kidney failure [E:cond:9][E:cond:10], ESRD [E:cond:13][E:cond:14], and CAD s/p MI [E:note:row386337:2].",
+        "suggested": "Severe sepsis [E:cond:5][E:cond:6], MSSA septicemia [E:cond:3][E:cond:4], acute respiratory failure [E:cond:7][E:cond:8], acute kidney failure [E:cond:9][E:cond:10], and ESRD [E:cond:13][E:cond:14].",
+        "reason": "Removed the hallucinated CAD s/p MI diagnosis and corrected the phrasing of respiratory and kidney failure to match the fact sheet."
+      }
+    ]
+  },
+  "review_passed": false,
+  "review_concern_counts": {
+    "high": 1,
+    "medium": 0,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-25326-191645-386337/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 5.6,
+    "fk_words": 148,
+    "fk_sentences": 14,
+    "fk_syllables": 214,
+    "chars": 1367,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-25326-191645-386337/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.002212374994996935,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 110.13416937500006,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 40.50173141696723,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0011199999717064202,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 16.03912637504982,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 4.917248915997334,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.007061166979838163,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 12.825579624972306,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

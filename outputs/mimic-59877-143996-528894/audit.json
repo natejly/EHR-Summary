@@ -1,0 +1,134 @@
+{
+  "case_id": "mimic-59877-143996-528894",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 1963,
+    "summary_chars": 882,
+    "target_min_chars": 392,
+    "target_max_chars": 588,
+    "achieved_ratio": 0.4493122771268467,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 8,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row528894:10",
+      "E:note:row528894:11",
+      "E:note:row528894:12",
+      "E:note:row528894:14",
+      "E:note:row528894:15",
+      "E:note:row528894:2",
+      "E:note:row528894:5",
+      "E:note:row528894:6"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Other issues include SAH [E:cond:3][E:note:row528894:2], acute respiratory failure [E:cond:7][E:note:row528894:6], and DIC [E:note:row528894:10][E:note:row528894:11].",
+        "severity": "medium",
+        "reason": "The summary claims DIC is present, but the fact sheet lists 'Defibrination syndrome' [E:cond:6], which is not clinically synonymous with DIC."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Other issues include SAH [E:cond:3][E:note:row528894:2], acute respiratory failure [E:cond:7][E:note:row528894:6], and DIC [E:note:row528894:10][E:note:row528894:11].",
+        "suggested": "Other issues include SAH [E:cond:3][E:note:row528894:2], acute respiratory failure [E:cond:7][E:note:row528894:6], and defibrination syndrome [E:cond:6].",
+        "reason": "Corrects the misinterpretation of 'defibrination syndrome' as 'DIC' and uses the correct evidence ID."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-59877-143996-528894/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.26,
+    "fk_words": 193,
+    "fk_sentences": 18,
+    "fk_syllables": 289,
+    "chars": 1489,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-59877-143996-528894/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0035050830338150263,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 68.73564924998209,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 59.630833958042786,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0030039160046726465,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 21.601303582952823,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 8.928479583002627,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0036209580139257014,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 16.764284958015196,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

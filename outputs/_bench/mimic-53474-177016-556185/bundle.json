@@ -1,0 +1,584 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-53474-177016",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-53474",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-53474",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-177016",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-177016",
+        "status": "finished",
+        "class": {
+          "code": "AMB",
+          "display": "ELECTIVE"
+        },
+        "type": [
+          {
+            "text": "ELECTIVE"
+          }
+        ],
+        "period": {
+          "start": "2131-01-11T00:00:00",
+          "end": "2131-01-21T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177016-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177016-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "71536",
+              "display": "Osteoarthrosis, localized, not specified whether primary or secondary, lower leg"
+            }
+          ],
+          "text": "Osteoarthrosis, localized, not specified whether primary or secondary, lower leg"
+        },
+        "onsetDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177016-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177016-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5185",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177016-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177016-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5845",
+              "display": "Acute kidney failure with lesion of tubular necrosis"
+            }
+          ],
+          "text": "Acute kidney failure with lesion of tubular necrosis"
+        },
+        "onsetDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177016-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177016-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5180",
+              "display": "Pulmonary collapse"
+            }
+          ],
+          "text": "Pulmonary collapse"
+        },
+        "onsetDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177016-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177016-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5070",
+              "display": "Pneumonitis due to inhalation of food or vomitus"
+            }
+          ],
+          "text": "Pneumonitis due to inhalation of food or vomitus"
+        },
+        "onsetDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177016-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177016-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2930",
+              "display": "Delirium due to conditions classified elsewhere"
+            }
+          ],
+          "text": "Delirium due to conditions classified elsewhere"
+        },
+        "onsetDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177016-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177016-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99739",
+              "display": "Other respiratory complications"
+            }
+          ],
+          "text": "Other respiratory complications"
+        },
+        "onsetDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177016-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177016-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "486",
+              "display": "Pneumonia, organism unspecified"
+            }
+          ],
+          "text": "Pneumonia, organism unspecified"
+        },
+        "onsetDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177016-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177016-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "9975",
+              "display": "Urinary complications, not elsewhere classified"
+            }
+          ],
+          "text": "Urinary complications, not elsewhere classified"
+        },
+        "onsetDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177016-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177016-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "53081",
+              "display": "Esophageal reflux"
+            }
+          ],
+          "text": "Esophageal reflux"
+        },
+        "onsetDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177016-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177016-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "27652",
+              "display": "Hypovolemia"
+            }
+          ],
+          "text": "Hypovolemia"
+        },
+        "onsetDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177016-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177016-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "32723",
+              "display": "Obstructive sleep apnea (adult)(pediatric)"
+            }
+          ],
+          "text": "Obstructive sleep apnea (adult)(pediatric)"
+        },
+        "onsetDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177016-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177016-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25002",
+              "display": "Diabetes mellitus without mention of complication, type II or unspecified type, uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type II or unspecified type, uncontrolled"
+        },
+        "onsetDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177016-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177016-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51889",
+              "display": "Other diseases of lung, not elsewhere classified"
+            }
+          ],
+          "text": "Other diseases of lung, not elsewhere classified"
+        },
+        "onsetDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177016-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177016-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3004",
+              "display": "Dysthymic disorder"
+            }
+          ],
+          "text": "Dysthymic disorder"
+        },
+        "onsetDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177016-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177016-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2788",
+              "display": "Other hyperalimentation"
+            }
+          ],
+          "text": "Other hyperalimentation"
+        },
+        "onsetDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177016-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177016-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "27801",
+              "display": "Morbid obesity"
+            }
+          ],
+          "text": "Morbid obesity"
+        },
+        "onsetDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177016-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177016-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "71650",
+              "display": "Unspecified polyarthropathy or polyarthritis, site unspecified"
+            }
+          ],
+          "text": "Unspecified polyarthropathy or polyarthritis, site unspecified"
+        },
+        "onsetDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177016-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177016-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E9378",
+              "display": "Other sedatives and hypnotics causing adverse effects in therapeutic use"
+            }
+          ],
+          "text": "Other sedatives and hypnotics causing adverse effects in therapeutic use"
+        },
+        "onsetDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177016-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177016-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8781",
+              "display": "Surgical operation with implant of artificial internal device causing abnormal patient reaction, or later complication,without mention of misadventure at time of operation"
+            }
+          ],
+          "text": "Surgical operation with implant of artificial internal device causing abnormal patient reaction, or later complication,without mention of misadventure at time of operation"
+        },
+        "onsetDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-177016-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-177016-1",
+        "status": "completed",
+        "code": {
+          "text": "Total knee replacement"
+        },
+        "performedDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-177016-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-177016-2",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-177016-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-177016-3",
+        "status": "completed",
+        "code": {
+          "text": "Other bronchoscopy"
+        },
+        "performedDateTime": "2131-01-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-177016-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-177016-4",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2131-01-11"
+      }
+    }
+  ]
+}

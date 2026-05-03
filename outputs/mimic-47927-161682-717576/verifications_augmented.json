@@ -1,0 +1,389 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row717576:1"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has 'severe lupus'."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row717576:1"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has cryoglobulinemia vasculitis."
+    },
+    {
+      "claim_id": "C3",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C4",
+      "status": "contradicted",
+      "evidence_ids": [
+        "E:note:row717576:6"
+      ],
+      "rationale": "The evidence states that the patient's prednisone was changed to Methylprednisolone."
+    },
+    {
+      "claim_id": "C5",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence refers to coagulation defects, which does not provide information regarding myocardial infarctions or stenting."
+    },
+    {
+      "claim_id": "C7",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:12"
+      ],
+      "rationale": "The candidate evidence confirms a diagnosis of cardiac arrest, which supports the claim of a V Fib arrest."
+    },
+    {
+      "claim_id": "C9",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C10",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C12",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row717576:7"
+      ],
+      "rationale": "The evidence explicitly lists 'Altered mental status' in the assessment section."
+    },
+    {
+      "claim_id": "C14",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row717576:2"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient remained delerious and confused."
+    },
+    {
+      "claim_id": "C16",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list a diagnosis of sedative dependence, but do not mention withdrawal or narcotics."
+    },
+    {
+      "claim_id": "C17",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence refers to coagulation defects and does not mention flushing or diaphoresis."
+    },
+    {
+      "claim_id": "C18",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C19",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row717576:4"
+      ],
+      "rationale": "The evidence explicitly mentions a 'concern of sepsis' in the patient."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row717576:4"
+      ],
+      "rationale": "The candidate evidence explicitly mentions the patient has 'MS changes'."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row717576:4"
+      ],
+      "rationale": "The evidence explicitly mentions the patient has tachycardia."
+    },
+    {
+      "claim_id": "C23",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence contains encounters and conditions but no medication records for Vancomycin."
+    },
+    {
+      "claim_id": "C24",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided candidates contain encounter and condition data, but no medication administration records for Zosyn."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row717576:5"
+      ],
+      "rationale": "The evidence explicitly states that the patient remained afebrile."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row717576:5"
+      ],
+      "rationale": "The candidate evidence explicitly states that all cultures were NGTD."
+    },
+    {
+      "claim_id": "C27",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row717576:7"
+      ],
+      "rationale": "The candidate evidence explicitly states the diagnosis of 'Altered mental status (not Delirium)'."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row717576:7"
+      ],
+      "rationale": "The evidence explicitly states the patient was agitated."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row717576:8"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient received 10mg of IV valium."
+    },
+    {
+      "claim_id": "C31",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided evidence refers to coagulation defects, which does not mention pain or anxiety."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row717576:9"
+      ],
+      "rationale": "The candidate evidence explicitly states that the respiratory rate continued to increase up to 60/min through the day."
+    },
+    {
+      "claim_id": "C33",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided candidates contain conditions and a procedure, but none mention periods of apnea."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row717576:8"
+      ],
+      "rationale": "The evidence explicitly states the patient received 10mg of IV valium."
+    },
+    {
+      "claim_id": "C35",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C36",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C37",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row717576:10"
+      ],
+      "rationale": "The evidence explicitly states that an 'EEG done' for the patient."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row717576:10",
+        "E:note:row717576:12"
+      ],
+      "rationale": "Both candidate sentences explicitly state that the patient was intubated."
+    },
+    {
+      "claim_id": "C39",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row717576:10"
+      ],
+      "rationale": "The evidence explicitly states the patient was intubated for tachypnea."
+    },
+    {
+      "claim_id": "C40",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence discusses medication changes (prednisone to methylprednisolone) and does not mention a lumbar puncture (LP)."
+    },
+    {
+      "claim_id": "C41",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C42",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row717576:11"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient is sedated on fent and versed."
+    },
+    {
+      "claim_id": "C43",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C44",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate evidence items mention a plan for the withdrawal of benzodiazepines or narcotics."
+    },
+    {
+      "claim_id": "C45",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence contains conditions and procedures, but no vital sign data regarding heart rate."
+    },
+    {
+      "claim_id": "C46",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row717576:7"
+      ],
+      "rationale": "The evidence explicitly states the patient was agitated."
+    },
+    {
+      "claim_id": "C47",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided candidates contain information about conditions and procedures, but no medication records for lopressor."
+    },
+    {
+      "claim_id": "C48",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided candidates contain conditions and a procedure, but no record of medication administration for valium."
+    },
+    {
+      "claim_id": "C49",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list cardiac conditions (arrest and dysrhythmias) but does not mention a cardiac echo procedure."
+    },
+    {
+      "claim_id": "C50",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence describes a diagnosis of atherosclerosis and does not contain any heart rate (HR) data."
+    },
+    {
+      "claim_id": "C51",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row717576:12"
+      ],
+      "rationale": "The candidate evidence explicitly states that after intubation and sedation, the patient's heart rate decreased to the low 120s."
+    },
+    {
+      "claim_id": "C52",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:10"
+      ],
+      "rationale": "The candidate evidence explicitly lists Systemic lupus erythematosus as a condition for the patient."
+    },
+    {
+      "claim_id": "C53",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The evidence confirms Systemic lupus erythematosus, but does not specify 'severe' status or the presence of 'vasculitis'."
+    },
+    {
+      "claim_id": "C54",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:17"
+      ],
+      "rationale": "Atherosclerosis of native arteries of the extremities with ulceration is a clinical manifestation of peripheral vascular disease with critical limb ischemia."
+    },
+    {
+      "claim_id": "C55",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided candidates list respiratory and heart failure, but there is no mention of pain control or pain diagnoses."
+    },
+    {
+      "claim_id": "C56",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    }
+  ]
+}

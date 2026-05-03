@@ -1,0 +1,1173 @@
+{
+  "case_id": "mimic-83607-156758-631634",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:enc-156758",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Other and unspecified infection due to central venous catheter",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99931",
+        "display": "Other and unspecified infection due to central venous catheter"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Disseminated candidiasis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1125",
+        "display": "Disseminated candidiasis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Septic shock",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78552",
+        "display": "Septic shock"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "End stage renal disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5856",
+        "display": "End stage renal disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Portal vein thrombosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "452",
+        "display": "Portal vein thrombosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Encephalopathy, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34830",
+        "display": "Encephalopathy, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "40391",
+        "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Chronic viral hepatitis B without mention of hepatic coma without mention of hepatitis delta",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "07032",
+        "display": "Chronic viral hepatitis B without mention of hepatic coma without mention of hepatitis delta"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Intestinal infection due to Clostridium difficile",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "00845",
+        "display": "Intestinal infection due to Clostridium difficile"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Other complications due to other vascular device, implant, and graft",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99674",
+        "display": "Other complications due to other vascular device, implant, and graft"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Acute venous embolism and thrombosis of subclavian veins",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "45385",
+        "display": "Acute venous embolism and thrombosis of subclavian veins"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Acute venous embolism and thrombosis of deep veins of upper extremity",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "45382",
+        "display": "Acute venous embolism and thrombosis of deep veins of upper extremity"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Unspecified protein-calorie malnutrition",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2639",
+        "display": "Unspecified protein-calorie malnutrition"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Cholangitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5761",
+        "display": "Cholangitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Other ascites",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78959",
+        "display": "Other ascites"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Unspecified pleural effusion",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5119",
+        "display": "Unspecified pleural effusion"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8798",
+        "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Diabetes with renal manifestations, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25040",
+        "display": "Diabetes with renal manifestations, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Renal dialysis status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4511",
+        "display": "Renal dialysis status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Diabetes with ophthalmic manifestations, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25050",
+        "display": "Diabetes with ophthalmic manifestations, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Background diabetic retinopathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "36201",
+        "display": "Background diabetic retinopathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Diabetes with neurological manifestations, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25060",
+        "display": "Diabetes with neurological manifestations, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:25",
+      "kind": "condition",
+      "display": "Polyneuropathy in diabetes",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3572",
+        "display": "Polyneuropathy in diabetes"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-25",
+      "text": null
+    },
+    {
+      "id": "E:cond:26",
+      "kind": "condition",
+      "display": "Anemia in chronic kidney disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "28521",
+        "display": "Anemia in chronic kidney disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:cond-156758-26",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:proc-156758-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:proc-156758-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:proc-156758-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:proc-156758-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Parenteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Parenteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:proc-156758-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Thoracentesis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Thoracentesis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:proc-156758-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Hemodialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Hemodialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:proc-156758-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Venous catheterization for renal dialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization for renal dialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:proc-156758-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:proc-156758-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:proc-156758-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Removal of other device from thorax",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Removal of other device from thorax"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:proc-156758-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Aspiration of other soft tissue",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Aspiration of other soft tissue"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:proc-156758-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Aspiration of other soft tissue",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Aspiration of other soft tissue"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:proc-156758-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:14",
+      "kind": "procedure",
+      "display": "Diagnostic ultrasound of heart",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Diagnostic ultrasound of heart"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:proc-156758-14",
+      "text": null
+    },
+    {
+      "id": "E:proc:15",
+      "kind": "procedure",
+      "display": "Diagnostic ultrasound of heart",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Diagnostic ultrasound of heart"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2168-04-05",
+      "source_ref": "urn:uuid:proc-156758-15",
+      "text": null
+    },
+    {
+      "id": "E:note:row631634:1",
+      "kind": "note_sentence",
+      "display": "Above pt with a very complicated PMH.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row631634#s1",
+      "text": "Above pt with a very complicated PMH."
+    },
+    {
+      "id": "E:note:row631634:2",
+      "kind": "note_sentence",
+      "display": "Hepatitis B with autoimmune    cholangiopathy, ESRD, Diabetes, HTN, CVA with lef",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row631634#s2",
+      "text": "Hepatitis B with autoimmune    cholangiopathy, ESRD, Diabetes, HTN, CVA with left sided weakness most    notable in Leg."
+    },
+    {
+      "id": "E:note:row631634:3",
+      "kind": "note_sentence",
+      "display": "Recent long complicated hospitalization [**Date range (1) 11787**] for    compli",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row631634#s3",
+      "text": "Recent long complicated hospitalization [**Date range (1) 11787**] for    complications of PEG placement on [**1-16**] with abdominal wall abscess s/p    ex lap, closure of gastrostomy and peg removal, I&D abd wall abscess    X3/necrotizing fasciitis with wound vac."
+    },
+    {
+      "id": "E:note:row631634:4",
+      "kind": "note_sentence",
+      "display": "Pt was at rehab after    complicated hospital coarse and started treatment for p",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row631634#s4",
+      "text": "Pt was at rehab after    complicated hospital coarse and started treatment for positive CDIFF on    3/31pt was subsequently sent back to [**Hospital1 1**] on [**4-6**] for increased WBC    with hypotension and lethargy."
+    },
+    {
+      "id": "E:note:row631634:5",
+      "kind": "note_sentence",
+      "display": "Pt was admitted on [**4-6**] to MICU was    volume resuscitated with good effect",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row631634#s5",
+      "text": "Pt was admitted on [**4-6**] to MICU was    volume resuscitated with good effect on SBP."
+    },
+    {
+      "id": "E:note:row631634:6",
+      "kind": "note_sentence",
+      "display": "Pt also had a    paracentesis done without evidence of SBP.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row631634#s6",
+      "text": "Pt also had a    paracentesis done without evidence of SBP."
+    },
+    {
+      "id": "E:note:row631634:7",
+      "kind": "note_sentence",
+      "display": "Leni s done which showed no    clot but upper extremity US showing old RIJ clot,",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row631634#s7",
+      "text": "Leni s done which showed no    clot but upper extremity US showing old RIJ clot, L brachial clot and    RUQ ultrasound showing new portal vein clot."
+    },
+    {
+      "id": "E:note:row631634:8",
+      "kind": "note_sentence",
+      "display": "Pt stabilized and then    trnf to floor on [**4-8**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row631634#s8",
+      "text": "Pt stabilized and then    trnf to floor on [**4-8**]."
+    },
+    {
+      "id": "E:note:row631634:9",
+      "kind": "note_sentence",
+      "display": "On floor pt with persistent fevers and profuse    diarrhea.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row631634#s9",
+      "text": "On floor pt with persistent fevers and profuse    diarrhea."
+    },
+    {
+      "id": "E:note:row631634:10",
+      "kind": "note_sentence",
+      "display": "ABX restarted on [**4-11**] [**2-2**] to fever 103.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row631634#s10",
+      "text": "ABX restarted on [**4-11**] [**2-2**] to fever 103."
+    },
+    {
+      "id": "E:note:row631634:11",
+      "kind": "note_sentence",
+      "display": "Also while on floor    ? possible febrile sz [**2-2**] episode of increased conf",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row631634#s11",
+      "text": "Also while on floor    ? possible febrile sz [**2-2**] episode of increased confusion and arm    flapping  but not confirmed ."
+    },
+    {
+      "id": "E:note:row631634:12",
+      "kind": "note_sentence",
+      "display": "CT scan negative.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row631634#s12",
+      "text": "CT scan negative."
+    },
+    {
+      "id": "E:note:row631634:13",
+      "kind": "note_sentence",
+      "display": "Pt HD dependant last    dialysis on [**4-12**] 3 liters removed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row631634#s13",
+      "text": "Pt HD dependant last    dialysis on [**4-12**] 3 liters removed."
+    },
+    {
+      "id": "E:note:row631634:14",
+      "kind": "note_sentence",
+      "display": "On floor [**4-14**] pt given 2mg dilaudid    at 5am for pain.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row631634#s14",
+      "text": "On floor [**4-14**] pt given 2mg dilaudid    at 5am for pain."
+    },
+    {
+      "id": "E:note:row631634:15",
+      "kind": "note_sentence",
+      "display": "At 8am during rounds pt was alert and oriented with    stable vitals.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row631634#s15",
+      "text": "At 8am during rounds pt was alert and oriented with    stable vitals."
+    },
+    {
+      "id": "E:note:row631634:16",
+      "kind": "note_sentence",
+      "display": "During ID rounds pt found unresponsive wth RR of 4    hypotensive but with a pul",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row631634#s16",
+      "text": "During ID rounds pt found unresponsive wth RR of 4    hypotensive but with a pulse."
+    },
+    {
+      "id": "E:note:row631634:17",
+      "kind": "note_sentence",
+      "display": "Pt was intubated given 1 liter of fluid    and TNF to SICU under MICU service.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row631634#s17",
+      "text": "Pt was intubated given 1 liter of fluid    and TNF to SICU under MICU service."
+    },
+    {
+      "id": "E:note:row631634:18",
+      "kind": "note_sentence",
+      "display": "Hypotension (not Shock)    Assessment:           Pt arrived to SICU this am with",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row631634#s18",
+      "text": "Hypotension (not Shock)    Assessment:           Pt arrived to SICU this am with SBP mid 80 s intubated on no    sedation           On arrival pt was following commands and attempting to mouth    words           Pt SBP maintaining >90 shortly after arrival           Pt started on low dose prop for comfort           Pt also with known Upper extremity clots for which she had    been on heparin gtt but gtt currently on hold for  paracentesis today    Action:           Head CT done to r/o bleed or stroke           Pt SBP becoming increasingly labile Levo started           Aline placed           Pt requiring increased sedation           CPAP [**5-11**] attempted           BC sent X2    Response:           Goal MAP > 60           Levo titrated on/off to maintain MAP           Pt becoming increasingly tachypnic on CPAP back on CMV           Currently on 20mcgs/kg of prop           Levo off as MAP >60           Head CT neg for bleed heparin gtt still off for line    placements    Plan:           Central line to be placed by MICU           CT scan torso with contrast           Cont to attempt vent wean           Cont to monitor for sepsis           F/U BC           Pt lives at home with mom and 2 children."
+    },
+    {
+      "id": "E:note:row631634:19",
+      "kind": "note_sentence",
+      "display": "Mother is Creole    speaking only.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row631634#s19",
+      "text": "Mother is Creole    speaking only."
+    },
+    {
+      "id": "E:note:row631634:20",
+      "kind": "note_sentence",
+      "display": "Updated today via [**Name6 (MD) 11936**] and MD.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row631634#s20",
+      "text": "Updated today via [**Name6 (MD) 11936**] and MD."
+    },
+    {
+      "id": "E:note:row631634:21",
+      "kind": "note_sentence",
+      "display": "Cont with current plan of care",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row631634#s21",
+      "text": "Cont with current plan of care"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|99931": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1125": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78552": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5856": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|452": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|34830": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|40391": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|07032": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|00845": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99674": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|45385": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|45382": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2639": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5761": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78959": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5119": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8798": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25040": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4511": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25050": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|36201": [
+      "E:cond:23"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25060": [
+      "E:cond:24"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3572": [
+      "E:cond:25"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|28521": [
+      "E:cond:26"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "other and unspecified infection due to central venous catheter": [
+      "E:cond:1"
+    ],
+    "disseminated candidiasis": [
+      "E:cond:2"
+    ],
+    "septic shock": [
+      "E:cond:3"
+    ],
+    "end stage renal disease": [
+      "E:cond:4"
+    ],
+    "portal vein thrombosis": [
+      "E:cond:5"
+    ],
+    "acute respiratory failure": [
+      "E:cond:6"
+    ],
+    "encephalopathy, unspecified": [
+      "E:cond:7"
+    ],
+    "severe sepsis": [
+      "E:cond:8"
+    ],
+    "hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage v or end stage renal disease": [
+      "E:cond:9"
+    ],
+    "chronic viral hepatitis b without mention of hepatic coma without mention of hepatitis delta": [
+      "E:cond:10"
+    ],
+    "intestinal infection due to clostridium difficile": [
+      "E:cond:11"
+    ],
+    "other complications due to other vascular device, implant, and graft": [
+      "E:cond:12"
+    ],
+    "acute venous embolism and thrombosis of subclavian veins": [
+      "E:cond:13"
+    ],
+    "acute venous embolism and thrombosis of deep veins of upper extremity": [
+      "E:cond:14"
+    ],
+    "unspecified protein-calorie malnutrition": [
+      "E:cond:15"
+    ],
+    "cholangitis": [
+      "E:cond:16"
+    ],
+    "other ascites": [
+      "E:cond:17"
+    ],
+    "unspecified pleural effusion": [
+      "E:cond:18"
+    ],
+    "other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure": [
+      "E:cond:19"
+    ],
+    "diabetes with renal manifestations, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:20"
+    ],
+    "renal dialysis status": [
+      "E:cond:21"
+    ],
+    "diabetes with ophthalmic manifestations, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:22"
+    ],
+    "background diabetic retinopathy": [
+      "E:cond:23"
+    ],
+    "diabetes with neurological manifestations, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:24"
+    ],
+    "polyneuropathy in diabetes": [
+      "E:cond:25"
+    ],
+    "anemia in chronic kidney disease": [
+      "E:cond:26"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:1"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:2"
+    ],
+    "percutaneous abdominal drainage": [
+      "E:proc:3",
+      "E:proc:10"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:4"
+    ],
+    "parenteral infusion of concentrated nutritional substances": [
+      "E:proc:5"
+    ],
+    "thoracentesis": [
+      "E:proc:6"
+    ],
+    "hemodialysis": [
+      "E:proc:7"
+    ],
+    "venous catheterization for renal dialysis": [
+      "E:proc:8"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:9"
+    ],
+    "removal of other device from thorax": [
+      "E:proc:11"
+    ],
+    "aspiration of other soft tissue": [
+      "E:proc:12",
+      "E:proc:13"
+    ],
+    "diagnostic ultrasound of heart": [
+      "E:proc:14",
+      "E:proc:15"
+    ],
+    "above pt with a very complicated pmh.": [
+      "E:note:row631634:1"
+    ],
+    "hepatitis b with autoimmune cholangiopathy, esrd, diabetes, htn, cva with lef": [
+      "E:note:row631634:2"
+    ],
+    "recent long complicated hospitalization [**date range (1) 11787**] for compli": [
+      "E:note:row631634:3"
+    ],
+    "pt was at rehab after complicated hospital coarse and started treatment for p": [
+      "E:note:row631634:4"
+    ],
+    "pt was admitted on [**4-6**] to micu was volume resuscitated with good effect": [
+      "E:note:row631634:5"
+    ],
+    "pt also had a paracentesis done without evidence of sbp.": [
+      "E:note:row631634:6"
+    ],
+    "leni s done which showed no clot but upper extremity us showing old rij clot,": [
+      "E:note:row631634:7"
+    ],
+    "pt stabilized and then trnf to floor on [**4-8**].": [
+      "E:note:row631634:8"
+    ],
+    "on floor pt with persistent fevers and profuse diarrhea.": [
+      "E:note:row631634:9"
+    ],
+    "abx restarted on [**4-11**] [**2-2**] to fever 103.": [
+      "E:note:row631634:10"
+    ],
+    "also while on floor ? possible febrile sz [**2-2**] episode of increased conf": [
+      "E:note:row631634:11"
+    ],
+    "ct scan negative.": [
+      "E:note:row631634:12"
+    ],
+    "pt hd dependant last dialysis on [**4-12**] 3 liters removed.": [
+      "E:note:row631634:13"
+    ],
+    "on floor [**4-14**] pt given 2mg dilaudid at 5am for pain.": [
+      "E:note:row631634:14"
+    ],
+    "at 8am during rounds pt was alert and oriented with stable vitals.": [
+      "E:note:row631634:15"
+    ],
+    "during id rounds pt found unresponsive wth rr of 4 hypotensive but with a pul": [
+      "E:note:row631634:16"
+    ],
+    "pt was intubated given 1 liter of fluid and tnf to sicu under micu service.": [
+      "E:note:row631634:17"
+    ],
+    "hypotension (not shock) assessment: pt arrived to sicu this am with": [
+      "E:note:row631634:18"
+    ],
+    "mother is creole speaking only.": [
+      "E:note:row631634:19"
+    ],
+    "updated today via [**name6 (md) 11936**] and md.": [
+      "E:note:row631634:20"
+    ],
+    "cont with current plan of care": [
+      "E:note:row631634:21"
+    ]
+  },
+  "by_date": {
+    "2168-04-05": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13",
+      "E:proc:14",
+      "E:proc:15"
+    ]
+  }
+}

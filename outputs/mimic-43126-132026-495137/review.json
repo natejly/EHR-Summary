@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Patient has CLL with large cell transformation [E:note:row495137:1], severe sepsis [E:cond:5][E:cond:6], septicemia [E:cond:3][E:cond:4], and cardiogenic shock [E:cond:59][E:cond:60].",
+      "severity": "medium",
+      "reason": "The fact sheet lists 'Chronic lymphoid leukemia, in remission', but the summary claims 'large cell transformation' which is not supported by the provided text."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Patient has CLL with large cell transformation [E:note:row495137:1], severe sepsis [E:cond:5][E:cond:6], septicemia [E:cond:3][E:cond:4], and cardiogenic shock [E:cond:59][E:cond:60].",
+      "suggested": "Patient has CLL in remission [E:note:row495137:1], severe sepsis [E:cond:5][E:cond:6], septicemia [E:cond:3][E:cond:4], and cardiogenic shock [E:cond:59][E:cond:60].",
+      "reason": "Corrects the status of CLL to match the fact sheet's 'in remission' and removes the unsupported 'large cell transformation'."
+    }
+  ]
+}

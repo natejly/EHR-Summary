@@ -1,0 +1,390 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:1"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is a gentleman with CLL."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:1"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has aggressive large B-cell lymphoma."
+    },
+    {
+      "claim_id": "C3",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C4",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:43",
+        "E:cond:44"
+      ],
+      "rationale": "The patient has multiple recorded diagnoses of hypothermia."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list 'Viremia, unspecified', which does not specifically confirm the diagnosis of 'BK viremia'."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:2",
+        "E:note:row495933:7"
+      ],
+      "rationale": "The candidates explicitly state the patient had a PEA arrest and was resuscitated for it on [**9-10**]."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:3"
+      ],
+      "rationale": "The evidence explicitly states the patient was intubated following arrest."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:3"
+      ],
+      "rationale": "The evidence explicitly states the patient required pressor support following arrest."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:4"
+      ],
+      "rationale": "The evidence explicitly states the patient was extubated on [**9-14**]."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:5"
+      ],
+      "rationale": "The evidence explicitly states the patient was re-intubated on 2124-9-16."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:5"
+      ],
+      "rationale": "The evidence explicitly states the patient had a cardiac arrest on 2124-9-16."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:6",
+        "E:note:row495933:9"
+      ],
+      "rationale": "Both candidate evidence items explicitly list EKG as a procedure performed."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:6",
+        "E:note:row495933:10"
+      ],
+      "rationale": "Both candidates explicitly list Xray (or CXray) as an event/procedure performed."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:6"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'rt groin CVL placement' as an event."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:proc:21",
+        "E:proc:22"
+      ],
+      "rationale": "The patient's structured procedure history explicitly lists Fiber-optic bronchoscopy."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:10",
+        "E:note:row495933:20"
+      ],
+      "rationale": "Both candidate sentences explicitly mention 'Multiple ABG'."
+    },
+    {
+      "claim_id": "C18",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C19",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C20",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence items relate to pneumonitis and do not contain any information regarding heart rate or vital signs."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:2",
+        "E:note:row495933:7"
+      ],
+      "rationale": "Both candidate sentences explicitly state that the patient experienced a PEA arrest."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:8"
+      ],
+      "rationale": "The evidence explicitly states that 'CPR' was performed as part of the code blue action."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:8"
+      ],
+      "rationale": "The evidence explicitly states that 'epi X 1' was administered during the code blue event."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:3",
+        "E:note:row495933:5",
+        "E:note:row495933:6"
+      ],
+      "rationale": "Multiple evidence items explicitly state the patient was intubated."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:9"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Central line placement' as a procedure performed."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:9"
+      ],
+      "rationale": "The evidence explicitly mentions 'NS 1L wide open' in the context of patient care."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:6",
+        "E:note:row495933:9"
+      ],
+      "rationale": "Both candidate evidence items explicitly list EKG as a procedure performed."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:10",
+        "E:note:row495933:20"
+      ],
+      "rationale": "Both candidate sentences explicitly mention 'Multiple ABG'."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:10"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'CXray' as part of the patient's workup/procedures."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:10"
+      ],
+      "rationale": "The candidate evidence explicitly mentions 'lytes replacement' in the context of the patient's care."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:13"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient continued to be bradicardic with a rate of 30-50."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:13"
+      ],
+      "rationale": "The evidence explicitly states the administration of atropine 0.5 mg/IV."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:15"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Respiratory failure, acute' in the assessment section."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:2",
+        "E:note:row495933:7"
+      ],
+      "rationale": "Both evidence items explicitly state that the patient experienced a PEA arrest."
+    },
+    {
+      "claim_id": "C35",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C36",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:19"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is sedated with propofol 20 mic/kg/mt."
+    },
+    {
+      "claim_id": "C37",
+      "status": "verified",
+      "evidence_ids": [
+        "E:proc:21",
+        "E:proc:22"
+      ],
+      "rationale": "The patient's structured procedure records explicitly list 'Fiber-optic bronchoscopy' as a performed procedure."
+    },
+    {
+      "claim_id": "C38",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C39",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:10",
+        "E:note:row495933:20"
+      ],
+      "rationale": "Both candidate sentences explicitly mention 'Multiple ABG'."
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:22"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Altered mental status' in the assessment."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:19",
+        "E:note:row495933:24"
+      ],
+      "rationale": "Both candidates explicitly state the patient is sedated with propofol 20 mic."
+    },
+    {
+      "claim_id": "C42",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:26"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Impaired Skin Integrity' as an assessment for the patient."
+    },
+    {
+      "claim_id": "C43",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:26"
+      ],
+      "rationale": "The evidence explicitly states the patient has anasarca."
+    },
+    {
+      "claim_id": "C44",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate conditions mention blisters or skin-related diagnoses."
+    },
+    {
+      "claim_id": "C45",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C46",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence refers to malignant lymphomas and does not mention weeping upper or lower extremities."
+    },
+    {
+      "claim_id": "C47",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:27"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has a deep tissue injury on the buttocks and between the gluteal folds."
+    },
+    {
+      "claim_id": "C48",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:53",
+        "E:cond:54"
+      ],
+      "rationale": "The patient has two recorded conditions for gross hematuria."
+    },
+    {
+      "claim_id": "C49",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row495933:30"
+      ],
+      "rationale": "The evidence explicitly states the patient 'Continues on NS CBI overnight'."
+    }
+  ]
+}

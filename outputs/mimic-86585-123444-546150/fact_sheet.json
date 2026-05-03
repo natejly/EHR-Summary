@@ -1,0 +1,288 @@
+{
+  "case_id": "mimic-86585-123444-546150",
+  "sections": {
+    "hpi": [],
+    "active_problems": [
+      {
+        "text": "Acute respiratory failure (2137-12-09)",
+        "evidence_ids": [
+          "E:cond:1"
+        ]
+      },
+      {
+        "text": "Acute on chronic systolic heart failure (2137-12-09)",
+        "evidence_ids": [
+          "E:cond:2"
+        ]
+      },
+      {
+        "text": "Acute kidney failure, unspecified (2137-12-09)",
+        "evidence_ids": [
+          "E:cond:3"
+        ]
+      },
+      {
+        "text": "Ventilator associated pneumonia (2137-12-09)",
+        "evidence_ids": [
+          "E:cond:4"
+        ]
+      },
+      {
+        "text": "Other complications due to other cardiac device, implant, and graft (2137-12-09)",
+        "evidence_ids": [
+          "E:cond:5"
+        ]
+      },
+      {
+        "text": "Congestive heart failure, unspecified (2137-12-09)",
+        "evidence_ids": [
+          "E:cond:6"
+        ]
+      },
+      {
+        "text": "Coronary atherosclerosis of native coronary artery (2137-12-09)",
+        "evidence_ids": [
+          "E:cond:7"
+        ]
+      },
+      {
+        "text": "Atrial fibrillation (2137-12-09)",
+        "evidence_ids": [
+          "E:cond:8"
+        ]
+      },
+      {
+        "text": "Anemia, unspecified (2137-12-09)",
+        "evidence_ids": [
+          "E:cond:9"
+        ]
+      },
+      {
+        "text": "Chronic kidney disease, unspecified (2137-12-09)",
+        "evidence_ids": [
+          "E:cond:10"
+        ]
+      },
+      {
+        "text": "Mitral valve disorders (2137-12-09)",
+        "evidence_ids": [
+          "E:cond:11"
+        ]
+      },
+      {
+        "text": "Pressure ulcer, other site (2137-12-09)",
+        "evidence_ids": [
+          "E:cond:12"
+        ]
+      },
+      {
+        "text": "Pressure ulcer, stage II (2137-12-09)",
+        "evidence_ids": [
+          "E:cond:13"
+        ]
+      },
+      {
+        "text": "Procedure: Continuous invasive mechanical ventilation for less than 96 consecutive hours (2137-12-09)",
+        "evidence_ids": [
+          "E:proc:1"
+        ]
+      },
+      {
+        "text": "Procedure: Combined right and left heart cardiac catheterization (2137-12-09)",
+        "evidence_ids": [
+          "E:proc:2"
+        ]
+      },
+      {
+        "text": "Procedure: Coronary arteriography using two catheters (2137-12-09)",
+        "evidence_ids": [
+          "E:proc:3"
+        ]
+      },
+      {
+        "text": "Procedure: Insertion of endotracheal tube (2137-12-09)",
+        "evidence_ids": [
+          "E:proc:4"
+        ]
+      },
+      {
+        "text": "has diagnosis: CABG",
+        "evidence_ids": [
+          "E:note:row546150:1"
+        ]
+      },
+      {
+        "text": "has diagnosis: CHF",
+        "evidence_ids": [
+          "E:note:row546150:1",
+          "E:note:row546150:6"
+        ]
+      },
+      {
+        "text": "has diagnosis: I-CMP",
+        "evidence_ids": [
+          "E:note:row546150:1"
+        ]
+      },
+      {
+        "text": "is: +smoker",
+        "evidence_ids": [
+          "E:note:row546150:27"
+        ]
+      },
+      {
+        "text": "underwent: Intubation",
+        "evidence_ids": [
+          "E:note:row546150:2",
+          "E:note:row546150:3"
+        ]
+      },
+      {
+        "text": "has diagnosis: Heart failure (CHF), Systolic, Acute on Chronic",
+        "evidence_ids": [
+          "E:note:row546150:6"
+        ]
+      },
+      {
+        "text": "has diagnosis: Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])",
+        "evidence_ids": [
+          "E:cond:1"
+        ]
+      },
+      {
+        "text": "has diagnosis: Atrial fibrillation (Afib)",
+        "evidence_ids": [
+          "E:cond:8"
+        ]
+      },
+      {
+        "text": "has diagnosis: Impaired Skin Integrity",
+        "evidence_ids": [
+          "E:note:row546150:22"
+        ]
+      },
+      {
+        "text": "has diagnosis: Anemia, chronic",
+        "evidence_ids": [
+          "E:note:row546150:25"
+        ]
+      },
+      {
+        "text": "has diagnosis: Knowledge Deficit",
+        "evidence_ids": [
+          "E:note:row546150:27"
+        ]
+      }
+    ],
+    "medications": [
+      {
+        "text": "takes medication: Lasix weaned to 8mg/hr",
+        "evidence_ids": [
+          "E:note:row546150:7"
+        ]
+      },
+      {
+        "text": "takes medication: PRN fentanyl and Versed IVP",
+        "evidence_ids": [
+          "E:note:row546150:14"
+        ]
+      },
+      {
+        "text": "takes medication: Heparin gtt started at 1400units/hr",
+        "evidence_ids": [
+          "E:note:row546150:17"
+        ]
+      },
+      {
+        "text": "takes medication: 40meQ KCL",
+        "evidence_ids": [
+          "E:note:row546150:17"
+        ]
+      },
+      {
+        "text": "takes medication: 1 time dose Zosyn",
+        "evidence_ids": [
+          "E:note:row546150:20"
+        ]
+      },
+      {
+        "text": "takes medication: Azythromycin IV",
+        "evidence_ids": [
+          "E:note:row546150:20"
+        ]
+      }
+    ],
+    "labs": [
+      {
+        "text": "lab result: K 3.7",
+        "evidence_ids": [
+          "E:note:row546150:17"
+        ]
+      },
+      {
+        "text": "lab result: HCT drop from 38.3 to 26 in OSH",
+        "evidence_ids": [
+          "E:note:row546150:25"
+        ]
+      }
+    ],
+    "vitals": [
+      {
+        "text": "lab result: Uop continues ~100cc/hr",
+        "evidence_ids": [
+          "E:note:row546150:7"
+        ]
+      },
+      {
+        "text": "lab result: AM RSBI 52",
+        "evidence_ids": [
+          "E:note:row546150:11"
+        ]
+      },
+      {
+        "text": "lab result: HR 80-90s AFib",
+        "evidence_ids": [
+          "E:note:row546150:15"
+        ]
+      },
+      {
+        "text": "lab result: TMax 99.7",
+        "evidence_ids": [
+          "E:note:row546150:19"
+        ]
+      }
+    ],
+    "plan": [
+      {
+        "text": "plan to: Monitor Cr",
+        "evidence_ids": [
+          "E:note:row546150:8"
+        ]
+      },
+      {
+        "text": "plan to: TTE today",
+        "evidence_ids": [
+          "E:note:row546150:9"
+        ]
+      },
+      {
+        "text": "plan to: ? adding ACE-I as BP tolerates",
+        "evidence_ids": [
+          "E:note:row546150:9"
+        ]
+      },
+      {
+        "text": "plan to: Titrate heparin gtt accordingly for goal PTT 60-100",
+        "evidence_ids": [
+          "E:note:row546150:18"
+        ]
+      },
+      {
+        "text": "plan to: Monitor HCTs, ?transfuse",
+        "evidence_ids": [
+          "E:note:row546150:27"
+        ]
+      }
+    ]
+  }
+}

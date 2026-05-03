@@ -1,0 +1,165 @@
+{
+  "case_id": "mimic-21137-101950-1574",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 12578,
+    "summary_chars": 2837,
+    "target_min_chars": 2515,
+    "target_max_chars": 3773,
+    "achieved_ratio": 0.22555255207505168,
+    "in_target_band": true
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 17,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row1574:102",
+      "E:note:row1574:109",
+      "E:note:row1574:11",
+      "E:note:row1574:111",
+      "E:note:row1574:116",
+      "E:note:row1574:15",
+      "E:note:row1574:16",
+      "E:note:row1574:19",
+      "E:note:row1574:2",
+      "E:note:row1574:20",
+      "E:note:row1574:23",
+      "E:note:row1574:24",
+      "E:note:row1574:25",
+      "E:note:row1574:26",
+      "E:note:row1574:29",
+      "E:note:row1574:3",
+      "E:note:row1574:30",
+      "E:note:row1574:32",
+      "E:note:row1574:4",
+      "E:note:row1574:61",
+      "E:note:row1574:65",
+      "E:note:row1574:66",
+      "E:note:row1574:68",
+      "E:note:row1574:69",
+      "E:note:row1574:75",
+      "E:note:row1574:77",
+      "E:note:row1574:81",
+      "E:note:row1574:89",
+      "E:note:row1574:9",
+      "E:note:row1574:90",
+      "E:note:row1574:91",
+      "E:note:row1574:92",
+      "E:note:row1574:94",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Patient presents with complete atrioventricular block [E:cond:1][E:note:row1574:2], cardiac arrest [E:cond:2], and paroxysmal ventricular tachycardia [E:cond:9] including ventricular fibrillation [E:note:row1574:9].",
+        "severity": "medium",
+        "reason": "The summary claims paroxysmal ventricular tachycardia includes ventricular fibrillation, but the fact sheet does not establish this relationship."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Patient presents with complete atrioventricular block [E:cond:1][E:note:row1574:2], cardiac arrest [E:cond:2], and paroxysmal ventricular tachycardia [E:cond:9] including ventricular fibrillation [E:note:row1574:9].",
+        "suggested": "Patient presents with complete atrioventricular block [E:cond:1][E:note:row1574:2], cardiac arrest [E:cond:2], paroxysmal ventricular tachycardia [E:cond:9], and ventricular fibrillation [E:note:row1574:9].",
+        "reason": "Removes the unsupported claim that ventricular fibrillation is a subset of the paroxysmal ventricular tachycardia."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-21137-101950-1574/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.32,
+    "fk_words": 199,
+    "fk_sentences": 21,
+    "fk_syllables": 324,
+    "chars": 1936,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-21137-101950-1574/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.003520708007272333,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 788.4457208749955,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 210.97476208297303,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.00310941698262468,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 20.585050042020157,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 66.4192323749885,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.004132999980356544,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 10.465557124989573,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

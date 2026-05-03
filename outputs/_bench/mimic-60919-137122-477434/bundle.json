@@ -1,0 +1,470 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-60919-137122",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-60919",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-60919",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-137122",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-137122",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2141-08-02T00:00:00",
+          "end": "2141-08-14T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-137122-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-137122-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5070",
+              "display": "Pneumonitis due to inhalation of food or vomitus"
+            }
+          ],
+          "text": "Pneumonitis due to inhalation of food or vomitus"
+        },
+        "onsetDateTime": "2141-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-137122-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-137122-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5722",
+              "display": "Hepatic encephalopathy"
+            }
+          ],
+          "text": "Hepatic encephalopathy"
+        },
+        "onsetDateTime": "2141-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-137122-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-137122-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "45620",
+              "display": "Esophageal varices in diseases classified elsewhere, with bleeding"
+            }
+          ],
+          "text": "Esophageal varices in diseases classified elsewhere, with bleeding"
+        },
+        "onsetDateTime": "2141-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-137122-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-137122-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2851",
+              "display": "Acute posthemorrhagic anemia"
+            }
+          ],
+          "text": "Acute posthemorrhagic anemia"
+        },
+        "onsetDateTime": "2141-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-137122-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-137122-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2141-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-137122-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-137122-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3481",
+              "display": "Anoxic brain damage"
+            }
+          ],
+          "text": "Anoxic brain damage"
+        },
+        "onsetDateTime": "2141-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-137122-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-137122-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2141-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-137122-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-137122-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5723",
+              "display": "Portal hypertension"
+            }
+          ],
+          "text": "Portal hypertension"
+        },
+        "onsetDateTime": "2141-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-137122-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-137122-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5712",
+              "display": "Alcoholic cirrhosis of liver"
+            }
+          ],
+          "text": "Alcoholic cirrhosis of liver"
+        },
+        "onsetDateTime": "2141-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-137122-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-137122-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "30391",
+              "display": "Other and unspecified alcohol dependence, continuous"
+            }
+          ],
+          "text": "Other and unspecified alcohol dependence, continuous"
+        },
+        "onsetDateTime": "2141-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-137122-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-137122-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "53530",
+              "display": "Alcoholic gastritis, without mention of hemorrhage"
+            }
+          ],
+          "text": "Alcoholic gastritis, without mention of hemorrhage"
+        },
+        "onsetDateTime": "2141-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-137122-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-137122-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5739",
+              "display": "Unspecified disorder of liver"
+            }
+          ],
+          "text": "Unspecified disorder of liver"
+        },
+        "onsetDateTime": "2141-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-137122-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-137122-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "34590",
+              "display": "Epilepsy, unspecified, without mention of intractable epilepsy"
+            }
+          ],
+          "text": "Epilepsy, unspecified, without mention of intractable epilepsy"
+        },
+        "onsetDateTime": "2141-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-137122-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-137122-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V600",
+              "display": "Lack of housing"
+            }
+          ],
+          "text": "Lack of housing"
+        },
+        "onsetDateTime": "2141-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-137122-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-137122-1",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2141-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-137122-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-137122-2",
+        "status": "completed",
+        "code": {
+          "text": "Other endoscopy of small intestine"
+        },
+        "performedDateTime": "2141-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-137122-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-137122-3",
+        "status": "completed",
+        "code": {
+          "text": "Arterial catheterization"
+        },
+        "performedDateTime": "2141-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-137122-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-137122-4",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2141-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-137122-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-137122-5",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2141-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-137122-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-137122-6",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2141-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-137122-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-137122-7",
+        "status": "completed",
+        "code": {
+          "text": "Endoscopic excision or destruction of lesion or tissue of esophagus"
+        },
+        "performedDateTime": "2141-08-02"
+      }
+    }
+  ]
+}

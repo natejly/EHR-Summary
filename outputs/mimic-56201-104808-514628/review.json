@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Patient presents with acute respiratory failure [E:cond:3], multifocal pneumonia including VAP [E:cond:2][E:note:row514628:7][E:note:row514628:36], and cardiac tamponade due to large pericardial effusion [E:cond:14][E:note:row514628:7][E:note:row514628:13].",
+      "severity": "medium",
+      "reason": "The summary specifies 'multifocal pneumonia including VAP' and 'large pericardial effusion', but the fact sheet only lists 'Pneumonia, organism unspecified' and 'Cardiac tamponade'."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Patient presents with acute respiratory failure [E:cond:3], multifocal pneumonia including VAP [E:cond:2][E:note:row514628:7][E:note:row514628:36], and cardiac tamponade due to large pericardial effusion [E:cond:14][E:note:row514628:7][E:note:row514628:13].",
+      "suggested": "Patient presents with acute respiratory failure [E:cond:3], pneumonia [E:cond:2][E:note:row514628:7][E:note:row514628:36], and cardiac tamponade [E:cond:14][E:note:row514628:7][E:note:row514628:13].",
+      "reason": "Remove specific descriptors like 'multifocal', 'VAP', and 'large pericardial effusion' not explicitly present in the provided fact sheet."
+    }
+  ]
+}

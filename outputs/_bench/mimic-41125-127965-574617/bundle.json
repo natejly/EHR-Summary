@@ -1,0 +1,371 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-41125-127965",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-41125",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-41125",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-127965",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-127965",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2119-06-21T00:00:00",
+          "end": "2119-07-07T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-127965-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-127965-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41071",
+              "display": "Subendocardial infarction, initial episode of care"
+            }
+          ],
+          "text": "Subendocardial infarction, initial episode of care"
+        },
+        "onsetDateTime": "2119-06-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-127965-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-127965-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "48241",
+              "display": "Methicillin susceptible pneumonia due to Staphylococcus aureus"
+            }
+          ],
+          "text": "Methicillin susceptible pneumonia due to Staphylococcus aureus"
+        },
+        "onsetDateTime": "2119-06-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-127965-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-127965-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5070",
+              "display": "Pneumonitis due to inhalation of food or vomitus"
+            }
+          ],
+          "text": "Pneumonitis due to inhalation of food or vomitus"
+        },
+        "onsetDateTime": "2119-06-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-127965-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-127965-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42833",
+              "display": "Acute on chronic diastolic heart failure"
+            }
+          ],
+          "text": "Acute on chronic diastolic heart failure"
+        },
+        "onsetDateTime": "2119-06-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-127965-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-127965-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5185",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2119-06-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-127965-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-127965-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4160",
+              "display": "Primary pulmonary hypertension"
+            }
+          ],
+          "text": "Primary pulmonary hypertension"
+        },
+        "onsetDateTime": "2119-06-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-127965-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-127965-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2119-06-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-127965-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-127965-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "29181",
+              "display": "Alcohol withdrawal"
+            }
+          ],
+          "text": "Alcohol withdrawal"
+        },
+        "onsetDateTime": "2119-06-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-127965-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-127965-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3331",
+              "display": "Essential and other specified forms of tremor"
+            }
+          ],
+          "text": "Essential and other specified forms of tremor"
+        },
+        "onsetDateTime": "2119-06-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-127965-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-127965-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2119-06-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-127965-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-127965-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2119-06-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-127965-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-127965-1",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2119-06-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-127965-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-127965-2",
+        "status": "completed",
+        "code": {
+          "text": "Combined right and left heart cardiac catheterization"
+        },
+        "performedDateTime": "2119-06-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-127965-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-127965-3",
+        "status": "completed",
+        "code": {
+          "text": "Coronary arteriography using two catheters"
+        },
+        "performedDateTime": "2119-06-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-127965-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-127965-4",
+        "status": "completed",
+        "code": {
+          "text": "Angiocardiography of left heart structures"
+        },
+        "performedDateTime": "2119-06-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-127965-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-127965-5",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2119-06-21"
+      }
+    }
+  ]
+}

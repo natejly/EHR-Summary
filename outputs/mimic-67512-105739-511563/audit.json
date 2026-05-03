@@ -1,0 +1,129 @@
+{
+  "case_id": "mimic-67512-105739-511563",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 1109,
+    "summary_chars": 755,
+    "target_min_chars": 221,
+    "target_max_chars": 332,
+    "achieved_ratio": 0.6807935076645627,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 8,
+    "cited_evidence_ids": [
+      "E:cond:11",
+      "E:cond:4",
+      "E:cond:6",
+      "E:note:row511563:1",
+      "E:note:row511563:11",
+      "E:note:row511563:14",
+      "E:note:row511563:15",
+      "E:note:row511563:16",
+      "E:note:row511563:18",
+      "E:note:row511563:19",
+      "E:note:row511563:2",
+      "E:note:row511563:4",
+      "E:note:row511563:5",
+      "E:note:row511563:7",
+      "E:note:row511563:8"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "ESRD [E:cond:4], acute RF [E:note:row511563:19], dCHF [E:note:row511563:18], PHTN [E:note:row511563:1], Hep C cirrhosis [E:note:row511563:1], HIV [E:cond:11], OSA [E:note:row511563:1], DM [E:note:row511563:1], hyperkalemia [E:note:row511563:19].",
+        "severity": "medium",
+        "reason": "Several conditions (PHTN, Hep C cirrhosis, OSA, DM) are cited to E:note:row511563:1, but that evidence ID is not present in the provided fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "ESRD [E:cond:4], acute RF [E:note:row511563:19], dCHF [E:note:row511563:18], PHTN [E:note:row511563:1], Hep C cirrhosis [E:note:row511563:1], HIV [E:cond:11], OSA [E:note:row511563:1], DM [E:note:row511563:1], hyperkalemia [E:note:row511563:19].",
+        "suggested": "ESRD [E:cond:4], dCHF [E:cond:3], Hep C cirrhosis [E:cond:7, E:cond:8], HIV [E:cond:11], OSA [E:cond:12], hyperkalemia [E:cond:10].",
+        "reason": "Correct citations to match the provided fact sheet and remove unsupported claims."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-67512-105739-511563/summary_revised.md",
+  "revised_check_passed": false,
+  "patient_summary": {
+    "fk_grade": 4.87,
+    "fk_words": 139,
+    "fk_sentences": 22,
+    "fk_syllables": 212,
+    "chars": 1382,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-67512-105739-511563/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0015621670172549784,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 91.55874495801982,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 312.0172764589661,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.001915500033646822,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 16.859043915988877,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 13.287508208013605,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0035828750114887953,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 18.476550708001014,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

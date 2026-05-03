@@ -1,0 +1,844 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-76541-139921",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-76541",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-76541",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-139921",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-139921",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2168-03-16T00:00:00",
+          "end": "2168-04-20T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5711",
+              "display": "Acute alcoholic hepatitis"
+            }
+          ],
+          "text": "Acute alcoholic hepatitis"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5724",
+              "display": "Hepatorenal syndrome"
+            }
+          ],
+          "text": "Hepatorenal syndrome"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5722",
+              "display": "Hepatic encephalopathy"
+            }
+          ],
+          "text": "Hepatic encephalopathy"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "45620",
+              "display": "Esophageal varices in diseases classified elsewhere, with bleeding"
+            }
+          ],
+          "text": "Esophageal varices in diseases classified elsewhere, with bleeding"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5845",
+              "display": "Acute kidney failure with lesion of tubular necrosis"
+            }
+          ],
+          "text": "Acute kidney failure with lesion of tubular necrosis"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "262",
+              "display": "Other severe protein-calorie malnutrition"
+            }
+          ],
+          "text": "Other severe protein-calorie malnutrition"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2869",
+              "display": "Other and unspecified coagulation defects"
+            }
+          ],
+          "text": "Other and unspecified coagulation defects"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78959",
+              "display": "Other ascites"
+            }
+          ],
+          "text": "Other ascites"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5990",
+              "display": "Urinary tract infection, site not specified"
+            }
+          ],
+          "text": "Urinary tract infection, site not specified"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78550",
+              "display": "Shock, unspecified"
+            }
+          ],
+          "text": "Shock, unspecified"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2762",
+              "display": "Acidosis"
+            }
+          ],
+          "text": "Acidosis"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2761",
+              "display": "Hyposmolality and/or hyponatremia"
+            }
+          ],
+          "text": "Hyposmolality and/or hyponatremia"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7863",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3071",
+              "display": "Anorexia nervosa"
+            }
+          ],
+          "text": "Anorexia nervosa"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5723",
+              "display": "Portal hypertension"
+            }
+          ],
+          "text": "Portal hypertension"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "30390",
+              "display": "Other and unspecified alcohol dependence, unspecified"
+            }
+          ],
+          "text": "Other and unspecified alcohol dependence, unspecified"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5712",
+              "display": "Alcoholic cirrhosis of liver"
+            }
+          ],
+          "text": "Alcoholic cirrhosis of liver"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2874",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2911",
+              "display": "Alcohol-induced persisting amnestic disorder"
+            }
+          ],
+          "text": "Alcohol-induced persisting amnestic disorder"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0414",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2859",
+              "display": "Anemia, unspecified"
+            }
+          ],
+          "text": "Anemia, unspecified"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78720",
+              "display": "Dysphagia, unspecified"
+            }
+          ],
+          "text": "Dysphagia, unspecified"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-24",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-24",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7823",
+              "display": "Edema"
+            }
+          ],
+          "text": "Edema"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-25",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-25",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78065",
+              "display": "Hypothermia not associated with low environmental temperature"
+            }
+          ],
+          "text": "Hypothermia not associated with low environmental temperature"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-26",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-26",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2768",
+              "display": "Hypopotassemia"
+            }
+          ],
+          "text": "Hypopotassemia"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-27",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-27",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2769",
+              "display": "Electrolyte and fluid disorders not elsewhere classified"
+            }
+          ],
+          "text": "Electrolyte and fluid disorders not elsewhere classified"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-139921-28",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-139921-28",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "6954",
+              "display": "Lupus erythematosus"
+            }
+          ],
+          "text": "Lupus erythematosus"
+        },
+        "onsetDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-139921-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-139921-1",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-139921-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-139921-2",
+        "status": "completed",
+        "code": {
+          "text": "Arterial catheterization"
+        },
+        "performedDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-139921-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-139921-3",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-139921-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-139921-4",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-139921-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-139921-5",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-139921-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-139921-6",
+        "status": "completed",
+        "code": {
+          "text": "Other endoscopy of small intestine"
+        },
+        "performedDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-139921-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-139921-7",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-139921-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-139921-8",
+        "status": "completed",
+        "code": {
+          "text": "Endoscopic excision or destruction of lesion or tissue of esophagus"
+        },
+        "performedDateTime": "2168-03-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-139921-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-139921-9",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2168-03-16"
+      }
+    }
+  ]
+}

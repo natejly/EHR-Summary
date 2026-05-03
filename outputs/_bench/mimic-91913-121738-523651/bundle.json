@@ -1,0 +1,642 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-91913-121738",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-91913",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-91913",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-121738",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-121738",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2105-04-07T00:00:00",
+          "end": "2105-04-14T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-121738-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-121738-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41071",
+              "display": "Subendocardial infarction, initial episode of care"
+            }
+          ],
+          "text": "Subendocardial infarction, initial episode of care"
+        },
+        "onsetDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-121738-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-121738-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42831",
+              "display": "Acute diastolic heart failure"
+            }
+          ],
+          "text": "Acute diastolic heart failure"
+        },
+        "onsetDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-121738-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-121738-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "486",
+              "display": "Pneumonia, organism unspecified"
+            }
+          ],
+          "text": "Pneumonia, organism unspecified"
+        },
+        "onsetDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-121738-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-121738-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-121738-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-121738-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "49121",
+              "display": "Obstructive chronic bronchitis with (acute) exacerbation"
+            }
+          ],
+          "text": "Obstructive chronic bronchitis with (acute) exacerbation"
+        },
+        "onsetDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-121738-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-121738-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2762",
+              "display": "Acidosis"
+            }
+          ],
+          "text": "Acidosis"
+        },
+        "onsetDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-121738-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-121738-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7863",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-121738-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-121738-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41401",
+              "display": "Coronary atherosclerosis of native coronary artery"
+            }
+          ],
+          "text": "Coronary atherosclerosis of native coronary artery"
+        },
+        "onsetDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-121738-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-121738-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-121738-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-121738-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V5489",
+              "display": "Other orthopedic aftercare"
+            }
+          ],
+          "text": "Other orthopedic aftercare"
+        },
+        "onsetDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-121738-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-121738-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "45829",
+              "display": "Other iatrogenic hypotension"
+            }
+          ],
+          "text": "Other iatrogenic hypotension"
+        },
+        "onsetDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-121738-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-121738-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E9348",
+              "display": "Other agents affecting blood constituents causing adverse effects in therapeutic use"
+            }
+          ],
+          "text": "Other agents affecting blood constituents causing adverse effects in therapeutic use"
+        },
+        "onsetDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-121738-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-121738-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-121738-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-121738-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2449",
+              "display": "Unspecified acquired hypothyroidism"
+            }
+          ],
+          "text": "Unspecified acquired hypothyroidism"
+        },
+        "onsetDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-121738-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-121738-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "72400",
+              "display": "Spinal stenosis, unspecified region"
+            }
+          ],
+          "text": "Spinal stenosis, unspecified region"
+        },
+        "onsetDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-121738-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-121738-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "30000",
+              "display": "Anxiety state, unspecified"
+            }
+          ],
+          "text": "Anxiety state, unspecified"
+        },
+        "onsetDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-121738-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-121738-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3569",
+              "display": "Unspecified hereditary and idiopathic peripheral neuropathy"
+            }
+          ],
+          "text": "Unspecified hereditary and idiopathic peripheral neuropathy"
+        },
+        "onsetDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-121738-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-121738-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V1582",
+              "display": "Personal history of tobacco use"
+            }
+          ],
+          "text": "Personal history of tobacco use"
+        },
+        "onsetDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-121738-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-121738-1",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous transluminal coronary angioplasty [PTCA]"
+        },
+        "performedDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-121738-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-121738-2",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of drug-eluting coronary artery stent(s)"
+        },
+        "performedDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-121738-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-121738-3",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of non-drug-eluting coronary artery stent(s)"
+        },
+        "performedDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-121738-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-121738-4",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of four or more vascular stents"
+        },
+        "performedDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-121738-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-121738-5",
+        "status": "completed",
+        "code": {
+          "text": "Procedure on two vessels"
+        },
+        "performedDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-121738-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-121738-6",
+        "status": "completed",
+        "code": {
+          "text": "Injection or infusion of platelet inhibitor"
+        },
+        "performedDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-121738-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-121738-7",
+        "status": "completed",
+        "code": {
+          "text": "Procedure on vessel bifurcation"
+        },
+        "performedDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-121738-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-121738-8",
+        "status": "completed",
+        "code": {
+          "text": "Left heart cardiac catheterization"
+        },
+        "performedDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-121738-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-121738-9",
+        "status": "completed",
+        "code": {
+          "text": "Coronary arteriography using two catheters"
+        },
+        "performedDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-121738-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-121738-10",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-121738-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-121738-11",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-121738-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-121738-12",
+        "status": "completed",
+        "code": {
+          "text": "Arterial catheterization"
+        },
+        "performedDateTime": "2105-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-121738-13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-121738-13",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2105-04-07"
+      }
+    }
+  ]
+}

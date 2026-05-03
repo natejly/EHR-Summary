@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Type II diabetes on insulin [E:cond:29][E:cond:30][E:cond:47][E:cond:48].",
+      "severity": "medium",
+      "reason": "The fact sheet does not mention insulin use; it only specifies Type II diabetes."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Type II diabetes on insulin [E:cond:29][E:cond:30][E:cond:47][E:cond:48].",
+      "suggested": "Type II diabetes [E:cond:29][E:cond:30][E:cond:47][E:cond:48].",
+      "reason": "Remove reference to insulin as it is not supported by the provided fact sheet."
+    }
+  ]
+}

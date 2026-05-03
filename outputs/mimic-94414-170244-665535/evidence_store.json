@@ -1,0 +1,997 @@
+{
+  "case_id": "mimic-94414-170244-665535",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:enc-170244",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Methicillin resistant pneumonia due to Staphylococcus aureus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "48242",
+        "display": "Methicillin resistant pneumonia due to Staphylococcus aureus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:cond-170244-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:cond-170244-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Dependence on respirator, status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4611",
+        "display": "Dependence on respirator, status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:cond-170244-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:cond-170244-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:cond-170244-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4538",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:cond-170244-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:cond-170244-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Pure hypercholesterolemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2720",
+        "display": "Pure hypercholesterolemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:cond-170244-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Hypoxemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "79902",
+        "display": "Hypoxemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:cond-170244-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Unspecified acquired hypothyroidism",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2449",
+        "display": "Unspecified acquired hypothyroidism"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:cond-170244-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Other chronic pulmonary heart diseases",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4168",
+        "display": "Other chronic pulmonary heart diseases"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:cond-170244-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Dysthymic disorder",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3004",
+        "display": "Dysthymic disorder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:cond-170244-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:cond-170244-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Carrier or suspected carrier of Methicillin resistant Staphylococcus aureus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V0254",
+        "display": "Carrier or suspected carrier of Methicillin resistant Staphylococcus aureus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:cond-170244-14",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Temporary tracheostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Temporary tracheostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:proc-170244-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:proc-170244-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Non-invasive mechanical ventilation",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Non-invasive mechanical ventilation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:proc-170244-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Fiber-optic bronchoscopy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Fiber-optic bronchoscopy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:proc-170244-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Percutaneous [endoscopic] gastrostomy [PEG]",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous [endoscopic] gastrostomy [PEG]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:proc-170244-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:proc-170244-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:proc-170244-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:proc-170244-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Injection or infusion of oxazolidinone class of antibiotics",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Injection or infusion of oxazolidinone class of antibiotics"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-04-01",
+      "source_ref": "urn:uuid:proc-170244-9",
+      "text": null
+    },
+    {
+      "id": "E:note:row665535:1",
+      "kind": "note_sentence",
+      "display": "Ms. [**Known lastname 5387**] is a 62 year-old woman with a history of hypertens",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s1",
+      "text": "Ms. [**Known lastname 5387**] is a 62 year-old woman with a history of hypertension and    hyperlipidemia who initially presented to an OSH on [**3-18**] with    pneumonia, now being transferred to [**Hospital1 5**] for further evaluation of    hypoxia."
+    },
+    {
+      "id": "E:note:row665535:2",
+      "kind": "note_sentence",
+      "display": "Patient initially presented to her PCP [**Last Name (NamePattern4) **] [**3-16**",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s2",
+      "text": "Patient initially presented to her PCP [**Last Name (NamePattern4) **] [**3-16**] with cough and SOB; CXR    at that time reportedly showed no infiltrate; antibiotics were started    as an outpatient."
+    },
+    {
+      "id": "E:note:row665535:3",
+      "kind": "note_sentence",
+      "display": "Then admitted to the OSH on [**3-18**] with cough and    diarrhea and was found ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s3",
+      "text": "Then admitted to the OSH on [**3-18**] with cough and    diarrhea and was found to have a LLL PNA."
+    },
+    {
+      "id": "E:note:row665535:4",
+      "kind": "note_sentence",
+      "display": "Started on Levaquin IV.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s4",
+      "text": "Started on Levaquin IV."
+    },
+    {
+      "id": "E:note:row665535:5",
+      "kind": "note_sentence",
+      "display": "Blood cultures and legionella antigen were negative.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s5",
+      "text": "Blood cultures and legionella antigen were negative."
+    },
+    {
+      "id": "E:note:row665535:6",
+      "kind": "note_sentence",
+      "display": "A few days into    the hospitalization, IV steroids were started.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s6",
+      "text": "A few days into    the hospitalization, IV steroids were started."
+    },
+    {
+      "id": "E:note:row665535:7",
+      "kind": "note_sentence",
+      "display": "On [**3-24**] an ABG was    obtained and showed 7.48/38/57.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s7",
+      "text": "On [**3-24**] an ABG was    obtained and showed 7.48/38/57."
+    },
+    {
+      "id": "E:note:row665535:8",
+      "kind": "note_sentence",
+      "display": "A CT was done and showed bilateral    infiltrates and no PE; zosyn was started.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s8",
+      "text": "A CT was done and showed bilateral    infiltrates and no PE; zosyn was started."
+    },
+    {
+      "id": "E:note:row665535:9",
+      "kind": "note_sentence",
+      "display": "An echo was also done and    showed normal EF and mild pulmonary hypertension.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s9",
+      "text": "An echo was also done and    showed normal EF and mild pulmonary hypertension."
+    },
+    {
+      "id": "E:note:row665535:10",
+      "kind": "note_sentence",
+      "display": "On [**3-30**], IV    vancomycin was started.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s10",
+      "text": "On [**3-30**], IV    vancomycin was started."
+    },
+    {
+      "id": "E:note:row665535:11",
+      "kind": "note_sentence",
+      "display": "Given concern for PCP, [**Name10 (NameIs) 5388**] was started    on day of trans",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s11",
+      "text": "Given concern for PCP, [**Name10 (NameIs) 5388**] was started    on day of transfer."
+    },
+    {
+      "id": "E:note:row665535:12",
+      "kind": "note_sentence",
+      "display": "Given persistent hypoxia, transfer to BIMDC was    arranged.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s12",
+      "text": "Given persistent hypoxia, transfer to BIMDC was    arranged."
+    },
+    {
+      "id": "E:note:row665535:13",
+      "kind": "note_sentence",
+      "display": "Cxr w/ bilat.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s13",
+      "text": "Cxr w/ bilat."
+    },
+    {
+      "id": "E:note:row665535:14",
+      "kind": "note_sentence",
+      "display": "Ground glass opacity.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s14",
+      "text": "Ground glass opacity."
+    },
+    {
+      "id": "E:note:row665535:15",
+      "kind": "note_sentence",
+      "display": "EKG done, non specific changes           Abg 7.37/41/56 on non-invasive mask ven",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s15",
+      "text": "EKG done, non specific changes           Abg 7.37/41/56 on non-invasive mask ventilation 100% Fio2,    and PS 10."
+    },
+    {
+      "id": "E:note:row665535:16",
+      "kind": "note_sentence",
+      "display": "Plan for intubation for CT as Pt. w/ significant desats.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s16",
+      "text": "Plan for intubation for CT as Pt. w/ significant desats."
+    },
+    {
+      "id": "E:note:row665535:17",
+      "kind": "note_sentence",
+      "display": "With out O2, and does not tolerate laying flat.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s17",
+      "text": "With out O2, and does not tolerate laying flat."
+    },
+    {
+      "id": "E:note:row665535:18",
+      "kind": "note_sentence",
+      "display": "Lab:  wbc 17.1 today, up from 16.6, pending HIV test at    transferring facility",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s18",
+      "text": "Lab:  wbc 17.1 today, up from 16.6, pending HIV test at    transferring facility done 3.27    Anxiety    Assessment:    Pt. with known hx of acute anxiety, clonipin and imiprimine for home    regimen.."
+    },
+    {
+      "id": "E:note:row665535:19",
+      "kind": "note_sentence",
+      "display": "Arrives from osh with anxiety regarding sob . does respond    to reassurance, sh",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s19",
+      "text": "Arrives from osh with anxiety regarding sob . does respond    to reassurance, sharing plan and reinforcing behavior    Action:    Much reassurance, share with pt [**Name (NI) 147**], describe activities, provide safe    environment."
+    },
+    {
+      "id": "E:note:row665535:20",
+      "kind": "note_sentence",
+      "display": "PO regimen changed to PRN IV Lorazepam and Morphine.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s20",
+      "text": "PO regimen changed to PRN IV Lorazepam and Morphine."
+    },
+    {
+      "id": "E:note:row665535:21",
+      "kind": "note_sentence",
+      "display": "Response:    Small effect noted with meds, and reassurance.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s21",
+      "text": "Response:    Small effect noted with meds, and reassurance."
+    },
+    {
+      "id": "E:note:row665535:22",
+      "kind": "note_sentence",
+      "display": "Plan:    Cont. plan as above.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s22",
+      "text": "Plan:    Cont. plan as above."
+    },
+    {
+      "id": "E:note:row665535:23",
+      "kind": "note_sentence",
+      "display": "Pneumonia, bacterial, community acquired (CAP)    Assessment:    Pt received on ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s23",
+      "text": "Pneumonia, bacterial, community acquired (CAP)    Assessment:    Pt received on hi-flow neb, 100% , desats with any activity, to high    70 s visibly SOB with increase RR quickly."
+    },
+    {
+      "id": "E:note:row665535:24",
+      "kind": "note_sentence",
+      "display": "LS rhonchurus/bronchial.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s24",
+      "text": "LS rhonchurus/bronchial."
+    },
+    {
+      "id": "E:note:row665535:25",
+      "kind": "note_sentence",
+      "display": "Cxr done with bilateral ground glass opacities, using accessory muscles    for b",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s25",
+      "text": "Cxr done with bilateral ground glass opacities, using accessory muscles    for breathing."
+    },
+    {
+      "id": "E:note:row665535:26",
+      "kind": "note_sentence",
+      "display": "RR in 30-45 s awakes easily to noise or voice.  17.1.    afebrile.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s26",
+      "text": "RR in 30-45 s awakes easily to noise or voice.  17.1.    afebrile."
+    },
+    {
+      "id": "E:note:row665535:27",
+      "kind": "note_sentence",
+      "display": "Action:    Non-invasive mask ventilation, following abg s, likely plan for    in",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s27",
+      "text": "Action:    Non-invasive mask ventilation, following abg s, likely plan for    intubation."
+    },
+    {
+      "id": "E:note:row665535:28",
+      "kind": "note_sentence",
+      "display": "Once resp. status stable plan for CT, and ? bronch.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s28",
+      "text": "Once resp. status stable plan for CT, and ? bronch."
+    },
+    {
+      "id": "E:note:row665535:29",
+      "kind": "note_sentence",
+      "display": "Nebs    when appropriate.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s29",
+      "text": "Nebs    when appropriate."
+    },
+    {
+      "id": "E:note:row665535:30",
+      "kind": "note_sentence",
+      "display": "Judicious use of IVF for hydration EF wnl.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s30",
+      "text": "Judicious use of IVF for hydration EF wnl."
+    },
+    {
+      "id": "E:note:row665535:31",
+      "kind": "note_sentence",
+      "display": "Response:    Little response noted to wob.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s31",
+      "text": "Response:    Little response noted to wob."
+    },
+    {
+      "id": "E:note:row665535:32",
+      "kind": "note_sentence",
+      "display": "Some improvement in abg    Plan:    Prob.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s32",
+      "text": "Some improvement in abg    Plan:    Prob."
+    },
+    {
+      "id": "E:note:row665535:33",
+      "kind": "note_sentence",
+      "display": "Intubation at some point today.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s33",
+      "text": "Intubation at some point today."
+    },
+    {
+      "id": "E:note:row665535:34",
+      "kind": "note_sentence",
+      "display": "Further studies to fully    understand causative [**Doctor Last Name **].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s34",
+      "text": "Further studies to fully    understand causative [**Doctor Last Name **]."
+    },
+    {
+      "id": "E:note:row665535:35",
+      "kind": "note_sentence",
+      "display": "No aspiration noted recent swallow eval    norm. , further labs and studies toda",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row665535#s35",
+      "text": "No aspiration noted recent swallow eval    norm. , further labs and studies today."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|48242": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4611": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2762": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4538": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2720": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|79902": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2449": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4168": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3004": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V0254": [
+      "E:cond:14"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "methicillin resistant pneumonia due to staphylococcus aureus": [
+      "E:cond:1"
+    ],
+    "acute respiratory failure": [
+      "E:cond:2"
+    ],
+    "dependence on respirator, status": [
+      "E:cond:3"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:4"
+    ],
+    "acidosis": [
+      "E:cond:5"
+    ],
+    "diagnosis": [
+      "E:cond:6"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:7"
+    ],
+    "pure hypercholesterolemia": [
+      "E:cond:8"
+    ],
+    "hypoxemia": [
+      "E:cond:9"
+    ],
+    "unspecified acquired hypothyroidism": [
+      "E:cond:10"
+    ],
+    "other chronic pulmonary heart diseases": [
+      "E:cond:11"
+    ],
+    "dysthymic disorder": [
+      "E:cond:12"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:13"
+    ],
+    "carrier or suspected carrier of methicillin resistant staphylococcus aureus": [
+      "E:cond:14"
+    ],
+    "temporary tracheostomy": [
+      "E:proc:1"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:2"
+    ],
+    "non-invasive mechanical ventilation": [
+      "E:proc:3"
+    ],
+    "fiber-optic bronchoscopy": [
+      "E:proc:4"
+    ],
+    "percutaneous [endoscopic] gastrostomy [peg]": [
+      "E:proc:5"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:6"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:7"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:8"
+    ],
+    "injection or infusion of oxazolidinone class of antibiotics": [
+      "E:proc:9"
+    ],
+    "ms. [**known lastname 5387**] is a 62 year-old woman with a history of hypertens": [
+      "E:note:row665535:1"
+    ],
+    "patient initially presented to her pcp [**last name (namepattern4) **] [**3-16**": [
+      "E:note:row665535:2"
+    ],
+    "then admitted to the osh on [**3-18**] with cough and diarrhea and was found": [
+      "E:note:row665535:3"
+    ],
+    "started on levaquin iv.": [
+      "E:note:row665535:4"
+    ],
+    "blood cultures and legionella antigen were negative.": [
+      "E:note:row665535:5"
+    ],
+    "a few days into the hospitalization, iv steroids were started.": [
+      "E:note:row665535:6"
+    ],
+    "on [**3-24**] an abg was obtained and showed 7.48/38/57.": [
+      "E:note:row665535:7"
+    ],
+    "a ct was done and showed bilateral infiltrates and no pe; zosyn was started.": [
+      "E:note:row665535:8"
+    ],
+    "an echo was also done and showed normal ef and mild pulmonary hypertension.": [
+      "E:note:row665535:9"
+    ],
+    "on [**3-30**], iv vancomycin was started.": [
+      "E:note:row665535:10"
+    ],
+    "given concern for pcp, [**name10 (nameis) 5388**] was started on day of trans": [
+      "E:note:row665535:11"
+    ],
+    "given persistent hypoxia, transfer to bimdc was arranged.": [
+      "E:note:row665535:12"
+    ],
+    "cxr w/ bilat.": [
+      "E:note:row665535:13"
+    ],
+    "ground glass opacity.": [
+      "E:note:row665535:14"
+    ],
+    "ekg done, non specific changes abg 7.37/41/56 on non-invasive mask ven": [
+      "E:note:row665535:15"
+    ],
+    "plan for intubation for ct as pt. w/ significant desats.": [
+      "E:note:row665535:16"
+    ],
+    "with out o2, and does not tolerate laying flat.": [
+      "E:note:row665535:17"
+    ],
+    "lab: wbc 17.1 today, up from 16.6, pending hiv test at transferring facility": [
+      "E:note:row665535:18"
+    ],
+    "arrives from osh with anxiety regarding sob . does respond to reassurance, sh": [
+      "E:note:row665535:19"
+    ],
+    "po regimen changed to prn iv lorazepam and morphine.": [
+      "E:note:row665535:20"
+    ],
+    "response: small effect noted with meds, and reassurance.": [
+      "E:note:row665535:21"
+    ],
+    "plan: cont. plan as above.": [
+      "E:note:row665535:22"
+    ],
+    "pneumonia, bacterial, community acquired (cap) assessment: pt received on": [
+      "E:note:row665535:23"
+    ],
+    "ls rhonchurus/bronchial.": [
+      "E:note:row665535:24"
+    ],
+    "cxr done with bilateral ground glass opacities, using accessory muscles for b": [
+      "E:note:row665535:25"
+    ],
+    "rr in 30-45 s awakes easily to noise or voice. 17.1. afebrile.": [
+      "E:note:row665535:26"
+    ],
+    "action: non-invasive mask ventilation, following abg s, likely plan for in": [
+      "E:note:row665535:27"
+    ],
+    "once resp. status stable plan for ct, and ? bronch.": [
+      "E:note:row665535:28"
+    ],
+    "nebs when appropriate.": [
+      "E:note:row665535:29"
+    ],
+    "judicious use of ivf for hydration ef wnl.": [
+      "E:note:row665535:30"
+    ],
+    "response: little response noted to wob.": [
+      "E:note:row665535:31"
+    ],
+    "some improvement in abg plan: prob.": [
+      "E:note:row665535:32"
+    ],
+    "intubation at some point today.": [
+      "E:note:row665535:33"
+    ],
+    "further studies to fully understand causative [**doctor last name **].": [
+      "E:note:row665535:34"
+    ],
+    "no aspiration noted recent swallow eval norm. , further labs and studies toda": [
+      "E:note:row665535:35"
+    ]
+  },
+  "by_date": {
+    "2191-04-01": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9"
+    ]
+  }
+}

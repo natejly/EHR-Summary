@@ -1,0 +1,933 @@
+{
+  "case_id": "mimic-32504-149115-415025",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:enc-149115",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Other septicemia due to gram-negative organisms",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "03849",
+        "display": "Other septicemia due to gram-negative organisms"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Septic shock",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78552",
+        "display": "Septic shock"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Chronic systolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42822",
+        "display": "Chronic systolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Calculus of gallbladder with acute cholecystitis, without mention of obstruction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "57400",
+        "display": "Calculus of gallbladder with acute cholecystitis, without mention of obstruction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Cerebral embolism with cerebral infarction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "43411",
+        "display": "Cerebral embolism with cerebral infarction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Acute kidney failure with lesion of tubular necrosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5845",
+        "display": "Acute kidney failure with lesion of tubular necrosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Delirium due to conditions classified elsewhere",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2930",
+        "display": "Delirium due to conditions classified elsewhere"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Cholangitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5761",
+        "display": "Cholangitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Vascular myelopathies",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3361",
+        "display": "Vascular myelopathies"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Chronic kidney disease, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5859",
+        "display": "Chronic kidney disease, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "40390",
+        "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25000",
+        "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Pressure ulcer, lower back",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70703",
+        "display": "Pressure ulcer, lower back"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Pressure ulcer, stage II",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70722",
+        "display": "Pressure ulcer, stage II"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Pressure ulcer, other site",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70709",
+        "display": "Pressure ulcer, other site"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Hyperpotassemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2767",
+        "display": "Hyperpotassemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Subendocardial infarction, subsequent episode of care",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41072",
+        "display": "Subendocardial infarction, subsequent episode of care"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Gout, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2749",
+        "display": "Gout, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of unspecified type of vessel, native or graft",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41400",
+        "display": "Coronary atherosclerosis of unspecified type of vessel, native or graft"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:25",
+      "kind": "condition",
+      "display": "Anemia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2859",
+        "display": "Anemia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-25",
+      "text": null
+    },
+    {
+      "id": "E:cond:26",
+      "kind": "condition",
+      "display": "Rheumatoid arthritis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7140",
+        "display": "Rheumatoid arthritis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-26",
+      "text": null
+    },
+    {
+      "id": "E:cond:27",
+      "kind": "condition",
+      "display": "Aortocoronary bypass status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4581",
+        "display": "Aortocoronary bypass status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-27",
+      "text": null
+    },
+    {
+      "id": "E:cond:28",
+      "kind": "condition",
+      "display": "Diverticulosis of colon (without mention of hemorrhage)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "56210",
+        "display": "Diverticulosis of colon (without mention of hemorrhage)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-28",
+      "text": null
+    },
+    {
+      "id": "E:cond:29",
+      "kind": "condition",
+      "display": "Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V1254",
+        "display": "Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-29",
+      "text": null
+    },
+    {
+      "id": "E:cond:30",
+      "kind": "condition",
+      "display": "Anxiety state, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "30000",
+        "display": "Anxiety state, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:cond-149115-30",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Insertion of choledochohepatic tube for decompression",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of choledochohepatic tube for decompression"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:proc-149115-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:proc-149115-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Transfusion of packed cells",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of packed cells"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:proc-149115-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Venous catheterization for renal dialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization for renal dialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:proc-149115-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Hemodialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Hemodialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:proc-149115-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:proc-149115-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2120-09-13",
+      "source_ref": "urn:uuid:proc-149115-7",
+      "text": null
+    },
+    {
+      "id": "E:note:row415025:1",
+      "kind": "note_sentence",
+      "display": "Pt. s/p ercp 6 wks ago with stent and perc drain placement.  while at    rehab d",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row415025#s1",
+      "text": "Pt. s/p ercp 6 wks ago with stent and perc drain placement.  while at    rehab drain \"fell out\" and unable to replace."
+    },
+    {
+      "id": "E:note:row415025:2",
+      "kind": "note_sentence",
+      "display": "Pt. signed out AMA.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row415025#s2",
+      "text": "Pt. signed out AMA."
+    },
+    {
+      "id": "E:note:row415025:3",
+      "kind": "note_sentence",
+      "display": "He    has been feeling poorly, c/o  fevers and abd pain.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row415025#s3",
+      "text": "He    has been feeling poorly, c/o  fevers and abd pain."
+    },
+    {
+      "id": "E:note:row415025:4",
+      "kind": "note_sentence",
+      "display": "Admit w/abd pain    and temp 103.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row415025#s4",
+      "text": "Admit w/abd pain    and temp 103."
+    },
+    {
+      "id": "E:note:row415025:5",
+      "kind": "note_sentence",
+      "display": "Decompensated in EW; becoming hypoxic and combative.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row415025#s5",
+      "text": "Decompensated in EW; becoming hypoxic and combative."
+    },
+    {
+      "id": "E:note:row415025:6",
+      "kind": "note_sentence",
+      "display": "Intubated for airway protection.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row415025#s6",
+      "text": "Intubated for airway protection."
+    },
+    {
+      "id": "E:note:row415025:7",
+      "kind": "note_sentence",
+      "display": "Presep cath/multilumen placed and    transfered to CCU (MICU border).",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row415025#s7",
+      "text": "Presep cath/multilumen placed and    transfered to CCU (MICU border)."
+    },
+    {
+      "id": "E:note:row415025:8",
+      "kind": "note_sentence",
+      "display": "[**9-14**] SPIKING FEVERS TO 104,REQUIRING    PRESSERS,WORSENING RF,ACIDOSIS,K T",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row415025#s8",
+      "text": "[**9-14**] SPIKING FEVERS TO 104,REQUIRING    PRESSERS,WORSENING RF,ACIDOSIS,K TO 7,ARRHYTHMIAS,CRRT STARTED,TX I    UNIT PRBC    PMHX: cabg, AAA, gout, obesity, IDDM.crf    Renal failure, Chronic (Chronic renal failure, CRF, Chronic kidney    disease)    Assessment:    ACIDOSIS IMPROVING,CVVHD RUNNING WELL,CA,K REPLETED PER PROTOCL ,GOAL    EVEN BALANCE    Action:    Q6HR BLOOD WORK,    Response:    PT [**Name (NI) 1940**]    [**Name (NI) 171**]:    CONT, CRRT PER PROTOCOL,NOTIFY FELLOW C CONCERNS IF ANY    Sepsis, Severe (with organ dysfunction)    Assessment:    AFEBRILE ,BP STABLE ,LACTATE DECREASING ,STEROID DOSE DECREASED    ,PIPRICILLIN DC ,    Action:    WEANED OFF PRESSERS ,ANTI BX AS ORDERED ,BLOOD CX SENT ,1 UNIT PRBC    Response:    TOL PRESSER WEAN    Plan:    FOLLOW TEMP  CONTINUE ,ANTI BX  ,MONITOR VS    Cholangitis    Assessment:    CHOLE TUBE IRRIGATED ,DSD CHANGE  PER ORDERS ,PATENT DRAINING PURULENT    TAN ,SECURELY ANCHORED TO PT ,US  DONE    Plan:    MAINTAIN PATENCY ,INTACT DSD    Diabetes Mellitus (DM), Type I    Assessment:    HYPERGLYCEMIA,ON STEROIDS    Action:    INSULIN GTT    Response:    BS COMING UNDER CONTROL    Plan:    HOURLY BS ,TITRATE INSULIN AS NEEDED"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|03849": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78552": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42822": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|57400": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|43411": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5845": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2762": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2930": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5761": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3361": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5859": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|40390": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25000": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70703": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70722": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70709": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42731": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2767": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41072": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2749": [
+      "E:cond:23"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41400": [
+      "E:cond:24"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2859": [
+      "E:cond:25"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7140": [
+      "E:cond:26"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4581": [
+      "E:cond:27"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|56210": [
+      "E:cond:28"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V1254": [
+      "E:cond:29"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|30000": [
+      "E:cond:30"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "other septicemia due to gram-negative organisms": [
+      "E:cond:1"
+    ],
+    "septic shock": [
+      "E:cond:2"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:3"
+    ],
+    "chronic systolic heart failure": [
+      "E:cond:4"
+    ],
+    "calculus of gallbladder with acute cholecystitis, without mention of obstruction": [
+      "E:cond:5"
+    ],
+    "cerebral embolism with cerebral infarction": [
+      "E:cond:6"
+    ],
+    "acute kidney failure with lesion of tubular necrosis": [
+      "E:cond:7"
+    ],
+    "acidosis": [
+      "E:cond:8"
+    ],
+    "delirium due to conditions classified elsewhere": [
+      "E:cond:9"
+    ],
+    "cholangitis": [
+      "E:cond:10"
+    ],
+    "vascular myelopathies": [
+      "E:cond:11"
+    ],
+    "severe sepsis": [
+      "E:cond:12"
+    ],
+    "chronic kidney disease, unspecified": [
+      "E:cond:13"
+    ],
+    "hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage i through stage iv, or unspecified": [
+      "E:cond:14"
+    ],
+    "diabetes mellitus without mention of complication, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:15"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:16"
+    ],
+    "pressure ulcer, lower back": [
+      "E:cond:17"
+    ],
+    "pressure ulcer, stage ii": [
+      "E:cond:18"
+    ],
+    "pressure ulcer, other site": [
+      "E:cond:19"
+    ],
+    "atrial fibrillation": [
+      "E:cond:20"
+    ],
+    "hyperpotassemia": [
+      "E:cond:21"
+    ],
+    "subendocardial infarction, subsequent episode of care": [
+      "E:cond:22"
+    ],
+    "gout, unspecified": [
+      "E:cond:23"
+    ],
+    "coronary atherosclerosis of unspecified type of vessel, native or graft": [
+      "E:cond:24"
+    ],
+    "anemia, unspecified": [
+      "E:cond:25"
+    ],
+    "rheumatoid arthritis": [
+      "E:cond:26"
+    ],
+    "aortocoronary bypass status": [
+      "E:cond:27"
+    ],
+    "diverticulosis of colon (without mention of hemorrhage)": [
+      "E:cond:28"
+    ],
+    "personal history of transient ischemic attack (tia), and cerebral infarction without residual deficits": [
+      "E:cond:29"
+    ],
+    "anxiety state, unspecified": [
+      "E:cond:30"
+    ],
+    "insertion of choledochohepatic tube for decompression": [
+      "E:proc:1"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:2"
+    ],
+    "transfusion of packed cells": [
+      "E:proc:3"
+    ],
+    "venous catheterization for renal dialysis": [
+      "E:proc:4"
+    ],
+    "hemodialysis": [
+      "E:proc:5"
+    ],
+    "arterial catheterization": [
+      "E:proc:6"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:7"
+    ],
+    "pt. s/p ercp 6 wks ago with stent and perc drain placement. while at rehab d": [
+      "E:note:row415025:1"
+    ],
+    "pt. signed out ama.": [
+      "E:note:row415025:2"
+    ],
+    "he has been feeling poorly, c/o fevers and abd pain.": [
+      "E:note:row415025:3"
+    ],
+    "admit w/abd pain and temp 103.": [
+      "E:note:row415025:4"
+    ],
+    "decompensated in ew; becoming hypoxic and combative.": [
+      "E:note:row415025:5"
+    ],
+    "intubated for airway protection.": [
+      "E:note:row415025:6"
+    ],
+    "presep cath/multilumen placed and transfered to ccu (micu border).": [
+      "E:note:row415025:7"
+    ],
+    "[**9-14**] spiking fevers to 104,requiring pressers,worsening rf,acidosis,k t": [
+      "E:note:row415025:8"
+    ]
+  },
+  "by_date": {
+    "2120-09-13": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:29",
+      "E:cond:30",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7"
+    ]
+  }
+}

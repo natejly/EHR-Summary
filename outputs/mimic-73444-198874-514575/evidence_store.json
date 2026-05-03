@@ -1,0 +1,900 @@
+{
+  "case_id": "mimic-73444-198874-514575",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:enc-198874",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Subendocardial infarction, initial episode of care",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41071",
+        "display": "Subendocardial infarction, initial episode of care"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:cond-198874-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:cond-198874-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute on chronic systolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42823",
+        "display": "Acute on chronic systolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:cond-198874-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Cerebral embolism with cerebral infarction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "43411",
+        "display": "Cerebral embolism with cerebral infarction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:cond-198874-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Pneumonitis due to inhalation of food or vomitus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5070",
+        "display": "Pneumonitis due to inhalation of food or vomitus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:cond-198874-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of autologous vein bypass graft",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41402",
+        "display": "Coronary atherosclerosis of autologous vein bypass graft"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:cond-198874-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:cond-198874-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Other complications due to other cardiac device, implant, and graft",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99672",
+        "display": "Other complications due to other cardiac device, implant, and graft"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:cond-198874-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Alcohol withdrawal delirium",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2910",
+        "display": "Alcohol withdrawal delirium"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:cond-198874-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25000",
+        "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:cond-198874-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:cond-198874-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Cardiac catheterization as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8790",
+        "display": "Cardiac catheterization as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:cond-198874-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Accidents occurring in other specified places",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8498",
+        "display": "Accidents occurring in other specified places"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:cond-198874-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of native coronary artery",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41401",
+        "display": "Coronary atherosclerosis of native coronary artery"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:cond-198874-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Acute alcoholic intoxication in alcoholism, continuous",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "30301",
+        "display": "Acute alcoholic intoxication in alcoholism, continuous"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:cond-198874-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Dysthymic disorder",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3004",
+        "display": "Dysthymic disorder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:cond-198874-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Other chronic pulmonary heart diseases",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4168",
+        "display": "Other chronic pulmonary heart diseases"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:cond-198874-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8798",
+        "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:cond-198874-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Accidents occurring in residential institution",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8497",
+        "display": "Accidents occurring in residential institution"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:cond-198874-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Other specified cardiac dysrhythmias",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42789",
+        "display": "Other specified cardiac dysrhythmias"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:cond-198874-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Mitral valve insufficiency and aortic valve stenosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3962",
+        "display": "Mitral valve insufficiency and aortic valve stenosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:cond-198874-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Altered mental status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78097",
+        "display": "Altered mental status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:cond-198874-22",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Percutaneous transluminal coronary angioplasty [PTCA]",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous transluminal coronary angioplasty [PTCA]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:proc-198874-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Insertion of drug-eluting coronary artery stent(s)",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of drug-eluting coronary artery stent(s)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:proc-198874-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Percutaneous transluminal coronary angioplasty [PTCA]",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous transluminal coronary angioplasty [PTCA]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:proc-198874-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Alcohol detoxification",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Alcohol detoxification"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:proc-198874-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Insertion of one vascular stent",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of one vascular stent"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:proc-198874-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Procedure on single vessel",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Procedure on single vessel"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:proc-198874-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Combined right and left heart cardiac catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Combined right and left heart cardiac catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:proc-198874-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Coronary arteriography using two catheters",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Coronary arteriography using two catheters"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:proc-198874-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Insertion of drug-eluting coronary artery stent(s)",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of drug-eluting coronary artery stent(s)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:proc-198874-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Insertion of one vascular stent",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of one vascular stent"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:proc-198874-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Procedure on single vessel",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Procedure on single vessel"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:proc-198874-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Combined right and left heart cardiac catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Combined right and left heart cardiac catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:proc-198874-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Coronary arteriography using two catheters",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Coronary arteriography using two catheters"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:proc-198874-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:14",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:proc-198874-14",
+      "text": null
+    },
+    {
+      "id": "E:proc:15",
+      "kind": "procedure",
+      "display": "Alcohol detoxification",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Alcohol detoxification"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:proc-198874-15",
+      "text": null
+    },
+    {
+      "id": "E:proc:16",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-01-21",
+      "source_ref": "urn:uuid:proc-198874-16",
+      "text": null
+    },
+    {
+      "id": "E:note:row514575:1",
+      "kind": "note_sentence",
+      "display": "82 y/o male with PMH CAD s/p CABG [**2152**] redo [**10/2171**] (LIMA-LAD, SVG-O",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514575#s1",
+      "text": "82 y/o male with PMH CAD s/p CABG [**2152**] redo [**10/2171**] (LIMA-LAD, SVG-OM,    SVG-Diag), CHF (EF 51%), and EtOH abuse, s/p a complicated hospital    course at [**Hospital 755**] Hospital including intubation and treatment for DTs    and respiratory distress with both antibiotics and CHF medication,    NSTEMI with Trop 1.5, who was transferred here for cath after    reportedly having had infero-septal as well as apical ischemia induced    on a stress test."
+    },
+    {
+      "id": "E:note:row514575:2",
+      "kind": "note_sentence",
+      "display": "In cath lab, pt became acutely agitated during the procedure after only    1 ves",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514575#s2",
+      "text": "In cath lab, pt became acutely agitated during the procedure after only    1 vessel was able to be intervened upon (SVG-OM) (the plan was for    intervention of his LAD, aborted d/t agitation)."
+    },
+    {
+      "id": "E:note:row514575:3",
+      "kind": "note_sentence",
+      "display": "Pt transferred to the CCU for further observation and treatment of his    agitat",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514575#s3",
+      "text": "Pt transferred to the CCU for further observation and treatment of his    agitation."
+    },
+    {
+      "id": "E:note:row514575:4",
+      "kind": "note_sentence",
+      "display": "Psych consulted, awaiting arrival.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514575#s4",
+      "text": "Psych consulted, awaiting arrival."
+    },
+    {
+      "id": "E:note:row514575:5",
+      "kind": "note_sentence",
+      "display": "[**Name8 (MD) 54**] MD s thus far, plan    tonight will be treatment of his agit",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514575#s5",
+      "text": "[**Name8 (MD) 54**] MD s thus far, plan    tonight will be treatment of his agitation with haldol, and monitoring    for symptoms of angina as well as DTs."
+    },
+    {
+      "id": "E:note:row514575:6",
+      "kind": "note_sentence",
+      "display": "Per Dr. [**Last Name (STitle) 161**], [**First Name3 (LF) **] plan on    interve",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514575#s6",
+      "text": "Per Dr. [**Last Name (STitle) 161**], [**First Name3 (LF) **] plan on    intervention on Thursday if MS resolves."
+    },
+    {
+      "id": "E:note:row514575:7",
+      "kind": "note_sentence",
+      "display": "Myocardial infarction, acute (AMI, STEMI, NSTEMI)    Assessment:    Action:    R",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row514575#s7",
+      "text": "Myocardial infarction, acute (AMI, STEMI, NSTEMI)    Assessment:    Action:    Response:    Plan:"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|41071": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42823": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|43411": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5070": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41402": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99672": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2910": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25000": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8790": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8498": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41401": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|30301": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3004": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4168": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8798": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8497": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42789": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3962": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78097": [
+      "E:cond:22"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "subendocardial infarction, initial episode of care": [
+      "E:cond:1"
+    ],
+    "acute respiratory failure": [
+      "E:cond:2"
+    ],
+    "acute on chronic systolic heart failure": [
+      "E:cond:3"
+    ],
+    "cerebral embolism with cerebral infarction": [
+      "E:cond:4"
+    ],
+    "pneumonitis due to inhalation of food or vomitus": [
+      "E:cond:5"
+    ],
+    "coronary atherosclerosis of autologous vein bypass graft": [
+      "E:cond:6"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:7"
+    ],
+    "other complications due to other cardiac device, implant, and graft": [
+      "E:cond:8"
+    ],
+    "alcohol withdrawal delirium": [
+      "E:cond:9"
+    ],
+    "diabetes mellitus without mention of complication, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:10"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:11"
+    ],
+    "cardiac catheterization as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure": [
+      "E:cond:12"
+    ],
+    "accidents occurring in other specified places": [
+      "E:cond:13"
+    ],
+    "coronary atherosclerosis of native coronary artery": [
+      "E:cond:14"
+    ],
+    "acute alcoholic intoxication in alcoholism, continuous": [
+      "E:cond:15"
+    ],
+    "dysthymic disorder": [
+      "E:cond:16"
+    ],
+    "other chronic pulmonary heart diseases": [
+      "E:cond:17"
+    ],
+    "other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure": [
+      "E:cond:18"
+    ],
+    "accidents occurring in residential institution": [
+      "E:cond:19"
+    ],
+    "other specified cardiac dysrhythmias": [
+      "E:cond:20"
+    ],
+    "mitral valve insufficiency and aortic valve stenosis": [
+      "E:cond:21"
+    ],
+    "altered mental status": [
+      "E:cond:22"
+    ],
+    "percutaneous transluminal coronary angioplasty [ptca]": [
+      "E:proc:1",
+      "E:proc:3"
+    ],
+    "insertion of drug-eluting coronary artery stent(s)": [
+      "E:proc:2",
+      "E:proc:9"
+    ],
+    "alcohol detoxification": [
+      "E:proc:4",
+      "E:proc:15"
+    ],
+    "insertion of one vascular stent": [
+      "E:proc:5",
+      "E:proc:10"
+    ],
+    "procedure on single vessel": [
+      "E:proc:6",
+      "E:proc:11"
+    ],
+    "combined right and left heart cardiac catheterization": [
+      "E:proc:7",
+      "E:proc:12"
+    ],
+    "coronary arteriography using two catheters": [
+      "E:proc:8",
+      "E:proc:13"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:14"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:16"
+    ],
+    "82 y/o male with pmh cad s/p cabg [**2152**] redo [**10/2171**] (lima-lad, svg-o": [
+      "E:note:row514575:1"
+    ],
+    "in cath lab, pt became acutely agitated during the procedure after only 1 ves": [
+      "E:note:row514575:2"
+    ],
+    "pt transferred to the ccu for further observation and treatment of his agitat": [
+      "E:note:row514575:3"
+    ],
+    "psych consulted, awaiting arrival.": [
+      "E:note:row514575:4"
+    ],
+    "[**name8 (md) 54**] md s thus far, plan tonight will be treatment of his agit": [
+      "E:note:row514575:5"
+    ],
+    "per dr. [**last name (stitle) 161**], [**first name3 (lf) **] plan on interve": [
+      "E:note:row514575:6"
+    ],
+    "myocardial infarction, acute (ami, stemi, nstemi) assessment: action: r": [
+      "E:note:row514575:7"
+    ]
+  },
+  "by_date": {
+    "2182-01-21": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13",
+      "E:proc:14",
+      "E:proc:15",
+      "E:proc:16"
+    ]
+  }
+}

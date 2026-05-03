@@ -1,0 +1,36 @@
+{
+  "concerns": [
+    {
+      "sentence": "Patient is withdrawn, lethargic, and has intermittent hypotension [E:note:row646532:46].",
+      "severity": "high",
+      "reason": "The cited evidence ID [E:note:row646532:46] does not exist in the provided fact sheet."
+    },
+    {
+      "sentence": "Comorbidities include acute respiratory failure [E:cond:2], ventilator associated pneumonia [E:cond:7], and acute kidney failure [E:cond:5][E:note:row646532:28].",
+      "severity": "medium",
+      "reason": "The citation [E:note:row646532:28] does not exist in the provided fact sheet."
+    },
+    {
+      "sentence": "Other diagnoses include subendocardial infarction [E:cond:4], C. difficile infection [E:cond:6][E:note:row646532:21], gastric ulcer [E:cond:12], type II diabetes mellitus [E:cond:11], and anemia of chronic disease [E:cond:13].",
+      "severity": "medium",
+      "reason": "The citation [E:note:row646532:21] does not exist in the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Patient is withdrawn, lethargic, and has intermittent hypotension [E:note:row646532:46].",
+      "suggested": "Remove sentence.",
+      "reason": "The information is not supported by the provided fact sheet."
+    },
+    {
+      "original": "Comorbidities include acute respiratory failure [E:cond:2], ventilator associated pneumonia [E:cond:7], and acute kidney failure [E:cond:5][E:note:row646532:28].",
+      "suggested": "Comorbidities include acute respiratory failure [E:cond:2], ventilator associated pneumonia [E:cond:7], and acute kidney failure [E:cond:5].",
+      "reason": "Remove hallucinated citation."
+    },
+    {
+      "original": "Other diagnoses include subendocardial infarction [E:cond:4], C. difficile infection [E:cond:6][E:note:row646532:21], gastric ulcer [E:cond:12], type II diabetes mellitus [E:cond:11], and anemia of chronic disease [E:cond:13].",
+      "suggested": "Other diagnoses include subendocardial infarction [E:cond:4], C. difficile infection [E:cond:6], gastric ulcer [E:cond:12], type II diabetes mellitus [E:cond:11], and anemia of chronic disease [E:cond:13].",
+      "reason": "Remove hallucinated citation."
+    }
+  ]
+}

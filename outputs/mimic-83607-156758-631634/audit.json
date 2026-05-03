@@ -1,0 +1,143 @@
+{
+  "case_id": "mimic-83607-156758-631634",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2976,
+    "summary_chars": 1048,
+    "target_min_chars": 595,
+    "target_max_chars": 892,
+    "achieved_ratio": 0.3521505376344086,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 10,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:14",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:2",
+      "E:cond:20",
+      "E:cond:22",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:note:row631634:12",
+      "E:note:row631634:13",
+      "E:note:row631634:14",
+      "E:note:row631634:2",
+      "E:note:row631634:7",
+      "E:note:row631634:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Other acute issues include acute respiratory failure [E:cond:6], encephalopathy [E:cond:7], and C. difficile intestinal infection [E:cond:11] with profuse diarrhea [E:note:row631634:9].",
+        "severity": "medium",
+        "reason": "The summary attributes 'profuse diarrhea' to E:note:row631634:9, but the fact sheet lists that evidence ID as 'persistent fevers'."
+      },
+      {
+        "sentence": "Leni scan showed no clot [E:note:row631634:7].",
+        "severity": "low",
+        "reason": "The term 'Leni scan' appears to be a transcription error from the fact sheet's 'Leni s done', which is likely a misspelling of 'Leg scan' or similar; it should be presented as written or flagged."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Other acute issues include acute respiratory failure [E:cond:6], encephalopathy [E:cond:7], and C. difficile intestinal infection [E:cond:11] with profuse diarrhea [E:note:row631634:9].",
+        "suggested": "Other acute issues include acute respiratory failure [E:cond:6], encephalopathy [E:cond:7], and C. difficile intestinal infection [E:cond:11].",
+        "reason": "Removed 'profuse diarrhea' as it is not supported by the cited evidence (which refers to fevers)."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 1
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-83607-156758-631634/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.69,
+    "fk_words": 159,
+    "fk_sentences": 12,
+    "fk_syllables": 244,
+    "chars": 1351,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-83607-156758-631634/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.00162808399181813,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 107.51987741695484,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 179.1040820410126,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.002415292023215443,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 12.676436749985442,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 10.971043959027156,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0018635409651324153,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 44.371267958020326,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

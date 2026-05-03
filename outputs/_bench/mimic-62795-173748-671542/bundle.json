@@ -1,0 +1,2946 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-62795-173748",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-62795",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-62795",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-173748",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-173748",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2130-04-27T00:00:00",
+          "end": "2130-07-04T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3369",
+              "display": "Unspecified disease of spinal cord"
+            }
+          ],
+          "text": "Unspecified disease of spinal cord"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3369",
+              "display": "Unspecified disease of spinal cord"
+            }
+          ],
+          "text": "Unspecified disease of spinal cord"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5845",
+              "display": "Acute kidney failure with lesion of tubular necrosis"
+            }
+          ],
+          "text": "Acute kidney failure with lesion of tubular necrosis"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5845",
+              "display": "Acute kidney failure with lesion of tubular necrosis"
+            }
+          ],
+          "text": "Acute kidney failure with lesion of tubular necrosis"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5724",
+              "display": "Hepatorenal syndrome"
+            }
+          ],
+          "text": "Hepatorenal syndrome"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5724",
+              "display": "Hepatorenal syndrome"
+            }
+          ],
+          "text": "Hepatorenal syndrome"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5185",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5185",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51189",
+              "display": "Other specified forms of effusion, except tuberculous"
+            }
+          ],
+          "text": "Other specified forms of effusion, except tuberculous"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51189",
+              "display": "Other specified forms of effusion, except tuberculous"
+            }
+          ],
+          "text": "Other specified forms of effusion, except tuberculous"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5111",
+              "display": "Pleurisy with effusion, with mention of a bacterial cause other than tuberculosis"
+            }
+          ],
+          "text": "Pleurisy with effusion, with mention of a bacterial cause other than tuberculosis"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5111",
+              "display": "Pleurisy with effusion, with mention of a bacterial cause other than tuberculosis"
+            }
+          ],
+          "text": "Pleurisy with effusion, with mention of a bacterial cause other than tuberculosis"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99731",
+              "display": "Ventilator associated pneumonia"
+            }
+          ],
+          "text": "Ventilator associated pneumonia"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99731",
+              "display": "Ventilator associated pneumonia"
+            }
+          ],
+          "text": "Ventilator associated pneumonia"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2764",
+              "display": "Mixed acid-base balance disorder"
+            }
+          ],
+          "text": "Mixed acid-base balance disorder"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2764",
+              "display": "Mixed acid-base balance disorder"
+            }
+          ],
+          "text": "Mixed acid-base balance disorder"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "73313",
+              "display": "Pathologic fracture of vertebrae"
+            }
+          ],
+          "text": "Pathologic fracture of vertebrae"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "73313",
+              "display": "Pathologic fracture of vertebrae"
+            }
+          ],
+          "text": "Pathologic fracture of vertebrae"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78959",
+              "display": "Other ascites"
+            }
+          ],
+          "text": "Other ascites"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78959",
+              "display": "Other ascites"
+            }
+          ],
+          "text": "Other ascites"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7907",
+              "display": "Bacteremia"
+            }
+          ],
+          "text": "Bacteremia"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7907",
+              "display": "Bacteremia"
+            }
+          ],
+          "text": "Bacteremia"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2912",
+              "display": "Alcohol-induced persisting dementia"
+            }
+          ],
+          "text": "Alcohol-induced persisting dementia"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2912",
+              "display": "Alcohol-induced persisting dementia"
+            }
+          ],
+          "text": "Alcohol-induced persisting dementia"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2930",
+              "display": "Delirium due to conditions classified elsewhere"
+            }
+          ],
+          "text": "Delirium due to conditions classified elsewhere"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2930",
+              "display": "Delirium due to conditions classified elsewhere"
+            }
+          ],
+          "text": "Delirium due to conditions classified elsewhere"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2841",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2841",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5712",
+              "display": "Alcoholic cirrhosis of liver"
+            }
+          ],
+          "text": "Alcoholic cirrhosis of liver"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5712",
+              "display": "Alcoholic cirrhosis of liver"
+            }
+          ],
+          "text": "Alcoholic cirrhosis of liver"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "28982",
+              "display": "Secondary hypercoagulable state"
+            }
+          ],
+          "text": "Secondary hypercoagulable state"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "28982",
+              "display": "Secondary hypercoagulable state"
+            }
+          ],
+          "text": "Secondary hypercoagulable state"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "34931",
+              "display": "Accidental puncture or laceration of dura during a procedure"
+            }
+          ],
+          "text": "Accidental puncture or laceration of dura during a procedure"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "34931",
+              "display": "Accidental puncture or laceration of dura during a procedure"
+            }
+          ],
+          "text": "Accidental puncture or laceration of dura during a procedure"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2851",
+              "display": "Acute posthemorrhagic anemia"
+            }
+          ],
+          "text": "Acute posthemorrhagic anemia"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2851",
+              "display": "Acute posthemorrhagic anemia"
+            }
+          ],
+          "text": "Acute posthemorrhagic anemia"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "9974",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "9974",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25541",
+              "display": "Glucocorticoid deficiency"
+            }
+          ],
+          "text": "Glucocorticoid deficiency"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25541",
+              "display": "Glucocorticoid deficiency"
+            }
+          ],
+          "text": "Glucocorticoid deficiency"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99662",
+              "display": "Infection and inflammatory reaction due to other vascular device, implant, and graft"
+            }
+          ],
+          "text": "Infection and inflammatory reaction due to other vascular device, implant, and graft"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99662",
+              "display": "Infection and inflammatory reaction due to other vascular device, implant, and graft"
+            }
+          ],
+          "text": "Infection and inflammatory reaction due to other vascular device, implant, and graft"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99812",
+              "display": "Hematoma complicating a procedure"
+            }
+          ],
+          "text": "Hematoma complicating a procedure"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99812",
+              "display": "Hematoma complicating a procedure"
+            }
+          ],
+          "text": "Hematoma complicating a procedure"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99811",
+              "display": "Hemorrhage complicating a procedure"
+            }
+          ],
+          "text": "Hemorrhage complicating a procedure"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99811",
+              "display": "Hemorrhage complicating a procedure"
+            }
+          ],
+          "text": "Hemorrhage complicating a procedure"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-24",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-24",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5180",
+              "display": "Pulmonary collapse"
+            }
+          ],
+          "text": "Pulmonary collapse"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-24",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-24",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5180",
+              "display": "Pulmonary collapse"
+            }
+          ],
+          "text": "Pulmonary collapse"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-25",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-25",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5859",
+              "display": "Chronic kidney disease, unspecified"
+            }
+          ],
+          "text": "Chronic kidney disease, unspecified"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-25",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-25",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5859",
+              "display": "Chronic kidney disease, unspecified"
+            }
+          ],
+          "text": "Chronic kidney disease, unspecified"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-26",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-26",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25000",
+              "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-26",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-26",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25000",
+              "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-27",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-27",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "30390",
+              "display": "Other and unspecified alcohol dependence, unspecified"
+            }
+          ],
+          "text": "Other and unspecified alcohol dependence, unspecified"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-27",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-27",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "30390",
+              "display": "Other and unspecified alcohol dependence, unspecified"
+            }
+          ],
+          "text": "Other and unspecified alcohol dependence, unspecified"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-28",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-28",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "53081",
+              "display": "Esophageal reflux"
+            }
+          ],
+          "text": "Esophageal reflux"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-28",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-28",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "53081",
+              "display": "Esophageal reflux"
+            }
+          ],
+          "text": "Esophageal reflux"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-29",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-29",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8700",
+              "display": "Accidental cut, puncture, perforation or hemorrhage during surgical operation"
+            }
+          ],
+          "text": "Accidental cut, puncture, perforation or hemorrhage during surgical operation"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-29",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-29",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8700",
+              "display": "Accidental cut, puncture, perforation or hemorrhage during surgical operation"
+            }
+          ],
+          "text": "Accidental cut, puncture, perforation or hemorrhage during surgical operation"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-30",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-30",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "9331",
+              "display": "Foreign body in larynx"
+            }
+          ],
+          "text": "Foreign body in larynx"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-30",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-30",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "9331",
+              "display": "Foreign body in larynx"
+            }
+          ],
+          "text": "Foreign body in larynx"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-31",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-31",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E915",
+              "display": "Foreign body accidentally entering other orifice"
+            }
+          ],
+          "text": "Foreign body accidentally entering other orifice"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-31",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-31",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E915",
+              "display": "Foreign body accidentally entering other orifice"
+            }
+          ],
+          "text": "Foreign body accidentally entering other orifice"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-32",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-32",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8791",
+              "display": "Kidney dialysis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+            }
+          ],
+          "text": "Kidney dialysis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-32",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-32",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8791",
+              "display": "Kidney dialysis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+            }
+          ],
+          "text": "Kidney dialysis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-33",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-33",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "04104",
+              "display": "Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group D [Enterococcus]"
+            }
+          ],
+          "text": "Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group D [Enterococcus]"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-33",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-33",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "04104",
+              "display": "Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group D [Enterococcus]"
+            }
+          ],
+          "text": "Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group D [Enterococcus]"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-34",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-34",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "72401",
+              "display": "Spinal stenosis, thoracic region"
+            }
+          ],
+          "text": "Spinal stenosis, thoracic region"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-34",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-34",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "72401",
+              "display": "Spinal stenosis, thoracic region"
+            }
+          ],
+          "text": "Spinal stenosis, thoracic region"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-35",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-35",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "28529",
+              "display": "Anemia of other chronic disease"
+            }
+          ],
+          "text": "Anemia of other chronic disease"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-35",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-35",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "28529",
+              "display": "Anemia of other chronic disease"
+            }
+          ],
+          "text": "Anemia of other chronic disease"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-36",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-36",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "40390",
+              "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+            }
+          ],
+          "text": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-36",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-36",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "40390",
+              "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+            }
+          ],
+          "text": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-37",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-37",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8798",
+              "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+            }
+          ],
+          "text": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-37",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-37",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8798",
+              "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+            }
+          ],
+          "text": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-38",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-38",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E9289",
+              "display": "Unspecified accident"
+            }
+          ],
+          "text": "Unspecified accident"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-38",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-38",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E9289",
+              "display": "Unspecified accident"
+            }
+          ],
+          "text": "Unspecified accident"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-39",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-39",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2875",
+              "display": "Thrombocytopenia, unspecified"
+            }
+          ],
+          "text": "Thrombocytopenia, unspecified"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173748-39",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173748-39",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2875",
+              "display": "Thrombocytopenia, unspecified"
+            }
+          ],
+          "text": "Thrombocytopenia, unspecified"
+        },
+        "onsetDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-1",
+        "status": "completed",
+        "code": {
+          "text": "Repair of vertebral fracture"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-1",
+        "status": "completed",
+        "code": {
+          "text": "Repair of vertebral fracture"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-2",
+        "status": "completed",
+        "code": {
+          "text": "Dorsal and dorsolumbar fusion of the anterior column, anterior technique"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-2",
+        "status": "completed",
+        "code": {
+          "text": "Dorsal and dorsolumbar fusion of the anterior column, anterior technique"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-3",
+        "status": "completed",
+        "code": {
+          "text": "Other repair and plastic operations on spinal cord structures"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-3",
+        "status": "completed",
+        "code": {
+          "text": "Other repair and plastic operations on spinal cord structures"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-4",
+        "status": "completed",
+        "code": {
+          "text": "Open biopsy of soft tissue"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-4",
+        "status": "completed",
+        "code": {
+          "text": "Open biopsy of soft tissue"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-5",
+        "status": "completed",
+        "code": {
+          "text": "Fusion or refusion of 2-3 vertebrae"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-5",
+        "status": "completed",
+        "code": {
+          "text": "Fusion or refusion of 2-3 vertebrae"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-6",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of interbody spinal fusion device"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-6",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of interbody spinal fusion device"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-7",
+        "status": "completed",
+        "code": {
+          "text": "Other intubation of respiratory tract"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-7",
+        "status": "completed",
+        "code": {
+          "text": "Other intubation of respiratory tract"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-8",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of packed cells"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-8",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of packed cells"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-9",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of platelets"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-9",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of platelets"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-10",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of other serum"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-10",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of other serum"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-11",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of other substance"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-11",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of other substance"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-12",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of intercostal catheter for drainage"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-12",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of intercostal catheter for drainage"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-13",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of intercostal catheter for drainage"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-13",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of intercostal catheter for drainage"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-14",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-14",
+        "status": "completed",
+        "code": {
+          "text": "Thoracentesis"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-14",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-14",
+        "status": "completed",
+        "code": {
+          "text": "Thoracentesis"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-15",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-15",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of intercostal catheter for drainage"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-15",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-15",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of intercostal catheter for drainage"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-16",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-16",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of intercostal catheter for drainage"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-16",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-16",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of intercostal catheter for drainage"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-17",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-17",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of intercostal catheter for drainage"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-17",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-17",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of intercostal catheter for drainage"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-18",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-18",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of coagulation factors"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-18",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-18",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of coagulation factors"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-19",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-19",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-19",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-19",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-20",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-20",
+        "status": "completed",
+        "code": {
+          "text": "Other intubation of respiratory tract"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-20",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-20",
+        "status": "completed",
+        "code": {
+          "text": "Other intubation of respiratory tract"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-21",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-21",
+        "status": "completed",
+        "code": {
+          "text": "Other intubation of respiratory tract"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-21",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-21",
+        "status": "completed",
+        "code": {
+          "text": "Other intubation of respiratory tract"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-22",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-22",
+        "status": "completed",
+        "code": {
+          "text": "Other intubation of respiratory tract"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-22",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-22",
+        "status": "completed",
+        "code": {
+          "text": "Other intubation of respiratory tract"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-23",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-23",
+        "status": "completed",
+        "code": {
+          "text": "Other intubation of respiratory tract"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-23",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-23",
+        "status": "completed",
+        "code": {
+          "text": "Other intubation of respiratory tract"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-24",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-24",
+        "status": "completed",
+        "code": {
+          "text": "Other intubation of respiratory tract"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-24",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-24",
+        "status": "completed",
+        "code": {
+          "text": "Other intubation of respiratory tract"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-25",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-25",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-25",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-25",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-26",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-26",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-26",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-26",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-27",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-27",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-27",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-27",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-28",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-28",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-28",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-28",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-29",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-29",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-29",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-29",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-30",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-30",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-30",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-30",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-31",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-31",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-31",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-31",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-32",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-32",
+        "status": "completed",
+        "code": {
+          "text": "Hemodialysis"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-32",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-32",
+        "status": "completed",
+        "code": {
+          "text": "Hemodialysis"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-33",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-33",
+        "status": "completed",
+        "code": {
+          "text": "Thoracentesis"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-33",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-33",
+        "status": "completed",
+        "code": {
+          "text": "Thoracentesis"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-34",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-34",
+        "status": "completed",
+        "code": {
+          "text": "Diagnostic ultrasound of other sites of thorax"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-34",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-34",
+        "status": "completed",
+        "code": {
+          "text": "Diagnostic ultrasound of other sites of thorax"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-35",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-35",
+        "status": "completed",
+        "code": {
+          "text": "Injection into thoracic cavity"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-35",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-35",
+        "status": "completed",
+        "code": {
+          "text": "Injection into thoracic cavity"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-36",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-36",
+        "status": "completed",
+        "code": {
+          "text": "Injection of antibiotic"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-36",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-36",
+        "status": "completed",
+        "code": {
+          "text": "Injection of antibiotic"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-37",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-37",
+        "status": "completed",
+        "code": {
+          "text": "Closure of skin and subcutaneous tissue of other sites"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-37",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-37",
+        "status": "completed",
+        "code": {
+          "text": "Closure of skin and subcutaneous tissue of other sites"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-38",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-38",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization for renal dialysis"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-38",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-38",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization for renal dialysis"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-39",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-39",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization for renal dialysis"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-39",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-39",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization for renal dialysis"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-40",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-40",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173748-40",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173748-40",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2130-04-27"
+      }
+    }
+  ]
+}

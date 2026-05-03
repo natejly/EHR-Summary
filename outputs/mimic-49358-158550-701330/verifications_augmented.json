@@ -1,0 +1,283 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row701330:1"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient presented on Tuesday with complaints of pain & distention."
+    },
+    {
+      "claim_id": "C2",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C3",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided evidence describes a mechanical ventilation procedure and does not mention a diagnosis of small bowel obstruction (SBO)."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row701330:3"
+      ],
+      "rationale": "The evidence explicitly states the patient was noted to be hypotensive on [**9-1**]."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row701330:16"
+      ],
+      "rationale": "The evidence explicitly states the patient is 'now slightly more tachycardic'."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C7",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate evidence items contain laboratory results for creatinine."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:4"
+      ],
+      "rationale": "The candidate evidence explicitly lists a diagnosis of gastric ulcer with perforation."
+    },
+    {
+      "claim_id": "C10",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The evidence mentions severe sepsis, which is a systemic response, but does not specifically diagnose peritonitis."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate evidence items mention a cystic mass in the right pelvis."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row701330:5"
+      ],
+      "rationale": "The evidence explicitly states the patient was taken to the OR for an ex lap."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row701330:6"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient underwent evac of ascites."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row701330:6"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient 'Underwent... exploration'."
+    },
+    {
+      "claim_id": "C15",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list a diagnosis of gastric ulcer and several unrelated procedures, but there is no record of an over seven patch repair."
+    },
+    {
+      "claim_id": "C16",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate procedures or conditions mention the placement of a JP drain."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row701330:7",
+        "E:note:row701330:17",
+        "E:note:row701330:30",
+        "E:note:row701330:38"
+      ],
+      "rationale": "The candidates explicitly state the patient was placed on 'levo' and 'levophed' (brand name for levophed/norepinephrine) for blood pressure support."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row701330:7"
+      ],
+      "rationale": "The evidence explicitly states the patient was placed on 'neo' for BP support."
+    },
+    {
+      "claim_id": "C19",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C20",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C21",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C22",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row701330:9"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Concern for sepsis.'"
+    },
+    {
+      "claim_id": "C24",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence refers to acute kidney failure, which is not the same as respiratory failure or ARDS."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row701330:13"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is sedated on propofol 30-50 mcg/kg/min."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row701330:15"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Fentanyl as needed for pain'."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row701330:17",
+        "E:note:row701330:30",
+        "E:note:row701330:38"
+      ],
+      "rationale": "Multiple entries confirm the patient is receiving and continuing Levophed for blood pressure support."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row701330:23"
+      ],
+      "rationale": "The evidence explicitly states that the patient continued taking flagyl."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row701330:23"
+      ],
+      "rationale": "The evidence explicitly states that the patient continued cipro."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row701330:23"
+      ],
+      "rationale": "The evidence explicitly lists Vanco as a medication being continued."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row701330:23"
+      ],
+      "rationale": "The evidence explicitly states that fluconazole was continued."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row701330:24"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is afebrile."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row701330:26"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Bld sugars wnl.', which matches the claim."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row701330:28"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Renal function wnl'."
+    },
+    {
+      "claim_id": "C35",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row701330:28"
+      ],
+      "rationale": "The candidate evidence explicitly states 'lytes ok'."
+    },
+    {
+      "claim_id": "C36",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence refers to acute kidney failure, which is not the same as Acute Respiratory Distress Syndrome (ARDS)."
+    },
+    {
+      "claim_id": "C37",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row701330:45"
+      ],
+      "rationale": "The candidate evidence explicitly states the same oxygen saturation and PaO2 values as the claim."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row701330:54"
+      ],
+      "rationale": "The evidence explicitly states the patient remains in a respiratory acidosis."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "case_id": "mimic-68589-152895-642898",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2068,
+    "summary_chars": 820,
+    "target_min_chars": 413,
+    "target_max_chars": 620,
+    "achieved_ratio": 0.3965183752417795,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 9,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:2",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row642898:1",
+      "E:note:row642898:4"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Other cardiac dysrhythmias [E:cond:21][E:cond:22], acquired hypothyroidism [E:cond:23][E:cond:24], anxiety, and restlessness [E:note:row642898:1].",
+        "severity": "medium",
+        "reason": "The fact sheet does not contain evidence for 'anxiety' or 'restlessness' at the cited location."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Other cardiac dysrhythmias [E:cond:21][E:cond:22], acquired hypothyroidism [E:cond:23][E:cond:24], anxiety, and restlessness [E:note:row642898:1].",
+        "suggested": "Other cardiac dysrhythmias [E:cond:21][E:cond:22] and acquired hypothyroidism [E:cond:23][E:cond:24].",
+        "reason": "Removed unsupported claims of anxiety and restlessness."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-68589-152895-642898/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.63,
+    "fk_words": 169,
+    "fk_sentences": 13,
+    "fk_syllables": 260,
+    "chars": 1506,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-68589-152895-642898/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0018579579773359,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 121.02552079199813,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 49.76234600000316,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.002230374957434833,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 43.956462000031024,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 7.6799904580111615,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.004215291992295533,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 10.308958083041944,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

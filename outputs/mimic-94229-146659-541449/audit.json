@@ -1,0 +1,135 @@
+{
+  "case_id": "mimic-94229-146659-541449",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2700,
+    "summary_chars": 1133,
+    "target_min_chars": 540,
+    "target_max_chars": 810,
+    "achieved_ratio": 0.41962962962962963,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 10,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:2",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:8",
+      "E:note:row541449:1",
+      "E:note:row541449:10",
+      "E:note:row541449:12",
+      "E:note:row541449:13",
+      "E:note:row541449:14",
+      "E:note:row541449:16",
+      "E:note:row541449:17",
+      "E:note:row541449:20",
+      "E:note:row541449:3",
+      "E:note:row541449:6",
+      "E:note:row541449:8"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Diuretics were held [E:note:row541449:6].",
+        "severity": "medium",
+        "reason": "This creates a clinical contradiction within the Medications section, as Lasix 40mg IV is listed as being taken."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Diuretics were held [E:note:row541449:6].",
+        "suggested": "Diuretics were previously held [E:note:row541449:6], though Lasix 40mg IV is now listed [E:note:row541449:10].",
+        "reason": "Resolves the internal inconsistency between the 'held' status and the active administration of Lasix."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-94229-146659-541449/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 9.45,
+    "fk_words": 170,
+    "fk_sentences": 15,
+    "fk_syllables": 297,
+    "chars": 1586,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-94229-146659-541449/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.12920841603772715,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 134.937651833985,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 163.5658104160102,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0027994579868391156,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 13.641904083022382,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 19.483886292029638,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.008343915978912264,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 6.2756159999989904,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

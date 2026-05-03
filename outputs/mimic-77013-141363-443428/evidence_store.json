@@ -1,0 +1,1870 @@
+{
+  "case_id": "mimic-77013-141363-443428",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:enc-141363",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Beriberi",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2650",
+        "display": "Beriberi"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Beriberi",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2650",
+        "display": "Beriberi"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Pneumonitis due to inhalation of food or vomitus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5070",
+        "display": "Pneumonitis due to inhalation of food or vomitus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Pneumonitis due to inhalation of food or vomitus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5070",
+        "display": "Pneumonitis due to inhalation of food or vomitus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Alcohol withdrawal",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "29181",
+        "display": "Alcohol withdrawal"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Alcohol withdrawal",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "29181",
+        "display": "Alcohol withdrawal"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Nutritional marasmus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "261",
+        "display": "Nutritional marasmus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Nutritional marasmus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "261",
+        "display": "Nutritional marasmus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Quadriplegia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34400",
+        "display": "Quadriplegia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Quadriplegia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34400",
+        "display": "Quadriplegia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Nutritional and metabolic cardiomyopathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4257",
+        "display": "Nutritional and metabolic cardiomyopathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Nutritional and metabolic cardiomyopathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4257",
+        "display": "Nutritional and metabolic cardiomyopathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Acute pancreatitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5770",
+        "display": "Acute pancreatitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Acute pancreatitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5770",
+        "display": "Acute pancreatitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Other disorders of neurohypophysis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2536",
+        "display": "Other disorders of neurohypophysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Other disorders of neurohypophysis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2536",
+        "display": "Other disorders of neurohypophysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Hemorrhage of gastrointestinal tract, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5789",
+        "display": "Hemorrhage of gastrointestinal tract, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Hemorrhage of gastrointestinal tract, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5789",
+        "display": "Hemorrhage of gastrointestinal tract, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Subdural hemorrhage",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4321",
+        "display": "Subdural hemorrhage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Subdural hemorrhage",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4321",
+        "display": "Subdural hemorrhage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:25",
+      "kind": "condition",
+      "display": "Other convulsions",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78039",
+        "display": "Other convulsions"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:26",
+      "kind": "condition",
+      "display": "Other convulsions",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78039",
+        "display": "Other convulsions"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:27",
+      "kind": "condition",
+      "display": "Other demyelinating diseases of central nervous system",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3418",
+        "display": "Other demyelinating diseases of central nervous system"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:28",
+      "kind": "condition",
+      "display": "Other demyelinating diseases of central nervous system",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3418",
+        "display": "Other demyelinating diseases of central nervous system"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:29",
+      "kind": "condition",
+      "display": "Other and unspecified coagulation defects",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2869",
+        "display": "Other and unspecified coagulation defects"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:30",
+      "kind": "condition",
+      "display": "Other and unspecified coagulation defects",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2869",
+        "display": "Other and unspecified coagulation defects"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:31",
+      "kind": "condition",
+      "display": "Encephalopathy, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34830",
+        "display": "Encephalopathy, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:32",
+      "kind": "condition",
+      "display": "Encephalopathy, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34830",
+        "display": "Encephalopathy, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:33",
+      "kind": "condition",
+      "display": "Polyneuropathy in other diseases classified elsewhere",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3574",
+        "display": "Polyneuropathy in other diseases classified elsewhere"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:34",
+      "kind": "condition",
+      "display": "Polyneuropathy in other diseases classified elsewhere",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3574",
+        "display": "Polyneuropathy in other diseases classified elsewhere"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:35",
+      "kind": "condition",
+      "display": "Dermatitis due to drugs and medicines taken internally",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "6930",
+        "display": "Dermatitis due to drugs and medicines taken internally"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:36",
+      "kind": "condition",
+      "display": "Dermatitis due to drugs and medicines taken internally",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "6930",
+        "display": "Dermatitis due to drugs and medicines taken internally"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:37",
+      "kind": "condition",
+      "display": "Other and unspecified anticonvulsants causing adverse effects in therapeutic use",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E9363",
+        "display": "Other and unspecified anticonvulsants causing adverse effects in therapeutic use"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:38",
+      "kind": "condition",
+      "display": "Other and unspecified anticonvulsants causing adverse effects in therapeutic use",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E9363",
+        "display": "Other and unspecified anticonvulsants causing adverse effects in therapeutic use"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:39",
+      "kind": "condition",
+      "display": "Other and unspecified agents primarily affecting the cardiovascular system causing adverse effects in therapeutic use",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E9429",
+        "display": "Other and unspecified agents primarily affecting the cardiovascular system causing adverse effects in therapeutic use"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:40",
+      "kind": "condition",
+      "display": "Other and unspecified agents primarily affecting the cardiovascular system causing adverse effects in therapeutic use",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E9429",
+        "display": "Other and unspecified agents primarily affecting the cardiovascular system causing adverse effects in therapeutic use"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:41",
+      "kind": "condition",
+      "display": "Acute alcoholic hepatitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5711",
+        "display": "Acute alcoholic hepatitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:42",
+      "kind": "condition",
+      "display": "Acute alcoholic hepatitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5711",
+        "display": "Acute alcoholic hepatitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:43",
+      "kind": "condition",
+      "display": "Pellagra",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2652",
+        "display": "Pellagra"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:44",
+      "kind": "condition",
+      "display": "Pellagra",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2652",
+        "display": "Pellagra"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:cond-141363-22",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Temporary tracheostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Temporary tracheostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Temporary tracheostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Temporary tracheostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Thoracentesis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Thoracentesis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:14",
+      "kind": "procedure",
+      "display": "Thoracentesis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Thoracentesis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:15",
+      "kind": "procedure",
+      "display": "Percutaneous [endoscopic] gastrostomy [PEG]",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous [endoscopic] gastrostomy [PEG]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:16",
+      "kind": "procedure",
+      "display": "Percutaneous [endoscopic] gastrostomy [PEG]",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous [endoscopic] gastrostomy [PEG]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:17",
+      "kind": "procedure",
+      "display": "Other endoscopy of small intestine",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other endoscopy of small intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:18",
+      "kind": "procedure",
+      "display": "Other endoscopy of small intestine",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other endoscopy of small intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:19",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:20",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:21",
+      "kind": "procedure",
+      "display": "Spinal tap",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Spinal tap"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:22",
+      "kind": "procedure",
+      "display": "Spinal tap",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Spinal tap"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:23",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:24",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:25",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:26",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:27",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-14",
+      "text": null
+    },
+    {
+      "id": "E:proc:28",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2191-03-18",
+      "source_ref": "urn:uuid:proc-141363-14",
+      "text": null
+    },
+    {
+      "id": "E:note:row443428:1",
+      "kind": "note_sentence",
+      "display": "39 y/o M with ETOH abuse who presented on [**3-18**] with lactic acidosis and   ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s1",
+      "text": "39 y/o M with ETOH abuse who presented on [**3-18**] with lactic acidosis and    profound weakness."
+    },
+    {
+      "id": "E:note:row443428:2",
+      "kind": "note_sentence",
+      "display": "He was found to be severely thiamine deficient    consistent with a diagnosis of",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s2",
+      "text": "He was found to be severely thiamine deficient    consistent with a diagnosis of Beri Beri."
+    },
+    {
+      "id": "E:note:row443428:3",
+      "kind": "note_sentence",
+      "display": "Pt was repleted aggressively    with Thiamine, MIV and had an NG placed for nutr",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s3",
+      "text": "Pt was repleted aggressively    with Thiamine, MIV and had an NG placed for nutrition."
+    },
+    {
+      "id": "E:note:row443428:4",
+      "kind": "note_sentence",
+      "display": "He developed    re-feeding syndrome requiring aggressive electrolyte repletion.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s4",
+      "text": "He developed    re-feeding syndrome requiring aggressive electrolyte repletion."
+    },
+    {
+      "id": "E:note:row443428:5",
+      "kind": "note_sentence",
+      "display": "He    developed ETOH withdrawal and mental status changes approximately    24-48",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s5",
+      "text": "He    developed ETOH withdrawal and mental status changes approximately    24-48hr after admission."
+    },
+    {
+      "id": "E:note:row443428:6",
+      "kind": "note_sentence",
+      "display": "He was treated with small doses of Valium and    mental status improved somewhat",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s6",
+      "text": "He was treated with small doses of Valium and    mental status improved somewhat before he was called out to medicine on    [**3-21**]."
+    },
+    {
+      "id": "E:note:row443428:7",
+      "kind": "note_sentence",
+      "display": "On [**3-23**], he was advanced a dysphagia diet and the following day, he    spi",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s7",
+      "text": "On [**3-23**], he was advanced a dysphagia diet and the following day, he    spiked a fever to 101.8."
+    },
+    {
+      "id": "E:note:row443428:8",
+      "kind": "note_sentence",
+      "display": "Initial infectious work up revealed negative    UA, neg Blood Cx, negative Cdiff",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s8",
+      "text": "Initial infectious work up revealed negative    UA, neg Blood Cx, negative Cdiff and possible infiltrate on CXR."
+    },
+    {
+      "id": "E:note:row443428:9",
+      "kind": "note_sentence",
+      "display": "Chest    CT revealed bilateral pleural effusions and atelectasis.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s9",
+      "text": "Chest    CT revealed bilateral pleural effusions and atelectasis."
+    },
+    {
+      "id": "E:note:row443428:10",
+      "kind": "note_sentence",
+      "display": "He triggered on [**2191-3-24**] for tachypnea, tachycardia, and hypoxia.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s10",
+      "text": "He triggered on [**2191-3-24**] for tachypnea, tachycardia, and hypoxia."
+    },
+    {
+      "id": "E:note:row443428:11",
+      "kind": "note_sentence",
+      "display": "His    hypoxia resolved, and CTA was subsequently negative for PE.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s11",
+      "text": "His    hypoxia resolved, and CTA was subsequently negative for PE."
+    },
+    {
+      "id": "E:note:row443428:12",
+      "kind": "note_sentence",
+      "display": "Mental    status further deteriorated after fevers began and there was concern  ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s12",
+      "text": "Mental    status further deteriorated after fevers began and there was concern    for intermittent seizures due to bilateral upper extremity tremors and    periodic eye deviation.  2mg Ativan given without significant    improvement."
+    },
+    {
+      "id": "E:note:row443428:13",
+      "kind": "note_sentence",
+      "display": "Pt was loaded with Keppra 1gram, started on Acyclovir    700mg IV TID and Keppra",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s13",
+      "text": "Pt was loaded with Keppra 1gram, started on Acyclovir    700mg IV TID and Keppra 1500mg [**Hospital1 7**]."
+    },
+    {
+      "id": "E:note:row443428:14",
+      "kind": "note_sentence",
+      "display": "Neuro attending recommended    transfer to MICU for continuous EEG monitoring.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s14",
+      "text": "Neuro attending recommended    transfer to MICU for continuous EEG monitoring."
+    },
+    {
+      "id": "E:note:row443428:15",
+      "kind": "note_sentence",
+      "display": "Upon arrival to MICU, he was transported pt to head ct which was + for    small ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s15",
+      "text": "Upon arrival to MICU, he was transported pt to head ct which was + for    small 4 mm subdural."
+    },
+    {
+      "id": "E:note:row443428:16",
+      "kind": "note_sentence",
+      "display": "Throughout the night, ? r/t keppra dosing pt    became more somnulent, acidotic ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s16",
+      "text": "Throughout the night, ? r/t keppra dosing pt    became more somnulent, acidotic and o2 dependent."
+    },
+    {
+      "id": "E:note:row443428:17",
+      "kind": "note_sentence",
+      "display": "He was intubated then    ([**3-26**]) for airway protection.    .H/O airway, Ina",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s17",
+      "text": "He was intubated then    ([**3-26**]) for airway protection.    .H/O airway, Inability to Protect (Risk for Aspiration, Altered Gag,    Airway Clearance, Cough)    Assessment:    Suctioning ETT for scant white sputum."
+    },
+    {
+      "id": "E:note:row443428:18",
+      "kind": "note_sentence",
+      "display": "Lung sounds rhonchorus.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s18",
+      "text": "Lung sounds rhonchorus."
+    },
+    {
+      "id": "E:note:row443428:19",
+      "kind": "note_sentence",
+      "display": "More    awake. +Gag and cough    Action:    Pulm toilet.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s19",
+      "text": "More    awake. +Gag and cough    Action:    Pulm toilet."
+    },
+    {
+      "id": "E:note:row443428:20",
+      "kind": "note_sentence",
+      "display": "Oral care.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s20",
+      "text": "Oral care."
+    },
+    {
+      "id": "E:note:row443428:21",
+      "kind": "note_sentence",
+      "display": "S s q2-3 hrs.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s21",
+      "text": "S s q2-3 hrs."
+    },
+    {
+      "id": "E:note:row443428:22",
+      "kind": "note_sentence",
+      "display": "No sedation given.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s22",
+      "text": "No sedation given."
+    },
+    {
+      "id": "E:note:row443428:23",
+      "kind": "note_sentence",
+      "display": "Response:    More awake, following commands.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s23",
+      "text": "Response:    More awake, following commands."
+    },
+    {
+      "id": "E:note:row443428:24",
+      "kind": "note_sentence",
+      "display": "Probably able to protect his own airway    now.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s24",
+      "text": "Probably able to protect his own airway    now."
+    },
+    {
+      "id": "E:note:row443428:25",
+      "kind": "note_sentence",
+      "display": "Plan:    Monitor mental status, ?extubation today.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s25",
+      "text": "Plan:    Monitor mental status, ?extubation today."
+    },
+    {
+      "id": "E:note:row443428:26",
+      "kind": "note_sentence",
+      "display": "Altered mental status (not Delirium)    Assessment:    No seizure activity noted",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s26",
+      "text": "Altered mental status (not Delirium)    Assessment:    No seizure activity noted."
+    },
+    {
+      "id": "E:note:row443428:27",
+      "kind": "note_sentence",
+      "display": "More awake, following commands.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s27",
+      "text": "More awake, following commands."
+    },
+    {
+      "id": "E:note:row443428:28",
+      "kind": "note_sentence",
+      "display": "Appears to    be alert    Action:    Continuous EEG monitoring,  Keppra per feed",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s28",
+      "text": "Appears to    be alert    Action:    Continuous EEG monitoring,  Keppra per feeding tube."
+    },
+    {
+      "id": "E:note:row443428:29",
+      "kind": "note_sentence",
+      "display": "Lactulose.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s29",
+      "text": "Lactulose."
+    },
+    {
+      "id": "E:note:row443428:30",
+      "kind": "note_sentence",
+      "display": "Attempted mri of head.. unable to do d/t hardware attached to leads per    mri t",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s30",
+      "text": "Attempted mri of head.. unable to do d/t hardware attached to leads per    mri tech    Response:    mental status improved."
+    },
+    {
+      "id": "E:note:row443428:31",
+      "kind": "note_sentence",
+      "display": "Lg amts stool output No seizure activity noted.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s31",
+      "text": "Lg amts stool output No seizure activity noted."
+    },
+    {
+      "id": "E:note:row443428:32",
+      "kind": "note_sentence",
+      "display": "Plan:    Monitor mental/neuro status.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s32",
+      "text": "Plan:    Monitor mental/neuro status."
+    },
+    {
+      "id": "E:note:row443428:33",
+      "kind": "note_sentence",
+      "display": "Continuous EEG. ?attempt MRI once off cont    eeg.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row443428#s33",
+      "text": "Continuous EEG. ?attempt MRI once off cont    eeg."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|2650": [
+      "E:cond:1",
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:3",
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2762": [
+      "E:cond:5",
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5070": [
+      "E:cond:7",
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|29181": [
+      "E:cond:9",
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|261": [
+      "E:cond:11",
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|34400": [
+      "E:cond:13",
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4257": [
+      "E:cond:15",
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5770": [
+      "E:cond:17",
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2536": [
+      "E:cond:19",
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5789": [
+      "E:cond:21",
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4321": [
+      "E:cond:23",
+      "E:cond:24"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78039": [
+      "E:cond:25",
+      "E:cond:26"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3418": [
+      "E:cond:27",
+      "E:cond:28"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2869": [
+      "E:cond:29",
+      "E:cond:30"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|34830": [
+      "E:cond:31",
+      "E:cond:32"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3574": [
+      "E:cond:33",
+      "E:cond:34"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|6930": [
+      "E:cond:35",
+      "E:cond:36"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E9363": [
+      "E:cond:37",
+      "E:cond:38"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E9429": [
+      "E:cond:39",
+      "E:cond:40"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5711": [
+      "E:cond:41",
+      "E:cond:42"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2652": [
+      "E:cond:43",
+      "E:cond:44"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "beriberi": [
+      "E:cond:1",
+      "E:cond:2"
+    ],
+    "acute respiratory failure": [
+      "E:cond:3",
+      "E:cond:4"
+    ],
+    "acidosis": [
+      "E:cond:5",
+      "E:cond:6"
+    ],
+    "pneumonitis due to inhalation of food or vomitus": [
+      "E:cond:7",
+      "E:cond:8"
+    ],
+    "alcohol withdrawal": [
+      "E:cond:9",
+      "E:cond:10"
+    ],
+    "nutritional marasmus": [
+      "E:cond:11",
+      "E:cond:12"
+    ],
+    "quadriplegia, unspecified": [
+      "E:cond:13",
+      "E:cond:14"
+    ],
+    "nutritional and metabolic cardiomyopathy": [
+      "E:cond:15",
+      "E:cond:16"
+    ],
+    "acute pancreatitis": [
+      "E:cond:17",
+      "E:cond:18"
+    ],
+    "other disorders of neurohypophysis": [
+      "E:cond:19",
+      "E:cond:20"
+    ],
+    "hemorrhage of gastrointestinal tract, unspecified": [
+      "E:cond:21",
+      "E:cond:22"
+    ],
+    "subdural hemorrhage": [
+      "E:cond:23",
+      "E:cond:24"
+    ],
+    "other convulsions": [
+      "E:cond:25",
+      "E:cond:26"
+    ],
+    "other demyelinating diseases of central nervous system": [
+      "E:cond:27",
+      "E:cond:28"
+    ],
+    "other and unspecified coagulation defects": [
+      "E:cond:29",
+      "E:cond:30"
+    ],
+    "encephalopathy, unspecified": [
+      "E:cond:31",
+      "E:cond:32"
+    ],
+    "polyneuropathy in other diseases classified elsewhere": [
+      "E:cond:33",
+      "E:cond:34"
+    ],
+    "dermatitis due to drugs and medicines taken internally": [
+      "E:cond:35",
+      "E:cond:36"
+    ],
+    "other and unspecified anticonvulsants causing adverse effects in therapeutic use": [
+      "E:cond:37",
+      "E:cond:38"
+    ],
+    "other and unspecified agents primarily affecting the cardiovascular system causing adverse effects in therapeutic use": [
+      "E:cond:39",
+      "E:cond:40"
+    ],
+    "acute alcoholic hepatitis": [
+      "E:cond:41",
+      "E:cond:42"
+    ],
+    "pellagra": [
+      "E:cond:43",
+      "E:cond:44"
+    ],
+    "temporary tracheostomy": [
+      "E:proc:1",
+      "E:proc:2"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:3",
+      "E:proc:4"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:23",
+      "E:proc:24"
+    ],
+    "continuous invasive mechanical ventilation for less than 96 consecutive hours": [
+      "E:proc:7",
+      "E:proc:8"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:9",
+      "E:proc:10"
+    ],
+    "arterial catheterization": [
+      "E:proc:11",
+      "E:proc:12"
+    ],
+    "thoracentesis": [
+      "E:proc:13",
+      "E:proc:14"
+    ],
+    "percutaneous [endoscopic] gastrostomy [peg]": [
+      "E:proc:15",
+      "E:proc:16"
+    ],
+    "other endoscopy of small intestine": [
+      "E:proc:17",
+      "E:proc:18"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:19",
+      "E:proc:20"
+    ],
+    "spinal tap": [
+      "E:proc:21",
+      "E:proc:22"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:25",
+      "E:proc:26",
+      "E:proc:27",
+      "E:proc:28"
+    ],
+    "39 y/o m with etoh abuse who presented on [**3-18**] with lactic acidosis and": [
+      "E:note:row443428:1"
+    ],
+    "he was found to be severely thiamine deficient consistent with a diagnosis of": [
+      "E:note:row443428:2"
+    ],
+    "pt was repleted aggressively with thiamine, miv and had an ng placed for nutr": [
+      "E:note:row443428:3"
+    ],
+    "he developed re-feeding syndrome requiring aggressive electrolyte repletion.": [
+      "E:note:row443428:4"
+    ],
+    "he developed etoh withdrawal and mental status changes approximately 24-48": [
+      "E:note:row443428:5"
+    ],
+    "he was treated with small doses of valium and mental status improved somewhat": [
+      "E:note:row443428:6"
+    ],
+    "on [**3-23**], he was advanced a dysphagia diet and the following day, he spi": [
+      "E:note:row443428:7"
+    ],
+    "initial infectious work up revealed negative ua, neg blood cx, negative cdiff": [
+      "E:note:row443428:8"
+    ],
+    "chest ct revealed bilateral pleural effusions and atelectasis.": [
+      "E:note:row443428:9"
+    ],
+    "he triggered on [**2191-3-24**] for tachypnea, tachycardia, and hypoxia.": [
+      "E:note:row443428:10"
+    ],
+    "his hypoxia resolved, and cta was subsequently negative for pe.": [
+      "E:note:row443428:11"
+    ],
+    "mental status further deteriorated after fevers began and there was concern": [
+      "E:note:row443428:12"
+    ],
+    "pt was loaded with keppra 1gram, started on acyclovir 700mg iv tid and keppra": [
+      "E:note:row443428:13"
+    ],
+    "neuro attending recommended transfer to micu for continuous eeg monitoring.": [
+      "E:note:row443428:14"
+    ],
+    "upon arrival to micu, he was transported pt to head ct which was + for small": [
+      "E:note:row443428:15"
+    ],
+    "throughout the night, ? r/t keppra dosing pt became more somnulent, acidotic": [
+      "E:note:row443428:16"
+    ],
+    "he was intubated then ([**3-26**]) for airway protection. .h/o airway, ina": [
+      "E:note:row443428:17"
+    ],
+    "lung sounds rhonchorus.": [
+      "E:note:row443428:18"
+    ],
+    "more awake. +gag and cough action: pulm toilet.": [
+      "E:note:row443428:19"
+    ],
+    "oral care.": [
+      "E:note:row443428:20"
+    ],
+    "s s q2-3 hrs.": [
+      "E:note:row443428:21"
+    ],
+    "no sedation given.": [
+      "E:note:row443428:22"
+    ],
+    "response: more awake, following commands.": [
+      "E:note:row443428:23"
+    ],
+    "probably able to protect his own airway now.": [
+      "E:note:row443428:24"
+    ],
+    "plan: monitor mental status, ?extubation today.": [
+      "E:note:row443428:25"
+    ],
+    "altered mental status (not delirium) assessment: no seizure activity noted": [
+      "E:note:row443428:26"
+    ],
+    "more awake, following commands.": [
+      "E:note:row443428:27"
+    ],
+    "appears to be alert action: continuous eeg monitoring, keppra per feed": [
+      "E:note:row443428:28"
+    ],
+    "lactulose.": [
+      "E:note:row443428:29"
+    ],
+    "attempted mri of head.. unable to do d/t hardware attached to leads per mri t": [
+      "E:note:row443428:30"
+    ],
+    "lg amts stool output no seizure activity noted.": [
+      "E:note:row443428:31"
+    ],
+    "plan: monitor mental/neuro status.": [
+      "E:note:row443428:32"
+    ],
+    "continuous eeg. ?attempt mri once off cont eeg.": [
+      "E:note:row443428:33"
+    ]
+  },
+  "by_date": {
+    "2191-03-18": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:29",
+      "E:cond:30",
+      "E:cond:31",
+      "E:cond:32",
+      "E:cond:33",
+      "E:cond:34",
+      "E:cond:35",
+      "E:cond:36",
+      "E:cond:37",
+      "E:cond:38",
+      "E:cond:39",
+      "E:cond:40",
+      "E:cond:41",
+      "E:cond:42",
+      "E:cond:43",
+      "E:cond:44",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13",
+      "E:proc:14",
+      "E:proc:15",
+      "E:proc:16",
+      "E:proc:17",
+      "E:proc:18",
+      "E:proc:19",
+      "E:proc:20",
+      "E:proc:21",
+      "E:proc:22",
+      "E:proc:23",
+      "E:proc:24",
+      "E:proc:25",
+      "E:proc:26",
+      "E:proc:27",
+      "E:proc:28"
+    ]
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:1"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is a 39 y/o M with etoh abuse."
+    },
+    {
+      "claim_id": "C2",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C3",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list 'Acute respiratory failure', which is a broader term and does not specifically confirm 'hypercarbic' respiratory failure."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:3"
+      ],
+      "rationale": "The evidence explicitly states the hospital course was complicated by altered mental status."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:31"
+      ],
+      "rationale": "The evidence explicitly mentions that the patient has fevers."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:2"
+      ],
+      "rationale": "The evidence explicitly states the patient has been receiving antibiotics for hospital acquired pneumonia."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:3"
+      ],
+      "rationale": "The evidence explicitly states the hospital course was complicated by refeeding syndrome."
+    },
+    {
+      "claim_id": "C9",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate conditions mention altered mental status of unclear etiology."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:6"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient had a heart rate (HR) of 131 upon arrival to the ICU."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:6"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient's temperature was T98.9 on arrival to the ICU."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:6"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient's blood pressure was 147/82 upon arrival to the ICU."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:6"
+      ],
+      "rationale": "The evidence explicitly states that on arrival to the ICU, the patient had a value of 30 (contextually referring to respiratory rate) among other vitals."
+    },
+    {
+      "claim_id": "C14",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence describes mechanical ventilation procedures but does not provide oxygen saturation or FiO2 values."
+    },
+    {
+      "claim_id": "C15",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:9"
+      ],
+      "rationale": "The evidence explicitly states the patient is currently receiving vanco."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:9"
+      ],
+      "rationale": "The evidence explicitly states the patient is currently receiving zosyn."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:9"
+      ],
+      "rationale": "The evidence explicitly states the patient is currently receiving cipro."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:9"
+      ],
+      "rationale": "The evidence explicitly states the patient is currently receiving flagyl."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:12"
+      ],
+      "rationale": "The evidence explicitly states that Tylenol 650mg po was given."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:14"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Currently 101.7' in the context of monitoring temperature."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:18"
+      ],
+      "rationale": "The candidate evidence explicitly states the respiratory rate is 25to 30."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:20"
+      ],
+      "rationale": "The candidate evidence explicitly states the same O2 saturation range and condition as the claim."
+    },
+    {
+      "claim_id": "C24",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C25",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list contains procedure records for mechanical ventilation and no information regarding medication use."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:22"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is on ipratropium q6 hours."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:26"
+      ],
+      "rationale": "The candidate evidence explicitly states the O2 saturation is 100% on 40% FiO2."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:29"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Tachy up to the 140', matching the claim."
+    },
+    {
+      "claim_id": "C29",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:30"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Trop 0.04', which matches the claim."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:34"
+      ],
+      "rationale": "The candidate evidence explicitly states that the heart rate went down to 135."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:37"
+      ],
+      "rationale": "The candidate evidence explicitly states the INR is 2.1."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:37"
+      ],
+      "rationale": "The candidate evidence explicitly states 'potassium 3.6'."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:37"
+      ],
+      "rationale": "The candidate evidence explicitly states 'ionized ca 1.11', matching the claim."
+    },
+    {
+      "claim_id": "C35",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C36",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C37",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:38"
+      ],
+      "rationale": "The candidate evidence explicitly states the same temperature value, time, and method as the claim."
+    },
+    {
+      "claim_id": "C39",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:12",
+        "E:note:row444743:39"
+      ],
+      "rationale": "Both evidence items explicitly state that Tylenol 650mg was given to the patient."
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:40"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Potassium 3.7'."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:40"
+      ],
+      "rationale": "The candidate evidence explicitly states 'magnesium 1.6'."
+    },
+    {
+      "claim_id": "C42",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:40"
+      ],
+      "rationale": "The evidence explicitly states that 'potsssium 40meq' was given."
+    },
+    {
+      "claim_id": "C43",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:40"
+      ],
+      "rationale": "The evidence explicitly states that 'magnesium 2gm iv give'."
+    },
+    {
+      "claim_id": "C44",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:41"
+      ],
+      "rationale": "The candidate evidence explicitly states the HCT value is 23.7."
+    },
+    {
+      "claim_id": "C45",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C46",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row444743:42"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient had one large guiac positive stool."
+    }
+  ]
+}

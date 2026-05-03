@@ -1,0 +1,458 @@
+{
+  "case_id": "mimic-80791-181156-544481",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "ELECTIVE",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2134-11-01",
+      "source_ref": "urn:uuid:enc-181156",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Osteoarthrosis, unspecified whether generalized or localized, lower leg",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "71596",
+        "display": "Osteoarthrosis, unspecified whether generalized or localized, lower leg"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2134-11-01",
+      "source_ref": "urn:uuid:cond-181156-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute edema of lung, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5184",
+        "display": "Acute edema of lung, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2134-11-01",
+      "source_ref": "urn:uuid:cond-181156-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5185",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2134-11-01",
+      "source_ref": "urn:uuid:cond-181156-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2134-11-01",
+      "source_ref": "urn:uuid:cond-181156-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2134-11-01",
+      "source_ref": "urn:uuid:cond-181156-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Hemorrhage complicating a procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99811",
+        "display": "Hemorrhage complicating a procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2134-11-01",
+      "source_ref": "urn:uuid:cond-181156-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Acute posthemorrhagic anemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2851",
+        "display": "Acute posthemorrhagic anemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2134-11-01",
+      "source_ref": "urn:uuid:cond-181156-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V854",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2134-11-01",
+      "source_ref": "urn:uuid:cond-181156-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Unspecified procedure as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8799",
+        "display": "Unspecified procedure as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2134-11-01",
+      "source_ref": "urn:uuid:cond-181156-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "40390",
+        "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2134-11-01",
+      "source_ref": "urn:uuid:cond-181156-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Hyperpotassemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2767",
+        "display": "Hyperpotassemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2134-11-01",
+      "source_ref": "urn:uuid:cond-181156-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Other iatrogenic hypotension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "45829",
+        "display": "Other iatrogenic hypotension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2134-11-01",
+      "source_ref": "urn:uuid:cond-181156-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Obesity, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "27800",
+        "display": "Obesity, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2134-11-01",
+      "source_ref": "urn:uuid:cond-181156-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Total knee replacement",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Total knee replacement"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2134-11-01",
+      "source_ref": "urn:uuid:proc-181156-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Non-invasive mechanical ventilation",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Non-invasive mechanical ventilation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2134-11-01",
+      "source_ref": "urn:uuid:proc-181156-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2134-11-01",
+      "source_ref": "urn:uuid:proc-181156-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Transfusion of packed cells",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of packed cells"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2134-11-01",
+      "source_ref": "urn:uuid:proc-181156-4",
+      "text": null
+    },
+    {
+      "id": "E:note:row544481:1",
+      "kind": "note_sentence",
+      "display": "This is a 59 year-old morbidly obese female with a history of chronic    left kn",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row544481#s1",
+      "text": "This is a 59 year-old morbidly obese female with a history of chronic    left knee pain presented for elective total left knee replacement."
+    },
+    {
+      "id": "E:note:row544481:2",
+      "kind": "note_sentence",
+      "display": "Intaop stable blood pressure and <200cc blood loss.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row544481#s2",
+      "text": "Intaop stable blood pressure and <200cc blood loss."
+    },
+    {
+      "id": "E:note:row544481:3",
+      "kind": "note_sentence",
+      "display": "Post op patient    extubated, complained of pain, was given morphine, developed ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row544481#s3",
+      "text": "Post op patient    extubated, complained of pain, was given morphine, developed    hypotension and apnea and had to be reintubated and fluid resucitated    wih 7-8 L fluid."
+    },
+    {
+      "id": "E:note:row544481:4",
+      "kind": "note_sentence",
+      "display": "Report that there was some component of obstruction.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row544481#s4",
+      "text": "Report that there was some component of obstruction."
+    },
+    {
+      "id": "E:note:row544481:5",
+      "kind": "note_sentence",
+      "display": "Pain control (acute pain, chronic pain)    Assessment:    Pt transferred awake, ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row544481#s5",
+      "text": "Pain control (acute pain, chronic pain)    Assessment:    Pt transferred awake, responsive to voice, mouthing words, nodding yes    to pain, anxious, PIP pressures high, pt with chronic back and knee    pain prior to surgery, pt also with hx of anxiety    Action:    Pt started on propofol gtt, started on fent IV prn and oxycodone prn    Response:    Pt s pain poorly controlled, increased fent IV prn, responded well to    increase in fent, now comfortable on current sedation and pain regiment    Plan:    Pt likely to be extubated tomorrow, will need to readdress pain control    once extubated, ?pain service consult given pt s chronic pain issues,    pt had been transiently on a PCA prior to reintubation    Obstructive sleep apnea (OSA)    Assessment:    In PACU following adm of pain medications, pt unable to maintain airway    d/t likely obstruction, unable to be maintained on bipap so reintubated    as noted above, pt with clear breath sounds dim at bases, remained    mechanically vented throughout the night, initially acidotic    Action:    Several vent changes overnight in response to ABGs, trending ABGs    throughout the shift see flowsheet for data    Response:    Last ABG 7.41/44/112/29/2    Plan:    Plan to extubate this morning    [**Last Name 19**] Problem - [**Name (NI) 20**] Description In Comments    Assessment:    Pt with Left total knee as noted above, pt presented with knee in CPM    to 90 degrees,  per surgery to place in immobilizer for night upon    arrival, hemovac drain from site unclamped at 2200    Action:    Surgical dsg intact, immobilizer applied with difficulty d/t pt size,    attempted ordering larger immobilizer, none available, hemovac draining    sanginous drainage for a total of 220 cc, pt received 2 units of PRBC    for a post-op hct of 26.7, repeat hct sent post transfusion    Response:    Post transfusion gtt 26.9, HO aware, paging surgery for recs    Plan:    ?repeat transfusion, pt to be placed back on CPM on days, continue to    monitor, f/u surgery recs"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|71596": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5184": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5185": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2762": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99811": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2851": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V854": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8799": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|40390": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2767": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|45829": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|27800": [
+      "E:cond:13"
+    ]
+  },
+  "by_display": {
+    "elective": [
+      "E:enc:1"
+    ],
+    "osteoarthrosis, unspecified whether generalized or localized, lower leg": [
+      "E:cond:1"
+    ],
+    "acute edema of lung, unspecified": [
+      "E:cond:2"
+    ],
+    "diagnosis": [
+      "E:cond:3",
+      "E:cond:8"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:4"
+    ],
+    "acidosis": [
+      "E:cond:5"
+    ],
+    "hemorrhage complicating a procedure": [
+      "E:cond:6"
+    ],
+    "acute posthemorrhagic anemia": [
+      "E:cond:7"
+    ],
+    "unspecified procedure as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure": [
+      "E:cond:9"
+    ],
+    "hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage i through stage iv, or unspecified": [
+      "E:cond:10"
+    ],
+    "hyperpotassemia": [
+      "E:cond:11"
+    ],
+    "other iatrogenic hypotension": [
+      "E:cond:12"
+    ],
+    "obesity, unspecified": [
+      "E:cond:13"
+    ],
+    "total knee replacement": [
+      "E:proc:1"
+    ],
+    "non-invasive mechanical ventilation": [
+      "E:proc:2"
+    ],
+    "arterial catheterization": [
+      "E:proc:3"
+    ],
+    "transfusion of packed cells": [
+      "E:proc:4"
+    ],
+    "this is a 59 year-old morbidly obese female with a history of chronic left kn": [
+      "E:note:row544481:1"
+    ],
+    "intaop stable blood pressure and <200cc blood loss.": [
+      "E:note:row544481:2"
+    ],
+    "post op patient extubated, complained of pain, was given morphine, developed": [
+      "E:note:row544481:3"
+    ],
+    "report that there was some component of obstruction.": [
+      "E:note:row544481:4"
+    ],
+    "pain control (acute pain, chronic pain) assessment: pt transferred awake,": [
+      "E:note:row544481:5"
+    ]
+  },
+  "by_date": {
+    "2134-11-01": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4"
+    ]
+  }
+}

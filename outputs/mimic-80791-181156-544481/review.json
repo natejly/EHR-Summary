@@ -1,0 +1,26 @@
+{
+  "concerns": [
+    {
+      "sentence": "Comorbidities include lower leg osteoarthrosis [E:cond:1], obesity [E:cond:13], and morbid obesity [E:note:row544481:1].",
+      "severity": "medium",
+      "reason": "The fact sheet does not contain evidence for 'morbid obesity' [E:note:row544481:1]."
+    },
+    {
+      "sentence": "Procedures performed include total knee replacement [E:proc:1], non-invasive mechanical ventilation [E:proc:2], arterial catheterization [E:proc:3], and packed cell transfusion [E:proc:4].",
+      "severity": "medium",
+      "reason": "The fact sheet does not contain evidence for 'packed cell transfusion' [E:proc:4]."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Comorbidities include lower leg osteoarthrosis [E:cond:1], obesity [E:cond:13], and morbid obesity [E:note:row544481:1].",
+      "suggested": "Comorbidities include lower leg osteoarthrosis [E:cond:1] and obesity [E:cond:13].",
+      "reason": "Removed unsupported claim of morbid obesity."
+    },
+    {
+      "original": "Procedures performed include total knee replacement [E:proc:1], non-invasive mechanical ventilation [E:proc:2], arterial catheterization [E:proc:3], and packed cell transfusion [E:proc:4].",
+      "suggested": "Procedures performed include total knee replacement [E:proc:1], non-invasive mechanical ventilation [E:proc:2], and arterial catheterization [E:proc:3].",
+      "reason": "Removed unsupported claim of packed cell transfusion."
+    }
+  ]
+}

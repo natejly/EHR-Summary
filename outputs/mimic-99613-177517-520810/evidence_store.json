@@ -1,0 +1,580 @@
+{
+  "case_id": "mimic-99613-177517-520810",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:enc-177517",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Obstructive chronic bronchitis with (acute) exacerbation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "49121",
+        "display": "Obstructive chronic bronchitis with (acute) exacerbation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:cond-177517-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute and chronic respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51884",
+        "display": "Acute and chronic respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:cond-177517-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Bronchiectasis with acute exacerbation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4941",
+        "display": "Bronchiectasis with acute exacerbation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:cond-177517-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Dependence on respirator, status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4611",
+        "display": "Dependence on respirator, status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:cond-177517-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Unspecified pleural effusion",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5119",
+        "display": "Unspecified pleural effusion"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:cond-177517-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Mixed acid-base balance disorder",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2764",
+        "display": "Mixed acid-base balance disorder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:cond-177517-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Malignant essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4010",
+        "display": "Malignant essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:cond-177517-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Other diseases of trachea and bronchus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51919",
+        "display": "Other diseases of trachea and bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:cond-177517-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Dysthymic disorder",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3004",
+        "display": "Dysthymic disorder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:cond-177517-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Knee joint replacement",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4365",
+        "display": "Knee joint replacement"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:cond-177517-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Anemia of other chronic disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "28529",
+        "display": "Anemia of other chronic disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:cond-177517-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Tachycardia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7850",
+        "display": "Tachycardia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:cond-177517-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Thrombocytopenia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2875",
+        "display": "Thrombocytopenia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:cond-177517-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Hypovolemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "27652",
+        "display": "Hypovolemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:cond-177517-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Anemia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2859",
+        "display": "Anemia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:cond-177517-15",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Temporary tracheostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Temporary tracheostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:proc-177517-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:proc-177517-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:proc-177517-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Fiber-optic bronchoscopy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Fiber-optic bronchoscopy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:proc-177517-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Percutaneous [endoscopic] gastrostomy [PEG]",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous [endoscopic] gastrostomy [PEG]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:proc-177517-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:proc-177517-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:proc-177517-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2153-02-10",
+      "source_ref": "urn:uuid:proc-177517-8",
+      "text": null
+    },
+    {
+      "id": "E:note:row520810:1",
+      "kind": "note_sentence",
+      "display": "78F h/o severe COPD [ numerous admissions for dyspnea], bronchiectasis,    trach",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row520810#s1",
+      "text": "78F h/o severe COPD [ numerous admissions for dyspnea], bronchiectasis,    tracheobronchomalacia with Y-stent placed by IP [ [**10-30**]] was found in     respiratory distress at pulmonary rehab and  sent to [**First Name4 (NamePattern1) **] [**Last Name (NamePattern1) 73**] -    7.22/110/176, CXR shows RLLL  - trial BiPap but subsequently intubated    and transferred to [**Hospital1 19**] for further evaluation & management of airway    issues/sepsis."
+    },
+    {
+      "id": "E:note:row520810:2",
+      "kind": "note_sentence",
+      "display": "No known complaints prior to decompensation but pt    unable to provide history.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row520810#s2",
+      "text": "No known complaints prior to decompensation but pt    unable to provide history."
+    },
+    {
+      "id": "E:note:row520810:3",
+      "kind": "note_sentence",
+      "display": "Hypotensive SBP 80s lactate in ED @ 4.1    IVF bolus [ total 3l given]  and pan ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row520810#s3",
+      "text": "Hypotensive SBP 80s lactate in ED @ 4.1    IVF bolus [ total 3l given]  and pan cx  of note, hypertensive at    baseline- also received vanc, levo, zosyn, transferred to MICU."
+    },
+    {
+      "id": "E:note:row520810:4",
+      "kind": "note_sentence",
+      "display": "EVENTS. received further 2l n/saline [ post lactate now @ < 2.0], await    blood",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row520810#s4",
+      "text": "EVENTS. received further 2l n/saline [ post lactate now @ < 2.0], await    blood dx data                     Received 4grms mag for level @ 1.1 [ all am labs due    at 06.30hrs and repeat CXR due @ 0800hrs]                     A line placed and maps maintained > 65                     Received meropenum for AB coverage [ received vanc in    ED]                     3 daughters and x1 son visited    Chronic obstructive pulmonary disease (COPD, Bronchitis, Emphysema)    with Acute Exacerbation    Assessment:    Patient known COPD, with Y stents in place [ IP informed of admission]."
+    },
+    {
+      "id": "E:note:row520810:5",
+      "kind": "note_sentence",
+      "display": "CXR on admission shows RLL pneumonia.. received Intubated AC 20x 400    100% pee",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row520810#s5",
+      "text": "CXR on admission shows RLL pneumonia.. received Intubated AC 20x 400    100% peep @ 5, lightly sedated on versed at 2, able to follow simple    commands, SX for large amount of thick creamy secretions upon    admission, lungs sound course throughout    Action:    Abgs improved and fio2 weaned to 40%, no change with sedation, ABS as    ordered, SX prn    Response:    Improving abgs overnight    Plan:    For repeat abg at 06.30hrs, wean vent as tolerated, for IP review this    am    Sepsis without organ dysfunction    Assessment:    Received with borderline b/p 90 systolic maps @ 60, minimal U/O in ED ,    HR 100-110, lactate in ED @ 4.1, had received total 3l fluid there plus    ABS as above, CVP @ [**7-31**], afebrile    Action:    Received further 2l fluid, meropenum commenced, a line placed    Response:    Stable B/P with systolics >100 maps >70, u/o > 30, lactate this am 1.1    Plan:    Continue to maintain maps > 65 , observe U/O ? will require further    fluid resuscitation, trend lactate, fever curve, ABS as ordered"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|49121": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51884": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4941": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4611": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5119": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2764": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4010": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51919": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3004": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4365": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|28529": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7850": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2875": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|27652": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2859": [
+      "E:cond:15"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "obstructive chronic bronchitis with (acute) exacerbation": [
+      "E:cond:1"
+    ],
+    "acute and chronic respiratory failure": [
+      "E:cond:2"
+    ],
+    "bronchiectasis with acute exacerbation": [
+      "E:cond:3"
+    ],
+    "dependence on respirator, status": [
+      "E:cond:4"
+    ],
+    "unspecified pleural effusion": [
+      "E:cond:5"
+    ],
+    "mixed acid-base balance disorder": [
+      "E:cond:6"
+    ],
+    "malignant essential hypertension": [
+      "E:cond:7"
+    ],
+    "other diseases of trachea and bronchus": [
+      "E:cond:8"
+    ],
+    "dysthymic disorder": [
+      "E:cond:9"
+    ],
+    "knee joint replacement": [
+      "E:cond:10"
+    ],
+    "anemia of other chronic disease": [
+      "E:cond:11"
+    ],
+    "tachycardia, unspecified": [
+      "E:cond:12"
+    ],
+    "thrombocytopenia, unspecified": [
+      "E:cond:13"
+    ],
+    "hypovolemia": [
+      "E:cond:14"
+    ],
+    "anemia, unspecified": [
+      "E:cond:15"
+    ],
+    "temporary tracheostomy": [
+      "E:proc:1"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:2"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:3"
+    ],
+    "fiber-optic bronchoscopy": [
+      "E:proc:4"
+    ],
+    "percutaneous [endoscopic] gastrostomy [peg]": [
+      "E:proc:5"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:6"
+    ],
+    "arterial catheterization": [
+      "E:proc:7"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:8"
+    ],
+    "78f h/o severe copd [ numerous admissions for dyspnea], bronchiectasis, trach": [
+      "E:note:row520810:1"
+    ],
+    "no known complaints prior to decompensation but pt unable to provide history.": [
+      "E:note:row520810:2"
+    ],
+    "hypotensive sbp 80s lactate in ed @ 4.1 ivf bolus [ total 3l given] and pan": [
+      "E:note:row520810:3"
+    ],
+    "events. received further 2l n/saline [ post lactate now @ < 2.0], await blood": [
+      "E:note:row520810:4"
+    ],
+    "cxr on admission shows rll pneumonia.. received intubated ac 20x 400 100% pee": [
+      "E:note:row520810:5"
+    ]
+  },
+  "by_date": {
+    "2153-02-10": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8"
+    ]
+  }
+}

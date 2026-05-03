@@ -1,0 +1,481 @@
+{
+  "claims": [
+    {
+      "claim_id": "C1",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "hypertension",
+      "time_ref": null,
+      "source_span": "row597#0"
+    },
+    {
+      "claim_id": "C2",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "dyslipidemia",
+      "time_ref": null,
+      "source_span": "row597#0"
+    },
+    {
+      "claim_id": "C3",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "coronary artery disease",
+      "time_ref": null,
+      "source_span": "row597#0"
+    },
+    {
+      "claim_id": "C4",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "status post",
+      "value": "inferior myocardial infarction with ventricular fibrillation arrest",
+      "time_ref": "2156",
+      "source_span": "row597#0"
+    },
+    {
+      "claim_id": "C5",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "exertional angina",
+      "time_ref": null,
+      "source_span": "row597#0"
+    },
+    {
+      "claim_id": "C6",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "sublingual nitroglycerin",
+      "time_ref": "Three days ago",
+      "source_span": "row597#2"
+    },
+    {
+      "claim_id": "C7",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "oxygen",
+      "time_ref": "Three days ago",
+      "source_span": "row597#2"
+    },
+    {
+      "claim_id": "C8",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "morphine",
+      "time_ref": "Three days ago",
+      "source_span": "row597#2"
+    },
+    {
+      "claim_id": "C9",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "heparin",
+      "time_ref": "Three days ago",
+      "source_span": "row597#2"
+    },
+    {
+      "claim_id": "C10",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "myocardial infarction",
+      "time_ref": null,
+      "source_span": "row597#4"
+    },
+    {
+      "claim_id": "C11",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "troponin level of 2.87",
+      "time_ref": null,
+      "source_span": "row597#4"
+    },
+    {
+      "claim_id": "C12",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "creatine kinase of 426",
+      "time_ref": null,
+      "source_span": "row597#4"
+    },
+    {
+      "claim_id": "C13",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "Cardiac catheterization",
+      "time_ref": "day prior to admission",
+      "source_span": "row597#5"
+    },
+    {
+      "claim_id": "C14",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital result",
+      "value": "ejection fraction was normal",
+      "time_ref": null,
+      "source_span": "row597#6"
+    },
+    {
+      "claim_id": "C15",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital result",
+      "value": "LV end-diastolic pressure was 19",
+      "time_ref": null,
+      "source_span": "row597#7"
+    },
+    {
+      "claim_id": "C16",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital result",
+      "value": "right atrial pressure was 13",
+      "time_ref": null,
+      "source_span": "row597#7"
+    },
+    {
+      "claim_id": "C17",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital result",
+      "value": "pulmonary artery pressure 33/10",
+      "time_ref": null,
+      "source_span": "row597#7"
+    },
+    {
+      "claim_id": "C18",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "stenting of the saphenous vein graft to diagonal and obtuse marginal",
+      "time_ref": "day of admission",
+      "source_span": "row597#8"
+    },
+    {
+      "claim_id": "C19",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Coronary artery disease; status post myocardial infarction times two",
+      "time_ref": null,
+      "source_span": "row597#11"
+    },
+    {
+      "claim_id": "C20",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Hypertension",
+      "time_ref": null,
+      "source_span": "row597#12"
+    },
+    {
+      "claim_id": "C21",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Dyslipidemia",
+      "time_ref": null,
+      "source_span": "row597#13"
+    },
+    {
+      "claim_id": "C22",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Osteoarthritis",
+      "time_ref": null,
+      "source_span": "row597#14"
+    },
+    {
+      "claim_id": "C23",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Question of sleep apnea",
+      "time_ref": null,
+      "source_span": "row597#15"
+    },
+    {
+      "claim_id": "C24",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Lower extremity claudication",
+      "time_ref": null,
+      "source_span": "row597#16"
+    },
+    {
+      "claim_id": "C25",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital result",
+      "value": "blood pressure was 100 to 110/60",
+      "time_ref": "on presentation",
+      "source_span": "row597#17"
+    },
+    {
+      "claim_id": "C26",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital result",
+      "value": "heart rate was 40 to 50",
+      "time_ref": "on presentation",
+      "source_span": "row597#17"
+    },
+    {
+      "claim_id": "C27",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital result",
+      "value": "saturating 100 percent on room air",
+      "time_ref": "on presentation",
+      "source_span": "row597#17"
+    },
+    {
+      "claim_id": "C28",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "White blood cell count was 7.2",
+      "time_ref": "on presentation",
+      "source_span": "row597#25"
+    },
+    {
+      "claim_id": "C29",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "hematocrit was 40.7",
+      "time_ref": "on presentation",
+      "source_span": "row597#25"
+    },
+    {
+      "claim_id": "C30",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "platelets were 187",
+      "time_ref": "on presentation",
+      "source_span": "row597#25"
+    },
+    {
+      "claim_id": "C31",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "blood urea nitrogen was 20",
+      "time_ref": "on presentation",
+      "source_span": "row597#26"
+    },
+    {
+      "claim_id": "C32",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "creatinine was 1.1",
+      "time_ref": "on presentation",
+      "source_span": "row597#26"
+    },
+    {
+      "claim_id": "C33",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Cholesterol was 154",
+      "time_ref": "on presentation",
+      "source_span": "row597#27"
+    },
+    {
+      "claim_id": "C34",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "high-density lipoprotein was 30",
+      "time_ref": "on presentation",
+      "source_span": "row597#27"
+    },
+    {
+      "claim_id": "C35",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "low-density lipoprotein was 90",
+      "time_ref": "on presentation",
+      "source_span": "row597#27"
+    },
+    {
+      "claim_id": "C36",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "sinus bradycardia",
+      "time_ref": null,
+      "source_span": "row597#28"
+    },
+    {
+      "claim_id": "C37",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "angioplasty with two stent placements distally",
+      "time_ref": null,
+      "source_span": "row597#36"
+    },
+    {
+      "claim_id": "C38",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Integrelin",
+      "time_ref": null,
+      "source_span": "row597#36"
+    },
+    {
+      "claim_id": "C39",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "clopidogrel",
+      "time_ref": null,
+      "source_span": "row597#36"
+    },
+    {
+      "claim_id": "C40",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "intracoronary TPA",
+      "time_ref": null,
+      "source_span": "row597#36"
+    },
+    {
+      "claim_id": "C41",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "intraaortic balloon pump",
+      "time_ref": null,
+      "source_span": "row597#37"
+    },
+    {
+      "claim_id": "C42",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "moderate retroperitoneal hematoma",
+      "time_ref": null,
+      "source_span": "row597#39"
+    },
+    {
+      "claim_id": "C43",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "episodes of nonsustained ventricular tachycardia",
+      "time_ref": null,
+      "source_span": "row597#40"
+    },
+    {
+      "claim_id": "C44",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Coronary artery disease; status post non-ST-elevation myocardial infarction with subacute stent occlusion",
+      "time_ref": "discharge",
+      "source_span": "row597#43"
+    },
+    {
+      "claim_id": "C45",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Retroperitoneal hematoma",
+      "time_ref": "discharge",
+      "source_span": "row597#44"
+    },
+    {
+      "claim_id": "C46",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Aspirin 325 mg by mouth once per day",
+      "time_ref": "discharge",
+      "source_span": "row597#45"
+    },
+    {
+      "claim_id": "C47",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Clopidogrel 75 mg by mouth once per day",
+      "time_ref": "discharge",
+      "source_span": "row597#46"
+    },
+    {
+      "claim_id": "C48",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Nitroglycerin 0.3-mg sublingual tablets as needed",
+      "time_ref": "discharge",
+      "source_span": "row597#47"
+    },
+    {
+      "claim_id": "C49",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Lisinopril 10 mg by mouth once per day",
+      "time_ref": "discharge",
+      "source_span": "row597#48"
+    },
+    {
+      "claim_id": "C50",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Pantoprazole 40 mg by mouth once per day",
+      "time_ref": "discharge",
+      "source_span": "row597#49"
+    },
+    {
+      "claim_id": "C51",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Atorvastatin 40 mg by mouth once per day",
+      "time_ref": "discharge",
+      "source_span": "row597#50"
+    },
+    {
+      "claim_id": "C52",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Multivitamin by mouth every day",
+      "time_ref": "discharge",
+      "source_span": "row597#51"
+    },
+    {
+      "claim_id": "C53",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Metoprolol 12.5 mg by mouth twice per day",
+      "time_ref": "discharge",
+      "source_span": "row597#52"
+    }
+  ]
+}

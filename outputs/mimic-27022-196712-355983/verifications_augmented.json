@@ -1,0 +1,238 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row355983:1"
+      ],
+      "rationale": "The evidence explicitly states the patient has a past medical history notable for PSC."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:1",
+        "E:cond:2"
+      ],
+      "rationale": "The patient has a documented diagnosis of biliary cirrhosis in the structured condition records."
+    },
+    {
+      "claim_id": "C3",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list esophageal varices, which are distinct from gastric varices."
+    },
+    {
+      "claim_id": "C4",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C5",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row355983:2"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient reported vomiting 'cranberry juice' earlier today."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:5",
+        "E:cond:6"
+      ],
+      "rationale": "The patient has multiple recorded conditions for esophageal varices."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence lists esophageal strictures and pneumonitis, but does not mention amotility of the esophagus."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row355983:4"
+      ],
+      "rationale": "The candidate evidence explicitly states that in the ED, the patient's heart rate (HR) was 60."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row355983:4"
+      ],
+      "rationale": "The candidate evidence explicitly states the blood pressure was 70/40 in the ED."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row355983:4"
+      ],
+      "rationale": "The candidate evidence explicitly states that in the ED, the respiratory rate (RR) was 12."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row355983:5"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient received 4 L NS."
+    },
+    {
+      "claim_id": "C13",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C14",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C15",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C16",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C17",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C18",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row355983:9"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient received 40 mg omeprazole IV X 1."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row355983:10"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was transfused with 1 U PRBCs prior to transfer."
+    },
+    {
+      "claim_id": "C21",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C22",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C23",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row355983:17"
+      ],
+      "rationale": "The evidence explicitly states the patient had a melenotic stool on arrival to the ICU."
+    },
+    {
+      "claim_id": "C25",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence items relate to pneumonitis and do not contain any blood pressure readings or vital sign data."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row355983:18"
+      ],
+      "rationale": "The candidate evidence explicitly states that an arterial line was placed."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row355983:18"
+      ],
+      "rationale": "The evidence explicitly states that 2 large bore PIVs were in place."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row355983:20"
+      ],
+      "rationale": "The candidate evidence explicitly states that the EGD was performed within 1 hour of the patient's arrival in the ICU."
+    },
+    {
+      "claim_id": "C29",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates confirm the presence of esophageal varices with bleeding, but do not specify the number of varices (2) or the specific EGD finding of banding."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:5",
+        "E:cond:6"
+      ],
+      "rationale": "The patient has multiple recorded diagnoses of esophageal varices in the structured condition list."
+    },
+    {
+      "claim_id": "C31",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list 'Biliary cirrhosis', but there is no mention of Primary Sclerosing Cholangitis (PSC) as the specific cause."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:7",
+        "E:cond:8"
+      ],
+      "rationale": "The claim of acute anemia secondary to blood loss is directly supported by the diagnosis of 'Acute posthemorrhagic anemia'."
+    },
+    {
+      "claim_id": "C33",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list conditions (anemia, kidney failure, heart failure) but contain no information regarding a plan for pain control."
+    }
+  ]
+}

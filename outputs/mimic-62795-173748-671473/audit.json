@@ -1,0 +1,154 @@
+{
+  "case_id": "mimic-62795-173748-671473",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 3226,
+    "summary_chars": 1523,
+    "target_min_chars": 645,
+    "target_max_chars": 967,
+    "achieved_ratio": 0.47210167389956603,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 12,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:2",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:29",
+      "E:cond:3",
+      "E:cond:30",
+      "E:cond:4",
+      "E:cond:47",
+      "E:cond:48",
+      "E:cond:49",
+      "E:cond:5",
+      "E:cond:50",
+      "E:cond:51",
+      "E:cond:52",
+      "E:cond:53",
+      "E:cond:54",
+      "E:cond:6",
+      "E:cond:67",
+      "E:cond:68",
+      "E:cond:71",
+      "E:cond:72",
+      "E:note:row671473:12",
+      "E:note:row671473:16",
+      "E:note:row671473:21",
+      "E:note:row671473:28",
+      "E:note:row671473:3",
+      "E:note:row671473:33",
+      "E:note:row671473:34",
+      "E:note:row671473:35",
+      "E:note:row671473:39",
+      "E:note:row671473:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Additional diagnoses include DM2 [E:note:row671473:3][E:cond:51][E:cond:52], pancreatitis [E:note:row671473:3], depression [E:note:row671473:3], and bacteremia [E:cond:21][E:cond:22].",
+        "severity": "medium",
+        "reason": "The summary includes DM2, pancreatitis, and depression based on E:note:row671473:3, but these conditions are not present in the provided fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Additional diagnoses include DM2 [E:note:row671473:3][E:cond:51][E:cond:52], pancreatitis [E:note:row671473:3], depression [E:note:row671473:3], and bacteremia [E:cond:21][E:cond:22].",
+        "suggested": "Additional diagnoses include bacteremia [E:cond:21][E:cond:22].",
+        "reason": "Removed diagnoses not supported by the provided fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-62795-173748-671473/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.97,
+    "fk_words": 169,
+    "fk_sentences": 23,
+    "fk_syllables": 282,
+    "chars": 1853,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-62795-173748-671473/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.002932167029939592,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 111.71628833300201,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 244.86945787497098,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.002843292022589594,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 45.20588579197647,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 28.38352754205698,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.003034000052139163,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 25.588637125038076,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

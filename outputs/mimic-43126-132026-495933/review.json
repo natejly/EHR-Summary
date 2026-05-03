@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Hematologic/oncologic history includes CLL [E:cond:29][E:cond:30][E:note:row495933:1], aggressive large B-cell lymphoma [E:note:row495933:1], neutropenia [E:cond:49][E:cond:50], and thrombocytopenia [E:cond:39][E:cond:40].",
+      "severity": "medium",
+      "reason": "The summary describes CLL as part of the history, but the fact sheet specifies it is 'in remission'."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Hematologic/oncologic history includes CLL [E:cond:29][E:cond:30][E:note:row495933:1], aggressive large B-cell lymphoma [E:note:row495933:1], neutropenia [E:cond:49][E:cond:50], and thrombocytopenia [E:cond:39][E:cond:40].",
+      "suggested": "Hematologic/oncologic history includes CLL in remission [E:cond:29][E:cond:30][E:note:row495933:1], aggressive large B-cell lymphoma [E:note:row495933:1], neutropenia [E:cond:49][E:cond:50], and thrombocytopenia [E:cond:39][E:cond:40].",
+      "reason": "Accurately reflect the remission status of the CLL as stated in the fact sheet."
+    }
+  ]
+}

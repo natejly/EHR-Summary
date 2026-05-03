@@ -1,0 +1,1039 @@
+{
+  "case_id": "mimic-49358-158550-701330",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2100-09-04",
+      "source_ref": "urn:uuid:enc-158550",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Unspecified septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0389",
+        "display": "Unspecified septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2100-09-04",
+      "source_ref": "urn:uuid:cond-158550-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2100-09-04",
+      "source_ref": "urn:uuid:cond-158550-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5185",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2100-09-04",
+      "source_ref": "urn:uuid:cond-158550-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Chronic or unspecified gastric ulcer with perforation, without mention of obstruction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53150",
+        "display": "Chronic or unspecified gastric ulcer with perforation, without mention of obstruction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2100-09-04",
+      "source_ref": "urn:uuid:cond-158550-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Paralytic ileus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5601",
+        "display": "Paralytic ileus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2100-09-04",
+      "source_ref": "urn:uuid:cond-158550-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2100-09-04",
+      "source_ref": "urn:uuid:cond-158550-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Temporary tracheostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Temporary tracheostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2100-09-04",
+      "source_ref": "urn:uuid:proc-158550-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Parenteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Parenteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2100-09-04",
+      "source_ref": "urn:uuid:proc-158550-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2100-09-04",
+      "source_ref": "urn:uuid:proc-158550-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2100-09-04",
+      "source_ref": "urn:uuid:proc-158550-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Diagnostic ultrasound of heart",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Diagnostic ultrasound of heart"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2100-09-04",
+      "source_ref": "urn:uuid:proc-158550-5",
+      "text": null
+    },
+    {
+      "id": "E:note:row701330:1",
+      "kind": "note_sentence",
+      "display": "45 y.o.f. presented to OSH on Tuesday with c/o [** **] pain & distention x2    w",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s1",
+      "text": "45 y.o.f. presented to OSH on Tuesday with c/o [** **] pain & distention x2    weeks, as well as N/V."
+    },
+    {
+      "id": "E:note:row701330:2",
+      "kind": "note_sentence",
+      "display": "[** **] xray revealed distended, large, & small    bowel loops, concerning for S",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s2",
+      "text": "[** **] xray revealed distended, large, & small    bowel loops, concerning for SBO."
+    },
+    {
+      "id": "E:note:row701330:3",
+      "kind": "note_sentence",
+      "display": "The morning after admission on [**9-1**]    pt was noted to be hypotensive & tac",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s3",
+      "text": "The morning after admission on [**9-1**]    pt was noted to be hypotensive & tachycardic with low uop & an elevated    BUN and creatinine of 2."
+    },
+    {
+      "id": "E:note:row701330:4",
+      "kind": "note_sentence",
+      "display": "[**Month/Year (2) **] & pelvic CT w/ contrast obtained revealing    large amts o",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s4",
+      "text": "[**Month/Year (2) **] & pelvic CT w/ contrast obtained revealing    large amts of free air & fluid in [**Month/Year (2) **], as well as contrast within the    [**Month/Year (2) **] cavity."
+    },
+    {
+      "id": "E:note:row701330:5",
+      "kind": "note_sentence",
+      "display": "Pt immediately taken to OR for ex lap, whereupon she was dx    with perforated g",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s5",
+      "text": "Pt immediately taken to OR for ex lap, whereupon she was dx    with perforated gastric ulcer, severe peritonitis, and incidental    finding of cystic mass in the R pelvis."
+    },
+    {
+      "id": "E:note:row701330:6",
+      "kind": "note_sentence",
+      "display": "Underwent evac of ascites,    exploration, and over seven patch repair of the ga",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s6",
+      "text": "Underwent evac of ascites,    exploration, and over seven patch repair of the gastric ulcer with    placement of a JP drain."
+    },
+    {
+      "id": "E:note:row701330:7",
+      "kind": "note_sentence",
+      "display": "Required aggressive fluid resuscitation,    placed on levo & neo for BP support,",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s7",
+      "text": "Required aggressive fluid resuscitation,    placed on levo & neo for BP support, and propofol gtt & prn ativan for    sedation/ETOH withdrawal."
+    },
+    {
+      "id": "E:note:row701330:8",
+      "kind": "note_sentence",
+      "display": "[**9-2**] CXRAY showed b/l infiltrates more    consistent with pneumonia vs. ARB",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s8",
+      "text": "[**9-2**] CXRAY showed b/l infiltrates more    consistent with pneumonia vs. ARBDS."
+    },
+    {
+      "id": "E:note:row701330:9",
+      "kind": "note_sentence",
+      "display": "Concern for sepsis.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s9",
+      "text": "Concern for sepsis."
+    },
+    {
+      "id": "E:note:row701330:10",
+      "kind": "note_sentence",
+      "display": "Tx to [**Hospital1 5**]    under the care of  Dr. [**Last Name (STitle) 9318**] ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s10",
+      "text": "Tx to [**Hospital1 5**]    under the care of  Dr. [**Last Name (STitle) 9318**] for cont management of sepsis, resp    failure/ARDS, & peritonitis."
+    },
+    {
+      "id": "E:note:row701330:11",
+      "kind": "note_sentence",
+      "display": "Intestine, perforation of (perforation of hollow viscus) / Sepsis    Assessment:",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s11",
+      "text": "Intestine, perforation of (perforation of hollow viscus) / Sepsis    Assessment:    Pt transferred here from [**Hospital3 **]after perforated ulcer/exp    lap with repair."
+    },
+    {
+      "id": "E:note:row701330:12",
+      "kind": "note_sentence",
+      "display": "Transferred to [**Hospital1 **] for further mgmt.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s12",
+      "text": "Transferred to [**Hospital1 **] for further mgmt."
+    },
+    {
+      "id": "E:note:row701330:13",
+      "kind": "note_sentence",
+      "display": "Pt sedated on    propofol 30-50 mcg/kg/min.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s13",
+      "text": "Pt sedated on    propofol 30-50 mcg/kg/min."
+    },
+    {
+      "id": "E:note:row701330:14",
+      "kind": "note_sentence",
+      "display": "Pt very sedated, slow to arouse.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s14",
+      "text": "Pt very sedated, slow to arouse."
+    },
+    {
+      "id": "E:note:row701330:15",
+      "kind": "note_sentence",
+      "display": "Off    propofol for neuro exams. Fentanyl as needed for pain.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s15",
+      "text": "Off    propofol for neuro exams. Fentanyl as needed for pain."
+    },
+    {
+      "id": "E:note:row701330:16",
+      "kind": "note_sentence",
+      "display": "Sr through the    night 80-90 s , now slightly more tachycardic.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s16",
+      "text": "Sr through the    night 80-90 s , now slightly more tachycardic."
+    },
+    {
+      "id": "E:note:row701330:17",
+      "kind": "note_sentence",
+      "display": "Levophed for BP support.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s17",
+      "text": "Levophed for BP support."
+    },
+    {
+      "id": "E:note:row701330:18",
+      "kind": "note_sentence",
+      "display": "LS with crackles at bases.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s18",
+      "text": "LS with crackles at bases."
+    },
+    {
+      "id": "E:note:row701330:19",
+      "kind": "note_sentence",
+      "display": "Pt with bilateral infiltrates.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s19",
+      "text": "Pt with bilateral infiltrates."
+    },
+    {
+      "id": "E:note:row701330:20",
+      "kind": "note_sentence",
+      "display": "Sats 93-97%    on Fio2 70 40 % [**Hospital1 **] distended, but soft.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s20",
+      "text": "Sats 93-97%    on Fio2 70 40 % [**Hospital1 **] distended, but soft."
+    },
+    {
+      "id": "E:note:row701330:21",
+      "kind": "note_sentence",
+      "display": "Hypoactive BS, ngt to suction.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s21",
+      "text": "Hypoactive BS, ngt to suction."
+    },
+    {
+      "id": "E:note:row701330:22",
+      "kind": "note_sentence",
+      "display": "Open [**Hospital1 **] drsg.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s22",
+      "text": "Open [**Hospital1 **] drsg."
+    },
+    {
+      "id": "E:note:row701330:23",
+      "kind": "note_sentence",
+      "display": "Anbx continued flagyl, cipro, Vanco, fluconazole.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s23",
+      "text": "Anbx continued flagyl, cipro, Vanco, fluconazole."
+    },
+    {
+      "id": "E:note:row701330:24",
+      "kind": "note_sentence",
+      "display": "Pt    afebrile.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s24",
+      "text": "Pt    afebrile."
+    },
+    {
+      "id": "E:note:row701330:25",
+      "kind": "note_sentence",
+      "display": "Jp x1.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s25",
+      "text": "Jp x1."
+    },
+    {
+      "id": "E:note:row701330:26",
+      "kind": "note_sentence",
+      "display": "Bld sugars wnl.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s26",
+      "text": "Bld sugars wnl."
+    },
+    {
+      "id": "E:note:row701330:27",
+      "kind": "note_sentence",
+      "display": "Pt with closed fascia, open skin.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s27",
+      "text": "Pt with closed fascia, open skin."
+    },
+    {
+      "id": "E:note:row701330:28",
+      "kind": "note_sentence",
+      "display": "Renal function wnl, lytes ok, lactates with no change.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s28",
+      "text": "Renal function wnl, lytes ok, lactates with no change."
+    },
+    {
+      "id": "E:note:row701330:29",
+      "kind": "note_sentence",
+      "display": "Action:    Off propofol multiple times overnight for neuro exams, pt slow to wak",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s29",
+      "text": "Action:    Off propofol multiple times overnight for neuro exams, pt slow to wake."
+    },
+    {
+      "id": "E:note:row701330:30",
+      "kind": "note_sentence",
+      "display": "Cont on levophed, wean as tolerates.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s30",
+      "text": "Cont on levophed, wean as tolerates."
+    },
+    {
+      "id": "E:note:row701330:31",
+      "kind": "note_sentence",
+      "display": "Ards protocol.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s31",
+      "text": "Ards protocol."
+    },
+    {
+      "id": "E:note:row701330:32",
+      "kind": "note_sentence",
+      "display": "Jp outputs.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s32",
+      "text": "Jp outputs."
+    },
+    {
+      "id": "E:note:row701330:33",
+      "kind": "note_sentence",
+      "display": "Drsg    [**Name5 (PTitle) 610**] to [**Name5 (PTitle) **] [**Hospital1 **].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s33",
+      "text": "Drsg    [**Name5 (PTitle) 610**] to [**Name5 (PTitle) **] [**Hospital1 **]."
+    },
+    {
+      "id": "E:note:row701330:34",
+      "kind": "note_sentence",
+      "display": "Map >65    Response:    Pt remains hemodynamicaly stable.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s34",
+      "text": "Map >65    Response:    Pt remains hemodynamicaly stable."
+    },
+    {
+      "id": "E:note:row701330:35",
+      "kind": "note_sentence",
+      "display": "Arousing to deep deep pain, slightly    opening eyes.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s35",
+      "text": "Arousing to deep deep pain, slightly    opening eyes."
+    },
+    {
+      "id": "E:note:row701330:36",
+      "kind": "note_sentence",
+      "display": "No mvmt to arms, LE s with slight withdrawal on bed to    pain only.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s36",
+      "text": "No mvmt to arms, LE s with slight withdrawal on bed to    pain only."
+    },
+    {
+      "id": "E:note:row701330:37",
+      "kind": "note_sentence",
+      "display": "Pt appears comfortable, no acute pain noted.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s37",
+      "text": "Pt appears comfortable, no acute pain noted."
+    },
+    {
+      "id": "E:note:row701330:38",
+      "kind": "note_sentence",
+      "display": "Plan:    Cont to monitor neuro exams, wean levophed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s38",
+      "text": "Plan:    Cont to monitor neuro exams, wean levophed."
+    },
+    {
+      "id": "E:note:row701330:39",
+      "kind": "note_sentence",
+      "display": "Monitor blood gas s.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s39",
+      "text": "Monitor blood gas s."
+    },
+    {
+      "id": "E:note:row701330:40",
+      "kind": "note_sentence",
+      "display": "Drsg    [**Name5 (PTitle) 610**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s40",
+      "text": "Drsg    [**Name5 (PTitle) 610**]."
+    },
+    {
+      "id": "E:note:row701330:41",
+      "kind": "note_sentence",
+      "display": "Follow up cultures, cont anbx.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s41",
+      "text": "Follow up cultures, cont anbx."
+    },
+    {
+      "id": "E:note:row701330:42",
+      "kind": "note_sentence",
+      "display": "Acute Respiratory Distress Syndrome (ARDS, Acute Lung Injury, [**Doctor Last Nam",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s42",
+      "text": "Acute Respiratory Distress Syndrome (ARDS, Acute Lung Injury, [**Doctor Last Name 76**])    Assessment:    Pt in Ards, on ards protocol."
+    },
+    {
+      "id": "E:note:row701330:43",
+      "kind": "note_sentence",
+      "display": "Pt on ac 70% 28x360 with peep 10.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s43",
+      "text": "Pt on ac 70% 28x360 with peep 10."
+    },
+    {
+      "id": "E:note:row701330:44",
+      "kind": "note_sentence",
+      "display": "Pt has    bilateral infiltrates.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s44",
+      "text": "Pt has    bilateral infiltrates."
+    },
+    {
+      "id": "E:note:row701330:45",
+      "kind": "note_sentence",
+      "display": "Sats 93-97% with Pao2 80-90 s. clear to upper    lobes, crackles to bases.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s45",
+      "text": "Sats 93-97% with Pao2 80-90 s. clear to upper    lobes, crackles to bases."
+    },
+    {
+      "id": "E:note:row701330:46",
+      "kind": "note_sentence",
+      "display": "Pips elevated in high 30 s.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s46",
+      "text": "Pips elevated in high 30 s."
+    },
+    {
+      "id": "E:note:row701330:47",
+      "kind": "note_sentence",
+      "display": "Pt has required    more peep.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s47",
+      "text": "Pt has required    more peep."
+    },
+    {
+      "id": "E:note:row701330:48",
+      "kind": "note_sentence",
+      "display": "[**Doctor Last Name **] distended but soft.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s48",
+      "text": "[**Doctor Last Name **] distended but soft."
+    },
+    {
+      "id": "E:note:row701330:49",
+      "kind": "note_sentence",
+      "display": "Action:    Spot gas s.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s49",
+      "text": "Action:    Spot gas s."
+    },
+    {
+      "id": "E:note:row701330:50",
+      "kind": "note_sentence",
+      "display": "CPT, suction as needed, vap care.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s50",
+      "text": "CPT, suction as needed, vap care."
+    },
+    {
+      "id": "E:note:row701330:51",
+      "kind": "note_sentence",
+      "display": "Response:    Slightly improved resp status overnight.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s51",
+      "text": "Response:    Slightly improved resp status overnight."
+    },
+    {
+      "id": "E:note:row701330:52",
+      "kind": "note_sentence",
+      "display": "O2 down to 40%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s52",
+      "text": "O2 down to 40%."
+    },
+    {
+      "id": "E:note:row701330:53",
+      "kind": "note_sentence",
+      "display": "Pt has    required more peep from [**9-9**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s53",
+      "text": "Pt has    required more peep from [**9-9**]."
+    },
+    {
+      "id": "E:note:row701330:54",
+      "kind": "note_sentence",
+      "display": "Remains in a resp acidosis.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s54",
+      "text": "Remains in a resp acidosis."
+    },
+    {
+      "id": "E:note:row701330:55",
+      "kind": "note_sentence",
+      "display": "Pips still    elevated.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s55",
+      "text": "Pips still    elevated."
+    },
+    {
+      "id": "E:note:row701330:56",
+      "kind": "note_sentence",
+      "display": "Plan:    RR increased to try to decrease Co2, ? attributes to neuro exam. ? need",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701330#s56",
+      "text": "Plan:    RR increased to try to decrease Co2, ? attributes to neuro exam. ? need    for specialized bed."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|0389": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5185": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|53150": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5601": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:6"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "unspecified septicemia": [
+      "E:cond:1"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:2"
+    ],
+    "diagnosis": [
+      "E:cond:3"
+    ],
+    "chronic or unspecified gastric ulcer with perforation, without mention of obstruction": [
+      "E:cond:4"
+    ],
+    "paralytic ileus": [
+      "E:cond:5"
+    ],
+    "severe sepsis": [
+      "E:cond:6"
+    ],
+    "temporary tracheostomy": [
+      "E:proc:1"
+    ],
+    "parenteral infusion of concentrated nutritional substances": [
+      "E:proc:2"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:3"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:4"
+    ],
+    "diagnostic ultrasound of heart": [
+      "E:proc:5"
+    ],
+    "45 y.o.f. presented to osh on tuesday with c/o [** **] pain & distention x2 w": [
+      "E:note:row701330:1"
+    ],
+    "[** **] xray revealed distended, large, & small bowel loops, concerning for s": [
+      "E:note:row701330:2"
+    ],
+    "the morning after admission on [**9-1**] pt was noted to be hypotensive & tac": [
+      "E:note:row701330:3"
+    ],
+    "[**month/year (2) **] & pelvic ct w/ contrast obtained revealing large amts o": [
+      "E:note:row701330:4"
+    ],
+    "pt immediately taken to or for ex lap, whereupon she was dx with perforated g": [
+      "E:note:row701330:5"
+    ],
+    "underwent evac of ascites, exploration, and over seven patch repair of the ga": [
+      "E:note:row701330:6"
+    ],
+    "required aggressive fluid resuscitation, placed on levo & neo for bp support,": [
+      "E:note:row701330:7"
+    ],
+    "[**9-2**] cxray showed b/l infiltrates more consistent with pneumonia vs. arb": [
+      "E:note:row701330:8"
+    ],
+    "concern for sepsis.": [
+      "E:note:row701330:9"
+    ],
+    "tx to [**hospital1 5**] under the care of dr. [**last name (stitle) 9318**]": [
+      "E:note:row701330:10"
+    ],
+    "intestine, perforation of (perforation of hollow viscus) / sepsis assessment:": [
+      "E:note:row701330:11"
+    ],
+    "transferred to [**hospital1 **] for further mgmt.": [
+      "E:note:row701330:12"
+    ],
+    "pt sedated on propofol 30-50 mcg/kg/min.": [
+      "E:note:row701330:13"
+    ],
+    "pt very sedated, slow to arouse.": [
+      "E:note:row701330:14"
+    ],
+    "off propofol for neuro exams. fentanyl as needed for pain.": [
+      "E:note:row701330:15"
+    ],
+    "sr through the night 80-90 s , now slightly more tachycardic.": [
+      "E:note:row701330:16"
+    ],
+    "levophed for bp support.": [
+      "E:note:row701330:17"
+    ],
+    "ls with crackles at bases.": [
+      "E:note:row701330:18"
+    ],
+    "pt with bilateral infiltrates.": [
+      "E:note:row701330:19"
+    ],
+    "sats 93-97% on fio2 70 40 % [**hospital1 **] distended, but soft.": [
+      "E:note:row701330:20"
+    ],
+    "hypoactive bs, ngt to suction.": [
+      "E:note:row701330:21"
+    ],
+    "open [**hospital1 **] drsg.": [
+      "E:note:row701330:22"
+    ],
+    "anbx continued flagyl, cipro, vanco, fluconazole.": [
+      "E:note:row701330:23"
+    ],
+    "pt afebrile.": [
+      "E:note:row701330:24"
+    ],
+    "jp x1.": [
+      "E:note:row701330:25"
+    ],
+    "bld sugars wnl.": [
+      "E:note:row701330:26"
+    ],
+    "pt with closed fascia, open skin.": [
+      "E:note:row701330:27"
+    ],
+    "renal function wnl, lytes ok, lactates with no change.": [
+      "E:note:row701330:28"
+    ],
+    "action: off propofol multiple times overnight for neuro exams, pt slow to wak": [
+      "E:note:row701330:29"
+    ],
+    "cont on levophed, wean as tolerates.": [
+      "E:note:row701330:30"
+    ],
+    "ards protocol.": [
+      "E:note:row701330:31"
+    ],
+    "jp outputs.": [
+      "E:note:row701330:32"
+    ],
+    "drsg [**name5 (ptitle) 610**] to [**name5 (ptitle) **] [**hospital1 **].": [
+      "E:note:row701330:33"
+    ],
+    "map >65 response: pt remains hemodynamicaly stable.": [
+      "E:note:row701330:34"
+    ],
+    "arousing to deep deep pain, slightly opening eyes.": [
+      "E:note:row701330:35"
+    ],
+    "no mvmt to arms, le s with slight withdrawal on bed to pain only.": [
+      "E:note:row701330:36"
+    ],
+    "pt appears comfortable, no acute pain noted.": [
+      "E:note:row701330:37"
+    ],
+    "plan: cont to monitor neuro exams, wean levophed.": [
+      "E:note:row701330:38"
+    ],
+    "monitor blood gas s.": [
+      "E:note:row701330:39"
+    ],
+    "drsg [**name5 (ptitle) 610**].": [
+      "E:note:row701330:40"
+    ],
+    "follow up cultures, cont anbx.": [
+      "E:note:row701330:41"
+    ],
+    "acute respiratory distress syndrome (ards, acute lung injury, [**doctor last nam": [
+      "E:note:row701330:42"
+    ],
+    "pt on ac 70% 28x360 with peep 10.": [
+      "E:note:row701330:43"
+    ],
+    "pt has bilateral infiltrates.": [
+      "E:note:row701330:44"
+    ],
+    "sats 93-97% with pao2 80-90 s. clear to upper lobes, crackles to bases.": [
+      "E:note:row701330:45"
+    ],
+    "pips elevated in high 30 s.": [
+      "E:note:row701330:46"
+    ],
+    "pt has required more peep.": [
+      "E:note:row701330:47"
+    ],
+    "[**doctor last name **] distended but soft.": [
+      "E:note:row701330:48"
+    ],
+    "action: spot gas s.": [
+      "E:note:row701330:49"
+    ],
+    "cpt, suction as needed, vap care.": [
+      "E:note:row701330:50"
+    ],
+    "response: slightly improved resp status overnight.": [
+      "E:note:row701330:51"
+    ],
+    "o2 down to 40%.": [
+      "E:note:row701330:52"
+    ],
+    "pt has required more peep from [**9-9**].": [
+      "E:note:row701330:53"
+    ],
+    "remains in a resp acidosis.": [
+      "E:note:row701330:54"
+    ],
+    "pips still elevated.": [
+      "E:note:row701330:55"
+    ],
+    "plan: rr increased to try to decrease co2, ? attributes to neuro exam. ? need": [
+      "E:note:row701330:56"
+    ]
+  },
+  "by_date": {
+    "2100-09-04": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5"
+    ]
+  }
+}

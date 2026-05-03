@@ -1,0 +1,144 @@
+{
+  "case_id": "mimic-92525-141986-498276",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2034,
+    "summary_chars": 670,
+    "target_min_chars": 406,
+    "target_max_chars": 610,
+    "achieved_ratio": 0.32940019665683384,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 8,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:14",
+      "E:cond:2",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:9",
+      "E:note:row498276:1",
+      "E:note:row498276:4",
+      "E:note:row498276:6",
+      "E:note:row498276:8"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Basilar artery occlusion/stenosis with cerebral infarction [E:cond:1], possible basilar artery thrombosis [E:note:row498276:8], and old parietal infarct [E:note:row498276:4].",
+        "severity": "medium",
+        "reason": "The summary includes specific diagnoses (basilar artery thrombosis, parietal infarct) not present in the provided fact sheet."
+      },
+      {
+        "sentence": "Acute on chronic diastolic heart failure [E:cond:2], CHF [E:cond:7], and CAD s/p stent x6 [E:note:row498276:1].",
+        "severity": "medium",
+        "reason": "The claim 's/p stent x6' is not supported by the fact sheet; the citation refers to Coumadin medication."
+      },
+      {
+        "sentence": "Basilar artery occlusion/stenosis with cerebral infarction [E:cond:1], possible basilar artery thrombosis [E:note:row498276:8], and old parietal infarct [E:note:row498276:4].",
+        "severity": "low",
+        "reason": "Missing mention of Obstructive Sleep Apnea [E:cond:8] which is listed in the fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Basilar artery occlusion/stenosis with cerebral infarction [E:cond:1], possible basilar artery thrombosis [E:note:row498276:8], and old parietal infarct [E:note:row498276:4].",
+        "suggested": "Basilar artery occlusion/stenosis with cerebral infarction [E:cond:1].",
+        "reason": "Remove unsupported claims regarding thrombosis and parietal infarct."
+      },
+      {
+        "original": "Acute on chronic diastolic heart failure [E:cond:2], CHF [E:cond:7], and CAD s/p stent x6 [E:note:row498276:1].",
+        "suggested": "Acute on chronic diastolic heart failure [E:cond:2], CHF [E:cond:7], and coronary atherosclerosis [E:cond:13].",
+        "reason": "Correct the CAD citation and remove the unsupported 'stent x6' claim."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 2,
+    "low": 1
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-92525-141986-498276/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.06,
+    "fk_words": 147,
+    "fk_sentences": 20,
+    "fk_syllables": 234,
+    "chars": 1303,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-92525-141986-498276/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.001503499981481582,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 129.3203954169876,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 133.04067816695897,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.001748999988194555,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 48.002080250007566,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 9.452333291003015,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.002417332958430052,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 14.195929792011157,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

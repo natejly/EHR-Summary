@@ -1,0 +1,967 @@
+{
+  "case_id": "mimic-41125-127965-574617",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2119-06-21",
+      "source_ref": "urn:uuid:enc-127965",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Subendocardial infarction, initial episode of care",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41071",
+        "display": "Subendocardial infarction, initial episode of care"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2119-06-21",
+      "source_ref": "urn:uuid:cond-127965-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Methicillin susceptible pneumonia due to Staphylococcus aureus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "48241",
+        "display": "Methicillin susceptible pneumonia due to Staphylococcus aureus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2119-06-21",
+      "source_ref": "urn:uuid:cond-127965-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Pneumonitis due to inhalation of food or vomitus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5070",
+        "display": "Pneumonitis due to inhalation of food or vomitus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2119-06-21",
+      "source_ref": "urn:uuid:cond-127965-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute on chronic diastolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42833",
+        "display": "Acute on chronic diastolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2119-06-21",
+      "source_ref": "urn:uuid:cond-127965-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5185",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2119-06-21",
+      "source_ref": "urn:uuid:cond-127965-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Primary pulmonary hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4160",
+        "display": "Primary pulmonary hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2119-06-21",
+      "source_ref": "urn:uuid:cond-127965-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2119-06-21",
+      "source_ref": "urn:uuid:cond-127965-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Alcohol withdrawal",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "29181",
+        "display": "Alcohol withdrawal"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2119-06-21",
+      "source_ref": "urn:uuid:cond-127965-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Essential and other specified forms of tremor",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3331",
+        "display": "Essential and other specified forms of tremor"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2119-06-21",
+      "source_ref": "urn:uuid:cond-127965-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2119-06-21",
+      "source_ref": "urn:uuid:cond-127965-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2119-06-21",
+      "source_ref": "urn:uuid:cond-127965-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2119-06-21",
+      "source_ref": "urn:uuid:proc-127965-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Combined right and left heart cardiac catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Combined right and left heart cardiac catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2119-06-21",
+      "source_ref": "urn:uuid:proc-127965-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Coronary arteriography using two catheters",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Coronary arteriography using two catheters"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2119-06-21",
+      "source_ref": "urn:uuid:proc-127965-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Angiocardiography of left heart structures",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Angiocardiography of left heart structures"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2119-06-21",
+      "source_ref": "urn:uuid:proc-127965-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2119-06-21",
+      "source_ref": "urn:uuid:proc-127965-5",
+      "text": null
+    },
+    {
+      "id": "E:note:row574617:1",
+      "kind": "note_sentence",
+      "display": "Pt 82 yo male who is transferred from OSH after presenting to PCP with    severa",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s1",
+      "text": "Pt 82 yo male who is transferred from OSH after presenting to PCP with    several days of chest discomfort, congestion, fever, nausea and    decreased appetite."
+    },
+    {
+      "id": "E:note:row574617:2",
+      "kind": "note_sentence",
+      "display": "Ruled in for NSTEMI, intubated for pul edema at    [**Hospital 1991**] transferr",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s2",
+      "text": "Ruled in for NSTEMI, intubated for pul edema at    [**Hospital 1991**] transferred to [**Hospital1 1**] for futher care."
+    },
+    {
+      "id": "E:note:row574617:3",
+      "kind": "note_sentence",
+      "display": "Extubated [**6-21**] then later    that day required mask ventilation for increa",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s3",
+      "text": "Extubated [**6-21**] then later    that day required mask ventilation for increased resp distress, pul    edema, given lasix."
+    },
+    {
+      "id": "E:note:row574617:4",
+      "kind": "note_sentence",
+      "display": "Has cont to have fever, CXR with  PNA on R,    antibiotics broadened.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s4",
+      "text": "Has cont to have fever, CXR with  PNA on R,    antibiotics broadened."
+    },
+    {
+      "id": "E:note:row574617:5",
+      "kind": "note_sentence",
+      "display": "S/P cardiac cath [**6-22**] w/ clean coronaries, PCWP    15, CO 4.8, CI 2.25.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s5",
+      "text": "S/P cardiac cath [**6-22**] w/ clean coronaries, PCWP    15, CO 4.8, CI 2.25."
+    },
+    {
+      "id": "E:note:row574617:6",
+      "kind": "note_sentence",
+      "display": "Acute coronary syndrome (ACS, unstable angina, coronary ischemia)    Assessment:",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s6",
+      "text": "Acute coronary syndrome (ACS, unstable angina, coronary ischemia)    Assessment:    Denied CP."
+    },
+    {
+      "id": "E:note:row574617:7",
+      "kind": "note_sentence",
+      "display": "Stable hemodynamics w/ HR 60s SR, BP 120s/70s.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s7",
+      "text": "Stable hemodynamics w/ HR 60s SR, BP 120s/70s."
+    },
+    {
+      "id": "E:note:row574617:8",
+      "kind": "note_sentence",
+      "display": "K 3.0 this    AM.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s8",
+      "text": "K 3.0 this    AM."
+    },
+    {
+      "id": "E:note:row574617:9",
+      "kind": "note_sentence",
+      "display": "Action:    *Medical management w/ IV heparin (currently off), po lopressor, ASA,",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s9",
+      "text": "Action:    *Medical management w/ IV heparin (currently off), po lopressor, ASA,    plavix.    * K repleted w/ 40mEq KCL PO and 40mEq KCL IV in 500 NS.    *To cath lab @ 12:00noon."
+    },
+    {
+      "id": "E:note:row574617:10",
+      "kind": "note_sentence",
+      "display": "IV NaHCO3 bolus given 1 hr pre-cath as    ordered.    *Returned from cath lab @ ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s10",
+      "text": "IV NaHCO3 bolus given 1 hr pre-cath as    ordered.    *Returned from cath lab @ 15:30 s/p R&L heart cath w/ clean coronaries,    PCWP 15, CO 4.79/ CI 2.25."
+    },
+    {
+      "id": "E:note:row574617:11",
+      "kind": "note_sentence",
+      "display": "R groin arterial/venous sheaths D/C d in    holding area w/ hemostasis at 15:20.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s11",
+      "text": "R groin arterial/venous sheaths D/C d in    holding area w/ hemostasis at 15:20.    *Heart healthy diet teaching initiated."
+    },
+    {
+      "id": "E:note:row574617:12",
+      "kind": "note_sentence",
+      "display": "Response:    Stable hemodynamics post cath.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s12",
+      "text": "Response:    Stable hemodynamics post cath."
+    },
+    {
+      "id": "E:note:row574617:13",
+      "kind": "note_sentence",
+      "display": "R groin site CDI, no ooze/ hematoma.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s13",
+      "text": "R groin site CDI, no ooze/ hematoma."
+    },
+    {
+      "id": "E:note:row574617:14",
+      "kind": "note_sentence",
+      "display": "Easily palp DP/PT bilat.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s14",
+      "text": "Easily palp DP/PT bilat."
+    },
+    {
+      "id": "E:note:row574617:15",
+      "kind": "note_sentence",
+      "display": "Pt s wife asking appropriate questions re:    diet teaching.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s15",
+      "text": "Pt s wife asking appropriate questions re:    diet teaching."
+    },
+    {
+      "id": "E:note:row574617:16",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue to monitor hemodynamics.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s16",
+      "text": "Plan:    Continue to monitor hemodynamics."
+    },
+    {
+      "id": "E:note:row574617:17",
+      "kind": "note_sentence",
+      "display": "IV heparin->off during cath.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s17",
+      "text": "IV heparin->off during cath."
+    },
+    {
+      "id": "E:note:row574617:18",
+      "kind": "note_sentence",
+      "display": "To be    restarted at midnight with no bolus.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s18",
+      "text": "To be    restarted at midnight with no bolus."
+    },
+    {
+      "id": "E:note:row574617:19",
+      "kind": "note_sentence",
+      "display": "Continue to follow R groin/ pedal    pulses.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s19",
+      "text": "Continue to follow R groin/ pedal    pulses."
+    },
+    {
+      "id": "E:note:row574617:20",
+      "kind": "note_sentence",
+      "display": "Strict bedrest until 21:20.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s20",
+      "text": "Strict bedrest until 21:20."
+    },
+    {
+      "id": "E:note:row574617:21",
+      "kind": "note_sentence",
+      "display": "Needs Post MI teaching    reinforcement.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s21",
+      "text": "Needs Post MI teaching    reinforcement."
+    },
+    {
+      "id": "E:note:row574617:22",
+      "kind": "note_sentence",
+      "display": "Pneumonia, bacterial, community acquired (CAP)    Assessment:    LS clear w/ sca",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s22",
+      "text": "Pneumonia, bacterial, community acquired (CAP)    Assessment:    LS clear w/ scattered rhonchi/ crackles on R side."
+    },
+    {
+      "id": "E:note:row574617:23",
+      "kind": "note_sentence",
+      "display": "SPO2 >95% on face    tent @ 50%/ 15L O2.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s23",
+      "text": "SPO2 >95% on face    tent @ 50%/ 15L O2."
+    },
+    {
+      "id": "E:note:row574617:24",
+      "kind": "note_sentence",
+      "display": "Pt expectorating moderate amts of thick, dark    bloody secretions.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s24",
+      "text": "Pt expectorating moderate amts of thick, dark    bloody secretions."
+    },
+    {
+      "id": "E:note:row574617:25",
+      "kind": "note_sentence",
+      "display": "Tmax this shift 101.9 po.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s25",
+      "text": "Tmax this shift 101.9 po."
+    },
+    {
+      "id": "E:note:row574617:26",
+      "kind": "note_sentence",
+      "display": "WBC only 6.7.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s26",
+      "text": "WBC only 6.7."
+    },
+    {
+      "id": "E:note:row574617:27",
+      "kind": "note_sentence",
+      "display": "Action:    IV anbx as ordered.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s27",
+      "text": "Action:    IV anbx as ordered."
+    },
+    {
+      "id": "E:note:row574617:28",
+      "kind": "note_sentence",
+      "display": "Encouraged cough and deep breathing.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s28",
+      "text": "Encouraged cough and deep breathing."
+    },
+    {
+      "id": "E:note:row574617:29",
+      "kind": "note_sentence",
+      "display": "Given IS and    instructed on proper use.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s29",
+      "text": "Given IS and    instructed on proper use."
+    },
+    {
+      "id": "E:note:row574617:30",
+      "kind": "note_sentence",
+      "display": "Assisted pt w/ oral care q 4 hours.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s30",
+      "text": "Assisted pt w/ oral care q 4 hours."
+    },
+    {
+      "id": "E:note:row574617:31",
+      "kind": "note_sentence",
+      "display": "Tylenol    650mg PRN fever.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s31",
+      "text": "Tylenol    650mg PRN fever."
+    },
+    {
+      "id": "E:note:row574617:32",
+      "kind": "note_sentence",
+      "display": "Response:    Pt able to expectorate sputum with current regimen.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s32",
+      "text": "Response:    Pt able to expectorate sputum with current regimen."
+    },
+    {
+      "id": "E:note:row574617:33",
+      "kind": "note_sentence",
+      "display": "Temp down w/    Tylenol.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s33",
+      "text": "Temp down w/    Tylenol."
+    },
+    {
+      "id": "E:note:row574617:34",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue to monitor fever curve.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s34",
+      "text": "Plan:    Continue to monitor fever curve."
+    },
+    {
+      "id": "E:note:row574617:35",
+      "kind": "note_sentence",
+      "display": "Continue w/ antibiotics.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s35",
+      "text": "Continue w/ antibiotics."
+    },
+    {
+      "id": "E:note:row574617:36",
+      "kind": "note_sentence",
+      "display": "Continue    pulmonary toileting.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s36",
+      "text": "Continue    pulmonary toileting."
+    },
+    {
+      "id": "E:note:row574617:37",
+      "kind": "note_sentence",
+      "display": "Renal failure, acute (Acute renal failure, ARF)    Assessment:    Creat 2.0 stab",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s37",
+      "text": "Renal failure, acute (Acute renal failure, ARF)    Assessment:    Creat 2.0 stable."
+    },
+    {
+      "id": "E:note:row574617:38",
+      "kind": "note_sentence",
+      "display": "UOP 35-100ml/hr.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s38",
+      "text": "UOP 35-100ml/hr."
+    },
+    {
+      "id": "E:note:row574617:39",
+      "kind": "note_sentence",
+      "display": "Action:    Monitored UOP/ volume status.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s39",
+      "text": "Action:    Monitored UOP/ volume status."
+    },
+    {
+      "id": "E:note:row574617:40",
+      "kind": "note_sentence",
+      "display": "Rec d 2 doses mucomyst pre-cath.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s40",
+      "text": "Rec d 2 doses mucomyst pre-cath."
+    },
+    {
+      "id": "E:note:row574617:41",
+      "kind": "note_sentence",
+      "display": "Rec d IV    NaHCO3 bolus and then drip.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s41",
+      "text": "Rec d IV    NaHCO3 bolus and then drip."
+    },
+    {
+      "id": "E:note:row574617:42",
+      "kind": "note_sentence",
+      "display": "Response:    Stable Creat 1.8 @ 14:00.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s42",
+      "text": "Response:    Stable Creat 1.8 @ 14:00."
+    },
+    {
+      "id": "E:note:row574617:43",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue to monitor.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row574617#s43",
+      "text": "Plan:    Continue to monitor."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|41071": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|48241": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5070": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42833": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5185": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4160": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|29181": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3331": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:11"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "subendocardial infarction, initial episode of care": [
+      "E:cond:1"
+    ],
+    "methicillin susceptible pneumonia due to staphylococcus aureus": [
+      "E:cond:2"
+    ],
+    "pneumonitis due to inhalation of food or vomitus": [
+      "E:cond:3"
+    ],
+    "acute on chronic diastolic heart failure": [
+      "E:cond:4"
+    ],
+    "diagnosis": [
+      "E:cond:5"
+    ],
+    "primary pulmonary hypertension": [
+      "E:cond:6"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:7"
+    ],
+    "alcohol withdrawal": [
+      "E:cond:8"
+    ],
+    "essential and other specified forms of tremor": [
+      "E:cond:9"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:10"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:11"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:1"
+    ],
+    "combined right and left heart cardiac catheterization": [
+      "E:proc:2"
+    ],
+    "coronary arteriography using two catheters": [
+      "E:proc:3"
+    ],
+    "angiocardiography of left heart structures": [
+      "E:proc:4"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:5"
+    ],
+    "pt 82 yo male who is transferred from osh after presenting to pcp with severa": [
+      "E:note:row574617:1"
+    ],
+    "ruled in for nstemi, intubated for pul edema at [**hospital 1991**] transferr": [
+      "E:note:row574617:2"
+    ],
+    "extubated [**6-21**] then later that day required mask ventilation for increa": [
+      "E:note:row574617:3"
+    ],
+    "has cont to have fever, cxr with pna on r, antibiotics broadened.": [
+      "E:note:row574617:4"
+    ],
+    "s/p cardiac cath [**6-22**] w/ clean coronaries, pcwp 15, co 4.8, ci 2.25.": [
+      "E:note:row574617:5"
+    ],
+    "acute coronary syndrome (acs, unstable angina, coronary ischemia) assessment:": [
+      "E:note:row574617:6"
+    ],
+    "stable hemodynamics w/ hr 60s sr, bp 120s/70s.": [
+      "E:note:row574617:7"
+    ],
+    "k 3.0 this am.": [
+      "E:note:row574617:8"
+    ],
+    "action: *medical management w/ iv heparin (currently off), po lopressor, asa,": [
+      "E:note:row574617:9"
+    ],
+    "iv nahco3 bolus given 1 hr pre-cath as ordered. *returned from cath lab @": [
+      "E:note:row574617:10"
+    ],
+    "r groin arterial/venous sheaths d/c d in holding area w/ hemostasis at 15:20.": [
+      "E:note:row574617:11"
+    ],
+    "response: stable hemodynamics post cath.": [
+      "E:note:row574617:12"
+    ],
+    "r groin site cdi, no ooze/ hematoma.": [
+      "E:note:row574617:13"
+    ],
+    "easily palp dp/pt bilat.": [
+      "E:note:row574617:14"
+    ],
+    "pt s wife asking appropriate questions re: diet teaching.": [
+      "E:note:row574617:15"
+    ],
+    "plan: continue to monitor hemodynamics.": [
+      "E:note:row574617:16"
+    ],
+    "iv heparin->off during cath.": [
+      "E:note:row574617:17"
+    ],
+    "to be restarted at midnight with no bolus.": [
+      "E:note:row574617:18"
+    ],
+    "continue to follow r groin/ pedal pulses.": [
+      "E:note:row574617:19"
+    ],
+    "strict bedrest until 21:20.": [
+      "E:note:row574617:20"
+    ],
+    "needs post mi teaching reinforcement.": [
+      "E:note:row574617:21"
+    ],
+    "pneumonia, bacterial, community acquired (cap) assessment: ls clear w/ sca": [
+      "E:note:row574617:22"
+    ],
+    "spo2 >95% on face tent @ 50%/ 15l o2.": [
+      "E:note:row574617:23"
+    ],
+    "pt expectorating moderate amts of thick, dark bloody secretions.": [
+      "E:note:row574617:24"
+    ],
+    "tmax this shift 101.9 po.": [
+      "E:note:row574617:25"
+    ],
+    "wbc only 6.7.": [
+      "E:note:row574617:26"
+    ],
+    "action: iv anbx as ordered.": [
+      "E:note:row574617:27"
+    ],
+    "encouraged cough and deep breathing.": [
+      "E:note:row574617:28"
+    ],
+    "given is and instructed on proper use.": [
+      "E:note:row574617:29"
+    ],
+    "assisted pt w/ oral care q 4 hours.": [
+      "E:note:row574617:30"
+    ],
+    "tylenol 650mg prn fever.": [
+      "E:note:row574617:31"
+    ],
+    "response: pt able to expectorate sputum with current regimen.": [
+      "E:note:row574617:32"
+    ],
+    "temp down w/ tylenol.": [
+      "E:note:row574617:33"
+    ],
+    "plan: continue to monitor fever curve.": [
+      "E:note:row574617:34"
+    ],
+    "continue w/ antibiotics.": [
+      "E:note:row574617:35"
+    ],
+    "continue pulmonary toileting.": [
+      "E:note:row574617:36"
+    ],
+    "renal failure, acute (acute renal failure, arf) assessment: creat 2.0 stab": [
+      "E:note:row574617:37"
+    ],
+    "uop 35-100ml/hr.": [
+      "E:note:row574617:38"
+    ],
+    "action: monitored uop/ volume status.": [
+      "E:note:row574617:39"
+    ],
+    "rec d 2 doses mucomyst pre-cath.": [
+      "E:note:row574617:40"
+    ],
+    "rec d iv nahco3 bolus and then drip.": [
+      "E:note:row574617:41"
+    ],
+    "response: stable creat 1.8 @ 14:00.": [
+      "E:note:row574617:42"
+    ],
+    "plan: continue to monitor.": [
+      "E:note:row574617:43"
+    ]
+  },
+  "by_date": {
+    "2119-06-21": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5"
+    ]
+  }
+}

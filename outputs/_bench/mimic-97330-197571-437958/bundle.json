@@ -1,0 +1,755 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-97330-197571",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-97330",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-97330",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-197571",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-197571",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2163-12-08T00:00:00",
+          "end": "2163-12-30T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "82120",
+              "display": "Closed fracture of lower end of femur, unspecified part"
+            }
+          ],
+          "text": "Closed fracture of lower end of femur, unspecified part"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5990",
+              "display": "Urinary tract infection, site not specified"
+            }
+          ],
+          "text": "Urinary tract infection, site not specified"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "8052",
+              "display": "Closed fracture of dorsal [thoracic] vertebra without mention of spinal cord injury"
+            }
+          ],
+          "text": "Closed fracture of dorsal [thoracic] vertebra without mention of spinal cord injury"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5180",
+              "display": "Pulmonary collapse"
+            }
+          ],
+          "text": "Pulmonary collapse"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "80708",
+              "display": "Closed fracture of eight or more ribs"
+            }
+          ],
+          "text": "Closed fracture of eight or more ribs"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "80841",
+              "display": "Closed fracture of ilium"
+            }
+          ],
+          "text": "Closed fracture of ilium"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78072",
+              "display": "Functional quadriplegia"
+            }
+          ],
+          "text": "Functional quadriplegia"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "8074",
+              "display": "Flail chest"
+            }
+          ],
+          "text": "Flail chest"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "82382",
+              "display": "Closed fracture of unspecified part of fibula with tibia"
+            }
+          ],
+          "text": "Closed fracture of unspecified part of fibula with tibia"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "8080",
+              "display": "Closed fracture of acetabulum"
+            }
+          ],
+          "text": "Closed fracture of acetabulum"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "86389",
+              "display": "Injury to other gastrointestinal sites, without mention of open wound into cavity"
+            }
+          ],
+          "text": "Injury to other gastrointestinal sites, without mention of open wound into cavity"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "8220",
+              "display": "Closed fracture of patella"
+            }
+          ],
+          "text": "Closed fracture of patella"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8495",
+              "display": "Street and highway accidents"
+            }
+          ],
+          "text": "Street and highway accidents"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8120",
+              "display": "Other motor vehicle traffic accident involving collision with motor vehicle injuring driver of motor vehicle other than motorcycle"
+            }
+          ],
+          "text": "Other motor vehicle traffic accident involving collision with motor vehicle injuring driver of motor vehicle other than motorcycle"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2749",
+              "display": "Gout, unspecified"
+            }
+          ],
+          "text": "Gout, unspecified"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "04104",
+              "display": "Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group D [Enterococcus]"
+            }
+          ],
+          "text": "Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group D [Enterococcus]"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "45829",
+              "display": "Other iatrogenic hypotension"
+            }
+          ],
+          "text": "Other iatrogenic hypotension"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8798",
+              "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+            }
+          ],
+          "text": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8497",
+              "display": "Accidents occurring in residential institution"
+            }
+          ],
+          "text": "Accidents occurring in residential institution"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25000",
+              "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-197571-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-197571-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7864",
+              "display": "Abnormal sputum"
+            }
+          ],
+          "text": "Abnormal sputum"
+        },
+        "onsetDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-197571-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-197571-1",
+        "status": "completed",
+        "code": {
+          "text": "Open reduction of fracture with internal fixation, femur"
+        },
+        "performedDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-197571-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-197571-2",
+        "status": "completed",
+        "code": {
+          "text": "Temporary tracheostomy"
+        },
+        "performedDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-197571-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-197571-3",
+        "status": "completed",
+        "code": {
+          "text": "Open reduction of fracture with internal fixation, tibia and fibula"
+        },
+        "performedDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-197571-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-197571-4",
+        "status": "completed",
+        "code": {
+          "text": "Interruption of the vena cava"
+        },
+        "performedDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-197571-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-197571-5",
+        "status": "completed",
+        "code": {
+          "text": "Closed reduction of fracture with internal fixation, tibia and fibula"
+        },
+        "performedDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-197571-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-197571-6",
+        "status": "completed",
+        "code": {
+          "text": "Application of external fixator device, tibia and fibula"
+        },
+        "performedDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-197571-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-197571-7",
+        "status": "completed",
+        "code": {
+          "text": "Removal of implanted devices from bone, tibia and fibula"
+        },
+        "performedDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-197571-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-197571-8",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous [endoscopic] gastrostomy [PEG]"
+        },
+        "performedDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-197571-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-197571-9",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-197571-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-197571-10",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-197571-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-197571-11",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2163-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-197571-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-197571-12",
+        "status": "completed",
+        "code": {
+          "text": "Arterial catheterization"
+        },
+        "performedDateTime": "2163-12-08"
+      }
+    }
+  ]
+}

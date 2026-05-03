@@ -1,0 +1,642 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-99383-175736",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-99383",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-99383",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-175736",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-175736",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2131-05-17T00:00:00",
+          "end": "2131-07-05T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175736-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175736-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "53784",
+              "display": "Dieulafoy lesion (hemorrhagic) of stomach and duodenum"
+            }
+          ],
+          "text": "Dieulafoy lesion (hemorrhagic) of stomach and duodenum"
+        },
+        "onsetDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175736-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175736-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5770",
+              "display": "Acute pancreatitis"
+            }
+          ],
+          "text": "Acute pancreatitis"
+        },
+        "onsetDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175736-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175736-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0389",
+              "display": "Unspecified septicemia"
+            }
+          ],
+          "text": "Unspecified septicemia"
+        },
+        "onsetDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175736-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175736-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99592",
+              "display": "Severe sepsis"
+            }
+          ],
+          "text": "Severe sepsis"
+        },
+        "onsetDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175736-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175736-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78552",
+              "display": "Septic shock"
+            }
+          ],
+          "text": "Septic shock"
+        },
+        "onsetDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175736-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175736-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175736-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175736-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175736-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175736-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4275",
+              "display": "Cardiac arrest"
+            }
+          ],
+          "text": "Cardiac arrest"
+        },
+        "onsetDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175736-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175736-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3481",
+              "display": "Anoxic brain damage"
+            }
+          ],
+          "text": "Anoxic brain damage"
+        },
+        "onsetDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175736-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175736-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "34982",
+              "display": "Toxic encephalopathy"
+            }
+          ],
+          "text": "Toxic encephalopathy"
+        },
+        "onsetDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175736-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175736-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25541",
+              "display": "Glucocorticoid deficiency"
+            }
+          ],
+          "text": "Glucocorticoid deficiency"
+        },
+        "onsetDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175736-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175736-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78039",
+              "display": "Other convulsions"
+            }
+          ],
+          "text": "Other convulsions"
+        },
+        "onsetDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175736-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175736-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2875",
+              "display": "Thrombocytopenia, unspecified"
+            }
+          ],
+          "text": "Thrombocytopenia, unspecified"
+        },
+        "onsetDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175736-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175736-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3485",
+              "display": "Cerebral edema"
+            }
+          ],
+          "text": "Cerebral edema"
+        },
+        "onsetDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175736-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175736-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2869",
+              "display": "Other and unspecified coagulation defects"
+            }
+          ],
+          "text": "Other and unspecified coagulation defects"
+        },
+        "onsetDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175736-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175736-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5711",
+              "display": "Acute alcoholic hepatitis"
+            }
+          ],
+          "text": "Acute alcoholic hepatitis"
+        },
+        "onsetDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175736-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175736-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "30391",
+              "display": "Other and unspecified alcohol dependence, continuous"
+            }
+          ],
+          "text": "Other and unspecified alcohol dependence, continuous"
+        },
+        "onsetDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-175736-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-175736-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5589",
+              "display": "Other and unspecified noninfectious gastroenteritis and colitis"
+            }
+          ],
+          "text": "Other and unspecified noninfectious gastroenteritis and colitis"
+        },
+        "onsetDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175736-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175736-1",
+        "status": "completed",
+        "code": {
+          "text": "Temporary tracheostomy"
+        },
+        "performedDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175736-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175736-2",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175736-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175736-3",
+        "status": "completed",
+        "code": {
+          "text": "Other intubation of respiratory tract"
+        },
+        "performedDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175736-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175736-4",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175736-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175736-5",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175736-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175736-6",
+        "status": "completed",
+        "code": {
+          "text": "Injection or infusion of oxazolidinone class of antibiotics"
+        },
+        "performedDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175736-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175736-7",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175736-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175736-8",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization for renal dialysis"
+        },
+        "performedDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175736-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175736-9",
+        "status": "completed",
+        "code": {
+          "text": "Hemodialysis"
+        },
+        "performedDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175736-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175736-10",
+        "status": "completed",
+        "code": {
+          "text": "Arterial catheterization"
+        },
+        "performedDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175736-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175736-11",
+        "status": "completed",
+        "code": {
+          "text": "Parenteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175736-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175736-12",
+        "status": "completed",
+        "code": {
+          "text": "Closed biopsy of skin and subcutaneous tissue"
+        },
+        "performedDateTime": "2131-05-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-175736-13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-175736-13",
+        "status": "completed",
+        "code": {
+          "text": "Other endoscopy of small intestine"
+        },
+        "performedDateTime": "2131-05-17"
+      }
+    }
+  ]
+}

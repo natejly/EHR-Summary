@@ -1,0 +1,147 @@
+{
+  "case_id": "mimic-70926-112660-521238",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 1272,
+    "summary_chars": 542,
+    "target_min_chars": 254,
+    "target_max_chars": 381,
+    "achieved_ratio": 0.4261006289308176,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 7,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row521238:1",
+      "E:note:row521238:2",
+      "E:note:row521238:3"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Sepsis, septicemia, and acute respiratory, kidney, and hepatic failure [E:cond:1][E:cond:2][E:cond:3][E:cond:4][E:cond:5].",
+        "severity": "medium",
+        "reason": "Misinterprets 'Hepatic encephalopathy' as 'hepatic failure'."
+      },
+      {
+        "sentence": "Cirrhosis, NASH, acidosis, pleural effusion, UTI, and blood in stool [E:cond:6][E:cond:8][E:cond:9][E:cond:10][E:note:row521238:1][E:note:row521238:2].",
+        "severity": "medium",
+        "reason": "Introduces 'NASH' which is not present in the fact sheet."
+      },
+      {
+        "sentence": "HTN, hypercholesterolemia, LBP, depression, anxiety, and dysthymic disorder [E:cond:11][E:note:row521238:1].",
+        "severity": "medium",
+        "reason": "Introduces multiple conditions (HTN, hypercholesterolemia, LBP, depression, anxiety) not present in the fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Sepsis, septicemia, and acute respiratory, kidney, and hepatic failure [E:cond:1][E:cond:2][E:cond:3][E:cond:4][E:cond:5].",
+        "suggested": "Sepsis, septicemia, acute respiratory failure, acute kidney failure, and hepatic encephalopathy [E:cond:1][E:cond:2][E:cond:3][E:cond:4][E:cond:5].",
+        "reason": "Corrects 'hepatic failure' to 'hepatic encephalopathy' per the fact sheet."
+      },
+      {
+        "original": "Cirrhosis, NASH, acidosis, pleural effusion, UTI, and blood in stool [E:cond:6][E:cond:8][E:cond:9][E:cond:10][E:note:row521238:1][E:note:row521238:2].",
+        "suggested": "Cirrhosis, acidosis, pleural effusion, UTI, and blood in stool [E:cond:6][E:cond:8][E:cond:9][E:cond:10].",
+        "reason": "Removes 'NASH' and unsupported citations."
+      },
+      {
+        "original": "HTN, hypercholesterolemia, LBP, depression, anxiety, and dysthymic disorder [E:cond:11][E:note:row521238:1].",
+        "suggested": "Dysthymic disorder [E:cond:11].",
+        "reason": "Removes all conditions not listed in the fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 3,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-70926-112660-521238/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.07,
+    "fk_words": 156,
+    "fk_sentences": 17,
+    "fk_syllables": 239,
+    "chars": 1332,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-70926-112660-521238/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0019678750541061163,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 92.49903199996334,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 141.96116399997845,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0029786250088363886,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 12.575617541966494,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 5.078033541038167,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0026598749682307243,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 22.87656025000615,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

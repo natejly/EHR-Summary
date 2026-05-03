@@ -1,0 +1,2060 @@
+{
+  "case_id": "mimic-64798-160505-695419",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:enc-160505",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Unspecified septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0389",
+        "display": "Unspecified septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Subendocardial infarction, initial episode of care",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41071",
+        "display": "Subendocardial infarction, initial episode of care"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute kidney failure with lesion of tubular necrosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5845",
+        "display": "Acute kidney failure with lesion of tubular necrosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Pneumonitis due to inhalation of food or vomitus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5070",
+        "display": "Pneumonitis due to inhalation of food or vomitus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Methicillin resistant pneumonia due to Staphylococcus aureus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "48242",
+        "display": "Methicillin resistant pneumonia due to Staphylococcus aureus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Septic shock",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78552",
+        "display": "Septic shock"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Chronic kidney disease, Stage IV (severe)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5854",
+        "display": "Chronic kidney disease, Stage IV (severe)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Hyperosmolality and/or hypernatremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2760",
+        "display": "Hyperosmolality and/or hypernatremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Blood in stool",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5781",
+        "display": "Blood in stool"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Unspecified pleural effusion",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5119",
+        "display": "Unspecified pleural effusion"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Pulmonary collapse",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5180",
+        "display": "Pulmonary collapse"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Acute posthemorrhagic anemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2851",
+        "display": "Acute posthemorrhagic anemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Alzheimer's disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3310",
+        "display": "Alzheimer's disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2766",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25000",
+        "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of native coronary artery",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41401",
+        "display": "Coronary atherosclerosis of native coronary artery"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Hypertensive chronic kidney disease, benign, with chronic kidney disease stage I through stage IV, or unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "40310",
+        "display": "Hypertensive chronic kidney disease, benign, with chronic kidney disease stage I through stage IV, or unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Dementia in conditions classified elsewhere without behavioral disturbance",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "29410",
+        "display": "Dementia in conditions classified elsewhere without behavioral disturbance"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Pressure ulcer, lower back",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70703",
+        "display": "Pressure ulcer, lower back"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Pressure ulcer, buttock",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70705",
+        "display": "Pressure ulcer, buttock"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:25",
+      "kind": "condition",
+      "display": "Pressure ulcer, other site",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70709",
+        "display": "Pressure ulcer, other site"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-25",
+      "text": null
+    },
+    {
+      "id": "E:cond:26",
+      "kind": "condition",
+      "display": "Pressure ulcer, stage II",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70722",
+        "display": "Pressure ulcer, stage II"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-26",
+      "text": null
+    },
+    {
+      "id": "E:cond:27",
+      "kind": "condition",
+      "display": "Herpes simplex without mention of complication",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0549",
+        "display": "Herpes simplex without mention of complication"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-27",
+      "text": null
+    },
+    {
+      "id": "E:cond:28",
+      "kind": "condition",
+      "display": "Venous (peripheral) insufficiency, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "45981",
+        "display": "Venous (peripheral) insufficiency, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-28",
+      "text": null
+    },
+    {
+      "id": "E:cond:29",
+      "kind": "condition",
+      "display": "Gout, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2749",
+        "display": "Gout, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-29",
+      "text": null
+    },
+    {
+      "id": "E:cond:30",
+      "kind": "condition",
+      "display": "Esophagitis, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53010",
+        "display": "Esophagitis, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-30",
+      "text": null
+    },
+    {
+      "id": "E:cond:31",
+      "kind": "condition",
+      "display": "Diverticulosis of colon (without mention of hemorrhage)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "56210",
+        "display": "Diverticulosis of colon (without mention of hemorrhage)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-31",
+      "text": null
+    },
+    {
+      "id": "E:cond:32",
+      "kind": "condition",
+      "display": "Reflux esophagitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53011",
+        "display": "Reflux esophagitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-32",
+      "text": null
+    },
+    {
+      "id": "E:cond:33",
+      "kind": "condition",
+      "display": "Internal hemorrhoids without mention of complication",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4550",
+        "display": "Internal hemorrhoids without mention of complication"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-33",
+      "text": null
+    },
+    {
+      "id": "E:cond:34",
+      "kind": "condition",
+      "display": "Gastrostomy status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V441",
+        "display": "Gastrostomy status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-34",
+      "text": null
+    },
+    {
+      "id": "E:cond:35",
+      "kind": "condition",
+      "display": "Personal history, urinary (tract) infection",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V1302",
+        "display": "Personal history, urinary (tract) infection"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-35",
+      "text": null
+    },
+    {
+      "id": "E:cond:36",
+      "kind": "condition",
+      "display": "Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V1254",
+        "display": "Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-36",
+      "text": null
+    },
+    {
+      "id": "E:cond:37",
+      "kind": "condition",
+      "display": "Long-term (current) use of anticoagulants",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V5861",
+        "display": "Long-term (current) use of anticoagulants"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-37",
+      "text": null
+    },
+    {
+      "id": "E:cond:38",
+      "kind": "condition",
+      "display": "Personal history of Methicillin resistant Staphylococcus aureus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V1204",
+        "display": "Personal history of Methicillin resistant Staphylococcus aureus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:cond-160505-38",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:proc-160505-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Other endoscopy of small intestine",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other endoscopy of small intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:proc-160505-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Venous catheterization for renal dialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization for renal dialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:proc-160505-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Replacement of gastrostomy tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Replacement of gastrostomy tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:proc-160505-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Hemodialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Hemodialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:proc-160505-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:proc-160505-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:proc-160505-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Other bronchoscopy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other bronchoscopy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:proc-160505-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:proc-160505-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2172-08-05",
+      "source_ref": "urn:uuid:proc-160505-10",
+      "text": null
+    },
+    {
+      "id": "E:note:row695419:1",
+      "kind": "note_sentence",
+      "display": "88 yo female with PMH: CAD, HTN, DM, Afib, Alzheimers, anemia, GIB, s/p    PEG p",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s1",
+      "text": "88 yo female with PMH: CAD, HTN, DM, Afib, Alzheimers, anemia, GIB, s/p    PEG placement. s/p CVA [**5-12**] on coumadin; since CVA patient has been a    resident at rehab facilities with 1 recent hospital admission for    treatment of PNA."
+    },
+    {
+      "id": "E:note:row695419:2",
+      "kind": "note_sentence",
+      "display": "[**8-5**]: Date of admission-found unresponsive and bradycardic at [**Hospital1 ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s2",
+      "text": "[**8-5**]: Date of admission-found unresponsive and bradycardic at [**Hospital1 25**]."
+    },
+    {
+      "id": "E:note:row695419:3",
+      "kind": "note_sentence",
+      "display": "Transferred to [**Hospital 2437**] Hospital w/ bloody mouth, INR level of 10 w/ ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s3",
+      "text": "Transferred to [**Hospital 2437**] Hospital w/ bloody mouth, INR level of 10 w/    active upper/lower GI bleeds, subsequently transferred to [**Hospital1 5**]    intubated on pressors."
+    },
+    {
+      "id": "E:note:row695419:4",
+      "kind": "note_sentence",
+      "display": "In ED; hypothermic, INR 5, HCT 20, given 2 units    FFP, triple lumen placed in ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s4",
+      "text": "In ED; hypothermic, INR 5, HCT 20, given 2 units    FFP, triple lumen placed in left femoral admitted to CCU as MICU    border."
+    },
+    {
+      "id": "E:note:row695419:5",
+      "kind": "note_sentence",
+      "display": "Given 3 liters IVF, 2 units FFP & 2 units PRBC as well as dopamine gtt.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s5",
+      "text": "Given 3 liters IVF, 2 units FFP & 2 units PRBC as well as dopamine gtt."
+    },
+    {
+      "id": "E:note:row695419:6",
+      "kind": "note_sentence",
+      "display": "EGD & bronchoscopy at bedside.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s6",
+      "text": "EGD & bronchoscopy at bedside."
+    },
+    {
+      "id": "E:note:row695419:7",
+      "kind": "note_sentence",
+      "display": "Full Code.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s7",
+      "text": "Full Code."
+    },
+    {
+      "id": "E:note:row695419:8",
+      "kind": "note_sentence",
+      "display": "[**Date range (1) 8679**] overnight: remained on low-dose dopamine to maintain M",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s8",
+      "text": "[**Date range (1) 8679**] overnight: remained on low-dose dopamine to maintain MAP > 65."
+    },
+    {
+      "id": "E:note:row695419:9",
+      "kind": "note_sentence",
+      "display": "Monitored serial HCT s & coags, IV antibiotics.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s9",
+      "text": "Monitored serial HCT s & coags, IV antibiotics."
+    },
+    {
+      "id": "E:note:row695419:10",
+      "kind": "note_sentence",
+      "display": "Family meeting planned    for 1 pm with MICU service on [**8-6**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s10",
+      "text": "Family meeting planned    for 1 pm with MICU service on [**8-6**]."
+    },
+    {
+      "id": "E:note:row695419:11",
+      "kind": "note_sentence",
+      "display": "Hypotension (not Shock)    Assessment:    Received patient on Dopamine gtt at 3 ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s11",
+      "text": "Hypotension (not Shock)    Assessment:    Received patient on Dopamine gtt at 3 mcg/kg/min w/ NBP 89-111/70    [s/p 3 liters IVF, 2 units FFP & 2 units PRBC s given prior shift ]    Action:    Close hemodynamic monitoring [ Aline placement attempted prior shift    for closer hemodynamic monitoring was not successful 2/2 patients    peripheral edema]    Dopamine gtt increased to 4 mcg/kg/min to maintain MAP s > 65 at 20:30."
+    },
+    {
+      "id": "E:note:row695419:12",
+      "kind": "note_sentence",
+      "display": "Response:    MAPs maintained > 65 on 4 mcg/kg/min dopamine gtt.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s12",
+      "text": "Response:    MAPs maintained > 65 on 4 mcg/kg/min dopamine gtt."
+    },
+    {
+      "id": "E:note:row695419:13",
+      "kind": "note_sentence",
+      "display": "No additional fluid    boluses administered overnight.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s13",
+      "text": "No additional fluid    boluses administered overnight."
+    },
+    {
+      "id": "E:note:row695419:14",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue to wean dopamine gtt with goal to maintain MAP > 65.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s14",
+      "text": "Plan:    Continue to wean dopamine gtt with goal to maintain MAP > 65."
+    },
+    {
+      "id": "E:note:row695419:15",
+      "kind": "note_sentence",
+      "display": "Additional fluid & blood product administration per MICU service.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s15",
+      "text": "Additional fluid & blood product administration per MICU service."
+    },
+    {
+      "id": "E:note:row695419:16",
+      "kind": "note_sentence",
+      "display": "Renal failure, acute (Acute renal failure, ARF)    Assessment:    Baseline Cr le",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s16",
+      "text": "Renal failure, acute (Acute renal failure, ARF)    Assessment:    Baseline Cr level 1.2-1.5."
+    },
+    {
+      "id": "E:note:row695419:17",
+      "kind": "note_sentence",
+      "display": "Cr level 2.7 this pm.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s17",
+      "text": "Cr level 2.7 this pm."
+    },
+    {
+      "id": "E:note:row695419:18",
+      "kind": "note_sentence",
+      "display": "Urine yellow & cloudy.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s18",
+      "text": "Urine yellow & cloudy."
+    },
+    {
+      "id": "E:note:row695419:19",
+      "kind": "note_sentence",
+      "display": "Action:    UA sent.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s19",
+      "text": "Action:    UA sent."
+    },
+    {
+      "id": "E:note:row695419:20",
+      "kind": "note_sentence",
+      "display": "Prior shift completed Foley irrigation & administered total 3    liters IVF in b",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s20",
+      "text": "Prior shift completed Foley irrigation & administered total 3    liters IVF in boluses given low urine output."
+    },
+    {
+      "id": "E:note:row695419:21",
+      "kind": "note_sentence",
+      "display": "Response:    Urine output remains poor at approximately 10 ml/hr, urine remains ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s21",
+      "text": "Response:    Urine output remains poor at approximately 10 ml/hr, urine remains    couldy-yellow in coloration; UA report many bacteria."
+    },
+    {
+      "id": "E:note:row695419:22",
+      "kind": "note_sentence",
+      "display": "Am Cr level    pending.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s22",
+      "text": "Am Cr level    pending."
+    },
+    {
+      "id": "E:note:row695419:23",
+      "kind": "note_sentence",
+      "display": "Plan:    Follow urine output, labs, renally dose meds. ? appropriate abx    cove",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s23",
+      "text": "Plan:    Follow urine output, labs, renally dose meds. ? appropriate abx    coverage for UTI (on IV cipro/vanc/zosyn)."
+    },
+    {
+      "id": "E:note:row695419:24",
+      "kind": "note_sentence",
+      "display": "Gastrointestinal bleed, upper (Melena, GI Bleed, GIB)    Assessment:    Patient ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s24",
+      "text": "Gastrointestinal bleed, upper (Melena, GI Bleed, GIB)    Assessment:    Patient s/p EGD at bedside today."
+    },
+    {
+      "id": "E:note:row695419:25",
+      "kind": "note_sentence",
+      "display": "INR 2 from this afternoon s/p 2 units    FFP & 2 units PRBC s.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s25",
+      "text": "INR 2 from this afternoon s/p 2 units    FFP & 2 units PRBC s."
+    },
+    {
+      "id": "E:note:row695419:26",
+      "kind": "note_sentence",
+      "display": "Oral secretions tinged with dark (old-appearing    blood).",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s26",
+      "text": "Oral secretions tinged with dark (old-appearing    blood)."
+    },
+    {
+      "id": "E:note:row695419:27",
+      "kind": "note_sentence",
+      "display": "Action:    Serial HCT s collected q 6 hours.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s27",
+      "text": "Action:    Serial HCT s collected q 6 hours."
+    },
+    {
+      "id": "E:note:row695419:28",
+      "kind": "note_sentence",
+      "display": "Coags monitored this evening.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s28",
+      "text": "Coags monitored this evening."
+    },
+    {
+      "id": "E:note:row695419:29",
+      "kind": "note_sentence",
+      "display": "Administered IV protonix as ordered.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s29",
+      "text": "Administered IV protonix as ordered."
+    },
+    {
+      "id": "E:note:row695419:30",
+      "kind": "note_sentence",
+      "display": "Monitored for s/s bleeding.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s30",
+      "text": "Monitored for s/s bleeding."
+    },
+    {
+      "id": "E:note:row695419:31",
+      "kind": "note_sentence",
+      "display": "Maintained NPO status.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s31",
+      "text": "Maintained NPO status."
+    },
+    {
+      "id": "E:note:row695419:32",
+      "kind": "note_sentence",
+      "display": "Response:    8 pm HCT level 32.3, INR 1.8. 2 am HCT level 32.3 .",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s32",
+      "text": "Response:    8 pm HCT level 32.3, INR 1.8. 2 am HCT level 32.3 ."
+    },
+    {
+      "id": "E:note:row695419:33",
+      "kind": "note_sentence",
+      "display": "No BRBPR or Melena    noted.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s33",
+      "text": "No BRBPR or Melena    noted."
+    },
+    {
+      "id": "E:note:row695419:34",
+      "kind": "note_sentence",
+      "display": "Continues to have blood-tinged oral secretions.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s34",
+      "text": "Continues to have blood-tinged oral secretions."
+    },
+    {
+      "id": "E:note:row695419:35",
+      "kind": "note_sentence",
+      "display": "EGD results    report no sign of bleeding.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s35",
+      "text": "EGD results    report no sign of bleeding."
+    },
+    {
+      "id": "E:note:row695419:36",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue to follow lab levels incuding HCT, PLTS & coagulation levels.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s36",
+      "text": "Plan:    Continue to follow lab levels incuding HCT, PLTS & coagulation levels."
+    },
+    {
+      "id": "E:note:row695419:37",
+      "kind": "note_sentence",
+      "display": "Continue to keep patient NPO & administer Protonix IV in [**Hospital1 **] dosing",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s37",
+      "text": "Continue to keep patient NPO & administer Protonix IV in [**Hospital1 **] dosing."
+    },
+    {
+      "id": "E:note:row695419:38",
+      "kind": "note_sentence",
+      "display": "Guiac stools.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s38",
+      "text": "Guiac stools."
+    },
+    {
+      "id": "E:note:row695419:39",
+      "kind": "note_sentence",
+      "display": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 76**])    Assessment:  ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s39",
+      "text": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 76**])    Assessment:    Rec d patient on vent: 40% 400 x16, 5 of PEEP."
+    },
+    {
+      "id": "E:note:row695419:40",
+      "kind": "note_sentence",
+      "display": "Lungs CTA bilaterally.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s40",
+      "text": "Lungs CTA bilaterally."
+    },
+    {
+      "id": "E:note:row695419:41",
+      "kind": "note_sentence",
+      "display": "Blood-tinged oral secretions suctioned frequently.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s41",
+      "text": "Blood-tinged oral secretions suctioned frequently."
+    },
+    {
+      "id": "E:note:row695419:42",
+      "kind": "note_sentence",
+      "display": "Patient    overbreathing vent by 5-8 bpm    Action:    RRT increased Fi 02 to 50",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s42",
+      "text": "Patient    overbreathing vent by 5-8 bpm    Action:    RRT increased Fi 02 to 50% at start of shift."
+    },
+    {
+      "id": "E:note:row695419:43",
+      "kind": "note_sentence",
+      "display": "Continued with q 2 hour    oral care & suctioning given copious oral secretions.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s43",
+      "text": "Continued with q 2 hour    oral care & suctioning given copious oral secretions."
+    },
+    {
+      "id": "E:note:row695419:44",
+      "kind": "note_sentence",
+      "display": "Fentanyl gtt    increased from 25 to 50 mcg/hr to help patient from over-breathi",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s44",
+      "text": "Fentanyl gtt    increased from 25 to 50 mcg/hr to help patient from over-breathing vent    at 3 am."
+    },
+    {
+      "id": "E:note:row695419:45",
+      "kind": "note_sentence",
+      "display": "Maintained HOB @ 30 degrees.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s45",
+      "text": "Maintained HOB @ 30 degrees."
+    },
+    {
+      "id": "E:note:row695419:46",
+      "kind": "note_sentence",
+      "display": "Empiric antibiotic coverage for    potential aspiration in setting of intubation",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s46",
+      "text": "Empiric antibiotic coverage for    potential aspiration in setting of intubation- Vanc/Zosyn/Cipro."
+    },
+    {
+      "id": "E:note:row695419:47",
+      "kind": "note_sentence",
+      "display": "Response:    Lung sounds remains clear overnight.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s47",
+      "text": "Response:    Lung sounds remains clear overnight."
+    },
+    {
+      "id": "E:note:row695419:48",
+      "kind": "note_sentence",
+      "display": "Slight decrease in oral secretions    as shift progressed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s48",
+      "text": "Slight decrease in oral secretions    as shift progressed."
+    },
+    {
+      "id": "E:note:row695419:49",
+      "kind": "note_sentence",
+      "display": "Increasing Fentanyl from 25 to 50 mcg/hr with no    apparent effect on respirato",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s49",
+      "text": "Increasing Fentanyl from 25 to 50 mcg/hr with no    apparent effect on respiratory rate or pattern, MICU team declined    offer of ABG by RRT."
+    },
+    {
+      "id": "E:note:row695419:50",
+      "kind": "note_sentence",
+      "display": "[**Name (NI) 99**]:    [**Name2 (NI) 8681**] IV antibiotics.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s50",
+      "text": "[**Name (NI) 99**]:    [**Name2 (NI) 8681**] IV antibiotics."
+    },
+    {
+      "id": "E:note:row695419:51",
+      "kind": "note_sentence",
+      "display": "Continue VAP protocol.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s51",
+      "text": "Continue VAP protocol."
+    },
+    {
+      "id": "E:note:row695419:52",
+      "kind": "note_sentence",
+      "display": "Cont to monitor ABG    as obtained by RRT/MD s (no ALine).",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s52",
+      "text": "Cont to monitor ABG    as obtained by RRT/MD s (no ALine)."
+    },
+    {
+      "id": "E:note:row695419:53",
+      "kind": "note_sentence",
+      "display": "Diabetes Mellitus (DM), Type II    Assessment:    Patient with a history of DM  ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s53",
+      "text": "Diabetes Mellitus (DM), Type II    Assessment:    Patient with a history of DM    Action:    Monitored evening BG level: low at 54 (@ 2300)."
+    },
+    {
+      "id": "E:note:row695419:54",
+      "kind": "note_sentence",
+      "display": "Response:    Administered  amp D50%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s54",
+      "text": "Response:    Administered  amp D50%."
+    },
+    {
+      "id": "E:note:row695419:55",
+      "kind": "note_sentence",
+      "display": "Re-check BG level 95 by midnight. 06 am level:    84.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s55",
+      "text": "Re-check BG level 95 by midnight. 06 am level:    84."
+    },
+    {
+      "id": "E:note:row695419:56",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue close monitoring of BG levels. ? mixing IV antibiotics in    d",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s56",
+      "text": "Plan:    Continue close monitoring of BG levels. ? mixing IV antibiotics in    dextrose."
+    },
+    {
+      "id": "E:note:row695419:57",
+      "kind": "note_sentence",
+      "display": "Impaired Skin Integrity    Assessment:    -Skin with finely cracked & flaky area",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s57",
+      "text": "Impaired Skin Integrity    Assessment:    -Skin with finely cracked & flaky areas found on most areas of    patient s body; sites not bleeding or oozing."
+    },
+    {
+      "id": "E:note:row695419:58",
+      "kind": "note_sentence",
+      "display": "Sloughing off especially    notable in bilateral hands/fingers & feet/toes, also",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s58",
+      "text": "Sloughing off especially    notable in bilateral hands/fingers & feet/toes, also groin folds.    - Skin tear on left cheek (?"
+    },
+    {
+      "id": "E:note:row695419:59",
+      "kind": "note_sentence",
+      "display": "At site of old ETT tape), also some oral    blisters.    -Received patient with ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s59",
+      "text": "At site of old ETT tape), also some oral    blisters.    -Received patient with skin well-moisturized, so it did not appear dry    during assessment."
+    },
+    {
+      "id": "E:note:row695419:60",
+      "kind": "note_sentence",
+      "display": "Patient s entire back with pink/red hue that    blanches; difficult to assess le",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s60",
+      "text": "Patient s entire back with pink/red hue that    blanches; difficult to assess level of redness given patient s race.    -Large heart-shaped mepilex dressing (placed [**8-5**]) found intact &    covering coccyx/upper bilateral gluteal area was not removed.    -Patient with 4-6 + pitting edema from shoulders to toes, marked in    bilateral hands & LE s to feet.    -Family reports pt had a rash within the past two weeks for which the    initial treatment appeared to worsen the general condition of her skin."
+    },
+    {
+      "id": "E:note:row695419:61",
+      "kind": "note_sentence",
+      "display": "Action:    Turned patient q 2 hours with frequent application of aloe vesta crea",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s61",
+      "text": "Action:    Turned patient q 2 hours with frequent application of aloe vesta cream."
+    },
+    {
+      "id": "E:note:row695419:62",
+      "kind": "note_sentence",
+      "display": "Maintained MP boots.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s62",
+      "text": "Maintained MP boots."
+    },
+    {
+      "id": "E:note:row695419:63",
+      "kind": "note_sentence",
+      "display": "Mepilex dressing monitored for integrity.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s63",
+      "text": "Mepilex dressing monitored for integrity."
+    },
+    {
+      "id": "E:note:row695419:64",
+      "kind": "note_sentence",
+      "display": "Bilateral arms/hands elevated to attempt to diminish edema.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s64",
+      "text": "Bilateral arms/hands elevated to attempt to diminish edema."
+    },
+    {
+      "id": "E:note:row695419:65",
+      "kind": "note_sentence",
+      "display": "Cleansing    bath.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s65",
+      "text": "Cleansing    bath."
+    },
+    {
+      "id": "E:note:row695419:66",
+      "kind": "note_sentence",
+      "display": "ETT re-positioned & re- taped by RRT.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s66",
+      "text": "ETT re-positioned & re- taped by RRT."
+    },
+    {
+      "id": "E:note:row695419:67",
+      "kind": "note_sentence",
+      "display": "Response:    [**Name2 (NI) **] worsening or deterioration noted in general skin ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s67",
+      "text": "Response:    [**Name2 (NI) **] worsening or deterioration noted in general skin condition."
+    },
+    {
+      "id": "E:note:row695419:68",
+      "kind": "note_sentence",
+      "display": "Remains    with generalized edema.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s68",
+      "text": "Remains    with generalized edema."
+    },
+    {
+      "id": "E:note:row695419:69",
+      "kind": "note_sentence",
+      "display": "Mepilex dressing intact.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s69",
+      "text": "Mepilex dressing intact."
+    },
+    {
+      "id": "E:note:row695419:70",
+      "kind": "note_sentence",
+      "display": "Tolerating turning and    repositioning.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s70",
+      "text": "Tolerating turning and    repositioning."
+    },
+    {
+      "id": "E:note:row695419:71",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue skin care including turning and repositioning, application of ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s71",
+      "text": "Plan:    Continue skin care including turning and repositioning, application of    aloe-vesta cream as well as MP boots, elevate extremities as    appropriate."
+    },
+    {
+      "id": "E:note:row695419:72",
+      "kind": "note_sentence",
+      "display": "Monitor integrity of mepilex dressing, to be changed on    day # 3.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row695419#s72",
+      "text": "Monitor integrity of mepilex dressing, to be changed on    day # 3."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|0389": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41071": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5845": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5070": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|48242": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78552": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5854": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2760": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5781": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2762": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5119": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5180": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2851": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3310": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42731": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2766": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25000": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41401": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|40310": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|29410": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70703": [
+      "E:cond:23"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70705": [
+      "E:cond:24"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70709": [
+      "E:cond:25"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70722": [
+      "E:cond:26"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|0549": [
+      "E:cond:27"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|45981": [
+      "E:cond:28"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2749": [
+      "E:cond:29"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|53010": [
+      "E:cond:30"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|56210": [
+      "E:cond:31"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|53011": [
+      "E:cond:32"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4550": [
+      "E:cond:33"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V441": [
+      "E:cond:34"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V1302": [
+      "E:cond:35"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V1254": [
+      "E:cond:36"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V5861": [
+      "E:cond:37"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V1204": [
+      "E:cond:38"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "unspecified septicemia": [
+      "E:cond:1"
+    ],
+    "subendocardial infarction, initial episode of care": [
+      "E:cond:2"
+    ],
+    "acute kidney failure with lesion of tubular necrosis": [
+      "E:cond:3"
+    ],
+    "acute respiratory failure": [
+      "E:cond:4"
+    ],
+    "pneumonitis due to inhalation of food or vomitus": [
+      "E:cond:5"
+    ],
+    "methicillin resistant pneumonia due to staphylococcus aureus": [
+      "E:cond:6"
+    ],
+    "septic shock": [
+      "E:cond:7"
+    ],
+    "chronic kidney disease, stage iv (severe)": [
+      "E:cond:8"
+    ],
+    "hyperosmolality and/or hypernatremia": [
+      "E:cond:9"
+    ],
+    "blood in stool": [
+      "E:cond:10"
+    ],
+    "acidosis": [
+      "E:cond:11"
+    ],
+    "unspecified pleural effusion": [
+      "E:cond:12"
+    ],
+    "pulmonary collapse": [
+      "E:cond:13"
+    ],
+    "acute posthemorrhagic anemia": [
+      "E:cond:14"
+    ],
+    "severe sepsis": [
+      "E:cond:15"
+    ],
+    "alzheimer's disease": [
+      "E:cond:16"
+    ],
+    "atrial fibrillation": [
+      "E:cond:17"
+    ],
+    "diagnosis": [
+      "E:cond:18"
+    ],
+    "diabetes mellitus without mention of complication, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:19"
+    ],
+    "coronary atherosclerosis of native coronary artery": [
+      "E:cond:20"
+    ],
+    "hypertensive chronic kidney disease, benign, with chronic kidney disease stage i through stage iv, or unspecified": [
+      "E:cond:21"
+    ],
+    "dementia in conditions classified elsewhere without behavioral disturbance": [
+      "E:cond:22"
+    ],
+    "pressure ulcer, lower back": [
+      "E:cond:23"
+    ],
+    "pressure ulcer, buttock": [
+      "E:cond:24"
+    ],
+    "pressure ulcer, other site": [
+      "E:cond:25"
+    ],
+    "pressure ulcer, stage ii": [
+      "E:cond:26"
+    ],
+    "herpes simplex without mention of complication": [
+      "E:cond:27"
+    ],
+    "venous (peripheral) insufficiency, unspecified": [
+      "E:cond:28"
+    ],
+    "gout, unspecified": [
+      "E:cond:29"
+    ],
+    "esophagitis, unspecified": [
+      "E:cond:30"
+    ],
+    "diverticulosis of colon (without mention of hemorrhage)": [
+      "E:cond:31"
+    ],
+    "reflux esophagitis": [
+      "E:cond:32"
+    ],
+    "internal hemorrhoids without mention of complication": [
+      "E:cond:33"
+    ],
+    "gastrostomy status": [
+      "E:cond:34"
+    ],
+    "personal history, urinary (tract) infection": [
+      "E:cond:35"
+    ],
+    "personal history of transient ischemic attack (tia), and cerebral infarction without residual deficits": [
+      "E:cond:36"
+    ],
+    "long-term (current) use of anticoagulants": [
+      "E:cond:37"
+    ],
+    "personal history of methicillin resistant staphylococcus aureus": [
+      "E:cond:38"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:1"
+    ],
+    "other endoscopy of small intestine": [
+      "E:proc:2"
+    ],
+    "venous catheterization for renal dialysis": [
+      "E:proc:3"
+    ],
+    "replacement of gastrostomy tube": [
+      "E:proc:4"
+    ],
+    "hemodialysis": [
+      "E:proc:5"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:6",
+      "E:proc:9"
+    ],
+    "arterial catheterization": [
+      "E:proc:7"
+    ],
+    "other bronchoscopy": [
+      "E:proc:8"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:10"
+    ],
+    "88 yo female with pmh: cad, htn, dm, afib, alzheimers, anemia, gib, s/p peg p": [
+      "E:note:row695419:1"
+    ],
+    "[**8-5**]: date of admission-found unresponsive and bradycardic at [**hospital1": [
+      "E:note:row695419:2"
+    ],
+    "transferred to [**hospital 2437**] hospital w/ bloody mouth, inr level of 10 w/": [
+      "E:note:row695419:3"
+    ],
+    "in ed; hypothermic, inr 5, hct 20, given 2 units ffp, triple lumen placed in": [
+      "E:note:row695419:4"
+    ],
+    "given 3 liters ivf, 2 units ffp & 2 units prbc as well as dopamine gtt.": [
+      "E:note:row695419:5"
+    ],
+    "egd & bronchoscopy at bedside.": [
+      "E:note:row695419:6"
+    ],
+    "full code.": [
+      "E:note:row695419:7"
+    ],
+    "[**date range (1) 8679**] overnight: remained on low-dose dopamine to maintain m": [
+      "E:note:row695419:8"
+    ],
+    "monitored serial hct s & coags, iv antibiotics.": [
+      "E:note:row695419:9"
+    ],
+    "family meeting planned for 1 pm with micu service on [**8-6**].": [
+      "E:note:row695419:10"
+    ],
+    "hypotension (not shock) assessment: received patient on dopamine gtt at 3": [
+      "E:note:row695419:11"
+    ],
+    "response: maps maintained > 65 on 4 mcg/kg/min dopamine gtt.": [
+      "E:note:row695419:12"
+    ],
+    "no additional fluid boluses administered overnight.": [
+      "E:note:row695419:13"
+    ],
+    "plan: continue to wean dopamine gtt with goal to maintain map > 65.": [
+      "E:note:row695419:14"
+    ],
+    "additional fluid & blood product administration per micu service.": [
+      "E:note:row695419:15"
+    ],
+    "renal failure, acute (acute renal failure, arf) assessment: baseline cr le": [
+      "E:note:row695419:16"
+    ],
+    "cr level 2.7 this pm.": [
+      "E:note:row695419:17"
+    ],
+    "urine yellow & cloudy.": [
+      "E:note:row695419:18"
+    ],
+    "action: ua sent.": [
+      "E:note:row695419:19"
+    ],
+    "prior shift completed foley irrigation & administered total 3 liters ivf in b": [
+      "E:note:row695419:20"
+    ],
+    "response: urine output remains poor at approximately 10 ml/hr, urine remains": [
+      "E:note:row695419:21"
+    ],
+    "am cr level pending.": [
+      "E:note:row695419:22"
+    ],
+    "plan: follow urine output, labs, renally dose meds. ? appropriate abx cove": [
+      "E:note:row695419:23"
+    ],
+    "gastrointestinal bleed, upper (melena, gi bleed, gib) assessment: patient": [
+      "E:note:row695419:24"
+    ],
+    "inr 2 from this afternoon s/p 2 units ffp & 2 units prbc s.": [
+      "E:note:row695419:25"
+    ],
+    "oral secretions tinged with dark (old-appearing blood).": [
+      "E:note:row695419:26"
+    ],
+    "action: serial hct s collected q 6 hours.": [
+      "E:note:row695419:27"
+    ],
+    "coags monitored this evening.": [
+      "E:note:row695419:28"
+    ],
+    "administered iv protonix as ordered.": [
+      "E:note:row695419:29"
+    ],
+    "monitored for s/s bleeding.": [
+      "E:note:row695419:30"
+    ],
+    "maintained npo status.": [
+      "E:note:row695419:31"
+    ],
+    "response: 8 pm hct level 32.3, inr 1.8. 2 am hct level 32.3 .": [
+      "E:note:row695419:32"
+    ],
+    "no brbpr or melena noted.": [
+      "E:note:row695419:33"
+    ],
+    "continues to have blood-tinged oral secretions.": [
+      "E:note:row695419:34"
+    ],
+    "egd results report no sign of bleeding.": [
+      "E:note:row695419:35"
+    ],
+    "plan: continue to follow lab levels incuding hct, plts & coagulation levels.": [
+      "E:note:row695419:36"
+    ],
+    "continue to keep patient npo & administer protonix iv in [**hospital1 **] dosing": [
+      "E:note:row695419:37"
+    ],
+    "guiac stools.": [
+      "E:note:row695419:38"
+    ],
+    "respiratory failure, acute (not ards/[**doctor last name 76**]) assessment:": [
+      "E:note:row695419:39"
+    ],
+    "lungs cta bilaterally.": [
+      "E:note:row695419:40"
+    ],
+    "blood-tinged oral secretions suctioned frequently.": [
+      "E:note:row695419:41"
+    ],
+    "patient overbreathing vent by 5-8 bpm action: rrt increased fi 02 to 50": [
+      "E:note:row695419:42"
+    ],
+    "continued with q 2 hour oral care & suctioning given copious oral secretions.": [
+      "E:note:row695419:43"
+    ],
+    "fentanyl gtt increased from 25 to 50 mcg/hr to help patient from over-breathi": [
+      "E:note:row695419:44"
+    ],
+    "maintained hob @ 30 degrees.": [
+      "E:note:row695419:45"
+    ],
+    "empiric antibiotic coverage for potential aspiration in setting of intubation": [
+      "E:note:row695419:46"
+    ],
+    "response: lung sounds remains clear overnight.": [
+      "E:note:row695419:47"
+    ],
+    "slight decrease in oral secretions as shift progressed.": [
+      "E:note:row695419:48"
+    ],
+    "increasing fentanyl from 25 to 50 mcg/hr with no apparent effect on respirato": [
+      "E:note:row695419:49"
+    ],
+    "[**name (ni) 99**]: [**name2 (ni) 8681**] iv antibiotics.": [
+      "E:note:row695419:50"
+    ],
+    "continue vap protocol.": [
+      "E:note:row695419:51"
+    ],
+    "cont to monitor abg as obtained by rrt/md s (no aline).": [
+      "E:note:row695419:52"
+    ],
+    "diabetes mellitus (dm), type ii assessment: patient with a history of dm": [
+      "E:note:row695419:53"
+    ],
+    "response: administered amp d50%.": [
+      "E:note:row695419:54"
+    ],
+    "re-check bg level 95 by midnight. 06 am level: 84.": [
+      "E:note:row695419:55"
+    ],
+    "plan: continue close monitoring of bg levels. ? mixing iv antibiotics in d": [
+      "E:note:row695419:56"
+    ],
+    "impaired skin integrity assessment: -skin with finely cracked & flaky area": [
+      "E:note:row695419:57"
+    ],
+    "sloughing off especially notable in bilateral hands/fingers & feet/toes, also": [
+      "E:note:row695419:58"
+    ],
+    "at site of old ett tape), also some oral blisters. -received patient with": [
+      "E:note:row695419:59"
+    ],
+    "patient s entire back with pink/red hue that blanches; difficult to assess le": [
+      "E:note:row695419:60"
+    ],
+    "action: turned patient q 2 hours with frequent application of aloe vesta crea": [
+      "E:note:row695419:61"
+    ],
+    "maintained mp boots.": [
+      "E:note:row695419:62"
+    ],
+    "mepilex dressing monitored for integrity.": [
+      "E:note:row695419:63"
+    ],
+    "bilateral arms/hands elevated to attempt to diminish edema.": [
+      "E:note:row695419:64"
+    ],
+    "cleansing bath.": [
+      "E:note:row695419:65"
+    ],
+    "ett re-positioned & re- taped by rrt.": [
+      "E:note:row695419:66"
+    ],
+    "response: [**name2 (ni) **] worsening or deterioration noted in general skin": [
+      "E:note:row695419:67"
+    ],
+    "remains with generalized edema.": [
+      "E:note:row695419:68"
+    ],
+    "mepilex dressing intact.": [
+      "E:note:row695419:69"
+    ],
+    "tolerating turning and repositioning.": [
+      "E:note:row695419:70"
+    ],
+    "plan: continue skin care including turning and repositioning, application of": [
+      "E:note:row695419:71"
+    ],
+    "monitor integrity of mepilex dressing, to be changed on day # 3.": [
+      "E:note:row695419:72"
+    ]
+  },
+  "by_date": {
+    "2172-08-05": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:29",
+      "E:cond:30",
+      "E:cond:31",
+      "E:cond:32",
+      "E:cond:33",
+      "E:cond:34",
+      "E:cond:35",
+      "E:cond:36",
+      "E:cond:37",
+      "E:cond:38",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10"
+    ]
+  }
+}

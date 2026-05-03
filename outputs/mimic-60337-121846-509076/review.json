@@ -1,0 +1,56 @@
+{
+  "concerns": [
+    {
+      "sentence": "Multiple myeloma [E:cond:1][E:note:row509076:1], acute on chronic diastolic heart failure [E:cond:2], toxic encephalopathy [E:cond:3], and acute respiratory failure [E:cond:4][E:note:row509076:8].",
+      "severity": "medium",
+      "reason": "Citations E:note:row509076:1 and E:note:row509076:8 are not present in the provided fact sheet."
+    },
+    {
+      "sentence": "Severe sepsis [E:cond:7] with unspecified septicemia [E:cond:6], UTI [E:cond:12], and Enterococcus infection [E:cond:19].",
+      "severity": "medium",
+      "reason": "Enterococcus infection [E:cond:19] is not listed in the provided fact sheet."
+    },
+    {
+      "sentence": "Anoxic brain damage [E:cond:11], neutropenia [E:cond:21], and chemotherapy-induced mucositis [E:cond:22].",
+      "severity": "medium",
+      "reason": "Neutropenia [E:cond:21] and chemotherapy-induced mucositis [E:cond:22] are not listed in the provided fact sheet."
+    },
+    {
+      "sentence": "Pleural effusion [E:cond:13], hyperlipidemia [E:cond:17], and esophageal reflux [E:cond:18].",
+      "severity": "medium",
+      "reason": "Hyperlipidemia [E:cond:17] and esophageal reflux [E:cond:18] are not listed in the provided fact sheet."
+    },
+    {
+      "sentence": "Hypertensive heart and kidney disease [E:cond:8], cardiomyopathy [E:cond:9], atrial flutter [E:cond:10], and Afib [E:cond:16][E:note:row509076:13].",
+      "severity": "medium",
+      "reason": "Afib [E:cond:16] and citation E:note:row509076:13 are not present in the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Multiple myeloma [E:cond:1][E:note:row509076:1], acute on chronic diastolic heart failure [E:cond:2], toxic encephalopathy [E:cond:3], and acute respiratory failure [E:cond:4][E:note:row509076:8].",
+      "suggested": "Multiple myeloma [E:cond:1], acute on chronic diastolic heart failure [E:cond:2], toxic encephalopathy [E:cond:3], and acute respiratory failure [E:cond:4].",
+      "reason": "Remove citations not found in the fact sheet."
+    },
+    {
+      "original": "Severe sepsis [E:cond:7] with unspecified septicemia [E:cond:6], UTI [E:cond:12], and Enterococcus infection [E:cond:19].",
+      "suggested": "Severe sepsis [E:cond:7] with unspecified septicemia [E:cond:6] and UTI [E:cond:12].",
+      "reason": "Remove Enterococcus infection as it is not in the fact sheet."
+    },
+    {
+      "original": "Anoxic brain damage [E:cond:11], neutropenia [E:cond:21], and chemotherapy-induced mucositis [E:cond:22].",
+      "suggested": "Anoxic brain damage [E:cond:11].",
+      "reason": "Remove conditions not listed in the fact sheet."
+    },
+    {
+      "original": "Pleural effusion [E:cond:13], hyperlipidemia [E:cond:17], and esophageal reflux [E:cond:18].",
+      "suggested": "Pleural effusion [E:cond:13].",
+      "reason": "Remove conditions not listed in the fact sheet."
+    },
+    {
+      "original": "Hypertensive heart and kidney disease [E:cond:8], cardiomyopathy [E:cond:9], atrial flutter [E:cond:10], and Afib [E:cond:16][E:note:row509076:13].",
+      "suggested": "Hypertensive heart and kidney disease [E:cond:8], cardiomyopathy [E:cond:9], and atrial flutter [E:cond:10].",
+      "reason": "Remove Afib and associated citations not found in the fact sheet."
+    }
+  ]
+}

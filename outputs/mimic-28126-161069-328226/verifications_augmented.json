@@ -1,0 +1,251 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row328226:1"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Severe abdominal pain' as the Chief Complaint."
+    },
+    {
+      "claim_id": "C3",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row328226:2"
+      ],
+      "rationale": "The candidate evidence explicitly states that the CT scan revealed a large pelvic mass with peritoneal spread."
+    },
+    {
+      "claim_id": "C5",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "While E:cond:2 notes an intestinal obstruction on the correct date, there is no mention of a CT scan or the specific 'high grade' severity."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row328226:3"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient underwent ultrasound guided drainage."
+    },
+    {
+      "claim_id": "C7",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided evidence describes a blood transfusion and does not contain any information regarding cytology reports or adenocarcinoma."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list procedures like total abdominal hysterectomy and removal of ovaries/tubes, but does not explicitly confirm a combined TAH BSO with small bowel resection, sigmoid resection, and omentectomy."
+    },
+    {
+      "claim_id": "C9",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row328226:6"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Tachycardia, Other' under the assessment section."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row328226:6",
+        "E:note:row328226:18"
+      ],
+      "rationale": "Both candidates explicitly state the heart rate (ST) as 120s-130s."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row328226:6"
+      ],
+      "rationale": "The candidate evidence explicitly states 'BP 100s-110s', which matches the claim."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row328226:6"
+      ],
+      "rationale": "The candidate evidence explicitly states 'cvp 3-5', which matches the claim."
+    },
+    {
+      "claim_id": "C14",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C15",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C16",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C17",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C18",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C19",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C20",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row328226:7"
+      ],
+      "rationale": "The evidence explicitly states 'cvp 8-10'."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row328226:8"
+      ],
+      "rationale": "The candidate evidence explicitly lists '?PE' under the 'Plan' section."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row328226:9"
+      ],
+      "rationale": "The candidate evidence explicitly mentions the administration of 'versed and fent gtts'."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row328226:13"
+      ],
+      "rationale": "The candidate evidence explicitly states the current vent setting as CMV/40%/450/14/5."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row328226:13",
+        "E:note:row328226:17"
+      ],
+      "rationale": "Both candidate evidence items explicitly state the O2 saturation is 98-100%."
+    },
+    {
+      "claim_id": "C26",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row328226:15"
+      ],
+      "rationale": "The candidate evidence explicitly states the current temperature is 99.3ax."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row328226:6",
+        "E:note:row328226:18"
+      ],
+      "rationale": "Both candidate evidence items explicitly state the heart rate (ST) as 120s-130s."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row328226:18"
+      ],
+      "rationale": "The candidate evidence explicitly states 'BP 110s', which matches the claim."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row328226:20"
+      ],
+      "rationale": "The candidate evidence explicitly states 'NGT to low wall suction'."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row328226:21"
+      ],
+      "rationale": "The evidence explicitly mentions the Foley catheter is patent and draining."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row328226:21"
+      ],
+      "rationale": "The candidate evidence explicitly states the urine output is approx 50cc/hr."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row328226:22"
+      ],
+      "rationale": "The evidence explicitly lists 'R TL IJ' under the patient's access."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row328226:22"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'R aline' under the patient's access."
+    }
+  ]
+}

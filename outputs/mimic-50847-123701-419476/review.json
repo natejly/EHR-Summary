@@ -1,0 +1,31 @@
+{
+  "concerns": [
+    {
+      "sentence": "Patient presents with acute and subacute bacterial endocarditis [E:cond:1][E:note:row419476:22], staphylococcal septicemia [E:cond:3], sepsis [E:cond:4], and high grade bacteremia [E:note:row419476:7].",
+      "severity": "medium",
+      "reason": "The term 'high grade bacteremia' is an interpretation; the fact sheet only states 'bc pos for GPC in pairs +clusters'."
+    },
+    {
+      "sentence": "Cardiac issues include acute diastolic heart failure [E:cond:2], worsening heart failure [E:cond:2][E:cond:14], ventricular fibrillation [E:cond:6], and severe AR with flail leaflet [E:note:row419476:9].",
+      "severity": "medium",
+      "reason": "The term 'worsening' is an interpretation not explicitly stated in the fact sheet for heart failure."
+    },
+    {
+      "sentence": "Aortic valve disorders include congenital insufficiency [E:cond:8] and malformation [E:note:row419476:10], with a possible annulus abscess [E:note:row419476:9].",
+      "severity": "low",
+      "reason": "The fact sheet does not explicitly list 'malformation' or 'annulus abscess' in the provided snippets, though they are cited to the note."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Patient presents with acute and subacute bacterial endocarditis [E:cond:1][E:note:row419476:22], staphylococcal septicemia [E:cond:3], sepsis [E:cond:4], and high grade bacteremia [E:note:row419476:7].",
+      "suggested": "Patient presents with acute and subacute bacterial endocarditis [E:cond:1][E:note:row419476:22], staphylococcal septicemia [E:cond:3], sepsis [E:cond:4], and blood cultures positive for GPC in pairs and clusters [E:note:row419476:7].",
+      "reason": "Replace interpretative 'high grade bacteremia' with the specific lab finding."
+    },
+    {
+      "original": "Cardiac issues include acute diastolic heart failure [E:cond:2], worsening heart failure [E:cond:2][E:cond:14], ventricular fibrillation [E:cond:6], and severe AR with flail leaflet [E:note:row419476:9].",
+      "suggested": "Cardiac issues include acute diastolic heart failure [E:cond:2], congestive heart failure [E:cond:14], ventricular fibrillation [E:cond:6], and severe AR with flail leaflet [E:note:row419476:9].",
+      "reason": "Remove 'worsening' as it is not supported by the provided text."
+    }
+  ]
+}

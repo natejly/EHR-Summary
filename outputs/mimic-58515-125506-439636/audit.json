@@ -1,0 +1,134 @@
+{
+  "case_id": "mimic-58515-125506-439636",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2266,
+    "summary_chars": 939,
+    "target_min_chars": 453,
+    "target_max_chars": 679,
+    "achieved_ratio": 0.41438658428949693,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 11,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row439636:13",
+      "E:note:row439636:14",
+      "E:note:row439636:17",
+      "E:note:row439636:19",
+      "E:note:row439636:2",
+      "E:note:row439636:20",
+      "E:note:row439636:21",
+      "E:note:row439636:22",
+      "E:note:row439636:6"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "DM II [E:note:row439636:6], HTN [E:note:row439636:6], and congenital deafness [E:note:row439636:6].",
+        "severity": "high",
+        "reason": "The citations for DM II, HTN, and congenital deafness point to a single note row, but these specific conditions are not listed in the provided fact sheet evidence for that row or elsewhere."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "DM II [E:note:row439636:6], HTN [E:note:row439636:6], and congenital deafness [E:note:row439636:6].",
+        "suggested": "DM II [E:cond:15].",
+        "reason": "Remove unsupported conditions (HTN, deafness) and correct the citation for DM II based on the fact sheet."
+      }
+    ]
+  },
+  "review_passed": false,
+  "review_concern_counts": {
+    "high": 1,
+    "medium": 0,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-58515-125506-439636/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 5.68,
+    "fk_words": 221,
+    "fk_sentences": 22,
+    "fk_syllables": 325,
+    "chars": 1922,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-58515-125506-439636/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0022224169806577265,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 77.21103187504923,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 125.83911079197424,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0013615419738925993,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 16.215879124996718,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 10.91284966695821,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0036122919991612434,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 7.491299416986294,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

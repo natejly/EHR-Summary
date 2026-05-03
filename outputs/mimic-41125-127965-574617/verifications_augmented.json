@@ -1,0 +1,360 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C2",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:4"
+      ],
+      "rationale": "The evidence explicitly states the patient has continued to have fever."
+    },
+    {
+      "claim_id": "C4",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C5",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:2"
+      ],
+      "rationale": "The evidence explicitly states the patient was 'Ruled in for NSTEMI' at the time of transfer."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:2"
+      ],
+      "rationale": "The evidence explicitly states the patient was intubated for pul edema at the time of transfer."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:2"
+      ],
+      "rationale": "The evidence explicitly states the patient was intubated for pulmonary edema at the time of transfer."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:3"
+      ],
+      "rationale": "The evidence explicitly states the patient was extubated on 6-21."
+    },
+    {
+      "claim_id": "C10",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:2"
+      ],
+      "rationale": "The evidence explicitly states the patient was intubated for pul edema."
+    },
+    {
+      "claim_id": "C12",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:4"
+      ],
+      "rationale": "The evidence explicitly states the patient has continued to have a fever."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:4"
+      ],
+      "rationale": "The evidence explicitly states the patient has a CXR showing PNA on R."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:4",
+        "E:note:row574617:35"
+      ],
+      "rationale": "Both evidence items explicitly state that antibiotics are being used or continued."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:5"
+      ],
+      "rationale": "The note explicitly states the patient is status post (S/P) cardiac cath on 6-22."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:5"
+      ],
+      "rationale": "The evidence explicitly states a PCWP of 15 on 6-22."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:5"
+      ],
+      "rationale": "The candidate evidence explicitly states a CO of 4.8 on 6-22."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:5"
+      ],
+      "rationale": "The candidate evidence explicitly states a CI of 2.25 on 6-22."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:6"
+      ],
+      "rationale": "The candidate evidence explicitly lists the diagnosis of Acute coronary syndrome (ACS, unstable angina, coronary ischemia) in the assessment section."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:7"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has a heart rate in the 60s with sinus rhythm (HR 60s SR)."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:7"
+      ],
+      "rationale": "The candidate evidence explicitly states the blood pressure is 120s/70s."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:8"
+      ],
+      "rationale": "The candidate evidence explicitly states 'K 3.0 this AM', which directly matches the claim."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:9",
+        "E:note:row574617:17"
+      ],
+      "rationale": "Both evidence items explicitly state that IV heparin is currently off."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:9"
+      ],
+      "rationale": "The evidence explicitly lists 'po lopressor' as part of the patient's medical management."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:9"
+      ],
+      "rationale": "The evidence explicitly lists ASA as part of the patient's current medical management."
+    },
+    {
+      "claim_id": "C27",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C28",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C29",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:10"
+      ],
+      "rationale": "The evidence explicitly states that an IV NaHCO3 bolus was given 1 hr pre-cath."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:proc:2"
+      ],
+      "rationale": "The candidate E:proc:2 explicitly records a 'Combined right and left heart cardiac catheterization', which matches the claim."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:5"
+      ],
+      "rationale": "The candidate evidence explicitly states a PCWP of 15."
+    },
+    {
+      "claim_id": "C33",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:5"
+      ],
+      "rationale": "The candidate evidence explicitly states a Cardiac Index (CI) of 2.25."
+    },
+    {
+      "claim_id": "C35",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C36",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:20"
+      ],
+      "rationale": "The candidate evidence explicitly states the requirement for strict bedrest until 21:20."
+    },
+    {
+      "claim_id": "C37",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:22"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Pneumonia, bacterial, community acquired (CAP)' in the assessment section."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:23"
+      ],
+      "rationale": "The candidate evidence explicitly states the same SPO2 value and oxygen delivery settings as the claim."
+    },
+    {
+      "claim_id": "C39",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:25"
+      ],
+      "rationale": "The candidate evidence explicitly states the same Tmax value and route for the shift."
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:26"
+      ],
+      "rationale": "The candidate evidence explicitly states the WBC value is 6.7."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:31"
+      ],
+      "rationale": "The candidate evidence explicitly states the medication, dose, and indication matching the claim."
+    },
+    {
+      "claim_id": "C42",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:37"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Renal failure, acute (Acute renal failure, ARF)' in the assessment section."
+    },
+    {
+      "claim_id": "C43",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:37"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Creat 2.0' in the assessment section."
+    },
+    {
+      "claim_id": "C44",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:38"
+      ],
+      "rationale": "The candidate evidence explicitly states the same urine output (UOP) range of 35-100ml/hr."
+    },
+    {
+      "claim_id": "C45",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:40"
+      ],
+      "rationale": "The candidate evidence explicitly states that 2 doses of mucomyst were recommended pre-cath."
+    },
+    {
+      "claim_id": "C46",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:41"
+      ],
+      "rationale": "The candidate evidence explicitly states the recommendation for an IV NaHCO3 bolus followed by a drip."
+    },
+    {
+      "claim_id": "C47",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row574617:42"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Stable Creat 1.8 @ 14:00', which matches the claim exactly."
+    }
+  ]
+}

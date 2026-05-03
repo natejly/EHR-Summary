@@ -1,0 +1,400 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:1",
+        "E:cond:2"
+      ],
+      "rationale": "The patient has a documented diagnosis of biliary cirrhosis in the structured condition records."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:1"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'portal htn' as part of the patient's past medical history."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:1"
+      ],
+      "rationale": "The candidate evidence explicitly lists portal gastropathy as part of the patient's past medical history."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:21",
+        "E:cond:22"
+      ],
+      "rationale": "The patient's condition list explicitly includes 'Other ascites' as a diagnosis."
+    },
+    {
+      "claim_id": "C5",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate evidence items mention Coronary Artery Disease (CAD), Myocardial Infarction (MI), PTCA, or CABG."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:23",
+        "E:cond:24"
+      ],
+      "rationale": "Both candidate evidence items explicitly list 'Chronic systolic heart failure' as a condition for the patient."
+    },
+    {
+      "claim_id": "C7",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C9",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence items refer to inguinal hernia, not recurrent cholangitis."
+    },
+    {
+      "claim_id": "C10",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:55",
+        "E:cond:56"
+      ],
+      "rationale": "The patient has two recorded diagnoses of pure hypercholesterolemia, which matches the claim of hyperchol."
+    },
+    {
+      "claim_id": "C13",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The evidence mentions 'portal htn' (portal hypertension), which is a specific condition of the liver system and distinct from systemic hypertension (htn)."
+    },
+    {
+      "claim_id": "C14",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate evidence items mention Raynaud's phenomenon or amputations of fingers and toes."
+    },
+    {
+      "claim_id": "C15",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:25",
+        "E:cond:26"
+      ],
+      "rationale": "The candidates explicitly list 'Stricture and stenosis of esophagus' as a condition."
+    },
+    {
+      "claim_id": "C17",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C18",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:2"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Gastrointestinal bleed, other (GI Bleed, GIB)' under the assessment."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:10"
+      ],
+      "rationale": "The evidence states there has been no 'further' hemoptysis, implying that hemoptysis had occurred previously."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:5"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Diarrhea which is hem neg.', matching the claim exactly."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:6"
+      ],
+      "rationale": "The evidence explicitly lists 'Octreotide bolus' as an action for the patient."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:6"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'octreotide gtt' as part of the action plan."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:6"
+      ],
+      "rationale": "The evidence explicitly lists 'protonix bolus (on floor)' as an action."
+    },
+    {
+      "claim_id": "C25",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C26",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C27",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:7"
+      ],
+      "rationale": "The candidate evidence explicitly states that an EGD was performed with 3 varices banded."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:7"
+      ],
+      "rationale": "The candidate evidence explicitly states that '3 new PIV s placed'."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:8"
+      ],
+      "rationale": "The candidate evidence explicitly mentions 'Pneumoboots', supporting the claim that the patient underwent this procedure."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:9"
+      ],
+      "rationale": "The candidate evidence explicitly states the Hct value is 27.4."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:11"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Serial hcts' as part of the plan."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:11"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'assess for S & S of bleeding' as part of the plan."
+    },
+    {
+      "claim_id": "C34",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence contains only condition diagnoses and no information regarding medications or treatment plans for protonix and octreotide."
+    },
+    {
+      "claim_id": "C35",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:12"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was diagnosed with spontaneous bacterial peritonitis (SBP)."
+    },
+    {
+      "claim_id": "C36",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:12"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Diagnosed [**1-5**]' in the assessment for spontaneous bacterial peritonitis."
+    },
+    {
+      "claim_id": "C37",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:13"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has been on aztreonam and that it is now discontinued."
+    },
+    {
+      "claim_id": "C39",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:13"
+      ],
+      "rationale": "The evidence explicitly states the patient has been on fluconazole."
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:13"
+      ],
+      "rationale": "The candidate evidence explicitly states that the WBC continues to elevate."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:14"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient was 'Tapped on [**1-10**]'."
+    },
+    {
+      "claim_id": "C42",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:14"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was found to have GNR."
+    },
+    {
+      "claim_id": "C43",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:14"
+      ],
+      "rationale": "The evidence explicitly states the patient was started on meropenum."
+    },
+    {
+      "claim_id": "C44",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:14"
+      ],
+      "rationale": "The evidence explicitly states the patient was started on vanco."
+    },
+    {
+      "claim_id": "C45",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:15"
+      ],
+      "rationale": "The evidence explicitly states the patient 'Has abd discomfort'."
+    },
+    {
+      "claim_id": "C46",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:51",
+        "E:cond:52"
+      ],
+      "rationale": "The patient's condition list explicitly includes inguinal hernia."
+    },
+    {
+      "claim_id": "C47",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:16"
+      ],
+      "rationale": "The evidence explicitly states the patient has moderate pain with activity due to an inguinal hernia."
+    },
+    {
+      "claim_id": "C48",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:19"
+      ],
+      "rationale": "The candidate evidence explicitly states that the inguinal hernia support strap is in place."
+    },
+    {
+      "claim_id": "C49",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:21"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to retap when appropriate."
+    },
+    {
+      "claim_id": "C50",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:21"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to 'cont abx as ordered'."
+    },
+    {
+      "claim_id": "C51",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:22"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to trend WBC and temperature trends."
+    },
+    {
+      "claim_id": "C52",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row357513:23"
+      ],
+      "rationale": "The candidate evidence contains the exact phrase 'Cont to assess changes in abd status.'"
+    },
+    {
+      "claim_id": "C53",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate conditions mention altered mental status or delirium."
+    }
+  ]
+}

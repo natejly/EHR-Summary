@@ -1,0 +1,1970 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-27022-196712",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-27022",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-27022",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-196712",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-196712",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2185-01-03T00:00:00",
+          "end": "2185-02-05T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5716",
+              "display": "Biliary cirrhosis"
+            }
+          ],
+          "text": "Biliary cirrhosis"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5716",
+              "display": "Biliary cirrhosis"
+            }
+          ],
+          "text": "Biliary cirrhosis"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5070",
+              "display": "Pneumonitis due to inhalation of food or vomitus"
+            }
+          ],
+          "text": "Pneumonitis due to inhalation of food or vomitus"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5070",
+              "display": "Pneumonitis due to inhalation of food or vomitus"
+            }
+          ],
+          "text": "Pneumonitis due to inhalation of food or vomitus"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "45620",
+              "display": "Esophageal varices in diseases classified elsewhere, with bleeding"
+            }
+          ],
+          "text": "Esophageal varices in diseases classified elsewhere, with bleeding"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "45620",
+              "display": "Esophageal varices in diseases classified elsewhere, with bleeding"
+            }
+          ],
+          "text": "Esophageal varices in diseases classified elsewhere, with bleeding"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2851",
+              "display": "Acute posthemorrhagic anemia"
+            }
+          ],
+          "text": "Acute posthemorrhagic anemia"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2851",
+              "display": "Acute posthemorrhagic anemia"
+            }
+          ],
+          "text": "Acute posthemorrhagic anemia"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2639",
+              "display": "Unspecified protein-calorie malnutrition"
+            }
+          ],
+          "text": "Unspecified protein-calorie malnutrition"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2639",
+              "display": "Unspecified protein-calorie malnutrition"
+            }
+          ],
+          "text": "Unspecified protein-calorie malnutrition"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "11289",
+              "display": "Other candidiasis of other specified sites"
+            }
+          ],
+          "text": "Other candidiasis of other specified sites"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "11289",
+              "display": "Other candidiasis of other specified sites"
+            }
+          ],
+          "text": "Other candidiasis of other specified sites"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "56729",
+              "display": "Other suppurative peritonitis"
+            }
+          ],
+          "text": "Other suppurative peritonitis"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "56729",
+              "display": "Other suppurative peritonitis"
+            }
+          ],
+          "text": "Other suppurative peritonitis"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5185",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5185",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2760",
+              "display": "Hyperosmolality and/or hypernatremia"
+            }
+          ],
+          "text": "Hyperosmolality and/or hypernatremia"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2760",
+              "display": "Hyperosmolality and/or hypernatremia"
+            }
+          ],
+          "text": "Hyperosmolality and/or hypernatremia"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78959",
+              "display": "Other ascites"
+            }
+          ],
+          "text": "Other ascites"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78959",
+              "display": "Other ascites"
+            }
+          ],
+          "text": "Other ascites"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42822",
+              "display": "Chronic systolic heart failure"
+            }
+          ],
+          "text": "Chronic systolic heart failure"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42822",
+              "display": "Chronic systolic heart failure"
+            }
+          ],
+          "text": "Chronic systolic heart failure"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5303",
+              "display": "Stricture and stenosis of esophagus"
+            }
+          ],
+          "text": "Stricture and stenosis of esophagus"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5303",
+              "display": "Stricture and stenosis of esophagus"
+            }
+          ],
+          "text": "Stricture and stenosis of esophagus"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4983",
+              "display": "Awaiting organ transplant status"
+            }
+          ],
+          "text": "Awaiting organ transplant status"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4983",
+              "display": "Awaiting organ transplant status"
+            }
+          ],
+          "text": "Awaiting organ transplant status"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5723",
+              "display": "Portal hypertension"
+            }
+          ],
+          "text": "Portal hypertension"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5723",
+              "display": "Portal hypertension"
+            }
+          ],
+          "text": "Portal hypertension"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5762",
+              "display": "Obstruction of bile duct"
+            }
+          ],
+          "text": "Obstruction of bile duct"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5762",
+              "display": "Obstruction of bile duct"
+            }
+          ],
+          "text": "Obstruction of bile duct"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4580",
+              "display": "Orthostatic hypotension"
+            }
+          ],
+          "text": "Orthostatic hypotension"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4580",
+              "display": "Orthostatic hypotension"
+            }
+          ],
+          "text": "Orthostatic hypotension"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "53019",
+              "display": "Other esophagitis"
+            }
+          ],
+          "text": "Other esophagitis"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "53019",
+              "display": "Other esophagitis"
+            }
+          ],
+          "text": "Other esophagitis"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0414",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0414",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "53081",
+              "display": "Esophageal reflux"
+            }
+          ],
+          "text": "Esophageal reflux"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "53081",
+              "display": "Esophageal reflux"
+            }
+          ],
+          "text": "Esophageal reflux"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78722",
+              "display": "Dysphagia, oropharyngeal phase"
+            }
+          ],
+          "text": "Dysphagia, oropharyngeal phase"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78722",
+              "display": "Dysphagia, oropharyngeal phase"
+            }
+          ],
+          "text": "Dysphagia, oropharyngeal phase"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41400",
+              "display": "Coronary atherosclerosis of unspecified type of vessel, native or graft"
+            }
+          ],
+          "text": "Coronary atherosclerosis of unspecified type of vessel, native or graft"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41400",
+              "display": "Coronary atherosclerosis of unspecified type of vessel, native or graft"
+            }
+          ],
+          "text": "Coronary atherosclerosis of unspecified type of vessel, native or graft"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-24",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-24",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4582",
+              "display": "Percutaneous transluminal coronary angioplasty status"
+            }
+          ],
+          "text": "Percutaneous transluminal coronary angioplasty status"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-24",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-24",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4582",
+              "display": "Percutaneous transluminal coronary angioplasty status"
+            }
+          ],
+          "text": "Percutaneous transluminal coronary angioplasty status"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-25",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-25",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4581",
+              "display": "Aortocoronary bypass status"
+            }
+          ],
+          "text": "Aortocoronary bypass status"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-25",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-25",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4581",
+              "display": "Aortocoronary bypass status"
+            }
+          ],
+          "text": "Aortocoronary bypass status"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-26",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-26",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "55090",
+              "display": "Inguinal hernia, without mention of obstruction or gangrene, unilateral or unspecified (not specified as recurrent)"
+            }
+          ],
+          "text": "Inguinal hernia, without mention of obstruction or gangrene, unilateral or unspecified (not specified as recurrent)"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-26",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-26",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "55090",
+              "display": "Inguinal hernia, without mention of obstruction or gangrene, unilateral or unspecified (not specified as recurrent)"
+            }
+          ],
+          "text": "Inguinal hernia, without mention of obstruction or gangrene, unilateral or unspecified (not specified as recurrent)"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-27",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-27",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "412",
+              "display": "Old myocardial infarction"
+            }
+          ],
+          "text": "Old myocardial infarction"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-27",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-27",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "412",
+              "display": "Old myocardial infarction"
+            }
+          ],
+          "text": "Old myocardial infarction"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-28",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-28",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2720",
+              "display": "Pure hypercholesterolemia"
+            }
+          ],
+          "text": "Pure hypercholesterolemia"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-28",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-28",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2720",
+              "display": "Pure hypercholesterolemia"
+            }
+          ],
+          "text": "Pure hypercholesterolemia"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-29",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-29",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-29",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-29",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-30",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-30",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "32723",
+              "display": "Obstructive sleep apnea (adult)(pediatric)"
+            }
+          ],
+          "text": "Obstructive sleep apnea (adult)(pediatric)"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-30",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-30",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "32723",
+              "display": "Obstructive sleep apnea (adult)(pediatric)"
+            }
+          ],
+          "text": "Obstructive sleep apnea (adult)(pediatric)"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-31",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-31",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V667",
+              "display": "Encounter for palliative care"
+            }
+          ],
+          "text": "Encounter for palliative care"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-196712-31",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-196712-31",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V667",
+              "display": "Encounter for palliative care"
+            }
+          ],
+          "text": "Encounter for palliative care"
+        },
+        "onsetDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-1",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-1",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-2",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-2",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-3",
+        "status": "completed",
+        "code": {
+          "text": "Endoscopic excision or destruction of lesion or tissue of esophagus"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-3",
+        "status": "completed",
+        "code": {
+          "text": "Endoscopic excision or destruction of lesion or tissue of esophagus"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-4",
+        "status": "completed",
+        "code": {
+          "text": "Esophagogastroduodenoscopy [EGD] with closed biopsy"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-4",
+        "status": "completed",
+        "code": {
+          "text": "Esophagogastroduodenoscopy [EGD] with closed biopsy"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-5",
+        "status": "completed",
+        "code": {
+          "text": "Endoscopic excision or destruction of lesion or tissue of esophagus"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-5",
+        "status": "completed",
+        "code": {
+          "text": "Endoscopic excision or destruction of lesion or tissue of esophagus"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-6",
+        "status": "completed",
+        "code": {
+          "text": "Other endoscopy of small intestine"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-6",
+        "status": "completed",
+        "code": {
+          "text": "Other endoscopy of small intestine"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-7",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-7",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-8",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-8",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-9",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-9",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-10",
+        "status": "completed",
+        "code": {
+          "text": "Other cholangiogram"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-10",
+        "status": "completed",
+        "code": {
+          "text": "Other cholangiogram"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-11",
+        "status": "completed",
+        "code": {
+          "text": "Removal of T-tube, other bile duct tube, or liver tube"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-11",
+        "status": "completed",
+        "code": {
+          "text": "Removal of T-tube, other bile duct tube, or liver tube"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-12",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of packed cells"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-12",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of packed cells"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-13",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of other serum"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-13",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of other serum"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-14",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-14",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of platelets"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-14",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-14",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of platelets"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-15",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-15",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-15",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-15",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-16",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-16",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-196712-16",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-196712-16",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2185-01-03"
+      }
+    }
+  ]
+}

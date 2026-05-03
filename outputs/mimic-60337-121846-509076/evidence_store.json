@@ -1,0 +1,1245 @@
+{
+  "case_id": "mimic-60337-121846-509076",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "URGENT",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:enc-121846",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Multiple myeloma, without mention of having achieved remission",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "20300",
+        "display": "Multiple myeloma, without mention of having achieved remission"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute on chronic diastolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42833",
+        "display": "Acute on chronic diastolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Toxic encephalopathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34982",
+        "display": "Toxic encephalopathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Acute kidney failure with lesion of tubular necrosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5845",
+        "display": "Acute kidney failure with lesion of tubular necrosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Unspecified septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0389",
+        "display": "Unspecified septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Hypertensive heart and chronic kidney disease, unspecified, with heart failure and with chronic kidney disease stage I through stage IV, or unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "40491",
+        "display": "Hypertensive heart and chronic kidney disease, unspecified, with heart failure and with chronic kidney disease stage I through stage IV, or unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Cardiomyopathy in other diseases classified elsewhere",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4258",
+        "display": "Cardiomyopathy in other diseases classified elsewhere"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Atrial flutter",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42732",
+        "display": "Atrial flutter"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Anoxic brain damage",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3481",
+        "display": "Anoxic brain damage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Urinary tract infection, site not specified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5990",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Unspecified pleural effusion",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5119",
+        "display": "Unspecified pleural effusion"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Chronic kidney disease, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5859",
+        "display": "Chronic kidney disease, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Other and unspecified hyperlipidemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2724",
+        "display": "Other and unspecified hyperlipidemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Esophageal reflux",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53081",
+        "display": "Esophageal reflux"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group D [Enterococcus]",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "04104",
+        "display": "Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group D [Enterococcus]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Infection with microorganisms without mention of resistance to multiple drugs",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V0980",
+        "display": "Infection with microorganisms without mention of resistance to multiple drugs"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Neutropenia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "28800",
+        "display": "Neutropenia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Mucositis (ulcerative) due to antineoplastic therapy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "52801",
+        "display": "Mucositis (ulcerative) due to antineoplastic therapy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Fever presenting with conditions classified elsewhere",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78061",
+        "display": "Fever presenting with conditions classified elsewhere"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2874",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:cond-121846-24",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Autologous hematopoietic stem cell transplant without purging",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Autologous hematopoietic stem cell transplant without purging"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:proc-121846-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Injection or infusion of cancer chemotherapeutic substance",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Injection or infusion of cancer chemotherapeutic substance"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:proc-121846-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:proc-121846-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:proc-121846-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:proc-121846-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:proc-121846-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:proc-121846-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:proc-121846-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Pulmonary artery wedge monitoring",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Pulmonary artery wedge monitoring"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:proc-121846-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Thoracentesis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Thoracentesis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:proc-121846-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Parenteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Parenteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:proc-121846-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:proc-121846-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Spinal tap",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Spinal tap"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:proc-121846-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:14",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:proc-121846-14",
+      "text": null
+    },
+    {
+      "id": "E:proc:15",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:proc-121846-15",
+      "text": null
+    },
+    {
+      "id": "E:proc:16",
+      "kind": "procedure",
+      "display": "Spinal tap",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Spinal tap"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:proc-121846-16",
+      "text": null
+    },
+    {
+      "id": "E:proc:17",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2112-01-18",
+      "source_ref": "urn:uuid:proc-121846-17",
+      "text": null
+    },
+    {
+      "id": "E:note:row509076:1",
+      "kind": "note_sentence",
+      "display": "75-year-old woman with history of hypertension and multiple myeloma    presents ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s1",
+      "text": "75-year-old woman with history of hypertension and multiple myeloma    presents to ICU with tachycardia to 180s this AM in setting of multiple    refractory episodes of atrial fibrillation with RVR earlier in hospital    course."
+    },
+    {
+      "id": "E:note:row509076:2",
+      "kind": "note_sentence",
+      "display": "Altered mental status (not Delirium)    Assessment:    Pt with labile MS, per 7F",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s2",
+      "text": "Altered mental status (not Delirium)    Assessment:    Pt with labile MS, per 7F report patient has been nonverbal for several    days due to mucosal irritation; MS has been progressively worsening, on    assessment patient sedated on fentanyl/versed."
+    },
+    {
+      "id": "E:note:row509076:3",
+      "kind": "note_sentence",
+      "display": "Arousable to stimuli    with periods of increased alertness.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s3",
+      "text": "Arousable to stimuli    with periods of increased alertness."
+    },
+    {
+      "id": "E:note:row509076:4",
+      "kind": "note_sentence",
+      "display": "Appears uncomfortable w/mouth care    and general care.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s4",
+      "text": "Appears uncomfortable w/mouth care    and general care."
+    },
+    {
+      "id": "E:note:row509076:5",
+      "kind": "note_sentence",
+      "display": "Does not follow commands.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s5",
+      "text": "Does not follow commands."
+    },
+    {
+      "id": "E:note:row509076:6",
+      "kind": "note_sentence",
+      "display": "Action:    Reoriented frequently, requires additional boluses of fentanyl/versed",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s6",
+      "text": "Action:    Reoriented frequently, requires additional boluses of fentanyl/versed    w/mouth care and/or general care."
+    },
+    {
+      "id": "E:note:row509076:7",
+      "kind": "note_sentence",
+      "display": "Response:    Ongoing    Plan:    Continue to reorient frequently, wean sedation ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s7",
+      "text": "Response:    Ongoing    Plan:    Continue to reorient frequently, wean sedation as tolerated."
+    },
+    {
+      "id": "E:note:row509076:8",
+      "kind": "note_sentence",
+      "display": "Respiratory failure    Assessment:    Received patient intubated and vented.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s8",
+      "text": "Respiratory failure    Assessment:    Received patient intubated and vented."
+    },
+    {
+      "id": "E:note:row509076:9",
+      "kind": "note_sentence",
+      "display": "Patient vented on PSV 40% 14/5,    on assessment breath sounds clear diminished ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s9",
+      "text": "Patient vented on PSV 40% 14/5,    on assessment breath sounds clear diminished at the bases."
+    },
+    {
+      "id": "E:note:row509076:10",
+      "kind": "note_sentence",
+      "display": "Unlabored    breathing.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s10",
+      "text": "Unlabored    breathing."
+    },
+    {
+      "id": "E:note:row509076:11",
+      "kind": "note_sentence",
+      "display": "Thick bloody secretions suctioned orally and via ETT.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s11",
+      "text": "Thick bloody secretions suctioned orally and via ETT."
+    },
+    {
+      "id": "E:note:row509076:12",
+      "kind": "note_sentence",
+      "display": "Action:    Continue w/mechanical ventilation, VAP precautions, mouth care q4hr a",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s12",
+      "text": "Action:    Continue w/mechanical ventilation, VAP precautions, mouth care q4hr and    PRN. [**3-9**] severe mucositis mouth care done w/[**First Name9 (NamePattern2) 12360**]    [**Male First Name (un) **]/nystatin/lidocaine (q2hr)    Response:    ongoing    Plan:    Continue to monitor patient resp status, f/u AM CXR, wean off vent as    tolerated."
+    },
+    {
+      "id": "E:note:row509076:13",
+      "kind": "note_sentence",
+      "display": "Atrial fibrillation (Afib)    Assessment:    Received patient in Afib at 80-110 ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s13",
+      "text": "Atrial fibrillation (Afib)    Assessment:    Received patient in Afib at 80-110 s, b/p 100-140 s."
+    },
+    {
+      "id": "E:note:row509076:14",
+      "kind": "note_sentence",
+      "display": "On diltiazem q6hr    and lopressor [**Hospital1 7**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s14",
+      "text": "On diltiazem q6hr    and lopressor [**Hospital1 7**]."
+    },
+    {
+      "id": "E:note:row509076:15",
+      "kind": "note_sentence",
+      "display": "On assessment peripheral pulses present.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s15",
+      "text": "On assessment peripheral pulses present."
+    },
+    {
+      "id": "E:note:row509076:16",
+      "kind": "note_sentence",
+      "display": "Mild    general edema.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s16",
+      "text": "Mild    general edema."
+    },
+    {
+      "id": "E:note:row509076:17",
+      "kind": "note_sentence",
+      "display": "Action:    Telemetry, meds ASDIR, control pain and agitation.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s17",
+      "text": "Action:    Telemetry, meds ASDIR, control pain and agitation."
+    },
+    {
+      "id": "E:note:row509076:18",
+      "kind": "note_sentence",
+      "display": "Response:    Pt continues to have increased HR with fevers, agitation/mouth    c",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s18",
+      "text": "Response:    Pt continues to have increased HR with fevers, agitation/mouth    care/general care."
+    },
+    {
+      "id": "E:note:row509076:19",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue to monitor patient hemodynamic status, continue to rate    con",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s19",
+      "text": "Plan:    Continue to monitor patient hemodynamic status, continue to rate    control    Multiple myeloma  (Cancer, Malignant Neoplasm)    Assessment:    Patient is SCT day +11."
+    },
+    {
+      "id": "E:note:row509076:20",
+      "kind": "note_sentence",
+      "display": "Tmax 100.6 ax.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s20",
+      "text": "Tmax 100.6 ax."
+    },
+    {
+      "id": "E:note:row509076:21",
+      "kind": "note_sentence",
+      "display": "Pan cultured again yesterday    Action:    Monitor counts, trend temp.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s21",
+      "text": "Pan cultured again yesterday    Action:    Monitor counts, trend temp."
+    },
+    {
+      "id": "E:note:row509076:22",
+      "kind": "note_sentence",
+      "display": "ABX ASDIR, f/u cultures, Tylenol.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s22",
+      "text": "ABX ASDIR, f/u cultures, Tylenol."
+    },
+    {
+      "id": "E:note:row509076:23",
+      "kind": "note_sentence",
+      "display": "Response:    Plan:    Continue to monitor patient s counts, f/u cx data, abx ASD",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s23",
+      "text": "Response:    Plan:    Continue to monitor patient s counts, f/u cx data, abx ASDIR."
+    },
+    {
+      "id": "E:note:row509076:24",
+      "kind": "note_sentence",
+      "display": "Transfuse    as needed    GI: abd soft slightly distended positive for hypoactiv",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s24",
+      "text": "Transfuse    as needed    GI: abd soft slightly distended positive for hypoactive BS, loose stool    via rectal bag."
+    },
+    {
+      "id": "E:note:row509076:25",
+      "kind": "note_sentence",
+      "display": "OGT with TF at goal  tolerates well, no residuals.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s25",
+      "text": "OGT with TF at goal  tolerates well, no residuals."
+    },
+    {
+      "id": "E:note:row509076:26",
+      "kind": "note_sentence",
+      "display": "GU: yellow urine with sediment via Foley.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s26",
+      "text": "GU: yellow urine with sediment via Foley."
+    },
+    {
+      "id": "E:note:row509076:27",
+      "kind": "note_sentence",
+      "display": "IV access: 3 PIV  patent, TLC pulled yesterday and sent for culture.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row509076#s27",
+      "text": "IV access: 3 PIV  patent, TLC pulled yesterday and sent for culture."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|20300": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42833": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|34982": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5845": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|0389": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|40491": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4258": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42732": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3481": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5990": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5119": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5859": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42731": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2724": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|53081": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|04104": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V0980": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|28800": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|52801": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78061": [
+      "E:cond:23"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2874": [
+      "E:cond:24"
+    ]
+  },
+  "by_display": {
+    "urgent": [
+      "E:enc:1"
+    ],
+    "multiple myeloma, without mention of having achieved remission": [
+      "E:cond:1"
+    ],
+    "acute on chronic diastolic heart failure": [
+      "E:cond:2"
+    ],
+    "toxic encephalopathy": [
+      "E:cond:3"
+    ],
+    "acute respiratory failure": [
+      "E:cond:4"
+    ],
+    "acute kidney failure with lesion of tubular necrosis": [
+      "E:cond:5"
+    ],
+    "unspecified septicemia": [
+      "E:cond:6"
+    ],
+    "severe sepsis": [
+      "E:cond:7"
+    ],
+    "hypertensive heart and chronic kidney disease, unspecified, with heart failure and with chronic kidney disease stage i through stage iv, or unspecified": [
+      "E:cond:8"
+    ],
+    "cardiomyopathy in other diseases classified elsewhere": [
+      "E:cond:9"
+    ],
+    "atrial flutter": [
+      "E:cond:10"
+    ],
+    "anoxic brain damage": [
+      "E:cond:11"
+    ],
+    "urinary tract infection, site not specified": [
+      "E:cond:12"
+    ],
+    "unspecified pleural effusion": [
+      "E:cond:13"
+    ],
+    "chronic kidney disease, unspecified": [
+      "E:cond:14"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:15"
+    ],
+    "atrial fibrillation": [
+      "E:cond:16"
+    ],
+    "other and unspecified hyperlipidemia": [
+      "E:cond:17"
+    ],
+    "esophageal reflux": [
+      "E:cond:18"
+    ],
+    "streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group d [enterococcus]": [
+      "E:cond:19"
+    ],
+    "infection with microorganisms without mention of resistance to multiple drugs": [
+      "E:cond:20"
+    ],
+    "neutropenia, unspecified": [
+      "E:cond:21"
+    ],
+    "mucositis (ulcerative) due to antineoplastic therapy": [
+      "E:cond:22"
+    ],
+    "fever presenting with conditions classified elsewhere": [
+      "E:cond:23"
+    ],
+    "diagnosis": [
+      "E:cond:24"
+    ],
+    "autologous hematopoietic stem cell transplant without purging": [
+      "E:proc:1"
+    ],
+    "injection or infusion of cancer chemotherapeutic substance": [
+      "E:proc:2"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:3",
+      "E:proc:14",
+      "E:proc:15"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:4",
+      "E:proc:7"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:5",
+      "E:proc:8"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:6",
+      "E:proc:17"
+    ],
+    "pulmonary artery wedge monitoring": [
+      "E:proc:9"
+    ],
+    "thoracentesis": [
+      "E:proc:10"
+    ],
+    "parenteral infusion of concentrated nutritional substances": [
+      "E:proc:11"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:12"
+    ],
+    "spinal tap": [
+      "E:proc:13",
+      "E:proc:16"
+    ],
+    "75-year-old woman with history of hypertension and multiple myeloma presents": [
+      "E:note:row509076:1"
+    ],
+    "altered mental status (not delirium) assessment: pt with labile ms, per 7f": [
+      "E:note:row509076:2"
+    ],
+    "arousable to stimuli with periods of increased alertness.": [
+      "E:note:row509076:3"
+    ],
+    "appears uncomfortable w/mouth care and general care.": [
+      "E:note:row509076:4"
+    ],
+    "does not follow commands.": [
+      "E:note:row509076:5"
+    ],
+    "action: reoriented frequently, requires additional boluses of fentanyl/versed": [
+      "E:note:row509076:6"
+    ],
+    "response: ongoing plan: continue to reorient frequently, wean sedation": [
+      "E:note:row509076:7"
+    ],
+    "respiratory failure assessment: received patient intubated and vented.": [
+      "E:note:row509076:8"
+    ],
+    "patient vented on psv 40% 14/5, on assessment breath sounds clear diminished": [
+      "E:note:row509076:9"
+    ],
+    "unlabored breathing.": [
+      "E:note:row509076:10"
+    ],
+    "thick bloody secretions suctioned orally and via ett.": [
+      "E:note:row509076:11"
+    ],
+    "action: continue w/mechanical ventilation, vap precautions, mouth care q4hr a": [
+      "E:note:row509076:12"
+    ],
+    "atrial fibrillation (afib) assessment: received patient in afib at 80-110": [
+      "E:note:row509076:13"
+    ],
+    "on diltiazem q6hr and lopressor [**hospital1 7**].": [
+      "E:note:row509076:14"
+    ],
+    "on assessment peripheral pulses present.": [
+      "E:note:row509076:15"
+    ],
+    "mild general edema.": [
+      "E:note:row509076:16"
+    ],
+    "action: telemetry, meds asdir, control pain and agitation.": [
+      "E:note:row509076:17"
+    ],
+    "response: pt continues to have increased hr with fevers, agitation/mouth c": [
+      "E:note:row509076:18"
+    ],
+    "plan: continue to monitor patient hemodynamic status, continue to rate con": [
+      "E:note:row509076:19"
+    ],
+    "tmax 100.6 ax.": [
+      "E:note:row509076:20"
+    ],
+    "pan cultured again yesterday action: monitor counts, trend temp.": [
+      "E:note:row509076:21"
+    ],
+    "abx asdir, f/u cultures, tylenol.": [
+      "E:note:row509076:22"
+    ],
+    "response: plan: continue to monitor patient s counts, f/u cx data, abx asd": [
+      "E:note:row509076:23"
+    ],
+    "transfuse as needed gi: abd soft slightly distended positive for hypoactiv": [
+      "E:note:row509076:24"
+    ],
+    "ogt with tf at goal tolerates well, no residuals.": [
+      "E:note:row509076:25"
+    ],
+    "gu: yellow urine with sediment via foley.": [
+      "E:note:row509076:26"
+    ],
+    "iv access: 3 piv patent, tlc pulled yesterday and sent for culture.": [
+      "E:note:row509076:27"
+    ]
+  },
+  "by_date": {
+    "2112-01-18": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13",
+      "E:proc:14",
+      "E:proc:15",
+      "E:proc:16",
+      "E:proc:17"
+    ]
+  }
+}

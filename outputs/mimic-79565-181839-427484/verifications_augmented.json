@@ -1,0 +1,320 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:1"
+      ],
+      "rationale": "The patient has a recorded condition of 'Other ulcerative colitis'."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:24"
+      ],
+      "rationale": "A status of percutaneous transluminal coronary angioplasty implies a diagnosis of coronary artery disease."
+    },
+    {
+      "claim_id": "C3",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The evidence indicates a personal history of lung malignancy but does not specify the histological type as non-small cell lung cancer."
+    },
+    {
+      "claim_id": "C4",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence lists conditions but does not contain any record of a VATs or left upper lobectomy procedure."
+    },
+    {
+      "claim_id": "C5",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:2"
+      ],
+      "rationale": "The evidence explicitly states the patient was found to have a left DVT."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:2"
+      ],
+      "rationale": "The evidence explicitly states that the patient was started on heparin."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:2"
+      ],
+      "rationale": "The evidence explicitly states the patient was bridged to coumadin."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:4"
+      ],
+      "rationale": "The CT scan on 12-6 explicitly revealed a left hydropneumothorax."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The evidence mentions 'Pneumonia in aspergillosis', which is not the same as 'multi-focal pneumonia'."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:5"
+      ],
+      "rationale": "The evidence explicitly states the patient was started on levofloxacin."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:5"
+      ],
+      "rationale": "The evidence explicitly states the patient was started on flagyl."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:5"
+      ],
+      "rationale": "The evidence explicitly states that the patient was started on Vancomycin."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:5"
+      ],
+      "rationale": "The evidence explicitly states the patient was started on zosyn."
+    },
+    {
+      "claim_id": "C16",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C17",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:7"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was transfused with 2 units of prbc."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:8"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Delirium / confusion' under the assessment section."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:17"
+      ],
+      "rationale": "The candidate evidence explicitly lists the diagnosis 'Anemia, acute, secondary to blood loss (Hemorrhage, Bleeding)' in the assessment section."
+    },
+    {
+      "claim_id": "C21",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:18"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient's sbp is in the 90s-100s."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:18"
+      ],
+      "rationale": "The evidence explicitly states the patient 'remains tachycardic in 100s'."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:19"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Am k 4.0', which matches the claim."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:19"
+      ],
+      "rationale": "The candidate evidence explicitly states 'mag 1.9', which matches the claim."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:19"
+      ],
+      "rationale": "The candidate evidence explicitly states 'phosphate 2.4'."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:20"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient received 2 units of prbc."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:21"
+      ],
+      "rationale": "The candidate evidence explicitly states that magnesium and calcium were repleted."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:22"
+      ],
+      "rationale": "The candidate evidence explicitly states that phosphate is being repleted with iv kphos."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:23"
+      ],
+      "rationale": "The candidate evidence explicitly states that the Pm hct is stable at 28.7."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:23"
+      ],
+      "rationale": "The candidate evidence explicitly states 'pm k 8.1'."
+    },
+    {
+      "claim_id": "C32",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates contain information about conditions and procedures related to venous access and embolism, but no lab results for a venous blood gas."
+    },
+    {
+      "claim_id": "C33",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:25"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Impaired Skin Integrity' as an assessment."
+    },
+    {
+      "claim_id": "C35",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "While E:cond:17 confirms a stage II pressure ulcer, none of the candidates specify the location as the coccyx."
+    },
+    {
+      "claim_id": "C36",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:26"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has old areas of dehision on the left mid axillary area from vats."
+    },
+    {
+      "claim_id": "C37",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:3"
+      ],
+      "rationale": "The candidate evidence E:cond:3 explicitly lists 'Acute respiratory failure' as a condition."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:40",
+        "E:note:row427484:44"
+      ],
+      "rationale": "Both candidates explicitly state that the patient had a witnessed aspiration yesterday/last evening."
+    },
+    {
+      "claim_id": "C39",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:43"
+      ],
+      "rationale": "The candidate evidence explicitly states the same Vbg values for the afternoon."
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:43"
+      ],
+      "rationale": "The candidate evidence explicitly states that the abg in the am was 7.57/26/139."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:45",
+        "E:note:row427484:48"
+      ],
+      "rationale": "Both evidence items explicitly state that 20mg of IV Lasix was administered."
+    },
+    {
+      "claim_id": "C42",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row427484:48"
+      ],
+      "rationale": "The evidence explicitly states that 20mg iv Lasix was given at 18:30."
+    }
+  ]
+}

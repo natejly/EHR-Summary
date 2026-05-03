@@ -1,0 +1,1330 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-88078-105497",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-88078",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-88078",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-105497",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-105497",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2167-04-09T00:00:00",
+          "end": "2167-05-03T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "86121",
+              "display": "Contusion of lung without mention of open wound into thorax"
+            }
+          ],
+          "text": "Contusion of lung without mention of open wound into thorax"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "86121",
+              "display": "Contusion of lung without mention of open wound into thorax"
+            }
+          ],
+          "text": "Contusion of lung without mention of open wound into thorax"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "486",
+              "display": "Pneumonia, organism unspecified"
+            }
+          ],
+          "text": "Pneumonia, organism unspecified"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "486",
+              "display": "Pneumonia, organism unspecified"
+            }
+          ],
+          "text": "Pneumonia, organism unspecified"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5185",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5185",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5184",
+              "display": "Acute edema of lung, unspecified"
+            }
+          ],
+          "text": "Acute edema of lung, unspecified"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5184",
+              "display": "Acute edema of lung, unspecified"
+            }
+          ],
+          "text": "Acute edema of lung, unspecified"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "80707",
+              "display": "Closed fracture of seven ribs"
+            }
+          ],
+          "text": "Closed fracture of seven ribs"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "80707",
+              "display": "Closed fracture of seven ribs"
+            }
+          ],
+          "text": "Closed fracture of seven ribs"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "49121",
+              "display": "Obstructive chronic bronchitis with (acute) exacerbation"
+            }
+          ],
+          "text": "Obstructive chronic bronchitis with (acute) exacerbation"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "49121",
+              "display": "Obstructive chronic bronchitis with (acute) exacerbation"
+            }
+          ],
+          "text": "Obstructive chronic bronchitis with (acute) exacerbation"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5121",
+              "display": "Iatrogenic pneumothorax"
+            }
+          ],
+          "text": "Iatrogenic pneumothorax"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5121",
+              "display": "Iatrogenic pneumothorax"
+            }
+          ],
+          "text": "Iatrogenic pneumothorax"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "73313",
+              "display": "Pathologic fracture of vertebrae"
+            }
+          ],
+          "text": "Pathologic fracture of vertebrae"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "73313",
+              "display": "Pathologic fracture of vertebrae"
+            }
+          ],
+          "text": "Pathologic fracture of vertebrae"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8859",
+              "display": "Fall from other slipping, tripping, or stumbling"
+            }
+          ],
+          "text": "Fall from other slipping, tripping, or stumbling"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8859",
+              "display": "Fall from other slipping, tripping, or stumbling"
+            }
+          ],
+          "text": "Fall from other slipping, tripping, or stumbling"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "8600",
+              "display": "Traumatic pneumothorax without mention of open wound into thorax"
+            }
+          ],
+          "text": "Traumatic pneumothorax without mention of open wound into thorax"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "8600",
+              "display": "Traumatic pneumothorax without mention of open wound into thorax"
+            }
+          ],
+          "text": "Traumatic pneumothorax without mention of open wound into thorax"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "9587",
+              "display": "Traumatic subcutaneous emphysema"
+            }
+          ],
+          "text": "Traumatic subcutaneous emphysema"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "9587",
+              "display": "Traumatic subcutaneous emphysema"
+            }
+          ],
+          "text": "Traumatic subcutaneous emphysema"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5533",
+              "display": "Diaphragmatic hernia without mention of obstruction or gangrene"
+            }
+          ],
+          "text": "Diaphragmatic hernia without mention of obstruction or gangrene"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5533",
+              "display": "Diaphragmatic hernia without mention of obstruction or gangrene"
+            }
+          ],
+          "text": "Diaphragmatic hernia without mention of obstruction or gangrene"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V462",
+              "display": "Other dependence on machines, supplemental oxygen"
+            }
+          ],
+          "text": "Other dependence on machines, supplemental oxygen"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V462",
+              "display": "Other dependence on machines, supplemental oxygen"
+            }
+          ],
+          "text": "Other dependence on machines, supplemental oxygen"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "33811",
+              "display": "Acute pain due to trauma"
+            }
+          ],
+          "text": "Acute pain due to trauma"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "33811",
+              "display": "Acute pain due to trauma"
+            }
+          ],
+          "text": "Acute pain due to trauma"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "73300",
+              "display": "Osteoporosis, unspecified"
+            }
+          ],
+          "text": "Osteoporosis, unspecified"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "73300",
+              "display": "Osteoporosis, unspecified"
+            }
+          ],
+          "text": "Osteoporosis, unspecified"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2948",
+              "display": "Other persistent mental disorders due to conditions classified elsewhere"
+            }
+          ],
+          "text": "Other persistent mental disorders due to conditions classified elsewhere"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2948",
+              "display": "Other persistent mental disorders due to conditions classified elsewhere"
+            }
+          ],
+          "text": "Other persistent mental disorders due to conditions classified elsewhere"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78720",
+              "display": "Dysphagia, unspecified"
+            }
+          ],
+          "text": "Dysphagia, unspecified"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78720",
+              "display": "Dysphagia, unspecified"
+            }
+          ],
+          "text": "Dysphagia, unspecified"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8798",
+              "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+            }
+          ],
+          "text": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8798",
+              "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+            }
+          ],
+          "text": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4168",
+              "display": "Other chronic pulmonary heart diseases"
+            }
+          ],
+          "text": "Other chronic pulmonary heart diseases"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4168",
+              "display": "Other chronic pulmonary heart diseases"
+            }
+          ],
+          "text": "Other chronic pulmonary heart diseases"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "311",
+              "display": "Depressive disorder, not elsewhere classified"
+            }
+          ],
+          "text": "Depressive disorder, not elsewhere classified"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "311",
+              "display": "Depressive disorder, not elsewhere classified"
+            }
+          ],
+          "text": "Depressive disorder, not elsewhere classified"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3051",
+              "display": "Tobacco use disorder"
+            }
+          ],
+          "text": "Tobacco use disorder"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3051",
+              "display": "Tobacco use disorder"
+            }
+          ],
+          "text": "Tobacco use disorder"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78820",
+              "display": "Retention of urine, unspecified"
+            }
+          ],
+          "text": "Retention of urine, unspecified"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-105497-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-105497-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78820",
+              "display": "Retention of urine, unspecified"
+            }
+          ],
+          "text": "Retention of urine, unspecified"
+        },
+        "onsetDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-105497-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-105497-1",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-105497-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-105497-1",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-105497-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-105497-2",
+        "status": "completed",
+        "code": {
+          "text": "Injection into thoracic cavity"
+        },
+        "performedDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-105497-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-105497-2",
+        "status": "completed",
+        "code": {
+          "text": "Injection into thoracic cavity"
+        },
+        "performedDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-105497-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-105497-3",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of intercostal catheter for drainage"
+        },
+        "performedDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-105497-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-105497-3",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of intercostal catheter for drainage"
+        },
+        "performedDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-105497-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-105497-4",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-105497-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-105497-4",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-105497-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-105497-5",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of intercostal catheter for drainage"
+        },
+        "performedDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-105497-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-105497-5",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of intercostal catheter for drainage"
+        },
+        "performedDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-105497-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-105497-6",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2167-04-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-105497-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-105497-6",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2167-04-09"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1218 @@
+{
+  "case_id": "mimic-47974-163366-626355",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:enc-163366",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Unspecified septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0389",
+        "display": "Unspecified septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:cond-163366-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Septic shock",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78552",
+        "display": "Septic shock"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:cond-163366-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:cond-163366-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Pneumonia, organism unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "486",
+        "display": "Pneumonia, organism unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:cond-163366-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:cond-163366-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Cardiogenic shock",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78551",
+        "display": "Cardiogenic shock"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:cond-163366-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Takotsubo syndrome",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42983",
+        "display": "Takotsubo syndrome"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:cond-163366-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Regional enteritis of unspecified site",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5559",
+        "display": "Regional enteritis of unspecified site"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:cond-163366-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:cond-163366-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:cond-163366-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Chronic kidney disease, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5859",
+        "display": "Chronic kidney disease, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:cond-163366-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Hyperpotassemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2767",
+        "display": "Hyperpotassemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:cond-163366-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Chronic airway obstruction, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "496",
+        "display": "Chronic airway obstruction, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:cond-163366-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Other diseases of lung, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51889",
+        "display": "Other diseases of lung, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:cond-163366-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Other specified cardiac dysrhythmias",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42789",
+        "display": "Other specified cardiac dysrhythmias"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:cond-163366-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Colostomy status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V443",
+        "display": "Colostomy status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:cond-163366-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Tobacco use disorder",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3051",
+        "display": "Tobacco use disorder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:cond-163366-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of native coronary artery",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41401",
+        "display": "Coronary atherosclerosis of native coronary artery"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:cond-163366-18",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:proc-163366-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:proc-163366-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Left heart cardiac catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Left heart cardiac catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:proc-163366-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Angiocardiography of left heart structures",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Angiocardiography of left heart structures"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:proc-163366-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Coronary arteriography using a single catheter",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Coronary arteriography using a single catheter"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:proc-163366-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Hemodialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Hemodialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:proc-163366-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:proc-163366-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-02-22",
+      "source_ref": "urn:uuid:proc-163366-8",
+      "text": null
+    },
+    {
+      "id": "E:note:row626355:1",
+      "kind": "note_sentence",
+      "display": "The patient is a 73 yoM w/ a h/o Crohn's disease s/p colectomy    presenting wit",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s1",
+      "text": "The patient is a 73 yoM w/ a h/o Crohn's disease s/p colectomy    presenting with a complaint of intermittent chest pain x 1 day,    pleuritic and a pressure in nature."
+    },
+    {
+      "id": "E:note:row626355:2",
+      "kind": "note_sentence",
+      "display": "He has had chills and rigors    today.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s2",
+      "text": "He has had chills and rigors    today."
+    },
+    {
+      "id": "E:note:row626355:3",
+      "kind": "note_sentence",
+      "display": "He has been feeling tired and unwell x 1 week.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s3",
+      "text": "He has been feeling tired and unwell x 1 week."
+    },
+    {
+      "id": "E:note:row626355:4",
+      "kind": "note_sentence",
+      "display": "The patient    was sent to [**Hospital3 **] ER where he was found to have STE in",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s4",
+      "text": "The patient    was sent to [**Hospital3 **] ER where he was found to have STE in a LAD    territory and sent to the cath lab for PCI, he was cathed here at the    [**Hospital1 1**] and found to have no obstructive coronary disease and a LV Gram    with takotsubo's cardiomyopathy."
+    },
+    {
+      "id": "E:note:row626355:5",
+      "kind": "note_sentence",
+      "display": "Transferred to MICU for further    observation.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s5",
+      "text": "Transferred to MICU for further    observation."
+    },
+    {
+      "id": "E:note:row626355:6",
+      "kind": "note_sentence",
+      "display": "Sepsis, Severe (with organ dysfunction)    Assessment:    Pt noted to be hypoten",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s6",
+      "text": "Sepsis, Severe (with organ dysfunction)    Assessment:    Pt noted to be hypotensive with SBP in the 70 s."
+    },
+    {
+      "id": "E:note:row626355:7",
+      "kind": "note_sentence",
+      "display": "Tachycardic to the    120 s.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s7",
+      "text": "Tachycardic to the    120 s."
+    },
+    {
+      "id": "E:note:row626355:8",
+      "kind": "note_sentence",
+      "display": "Noted to have tenacious sputum.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s8",
+      "text": "Noted to have tenacious sputum."
+    },
+    {
+      "id": "E:note:row626355:9",
+      "kind": "note_sentence",
+      "display": "Hypothermic to 94F- prior to    intubation had been rigoring.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s9",
+      "text": "Hypothermic to 94F- prior to    intubation had been rigoring."
+    },
+    {
+      "id": "E:note:row626355:10",
+      "kind": "note_sentence",
+      "display": "Action:    Given 25mg Demerol and .5mg Ativan.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s10",
+      "text": "Action:    Given 25mg Demerol and .5mg Ativan."
+    },
+    {
+      "id": "E:note:row626355:11",
+      "kind": "note_sentence",
+      "display": "Given Zosyn, Vanco, Flagyl and    Azithromycin.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s11",
+      "text": "Given Zosyn, Vanco, Flagyl and    Azithromycin."
+    },
+    {
+      "id": "E:note:row626355:12",
+      "kind": "note_sentence",
+      "display": "Also given total of 8L NS boluses.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s12",
+      "text": "Also given total of 8L NS boluses."
+    },
+    {
+      "id": "E:note:row626355:13",
+      "kind": "note_sentence",
+      "display": "Levophed gtt    initiated.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s13",
+      "text": "Levophed gtt    initiated."
+    },
+    {
+      "id": "E:note:row626355:14",
+      "kind": "note_sentence",
+      "display": "Aline and PA Catheter placed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s14",
+      "text": "Aline and PA Catheter placed."
+    },
+    {
+      "id": "E:note:row626355:15",
+      "kind": "note_sentence",
+      "display": "Vigeleo and Vigilence    initiated at bedside.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s15",
+      "text": "Vigeleo and Vigilence    initiated at bedside."
+    },
+    {
+      "id": "E:note:row626355:16",
+      "kind": "note_sentence",
+      "display": "Bair hugger.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s16",
+      "text": "Bair hugger."
+    },
+    {
+      "id": "E:note:row626355:17",
+      "kind": "note_sentence",
+      "display": "Pan cultured.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s17",
+      "text": "Pan cultured."
+    },
+    {
+      "id": "E:note:row626355:18",
+      "kind": "note_sentence",
+      "display": "Response:    Constant titration of Levophed for MAP goals > or = to 60.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s18",
+      "text": "Response:    Constant titration of Levophed for MAP goals > or = to 60."
+    },
+    {
+      "id": "E:note:row626355:19",
+      "kind": "note_sentence",
+      "display": "Pt s UOP    and hypotension respond to fluid boluses.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s19",
+      "text": "Pt s UOP    and hypotension respond to fluid boluses."
+    },
+    {
+      "id": "E:note:row626355:20",
+      "kind": "note_sentence",
+      "display": "UOP > or = 30cc/hr.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s20",
+      "text": "UOP > or = 30cc/hr."
+    },
+    {
+      "id": "E:note:row626355:21",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue abx treatment.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s21",
+      "text": "Plan:    Continue abx treatment."
+    },
+    {
+      "id": "E:note:row626355:22",
+      "kind": "note_sentence",
+      "display": "Wean Levophed as pt will tolerate.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s22",
+      "text": "Wean Levophed as pt will tolerate."
+    },
+    {
+      "id": "E:note:row626355:23",
+      "kind": "note_sentence",
+      "display": "Due to    cardiomyopathy will use neo and vasopressin as additional pressors if ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s23",
+      "text": "Due to    cardiomyopathy will use neo and vasopressin as additional pressors if    needed and avoid Dobutamine/Dopamine."
+    },
+    {
+      "id": "E:note:row626355:24",
+      "kind": "note_sentence",
+      "display": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:   ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s24",
+      "text": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    Pt had an episode of desaturation to the high 80 s- though not    exhibiting respiratory distress or increased WOB- discussed elective    intubation for airway protection."
+    },
+    {
+      "id": "E:note:row626355:25",
+      "kind": "note_sentence",
+      "display": "Pt in agreement with plan.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s25",
+      "text": "Pt in agreement with plan."
+    },
+    {
+      "id": "E:note:row626355:26",
+      "kind": "note_sentence",
+      "display": "Action:    Intubated at bedside.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s26",
+      "text": "Action:    Intubated at bedside."
+    },
+    {
+      "id": "E:note:row626355:27",
+      "kind": "note_sentence",
+      "display": "Response:    Pt tolerated well.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s27",
+      "text": "Response:    Pt tolerated well."
+    },
+    {
+      "id": "E:note:row626355:28",
+      "kind": "note_sentence",
+      "display": "ARDS net protocol.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s28",
+      "text": "ARDS net protocol."
+    },
+    {
+      "id": "E:note:row626355:29",
+      "kind": "note_sentence",
+      "display": "Plan:    SP02 > or = to 95%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s29",
+      "text": "Plan:    SP02 > or = to 95%."
+    },
+    {
+      "id": "E:note:row626355:30",
+      "kind": "note_sentence",
+      "display": "Renal failure, acute (Acute renal failure, ARF)    Assessment:    Pt presented w",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s30",
+      "text": "Renal failure, acute (Acute renal failure, ARF)    Assessment:    Pt presented with hyperkalemia and metabolic acidosis with PH of 7.1."
+    },
+    {
+      "id": "E:note:row626355:31",
+      "kind": "note_sentence",
+      "display": "Also noted to have BUN/Creat of 134/12.4.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s31",
+      "text": "Also noted to have BUN/Creat of 134/12.4."
+    },
+    {
+      "id": "E:note:row626355:32",
+      "kind": "note_sentence",
+      "display": "Action:    Renal fellow inserted HD line to left groin.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s32",
+      "text": "Action:    Renal fellow inserted HD line to left groin."
+    },
+    {
+      "id": "E:note:row626355:33",
+      "kind": "note_sentence",
+      "display": "CVVHDF initiated.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s33",
+      "text": "CVVHDF initiated."
+    },
+    {
+      "id": "E:note:row626355:34",
+      "kind": "note_sentence",
+      "display": "Cagluc/K gtts as per sliding scale.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s34",
+      "text": "Cagluc/K gtts as per sliding scale."
+    },
+    {
+      "id": "E:note:row626355:35",
+      "kind": "note_sentence",
+      "display": "Citrate at 150cc/hr.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s35",
+      "text": "Citrate at 150cc/hr."
+    },
+    {
+      "id": "E:note:row626355:36",
+      "kind": "note_sentence",
+      "display": "Response:    Tolerating well.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s36",
+      "text": "Response:    Tolerating well."
+    },
+    {
+      "id": "E:note:row626355:37",
+      "kind": "note_sentence",
+      "display": "Acidosis improving.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s37",
+      "text": "Acidosis improving."
+    },
+    {
+      "id": "E:note:row626355:38",
+      "kind": "note_sentence",
+      "display": "Plan:    Q6 hr CRRT labs- next set is due at 8am.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s38",
+      "text": "Plan:    Q6 hr CRRT labs- next set is due at 8am."
+    },
+    {
+      "id": "E:note:row626355:39",
+      "kind": "note_sentence",
+      "display": "Gastrointestinal bleed, other (GI Bleed, GIB)    Assessment:    Pt noted to have",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s39",
+      "text": "Gastrointestinal bleed, other (GI Bleed, GIB)    Assessment:    Pt noted to have coffee grounds via OGT."
+    },
+    {
+      "id": "E:note:row626355:40",
+      "kind": "note_sentence",
+      "display": "HCT stable at 30.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s40",
+      "text": "HCT stable at 30."
+    },
+    {
+      "id": "E:note:row626355:41",
+      "kind": "note_sentence",
+      "display": "Pt had    received integrillin- high risk for bleeding.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s41",
+      "text": "Pt had    received integrillin- high risk for bleeding."
+    },
+    {
+      "id": "E:note:row626355:42",
+      "kind": "note_sentence",
+      "display": "Action:    MD made aware.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s42",
+      "text": "Action:    MD made aware."
+    },
+    {
+      "id": "E:note:row626355:43",
+      "kind": "note_sentence",
+      "display": "LIS.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s43",
+      "text": "LIS."
+    },
+    {
+      "id": "E:note:row626355:44",
+      "kind": "note_sentence",
+      "display": "Response:    Ongoing.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s44",
+      "text": "Response:    Ongoing."
+    },
+    {
+      "id": "E:note:row626355:45",
+      "kind": "note_sentence",
+      "display": "Appears to be clearing up.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s45",
+      "text": "Appears to be clearing up."
+    },
+    {
+      "id": "E:note:row626355:46",
+      "kind": "note_sentence",
+      "display": "Plan:    Plan to monitor crit- no other interventions planned at this time.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row626355#s46",
+      "text": "Plan:    Plan to monitor crit- no other interventions planned at this time."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|0389": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78552": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|486": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78551": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42983": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5559": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2762": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5859": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2767": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|496": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51889": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42789": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V443": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3051": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41401": [
+      "E:cond:18"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "unspecified septicemia": [
+      "E:cond:1"
+    ],
+    "septic shock": [
+      "E:cond:2"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:3"
+    ],
+    "pneumonia, organism unspecified": [
+      "E:cond:4"
+    ],
+    "acute respiratory failure": [
+      "E:cond:5"
+    ],
+    "cardiogenic shock": [
+      "E:cond:6"
+    ],
+    "takotsubo syndrome": [
+      "E:cond:7"
+    ],
+    "regional enteritis of unspecified site": [
+      "E:cond:8"
+    ],
+    "acidosis": [
+      "E:cond:9"
+    ],
+    "severe sepsis": [
+      "E:cond:10"
+    ],
+    "chronic kidney disease, unspecified": [
+      "E:cond:11"
+    ],
+    "hyperpotassemia": [
+      "E:cond:12"
+    ],
+    "chronic airway obstruction, not elsewhere classified": [
+      "E:cond:13"
+    ],
+    "other diseases of lung, not elsewhere classified": [
+      "E:cond:14"
+    ],
+    "other specified cardiac dysrhythmias": [
+      "E:cond:15"
+    ],
+    "colostomy status": [
+      "E:cond:16"
+    ],
+    "tobacco use disorder": [
+      "E:cond:17"
+    ],
+    "coronary atherosclerosis of native coronary artery": [
+      "E:cond:18"
+    ],
+    "continuous invasive mechanical ventilation for less than 96 consecutive hours": [
+      "E:proc:1"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:2"
+    ],
+    "left heart cardiac catheterization": [
+      "E:proc:3"
+    ],
+    "angiocardiography of left heart structures": [
+      "E:proc:4"
+    ],
+    "coronary arteriography using a single catheter": [
+      "E:proc:5"
+    ],
+    "hemodialysis": [
+      "E:proc:6"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:7",
+      "E:proc:8"
+    ],
+    "the patient is a 73 yom w/ a h/o crohn's disease s/p colectomy presenting wit": [
+      "E:note:row626355:1"
+    ],
+    "he has had chills and rigors today.": [
+      "E:note:row626355:2"
+    ],
+    "he has been feeling tired and unwell x 1 week.": [
+      "E:note:row626355:3"
+    ],
+    "the patient was sent to [**hospital3 **] er where he was found to have ste in": [
+      "E:note:row626355:4"
+    ],
+    "transferred to micu for further observation.": [
+      "E:note:row626355:5"
+    ],
+    "sepsis, severe (with organ dysfunction) assessment: pt noted to be hypoten": [
+      "E:note:row626355:6"
+    ],
+    "tachycardic to the 120 s.": [
+      "E:note:row626355:7"
+    ],
+    "noted to have tenacious sputum.": [
+      "E:note:row626355:8"
+    ],
+    "hypothermic to 94f- prior to intubation had been rigoring.": [
+      "E:note:row626355:9"
+    ],
+    "action: given 25mg demerol and .5mg ativan.": [
+      "E:note:row626355:10"
+    ],
+    "given zosyn, vanco, flagyl and azithromycin.": [
+      "E:note:row626355:11"
+    ],
+    "also given total of 8l ns boluses.": [
+      "E:note:row626355:12"
+    ],
+    "levophed gtt initiated.": [
+      "E:note:row626355:13"
+    ],
+    "aline and pa catheter placed.": [
+      "E:note:row626355:14"
+    ],
+    "vigeleo and vigilence initiated at bedside.": [
+      "E:note:row626355:15"
+    ],
+    "bair hugger.": [
+      "E:note:row626355:16"
+    ],
+    "pan cultured.": [
+      "E:note:row626355:17"
+    ],
+    "response: constant titration of levophed for map goals > or = to 60.": [
+      "E:note:row626355:18"
+    ],
+    "pt s uop and hypotension respond to fluid boluses.": [
+      "E:note:row626355:19"
+    ],
+    "uop > or = 30cc/hr.": [
+      "E:note:row626355:20"
+    ],
+    "plan: continue abx treatment.": [
+      "E:note:row626355:21"
+    ],
+    "wean levophed as pt will tolerate.": [
+      "E:note:row626355:22"
+    ],
+    "due to cardiomyopathy will use neo and vasopressin as additional pressors if": [
+      "E:note:row626355:23"
+    ],
+    "respiratory failure, acute (not ards/[**doctor last name 2**]) assessment:": [
+      "E:note:row626355:24"
+    ],
+    "pt in agreement with plan.": [
+      "E:note:row626355:25"
+    ],
+    "action: intubated at bedside.": [
+      "E:note:row626355:26"
+    ],
+    "response: pt tolerated well.": [
+      "E:note:row626355:27"
+    ],
+    "ards net protocol.": [
+      "E:note:row626355:28"
+    ],
+    "plan: sp02 > or = to 95%.": [
+      "E:note:row626355:29"
+    ],
+    "renal failure, acute (acute renal failure, arf) assessment: pt presented w": [
+      "E:note:row626355:30"
+    ],
+    "also noted to have bun/creat of 134/12.4.": [
+      "E:note:row626355:31"
+    ],
+    "action: renal fellow inserted hd line to left groin.": [
+      "E:note:row626355:32"
+    ],
+    "cvvhdf initiated.": [
+      "E:note:row626355:33"
+    ],
+    "cagluc/k gtts as per sliding scale.": [
+      "E:note:row626355:34"
+    ],
+    "citrate at 150cc/hr.": [
+      "E:note:row626355:35"
+    ],
+    "response: tolerating well.": [
+      "E:note:row626355:36"
+    ],
+    "acidosis improving.": [
+      "E:note:row626355:37"
+    ],
+    "plan: q6 hr crrt labs- next set is due at 8am.": [
+      "E:note:row626355:38"
+    ],
+    "gastrointestinal bleed, other (gi bleed, gib) assessment: pt noted to have": [
+      "E:note:row626355:39"
+    ],
+    "hct stable at 30.": [
+      "E:note:row626355:40"
+    ],
+    "pt had received integrillin- high risk for bleeding.": [
+      "E:note:row626355:41"
+    ],
+    "action: md made aware.": [
+      "E:note:row626355:42"
+    ],
+    "lis.": [
+      "E:note:row626355:43"
+    ],
+    "response: ongoing.": [
+      "E:note:row626355:44"
+    ],
+    "appears to be clearing up.": [
+      "E:note:row626355:45"
+    ],
+    "plan: plan to monitor crit- no other interventions planned at this time.": [
+      "E:note:row626355:46"
+    ]
+  },
+  "by_date": {
+    "2169-02-22": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8"
+    ]
+  }
+}

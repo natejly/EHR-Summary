@@ -1,0 +1,768 @@
+{
+  "case_id": "mimic-86585-123444-546150",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2137-12-09",
+      "source_ref": "urn:uuid:enc-123444",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-12-09",
+      "source_ref": "urn:uuid:cond-123444-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute on chronic systolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42823",
+        "display": "Acute on chronic systolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-12-09",
+      "source_ref": "urn:uuid:cond-123444-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-12-09",
+      "source_ref": "urn:uuid:cond-123444-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Ventilator associated pneumonia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99731",
+        "display": "Ventilator associated pneumonia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-12-09",
+      "source_ref": "urn:uuid:cond-123444-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Other complications due to other cardiac device, implant, and graft",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99672",
+        "display": "Other complications due to other cardiac device, implant, and graft"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-12-09",
+      "source_ref": "urn:uuid:cond-123444-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-12-09",
+      "source_ref": "urn:uuid:cond-123444-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of native coronary artery",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41401",
+        "display": "Coronary atherosclerosis of native coronary artery"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-12-09",
+      "source_ref": "urn:uuid:cond-123444-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-12-09",
+      "source_ref": "urn:uuid:cond-123444-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Anemia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2859",
+        "display": "Anemia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-12-09",
+      "source_ref": "urn:uuid:cond-123444-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Chronic kidney disease, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5859",
+        "display": "Chronic kidney disease, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-12-09",
+      "source_ref": "urn:uuid:cond-123444-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Mitral valve disorders",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4240",
+        "display": "Mitral valve disorders"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-12-09",
+      "source_ref": "urn:uuid:cond-123444-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Pressure ulcer, other site",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70709",
+        "display": "Pressure ulcer, other site"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-12-09",
+      "source_ref": "urn:uuid:cond-123444-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Pressure ulcer, stage II",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70722",
+        "display": "Pressure ulcer, stage II"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-12-09",
+      "source_ref": "urn:uuid:cond-123444-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-12-09",
+      "source_ref": "urn:uuid:proc-123444-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Combined right and left heart cardiac catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Combined right and left heart cardiac catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-12-09",
+      "source_ref": "urn:uuid:proc-123444-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Coronary arteriography using two catheters",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Coronary arteriography using two catheters"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-12-09",
+      "source_ref": "urn:uuid:proc-123444-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-12-09",
+      "source_ref": "urn:uuid:proc-123444-4",
+      "text": null
+    },
+    {
+      "id": "E:note:row546150:1",
+      "kind": "note_sentence",
+      "display": "73 y/o M admitted w/ significant cardiac hx, including CABG, CHF,    I-CMP, +smo",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s1",
+      "text": "73 y/o M admitted w/ significant cardiac hx, including CABG, CHF,    I-CMP, +smoker, to OSH [**12-5**] w/ acute SOB following [**Holiday 2419**]    dinner."
+    },
+    {
+      "id": "E:note:row546150:2",
+      "kind": "note_sentence",
+      "display": "Worsening resp distress despite diuresis requiring Intubation.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s2",
+      "text": "Worsening resp distress despite diuresis requiring Intubation."
+    },
+    {
+      "id": "E:note:row546150:3",
+      "kind": "note_sentence",
+      "display": "BP dropped s/p intubation requiring pressors.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s3",
+      "text": "BP dropped s/p intubation requiring pressors."
+    },
+    {
+      "id": "E:note:row546150:4",
+      "kind": "note_sentence",
+      "display": "Transferred to [**Hospital1 1**] CCU    [**12-9**] for further care per family r",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s4",
+      "text": "Transferred to [**Hospital1 1**] CCU    [**12-9**] for further care per family request."
+    },
+    {
+      "id": "E:note:row546150:5",
+      "kind": "note_sentence",
+      "display": "Enzymes sent.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s5",
+      "text": "Enzymes sent."
+    },
+    {
+      "id": "E:note:row546150:6",
+      "kind": "note_sentence",
+      "display": "Heart failure (CHF), Systolic, Acute on Chronic    Assessment:    Gd response to",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s6",
+      "text": "Heart failure (CHF), Systolic, Acute on Chronic    Assessment:    Gd response to lasix gtt at 10mg/hr uop 100-200cc/hr."
+    },
+    {
+      "id": "E:note:row546150:7",
+      "kind": "note_sentence",
+      "display": "Action:    Lasix weaned to 8mg/hr    Response:    Uop continues ~100cc/hr    Pla",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s7",
+      "text": "Action:    Lasix weaned to 8mg/hr    Response:    Uop continues ~100cc/hr    Plan:    Continue to wean lasix as tol."
+    },
+    {
+      "id": "E:note:row546150:8",
+      "kind": "note_sentence",
+      "display": "Monitor Cr.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s8",
+      "text": "Monitor Cr."
+    },
+    {
+      "id": "E:note:row546150:9",
+      "kind": "note_sentence",
+      "display": "TTE today. ? adding ACE-I    as BP tolerates    Respiratory failure, acute (not ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s9",
+      "text": "TTE today. ? adding ACE-I    as BP tolerates    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    Overbreathing vent 4-8 breaths."
+    },
+    {
+      "id": "E:note:row546150:10",
+      "kind": "note_sentence",
+      "display": "LS intermittently course, clearing w/    suctioning.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s10",
+      "text": "LS intermittently course, clearing w/    suctioning."
+    },
+    {
+      "id": "E:note:row546150:11",
+      "kind": "note_sentence",
+      "display": "AM RSBI 52    Action:    Pt suctioned as needed    Response:    Continue to have",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s11",
+      "text": "AM RSBI 52    Action:    Pt suctioned as needed    Response:    Continue to have small-mod amts secretions suctioned from ETT    Plan:    Wean vent as tol, CPAP today    Altered mental status (not Delirium)    Assessment:    Not following commands consistently- opens eyes to voice, eyes w/    upward gaze- no tracking or eye contact."
+    },
+    {
+      "id": "E:note:row546150:12",
+      "kind": "note_sentence",
+      "display": "Appearing    uncomfortable/restless at times.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s12",
+      "text": "Appearing    uncomfortable/restless at times."
+    },
+    {
+      "id": "E:note:row546150:13",
+      "kind": "note_sentence",
+      "display": "Denies pain by nodding when asked.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s13",
+      "text": "Denies pain by nodding when asked."
+    },
+    {
+      "id": "E:note:row546150:14",
+      "kind": "note_sentence",
+      "display": "Action:    PRN fentanyl and Versed IVP given for comfort    Response:    Appeari",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s14",
+      "text": "Action:    PRN fentanyl and Versed IVP given for comfort    Response:    Appearing comfortable    Plan:    Continue to monitor MS, Versed/fent PRN for comfort."
+    },
+    {
+      "id": "E:note:row546150:15",
+      "kind": "note_sentence",
+      "display": "Atrial fibrillation (Afib)    Assessment:    HR 80-90s AFib, w/  occas V-Paced.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s15",
+      "text": "Atrial fibrillation (Afib)    Assessment:    HR 80-90s AFib, w/  occas V-Paced."
+    },
+    {
+      "id": "E:note:row546150:16",
+      "kind": "note_sentence",
+      "display": "Freq PVCs/couplets.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s16",
+      "text": "Freq PVCs/couplets."
+    },
+    {
+      "id": "E:note:row546150:17",
+      "kind": "note_sentence",
+      "display": "Action:    Heparin gtt started at 1400units/hr for AF. 40meQ KCL given for K 3.7",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s17",
+      "text": "Action:    Heparin gtt started at 1400units/hr for AF. 40meQ KCL given for K 3.7    on admission    Response:    Less ectopy noted    Plan:    AM PTT to be drawn w/ AM labs at 600."
+    },
+    {
+      "id": "E:note:row546150:18",
+      "kind": "note_sentence",
+      "display": "Titrate heparin gtt accordingly    for goal PTT 60-100    Fever (Hyperthermia, P",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s18",
+      "text": "Titrate heparin gtt accordingly    for goal PTT 60-100    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Temp spike 101.3  early AM [**12-9**] at OSH."
+    },
+    {
+      "id": "E:note:row546150:19",
+      "kind": "note_sentence",
+      "display": "Low grade Temp here, TMax 99.7    PO.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s19",
+      "text": "Low grade Temp here, TMax 99.7    PO."
+    },
+    {
+      "id": "E:note:row546150:20",
+      "kind": "note_sentence",
+      "display": "Action:    1 time dose Zosyn given, Azythromycin IV ordered    Response:    Cont",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s20",
+      "text": "Action:    1 time dose Zosyn given, Azythromycin IV ordered    Response:    Continues w/ low grade temp, stable."
+    },
+    {
+      "id": "E:note:row546150:21",
+      "kind": "note_sentence",
+      "display": "Plan:    Monitor for fevers, abx as ordered.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s21",
+      "text": "Plan:    Monitor for fevers, abx as ordered."
+    },
+    {
+      "id": "E:note:row546150:22",
+      "kind": "note_sentence",
+      "display": "(Standing order Zosyn awaiting ID    approval)    Impaired Skin Integrity    Ass",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s22",
+      "text": "(Standing order Zosyn awaiting ID    approval)    Impaired Skin Integrity    Assessment:    R glut w/ ?Deep tissue injury & clear filled blister."
+    },
+    {
+      "id": "E:note:row546150:23",
+      "kind": "note_sentence",
+      "display": "Per report from    OSH, from pressure from laying on thermometer.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s23",
+      "text": "Per report from    OSH, from pressure from laying on thermometer."
+    },
+    {
+      "id": "E:note:row546150:24",
+      "kind": "note_sentence",
+      "display": "Action:    Skin closely monitored, pt turned and repositioned Q2-3 as tol    Res",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s24",
+      "text": "Action:    Skin closely monitored, pt turned and repositioned Q2-3 as tol    Response:    No change    Plan:    Continue to monitor skin, T&R freq."
+    },
+    {
+      "id": "E:note:row546150:25",
+      "kind": "note_sentence",
+      "display": "Anemia, chronic    Assessment:    HCT drop from 38.3 to 26 in OSH, 26.5 on admit",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s25",
+      "text": "Anemia, chronic    Assessment:    HCT drop from 38.3 to 26 in OSH, 26.5 on admit here."
+    },
+    {
+      "id": "E:note:row546150:26",
+      "kind": "note_sentence",
+      "display": "Action:    HCT monitored    Response:    Stable    Plan:    Monitor for signs bl",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s26",
+      "text": "Action:    HCT monitored    Response:    Stable    Plan:    Monitor for signs bleeding, Guiac stools."
+    },
+    {
+      "id": "E:note:row546150:27",
+      "kind": "note_sentence",
+      "display": "Monitor HCTs, ?transfuse    Knowledge Deficit    Assessment:    +smoker per repo",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row546150#s27",
+      "text": "Monitor HCTs, ?transfuse    Knowledge Deficit    Assessment:    +smoker per report    Plan:    Smoking education/cessation once extubated"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42823": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99731": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99672": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41401": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42731": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2859": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5859": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4240": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70709": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70722": [
+      "E:cond:13"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "acute respiratory failure": [
+      "E:cond:1"
+    ],
+    "acute on chronic systolic heart failure": [
+      "E:cond:2"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:3"
+    ],
+    "ventilator associated pneumonia": [
+      "E:cond:4"
+    ],
+    "other complications due to other cardiac device, implant, and graft": [
+      "E:cond:5"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:6"
+    ],
+    "coronary atherosclerosis of native coronary artery": [
+      "E:cond:7"
+    ],
+    "atrial fibrillation": [
+      "E:cond:8"
+    ],
+    "anemia, unspecified": [
+      "E:cond:9"
+    ],
+    "chronic kidney disease, unspecified": [
+      "E:cond:10"
+    ],
+    "mitral valve disorders": [
+      "E:cond:11"
+    ],
+    "pressure ulcer, other site": [
+      "E:cond:12"
+    ],
+    "pressure ulcer, stage ii": [
+      "E:cond:13"
+    ],
+    "continuous invasive mechanical ventilation for less than 96 consecutive hours": [
+      "E:proc:1"
+    ],
+    "combined right and left heart cardiac catheterization": [
+      "E:proc:2"
+    ],
+    "coronary arteriography using two catheters": [
+      "E:proc:3"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:4"
+    ],
+    "73 y/o m admitted w/ significant cardiac hx, including cabg, chf, i-cmp, +smo": [
+      "E:note:row546150:1"
+    ],
+    "worsening resp distress despite diuresis requiring intubation.": [
+      "E:note:row546150:2"
+    ],
+    "bp dropped s/p intubation requiring pressors.": [
+      "E:note:row546150:3"
+    ],
+    "transferred to [**hospital1 1**] ccu [**12-9**] for further care per family r": [
+      "E:note:row546150:4"
+    ],
+    "enzymes sent.": [
+      "E:note:row546150:5"
+    ],
+    "heart failure (chf), systolic, acute on chronic assessment: gd response to": [
+      "E:note:row546150:6"
+    ],
+    "action: lasix weaned to 8mg/hr response: uop continues ~100cc/hr pla": [
+      "E:note:row546150:7"
+    ],
+    "monitor cr.": [
+      "E:note:row546150:8"
+    ],
+    "tte today. ? adding ace-i as bp tolerates respiratory failure, acute (not": [
+      "E:note:row546150:9"
+    ],
+    "ls intermittently course, clearing w/ suctioning.": [
+      "E:note:row546150:10"
+    ],
+    "am rsbi 52 action: pt suctioned as needed response: continue to have": [
+      "E:note:row546150:11"
+    ],
+    "appearing uncomfortable/restless at times.": [
+      "E:note:row546150:12"
+    ],
+    "denies pain by nodding when asked.": [
+      "E:note:row546150:13"
+    ],
+    "action: prn fentanyl and versed ivp given for comfort response: appeari": [
+      "E:note:row546150:14"
+    ],
+    "atrial fibrillation (afib) assessment: hr 80-90s afib, w/ occas v-paced.": [
+      "E:note:row546150:15"
+    ],
+    "freq pvcs/couplets.": [
+      "E:note:row546150:16"
+    ],
+    "action: heparin gtt started at 1400units/hr for af. 40meq kcl given for k 3.7": [
+      "E:note:row546150:17"
+    ],
+    "titrate heparin gtt accordingly for goal ptt 60-100 fever (hyperthermia, p": [
+      "E:note:row546150:18"
+    ],
+    "low grade temp here, tmax 99.7 po.": [
+      "E:note:row546150:19"
+    ],
+    "action: 1 time dose zosyn given, azythromycin iv ordered response: cont": [
+      "E:note:row546150:20"
+    ],
+    "plan: monitor for fevers, abx as ordered.": [
+      "E:note:row546150:21"
+    ],
+    "(standing order zosyn awaiting id approval) impaired skin integrity ass": [
+      "E:note:row546150:22"
+    ],
+    "per report from osh, from pressure from laying on thermometer.": [
+      "E:note:row546150:23"
+    ],
+    "action: skin closely monitored, pt turned and repositioned q2-3 as tol res": [
+      "E:note:row546150:24"
+    ],
+    "anemia, chronic assessment: hct drop from 38.3 to 26 in osh, 26.5 on admit": [
+      "E:note:row546150:25"
+    ],
+    "action: hct monitored response: stable plan: monitor for signs bl": [
+      "E:note:row546150:26"
+    ],
+    "monitor hcts, ?transfuse knowledge deficit assessment: +smoker per repo": [
+      "E:note:row546150:27"
+    ]
+  },
+  "by_date": {
+    "2137-12-09": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4"
+    ]
+  }
+}

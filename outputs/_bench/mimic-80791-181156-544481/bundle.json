@@ -1,0 +1,409 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-80791-181156",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-80791",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-80791",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-181156",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-181156",
+        "status": "finished",
+        "class": {
+          "code": "AMB",
+          "display": "ELECTIVE"
+        },
+        "type": [
+          {
+            "text": "ELECTIVE"
+          }
+        ],
+        "period": {
+          "start": "2134-11-01T00:00:00",
+          "end": "2134-11-08T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181156-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181156-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "71596",
+              "display": "Osteoarthrosis, unspecified whether generalized or localized, lower leg"
+            }
+          ],
+          "text": "Osteoarthrosis, unspecified whether generalized or localized, lower leg"
+        },
+        "onsetDateTime": "2134-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181156-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181156-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5184",
+              "display": "Acute edema of lung, unspecified"
+            }
+          ],
+          "text": "Acute edema of lung, unspecified"
+        },
+        "onsetDateTime": "2134-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181156-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181156-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5185",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2134-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181156-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181156-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2134-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181156-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181156-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2762",
+              "display": "Acidosis"
+            }
+          ],
+          "text": "Acidosis"
+        },
+        "onsetDateTime": "2134-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181156-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181156-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99811",
+              "display": "Hemorrhage complicating a procedure"
+            }
+          ],
+          "text": "Hemorrhage complicating a procedure"
+        },
+        "onsetDateTime": "2134-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181156-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181156-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2851",
+              "display": "Acute posthemorrhagic anemia"
+            }
+          ],
+          "text": "Acute posthemorrhagic anemia"
+        },
+        "onsetDateTime": "2134-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181156-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181156-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V854",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2134-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181156-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181156-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8799",
+              "display": "Unspecified procedure as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+            }
+          ],
+          "text": "Unspecified procedure as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+        },
+        "onsetDateTime": "2134-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181156-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181156-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "40390",
+              "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+            }
+          ],
+          "text": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+        },
+        "onsetDateTime": "2134-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181156-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181156-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2767",
+              "display": "Hyperpotassemia"
+            }
+          ],
+          "text": "Hyperpotassemia"
+        },
+        "onsetDateTime": "2134-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181156-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181156-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "45829",
+              "display": "Other iatrogenic hypotension"
+            }
+          ],
+          "text": "Other iatrogenic hypotension"
+        },
+        "onsetDateTime": "2134-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-181156-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-181156-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "27800",
+              "display": "Obesity, unspecified"
+            }
+          ],
+          "text": "Obesity, unspecified"
+        },
+        "onsetDateTime": "2134-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-181156-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-181156-1",
+        "status": "completed",
+        "code": {
+          "text": "Total knee replacement"
+        },
+        "performedDateTime": "2134-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-181156-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-181156-2",
+        "status": "completed",
+        "code": {
+          "text": "Non-invasive mechanical ventilation"
+        },
+        "performedDateTime": "2134-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-181156-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-181156-3",
+        "status": "completed",
+        "code": {
+          "text": "Arterial catheterization"
+        },
+        "performedDateTime": "2134-11-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-181156-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-181156-4",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of packed cells"
+        },
+        "performedDateTime": "2134-11-01"
+      }
+    }
+  ]
+}

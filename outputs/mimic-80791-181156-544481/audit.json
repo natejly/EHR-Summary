@@ -1,0 +1,141 @@
+{
+  "case_id": "mimic-80791-181156-544481",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2448,
+    "summary_chars": 887,
+    "target_min_chars": 489,
+    "target_max_chars": 734,
+    "achieved_ratio": 0.36233660130718953,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 9,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:2",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:9",
+      "E:note:row544481:1",
+      "E:note:row544481:3",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Comorbidities include lower leg osteoarthrosis [E:cond:1], obesity [E:cond:13], and morbid obesity [E:note:row544481:1].",
+        "severity": "medium",
+        "reason": "The fact sheet does not contain evidence for 'morbid obesity' [E:note:row544481:1]."
+      },
+      {
+        "sentence": "Procedures performed include total knee replacement [E:proc:1], non-invasive mechanical ventilation [E:proc:2], arterial catheterization [E:proc:3], and packed cell transfusion [E:proc:4].",
+        "severity": "medium",
+        "reason": "The fact sheet does not contain evidence for 'packed cell transfusion' [E:proc:4]."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Comorbidities include lower leg osteoarthrosis [E:cond:1], obesity [E:cond:13], and morbid obesity [E:note:row544481:1].",
+        "suggested": "Comorbidities include lower leg osteoarthrosis [E:cond:1] and obesity [E:cond:13].",
+        "reason": "Removed unsupported claim of morbid obesity."
+      },
+      {
+        "original": "Procedures performed include total knee replacement [E:proc:1], non-invasive mechanical ventilation [E:proc:2], arterial catheterization [E:proc:3], and packed cell transfusion [E:proc:4].",
+        "suggested": "Procedures performed include total knee replacement [E:proc:1], non-invasive mechanical ventilation [E:proc:2], and arterial catheterization [E:proc:3].",
+        "reason": "Removed unsupported claim of packed cell transfusion."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 2,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-80791-181156-544481/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 4.44,
+    "fk_words": 139,
+    "fk_sentences": 16,
+    "fk_syllables": 196,
+    "chars": 989,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-80791-181156-544481/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.02684045903151855,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 66.67325866600731,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 30.240976083034184,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0021004590089432895,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 10.524537166988011,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 6.7032719170092605,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0032464999821968377,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 40.181406625022646,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

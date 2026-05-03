@@ -1,0 +1,31 @@
+{
+  "concerns": [
+    {
+      "sentence": "Basilar artery occlusion/stenosis with cerebral infarction [E:cond:1], possible basilar artery thrombosis [E:note:row498276:8], and old parietal infarct [E:note:row498276:4].",
+      "severity": "medium",
+      "reason": "The summary includes specific diagnoses (basilar artery thrombosis, parietal infarct) not present in the provided fact sheet."
+    },
+    {
+      "sentence": "Acute on chronic diastolic heart failure [E:cond:2], CHF [E:cond:7], and CAD s/p stent x6 [E:note:row498276:1].",
+      "severity": "medium",
+      "reason": "The claim 's/p stent x6' is not supported by the fact sheet; the citation refers to Coumadin medication."
+    },
+    {
+      "sentence": "Basilar artery occlusion/stenosis with cerebral infarction [E:cond:1], possible basilar artery thrombosis [E:note:row498276:8], and old parietal infarct [E:note:row498276:4].",
+      "severity": "low",
+      "reason": "Missing mention of Obstructive Sleep Apnea [E:cond:8] which is listed in the fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Basilar artery occlusion/stenosis with cerebral infarction [E:cond:1], possible basilar artery thrombosis [E:note:row498276:8], and old parietal infarct [E:note:row498276:4].",
+      "suggested": "Basilar artery occlusion/stenosis with cerebral infarction [E:cond:1].",
+      "reason": "Remove unsupported claims regarding thrombosis and parietal infarct."
+    },
+    {
+      "original": "Acute on chronic diastolic heart failure [E:cond:2], CHF [E:cond:7], and CAD s/p stent x6 [E:note:row498276:1].",
+      "suggested": "Acute on chronic diastolic heart failure [E:cond:2], CHF [E:cond:7], and coronary atherosclerosis [E:cond:13].",
+      "reason": "Correct the CAD citation and remove the unsupported 'stent x6' claim."
+    }
+  ]
+}

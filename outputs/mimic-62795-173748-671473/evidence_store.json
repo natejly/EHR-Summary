@@ -1,0 +1,3554 @@
+{
+  "case_id": "mimic-62795-173748-671473",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:enc-173748",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Unspecified disease of spinal cord",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3369",
+        "display": "Unspecified disease of spinal cord"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Unspecified disease of spinal cord",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3369",
+        "display": "Unspecified disease of spinal cord"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute kidney failure with lesion of tubular necrosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5845",
+        "display": "Acute kidney failure with lesion of tubular necrosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute kidney failure with lesion of tubular necrosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5845",
+        "display": "Acute kidney failure with lesion of tubular necrosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Hepatorenal syndrome",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5724",
+        "display": "Hepatorenal syndrome"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Hepatorenal syndrome",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5724",
+        "display": "Hepatorenal syndrome"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5185",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5185",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Other specified forms of effusion, except tuberculous",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51189",
+        "display": "Other specified forms of effusion, except tuberculous"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Other specified forms of effusion, except tuberculous",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51189",
+        "display": "Other specified forms of effusion, except tuberculous"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Pleurisy with effusion, with mention of a bacterial cause other than tuberculosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5111",
+        "display": "Pleurisy with effusion, with mention of a bacterial cause other than tuberculosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Pleurisy with effusion, with mention of a bacterial cause other than tuberculosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5111",
+        "display": "Pleurisy with effusion, with mention of a bacterial cause other than tuberculosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Ventilator associated pneumonia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99731",
+        "display": "Ventilator associated pneumonia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Ventilator associated pneumonia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99731",
+        "display": "Ventilator associated pneumonia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Mixed acid-base balance disorder",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2764",
+        "display": "Mixed acid-base balance disorder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Mixed acid-base balance disorder",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2764",
+        "display": "Mixed acid-base balance disorder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Pathologic fracture of vertebrae",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "73313",
+        "display": "Pathologic fracture of vertebrae"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Pathologic fracture of vertebrae",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "73313",
+        "display": "Pathologic fracture of vertebrae"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Other ascites",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78959",
+        "display": "Other ascites"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Other ascites",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78959",
+        "display": "Other ascites"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Bacteremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7907",
+        "display": "Bacteremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Bacteremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7907",
+        "display": "Bacteremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Alcohol-induced persisting dementia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2912",
+        "display": "Alcohol-induced persisting dementia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Alcohol-induced persisting dementia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2912",
+        "display": "Alcohol-induced persisting dementia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:25",
+      "kind": "condition",
+      "display": "Delirium due to conditions classified elsewhere",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2930",
+        "display": "Delirium due to conditions classified elsewhere"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:26",
+      "kind": "condition",
+      "display": "Delirium due to conditions classified elsewhere",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2930",
+        "display": "Delirium due to conditions classified elsewhere"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:27",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2841",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:28",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2841",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:29",
+      "kind": "condition",
+      "display": "Alcoholic cirrhosis of liver",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5712",
+        "display": "Alcoholic cirrhosis of liver"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:30",
+      "kind": "condition",
+      "display": "Alcoholic cirrhosis of liver",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5712",
+        "display": "Alcoholic cirrhosis of liver"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:31",
+      "kind": "condition",
+      "display": "Secondary hypercoagulable state",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "28982",
+        "display": "Secondary hypercoagulable state"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:32",
+      "kind": "condition",
+      "display": "Secondary hypercoagulable state",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "28982",
+        "display": "Secondary hypercoagulable state"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:33",
+      "kind": "condition",
+      "display": "Accidental puncture or laceration of dura during a procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34931",
+        "display": "Accidental puncture or laceration of dura during a procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:34",
+      "kind": "condition",
+      "display": "Accidental puncture or laceration of dura during a procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34931",
+        "display": "Accidental puncture or laceration of dura during a procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:35",
+      "kind": "condition",
+      "display": "Acute posthemorrhagic anemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2851",
+        "display": "Acute posthemorrhagic anemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:36",
+      "kind": "condition",
+      "display": "Acute posthemorrhagic anemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2851",
+        "display": "Acute posthemorrhagic anemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:37",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9974",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:38",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9974",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:39",
+      "kind": "condition",
+      "display": "Glucocorticoid deficiency",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25541",
+        "display": "Glucocorticoid deficiency"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:40",
+      "kind": "condition",
+      "display": "Glucocorticoid deficiency",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25541",
+        "display": "Glucocorticoid deficiency"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:41",
+      "kind": "condition",
+      "display": "Infection and inflammatory reaction due to other vascular device, implant, and graft",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99662",
+        "display": "Infection and inflammatory reaction due to other vascular device, implant, and graft"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:42",
+      "kind": "condition",
+      "display": "Infection and inflammatory reaction due to other vascular device, implant, and graft",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99662",
+        "display": "Infection and inflammatory reaction due to other vascular device, implant, and graft"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:43",
+      "kind": "condition",
+      "display": "Hematoma complicating a procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99812",
+        "display": "Hematoma complicating a procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:44",
+      "kind": "condition",
+      "display": "Hematoma complicating a procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99812",
+        "display": "Hematoma complicating a procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:45",
+      "kind": "condition",
+      "display": "Hemorrhage complicating a procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99811",
+        "display": "Hemorrhage complicating a procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:46",
+      "kind": "condition",
+      "display": "Hemorrhage complicating a procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99811",
+        "display": "Hemorrhage complicating a procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:47",
+      "kind": "condition",
+      "display": "Pulmonary collapse",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5180",
+        "display": "Pulmonary collapse"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:48",
+      "kind": "condition",
+      "display": "Pulmonary collapse",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5180",
+        "display": "Pulmonary collapse"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:49",
+      "kind": "condition",
+      "display": "Chronic kidney disease, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5859",
+        "display": "Chronic kidney disease, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-25",
+      "text": null
+    },
+    {
+      "id": "E:cond:50",
+      "kind": "condition",
+      "display": "Chronic kidney disease, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5859",
+        "display": "Chronic kidney disease, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-25",
+      "text": null
+    },
+    {
+      "id": "E:cond:51",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25000",
+        "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-26",
+      "text": null
+    },
+    {
+      "id": "E:cond:52",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25000",
+        "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-26",
+      "text": null
+    },
+    {
+      "id": "E:cond:53",
+      "kind": "condition",
+      "display": "Other and unspecified alcohol dependence, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "30390",
+        "display": "Other and unspecified alcohol dependence, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-27",
+      "text": null
+    },
+    {
+      "id": "E:cond:54",
+      "kind": "condition",
+      "display": "Other and unspecified alcohol dependence, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "30390",
+        "display": "Other and unspecified alcohol dependence, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-27",
+      "text": null
+    },
+    {
+      "id": "E:cond:55",
+      "kind": "condition",
+      "display": "Esophageal reflux",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53081",
+        "display": "Esophageal reflux"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-28",
+      "text": null
+    },
+    {
+      "id": "E:cond:56",
+      "kind": "condition",
+      "display": "Esophageal reflux",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53081",
+        "display": "Esophageal reflux"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-28",
+      "text": null
+    },
+    {
+      "id": "E:cond:57",
+      "kind": "condition",
+      "display": "Accidental cut, puncture, perforation or hemorrhage during surgical operation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8700",
+        "display": "Accidental cut, puncture, perforation or hemorrhage during surgical operation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-29",
+      "text": null
+    },
+    {
+      "id": "E:cond:58",
+      "kind": "condition",
+      "display": "Accidental cut, puncture, perforation or hemorrhage during surgical operation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8700",
+        "display": "Accidental cut, puncture, perforation or hemorrhage during surgical operation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-29",
+      "text": null
+    },
+    {
+      "id": "E:cond:59",
+      "kind": "condition",
+      "display": "Foreign body in larynx",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9331",
+        "display": "Foreign body in larynx"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-30",
+      "text": null
+    },
+    {
+      "id": "E:cond:60",
+      "kind": "condition",
+      "display": "Foreign body in larynx",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9331",
+        "display": "Foreign body in larynx"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-30",
+      "text": null
+    },
+    {
+      "id": "E:cond:61",
+      "kind": "condition",
+      "display": "Foreign body accidentally entering other orifice",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E915",
+        "display": "Foreign body accidentally entering other orifice"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-31",
+      "text": null
+    },
+    {
+      "id": "E:cond:62",
+      "kind": "condition",
+      "display": "Foreign body accidentally entering other orifice",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E915",
+        "display": "Foreign body accidentally entering other orifice"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-31",
+      "text": null
+    },
+    {
+      "id": "E:cond:63",
+      "kind": "condition",
+      "display": "Kidney dialysis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8791",
+        "display": "Kidney dialysis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-32",
+      "text": null
+    },
+    {
+      "id": "E:cond:64",
+      "kind": "condition",
+      "display": "Kidney dialysis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8791",
+        "display": "Kidney dialysis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-32",
+      "text": null
+    },
+    {
+      "id": "E:cond:65",
+      "kind": "condition",
+      "display": "Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group D [Enterococcus]",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "04104",
+        "display": "Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group D [Enterococcus]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-33",
+      "text": null
+    },
+    {
+      "id": "E:cond:66",
+      "kind": "condition",
+      "display": "Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group D [Enterococcus]",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "04104",
+        "display": "Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group D [Enterococcus]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-33",
+      "text": null
+    },
+    {
+      "id": "E:cond:67",
+      "kind": "condition",
+      "display": "Spinal stenosis, thoracic region",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "72401",
+        "display": "Spinal stenosis, thoracic region"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-34",
+      "text": null
+    },
+    {
+      "id": "E:cond:68",
+      "kind": "condition",
+      "display": "Spinal stenosis, thoracic region",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "72401",
+        "display": "Spinal stenosis, thoracic region"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-34",
+      "text": null
+    },
+    {
+      "id": "E:cond:69",
+      "kind": "condition",
+      "display": "Anemia of other chronic disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "28529",
+        "display": "Anemia of other chronic disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-35",
+      "text": null
+    },
+    {
+      "id": "E:cond:70",
+      "kind": "condition",
+      "display": "Anemia of other chronic disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "28529",
+        "display": "Anemia of other chronic disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-35",
+      "text": null
+    },
+    {
+      "id": "E:cond:71",
+      "kind": "condition",
+      "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "40390",
+        "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-36",
+      "text": null
+    },
+    {
+      "id": "E:cond:72",
+      "kind": "condition",
+      "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "40390",
+        "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-36",
+      "text": null
+    },
+    {
+      "id": "E:cond:73",
+      "kind": "condition",
+      "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8798",
+        "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-37",
+      "text": null
+    },
+    {
+      "id": "E:cond:74",
+      "kind": "condition",
+      "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8798",
+        "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-37",
+      "text": null
+    },
+    {
+      "id": "E:cond:75",
+      "kind": "condition",
+      "display": "Unspecified accident",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E9289",
+        "display": "Unspecified accident"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-38",
+      "text": null
+    },
+    {
+      "id": "E:cond:76",
+      "kind": "condition",
+      "display": "Unspecified accident",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E9289",
+        "display": "Unspecified accident"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-38",
+      "text": null
+    },
+    {
+      "id": "E:cond:77",
+      "kind": "condition",
+      "display": "Thrombocytopenia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2875",
+        "display": "Thrombocytopenia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-39",
+      "text": null
+    },
+    {
+      "id": "E:cond:78",
+      "kind": "condition",
+      "display": "Thrombocytopenia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2875",
+        "display": "Thrombocytopenia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:cond-173748-39",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Repair of vertebral fracture",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Repair of vertebral fracture"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Repair of vertebral fracture",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Repair of vertebral fracture"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Dorsal and dorsolumbar fusion of the anterior column, anterior technique",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Dorsal and dorsolumbar fusion of the anterior column, anterior technique"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Dorsal and dorsolumbar fusion of the anterior column, anterior technique",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Dorsal and dorsolumbar fusion of the anterior column, anterior technique"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Other repair and plastic operations on spinal cord structures",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other repair and plastic operations on spinal cord structures"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Other repair and plastic operations on spinal cord structures",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other repair and plastic operations on spinal cord structures"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Open biopsy of soft tissue",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Open biopsy of soft tissue"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Open biopsy of soft tissue",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Open biopsy of soft tissue"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Fusion or refusion of 2-3 vertebrae",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Fusion or refusion of 2-3 vertebrae"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Fusion or refusion of 2-3 vertebrae",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Fusion or refusion of 2-3 vertebrae"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Insertion of interbody spinal fusion device",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of interbody spinal fusion device"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Insertion of interbody spinal fusion device",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of interbody spinal fusion device"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Other intubation of respiratory tract",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other intubation of respiratory tract"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:14",
+      "kind": "procedure",
+      "display": "Other intubation of respiratory tract",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other intubation of respiratory tract"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:15",
+      "kind": "procedure",
+      "display": "Transfusion of packed cells",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of packed cells"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:16",
+      "kind": "procedure",
+      "display": "Transfusion of packed cells",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of packed cells"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:17",
+      "kind": "procedure",
+      "display": "Transfusion of platelets",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of platelets"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:18",
+      "kind": "procedure",
+      "display": "Transfusion of platelets",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of platelets"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:19",
+      "kind": "procedure",
+      "display": "Transfusion of other serum",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of other serum"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:20",
+      "kind": "procedure",
+      "display": "Transfusion of other serum",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of other serum"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:21",
+      "kind": "procedure",
+      "display": "Transfusion of other substance",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of other substance"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:22",
+      "kind": "procedure",
+      "display": "Transfusion of other substance",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of other substance"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:23",
+      "kind": "procedure",
+      "display": "Insertion of intercostal catheter for drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of intercostal catheter for drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:24",
+      "kind": "procedure",
+      "display": "Insertion of intercostal catheter for drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of intercostal catheter for drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:25",
+      "kind": "procedure",
+      "display": "Insertion of intercostal catheter for drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of intercostal catheter for drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:26",
+      "kind": "procedure",
+      "display": "Insertion of intercostal catheter for drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of intercostal catheter for drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:27",
+      "kind": "procedure",
+      "display": "Thoracentesis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Thoracentesis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-14",
+      "text": null
+    },
+    {
+      "id": "E:proc:28",
+      "kind": "procedure",
+      "display": "Thoracentesis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Thoracentesis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-14",
+      "text": null
+    },
+    {
+      "id": "E:proc:29",
+      "kind": "procedure",
+      "display": "Insertion of intercostal catheter for drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of intercostal catheter for drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-15",
+      "text": null
+    },
+    {
+      "id": "E:proc:30",
+      "kind": "procedure",
+      "display": "Insertion of intercostal catheter for drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of intercostal catheter for drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-15",
+      "text": null
+    },
+    {
+      "id": "E:proc:31",
+      "kind": "procedure",
+      "display": "Insertion of intercostal catheter for drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of intercostal catheter for drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-16",
+      "text": null
+    },
+    {
+      "id": "E:proc:32",
+      "kind": "procedure",
+      "display": "Insertion of intercostal catheter for drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of intercostal catheter for drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-16",
+      "text": null
+    },
+    {
+      "id": "E:proc:33",
+      "kind": "procedure",
+      "display": "Insertion of intercostal catheter for drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of intercostal catheter for drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-17",
+      "text": null
+    },
+    {
+      "id": "E:proc:34",
+      "kind": "procedure",
+      "display": "Insertion of intercostal catheter for drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of intercostal catheter for drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-17",
+      "text": null
+    },
+    {
+      "id": "E:proc:35",
+      "kind": "procedure",
+      "display": "Transfusion of coagulation factors",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of coagulation factors"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-18",
+      "text": null
+    },
+    {
+      "id": "E:proc:36",
+      "kind": "procedure",
+      "display": "Transfusion of coagulation factors",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of coagulation factors"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-18",
+      "text": null
+    },
+    {
+      "id": "E:proc:37",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-19",
+      "text": null
+    },
+    {
+      "id": "E:proc:38",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-19",
+      "text": null
+    },
+    {
+      "id": "E:proc:39",
+      "kind": "procedure",
+      "display": "Other intubation of respiratory tract",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other intubation of respiratory tract"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-20",
+      "text": null
+    },
+    {
+      "id": "E:proc:40",
+      "kind": "procedure",
+      "display": "Other intubation of respiratory tract",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other intubation of respiratory tract"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-20",
+      "text": null
+    },
+    {
+      "id": "E:proc:41",
+      "kind": "procedure",
+      "display": "Other intubation of respiratory tract",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other intubation of respiratory tract"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-21",
+      "text": null
+    },
+    {
+      "id": "E:proc:42",
+      "kind": "procedure",
+      "display": "Other intubation of respiratory tract",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other intubation of respiratory tract"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-21",
+      "text": null
+    },
+    {
+      "id": "E:proc:43",
+      "kind": "procedure",
+      "display": "Other intubation of respiratory tract",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other intubation of respiratory tract"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-22",
+      "text": null
+    },
+    {
+      "id": "E:proc:44",
+      "kind": "procedure",
+      "display": "Other intubation of respiratory tract",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other intubation of respiratory tract"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-22",
+      "text": null
+    },
+    {
+      "id": "E:proc:45",
+      "kind": "procedure",
+      "display": "Other intubation of respiratory tract",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other intubation of respiratory tract"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-23",
+      "text": null
+    },
+    {
+      "id": "E:proc:46",
+      "kind": "procedure",
+      "display": "Other intubation of respiratory tract",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other intubation of respiratory tract"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-23",
+      "text": null
+    },
+    {
+      "id": "E:proc:47",
+      "kind": "procedure",
+      "display": "Other intubation of respiratory tract",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other intubation of respiratory tract"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-24",
+      "text": null
+    },
+    {
+      "id": "E:proc:48",
+      "kind": "procedure",
+      "display": "Other intubation of respiratory tract",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other intubation of respiratory tract"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-24",
+      "text": null
+    },
+    {
+      "id": "E:proc:49",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-25",
+      "text": null
+    },
+    {
+      "id": "E:proc:50",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-25",
+      "text": null
+    },
+    {
+      "id": "E:proc:51",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-26",
+      "text": null
+    },
+    {
+      "id": "E:proc:52",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-26",
+      "text": null
+    },
+    {
+      "id": "E:proc:53",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-27",
+      "text": null
+    },
+    {
+      "id": "E:proc:54",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-27",
+      "text": null
+    },
+    {
+      "id": "E:proc:55",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-28",
+      "text": null
+    },
+    {
+      "id": "E:proc:56",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-28",
+      "text": null
+    },
+    {
+      "id": "E:proc:57",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-29",
+      "text": null
+    },
+    {
+      "id": "E:proc:58",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-29",
+      "text": null
+    },
+    {
+      "id": "E:proc:59",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-30",
+      "text": null
+    },
+    {
+      "id": "E:proc:60",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-30",
+      "text": null
+    },
+    {
+      "id": "E:proc:61",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-31",
+      "text": null
+    },
+    {
+      "id": "E:proc:62",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-31",
+      "text": null
+    },
+    {
+      "id": "E:proc:63",
+      "kind": "procedure",
+      "display": "Hemodialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Hemodialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-32",
+      "text": null
+    },
+    {
+      "id": "E:proc:64",
+      "kind": "procedure",
+      "display": "Hemodialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Hemodialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-32",
+      "text": null
+    },
+    {
+      "id": "E:proc:65",
+      "kind": "procedure",
+      "display": "Thoracentesis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Thoracentesis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-33",
+      "text": null
+    },
+    {
+      "id": "E:proc:66",
+      "kind": "procedure",
+      "display": "Thoracentesis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Thoracentesis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-33",
+      "text": null
+    },
+    {
+      "id": "E:proc:67",
+      "kind": "procedure",
+      "display": "Diagnostic ultrasound of other sites of thorax",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Diagnostic ultrasound of other sites of thorax"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-34",
+      "text": null
+    },
+    {
+      "id": "E:proc:68",
+      "kind": "procedure",
+      "display": "Diagnostic ultrasound of other sites of thorax",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Diagnostic ultrasound of other sites of thorax"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-34",
+      "text": null
+    },
+    {
+      "id": "E:proc:69",
+      "kind": "procedure",
+      "display": "Injection into thoracic cavity",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Injection into thoracic cavity"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-35",
+      "text": null
+    },
+    {
+      "id": "E:proc:70",
+      "kind": "procedure",
+      "display": "Injection into thoracic cavity",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Injection into thoracic cavity"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-35",
+      "text": null
+    },
+    {
+      "id": "E:proc:71",
+      "kind": "procedure",
+      "display": "Injection of antibiotic",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Injection of antibiotic"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-36",
+      "text": null
+    },
+    {
+      "id": "E:proc:72",
+      "kind": "procedure",
+      "display": "Injection of antibiotic",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Injection of antibiotic"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-36",
+      "text": null
+    },
+    {
+      "id": "E:proc:73",
+      "kind": "procedure",
+      "display": "Closure of skin and subcutaneous tissue of other sites",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closure of skin and subcutaneous tissue of other sites"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-37",
+      "text": null
+    },
+    {
+      "id": "E:proc:74",
+      "kind": "procedure",
+      "display": "Closure of skin and subcutaneous tissue of other sites",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closure of skin and subcutaneous tissue of other sites"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-37",
+      "text": null
+    },
+    {
+      "id": "E:proc:75",
+      "kind": "procedure",
+      "display": "Venous catheterization for renal dialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization for renal dialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-38",
+      "text": null
+    },
+    {
+      "id": "E:proc:76",
+      "kind": "procedure",
+      "display": "Venous catheterization for renal dialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization for renal dialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-38",
+      "text": null
+    },
+    {
+      "id": "E:proc:77",
+      "kind": "procedure",
+      "display": "Venous catheterization for renal dialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization for renal dialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-39",
+      "text": null
+    },
+    {
+      "id": "E:proc:78",
+      "kind": "procedure",
+      "display": "Venous catheterization for renal dialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization for renal dialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-39",
+      "text": null
+    },
+    {
+      "id": "E:proc:79",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-40",
+      "text": null
+    },
+    {
+      "id": "E:proc:80",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-04-27",
+      "source_ref": "urn:uuid:proc-173748-40",
+      "text": null
+    },
+    {
+      "id": "E:note:row671473:1",
+      "kind": "note_sentence",
+      "display": "45 year old woman admitted to T/SICU from the OR following a    transsternal T4 ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s1",
+      "text": "45 year old woman admitted to T/SICU from the OR following a    transsternal T4 vertebrectomy and mass removal."
+    },
+    {
+      "id": "E:note:row671473:2",
+      "kind": "note_sentence",
+      "display": "Pt. with alcoholic    cirrhosis and had 5L blood loss in OR.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s2",
+      "text": "Pt. with alcoholic    cirrhosis and had 5L blood loss in OR."
+    },
+    {
+      "id": "E:note:row671473:3",
+      "kind": "note_sentence",
+      "display": "PMH:    Hx DM2, CRI, ETOH abuse, pancreatitis, and cirrhosis, depression who    ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s3",
+      "text": "PMH:    Hx DM2, CRI, ETOH abuse, pancreatitis, and cirrhosis, depression who    was admitted on [**2130-4-27**]  with new acute low back pain w/ bilateral leg    spasms, and was found on CTA to have T4 vertebral body destruction."
+    },
+    {
+      "id": "E:note:row671473:4",
+      "kind": "note_sentence",
+      "display": "Pt    was seen on [**2130-4-22**] at OSH for atypical chest pain with negative c",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s4",
+      "text": "Pt    was seen on [**2130-4-22**] at OSH for atypical chest pain with negative cardiac    eval."
+    },
+    {
+      "id": "E:note:row671473:5",
+      "kind": "note_sentence",
+      "display": "One day later after discharge, she re-presented to OSH with    mid-low back pain",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s5",
+      "text": "One day later after discharge, she re-presented to OSH with    mid-low back pain."
+    },
+    {
+      "id": "E:note:row671473:6",
+      "kind": "note_sentence",
+      "display": "Pt was also recently discharged from [**Hospital 1711**]    Hospital ([**Date ra",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s6",
+      "text": "Pt was also recently discharged from [**Hospital 1711**]    Hospital ([**Date range (2) 6007**]?) for ETOH detoxification."
+    },
+    {
+      "id": "E:note:row671473:7",
+      "kind": "note_sentence",
+      "display": "Attempts to biopsy    area and resect using posterior approach were abandoned as",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s7",
+      "text": "Attempts to biopsy    area and resect using posterior approach were abandoned as pt. could    not tolerate prone position."
+    },
+    {
+      "id": "E:note:row671473:8",
+      "kind": "note_sentence",
+      "display": "T4 vertebrectomy via transsternal approach    Assessment:    Long OR course with",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s8",
+      "text": "T4 vertebrectomy via transsternal approach    Assessment:    Long OR course with large blood loss."
+    },
+    {
+      "id": "E:note:row671473:9",
+      "kind": "note_sentence",
+      "display": "Arrived sedated on propofol and    requiring neo for BP maintenance.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s9",
+      "text": "Arrived sedated on propofol and    requiring neo for BP maintenance."
+    },
+    {
+      "id": "E:note:row671473:10",
+      "kind": "note_sentence",
+      "display": "Two right sided chest tubes with    large sanginous output to water seal.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s10",
+      "text": "Two right sided chest tubes with    large sanginous output to water seal."
+    },
+    {
+      "id": "E:note:row671473:11",
+      "kind": "note_sentence",
+      "display": "Multiple areas of ecchymosis    especially on back and perineal area.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s11",
+      "text": "Multiple areas of ecchymosis    especially on back and perineal area."
+    },
+    {
+      "id": "E:note:row671473:12",
+      "kind": "note_sentence",
+      "display": "Last hct 35, INR 1.6.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s12",
+      "text": "Last hct 35, INR 1.6."
+    },
+    {
+      "id": "E:note:row671473:13",
+      "kind": "note_sentence",
+      "display": "Sternal/R    thoracotomy incision closed with dermabond, open to air.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s13",
+      "text": "Sternal/R    thoracotomy incision closed with dermabond, open to air."
+    },
+    {
+      "id": "E:note:row671473:14",
+      "kind": "note_sentence",
+      "display": "Intubated.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s14",
+      "text": "Intubated."
+    },
+    {
+      "id": "E:note:row671473:15",
+      "kind": "note_sentence",
+      "display": "Lumbar drain in place without drainage.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s15",
+      "text": "Lumbar drain in place without drainage."
+    },
+    {
+      "id": "E:note:row671473:16",
+      "kind": "note_sentence",
+      "display": "Lactate 2.9.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s16",
+      "text": "Lactate 2.9."
+    },
+    {
+      "id": "E:note:row671473:17",
+      "kind": "note_sentence",
+      "display": "Action:    Q 1-2 hour neuro checks done, thoracic CT obtain, CXR X 2 done,    fr",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s17",
+      "text": "Action:    Q 1-2 hour neuro checks done, thoracic CT obtain, CXR X 2 done,    frequent lab draws, 2 units prbc, 2 units ffp, bag of platelets given."
+    },
+    {
+      "id": "E:note:row671473:18",
+      "kind": "note_sentence",
+      "display": "Q 1 hour chest tube output recorded and patency ensured.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s18",
+      "text": "Q 1 hour chest tube output recorded and patency ensured."
+    },
+    {
+      "id": "E:note:row671473:19",
+      "kind": "note_sentence",
+      "display": "Lumbar drain    positioned in effort to obtain 15cc CSF output q 1 hour.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s19",
+      "text": "Lumbar drain    positioned in effort to obtain 15cc CSF output q 1 hour."
+    },
+    {
+      "id": "E:note:row671473:20",
+      "kind": "note_sentence",
+      "display": "Dr [**First Name (STitle) **]    assessed drain patency at 01:00.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s20",
+      "text": "Dr [**First Name (STitle) **]    assessed drain patency at 01:00."
+    },
+    {
+      "id": "E:note:row671473:21",
+      "kind": "note_sentence",
+      "display": "Response:    Awakes to name while on low dose propofol, follows commands but get",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s21",
+      "text": "Response:    Awakes to name while on low dose propofol, follows commands but gets    agitated and clamps on endotracheal tube."
+    },
+    {
+      "id": "E:note:row671473:22",
+      "kind": "note_sentence",
+      "display": "Follow commands readily with    arms, wiggles l toes and withdraws R leg to pain",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s22",
+      "text": "Follow commands readily with    arms, wiggles l toes and withdraws R leg to pain."
+    },
+    {
+      "id": "E:note:row671473:23",
+      "kind": "note_sentence",
+      "display": "CT output slowed,    continued to require low dose neo.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s23",
+      "text": "CT output slowed,    continued to require low dose neo."
+    },
+    {
+      "id": "E:note:row671473:24",
+      "kind": "note_sentence",
+      "display": "Initially lumbar drain did not    drain, now with 12cc/hr when level at -5 cm be",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s24",
+      "text": "Initially lumbar drain did not    drain, now with 12cc/hr when level at -5 cm below shoulder."
+    },
+    {
+      "id": "E:note:row671473:25",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue to monitor neuro status, ct output, labs.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s25",
+      "text": "Plan:    Continue to monitor neuro status, ct output, labs."
+    },
+    {
+      "id": "E:note:row671473:26",
+      "kind": "note_sentence",
+      "display": "Consider weaning to    extubation when stabilized.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s26",
+      "text": "Consider weaning to    extubation when stabilized."
+    },
+    {
+      "id": "E:note:row671473:27",
+      "kind": "note_sentence",
+      "display": "Coagulopathy ..pt with alcohol cirrhosis    Assessment:    Large abdomen with as",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s27",
+      "text": "Coagulopathy ..pt with alcohol cirrhosis    Assessment:    Large abdomen with ascities."
+    },
+    {
+      "id": "E:note:row671473:28",
+      "kind": "note_sentence",
+      "display": "Hct 22, INR 1.6, platelets down to 80    multiple areas of ecchymosis and oozing",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s28",
+      "text": "Hct 22, INR 1.6, platelets down to 80    multiple areas of ecchymosis and oozing from central lines."
+    },
+    {
+      "id": "E:note:row671473:29",
+      "kind": "note_sentence",
+      "display": "Large CT    output    Action:    PRBCs X 2 given, 2 units ffp, 1 bag of platelet",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s29",
+      "text": "Large CT    output    Action:    PRBCs X 2 given, 2 units ffp, 1 bag of platelets."
+    },
+    {
+      "id": "E:note:row671473:30",
+      "kind": "note_sentence",
+      "display": "Frequent lab    monitoring.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s30",
+      "text": "Frequent lab    monitoring."
+    },
+    {
+      "id": "E:note:row671473:31",
+      "kind": "note_sentence",
+      "display": "Response:    Decrease in CT output, less oozing from central lines, stabilizing ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s31",
+      "text": "Response:    Decrease in CT output, less oozing from central lines, stabilizing    hemodynamics    Plan:    Continue to monitor closely."
+    },
+    {
+      "id": "E:note:row671473:32",
+      "kind": "note_sentence",
+      "display": "Pain control (acute pain, chronic pain)    Assessment:    Large thoracic/sternal",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s32",
+      "text": "Pain control (acute pain, chronic pain)    Assessment:    Large thoracic/sternal incision."
+    },
+    {
+      "id": "E:note:row671473:33",
+      "kind": "note_sentence",
+      "display": "Initially on propofol only.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s33",
+      "text": "Initially on propofol only."
+    },
+    {
+      "id": "E:note:row671473:34",
+      "kind": "note_sentence",
+      "display": "Was    previously on neurontin and Dilaudid for back pain.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s34",
+      "text": "Was    previously on neurontin and Dilaudid for back pain."
+    },
+    {
+      "id": "E:note:row671473:35",
+      "kind": "note_sentence",
+      "display": "Action:    Pain assessment q 2-4 hours, fentanyl iv as well as repositioning for",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s35",
+      "text": "Action:    Pain assessment q 2-4 hours, fentanyl iv as well as repositioning for    pain reduction    Response:    Pt. nods that pain is acceptable."
+    },
+    {
+      "id": "E:note:row671473:36",
+      "kind": "note_sentence",
+      "display": "Because of intubated status, unable    to use pain scale.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s36",
+      "text": "Because of intubated status, unable    to use pain scale."
+    },
+    {
+      "id": "E:note:row671473:37",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue frequent assessment.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s37",
+      "text": "Plan:    Continue frequent assessment."
+    },
+    {
+      "id": "E:note:row671473:38",
+      "kind": "note_sentence",
+      "display": "Judicious use of narcotics as indicated    combined with positioning techniques.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s38",
+      "text": "Judicious use of narcotics as indicated    combined with positioning techniques."
+    },
+    {
+      "id": "E:note:row671473:39",
+      "kind": "note_sentence",
+      "display": "Restart adjunctive pain measures    today (lidocaine patch and neurontin).",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s39",
+      "text": "Restart adjunctive pain measures    today (lidocaine patch and neurontin)."
+    },
+    {
+      "id": "E:note:row671473:40",
+      "kind": "note_sentence",
+      "display": "When extubated, consider    switching to PCA medication.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row671473#s40",
+      "text": "When extubated, consider    switching to PCA medication."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|3369": [
+      "E:cond:1",
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5845": [
+      "E:cond:3",
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5724": [
+      "E:cond:5",
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5185": [
+      "E:cond:7",
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51189": [
+      "E:cond:9",
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5111": [
+      "E:cond:11",
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99731": [
+      "E:cond:13",
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2764": [
+      "E:cond:15",
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|73313": [
+      "E:cond:17",
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78959": [
+      "E:cond:19",
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7907": [
+      "E:cond:21",
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2912": [
+      "E:cond:23",
+      "E:cond:24"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2930": [
+      "E:cond:25",
+      "E:cond:26"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2841": [
+      "E:cond:27",
+      "E:cond:28"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5712": [
+      "E:cond:29",
+      "E:cond:30"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|28982": [
+      "E:cond:31",
+      "E:cond:32"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|34931": [
+      "E:cond:33",
+      "E:cond:34"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2851": [
+      "E:cond:35",
+      "E:cond:36"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|9974": [
+      "E:cond:37",
+      "E:cond:38"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25541": [
+      "E:cond:39",
+      "E:cond:40"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99662": [
+      "E:cond:41",
+      "E:cond:42"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99812": [
+      "E:cond:43",
+      "E:cond:44"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99811": [
+      "E:cond:45",
+      "E:cond:46"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5180": [
+      "E:cond:47",
+      "E:cond:48"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5859": [
+      "E:cond:49",
+      "E:cond:50"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25000": [
+      "E:cond:51",
+      "E:cond:52"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|30390": [
+      "E:cond:53",
+      "E:cond:54"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|53081": [
+      "E:cond:55",
+      "E:cond:56"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8700": [
+      "E:cond:57",
+      "E:cond:58"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|9331": [
+      "E:cond:59",
+      "E:cond:60"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E915": [
+      "E:cond:61",
+      "E:cond:62"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8791": [
+      "E:cond:63",
+      "E:cond:64"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|04104": [
+      "E:cond:65",
+      "E:cond:66"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|72401": [
+      "E:cond:67",
+      "E:cond:68"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|28529": [
+      "E:cond:69",
+      "E:cond:70"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|40390": [
+      "E:cond:71",
+      "E:cond:72"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8798": [
+      "E:cond:73",
+      "E:cond:74"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E9289": [
+      "E:cond:75",
+      "E:cond:76"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2875": [
+      "E:cond:77",
+      "E:cond:78"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "unspecified disease of spinal cord": [
+      "E:cond:1",
+      "E:cond:2"
+    ],
+    "acute kidney failure with lesion of tubular necrosis": [
+      "E:cond:3",
+      "E:cond:4"
+    ],
+    "hepatorenal syndrome": [
+      "E:cond:5",
+      "E:cond:6"
+    ],
+    "diagnosis": [
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:37",
+      "E:cond:38"
+    ],
+    "other specified forms of effusion, except tuberculous": [
+      "E:cond:9",
+      "E:cond:10"
+    ],
+    "pleurisy with effusion, with mention of a bacterial cause other than tuberculosis": [
+      "E:cond:11",
+      "E:cond:12"
+    ],
+    "ventilator associated pneumonia": [
+      "E:cond:13",
+      "E:cond:14"
+    ],
+    "mixed acid-base balance disorder": [
+      "E:cond:15",
+      "E:cond:16"
+    ],
+    "pathologic fracture of vertebrae": [
+      "E:cond:17",
+      "E:cond:18"
+    ],
+    "other ascites": [
+      "E:cond:19",
+      "E:cond:20"
+    ],
+    "bacteremia": [
+      "E:cond:21",
+      "E:cond:22"
+    ],
+    "alcohol-induced persisting dementia": [
+      "E:cond:23",
+      "E:cond:24"
+    ],
+    "delirium due to conditions classified elsewhere": [
+      "E:cond:25",
+      "E:cond:26"
+    ],
+    "alcoholic cirrhosis of liver": [
+      "E:cond:29",
+      "E:cond:30"
+    ],
+    "secondary hypercoagulable state": [
+      "E:cond:31",
+      "E:cond:32"
+    ],
+    "accidental puncture or laceration of dura during a procedure": [
+      "E:cond:33",
+      "E:cond:34"
+    ],
+    "acute posthemorrhagic anemia": [
+      "E:cond:35",
+      "E:cond:36"
+    ],
+    "glucocorticoid deficiency": [
+      "E:cond:39",
+      "E:cond:40"
+    ],
+    "infection and inflammatory reaction due to other vascular device, implant, and graft": [
+      "E:cond:41",
+      "E:cond:42"
+    ],
+    "hematoma complicating a procedure": [
+      "E:cond:43",
+      "E:cond:44"
+    ],
+    "hemorrhage complicating a procedure": [
+      "E:cond:45",
+      "E:cond:46"
+    ],
+    "pulmonary collapse": [
+      "E:cond:47",
+      "E:cond:48"
+    ],
+    "chronic kidney disease, unspecified": [
+      "E:cond:49",
+      "E:cond:50"
+    ],
+    "diabetes mellitus without mention of complication, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:51",
+      "E:cond:52"
+    ],
+    "other and unspecified alcohol dependence, unspecified": [
+      "E:cond:53",
+      "E:cond:54"
+    ],
+    "esophageal reflux": [
+      "E:cond:55",
+      "E:cond:56"
+    ],
+    "accidental cut, puncture, perforation or hemorrhage during surgical operation": [
+      "E:cond:57",
+      "E:cond:58"
+    ],
+    "foreign body in larynx": [
+      "E:cond:59",
+      "E:cond:60"
+    ],
+    "foreign body accidentally entering other orifice": [
+      "E:cond:61",
+      "E:cond:62"
+    ],
+    "kidney dialysis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure": [
+      "E:cond:63",
+      "E:cond:64"
+    ],
+    "streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group d [enterococcus]": [
+      "E:cond:65",
+      "E:cond:66"
+    ],
+    "spinal stenosis, thoracic region": [
+      "E:cond:67",
+      "E:cond:68"
+    ],
+    "anemia of other chronic disease": [
+      "E:cond:69",
+      "E:cond:70"
+    ],
+    "hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage i through stage iv, or unspecified": [
+      "E:cond:71",
+      "E:cond:72"
+    ],
+    "other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure": [
+      "E:cond:73",
+      "E:cond:74"
+    ],
+    "unspecified accident": [
+      "E:cond:75",
+      "E:cond:76"
+    ],
+    "thrombocytopenia, unspecified": [
+      "E:cond:77",
+      "E:cond:78"
+    ],
+    "repair of vertebral fracture": [
+      "E:proc:1",
+      "E:proc:2"
+    ],
+    "dorsal and dorsolumbar fusion of the anterior column, anterior technique": [
+      "E:proc:3",
+      "E:proc:4"
+    ],
+    "other repair and plastic operations on spinal cord structures": [
+      "E:proc:5",
+      "E:proc:6"
+    ],
+    "open biopsy of soft tissue": [
+      "E:proc:7",
+      "E:proc:8"
+    ],
+    "fusion or refusion of 2-3 vertebrae": [
+      "E:proc:9",
+      "E:proc:10"
+    ],
+    "insertion of interbody spinal fusion device": [
+      "E:proc:11",
+      "E:proc:12"
+    ],
+    "other intubation of respiratory tract": [
+      "E:proc:13",
+      "E:proc:14",
+      "E:proc:39",
+      "E:proc:40",
+      "E:proc:41",
+      "E:proc:42",
+      "E:proc:43",
+      "E:proc:44",
+      "E:proc:45",
+      "E:proc:46",
+      "E:proc:47",
+      "E:proc:48"
+    ],
+    "transfusion of packed cells": [
+      "E:proc:15",
+      "E:proc:16"
+    ],
+    "transfusion of platelets": [
+      "E:proc:17",
+      "E:proc:18"
+    ],
+    "transfusion of other serum": [
+      "E:proc:19",
+      "E:proc:20"
+    ],
+    "transfusion of other substance": [
+      "E:proc:21",
+      "E:proc:22"
+    ],
+    "insertion of intercostal catheter for drainage": [
+      "E:proc:23",
+      "E:proc:24",
+      "E:proc:25",
+      "E:proc:26",
+      "E:proc:29",
+      "E:proc:30",
+      "E:proc:31",
+      "E:proc:32",
+      "E:proc:33",
+      "E:proc:34"
+    ],
+    "thoracentesis": [
+      "E:proc:27",
+      "E:proc:28",
+      "E:proc:65",
+      "E:proc:66"
+    ],
+    "transfusion of coagulation factors": [
+      "E:proc:35",
+      "E:proc:36"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:37",
+      "E:proc:38"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:49",
+      "E:proc:50",
+      "E:proc:53",
+      "E:proc:54"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:51",
+      "E:proc:52"
+    ],
+    "percutaneous abdominal drainage": [
+      "E:proc:55",
+      "E:proc:56",
+      "E:proc:57",
+      "E:proc:58",
+      "E:proc:59",
+      "E:proc:60",
+      "E:proc:61",
+      "E:proc:62"
+    ],
+    "hemodialysis": [
+      "E:proc:63",
+      "E:proc:64"
+    ],
+    "diagnostic ultrasound of other sites of thorax": [
+      "E:proc:67",
+      "E:proc:68"
+    ],
+    "injection into thoracic cavity": [
+      "E:proc:69",
+      "E:proc:70"
+    ],
+    "injection of antibiotic": [
+      "E:proc:71",
+      "E:proc:72"
+    ],
+    "closure of skin and subcutaneous tissue of other sites": [
+      "E:proc:73",
+      "E:proc:74"
+    ],
+    "venous catheterization for renal dialysis": [
+      "E:proc:75",
+      "E:proc:76",
+      "E:proc:77",
+      "E:proc:78"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:79",
+      "E:proc:80"
+    ],
+    "45 year old woman admitted to t/sicu from the or following a transsternal t4": [
+      "E:note:row671473:1"
+    ],
+    "pt. with alcoholic cirrhosis and had 5l blood loss in or.": [
+      "E:note:row671473:2"
+    ],
+    "pmh: hx dm2, cri, etoh abuse, pancreatitis, and cirrhosis, depression who": [
+      "E:note:row671473:3"
+    ],
+    "pt was seen on [**2130-4-22**] at osh for atypical chest pain with negative c": [
+      "E:note:row671473:4"
+    ],
+    "one day later after discharge, she re-presented to osh with mid-low back pain": [
+      "E:note:row671473:5"
+    ],
+    "pt was also recently discharged from [**hospital 1711**] hospital ([**date ra": [
+      "E:note:row671473:6"
+    ],
+    "attempts to biopsy area and resect using posterior approach were abandoned as": [
+      "E:note:row671473:7"
+    ],
+    "t4 vertebrectomy via transsternal approach assessment: long or course with": [
+      "E:note:row671473:8"
+    ],
+    "arrived sedated on propofol and requiring neo for bp maintenance.": [
+      "E:note:row671473:9"
+    ],
+    "two right sided chest tubes with large sanginous output to water seal.": [
+      "E:note:row671473:10"
+    ],
+    "multiple areas of ecchymosis especially on back and perineal area.": [
+      "E:note:row671473:11"
+    ],
+    "last hct 35, inr 1.6.": [
+      "E:note:row671473:12"
+    ],
+    "sternal/r thoracotomy incision closed with dermabond, open to air.": [
+      "E:note:row671473:13"
+    ],
+    "intubated.": [
+      "E:note:row671473:14"
+    ],
+    "lumbar drain in place without drainage.": [
+      "E:note:row671473:15"
+    ],
+    "lactate 2.9.": [
+      "E:note:row671473:16"
+    ],
+    "action: q 1-2 hour neuro checks done, thoracic ct obtain, cxr x 2 done, fr": [
+      "E:note:row671473:17"
+    ],
+    "q 1 hour chest tube output recorded and patency ensured.": [
+      "E:note:row671473:18"
+    ],
+    "lumbar drain positioned in effort to obtain 15cc csf output q 1 hour.": [
+      "E:note:row671473:19"
+    ],
+    "dr [**first name (stitle) **] assessed drain patency at 01:00.": [
+      "E:note:row671473:20"
+    ],
+    "response: awakes to name while on low dose propofol, follows commands but get": [
+      "E:note:row671473:21"
+    ],
+    "follow commands readily with arms, wiggles l toes and withdraws r leg to pain": [
+      "E:note:row671473:22"
+    ],
+    "ct output slowed, continued to require low dose neo.": [
+      "E:note:row671473:23"
+    ],
+    "initially lumbar drain did not drain, now with 12cc/hr when level at -5 cm be": [
+      "E:note:row671473:24"
+    ],
+    "plan: continue to monitor neuro status, ct output, labs.": [
+      "E:note:row671473:25"
+    ],
+    "consider weaning to extubation when stabilized.": [
+      "E:note:row671473:26"
+    ],
+    "coagulopathy ..pt with alcohol cirrhosis assessment: large abdomen with as": [
+      "E:note:row671473:27"
+    ],
+    "hct 22, inr 1.6, platelets down to 80 multiple areas of ecchymosis and oozing": [
+      "E:note:row671473:28"
+    ],
+    "large ct output action: prbcs x 2 given, 2 units ffp, 1 bag of platelet": [
+      "E:note:row671473:29"
+    ],
+    "frequent lab monitoring.": [
+      "E:note:row671473:30"
+    ],
+    "response: decrease in ct output, less oozing from central lines, stabilizing": [
+      "E:note:row671473:31"
+    ],
+    "pain control (acute pain, chronic pain) assessment: large thoracic/sternal": [
+      "E:note:row671473:32"
+    ],
+    "initially on propofol only.": [
+      "E:note:row671473:33"
+    ],
+    "was previously on neurontin and dilaudid for back pain.": [
+      "E:note:row671473:34"
+    ],
+    "action: pain assessment q 2-4 hours, fentanyl iv as well as repositioning for": [
+      "E:note:row671473:35"
+    ],
+    "because of intubated status, unable to use pain scale.": [
+      "E:note:row671473:36"
+    ],
+    "plan: continue frequent assessment.": [
+      "E:note:row671473:37"
+    ],
+    "judicious use of narcotics as indicated combined with positioning techniques.": [
+      "E:note:row671473:38"
+    ],
+    "restart adjunctive pain measures today (lidocaine patch and neurontin).": [
+      "E:note:row671473:39"
+    ],
+    "when extubated, consider switching to pca medication.": [
+      "E:note:row671473:40"
+    ]
+  },
+  "by_date": {
+    "2130-04-27": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:29",
+      "E:cond:30",
+      "E:cond:31",
+      "E:cond:32",
+      "E:cond:33",
+      "E:cond:34",
+      "E:cond:35",
+      "E:cond:36",
+      "E:cond:37",
+      "E:cond:38",
+      "E:cond:39",
+      "E:cond:40",
+      "E:cond:41",
+      "E:cond:42",
+      "E:cond:43",
+      "E:cond:44",
+      "E:cond:45",
+      "E:cond:46",
+      "E:cond:47",
+      "E:cond:48",
+      "E:cond:49",
+      "E:cond:50",
+      "E:cond:51",
+      "E:cond:52",
+      "E:cond:53",
+      "E:cond:54",
+      "E:cond:55",
+      "E:cond:56",
+      "E:cond:57",
+      "E:cond:58",
+      "E:cond:59",
+      "E:cond:60",
+      "E:cond:61",
+      "E:cond:62",
+      "E:cond:63",
+      "E:cond:64",
+      "E:cond:65",
+      "E:cond:66",
+      "E:cond:67",
+      "E:cond:68",
+      "E:cond:69",
+      "E:cond:70",
+      "E:cond:71",
+      "E:cond:72",
+      "E:cond:73",
+      "E:cond:74",
+      "E:cond:75",
+      "E:cond:76",
+      "E:cond:77",
+      "E:cond:78",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13",
+      "E:proc:14",
+      "E:proc:15",
+      "E:proc:16",
+      "E:proc:17",
+      "E:proc:18",
+      "E:proc:19",
+      "E:proc:20",
+      "E:proc:21",
+      "E:proc:22",
+      "E:proc:23",
+      "E:proc:24",
+      "E:proc:25",
+      "E:proc:26",
+      "E:proc:27",
+      "E:proc:28",
+      "E:proc:29",
+      "E:proc:30",
+      "E:proc:31",
+      "E:proc:32",
+      "E:proc:33",
+      "E:proc:34",
+      "E:proc:35",
+      "E:proc:36",
+      "E:proc:37",
+      "E:proc:38",
+      "E:proc:39",
+      "E:proc:40",
+      "E:proc:41",
+      "E:proc:42",
+      "E:proc:43",
+      "E:proc:44",
+      "E:proc:45",
+      "E:proc:46",
+      "E:proc:47",
+      "E:proc:48",
+      "E:proc:49",
+      "E:proc:50",
+      "E:proc:51",
+      "E:proc:52",
+      "E:proc:53",
+      "E:proc:54",
+      "E:proc:55",
+      "E:proc:56",
+      "E:proc:57",
+      "E:proc:58",
+      "E:proc:59",
+      "E:proc:60",
+      "E:proc:61",
+      "E:proc:62",
+      "E:proc:63",
+      "E:proc:64",
+      "E:proc:65",
+      "E:proc:66",
+      "E:proc:67",
+      "E:proc:68",
+      "E:proc:69",
+      "E:proc:70",
+      "E:proc:71",
+      "E:proc:72",
+      "E:proc:73",
+      "E:proc:74",
+      "E:proc:75",
+      "E:proc:76",
+      "E:proc:77",
+      "E:proc:78",
+      "E:proc:79",
+      "E:proc:80"
+    ]
+  }
+}

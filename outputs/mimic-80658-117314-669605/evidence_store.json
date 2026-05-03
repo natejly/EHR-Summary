@@ -1,0 +1,1062 @@
+{
+  "case_id": "mimic-80658-117314-669605",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:enc-117314",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Other specified diseases of pulmonary circulation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4178",
+        "display": "Other specified diseases of pulmonary circulation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7863",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Candidiasis of mouth",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1120",
+        "display": "Candidiasis of mouth"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Acute posthemorrhagic anemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2851",
+        "display": "Acute posthemorrhagic anemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2766",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Postinflammatory pulmonary fibrosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "515",
+        "display": "Postinflammatory pulmonary fibrosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Long-term (current) use of anticoagulants",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V5861",
+        "display": "Long-term (current) use of anticoagulants"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Obstructive sleep apnea (adult)(pediatric)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "32723",
+        "display": "Obstructive sleep apnea (adult)(pediatric)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Other iatrogenic hypotension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "45829",
+        "display": "Other iatrogenic hypotension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Adrenal cortical steroids causing adverse effects in therapeutic use",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E9320",
+        "display": "Adrenal cortical steroids causing adverse effects in therapeutic use"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of native coronary artery",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41401",
+        "display": "Coronary atherosclerosis of native coronary artery"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Percutaneous transluminal coronary angioplasty status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4582",
+        "display": "Percutaneous transluminal coronary angioplasty status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Unspecified acquired hypothyroidism",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2449",
+        "display": "Unspecified acquired hypothyroidism"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Other and unspecified hyperlipidemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2724",
+        "display": "Other and unspecified hyperlipidemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25000",
+        "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "60000",
+        "display": "Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Anxiety state, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "30000",
+        "display": "Anxiety state, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Barrett's esophagus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53085",
+        "display": "Barrett's esophagus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Spinal stenosis, unspecified region",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "72400",
+        "display": "Spinal stenosis, unspecified region"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Personal history of tobacco use",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V1582",
+        "display": "Personal history of tobacco use"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Other chronic nonalcoholic liver disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5718",
+        "display": "Other chronic nonalcoholic liver disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:cond-117314-23",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:proc-117314-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:proc-117314-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Laryngoscopy and other tracheoscopy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Laryngoscopy and other tracheoscopy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:proc-117314-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:proc-117314-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:proc-117314-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Diagnostic ultrasound of heart",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Diagnostic ultrasound of heart"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:proc-117314-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:proc-117314-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Non-invasive mechanical ventilation",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Non-invasive mechanical ventilation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-04-12",
+      "source_ref": "urn:uuid:proc-117314-8",
+      "text": null
+    },
+    {
+      "id": "E:note:row669605:1",
+      "kind": "note_sentence",
+      "display": "57M with ILD (?NSIP) on prednisone 20 mg daily at home, Afib s/p recent    ablat",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s1",
+      "text": "57M with ILD (?NSIP) on prednisone 20 mg daily at home, Afib s/p recent    ablation; transfer from OSH after admission [**2111-4-10**] for dyspnea,    hypoxia, and hemoptysis."
+    },
+    {
+      "id": "E:note:row669605:2",
+      "kind": "note_sentence",
+      "display": "Recent admit to OSH from [**2111-4-7**] to [**2111-4-9**] for    TEE and Afib ca",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s2",
+      "text": "Recent admit to OSH from [**2111-4-7**] to [**2111-4-9**] for    TEE and Afib catheter ablation."
+    },
+    {
+      "id": "E:note:row669605:3",
+      "kind": "note_sentence",
+      "display": "Discharged on coumadin and lovenox    until INR >2.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s3",
+      "text": "Discharged on coumadin and lovenox    until INR >2."
+    },
+    {
+      "id": "E:note:row669605:4",
+      "kind": "note_sentence",
+      "display": "Prior to discharge, had small volume hemoptysis x few    episodes, attributed to",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s4",
+      "text": "Prior to discharge, had small volume hemoptysis x few    episodes, attributed to intubation for procedure."
+    },
+    {
+      "id": "E:note:row669605:5",
+      "kind": "note_sentence",
+      "display": "On the day following    discharge, patient presented to [**Location (un) 5726**]",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s5",
+      "text": "On the day following    discharge, patient presented to [**Location (un) 5726**] in [**Location (un) 206**] with c/o    dyspnea and more episodes of small volume hemoptysis."
+    },
+    {
+      "id": "E:note:row669605:6",
+      "kind": "note_sentence",
+      "display": "CTA was    performed and was negative for PE.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s6",
+      "text": "CTA was    performed and was negative for PE."
+    },
+    {
+      "id": "E:note:row669605:7",
+      "kind": "note_sentence",
+      "display": "Transferred to [**Hospital 2852**] hospital    (had ablation there).",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s7",
+      "text": "Transferred to [**Hospital 2852**] hospital    (had ablation there)."
+    },
+    {
+      "id": "E:note:row669605:8",
+      "kind": "note_sentence",
+      "display": "CT reviewed and thought to have diffuse ground    glass opacities.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s8",
+      "text": "CT reviewed and thought to have diffuse ground    glass opacities."
+    },
+    {
+      "id": "E:note:row669605:9",
+      "kind": "note_sentence",
+      "display": "Admitted to the medicine floor, continued on O2 by    simple FM with gradual inc",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s9",
+      "text": "Admitted to the medicine floor, continued on O2 by    simple FM with gradual increase up to 10 L/min."
+    },
+    {
+      "id": "E:note:row669605:10",
+      "kind": "note_sentence",
+      "display": "Continued having    hemoptysis.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s10",
+      "text": "Continued having    hemoptysis."
+    },
+    {
+      "id": "E:note:row669605:11",
+      "kind": "note_sentence",
+      "display": "IV steroid dose increased.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s11",
+      "text": "IV steroid dose increased."
+    },
+    {
+      "id": "E:note:row669605:12",
+      "kind": "note_sentence",
+      "display": "Transferred to [**Hospital1 5**] given    that his pulmonologist ([**Doctor Last",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s12",
+      "text": "Transferred to [**Hospital1 5**] given    that his pulmonologist ([**Doctor Last Name **]) is located here."
+    },
+    {
+      "id": "E:note:row669605:13",
+      "kind": "note_sentence",
+      "display": "Pt intubated on [**4-16**], central line and a-line placed, bronched during    d",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s13",
+      "text": "Pt intubated on [**4-16**], central line and a-line placed, bronched during    day of [**4-16**] and started on high dose IV steroids for ?pulmonary    vasculitis."
+    },
+    {
+      "id": "E:note:row669605:14",
+      "kind": "note_sentence",
+      "display": "Diabetes Mellitus (DM), Type II    Assessment:    Pt with history of DM Cont to ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s14",
+      "text": "Diabetes Mellitus (DM), Type II    Assessment:    Pt with history of DM Cont to get Steroids 1000 mg/day. and TF at goal    On insulin at 11 units/hr    Action:     Q1H  finger stick ranged anywhere from 160 to 120,Insulin gtt down to    10 units/hr."
+    },
+    {
+      "id": "E:note:row669605:15",
+      "kind": "note_sentence",
+      "display": "Given steroids as ordered.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s15",
+      "text": "Given steroids as ordered."
+    },
+    {
+      "id": "E:note:row669605:16",
+      "kind": "note_sentence",
+      "display": "Response:     Cont Insulin gtt and finger stick Q2H.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s16",
+      "text": "Response:     Cont Insulin gtt and finger stick Q2H."
+    },
+    {
+      "id": "E:note:row669605:17",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue to monitor finger sticks q2h and titrate Insulin gtt as    nee",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s17",
+      "text": "Plan:    Continue to monitor finger sticks q2h and titrate Insulin gtt as    needed."
+    },
+    {
+      "id": "E:note:row669605:18",
+      "kind": "note_sentence",
+      "display": "Interstitial Lung Disease (ILD including IPF, UIP, NSIP, DIP, LIP, etc)    Asses",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s18",
+      "text": "Interstitial Lung Disease (ILD including IPF, UIP, NSIP, DIP, LIP, etc)    Assessment:    Pt received on AC, FiO2 50%/550/18/, RR 22-24 with sats 92-96%."
+    },
+    {
+      "id": "E:note:row669605:19",
+      "kind": "note_sentence",
+      "display": "Pt    suctioned for scant amount of blood tinged secretions.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s19",
+      "text": "Pt    suctioned for scant amount of blood tinged secretions."
+    },
+    {
+      "id": "E:note:row669605:20",
+      "kind": "note_sentence",
+      "display": "Cont Fentanyl    at 200 mics and Versed 9mg/hr.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s20",
+      "text": "Cont Fentanyl    at 200 mics and Versed 9mg/hr."
+    },
+    {
+      "id": "E:note:row669605:21",
+      "kind": "note_sentence",
+      "display": "BLS coarse to clear upper side and    diminish at the baes.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s21",
+      "text": "BLS coarse to clear upper side and    diminish at the baes."
+    },
+    {
+      "id": "E:note:row669605:22",
+      "kind": "note_sentence",
+      "display": "Action:     No changes made on the vent.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s22",
+      "text": "Action:     No changes made on the vent."
+    },
+    {
+      "id": "E:note:row669605:23",
+      "kind": "note_sentence",
+      "display": "Pt did require bolus sedation for turning    [**2-2**] agitation and desat to 88",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s23",
+      "text": "Pt did require bolus sedation for turning    [**2-2**] agitation and desat to 88 % with turning."
+    },
+    {
+      "id": "E:note:row669605:24",
+      "kind": "note_sentence",
+      "display": "Response:     This morning ABG was 7.41/ 41/79.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s24",
+      "text": "Response:     This morning ABG was 7.41/ 41/79."
+    },
+    {
+      "id": "E:note:row669605:25",
+      "kind": "note_sentence",
+      "display": "Plan:     Closely monitor resp status.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s25",
+      "text": "Plan:     Closely monitor resp status."
+    },
+    {
+      "id": "E:note:row669605:26",
+      "kind": "note_sentence",
+      "display": "Wean ventilator and sedation as pt    tolerates, trend ABG.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s26",
+      "text": "Wean ventilator and sedation as pt    tolerates, trend ABG."
+    },
+    {
+      "id": "E:note:row669605:27",
+      "kind": "note_sentence",
+      "display": "Suction PRN.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row669605#s27",
+      "text": "Suction PRN."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|4178": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7863": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1120": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2851": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2766": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|515": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42731": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V5861": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|32723": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|45829": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E9320": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41401": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4582": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2449": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2724": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25000": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|60000": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|30000": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|53085": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|72400": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V1582": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5718": [
+      "E:cond:23"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "other specified diseases of pulmonary circulation": [
+      "E:cond:1"
+    ],
+    "acute respiratory failure": [
+      "E:cond:2"
+    ],
+    "diagnosis": [
+      "E:cond:3",
+      "E:cond:6"
+    ],
+    "candidiasis of mouth": [
+      "E:cond:4"
+    ],
+    "acute posthemorrhagic anemia": [
+      "E:cond:5"
+    ],
+    "postinflammatory pulmonary fibrosis": [
+      "E:cond:7"
+    ],
+    "atrial fibrillation": [
+      "E:cond:8"
+    ],
+    "long-term (current) use of anticoagulants": [
+      "E:cond:9"
+    ],
+    "obstructive sleep apnea (adult)(pediatric)": [
+      "E:cond:10"
+    ],
+    "other iatrogenic hypotension": [
+      "E:cond:11"
+    ],
+    "adrenal cortical steroids causing adverse effects in therapeutic use": [
+      "E:cond:12"
+    ],
+    "coronary atherosclerosis of native coronary artery": [
+      "E:cond:13"
+    ],
+    "percutaneous transluminal coronary angioplasty status": [
+      "E:cond:14"
+    ],
+    "unspecified acquired hypothyroidism": [
+      "E:cond:15"
+    ],
+    "other and unspecified hyperlipidemia": [
+      "E:cond:16"
+    ],
+    "diabetes mellitus without mention of complication, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:17"
+    ],
+    "hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (luts)": [
+      "E:cond:18"
+    ],
+    "anxiety state, unspecified": [
+      "E:cond:19"
+    ],
+    "barrett's esophagus": [
+      "E:cond:20"
+    ],
+    "spinal stenosis, unspecified region": [
+      "E:cond:21"
+    ],
+    "personal history of tobacco use": [
+      "E:cond:22"
+    ],
+    "other chronic nonalcoholic liver disease": [
+      "E:cond:23"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:1"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:2"
+    ],
+    "laryngoscopy and other tracheoscopy": [
+      "E:proc:3"
+    ],
+    "arterial catheterization": [
+      "E:proc:4"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:5"
+    ],
+    "diagnostic ultrasound of heart": [
+      "E:proc:6"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:7"
+    ],
+    "non-invasive mechanical ventilation": [
+      "E:proc:8"
+    ],
+    "57m with ild (?nsip) on prednisone 20 mg daily at home, afib s/p recent ablat": [
+      "E:note:row669605:1"
+    ],
+    "recent admit to osh from [**2111-4-7**] to [**2111-4-9**] for tee and afib ca": [
+      "E:note:row669605:2"
+    ],
+    "discharged on coumadin and lovenox until inr >2.": [
+      "E:note:row669605:3"
+    ],
+    "prior to discharge, had small volume hemoptysis x few episodes, attributed to": [
+      "E:note:row669605:4"
+    ],
+    "on the day following discharge, patient presented to [**location (un) 5726**]": [
+      "E:note:row669605:5"
+    ],
+    "cta was performed and was negative for pe.": [
+      "E:note:row669605:6"
+    ],
+    "transferred to [**hospital 2852**] hospital (had ablation there).": [
+      "E:note:row669605:7"
+    ],
+    "ct reviewed and thought to have diffuse ground glass opacities.": [
+      "E:note:row669605:8"
+    ],
+    "admitted to the medicine floor, continued on o2 by simple fm with gradual inc": [
+      "E:note:row669605:9"
+    ],
+    "continued having hemoptysis.": [
+      "E:note:row669605:10"
+    ],
+    "iv steroid dose increased.": [
+      "E:note:row669605:11"
+    ],
+    "transferred to [**hospital1 5**] given that his pulmonologist ([**doctor last": [
+      "E:note:row669605:12"
+    ],
+    "pt intubated on [**4-16**], central line and a-line placed, bronched during d": [
+      "E:note:row669605:13"
+    ],
+    "diabetes mellitus (dm), type ii assessment: pt with history of dm cont to": [
+      "E:note:row669605:14"
+    ],
+    "given steroids as ordered.": [
+      "E:note:row669605:15"
+    ],
+    "response: cont insulin gtt and finger stick q2h.": [
+      "E:note:row669605:16"
+    ],
+    "plan: continue to monitor finger sticks q2h and titrate insulin gtt as nee": [
+      "E:note:row669605:17"
+    ],
+    "interstitial lung disease (ild including ipf, uip, nsip, dip, lip, etc) asses": [
+      "E:note:row669605:18"
+    ],
+    "pt suctioned for scant amount of blood tinged secretions.": [
+      "E:note:row669605:19"
+    ],
+    "cont fentanyl at 200 mics and versed 9mg/hr.": [
+      "E:note:row669605:20"
+    ],
+    "bls coarse to clear upper side and diminish at the baes.": [
+      "E:note:row669605:21"
+    ],
+    "action: no changes made on the vent.": [
+      "E:note:row669605:22"
+    ],
+    "pt did require bolus sedation for turning [**2-2**] agitation and desat to 88": [
+      "E:note:row669605:23"
+    ],
+    "response: this morning abg was 7.41/ 41/79.": [
+      "E:note:row669605:24"
+    ],
+    "plan: closely monitor resp status.": [
+      "E:note:row669605:25"
+    ],
+    "wean ventilator and sedation as pt tolerates, trend abg.": [
+      "E:note:row669605:26"
+    ],
+    "suction prn.": [
+      "E:note:row669605:27"
+    ]
+  },
+  "by_date": {
+    "2111-04-12": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8"
+    ]
+  }
+}

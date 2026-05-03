@@ -1,0 +1,174 @@
+{
+  "case_id": "mimic-77013-141363-444743",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2827,
+    "summary_chars": 1521,
+    "target_min_chars": 565,
+    "target_max_chars": 848,
+    "achieved_ratio": 0.5380261761584719,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 11,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:2",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:3",
+      "E:cond:31",
+      "E:cond:32",
+      "E:cond:4",
+      "E:cond:41",
+      "E:cond:42",
+      "E:cond:43",
+      "E:cond:44",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row444743:1",
+      "E:note:row444743:12",
+      "E:note:row444743:2",
+      "E:note:row444743:22",
+      "E:note:row444743:3",
+      "E:note:row444743:30",
+      "E:note:row444743:37",
+      "E:note:row444743:39",
+      "E:note:row444743:40",
+      "E:note:row444743:41",
+      "E:note:row444743:42",
+      "E:note:row444743:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Additional diagnoses include hospital acquired pneumonia [E:note:row444743:2], etoh abuse [E:note:row444743:1], alcohol withdrawal [E:cond:9][E:cond:10], and acute alcoholic hepatitis [E:cond:41][E:cond:42].",
+        "severity": "medium",
+        "reason": "The fact sheet does not contain evidence for hospital acquired pneumonia, etoh abuse, or acute alcoholic hepatitis."
+      },
+      {
+        "sentence": "Nutritional deficits include beriberi [E:cond:1][E:cond:2], pellagra [E:cond:43][E:cond:44], nutritional marasmus [E:cond:11][E:cond:12], and refeeding syndrome [E:note:row444743:3].",
+        "severity": "medium",
+        "reason": "The fact sheet does not contain evidence for pellagra or refeeding syndrome."
+      },
+      {
+        "sentence": "Neurological findings include quadriplegia [E:cond:13][E:cond:14], subdural hemorrhage [E:cond:23][E:cond:24], encephalopathy [E:cond:31][E:cond:32], and altered mental status [E:note:row444743:3].",
+        "severity": "medium",
+        "reason": "The fact sheet does not contain evidence for encephalopathy or altered mental status."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Additional diagnoses include hospital acquired pneumonia [E:note:row444743:2], etoh abuse [E:note:row444743:1], alcohol withdrawal [E:cond:9][E:cond:10], and acute alcoholic hepatitis [E:cond:41][E:cond:42].",
+        "suggested": "Additional diagnoses include alcohol withdrawal [E:cond:9][E:cond:10].",
+        "reason": "Removed diagnoses not present in the provided fact sheet."
+      },
+      {
+        "original": "Nutritional deficits include beriberi [E:cond:1][E:cond:2], pellagra [E:cond:43][E:cond:44], nutritional marasmus [E:cond:11][E:cond:12], and refeeding syndrome [E:note:row444743:3].",
+        "suggested": "Nutritional deficits include beriberi [E:cond:1][E:cond:2] and nutritional marasmus [E:cond:11][E:cond:12].",
+        "reason": "Removed conditions not present in the provided fact sheet."
+      },
+      {
+        "original": "Neurological findings include quadriplegia [E:cond:13][E:cond:14], subdural hemorrhage [E:cond:23][E:cond:24], encephalopathy [E:cond:31][E:cond:32], and altered mental status [E:note:row444743:3].",
+        "suggested": "Neurological findings include quadriplegia [E:cond:13][E:cond:14] and subdural hemorrhage [E:cond:23][E:cond:24].",
+        "reason": "Removed conditions not present in the provided fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 3,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-77013-141363-444743/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 8.7,
+    "fk_words": 216,
+    "fk_sentences": 25,
+    "fk_syllables": 383,
+    "chars": 2129,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-77013-141363-444743/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.004743499972391874,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 158.10536600003252,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 57.615817833982874,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.003223166975658387,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 22.208851750008762,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 30.417760082986206,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.004331792006269097,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 26.104171790997498,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

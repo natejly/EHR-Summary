@@ -1,0 +1,2409 @@
+{
+  "case_id": "mimic-92277-173474-1282",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:enc-173474",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Acute on chronic systolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42823",
+        "display": "Acute on chronic systolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:cond-173474-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Cardiac arrest",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4275",
+        "display": "Cardiac arrest"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:cond-173474-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:cond-173474-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Paroxysmal ventricular tachycardia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4271",
+        "display": "Paroxysmal ventricular tachycardia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:cond-173474-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Other chronic pulmonary heart diseases",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4168",
+        "display": "Other chronic pulmonary heart diseases"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:cond-173474-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Hyposmolality and/or hyponatremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2761",
+        "display": "Hyposmolality and/or hyponatremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:cond-173474-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Other primary cardiomyopathies",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4254",
+        "display": "Other primary cardiomyopathies"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:cond-173474-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:cond-173474-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Dermatomycosis, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1119",
+        "display": "Dermatomycosis, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:cond-173474-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Ventricular fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42741",
+        "display": "Ventricular fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:cond-173474-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Mechanical complication due to cardiac pacemaker (electrode)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99601",
+        "display": "Mechanical complication due to cardiac pacemaker (electrode)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:cond-173474-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:cond-173474-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8798",
+        "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:cond-173474-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:cond-173474-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Other left bundle branch block",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4263",
+        "display": "Other left bundle branch block"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:cond-173474-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Mitral valve disorders",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4240",
+        "display": "Mitral valve disorders"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:cond-173474-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Personal history of noncompliance with medical treatment, presenting hazards to health",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V1581",
+        "display": "Personal history of noncompliance with medical treatment, presenting hazards to health"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:cond-173474-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Long-term (current) use of anticoagulants",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V5861",
+        "display": "Long-term (current) use of anticoagulants"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:cond-173474-18",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Implantation of cardiac resynchronization defibrillator, total system [CRT-D]",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Implantation of cardiac resynchronization defibrillator, total system [CRT-D]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:proc-173474-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Revision of lead [electrode]",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Revision of lead [electrode]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:proc-173474-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Diagnostic ultrasound of heart",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Diagnostic ultrasound of heart"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:proc-173474-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Other electric countershock of heart",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other electric countershock of heart"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:proc-173474-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Injection or infusion of other therapeutic or prophylactic substance",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Injection or infusion of other therapeutic or prophylactic substance"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2144-08-11",
+      "source_ref": "urn:uuid:proc-173474-5",
+      "text": null
+    },
+    {
+      "id": "E:note:row1282:1",
+      "kind": "note_sentence",
+      "display": "Admission Date:  [**2144-8-11**]              Discharge Date:   [**2144-8-22**] ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s1",
+      "text": "Admission Date:  [**2144-8-11**]              Discharge Date:   [**2144-8-22**]  Date of Birth:  [**2075-9-5**]             Sex:   F  Service: MEDICINE  Allergies: Sulfa (Sulfonamide Antibiotics) / Simvastatin  Attending:[**First Name3 (LF) 7333**] Chief Complaint: shortness of breath  Major Surgical or Invasive Procedure: TEE with Cardioversion BIV ICD placement  History of Present Illness: Ms. [**Known lastname 7962**] is a 68 yo F with PMH of nonischemic cardiomyopathy (EF 25% on [**2-/2144**]), HTN, mitral valve prolapse, intermittent LBBB, and atrial fibrillation who has been having progressively worsening SOB for the last 3 days secondary to CHF exacerbation."
+    },
+    {
+      "id": "E:note:row1282:2",
+      "kind": "note_sentence",
+      "display": "Patient states that she initially noticed SOB approximately 2 weeks ago while sh",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s2",
+      "text": "Patient states that she initially noticed SOB approximately 2 weeks ago while she was on vacation in NH."
+    },
+    {
+      "id": "E:note:row1282:3",
+      "kind": "note_sentence",
+      "display": "She attributed this to humidity.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s3",
+      "text": "She attributed this to humidity."
+    },
+    {
+      "id": "E:note:row1282:4",
+      "kind": "note_sentence",
+      "display": "She does note that she was eating more salt that usual given dining out.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s4",
+      "text": "She does note that she was eating more salt that usual given dining out."
+    },
+    {
+      "id": "E:note:row1282:5",
+      "kind": "note_sentence",
+      "display": "Also noticed intermittent heart palpitations.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s5",
+      "text": "Also noticed intermittent heart palpitations."
+    },
+    {
+      "id": "E:note:row1282:6",
+      "kind": "note_sentence",
+      "display": "She went to the ER on [**2144-8-3**] with SOB.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s6",
+      "text": "She went to the ER on [**2144-8-3**] with SOB."
+    },
+    {
+      "id": "E:note:row1282:7",
+      "kind": "note_sentence",
+      "display": "She was seen by Dr. [**Last Name (STitle) **] in consult and given improvement o",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s7",
+      "text": "She was seen by Dr. [**Last Name (STitle) **] in consult and given improvement of SOB after Lasix, advised that she can be discharged home."
+    },
+    {
+      "id": "E:note:row1282:8",
+      "kind": "note_sentence",
+      "display": "Patient also saw Dr. [**Last Name (STitle) 73**] in clinic on [**8-6**] at which",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s8",
+      "text": "Patient also saw Dr. [**Last Name (STitle) 73**] in clinic on [**8-6**] at which time she was not SOB, lungs were clear and she did not have any lower extremity edema."
+    },
+    {
+      "id": "E:note:row1282:9",
+      "kind": "note_sentence",
+      "display": "At that time, several medication changes were made.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s9",
+      "text": "At that time, several medication changes were made."
+    },
+    {
+      "id": "E:note:row1282:10",
+      "kind": "note_sentence",
+      "display": "She was started on Coumadin, Metoprolol was discontinued and she was started ins",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s10",
+      "text": "She was started on Coumadin, Metoprolol was discontinued and she was started instead on Carvedilol 6.25mg [**Hospital1 **]."
+    },
+    {
+      "id": "E:note:row1282:11",
+      "kind": "note_sentence",
+      "display": "Patient instead self titrated the metoprolol to 50mg daily and had been taking c",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s11",
+      "text": "Patient instead self titrated the metoprolol to 50mg daily and had been taking carvedilol 3.12 daily. ."
+    },
+    {
+      "id": "E:note:row1282:12",
+      "kind": "note_sentence",
+      "display": "On Saturday [**8-8**], she again developed SOB with minimal exertion and with ly",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s12",
+      "text": "On Saturday [**8-8**], she again developed SOB with minimal exertion and with lying flat."
+    },
+    {
+      "id": "E:note:row1282:13",
+      "kind": "note_sentence",
+      "display": "Breathing better with sitting upright.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s13",
+      "text": "Breathing better with sitting upright."
+    },
+    {
+      "id": "E:note:row1282:14",
+      "kind": "note_sentence",
+      "display": "Positive PND.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s14",
+      "text": "Positive PND."
+    },
+    {
+      "id": "E:note:row1282:15",
+      "kind": "note_sentence",
+      "display": "This morning, noticed swelling in her ankles.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s15",
+      "text": "This morning, noticed swelling in her ankles."
+    },
+    {
+      "id": "E:note:row1282:16",
+      "kind": "note_sentence",
+      "display": "Has also had intermittent palpitations.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s16",
+      "text": "Has also had intermittent palpitations."
+    },
+    {
+      "id": "E:note:row1282:17",
+      "kind": "note_sentence",
+      "display": "Denies any chest pain. lightheadedness.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s17",
+      "text": "Denies any chest pain. lightheadedness."
+    },
+    {
+      "id": "E:note:row1282:18",
+      "kind": "note_sentence",
+      "display": "Although patient states she has never had symptoms of SOB with exertion, OMR not",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s18",
+      "text": "Although patient states she has never had symptoms of SOB with exertion, OMR note documents that she reported some SOB with walking up the stairs in 4/[**2143**]. ."
+    },
+    {
+      "id": "E:note:row1282:19",
+      "kind": "note_sentence",
+      "display": "In the ED, initial vitals were 96.8 54 128/85 32 90s%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s19",
+      "text": "In the ED, initial vitals were 96.8 54 128/85 32 90s%."
+    },
+    {
+      "id": "E:note:row1282:20",
+      "kind": "note_sentence",
+      "display": "Patient was placed on 3L NC, O2 sats remained stable, no SOB at rest, some with ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s20",
+      "text": "Patient was placed on 3L NC, O2 sats remained stable, no SOB at rest, some with getting out of bed."
+    },
+    {
+      "id": "E:note:row1282:21",
+      "kind": "note_sentence",
+      "display": "Labs and imaging significant for BNP elevated to [**Numeric Identifier 7963**], ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s21",
+      "text": "Labs and imaging significant for BNP elevated to [**Numeric Identifier 7963**], INR suptherapeutic at 1.4, Na 129, K 5.4."
+    },
+    {
+      "id": "E:note:row1282:22",
+      "kind": "note_sentence",
+      "display": "CXR with cardiomegaly with right infrahilar airspace opacity, looks like pneumon",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s22",
+      "text": "CXR with cardiomegaly with right infrahilar airspace opacity, looks like pneumonia vs. pulmonary edema."
+    },
+    {
+      "id": "E:note:row1282:23",
+      "kind": "note_sentence",
+      "display": "Patient given Lasix 20mg IV x2 at 7am, put out 800cc.Vitals on transfer were 114",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s23",
+      "text": "Patient given Lasix 20mg IV x2 at 7am, put out 800cc.Vitals on transfer were 114 AFib occas PVCs, 98.5 temp, 98% 3L NC, RR 16, 110/79. ."
+    },
+    {
+      "id": "E:note:row1282:24",
+      "kind": "note_sentence",
+      "display": "On arrival to the floor, patient feels well.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s24",
+      "text": "On arrival to the floor, patient feels well."
+    },
+    {
+      "id": "E:note:row1282:25",
+      "kind": "note_sentence",
+      "display": "States SOB has resolved after treatment with Lasix.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s25",
+      "text": "States SOB has resolved after treatment with Lasix."
+    },
+    {
+      "id": "E:note:row1282:26",
+      "kind": "note_sentence",
+      "display": "Denies SOB, chest pain, palpitations, lightheadedness.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s26",
+      "text": "Denies SOB, chest pain, palpitations, lightheadedness."
+    },
+    {
+      "id": "E:note:row1282:27",
+      "kind": "note_sentence",
+      "display": "No recent fevers/chills.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s27",
+      "text": "No recent fevers/chills."
+    },
+    {
+      "id": "E:note:row1282:28",
+      "kind": "note_sentence",
+      "display": "Does have a dry cough which is chronic in setting of postnasal drip.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s28",
+      "text": "Does have a dry cough which is chronic in setting of postnasal drip."
+    },
+    {
+      "id": "E:note:row1282:29",
+      "kind": "note_sentence",
+      "display": "No dysuria.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s29",
+      "text": "No dysuria."
+    },
+    {
+      "id": "E:note:row1282:30",
+      "kind": "note_sentence",
+      "display": "No recent changes in vision, no dysarthia, no loss of sensation/motor function. ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s30",
+      "text": "No recent changes in vision, no dysarthia, no loss of sensation/motor function. ."
+    },
+    {
+      "id": "E:note:row1282:31",
+      "kind": "note_sentence",
+      "display": "REVIEW OF SYSTEMS Cardiac review of systems is notable for absence of chest pain",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s31",
+      "text": "REVIEW OF SYSTEMS Cardiac review of systems is notable for absence of chest pain, dyspnea on exertion, syncope or presyncope."
+    },
+    {
+      "id": "E:note:row1282:32",
+      "kind": "note_sentence",
+      "display": "Past Medical History: -Hypertension -Atrial fibrillation on coumadin -Mitral val",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s32",
+      "text": "Past Medical History: -Hypertension -Atrial fibrillation on coumadin -Mitral valve prolapse -Intermittent left bundle branch block -Nonischemic cardiomyopathy with EF 25% on TTE [**2144-2-24**] with elevated pulmonary artery systolic pressure and moderate MR. Social History: -Tobacco history: 20 pack yr history, quit 30 years -ETOH: denies -Illicit drugs: denies  Family History: Father: HTN, stroke at 50 Paternal aunt: MI at age 48, passed away Mother: heart disease in 80s Sisters: HTN  Physical Exam: Physical Exam on Admission: ."
+    },
+    {
+      "id": "E:note:row1282:33",
+      "kind": "note_sentence",
+      "display": "VS: T=94.6 (?) BP=125/65 HR=86 RR=18 O2 sat 98 RA GENERAL: WDWN F in NAD.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s33",
+      "text": "VS: T=94.6 (?) BP=125/65 HR=86 RR=18 O2 sat 98 RA GENERAL: WDWN F in NAD."
+    },
+    {
+      "id": "E:note:row1282:34",
+      "kind": "note_sentence",
+      "display": "HEENT: NCAT.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s34",
+      "text": "HEENT: NCAT."
+    },
+    {
+      "id": "E:note:row1282:35",
+      "kind": "note_sentence",
+      "display": "Sclera anicteric.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s35",
+      "text": "Sclera anicteric."
+    },
+    {
+      "id": "E:note:row1282:36",
+      "kind": "note_sentence",
+      "display": "EOMI.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s36",
+      "text": "EOMI."
+    },
+    {
+      "id": "E:note:row1282:37",
+      "kind": "note_sentence",
+      "display": "NECK: Supple with JVP of 7 cm.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s37",
+      "text": "NECK: Supple with JVP of 7 cm."
+    },
+    {
+      "id": "E:note:row1282:38",
+      "kind": "note_sentence",
+      "display": "CARDIAC: irregularly irregular rhythm, no m/r/g appreciated LUNGS: No chest wall",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s38",
+      "text": "CARDIAC: irregularly irregular rhythm, no m/r/g appreciated LUNGS: No chest wall deformities, scoliosis or kyphosis."
+    },
+    {
+      "id": "E:note:row1282:39",
+      "kind": "note_sentence",
+      "display": "Resp were unlabored, no accessory muscle use.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s39",
+      "text": "Resp were unlabored, no accessory muscle use."
+    },
+    {
+      "id": "E:note:row1282:40",
+      "kind": "note_sentence",
+      "display": "Crackles in right base, wheezes or rhonchi.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s40",
+      "text": "Crackles in right base, wheezes or rhonchi."
+    },
+    {
+      "id": "E:note:row1282:41",
+      "kind": "note_sentence",
+      "display": "ABDOMEN: Soft, NTND.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s41",
+      "text": "ABDOMEN: Soft, NTND."
+    },
+    {
+      "id": "E:note:row1282:42",
+      "kind": "note_sentence",
+      "display": "EXTREMITIES: trace pitting edema in [**Name Prefix (Prefixes) **] [**Last Name (",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s42",
+      "text": "EXTREMITIES: trace pitting edema in [**Name Prefix (Prefixes) **] [**Last Name (Prefixes) **]/l SKIN: erythematous macular rash on abdomen, breasts, lower back, non pruritic PULSES: Right: Carotid 2+ DP 2+ PT 2+ Left: Carotid 2+  DP 2+ PT 2+  Pertinent Results: Labs on Admission:  [**2144-8-11**] 06:12AM   WBC-6.1 RBC-4.13* HGB-13.2 HCT-38.9 MCV-94 MCH-32.1* MCHC-34.0 RDW-15.0 [**2144-8-11**] 06:12AM   NEUTS-70.2* LYMPHS-17.6* MONOS-10.0 EOS-1.8 BASOS-0.3 [**2144-8-11**] 06:12AM   PT-17.2* PTT-26.5 INR(PT)-1.5* [**2144-8-11**] 06:12AM   GLUCOSE-130* UREA N-27* CREAT-1.1 SODIUM-129* POTASSIUM-5.4* CHLORIDE-95* TOTAL CO2-23 ANION GAP-16 [**2144-8-11**] 03:06PM   CALCIUM-10.1 PHOSPHATE-4.5 MAGNESIUM-1.9 [**2144-8-11**] 06:12AM   proBNP-[**Numeric Identifier 7963**]* [**2144-8-11**] 06:12AM   cTropnT-<0.01 ."
+    },
+    {
+      "id": "E:note:row1282:43",
+      "kind": "note_sentence",
+      "display": "Imaging CXR [**2144-8-22**]:  Impression: The current study demonstrates biventr",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s43",
+      "text": "Imaging CXR [**2144-8-22**]:  Impression: The current study demonstrates biventricular pacing devices with the leads most likely located in the right atrium, right ventricle and the left epicardial vein in expected location."
+    },
+    {
+      "id": "E:note:row1282:44",
+      "kind": "note_sentence",
+      "display": "Cardiomegaly is moderate to severe, unchanged.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s44",
+      "text": "Cardiomegaly is moderate to severe, unchanged."
+    },
+    {
+      "id": "E:note:row1282:45",
+      "kind": "note_sentence",
+      "display": "Mediastinum is unremarkable.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s45",
+      "text": "Mediastinum is unremarkable."
+    },
+    {
+      "id": "E:note:row1282:46",
+      "kind": "note_sentence",
+      "display": "No pneumothorax is seen.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s46",
+      "text": "No pneumothorax is seen."
+    },
+    {
+      "id": "E:note:row1282:47",
+      "kind": "note_sentence",
+      "display": "Small amount of pleural effusion is noted most likely on the right.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s47",
+      "text": "Small amount of pleural effusion is noted most likely on the right."
+    },
+    {
+      "id": "E:note:row1282:48",
+      "kind": "note_sentence",
+      "display": "ECG [**8-11**]: Atrial fibrillation with a rapid ventricular response.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s48",
+      "text": "ECG [**8-11**]: Atrial fibrillation with a rapid ventricular response."
+    },
+    {
+      "id": "E:note:row1282:49",
+      "kind": "note_sentence",
+      "display": "Left bundle-branch block with a single narrowly conducted QRS complex.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s49",
+      "text": "Left bundle-branch block with a single narrowly conducted QRS complex."
+    },
+    {
+      "id": "E:note:row1282:50",
+      "kind": "note_sentence",
+      "display": "The axis is right inferior.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s50",
+      "text": "The axis is right inferior."
+    },
+    {
+      "id": "E:note:row1282:51",
+      "kind": "note_sentence",
+      "display": "Since previous tracing the single narrow complex beat is new.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s51",
+      "text": "Since previous tracing the single narrow complex beat is new."
+    },
+    {
+      "id": "E:note:row1282:52",
+      "kind": "note_sentence",
+      "display": "Despite a more rapid ventricular response, the axis is the same.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s52",
+      "text": "Despite a more rapid ventricular response, the axis is the same."
+    },
+    {
+      "id": "E:note:row1282:53",
+      "kind": "note_sentence",
+      "display": "One should verify that the limb leads were properly placed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s53",
+      "text": "One should verify that the limb leads were properly placed."
+    },
+    {
+      "id": "E:note:row1282:54",
+      "kind": "note_sentence",
+      "display": "Clinical correlation is suggested. .",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s54",
+      "text": "Clinical correlation is suggested. ."
+    },
+    {
+      "id": "E:note:row1282:55",
+      "kind": "note_sentence",
+      "display": "Chest X-ray [**8-11**]: FINDINGS: The heart size is enlarged, apparently slightl",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s55",
+      "text": "Chest X-ray [**8-11**]: FINDINGS: The heart size is enlarged, apparently slightly increased from prior study, this maybe the magnifying effect of AP projection."
+    },
+    {
+      "id": "E:note:row1282:56",
+      "kind": "note_sentence",
+      "display": "The mediastinal contours again demonstrate calcified atherosclerotic disease of ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s56",
+      "text": "The mediastinal contours again demonstrate calcified atherosclerotic disease of the aortic knob."
+    },
+    {
+      "id": "E:note:row1282:57",
+      "kind": "note_sentence",
+      "display": "Cephalization of pulmonary vasculature is accompanied by interstitial edema.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s57",
+      "text": "Cephalization of pulmonary vasculature is accompanied by interstitial edema."
+    },
+    {
+      "id": "E:note:row1282:58",
+      "kind": "note_sentence",
+      "display": "The lungs demonstrate airspace opacity in the right infrahilar region.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s58",
+      "text": "The lungs demonstrate airspace opacity in the right infrahilar region."
+    },
+    {
+      "id": "E:note:row1282:59",
+      "kind": "note_sentence",
+      "display": "Additionally, subtle blunting of the bilateral costophrenic angles persist, comp",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s59",
+      "text": "Additionally, subtle blunting of the bilateral costophrenic angles persist, compatible with small pleural effusions."
+    },
+    {
+      "id": "E:note:row1282:60",
+      "kind": "note_sentence",
+      "display": "Thereis no pneumothorax.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s60",
+      "text": "Thereis no pneumothorax."
+    },
+    {
+      "id": "E:note:row1282:61",
+      "kind": "note_sentence",
+      "display": "IMPRESSION: Cardiomegaly with interstitial edema; right infrahilar airspace opac",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s61",
+      "text": "IMPRESSION: Cardiomegaly with interstitial edema; right infrahilar airspace opacity may reflect asymmetric pulmonary edema, but follow up radiographs may be helpful to exclude pneumonia."
+    },
+    {
+      "id": "E:note:row1282:62",
+      "kind": "note_sentence",
+      "display": "Labs on discharge: [**2144-8-22**] 06:58AM BLOOD WBC-7.5 RBC-3.69* Hgb-12.0 Hct-",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s62",
+      "text": "Labs on discharge: [**2144-8-22**] 06:58AM BLOOD WBC-7.5 RBC-3.69* Hgb-12.0 Hct-34.3* MCV-93 MCH-32.6* MCHC-35.0 RDW-14.8 Plt Ct-206 [**2144-8-22**] 06:58AM BLOOD PT-31.7* PTT-30.9 INR(PT)-3.1* [**2144-8-22**] 06:58AM BLOOD Glucose-98 UreaN-10 Creat-0.5 Na-128* K-3.6 Cl-93* HCO3-24 AnGap-15 [**2144-8-22**] 06:58AM BLOOD Calcium-9.5 Phos-3.6 Mg-1.8  Brief Hospital Course: Ms. [**Known lastname 7962**] is a 68 yo F with PMH of nonischemic cardiomyopathy (EF 25% on [**2-/2144**]), HTN, mitral valve prolapse, intermittent LBBB, and atrial fibrillation who was admitted for progressively worsening SOB for the over 3 days secondary to CHF exacerbation.  . # Cardiac arrest: on [**8-18**], patient was successfully cardioverted to normal sinus rhythem."
+    },
+    {
+      "id": "E:note:row1282:63",
+      "kind": "note_sentence",
+      "display": "She was given a dose of dofetilide.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s63",
+      "text": "She was given a dose of dofetilide."
+    },
+    {
+      "id": "E:note:row1282:64",
+      "kind": "note_sentence",
+      "display": "Later that day it was noted that her QTc was elongated from previously.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s64",
+      "text": "Later that day it was noted that her QTc was elongated from previously."
+    },
+    {
+      "id": "E:note:row1282:65",
+      "kind": "note_sentence",
+      "display": "That evening, she had a cardiac arrest secondary to torsades de pointes and vent",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s65",
+      "text": "That evening, she had a cardiac arrest secondary to torsades de pointes and ventricular fibrillation."
+    },
+    {
+      "id": "E:note:row1282:66",
+      "kind": "note_sentence",
+      "display": "She was defibrillated after 60 seconds and had ROSC and regained consciousness.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s66",
+      "text": "She was defibrillated after 60 seconds and had ROSC and regained consciousness."
+    },
+    {
+      "id": "E:note:row1282:67",
+      "kind": "note_sentence",
+      "display": "She was briefly transferred to the CCU, where her magnesium and potassium were r",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s67",
+      "text": "She was briefly transferred to the CCU, where her magnesium and potassium were repleted and serial EKGs showed decreasing QTc interval.  # Acute on chronic CHF:  Patient reported history of dyspnea on exertion, orthopnea, PND and new onset ankle swelling."
+    },
+    {
+      "id": "E:note:row1282:68",
+      "kind": "note_sentence",
+      "display": "Has known history of CHF with EF 25% in 4/[**2143**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s68",
+      "text": "Has known history of CHF with EF 25% in 4/[**2143**]."
+    },
+    {
+      "id": "E:note:row1282:69",
+      "kind": "note_sentence",
+      "display": "After receiving Lasix 40mg IV in the ER, she put out 800cc and dyspnea resolved.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s69",
+      "text": "After receiving Lasix 40mg IV in the ER, she put out 800cc and dyspnea resolved."
+    },
+    {
+      "id": "E:note:row1282:70",
+      "kind": "note_sentence",
+      "display": "Initial history and exam consistent with a CHF exacerbation.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s70",
+      "text": "Initial history and exam consistent with a CHF exacerbation."
+    },
+    {
+      "id": "E:note:row1282:71",
+      "kind": "note_sentence",
+      "display": "[**Month (only) 116**] have baseline worsening EF as she has had such symptoms f",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s71",
+      "text": "[**Month (only) 116**] have baseline worsening EF as she has had such symptoms for approximately 2 weeks which improved with Lasix."
+    },
+    {
+      "id": "E:note:row1282:72",
+      "kind": "note_sentence",
+      "display": "[**Month (only) 116**] be secondary to worsening EF in combination with afib wit",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s72",
+      "text": "[**Month (only) 116**] be secondary to worsening EF in combination with afib with RVR."
+    },
+    {
+      "id": "E:note:row1282:73",
+      "kind": "note_sentence",
+      "display": "Patient's beta blocker was changed on Thursday but she has been self titrating t",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s73",
+      "text": "Patient's beta blocker was changed on Thursday but she has been self titrating the medication and not receiving enough beta blockade."
+    },
+    {
+      "id": "E:note:row1282:74",
+      "kind": "note_sentence",
+      "display": "(Was on Metoprolol XL 100, this was d/c'ed on Thursday and started on Carvedilol",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s74",
+      "text": "(Was on Metoprolol XL 100, this was d/c'ed on Thursday and started on Carvedilol 6.25 mg [**Hospital1 **]."
+    },
+    {
+      "id": "E:note:row1282:75",
+      "kind": "note_sentence",
+      "display": "Instead, taking Metoprolol 50 daily and Carvedilol 3.125 daily.) Therefore, her ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s75",
+      "text": "Instead, taking Metoprolol 50 daily and Carvedilol 3.125 daily.) Therefore, her rate was not well controlled which is likely stressing the heart by decreasing adequate forward flow."
+    },
+    {
+      "id": "E:note:row1282:76",
+      "kind": "note_sentence",
+      "display": "Initially, changed to carvedilol for rate control.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s76",
+      "text": "Initially, changed to carvedilol for rate control."
+    },
+    {
+      "id": "E:note:row1282:77",
+      "kind": "note_sentence",
+      "display": "On [**8-15**], carvedilol switched to metoprolol and rate better controlled.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s77",
+      "text": "On [**8-15**], carvedilol switched to metoprolol and rate better controlled."
+    },
+    {
+      "id": "E:note:row1282:78",
+      "kind": "note_sentence",
+      "display": "Her metoprolol dose was adjusted again secondary to her Afib and changed up to m",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s78",
+      "text": "Her metoprolol dose was adjusted again secondary to her Afib and changed up to metop 150XL. .Patient was optimized on an oral regimen of Lasix prior to discharge and remained euvolemic."
+    },
+    {
+      "id": "E:note:row1282:79",
+      "kind": "note_sentence",
+      "display": "Patient to receive 20meqK replacement on discharge as well to supplement lasix. ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s79",
+      "text": "Patient to receive 20meqK replacement on discharge as well to supplement lasix. . # Paroxysmal A-fib/RHYTHM: Patient with known history of atrial fibrillation."
+    },
+    {
+      "id": "E:note:row1282:80",
+      "kind": "note_sentence",
+      "display": "Rate not well controlled on Carvedilol and digoxin.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s80",
+      "text": "Rate not well controlled on Carvedilol and digoxin."
+    },
+    {
+      "id": "E:note:row1282:81",
+      "kind": "note_sentence",
+      "display": "Patient was instead started on metoprolol with much better rate control.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s81",
+      "text": "Patient was instead started on metoprolol with much better rate control."
+    },
+    {
+      "id": "E:note:row1282:82",
+      "kind": "note_sentence",
+      "display": "Just started on Coumadin 5mg qd 5 days prior to admission.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s82",
+      "text": "Just started on Coumadin 5mg qd 5 days prior to admission."
+    },
+    {
+      "id": "E:note:row1282:83",
+      "kind": "note_sentence",
+      "display": "Patient continued anticoagulation with coumadin throughout stay (dosage adjustme",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s83",
+      "text": "Patient continued anticoagulation with coumadin throughout stay (dosage adjustments made per INR)."
+    },
+    {
+      "id": "E:note:row1282:84",
+      "kind": "note_sentence",
+      "display": "PT had TEE with cardiovesion [**8-18**], initiall successful then patient develo",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s84",
+      "text": "PT had TEE with cardiovesion [**8-18**], initiall successful then patient developed torsades in the afternoon which responded to magnesium."
+    },
+    {
+      "id": "E:note:row1282:85",
+      "kind": "note_sentence",
+      "display": "Shortly thereafter patient coded with Vfib, with CPR performed for 1 minute, rec",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s85",
+      "text": "Shortly thereafter patient coded with Vfib, with CPR performed for 1 minute, received one shock and had ROSC."
+    },
+    {
+      "id": "E:note:row1282:86",
+      "kind": "note_sentence",
+      "display": "Pt had continuous Mg replacement.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s86",
+      "text": "Pt had continuous Mg replacement."
+    },
+    {
+      "id": "E:note:row1282:87",
+      "kind": "note_sentence",
+      "display": "Pt was then brought back to the floor in stable condition.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s87",
+      "text": "Pt was then brought back to the floor in stable condition."
+    },
+    {
+      "id": "E:note:row1282:88",
+      "kind": "note_sentence",
+      "display": "She continued to be in Afib and had an increase in her metoprolol dose for rate ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s88",
+      "text": "She continued to be in Afib and had an increase in her metoprolol dose for rate control."
+    },
+    {
+      "id": "E:note:row1282:89",
+      "kind": "note_sentence",
+      "display": "Patient was then started  Amio gtt and load.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s89",
+      "text": "Patient was then started  Amio gtt and load."
+    },
+    {
+      "id": "E:note:row1282:90",
+      "kind": "note_sentence",
+      "display": "She had inital attempt at BIV ICD placement for LBBB on [**8-20**] which was uns",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s90",
+      "text": "She had inital attempt at BIV ICD placement for LBBB on [**8-20**] which was unsuccessful."
+    },
+    {
+      "id": "E:note:row1282:91",
+      "kind": "note_sentence",
+      "display": "The following day patient had repeat procedure and successful BIV ICD placement.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s91",
+      "text": "The following day patient had repeat procedure and successful BIV ICD placement."
+    },
+    {
+      "id": "E:note:row1282:92",
+      "kind": "note_sentence",
+      "display": "Patient remained in Afib s/p procedure, and continued her anticoagulation, and w",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s92",
+      "text": "Patient remained in Afib s/p procedure, and continued her anticoagulation, and will continue PO amio and metoprolol for control."
+    },
+    {
+      "id": "E:note:row1282:93",
+      "kind": "note_sentence",
+      "display": "Warfarin dose decreased from 6 to 5 prior to discharge due to supratherapuetic I",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s93",
+      "text": "Warfarin dose decreased from 6 to 5 prior to discharge due to supratherapuetic INR 3.1."
+    },
+    {
+      "id": "E:note:row1282:94",
+      "kind": "note_sentence",
+      "display": "She is to follow up with Dr. [**Last Name (STitle) **] within the next 2 weeks, ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s94",
+      "text": "She is to follow up with Dr. [**Last Name (STitle) **] within the next 2 weeks, and device clinic on [**8-27**] for evaluation of pacemaker."
+    },
+    {
+      "id": "E:note:row1282:95",
+      "kind": "note_sentence",
+      "display": "Pt also will complete 6 day course of Keflex for pacemaker placement.   # CORONA",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s95",
+      "text": "Pt also will complete 6 day course of Keflex for pacemaker placement.   # CORONARIES: No history of CAD."
+    },
+    {
+      "id": "E:note:row1282:96",
+      "kind": "note_sentence",
+      "display": "LDL was 147 in 3/[**2143**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s96",
+      "text": "LDL was 147 in 3/[**2143**]."
+    },
+    {
+      "id": "E:note:row1282:97",
+      "kind": "note_sentence",
+      "display": "She is not on a statin because she has function limiting myalgias as a side effe",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s97",
+      "text": "She is not on a statin because she has function limiting myalgias as a side effect."
+    },
+    {
+      "id": "E:note:row1282:98",
+      "kind": "note_sentence",
+      "display": "Pt started on ASA 81 during hospitilazation and to continue as outpatient. . . #",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s98",
+      "text": "Pt started on ASA 81 during hospitilazation and to continue as outpatient. . . # Hyponatremia: Patient was hyponatremic at 129 on admission, Na was lowest at 126."
+    },
+    {
+      "id": "E:note:row1282:99",
+      "kind": "note_sentence",
+      "display": "Baseline in last several years (several data points) has been in the mid to low ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s99",
+      "text": "Baseline in last several years (several data points) has been in the mid to low 130s."
+    },
+    {
+      "id": "E:note:row1282:100",
+      "kind": "note_sentence",
+      "display": "Patient was asymptomatic, mentating well.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s100",
+      "text": "Patient was asymptomatic, mentating well."
+    },
+    {
+      "id": "E:note:row1282:101",
+      "kind": "note_sentence",
+      "display": "[**Month (only) 116**] have been secondary to combination of diuretics as well a",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s101",
+      "text": "[**Month (only) 116**] have been secondary to combination of diuretics as well as CHF exacerbation leading to intravascular depletion and ADH secretion."
+    },
+    {
+      "id": "E:note:row1282:102",
+      "kind": "note_sentence",
+      "display": "Na improved with 1.5 L fluid and free water restriction and stabilized.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s102",
+      "text": "Na improved with 1.5 L fluid and free water restriction and stabilized."
+    },
+    {
+      "id": "E:note:row1282:103",
+      "kind": "note_sentence",
+      "display": "Her Na returned back to her baseline upon discharge, she is to follow up with th",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s103",
+      "text": "Her Na returned back to her baseline upon discharge, she is to follow up with this in clinic.  # Rash: Patient with new macular rash as of morning of admission on lower abdomen, lower back and breasts."
+    },
+    {
+      "id": "E:note:row1282:104",
+      "kind": "note_sentence",
+      "display": "Denied any new lotions, detergents.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s104",
+      "text": "Denied any new lotions, detergents."
+    },
+    {
+      "id": "E:note:row1282:105",
+      "kind": "note_sentence",
+      "display": "Did take melatonin day prior to admission for the first time.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s105",
+      "text": "Did take melatonin day prior to admission for the first time."
+    },
+    {
+      "id": "E:note:row1282:106",
+      "kind": "note_sentence",
+      "display": "After examination rash appeared to be fungal in etiology, most c/w with intertri",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s106",
+      "text": "After examination rash appeared to be fungal in etiology, most c/w with intertrigo."
+    },
+    {
+      "id": "E:note:row1282:107",
+      "kind": "note_sentence",
+      "display": "Patient placed on topical miconazole with improvement in rash.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s107",
+      "text": "Patient placed on topical miconazole with improvement in rash."
+    },
+    {
+      "id": "E:note:row1282:108",
+      "kind": "note_sentence",
+      "display": "Transitional Issues: -Will f/u in device clinic for BIV ICD -Pt has f/u schedule",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s108",
+      "text": "Transitional Issues: -Will f/u in device clinic for BIV ICD -Pt has f/u scheduled with PCP (needs INR and Na checked) -Pt will get scheduled f/u with Dr. [**Last Name (STitle) **] [**Name (STitle) 7964**] follow with Cardiologist Dr. [**Last Name (STitle) 73**]  Medications on Admission: Carvedilol 6.25mg PO bid (actually taking [**11-24**] pill once per day and adding on Metoprolol XL 50) Hydrochlothiazide 25mg PO qd Lisinopril 40mg PO qd Spironolactone 25mg PO qd Warfarin 5mg PO qd  Discharge Medications: 1. spironolactone 25 mg Tablet Sig: One (1) Tablet PO DAILY (Daily). 2. lisinopril 20 mg Tablet Sig: Two (2) Tablet PO HS (at bedtime). 3. miconazole nitrate 2 % Powder Sig: One (1) Appl Topical [**Hospital1 **] (2 times a day) as needed for rash."
+    },
+    {
+      "id": "E:note:row1282:109",
+      "kind": "note_sentence",
+      "display": "Disp:*100 mL* Refills:*0* 4. lidocaine 5 %(700 mg/patch) Adhesive Patch, Medicat",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s109",
+      "text": "Disp:*100 mL* Refills:*0* 4. lidocaine 5 %(700 mg/patch) Adhesive Patch, Medicated Sig: One (1) Adhesive Patch, Medicated Topical DAILY (Daily) as needed for pain: place for 12 hours, then take off for 12 hours."
+    },
+    {
+      "id": "E:note:row1282:110",
+      "kind": "note_sentence",
+      "display": "Disp:*5 Adhesive Patch, Medicated(s)* Refills:*0* 5. furosemide 40 mg Tablet Sig",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s110",
+      "text": "Disp:*5 Adhesive Patch, Medicated(s)* Refills:*0* 5. furosemide 40 mg Tablet Sig: One (1) Tablet PO DAILY (Daily)."
+    },
+    {
+      "id": "E:note:row1282:111",
+      "kind": "note_sentence",
+      "display": "Disp:*60 Tablet(s)* Refills:*0* 6. aspirin 81 mg Tablet, Chewable Sig: One (1) T",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s111",
+      "text": "Disp:*60 Tablet(s)* Refills:*0* 6. aspirin 81 mg Tablet, Chewable Sig: One (1) Tablet, Chewable PO DAILY (Daily)."
+    },
+    {
+      "id": "E:note:row1282:112",
+      "kind": "note_sentence",
+      "display": "Disp:*60 Tablet, Chewable(s)* Refills:*0* 7. amiodarone 200 mg Tablet Sig: One (",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s112",
+      "text": "Disp:*60 Tablet, Chewable(s)* Refills:*0* 7. amiodarone 200 mg Tablet Sig: One (1) Tablet PO three times a day."
+    },
+    {
+      "id": "E:note:row1282:113",
+      "kind": "note_sentence",
+      "display": "Disp:*180 Tablet(s)* Refills:*0* 8. cephalexin 500 mg Capsule Sig: One (1) Capsu",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s113",
+      "text": "Disp:*180 Tablet(s)* Refills:*0* 8. cephalexin 500 mg Capsule Sig: One (1) Capsule PO Q6H (every 6 hours) for 6 days."
+    },
+    {
+      "id": "E:note:row1282:114",
+      "kind": "note_sentence",
+      "display": "Disp:*24 Capsule(s)* Refills:*0* 9. warfarin 5 mg Tablet Sig: One (1) Tablet PO ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s114",
+      "text": "Disp:*24 Capsule(s)* Refills:*0* 9. warfarin 5 mg Tablet Sig: One (1) Tablet PO Once Daily at 4 PM."
+    },
+    {
+      "id": "E:note:row1282:115",
+      "kind": "note_sentence",
+      "display": "Disp:*30 Tablet(s)* Refills:*0* 10. metoprolol succinate 100 mg Tablet Extended ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s115",
+      "text": "Disp:*30 Tablet(s)* Refills:*0* 10. metoprolol succinate 100 mg Tablet Extended Release 24 hr Sig: 1.5 Tablet Extended Release 24 hrs PO once a day."
+    },
+    {
+      "id": "E:note:row1282:116",
+      "kind": "note_sentence",
+      "display": "Disp:*90 Tablet Extended Release 24 hr(s)* Refills:*0* 11. potassium chloride 20",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s116",
+      "text": "Disp:*90 Tablet Extended Release 24 hr(s)* Refills:*0* 11. potassium chloride 20 mEq Tablet, ER Particles/Crystals Sig: One (1) Tablet, ER Particles/Crystals PO once a day."
+    },
+    {
+      "id": "E:note:row1282:117",
+      "kind": "note_sentence",
+      "display": "Disp:*60 Tablet, ER Particles/Crystals(s)* Refills:*0*   Discharge Disposition: ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s117",
+      "text": "Disp:*60 Tablet, ER Particles/Crystals(s)* Refills:*0*   Discharge Disposition: Home With Service  Facility: [**Hospital 119**] Homecare  Discharge Diagnosis: Primary: Congestive heart failure Atrial fibrillation Hypertension Ventricular fibrillation with cardiac arrest  Secondary: Rash Hyponatremia   Discharge Condition: Mental Status: Clear and coherent."
+    },
+    {
+      "id": "E:note:row1282:118",
+      "kind": "note_sentence",
+      "display": "Level of Consciousness: Alert and interactive.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s118",
+      "text": "Level of Consciousness: Alert and interactive."
+    },
+    {
+      "id": "E:note:row1282:119",
+      "kind": "note_sentence",
+      "display": "Activity Status: Ambulatory - Independent.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s119",
+      "text": "Activity Status: Ambulatory - Independent."
+    },
+    {
+      "id": "E:note:row1282:120",
+      "kind": "note_sentence",
+      "display": "Discharge Instructions: Dear Ms. [**Known lastname 7962**], .",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s120",
+      "text": "Discharge Instructions: Dear Ms. [**Known lastname 7962**], ."
+    },
+    {
+      "id": "E:note:row1282:121",
+      "kind": "note_sentence",
+      "display": "It was a pleasure taking care of you during your admission to [**Hospital1 69**]",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s121",
+      "text": "It was a pleasure taking care of you during your admission to [**Hospital1 69**]."
+    },
+    {
+      "id": "E:note:row1282:122",
+      "kind": "note_sentence",
+      "display": "You came into the hospital with shortness of breath, which was determined to be ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s122",
+      "text": "You came into the hospital with shortness of breath, which was determined to be secondary to your congestive heart failure."
+    },
+    {
+      "id": "E:note:row1282:123",
+      "kind": "note_sentence",
+      "display": "You responded well to Lasix, a diuretic, and your breathing status improved.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s123",
+      "text": "You responded well to Lasix, a diuretic, and your breathing status improved."
+    },
+    {
+      "id": "E:note:row1282:124",
+      "kind": "note_sentence",
+      "display": "Your hospital course also featured a cardioversion to correct your heart rate, a",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s124",
+      "text": "Your hospital course also featured a cardioversion to correct your heart rate, a cardiac arrest with rescuscitation, and pacemaker placement."
+    },
+    {
+      "id": "E:note:row1282:125",
+      "kind": "note_sentence",
+      "display": "On discharge, your heart rate had improved control on several new medications. .",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s125",
+      "text": "On discharge, your heart rate had improved control on several new medications. ."
+    },
+    {
+      "id": "E:note:row1282:126",
+      "kind": "note_sentence",
+      "display": "Please weigh yourself every morning, call your doctor if weight goes up more tha",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s126",
+      "text": "Please weigh yourself every morning, call your doctor if weight goes up more than 3 lbs. ."
+    },
+    {
+      "id": "E:note:row1282:127",
+      "kind": "note_sentence",
+      "display": "Please get your sodium and potassium checked the next time you see a doctor .",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s127",
+      "text": "Please get your sodium and potassium checked the next time you see a doctor ."
+    },
+    {
+      "id": "E:note:row1282:128",
+      "kind": "note_sentence",
+      "display": "We have made the following changes to your medications: -STOP Hydrochlorothiazid",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s128",
+      "text": "We have made the following changes to your medications: -STOP Hydrochlorothiazide -STOP Carvedilol -CHANGE Warfarin to 5 mg daily -START Furosemide 40 mg, once daily -START Aspirin 81 mg, once daily -START Metoprolol Succinate 150 mg, once daily -START Potassium chloride 20meq daily -START Miconazole powder applied twice daily AS NEEDED for your rash ."
+    },
+    {
+      "id": "E:note:row1282:129",
+      "kind": "note_sentence",
+      "display": "Please follow up with your primary care physician, [**Last Name (NamePattern4) *",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s129",
+      "text": "Please follow up with your primary care physician, [**Last Name (NamePattern4) **].[**Last Name (STitle) 2204**], and your cardiologist, Dr. [**Last Name (STitle) 73**], as below. ."
+    },
+    {
+      "id": "E:note:row1282:130",
+      "kind": "note_sentence",
+      "display": "We wish you all the best!",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s130",
+      "text": "We wish you all the best!"
+    },
+    {
+      "id": "E:note:row1282:131",
+      "kind": "note_sentence",
+      "display": "Followup Instructions: Department: CARDIAC SERVICES When: THURSDAY [**2144-8-27*",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s131",
+      "text": "Followup Instructions: Department: CARDIAC SERVICES When: THURSDAY [**2144-8-27**] at 9:00 AM With:  DEVICE CLINIC [**Telephone/Fax (1) 62**] Building: SC [**Hospital Ward Name 23**] Clinical Ctr [**Location (un) **] Campus: EAST     Best Parking: [**Hospital Ward Name 23**] Garage  Department: [**State **]When: FRIDAY [**2144-8-28**] at 2:00 PM With: [**First Name11 (Name Pattern1) 2946**] [**Last Name (NamePattern4) 6564**], MD [**Telephone/Fax (1) 2205**] Building: [**State **] ([**Location (un) **], MA) [**Location (un) **] Campus: OFF CAMPUS     Best Parking: On Street Parking  Department: CARDIAC SERVICES With: [**Doctor First Name 900**] [**Name8 (MD) 901**], M.D."
+    },
+    {
+      "id": "E:note:row1282:132",
+      "kind": "note_sentence",
+      "display": "[**Telephone/Fax (1) 62**] Building: SC [**Hospital Ward Name 23**] Clinical Ctr",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s132",
+      "text": "[**Telephone/Fax (1) 62**] Building: SC [**Hospital Ward Name 23**] Clinical Ctr [**Location (un) **] Campus: EAST     Best Parking: [**Hospital Ward Name 23**] Garage ***The office is working on an appt for you in the next 4 weeks and will call you at home with an appt."
+    },
+    {
+      "id": "E:note:row1282:133",
+      "kind": "note_sentence",
+      "display": "If you dont hear from them by Monday, please call them directly to book (Ideally",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s133",
+      "text": "If you dont hear from them by Monday, please call them directly to book (Ideally you will be ."
+    },
+    {
+      "id": "E:note:row1282:134",
+      "kind": "note_sentence",
+      "display": "Dr. [**Last Name (STitle) **] is working to get you an appointment for cardiover",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s134",
+      "text": "Dr. [**Last Name (STitle) **] is working to get you an appointment for cardioversion in 2 weeks time."
+    },
+    {
+      "id": "E:note:row1282:135",
+      "kind": "note_sentence",
+      "display": "They will contact you.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1282#s135",
+      "text": "They will contact you."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|42823": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4275": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4271": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4168": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2761": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4254": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42731": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1119": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42741": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99601": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8798": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4263": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4240": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V1581": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V5861": [
+      "E:cond:18"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "acute on chronic systolic heart failure": [
+      "E:cond:1"
+    ],
+    "cardiac arrest": [
+      "E:cond:2"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:3"
+    ],
+    "paroxysmal ventricular tachycardia": [
+      "E:cond:4"
+    ],
+    "other chronic pulmonary heart diseases": [
+      "E:cond:5"
+    ],
+    "hyposmolality and/or hyponatremia": [
+      "E:cond:6"
+    ],
+    "other primary cardiomyopathies": [
+      "E:cond:7"
+    ],
+    "atrial fibrillation": [
+      "E:cond:8"
+    ],
+    "dermatomycosis, unspecified": [
+      "E:cond:9"
+    ],
+    "ventricular fibrillation": [
+      "E:cond:10"
+    ],
+    "mechanical complication due to cardiac pacemaker (electrode)": [
+      "E:cond:11"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:12"
+    ],
+    "other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure": [
+      "E:cond:13"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:14"
+    ],
+    "other left bundle branch block": [
+      "E:cond:15"
+    ],
+    "mitral valve disorders": [
+      "E:cond:16"
+    ],
+    "personal history of noncompliance with medical treatment, presenting hazards to health": [
+      "E:cond:17"
+    ],
+    "long-term (current) use of anticoagulants": [
+      "E:cond:18"
+    ],
+    "implantation of cardiac resynchronization defibrillator, total system [crt-d]": [
+      "E:proc:1"
+    ],
+    "revision of lead [electrode]": [
+      "E:proc:2"
+    ],
+    "diagnostic ultrasound of heart": [
+      "E:proc:3"
+    ],
+    "other electric countershock of heart": [
+      "E:proc:4"
+    ],
+    "injection or infusion of other therapeutic or prophylactic substance": [
+      "E:proc:5"
+    ],
+    "admission date: [**2144-8-11**] discharge date: [**2144-8-22**]": [
+      "E:note:row1282:1"
+    ],
+    "patient states that she initially noticed sob approximately 2 weeks ago while sh": [
+      "E:note:row1282:2"
+    ],
+    "she attributed this to humidity.": [
+      "E:note:row1282:3"
+    ],
+    "she does note that she was eating more salt that usual given dining out.": [
+      "E:note:row1282:4"
+    ],
+    "also noticed intermittent heart palpitations.": [
+      "E:note:row1282:5"
+    ],
+    "she went to the er on [**2144-8-3**] with sob.": [
+      "E:note:row1282:6"
+    ],
+    "she was seen by dr. [**last name (stitle) **] in consult and given improvement o": [
+      "E:note:row1282:7"
+    ],
+    "patient also saw dr. [**last name (stitle) 73**] in clinic on [**8-6**] at which": [
+      "E:note:row1282:8"
+    ],
+    "at that time, several medication changes were made.": [
+      "E:note:row1282:9"
+    ],
+    "she was started on coumadin, metoprolol was discontinued and she was started ins": [
+      "E:note:row1282:10"
+    ],
+    "patient instead self titrated the metoprolol to 50mg daily and had been taking c": [
+      "E:note:row1282:11"
+    ],
+    "on saturday [**8-8**], she again developed sob with minimal exertion and with ly": [
+      "E:note:row1282:12"
+    ],
+    "breathing better with sitting upright.": [
+      "E:note:row1282:13"
+    ],
+    "positive pnd.": [
+      "E:note:row1282:14"
+    ],
+    "this morning, noticed swelling in her ankles.": [
+      "E:note:row1282:15"
+    ],
+    "has also had intermittent palpitations.": [
+      "E:note:row1282:16"
+    ],
+    "denies any chest pain. lightheadedness.": [
+      "E:note:row1282:17"
+    ],
+    "although patient states she has never had symptoms of sob with exertion, omr not": [
+      "E:note:row1282:18"
+    ],
+    "in the ed, initial vitals were 96.8 54 128/85 32 90s%.": [
+      "E:note:row1282:19"
+    ],
+    "patient was placed on 3l nc, o2 sats remained stable, no sob at rest, some with": [
+      "E:note:row1282:20"
+    ],
+    "labs and imaging significant for bnp elevated to [**numeric identifier 7963**],": [
+      "E:note:row1282:21"
+    ],
+    "cxr with cardiomegaly with right infrahilar airspace opacity, looks like pneumon": [
+      "E:note:row1282:22"
+    ],
+    "patient given lasix 20mg iv x2 at 7am, put out 800cc.vitals on transfer were 114": [
+      "E:note:row1282:23"
+    ],
+    "on arrival to the floor, patient feels well.": [
+      "E:note:row1282:24"
+    ],
+    "states sob has resolved after treatment with lasix.": [
+      "E:note:row1282:25"
+    ],
+    "denies sob, chest pain, palpitations, lightheadedness.": [
+      "E:note:row1282:26"
+    ],
+    "no recent fevers/chills.": [
+      "E:note:row1282:27"
+    ],
+    "does have a dry cough which is chronic in setting of postnasal drip.": [
+      "E:note:row1282:28"
+    ],
+    "no dysuria.": [
+      "E:note:row1282:29"
+    ],
+    "no recent changes in vision, no dysarthia, no loss of sensation/motor function.": [
+      "E:note:row1282:30"
+    ],
+    "review of systems cardiac review of systems is notable for absence of chest pain": [
+      "E:note:row1282:31"
+    ],
+    "past medical history: -hypertension -atrial fibrillation on coumadin -mitral val": [
+      "E:note:row1282:32"
+    ],
+    "vs: t=94.6 (?) bp=125/65 hr=86 rr=18 o2 sat 98 ra general: wdwn f in nad.": [
+      "E:note:row1282:33"
+    ],
+    "heent: ncat.": [
+      "E:note:row1282:34"
+    ],
+    "sclera anicteric.": [
+      "E:note:row1282:35"
+    ],
+    "eomi.": [
+      "E:note:row1282:36"
+    ],
+    "neck: supple with jvp of 7 cm.": [
+      "E:note:row1282:37"
+    ],
+    "cardiac: irregularly irregular rhythm, no m/r/g appreciated lungs: no chest wall": [
+      "E:note:row1282:38"
+    ],
+    "resp were unlabored, no accessory muscle use.": [
+      "E:note:row1282:39"
+    ],
+    "crackles in right base, wheezes or rhonchi.": [
+      "E:note:row1282:40"
+    ],
+    "abdomen: soft, ntnd.": [
+      "E:note:row1282:41"
+    ],
+    "extremities: trace pitting edema in [**name prefix (prefixes) **] [**last name (": [
+      "E:note:row1282:42"
+    ],
+    "imaging cxr [**2144-8-22**]: impression: the current study demonstrates biventr": [
+      "E:note:row1282:43"
+    ],
+    "cardiomegaly is moderate to severe, unchanged.": [
+      "E:note:row1282:44"
+    ],
+    "mediastinum is unremarkable.": [
+      "E:note:row1282:45"
+    ],
+    "no pneumothorax is seen.": [
+      "E:note:row1282:46"
+    ],
+    "small amount of pleural effusion is noted most likely on the right.": [
+      "E:note:row1282:47"
+    ],
+    "ecg [**8-11**]: atrial fibrillation with a rapid ventricular response.": [
+      "E:note:row1282:48"
+    ],
+    "left bundle-branch block with a single narrowly conducted qrs complex.": [
+      "E:note:row1282:49"
+    ],
+    "the axis is right inferior.": [
+      "E:note:row1282:50"
+    ],
+    "since previous tracing the single narrow complex beat is new.": [
+      "E:note:row1282:51"
+    ],
+    "despite a more rapid ventricular response, the axis is the same.": [
+      "E:note:row1282:52"
+    ],
+    "one should verify that the limb leads were properly placed.": [
+      "E:note:row1282:53"
+    ],
+    "clinical correlation is suggested. .": [
+      "E:note:row1282:54"
+    ],
+    "chest x-ray [**8-11**]: findings: the heart size is enlarged, apparently slightl": [
+      "E:note:row1282:55"
+    ],
+    "the mediastinal contours again demonstrate calcified atherosclerotic disease of": [
+      "E:note:row1282:56"
+    ],
+    "cephalization of pulmonary vasculature is accompanied by interstitial edema.": [
+      "E:note:row1282:57"
+    ],
+    "the lungs demonstrate airspace opacity in the right infrahilar region.": [
+      "E:note:row1282:58"
+    ],
+    "additionally, subtle blunting of the bilateral costophrenic angles persist, comp": [
+      "E:note:row1282:59"
+    ],
+    "thereis no pneumothorax.": [
+      "E:note:row1282:60"
+    ],
+    "impression: cardiomegaly with interstitial edema; right infrahilar airspace opac": [
+      "E:note:row1282:61"
+    ],
+    "labs on discharge: [**2144-8-22**] 06:58am blood wbc-7.5 rbc-3.69* hgb-12.0 hct-": [
+      "E:note:row1282:62"
+    ],
+    "she was given a dose of dofetilide.": [
+      "E:note:row1282:63"
+    ],
+    "later that day it was noted that her qtc was elongated from previously.": [
+      "E:note:row1282:64"
+    ],
+    "that evening, she had a cardiac arrest secondary to torsades de pointes and vent": [
+      "E:note:row1282:65"
+    ],
+    "she was defibrillated after 60 seconds and had rosc and regained consciousness.": [
+      "E:note:row1282:66"
+    ],
+    "she was briefly transferred to the ccu, where her magnesium and potassium were r": [
+      "E:note:row1282:67"
+    ],
+    "has known history of chf with ef 25% in 4/[**2143**].": [
+      "E:note:row1282:68"
+    ],
+    "after receiving lasix 40mg iv in the er, she put out 800cc and dyspnea resolved.": [
+      "E:note:row1282:69"
+    ],
+    "initial history and exam consistent with a chf exacerbation.": [
+      "E:note:row1282:70"
+    ],
+    "[**month (only) 116**] have baseline worsening ef as she has had such symptoms f": [
+      "E:note:row1282:71"
+    ],
+    "[**month (only) 116**] be secondary to worsening ef in combination with afib wit": [
+      "E:note:row1282:72"
+    ],
+    "patient's beta blocker was changed on thursday but she has been self titrating t": [
+      "E:note:row1282:73"
+    ],
+    "(was on metoprolol xl 100, this was d/c'ed on thursday and started on carvedilol": [
+      "E:note:row1282:74"
+    ],
+    "instead, taking metoprolol 50 daily and carvedilol 3.125 daily.) therefore, her": [
+      "E:note:row1282:75"
+    ],
+    "initially, changed to carvedilol for rate control.": [
+      "E:note:row1282:76"
+    ],
+    "on [**8-15**], carvedilol switched to metoprolol and rate better controlled.": [
+      "E:note:row1282:77"
+    ],
+    "her metoprolol dose was adjusted again secondary to her afib and changed up to m": [
+      "E:note:row1282:78"
+    ],
+    "patient to receive 20meqk replacement on discharge as well to supplement lasix.": [
+      "E:note:row1282:79"
+    ],
+    "rate not well controlled on carvedilol and digoxin.": [
+      "E:note:row1282:80"
+    ],
+    "patient was instead started on metoprolol with much better rate control.": [
+      "E:note:row1282:81"
+    ],
+    "just started on coumadin 5mg qd 5 days prior to admission.": [
+      "E:note:row1282:82"
+    ],
+    "patient continued anticoagulation with coumadin throughout stay (dosage adjustme": [
+      "E:note:row1282:83"
+    ],
+    "pt had tee with cardiovesion [**8-18**], initiall successful then patient develo": [
+      "E:note:row1282:84"
+    ],
+    "shortly thereafter patient coded with vfib, with cpr performed for 1 minute, rec": [
+      "E:note:row1282:85"
+    ],
+    "pt had continuous mg replacement.": [
+      "E:note:row1282:86"
+    ],
+    "pt was then brought back to the floor in stable condition.": [
+      "E:note:row1282:87"
+    ],
+    "she continued to be in afib and had an increase in her metoprolol dose for rate": [
+      "E:note:row1282:88"
+    ],
+    "patient was then started amio gtt and load.": [
+      "E:note:row1282:89"
+    ],
+    "she had inital attempt at biv icd placement for lbbb on [**8-20**] which was uns": [
+      "E:note:row1282:90"
+    ],
+    "the following day patient had repeat procedure and successful biv icd placement.": [
+      "E:note:row1282:91"
+    ],
+    "patient remained in afib s/p procedure, and continued her anticoagulation, and w": [
+      "E:note:row1282:92"
+    ],
+    "warfarin dose decreased from 6 to 5 prior to discharge due to supratherapuetic i": [
+      "E:note:row1282:93"
+    ],
+    "she is to follow up with dr. [**last name (stitle) **] within the next 2 weeks,": [
+      "E:note:row1282:94"
+    ],
+    "pt also will complete 6 day course of keflex for pacemaker placement. # corona": [
+      "E:note:row1282:95"
+    ],
+    "ldl was 147 in 3/[**2143**].": [
+      "E:note:row1282:96"
+    ],
+    "she is not on a statin because she has function limiting myalgias as a side effe": [
+      "E:note:row1282:97"
+    ],
+    "pt started on asa 81 during hospitilazation and to continue as outpatient. . . #": [
+      "E:note:row1282:98"
+    ],
+    "baseline in last several years (several data points) has been in the mid to low": [
+      "E:note:row1282:99"
+    ],
+    "patient was asymptomatic, mentating well.": [
+      "E:note:row1282:100"
+    ],
+    "[**month (only) 116**] have been secondary to combination of diuretics as well a": [
+      "E:note:row1282:101"
+    ],
+    "na improved with 1.5 l fluid and free water restriction and stabilized.": [
+      "E:note:row1282:102"
+    ],
+    "her na returned back to her baseline upon discharge, she is to follow up with th": [
+      "E:note:row1282:103"
+    ],
+    "denied any new lotions, detergents.": [
+      "E:note:row1282:104"
+    ],
+    "did take melatonin day prior to admission for the first time.": [
+      "E:note:row1282:105"
+    ],
+    "after examination rash appeared to be fungal in etiology, most c/w with intertri": [
+      "E:note:row1282:106"
+    ],
+    "patient placed on topical miconazole with improvement in rash.": [
+      "E:note:row1282:107"
+    ],
+    "transitional issues: -will f/u in device clinic for biv icd -pt has f/u schedule": [
+      "E:note:row1282:108"
+    ],
+    "disp:*100 ml* refills:*0* 4. lidocaine 5 %(700 mg/patch) adhesive patch, medicat": [
+      "E:note:row1282:109"
+    ],
+    "disp:*5 adhesive patch, medicated(s)* refills:*0* 5. furosemide 40 mg tablet sig": [
+      "E:note:row1282:110"
+    ],
+    "disp:*60 tablet(s)* refills:*0* 6. aspirin 81 mg tablet, chewable sig: one (1) t": [
+      "E:note:row1282:111"
+    ],
+    "disp:*60 tablet, chewable(s)* refills:*0* 7. amiodarone 200 mg tablet sig: one (": [
+      "E:note:row1282:112"
+    ],
+    "disp:*180 tablet(s)* refills:*0* 8. cephalexin 500 mg capsule sig: one (1) capsu": [
+      "E:note:row1282:113"
+    ],
+    "disp:*24 capsule(s)* refills:*0* 9. warfarin 5 mg tablet sig: one (1) tablet po": [
+      "E:note:row1282:114"
+    ],
+    "disp:*30 tablet(s)* refills:*0* 10. metoprolol succinate 100 mg tablet extended": [
+      "E:note:row1282:115"
+    ],
+    "disp:*90 tablet extended release 24 hr(s)* refills:*0* 11. potassium chloride 20": [
+      "E:note:row1282:116"
+    ],
+    "disp:*60 tablet, er particles/crystals(s)* refills:*0* discharge disposition:": [
+      "E:note:row1282:117"
+    ],
+    "level of consciousness: alert and interactive.": [
+      "E:note:row1282:118"
+    ],
+    "activity status: ambulatory - independent.": [
+      "E:note:row1282:119"
+    ],
+    "discharge instructions: dear ms. [**known lastname 7962**], .": [
+      "E:note:row1282:120"
+    ],
+    "it was a pleasure taking care of you during your admission to [**hospital1 69**]": [
+      "E:note:row1282:121"
+    ],
+    "you came into the hospital with shortness of breath, which was determined to be": [
+      "E:note:row1282:122"
+    ],
+    "you responded well to lasix, a diuretic, and your breathing status improved.": [
+      "E:note:row1282:123"
+    ],
+    "your hospital course also featured a cardioversion to correct your heart rate, a": [
+      "E:note:row1282:124"
+    ],
+    "on discharge, your heart rate had improved control on several new medications. .": [
+      "E:note:row1282:125"
+    ],
+    "please weigh yourself every morning, call your doctor if weight goes up more tha": [
+      "E:note:row1282:126"
+    ],
+    "please get your sodium and potassium checked the next time you see a doctor .": [
+      "E:note:row1282:127"
+    ],
+    "we have made the following changes to your medications: -stop hydrochlorothiazid": [
+      "E:note:row1282:128"
+    ],
+    "please follow up with your primary care physician, [**last name (namepattern4) *": [
+      "E:note:row1282:129"
+    ],
+    "we wish you all the best!": [
+      "E:note:row1282:130"
+    ],
+    "followup instructions: department: cardiac services when: thursday [**2144-8-27*": [
+      "E:note:row1282:131"
+    ],
+    "[**telephone/fax (1) 62**] building: sc [**hospital ward name 23**] clinical ctr": [
+      "E:note:row1282:132"
+    ],
+    "if you dont hear from them by monday, please call them directly to book (ideally": [
+      "E:note:row1282:133"
+    ],
+    "dr. [**last name (stitle) **] is working to get you an appointment for cardiover": [
+      "E:note:row1282:134"
+    ],
+    "they will contact you.": [
+      "E:note:row1282:135"
+    ]
+  },
+  "by_date": {
+    "2144-08-11": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5"
+    ]
+  }
+}

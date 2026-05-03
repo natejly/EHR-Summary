@@ -1,0 +1,851 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-56635-192782",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-56635",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-56635",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-192782",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-192782",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2130-08-05T00:00:00",
+          "end": "2130-08-31T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41071",
+              "display": "Subendocardial infarction, initial episode of care"
+            }
+          ],
+          "text": "Subendocardial infarction, initial episode of care"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "49392",
+              "display": "Asthma, unspecified type, with (acute) exacerbation"
+            }
+          ],
+          "text": "Asthma, unspecified type, with (acute) exacerbation"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5569",
+              "display": "Ulcerative colitis, unspecified"
+            }
+          ],
+          "text": "Ulcerative colitis, unspecified"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "486",
+              "display": "Pneumonia, organism unspecified"
+            }
+          ],
+          "text": "Pneumonia, organism unspecified"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5570",
+              "display": "Acute vascular insufficiency of intestine"
+            }
+          ],
+          "text": "Acute vascular insufficiency of intestine"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99812",
+              "display": "Hematoma complicating a procedure"
+            }
+          ],
+          "text": "Hematoma complicating a procedure"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "570",
+              "display": "Acute and subacute necrosis of liver"
+            }
+          ],
+          "text": "Acute and subacute necrosis of liver"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5119",
+              "display": "Unspecified pleural effusion"
+            }
+          ],
+          "text": "Unspecified pleural effusion"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5121",
+              "display": "Iatrogenic pneumothorax"
+            }
+          ],
+          "text": "Iatrogenic pneumothorax"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2639",
+              "display": "Unspecified protein-calorie malnutrition"
+            }
+          ],
+          "text": "Unspecified protein-calorie malnutrition"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5845",
+              "display": "Acute kidney failure with lesion of tubular necrosis"
+            }
+          ],
+          "text": "Acute kidney failure with lesion of tubular necrosis"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78550",
+              "display": "Shock, unspecified"
+            }
+          ],
+          "text": "Shock, unspecified"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42732",
+              "display": "Atrial flutter"
+            }
+          ],
+          "text": "Atrial flutter"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41401",
+              "display": "Coronary atherosclerosis of native coronary artery"
+            }
+          ],
+          "text": "Coronary atherosclerosis of native coronary artery"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2411",
+              "display": "Nontoxic multinodular goiter"
+            }
+          ],
+          "text": "Nontoxic multinodular goiter"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51889",
+              "display": "Other diseases of lung, not elsewhere classified"
+            }
+          ],
+          "text": "Other diseases of lung, not elsewhere classified"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25000",
+              "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2724",
+              "display": "Other and unspecified hyperlipidemia"
+            }
+          ],
+          "text": "Other and unspecified hyperlipidemia"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "73300",
+              "display": "Osteoporosis, unspecified"
+            }
+          ],
+          "text": "Osteoporosis, unspecified"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42731",
+              "display": "Atrial fibrillation"
+            }
+          ],
+          "text": "Atrial fibrillation"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-192782-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-192782-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8790",
+              "display": "Cardiac catheterization as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+            }
+          ],
+          "text": "Cardiac catheterization as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+        },
+        "onsetDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-192782-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-192782-1",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous transluminal coronary angioplasty [PTCA]"
+        },
+        "performedDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-192782-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-192782-2",
+        "status": "completed",
+        "code": {
+          "text": "Temporary tracheostomy"
+        },
+        "performedDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-192782-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-192782-3",
+        "status": "completed",
+        "code": {
+          "text": "Other and unspecified partial excision of large intestine"
+        },
+        "performedDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-192782-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-192782-4",
+        "status": "completed",
+        "code": {
+          "text": "Temporary ileostomy"
+        },
+        "performedDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-192782-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-192782-5",
+        "status": "completed",
+        "code": {
+          "text": "Left heart cardiac catheterization"
+        },
+        "performedDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-192782-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-192782-6",
+        "status": "completed",
+        "code": {
+          "text": "Angiocardiography of right heart structures"
+        },
+        "performedDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-192782-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-192782-7",
+        "status": "completed",
+        "code": {
+          "text": "Coronary arteriography using a single catheter"
+        },
+        "performedDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-192782-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-192782-8",
+        "status": "completed",
+        "code": {
+          "text": "Injection or infusion of platelet inhibitor"
+        },
+        "performedDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-192782-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-192782-9",
+        "status": "completed",
+        "code": {
+          "text": "Thoracentesis"
+        },
+        "performedDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-192782-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-192782-10",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of intercostal catheter for drainage"
+        },
+        "performedDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-192782-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-192782-11",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous [endoscopic] gastrostomy [PEG]"
+        },
+        "performedDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-192782-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-192782-12",
+        "status": "completed",
+        "code": {
+          "text": "Other endoscopy of small intestine"
+        },
+        "performedDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-192782-13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-192782-13",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-192782-14",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-192782-14",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-192782-15",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-192782-15",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-192782-16",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-192782-16",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-192782-17",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-192782-17",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-192782-18",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-192782-18",
+        "status": "completed",
+        "code": {
+          "text": "Parenteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-192782-19",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-192782-19",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2130-08-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-192782-20",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-192782-20",
+        "status": "completed",
+        "code": {
+          "text": "Procedure on single vessel"
+        },
+        "performedDateTime": "2130-08-05"
+      }
+    }
+  ]
+}

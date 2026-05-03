@@ -1,0 +1,551 @@
+{
+  "case_id": "mimic-99883-150755-651791",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2131-12-24",
+      "source_ref": "urn:uuid:enc-150755",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of native coronary artery",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41401",
+        "display": "Coronary atherosclerosis of native coronary artery"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-12-24",
+      "source_ref": "urn:uuid:cond-150755-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute on chronic systolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42823",
+        "display": "Acute on chronic systolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-12-24",
+      "source_ref": "urn:uuid:cond-150755-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5185",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-12-24",
+      "source_ref": "urn:uuid:cond-150755-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Chronic obstructive asthma with (acute) exacerbation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "49322",
+        "display": "Chronic obstructive asthma with (acute) exacerbation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-12-24",
+      "source_ref": "urn:uuid:cond-150755-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9994",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-12-24",
+      "source_ref": "urn:uuid:cond-150755-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-12-24",
+      "source_ref": "urn:uuid:cond-150755-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Other drug allergy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99527",
+        "display": "Other drug allergy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-12-24",
+      "source_ref": "urn:uuid:cond-150755-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Salicylates causing adverse effects in therapeutic use",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E9353",
+        "display": "Salicylates causing adverse effects in therapeutic use"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-12-24",
+      "source_ref": "urn:uuid:cond-150755-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-12-24",
+      "source_ref": "urn:uuid:cond-150755-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Other drugs and medicinal substances causing adverse effects in therapeutic use",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E9478",
+        "display": "Other drugs and medicinal substances causing adverse effects in therapeutic use"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-12-24",
+      "source_ref": "urn:uuid:cond-150755-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Combined right and left heart cardiac catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Combined right and left heart cardiac catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-12-24",
+      "source_ref": "urn:uuid:proc-150755-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Coronary arteriography using two catheters",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Coronary arteriography using two catheters"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-12-24",
+      "source_ref": "urn:uuid:proc-150755-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Immunization for allergy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Immunization for allergy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-12-24",
+      "source_ref": "urn:uuid:proc-150755-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-12-24",
+      "source_ref": "urn:uuid:proc-150755-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2131-12-24",
+      "source_ref": "urn:uuid:proc-150755-5",
+      "text": null
+    },
+    {
+      "id": "E:note:row651791:1",
+      "kind": "note_sentence",
+      "display": "Coronary artery disease (CAD, ischemic heart disease)    Assessment:    HR 80 s ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row651791#s1",
+      "text": "Coronary artery disease (CAD, ischemic heart disease)    Assessment:    HR 80 s SR with freq."
+    },
+    {
+      "id": "E:note:row651791:2",
+      "kind": "note_sentence",
+      "display": "PAC s and occas.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row651791#s2",
+      "text": "PAC s and occas."
+    },
+    {
+      "id": "E:note:row651791:3",
+      "kind": "note_sentence",
+      "display": "PVC.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row651791#s3",
+      "text": "PVC."
+    },
+    {
+      "id": "E:note:row651791:4",
+      "kind": "note_sentence",
+      "display": "Right fem.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row651791#s4",
+      "text": "Right fem."
+    },
+    {
+      "id": "E:note:row651791:5",
+      "kind": "note_sentence",
+      "display": "Cath site D/I.  no ooze.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row651791#s5",
+      "text": "Cath site D/I.  no ooze."
+    },
+    {
+      "id": "E:note:row651791:6",
+      "kind": "note_sentence",
+      "display": "HCT stable.  reports decrease pain    at site.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row651791#s6",
+      "text": "HCT stable.  reports decrease pain    at site."
+    },
+    {
+      "id": "E:note:row651791:7",
+      "kind": "note_sentence",
+      "display": "ASA desensitization begun at 2245.  pt. felt ears warm/red ~ MN- no    other itc",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row651791#s7",
+      "text": "ASA desensitization begun at 2245.  pt. felt ears warm/red ~ MN- no    other itching/rash/edema etc. Action:    Given 25mg IV benadryl at MN ."
+    },
+    {
+      "id": "E:note:row651791:8",
+      "kind": "note_sentence",
+      "display": "Heparin gtt started in eve at 1200u/hr with bolus per order    Beta blocker held",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row651791#s8",
+      "text": "Heparin gtt started in eve at 1200u/hr with bolus per order    Beta blocker held per HO  records show that pt. took all meds at OSH."
+    },
+    {
+      "id": "E:note:row651791:9",
+      "kind": "note_sentence",
+      "display": "Response:    Tolerated completion of ASA des.  last dose of ASA at 0100.  pt.   ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row651791#s9",
+      "text": "Response:    Tolerated completion of ASA des.  last dose of ASA at 0100.  pt.    mildly anxious."
+    },
+    {
+      "id": "E:note:row651791:10",
+      "kind": "note_sentence",
+      "display": "HR increasing to [**Street Address(2) 3144**]  K+ 4.7.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row651791#s10",
+      "text": "HR increasing to [**Street Address(2) 3144**]  K+ 4.7."
+    },
+    {
+      "id": "E:note:row651791:11",
+      "kind": "note_sentence",
+      "display": "Plan:    NPO for possible re-cath/intervention in AM.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row651791#s11",
+      "text": "Plan:    NPO for possible re-cath/intervention in AM."
+    },
+    {
+      "id": "E:note:row651791:12",
+      "kind": "note_sentence",
+      "display": "Continue CV meds as ordered.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row651791#s12",
+      "text": "Continue CV meds as ordered."
+    },
+    {
+      "id": "E:note:row651791:13",
+      "kind": "note_sentence",
+      "display": "Monitor PTT on Heparin gtt.    .H/O chronic obstructive pulmonary disease (COPD,",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row651791#s13",
+      "text": "Monitor PTT on Heparin gtt.    .H/O chronic obstructive pulmonary disease (COPD, Bronchitis,    Emphysema) with Acute Exacerbation    Assessment:    HX COPD  exacerbated by heart failure/CHF."
+    },
+    {
+      "id": "E:note:row651791:14",
+      "kind": "note_sentence",
+      "display": "Pt. c/o wheezing at [**2122**] crackes at bases with expiratory wheezes    throu",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row651791#s14",
+      "text": "Pt. c/o wheezing at [**2122**] crackes at bases with expiratory wheezes    throughout."
+    },
+    {
+      "id": "E:note:row651791:15",
+      "kind": "note_sentence",
+      "display": "Action:    Given 40mg IV lasix at 2100, also given atrovent/alberteral neb rx   ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row651791#s15",
+      "text": "Action:    Given 40mg IV lasix at 2100, also given atrovent/alberteral neb rx    Response:    Diuresed 2L u/o.  becoming more wheezy  more so at end of    desentization at 0100.    *******  event:    0100-0200 pt. c/o increase wheezing/asthma,    Plan:"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|41401": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42823": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5185": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|49322": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|9994": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99527": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E9353": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42731": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E9478": [
+      "E:cond:10"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "coronary atherosclerosis of native coronary artery": [
+      "E:cond:1"
+    ],
+    "acute on chronic systolic heart failure": [
+      "E:cond:2"
+    ],
+    "diagnosis": [
+      "E:cond:3",
+      "E:cond:5"
+    ],
+    "chronic obstructive asthma with (acute) exacerbation": [
+      "E:cond:4"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:6"
+    ],
+    "other drug allergy": [
+      "E:cond:7"
+    ],
+    "salicylates causing adverse effects in therapeutic use": [
+      "E:cond:8"
+    ],
+    "atrial fibrillation": [
+      "E:cond:9"
+    ],
+    "other drugs and medicinal substances causing adverse effects in therapeutic use": [
+      "E:cond:10"
+    ],
+    "combined right and left heart cardiac catheterization": [
+      "E:proc:1"
+    ],
+    "coronary arteriography using two catheters": [
+      "E:proc:2"
+    ],
+    "immunization for allergy": [
+      "E:proc:3"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:4"
+    ],
+    "continuous invasive mechanical ventilation for less than 96 consecutive hours": [
+      "E:proc:5"
+    ],
+    "coronary artery disease (cad, ischemic heart disease) assessment: hr 80 s": [
+      "E:note:row651791:1"
+    ],
+    "pac s and occas.": [
+      "E:note:row651791:2"
+    ],
+    "pvc.": [
+      "E:note:row651791:3"
+    ],
+    "right fem.": [
+      "E:note:row651791:4"
+    ],
+    "cath site d/i. no ooze.": [
+      "E:note:row651791:5"
+    ],
+    "hct stable. reports decrease pain at site.": [
+      "E:note:row651791:6"
+    ],
+    "asa desensitization begun at 2245. pt. felt ears warm/red ~ mn- no other itc": [
+      "E:note:row651791:7"
+    ],
+    "heparin gtt started in eve at 1200u/hr with bolus per order beta blocker held": [
+      "E:note:row651791:8"
+    ],
+    "response: tolerated completion of asa des. last dose of asa at 0100. pt.": [
+      "E:note:row651791:9"
+    ],
+    "hr increasing to [**street address(2) 3144**] k+ 4.7.": [
+      "E:note:row651791:10"
+    ],
+    "plan: npo for possible re-cath/intervention in am.": [
+      "E:note:row651791:11"
+    ],
+    "continue cv meds as ordered.": [
+      "E:note:row651791:12"
+    ],
+    "monitor ptt on heparin gtt. .h/o chronic obstructive pulmonary disease (copd,": [
+      "E:note:row651791:13"
+    ],
+    "pt. c/o wheezing at [**2122**] crackes at bases with expiratory wheezes throu": [
+      "E:note:row651791:14"
+    ],
+    "action: given 40mg iv lasix at 2100, also given atrovent/alberteral neb rx": [
+      "E:note:row651791:15"
+    ]
+  },
+  "by_date": {
+    "2131-12-24": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5"
+    ]
+  }
+}

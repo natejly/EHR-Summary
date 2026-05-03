@@ -1,0 +1,407 @@
+{
+  "case_id": "mimic-70926-112660-521238",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2137-03-09",
+      "source_ref": "urn:uuid:enc-112660",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Hepatic encephalopathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5722",
+        "display": "Hepatic encephalopathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-03-09",
+      "source_ref": "urn:uuid:cond-112660-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-03-09",
+      "source_ref": "urn:uuid:cond-112660-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-03-09",
+      "source_ref": "urn:uuid:cond-112660-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Unspecified septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0389",
+        "display": "Unspecified septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-03-09",
+      "source_ref": "urn:uuid:cond-112660-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99591",
+        "display": "Sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-03-09",
+      "source_ref": "urn:uuid:cond-112660-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Unspecified pleural effusion",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5119",
+        "display": "Unspecified pleural effusion"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-03-09",
+      "source_ref": "urn:uuid:cond-112660-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Blood in stool",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5781",
+        "display": "Blood in stool"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-03-09",
+      "source_ref": "urn:uuid:cond-112660-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Urinary tract infection, site not specified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5990",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-03-09",
+      "source_ref": "urn:uuid:cond-112660-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-03-09",
+      "source_ref": "urn:uuid:cond-112660-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Cirrhosis of liver without mention of alcohol",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5715",
+        "display": "Cirrhosis of liver without mention of alcohol"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-03-09",
+      "source_ref": "urn:uuid:cond-112660-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Dysthymic disorder",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3004",
+        "display": "Dysthymic disorder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-03-09",
+      "source_ref": "urn:uuid:cond-112660-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-03-09",
+      "source_ref": "urn:uuid:proc-112660-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Percutaneous abdominal drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous abdominal drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-03-09",
+      "source_ref": "urn:uuid:proc-112660-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-03-09",
+      "source_ref": "urn:uuid:proc-112660-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-03-09",
+      "source_ref": "urn:uuid:proc-112660-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Insertion of other (naso-)gastric tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of other (naso-)gastric tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2137-03-09",
+      "source_ref": "urn:uuid:proc-112660-5",
+      "text": null
+    },
+    {
+      "id": "E:note:row521238:1",
+      "kind": "note_sentence",
+      "display": "54yo with PMH NASH, LBP, depression, anxiety, HTN, hypercholesterolemia    prese",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row521238#s1",
+      "text": "54yo with PMH NASH, LBP, depression, anxiety, HTN, hypercholesterolemia    presents with increasing confusion, worsening hepatic encephalopathy;    in ED, treated for hyperkalemia with K+ 6.7 and intubated for airway    protection."
+    },
+    {
+      "id": "E:note:row521238:2",
+      "kind": "note_sentence",
+      "display": "Transfer to MICU for further care    Hepatic encephalopathy/NASH    Assessment: ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row521238#s2",
+      "text": "Transfer to MICU for further care    Hepatic encephalopathy/NASH    Assessment:    Pt with NASH, remains intubated for airway protection, sedated on low    dose propofol; AMS complicated by pt s primary language Portuguese, pt    restless in bed; LFTs remain elevated but at baseline; on Bairhugger    Action:    Continues on Lactulose q2h, attempting to assess mental status; US at    bedside, marked site for tap; abx for ?"
+    },
+    {
+      "id": "E:note:row521238:3",
+      "kind": "note_sentence",
+      "display": "SBP; propofol increased to    20mcg/kg/min; attempted PS this am    Response:   ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row521238#s3",
+      "text": "SBP; propofol increased to    20mcg/kg/min; attempted PS this am    Response:    No stooling with lactulose yet, soap suds enema given, remains    restless, unable to ascertain if pt is able to follow commands d/t    language barrier, pt not tracking; BP stable on propofol; o/u continue    marginal; OGT output guiac+ with small clots; did not tolerate PS    trial, became tachy to 110 s; US showing large volume ascites    Plan:    Trend WBC s, continue abx, follow-up culture data, continue mech vent    until mental status improves, may require liver bx, ? repeat tap; KUB    this am, holding lactulose for now"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|5722": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|0389": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99591": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5119": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5781": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5990": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2762": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5715": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3004": [
+      "E:cond:11"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "hepatic encephalopathy": [
+      "E:cond:1"
+    ],
+    "acute respiratory failure": [
+      "E:cond:2"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:3"
+    ],
+    "unspecified septicemia": [
+      "E:cond:4"
+    ],
+    "sepsis": [
+      "E:cond:5"
+    ],
+    "unspecified pleural effusion": [
+      "E:cond:6"
+    ],
+    "blood in stool": [
+      "E:cond:7"
+    ],
+    "urinary tract infection, site not specified": [
+      "E:cond:8"
+    ],
+    "acidosis": [
+      "E:cond:9"
+    ],
+    "cirrhosis of liver without mention of alcohol": [
+      "E:cond:10"
+    ],
+    "dysthymic disorder": [
+      "E:cond:11"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:1"
+    ],
+    "percutaneous abdominal drainage": [
+      "E:proc:2"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:3"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:4"
+    ],
+    "insertion of other (naso-)gastric tube": [
+      "E:proc:5"
+    ],
+    "54yo with pmh nash, lbp, depression, anxiety, htn, hypercholesterolemia prese": [
+      "E:note:row521238:1"
+    ],
+    "transfer to micu for further care hepatic encephalopathy/nash assessment:": [
+      "E:note:row521238:2"
+    ],
+    "sbp; propofol increased to 20mcg/kg/min; attempted ps this am response:": [
+      "E:note:row521238:3"
+    ]
+  },
+  "by_date": {
+    "2137-03-09": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5"
+    ]
+  }
+}

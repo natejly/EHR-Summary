@@ -1,0 +1,1392 @@
+{
+  "case_id": "mimic-9461-156692-597",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2167-08-11",
+      "source_ref": "urn:uuid:enc-156692",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Subendocardial infarction, initial episode of care",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41071",
+        "display": "Subendocardial infarction, initial episode of care"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2167-08-11",
+      "source_ref": "urn:uuid:cond-156692-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Other complications due to other cardiac device, implant, and graft",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99672",
+        "display": "Other complications due to other cardiac device, implant, and graft"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2167-08-11",
+      "source_ref": "urn:uuid:cond-156692-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Cardiac complications, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9971",
+        "display": "Cardiac complications, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2167-08-11",
+      "source_ref": "urn:uuid:cond-156692-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Hematoma complicating a procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99812",
+        "display": "Hematoma complicating a procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2167-08-11",
+      "source_ref": "urn:uuid:cond-156692-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2765",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2167-08-11",
+      "source_ref": "urn:uuid:cond-156692-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of native coronary artery",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41401",
+        "display": "Coronary atherosclerosis of native coronary artery"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2167-08-11",
+      "source_ref": "urn:uuid:cond-156692-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of autologous vein bypass graft",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41402",
+        "display": "Coronary atherosclerosis of autologous vein bypass graft"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2167-08-11",
+      "source_ref": "urn:uuid:cond-156692-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2167-08-11",
+      "source_ref": "urn:uuid:cond-156692-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Pure hypercholesterolemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2720",
+        "display": "Pure hypercholesterolemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2167-08-11",
+      "source_ref": "urn:uuid:cond-156692-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Implant of pulsation balloon",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Implant of pulsation balloon"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2167-08-11",
+      "source_ref": "urn:uuid:proc-156692-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Procedure",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2167-08-11",
+      "source_ref": "urn:uuid:proc-156692-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Insertion of drug-eluting coronary artery stent(s)",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of drug-eluting coronary artery stent(s)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2167-08-11",
+      "source_ref": "urn:uuid:proc-156692-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Insertion of non-drug-eluting coronary artery stent(s)",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of non-drug-eluting coronary artery stent(s)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2167-08-11",
+      "source_ref": "urn:uuid:proc-156692-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Left heart cardiac catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Left heart cardiac catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2167-08-11",
+      "source_ref": "urn:uuid:proc-156692-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Coronary arteriography using two catheters",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Coronary arteriography using two catheters"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2167-08-11",
+      "source_ref": "urn:uuid:proc-156692-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Injection or infusion of platelet inhibitor",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Injection or infusion of platelet inhibitor"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2167-08-11",
+      "source_ref": "urn:uuid:proc-156692-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Procedure",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2167-08-11",
+      "source_ref": "urn:uuid:proc-156692-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Insertion of non-drug-eluting coronary artery stent(s)",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of non-drug-eluting coronary artery stent(s)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2167-08-11",
+      "source_ref": "urn:uuid:proc-156692-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Combined right and left heart cardiac catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Combined right and left heart cardiac catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2167-08-11",
+      "source_ref": "urn:uuid:proc-156692-10",
+      "text": null
+    },
+    {
+      "id": "E:note:row597:1",
+      "kind": "note_sentence",
+      "display": "Unit No:  [**Numeric Identifier 4669**] Admission Date: [**2167-8-11**] Discharg",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s1",
+      "text": "Unit No:  [**Numeric Identifier 4669**] Admission Date: [**2167-8-11**] Discharge Date: [**2167-8-15**] Date of Birth:  [**2091-6-8**] Sex:  M Service:   HISTORY OF PRESENT ILLNESS:  Mr. [**Known lastname **] is a 76-year-old man with a history of hypertension, dyslipidemia, and coronary artery disease (status post inferior myocardial infarction with ventricular fibrillation arrest in [**2156**]) who has done well with only six episodes of exertional angina until then."
+    },
+    {
+      "id": "E:note:row597:2",
+      "kind": "note_sentence",
+      "display": "Three days ago, the patient woke up at 3:00 a.m. with severe midsternal chest pa",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s2",
+      "text": "Three days ago, the patient woke up at 3:00 a.m. with severe midsternal chest pain radiating to the left arm."
+    },
+    {
+      "id": "E:note:row597:3",
+      "kind": "note_sentence",
+      "display": "It was similar to the symptoms of his prior myocardial infarction.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s3",
+      "text": "It was similar to the symptoms of his prior myocardial infarction."
+    },
+    {
+      "id": "E:note:row597:4",
+      "kind": "note_sentence",
+      "display": "It was not associated with nausea, vomiting, diarrhea, or shortness of breath.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s4",
+      "text": "It was not associated with nausea, vomiting, diarrhea, or shortness of breath."
+    },
+    {
+      "id": "E:note:row597:5",
+      "kind": "note_sentence",
+      "display": "The patient presented to [**Hospital **] Hospital within one half hour of the on",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s5",
+      "text": "The patient presented to [**Hospital **] Hospital within one half hour of the onset of the pain where he was treated with sublingual nitroglycerin, oxygen, morphine, and heparin."
+    },
+    {
+      "id": "E:note:row597:6",
+      "kind": "note_sentence",
+      "display": "The patient became pain free and remained so for the remainder of his hospitaliz",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s6",
+      "text": "The patient became pain free and remained so for the remainder of his hospitalization."
+    },
+    {
+      "id": "E:note:row597:7",
+      "kind": "note_sentence",
+      "display": "The patient ruled in for a myocardial infarction with a positive troponin level ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s7",
+      "text": "The patient ruled in for a myocardial infarction with a positive troponin level of 2.87 and a creatine kinase of 426."
+    },
+    {
+      "id": "E:note:row597:8",
+      "kind": "note_sentence",
+      "display": "Cardiac catheterization performed on the day prior to admission at [**Hospital *",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s8",
+      "text": "Cardiac catheterization performed on the day prior to admission at [**Hospital **] Hospital demonstrated a small LIMA, total occlusion of the SVG to OM,  and diseased segments of the SVG to diagonal to obtuse marginal."
+    },
+    {
+      "id": "E:note:row597:9",
+      "kind": "note_sentence",
+      "display": "The ejection fraction was normal.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s9",
+      "text": "The ejection fraction was normal."
+    },
+    {
+      "id": "E:note:row597:10",
+      "kind": "note_sentence",
+      "display": "The LV end-diastolic pressure was 19, right atrial pressure was 13, and pulmonar",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s10",
+      "text": "The LV end-diastolic pressure was 19, right atrial pressure was 13, and pulmonary artery pressure 33/10."
+    },
+    {
+      "id": "E:note:row597:11",
+      "kind": "note_sentence",
+      "display": "The patient was transported to [**Hospital1 188**] on the day of admission where",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s11",
+      "text": "The patient was transported to [**Hospital1 188**] on the day of admission where he underwent stenting of the saphenous vein graft to diagonal and obtuse marginal with a PercuSurge distal protection device."
+    },
+    {
+      "id": "E:note:row597:12",
+      "kind": "note_sentence",
+      "display": "The patient experienced his typical anginal symptoms during the procedure and fo",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s12",
+      "text": "The patient experienced his typical anginal symptoms during the procedure and for approximately one hour status post procedure."
+    },
+    {
+      "id": "E:note:row597:13",
+      "kind": "note_sentence",
+      "display": "The patient denied a history of shortness of breath, dyspnea on exertion, paroxy",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s13",
+      "text": "The patient denied a history of shortness of breath, dyspnea on exertion, paroxysmal nocturnal dyspnea, orthopnea, palpitations, lightheadedness, syncope, or presyncope."
+    },
+    {
+      "id": "E:note:row597:14",
+      "kind": "note_sentence",
+      "display": "PAST MEDICAL HISTORY: 1.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s14",
+      "text": "PAST MEDICAL HISTORY: 1."
+    },
+    {
+      "id": "E:note:row597:15",
+      "kind": "note_sentence",
+      "display": "Coronary artery disease; status post myocardial infarction    times two. 2.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s15",
+      "text": "Coronary artery disease; status post myocardial infarction    times two. 2."
+    },
+    {
+      "id": "E:note:row597:16",
+      "kind": "note_sentence",
+      "display": "Hypertension. 3.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s16",
+      "text": "Hypertension. 3."
+    },
+    {
+      "id": "E:note:row597:17",
+      "kind": "note_sentence",
+      "display": "Dyslipidemia. 4.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s17",
+      "text": "Dyslipidemia. 4."
+    },
+    {
+      "id": "E:note:row597:18",
+      "kind": "note_sentence",
+      "display": "Osteoarthritis. 5.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s18",
+      "text": "Osteoarthritis. 5."
+    },
+    {
+      "id": "E:note:row597:19",
+      "kind": "note_sentence",
+      "display": "Question of sleep apnea. 6.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s19",
+      "text": "Question of sleep apnea. 6."
+    },
+    {
+      "id": "E:note:row597:20",
+      "kind": "note_sentence",
+      "display": "Lower extremity claudication.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s20",
+      "text": "Lower extremity claudication."
+    },
+    {
+      "id": "E:note:row597:21",
+      "kind": "note_sentence",
+      "display": "PHYSICAL EXAMINATION ON PRESENTATION:  Vital signs revealed his blood pressure w",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s21",
+      "text": "PHYSICAL EXAMINATION ON PRESENTATION:  Vital signs revealed his blood pressure was 100 to 110/60, his heart rate was 40 to 50 (without ectopy), and he was saturating 100 percent on room air."
+    },
+    {
+      "id": "E:note:row597:22",
+      "kind": "note_sentence",
+      "display": "Neck revealed no jugular venous distention.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s22",
+      "text": "Neck revealed no jugular venous distention."
+    },
+    {
+      "id": "E:note:row597:23",
+      "kind": "note_sentence",
+      "display": "The lungs were clear to auscultation anteriorly.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s23",
+      "text": "The lungs were clear to auscultation anteriorly."
+    },
+    {
+      "id": "E:note:row597:24",
+      "kind": "note_sentence",
+      "display": "Heart revealed distant first heart sounds and second heart sounds.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s24",
+      "text": "Heart revealed distant first heart sounds and second heart sounds."
+    },
+    {
+      "id": "E:note:row597:25",
+      "kind": "note_sentence",
+      "display": "A [**1-1**] apical murmur.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s25",
+      "text": "A [**1-1**] apical murmur."
+    },
+    {
+      "id": "E:note:row597:26",
+      "kind": "note_sentence",
+      "display": "There was a sternotomy scar.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s26",
+      "text": "There was a sternotomy scar."
+    },
+    {
+      "id": "E:note:row597:27",
+      "kind": "note_sentence",
+      "display": "A right groin arterial sheath in situ with positive ecchymosis.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s27",
+      "text": "A right groin arterial sheath in situ with positive ecchymosis."
+    },
+    {
+      "id": "E:note:row597:28",
+      "kind": "note_sentence",
+      "display": "No hematoma or ooze.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s28",
+      "text": "No hematoma or ooze."
+    },
+    {
+      "id": "E:note:row597:29",
+      "kind": "note_sentence",
+      "display": "The distal pulses were intact on extremities.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s29",
+      "text": "The distal pulses were intact on extremities."
+    },
+    {
+      "id": "E:note:row597:30",
+      "kind": "note_sentence",
+      "display": "The feet were cool bilaterally.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s30",
+      "text": "The feet were cool bilaterally."
+    },
+    {
+      "id": "E:note:row597:31",
+      "kind": "note_sentence",
+      "display": "There were no edema.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s31",
+      "text": "There were no edema."
+    },
+    {
+      "id": "E:note:row597:32",
+      "kind": "note_sentence",
+      "display": "There was a left lower extremity saphenous vein graft harvest scar.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s32",
+      "text": "There was a left lower extremity saphenous vein graft harvest scar."
+    },
+    {
+      "id": "E:note:row597:33",
+      "kind": "note_sentence",
+      "display": "PERTINENT LABORATORY VALUES ON PRESENTATION:  White blood cell count was 7.2, hi",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s33",
+      "text": "PERTINENT LABORATORY VALUES ON PRESENTATION:  White blood cell count was 7.2, his hematocrit was 40.7, and his platelets were 187."
+    },
+    {
+      "id": "E:note:row597:34",
+      "kind": "note_sentence",
+      "display": "His blood urea nitrogen was 20 and his creatinine was 1.1.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s34",
+      "text": "His blood urea nitrogen was 20 and his creatinine was 1.1."
+    },
+    {
+      "id": "E:note:row597:35",
+      "kind": "note_sentence",
+      "display": "Cholesterol was 154, his high-density lipoprotein was 30, and his low-density li",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s35",
+      "text": "Cholesterol was 154, his high-density lipoprotein was 30, and his low-density lipoprotein was 90."
+    },
+    {
+      "id": "E:note:row597:36",
+      "kind": "note_sentence",
+      "display": "PERTINENT RADIOLOGY-IMAGING:  An electrocardiogram revealed sinus bradycardia wi",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s36",
+      "text": "PERTINENT RADIOLOGY-IMAGING:  An electrocardiogram revealed sinus bradycardia with a rate in the 50s."
+    },
+    {
+      "id": "E:note:row597:37",
+      "kind": "note_sentence",
+      "display": "There were small Q waves and ST-T wave sloping in III and aVF.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s37",
+      "text": "There were small Q waves and ST-T wave sloping in III and aVF."
+    },
+    {
+      "id": "E:note:row597:38",
+      "kind": "note_sentence",
+      "display": "There was a 1-mm ST segment depressions in V2 through V4.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s38",
+      "text": "There was a 1-mm ST segment depressions in V2 through V4."
+    },
+    {
+      "id": "E:note:row597:39",
+      "kind": "note_sentence",
+      "display": "SUMMARY OF HOSPITAL COURSE:  As noted above, the patient was taken to the Cardia",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s39",
+      "text": "SUMMARY OF HOSPITAL COURSE:  As noted above, the patient was taken to the Cardiac Catheterization Laboratory for stenting procedure."
+    },
+    {
+      "id": "E:note:row597:40",
+      "kind": "note_sentence",
+      "display": "He was taken to the Cardiac Catheterization Laboratory.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s40",
+      "text": "He was taken to the Cardiac Catheterization Laboratory."
+    },
+    {
+      "id": "E:note:row597:41",
+      "kind": "note_sentence",
+      "display": "The patient complained of persistent chest pain where he had three stents placed",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s41",
+      "text": "The patient complained of persistent chest pain where he had three stents placed."
+    },
+    {
+      "id": "E:note:row597:42",
+      "kind": "note_sentence",
+      "display": "Then the patient dropped his blood pressure significantly in the SVG to first di",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s42",
+      "text": "Then the patient dropped his blood pressure significantly in the SVG to first diagonal to first obtuse marginal jump graft  90's with prominent ST depressions in V1, two hepicoat stents mid and distally, one cypher in the ostium."
+    },
+    {
+      "id": "E:note:row597:43",
+      "kind": "note_sentence",
+      "display": "At this time a thrombus was discovered at the site of intervention and distal st",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s43",
+      "text": "At this time a thrombus was discovered at the site of intervention and distal stent was occluded."
+    },
+    {
+      "id": "E:note:row597:44",
+      "kind": "note_sentence",
+      "display": "Post procedure, the patient developed recurrent angina with more prominent ST de",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s44",
+      "text": "Post procedure, the patient developed recurrent angina with more prominent ST depressions in V1 through V4, ST elevations in I and aVL, with a decrease in blood pressures to systolics in the 90s when the nitroglycerin drip was increased."
+    },
+    {
+      "id": "E:note:row597:45",
+      "kind": "note_sentence",
+      "display": "The patient was taken back to the Cardiac Catheterization Laboratory where a thr",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s45",
+      "text": "The patient was taken back to the Cardiac Catheterization Laboratory where a thrombus was found at the site of intervention, and the distal stent was occluded."
+    },
+    {
+      "id": "E:note:row597:46",
+      "kind": "note_sentence",
+      "display": "The patient underwent angioplasty with two stent placements distally and adminis",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s46",
+      "text": "The patient underwent angioplasty with two stent placements distally and administration of Integrelin, clopidogrel, and intracoronary TPA."
+    },
+    {
+      "id": "E:note:row597:47",
+      "kind": "note_sentence",
+      "display": "An intraaortic balloon pump was placed to maximize coronary blood flow.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s47",
+      "text": "An intraaortic balloon pump was placed to maximize coronary blood flow."
+    },
+    {
+      "id": "E:note:row597:48",
+      "kind": "note_sentence",
+      "display": "After this procedure the patient did well and was able to be weaned off the ball",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s48",
+      "text": "After this procedure the patient did well and was able to be weaned off the balloon pump."
+    },
+    {
+      "id": "E:note:row597:49",
+      "kind": "note_sentence",
+      "display": "The patient was continued on aspirin, beta blocker, ACE inhibitor, Plavix, and s",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s49",
+      "text": "The patient was continued on aspirin, beta blocker, ACE inhibitor, Plavix, and statin."
+    },
+    {
+      "id": "E:note:row597:50",
+      "kind": "note_sentence",
+      "display": "The patient did develop a moderate retroperitoneal hematoma requiring a transfus",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s50",
+      "text": "The patient did develop a moderate retroperitoneal hematoma requiring a transfusion of blood, though this was stable."
+    },
+    {
+      "id": "E:note:row597:51",
+      "kind": "note_sentence",
+      "display": "In addition, the patient had episodes of nonsustained ventricular tachycardia fo",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s51",
+      "text": "In addition, the patient had episodes of nonsustained ventricular tachycardia for which he will follow up with Electrophysiology for further risk stratification."
+    },
+    {
+      "id": "E:note:row597:52",
+      "kind": "note_sentence",
+      "display": "CONDITION ON DISCHARGE:  Good.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s52",
+      "text": "CONDITION ON DISCHARGE:  Good."
+    },
+    {
+      "id": "E:note:row597:53",
+      "kind": "note_sentence",
+      "display": "DISCHARGE STATUS:  To home.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s53",
+      "text": "DISCHARGE STATUS:  To home."
+    },
+    {
+      "id": "E:note:row597:54",
+      "kind": "note_sentence",
+      "display": "DISCHARGE DIAGNOSES: 1.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s54",
+      "text": "DISCHARGE DIAGNOSES: 1."
+    },
+    {
+      "id": "E:note:row597:55",
+      "kind": "note_sentence",
+      "display": "Coronary artery disease; status post non-ST-elevation    myocardial infarction w",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s55",
+      "text": "Coronary artery disease; status post non-ST-elevation    myocardial infarction with subacute stent occlusion. 2."
+    },
+    {
+      "id": "E:note:row597:56",
+      "kind": "note_sentence",
+      "display": "Retroperitoneal hematoma.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s56",
+      "text": "Retroperitoneal hematoma."
+    },
+    {
+      "id": "E:note:row597:57",
+      "kind": "note_sentence",
+      "display": "MEDICATIONS ON DISCHARGE: 1.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s57",
+      "text": "MEDICATIONS ON DISCHARGE: 1."
+    },
+    {
+      "id": "E:note:row597:58",
+      "kind": "note_sentence",
+      "display": "Aspirin 325 mg by mouth once per day. 2.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s58",
+      "text": "Aspirin 325 mg by mouth once per day. 2."
+    },
+    {
+      "id": "E:note:row597:59",
+      "kind": "note_sentence",
+      "display": "Clopidogrel 75 mg by mouth once per day. 3.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s59",
+      "text": "Clopidogrel 75 mg by mouth once per day. 3."
+    },
+    {
+      "id": "E:note:row597:60",
+      "kind": "note_sentence",
+      "display": "Nitroglycerin 0.3-mg sublingual tablets as needed. 4.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s60",
+      "text": "Nitroglycerin 0.3-mg sublingual tablets as needed. 4."
+    },
+    {
+      "id": "E:note:row597:61",
+      "kind": "note_sentence",
+      "display": "Lisinopril 10 mg by mouth once per day. 5.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s61",
+      "text": "Lisinopril 10 mg by mouth once per day. 5."
+    },
+    {
+      "id": "E:note:row597:62",
+      "kind": "note_sentence",
+      "display": "Pantoprazole 40 mg by mouth once per day. 6.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s62",
+      "text": "Pantoprazole 40 mg by mouth once per day. 6."
+    },
+    {
+      "id": "E:note:row597:63",
+      "kind": "note_sentence",
+      "display": "Atorvastatin 40 mg by mouth once per day. 7.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s63",
+      "text": "Atorvastatin 40 mg by mouth once per day. 7."
+    },
+    {
+      "id": "E:note:row597:64",
+      "kind": "note_sentence",
+      "display": "Multivitamin by mouth every day. 8.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s64",
+      "text": "Multivitamin by mouth every day. 8."
+    },
+    {
+      "id": "E:note:row597:65",
+      "kind": "note_sentence",
+      "display": "Metoprolol 12.5 mg by mouth twice per day.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s65",
+      "text": "Metoprolol 12.5 mg by mouth twice per day."
+    },
+    {
+      "id": "E:note:row597:66",
+      "kind": "note_sentence",
+      "display": "DISCHARGE INSTRUCTIONS-FOLLOWUP: 1.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s66",
+      "text": "DISCHARGE INSTRUCTIONS-FOLLOWUP: 1."
+    },
+    {
+      "id": "E:note:row597:67",
+      "kind": "note_sentence",
+      "display": "The patient was to follow up with Dr. [**Last Name (STitle) **] (his    cardiolo",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s67",
+      "text": "The patient was to follow up with Dr. [**Last Name (STitle) **] (his    cardiologist) who will arrange for signal-averaged EKG and    exercise T wave alternate study. 2."
+    },
+    {
+      "id": "E:note:row597:68",
+      "kind": "note_sentence",
+      "display": "The patient was to follow up with Dr. [**First Name4 (NamePattern1) **] [**Last ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s68",
+      "text": "The patient was to follow up with Dr. [**First Name4 (NamePattern1) **] [**Last Name (NamePattern1) **] when    these studies are completed. 3."
+    },
+    {
+      "id": "E:note:row597:69",
+      "kind": "note_sentence",
+      "display": "The patient was instructed to follow up with his primary    care doctor (Dr. [**",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s69",
+      "text": "The patient was instructed to follow up with his primary    care doctor (Dr. [**First Name8 (NamePattern2) **] [**Last Name (NamePattern1) 1968**]) within one month."
+    },
+    {
+      "id": "E:note:row597:70",
+      "kind": "note_sentence",
+      "display": "[**First Name11 (Name Pattern1) **] [**Last Name (NamePattern4) **], [**MD Numbe",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row597#s70",
+      "text": "[**First Name11 (Name Pattern1) **] [**Last Name (NamePattern4) **], [**MD Number(1) 4670**]  Dictated By:[**Last Name (NamePattern1) 4671**] MEDQUIST36 D:  [**2168-4-12**] 20:15:07 T:  [**2168-4-14**] 11:16:31 Job#:  [**Job Number 4672**]"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|41071": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99672": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|9971": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99812": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2765": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41401": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41402": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2720": [
+      "E:cond:9"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "subendocardial infarction, initial episode of care": [
+      "E:cond:1"
+    ],
+    "other complications due to other cardiac device, implant, and graft": [
+      "E:cond:2"
+    ],
+    "cardiac complications, not elsewhere classified": [
+      "E:cond:3"
+    ],
+    "hematoma complicating a procedure": [
+      "E:cond:4"
+    ],
+    "diagnosis": [
+      "E:cond:5"
+    ],
+    "coronary atherosclerosis of native coronary artery": [
+      "E:cond:6"
+    ],
+    "coronary atherosclerosis of autologous vein bypass graft": [
+      "E:cond:7"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:8"
+    ],
+    "pure hypercholesterolemia": [
+      "E:cond:9"
+    ],
+    "implant of pulsation balloon": [
+      "E:proc:1"
+    ],
+    "procedure": [
+      "E:proc:2",
+      "E:proc:8"
+    ],
+    "insertion of drug-eluting coronary artery stent(s)": [
+      "E:proc:3"
+    ],
+    "insertion of non-drug-eluting coronary artery stent(s)": [
+      "E:proc:4",
+      "E:proc:9"
+    ],
+    "left heart cardiac catheterization": [
+      "E:proc:5"
+    ],
+    "coronary arteriography using two catheters": [
+      "E:proc:6"
+    ],
+    "injection or infusion of platelet inhibitor": [
+      "E:proc:7"
+    ],
+    "combined right and left heart cardiac catheterization": [
+      "E:proc:10"
+    ],
+    "unit no: [**numeric identifier 4669**] admission date: [**2167-8-11**] discharg": [
+      "E:note:row597:1"
+    ],
+    "three days ago, the patient woke up at 3:00 a.m. with severe midsternal chest pa": [
+      "E:note:row597:2"
+    ],
+    "it was similar to the symptoms of his prior myocardial infarction.": [
+      "E:note:row597:3"
+    ],
+    "it was not associated with nausea, vomiting, diarrhea, or shortness of breath.": [
+      "E:note:row597:4"
+    ],
+    "the patient presented to [**hospital **] hospital within one half hour of the on": [
+      "E:note:row597:5"
+    ],
+    "the patient became pain free and remained so for the remainder of his hospitaliz": [
+      "E:note:row597:6"
+    ],
+    "the patient ruled in for a myocardial infarction with a positive troponin level": [
+      "E:note:row597:7"
+    ],
+    "cardiac catheterization performed on the day prior to admission at [**hospital *": [
+      "E:note:row597:8"
+    ],
+    "the ejection fraction was normal.": [
+      "E:note:row597:9"
+    ],
+    "the lv end-diastolic pressure was 19, right atrial pressure was 13, and pulmonar": [
+      "E:note:row597:10"
+    ],
+    "the patient was transported to [**hospital1 188**] on the day of admission where": [
+      "E:note:row597:11"
+    ],
+    "the patient experienced his typical anginal symptoms during the procedure and fo": [
+      "E:note:row597:12"
+    ],
+    "the patient denied a history of shortness of breath, dyspnea on exertion, paroxy": [
+      "E:note:row597:13"
+    ],
+    "past medical history: 1.": [
+      "E:note:row597:14"
+    ],
+    "coronary artery disease; status post myocardial infarction times two. 2.": [
+      "E:note:row597:15"
+    ],
+    "hypertension. 3.": [
+      "E:note:row597:16"
+    ],
+    "dyslipidemia. 4.": [
+      "E:note:row597:17"
+    ],
+    "osteoarthritis. 5.": [
+      "E:note:row597:18"
+    ],
+    "question of sleep apnea. 6.": [
+      "E:note:row597:19"
+    ],
+    "lower extremity claudication.": [
+      "E:note:row597:20"
+    ],
+    "physical examination on presentation: vital signs revealed his blood pressure w": [
+      "E:note:row597:21"
+    ],
+    "neck revealed no jugular venous distention.": [
+      "E:note:row597:22"
+    ],
+    "the lungs were clear to auscultation anteriorly.": [
+      "E:note:row597:23"
+    ],
+    "heart revealed distant first heart sounds and second heart sounds.": [
+      "E:note:row597:24"
+    ],
+    "a [**1-1**] apical murmur.": [
+      "E:note:row597:25"
+    ],
+    "there was a sternotomy scar.": [
+      "E:note:row597:26"
+    ],
+    "a right groin arterial sheath in situ with positive ecchymosis.": [
+      "E:note:row597:27"
+    ],
+    "no hematoma or ooze.": [
+      "E:note:row597:28"
+    ],
+    "the distal pulses were intact on extremities.": [
+      "E:note:row597:29"
+    ],
+    "the feet were cool bilaterally.": [
+      "E:note:row597:30"
+    ],
+    "there were no edema.": [
+      "E:note:row597:31"
+    ],
+    "there was a left lower extremity saphenous vein graft harvest scar.": [
+      "E:note:row597:32"
+    ],
+    "pertinent laboratory values on presentation: white blood cell count was 7.2, hi": [
+      "E:note:row597:33"
+    ],
+    "his blood urea nitrogen was 20 and his creatinine was 1.1.": [
+      "E:note:row597:34"
+    ],
+    "cholesterol was 154, his high-density lipoprotein was 30, and his low-density li": [
+      "E:note:row597:35"
+    ],
+    "pertinent radiology-imaging: an electrocardiogram revealed sinus bradycardia wi": [
+      "E:note:row597:36"
+    ],
+    "there were small q waves and st-t wave sloping in iii and avf.": [
+      "E:note:row597:37"
+    ],
+    "there was a 1-mm st segment depressions in v2 through v4.": [
+      "E:note:row597:38"
+    ],
+    "summary of hospital course: as noted above, the patient was taken to the cardia": [
+      "E:note:row597:39"
+    ],
+    "he was taken to the cardiac catheterization laboratory.": [
+      "E:note:row597:40"
+    ],
+    "the patient complained of persistent chest pain where he had three stents placed": [
+      "E:note:row597:41"
+    ],
+    "then the patient dropped his blood pressure significantly in the svg to first di": [
+      "E:note:row597:42"
+    ],
+    "at this time a thrombus was discovered at the site of intervention and distal st": [
+      "E:note:row597:43"
+    ],
+    "post procedure, the patient developed recurrent angina with more prominent st de": [
+      "E:note:row597:44"
+    ],
+    "the patient was taken back to the cardiac catheterization laboratory where a thr": [
+      "E:note:row597:45"
+    ],
+    "the patient underwent angioplasty with two stent placements distally and adminis": [
+      "E:note:row597:46"
+    ],
+    "an intraaortic balloon pump was placed to maximize coronary blood flow.": [
+      "E:note:row597:47"
+    ],
+    "after this procedure the patient did well and was able to be weaned off the ball": [
+      "E:note:row597:48"
+    ],
+    "the patient was continued on aspirin, beta blocker, ace inhibitor, plavix, and s": [
+      "E:note:row597:49"
+    ],
+    "the patient did develop a moderate retroperitoneal hematoma requiring a transfus": [
+      "E:note:row597:50"
+    ],
+    "in addition, the patient had episodes of nonsustained ventricular tachycardia fo": [
+      "E:note:row597:51"
+    ],
+    "condition on discharge: good.": [
+      "E:note:row597:52"
+    ],
+    "discharge status: to home.": [
+      "E:note:row597:53"
+    ],
+    "discharge diagnoses: 1.": [
+      "E:note:row597:54"
+    ],
+    "coronary artery disease; status post non-st-elevation myocardial infarction w": [
+      "E:note:row597:55"
+    ],
+    "retroperitoneal hematoma.": [
+      "E:note:row597:56"
+    ],
+    "medications on discharge: 1.": [
+      "E:note:row597:57"
+    ],
+    "aspirin 325 mg by mouth once per day. 2.": [
+      "E:note:row597:58"
+    ],
+    "clopidogrel 75 mg by mouth once per day. 3.": [
+      "E:note:row597:59"
+    ],
+    "nitroglycerin 0.3-mg sublingual tablets as needed. 4.": [
+      "E:note:row597:60"
+    ],
+    "lisinopril 10 mg by mouth once per day. 5.": [
+      "E:note:row597:61"
+    ],
+    "pantoprazole 40 mg by mouth once per day. 6.": [
+      "E:note:row597:62"
+    ],
+    "atorvastatin 40 mg by mouth once per day. 7.": [
+      "E:note:row597:63"
+    ],
+    "multivitamin by mouth every day. 8.": [
+      "E:note:row597:64"
+    ],
+    "metoprolol 12.5 mg by mouth twice per day.": [
+      "E:note:row597:65"
+    ],
+    "discharge instructions-followup: 1.": [
+      "E:note:row597:66"
+    ],
+    "the patient was to follow up with dr. [**last name (stitle) **] (his cardiolo": [
+      "E:note:row597:67"
+    ],
+    "the patient was to follow up with dr. [**first name4 (namepattern1) **] [**last": [
+      "E:note:row597:68"
+    ],
+    "the patient was instructed to follow up with his primary care doctor (dr. [**": [
+      "E:note:row597:69"
+    ],
+    "[**first name11 (name pattern1) **] [**last name (namepattern4) **], [**md numbe": [
+      "E:note:row597:70"
+    ]
+  },
+  "by_date": {
+    "2167-08-11": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10"
+    ]
+  }
+}

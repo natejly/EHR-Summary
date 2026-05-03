@@ -1,0 +1,347 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:1"
+      ],
+      "rationale": "The evidence explicitly states the patient is a 73M with CAD."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:1"
+      ],
+      "rationale": "The evidence explicitly states the patient is 's/p CABG', which matches the claim of being status post CABG."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:1"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'DM' as part of the patient's medical history."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:1"
+      ],
+      "rationale": "The evidence explicitly lists ESRD as one of the patient's conditions."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:1",
+        "E:note:row597675:3",
+        "E:note:row597675:17",
+        "E:note:row597675:18",
+        "E:note:row597675:19"
+      ],
+      "rationale": "Multiple evidence items explicitly state the patient is on HD, including a direct statement of 'ESRD on HD' and records of HD sessions."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:1"
+      ],
+      "rationale": "The evidence explicitly lists 'Afib' as one of the patient's conditions."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:1"
+      ],
+      "rationale": "The evidence explicitly states the patient has Afib and is on coumadin."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:2"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has had epileptiform behavior."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:2"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is receiving continuous EEG monitoring."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence items describe mechanical ventilation procedures and contain no information regarding Ativan administration."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:3"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient had a PR temp of 102.5 yesterday evening."
+    },
+    {
+      "claim_id": "C13",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:4"
+      ],
+      "rationale": "The candidate evidence explicitly states that BCx was drawn from the HD catheter."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:4"
+      ],
+      "rationale": "The evidence explicitly states that vanc 1 g IV was given."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:4"
+      ],
+      "rationale": "The evidence explicitly states that gent 140 mg IV was given."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:4"
+      ],
+      "rationale": "The evidence explicitly states that 1 L NS was given."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:5"
+      ],
+      "rationale": "The candidate evidence explicitly states the ABG values as 7.41/43/79/28, matching the claim."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:6"
+      ],
+      "rationale": "The candidate evidence explicitly states the same vital signs prior to transfer."
+    },
+    {
+      "claim_id": "C20",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C21",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C22",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C23",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C24",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence lists conditions related to pneumonia and vascular device infections, but contains no mention of a nasogastric tube (NGT)."
+    },
+    {
+      "claim_id": "C25",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C26",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C27",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C28",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C29",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C30",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:7",
+        "E:cond:8"
+      ],
+      "rationale": "The patient has a documented diagnosis of severe sepsis, which supports the claim of possible sepsis."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:9"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Tmax 99.5 today', which directly matches the claim."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:10"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient had multiple sets of blood cultures, all with no growth to date (NGTD)."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:11"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is 'On vanc/gent coverage'."
+    },
+    {
+      "claim_id": "C35",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:11"
+      ],
+      "rationale": "The candidate evidence explicitly mentions the patient is on coverage for a possible line infection (PICC or HD cath)."
+    },
+    {
+      "claim_id": "C36",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:15"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to continue vancomycin and gentamicin until blood culture results are available."
+    },
+    {
+      "claim_id": "C37",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:3",
+        "E:cond:4"
+      ],
+      "rationale": "The candidates explicitly list 'End stage renal disease' as a condition for the patient."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:18"
+      ],
+      "rationale": "The evidence explicitly states that the patient had HD today."
+    },
+    {
+      "claim_id": "C39",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:19"
+      ],
+      "rationale": "The candidate evidence explicitly states that 1L of fluid was removed."
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:20"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to continue with regularly scheduled HD."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:21"
+      ],
+      "rationale": "The evidence explicitly lists 'Altered mental status' as part of the assessment."
+    },
+    {
+      "claim_id": "C42",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:21"
+      ],
+      "rationale": "The evidence explicitly states the patient had a repeat head CT yesterday."
+    },
+    {
+      "claim_id": "C43",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates confirm a subdural hemorrhage, but there is no evidence that it is 'stable' or that the diagnosis occurred 'yesterday'."
+    },
+    {
+      "claim_id": "C44",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row597675:30"
+      ],
+      "rationale": "The candidate evidence explicitly states that the EEG was completed."
+    },
+    {
+      "claim_id": "C45",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:37",
+        "E:cond:38"
+      ],
+      "rationale": "The patient has two recorded diagnoses of unspecified glaucoma."
+    },
+    {
+      "claim_id": "C46",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    }
+  ]
+}

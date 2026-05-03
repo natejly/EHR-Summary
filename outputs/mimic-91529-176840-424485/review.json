@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Current diagnoses include acute myocardial infarction (AMI, STEMI, NSTEMI) [E:note:row424485:19], subendocardial infarction [E:cond:1], and cardiogenic shock [E:cond:2].",
+      "severity": "medium",
+      "reason": "The summary lists AMI, STEMI, and NSTEMI as diagnoses, but the fact sheet only specifies 'Subendocardial infarction' and 'Cardiogenic shock'."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Current diagnoses include acute myocardial infarction (AMI, STEMI, NSTEMI) [E:note:row424485:19], subendocardial infarction [E:cond:1], and cardiogenic shock [E:cond:2].",
+      "suggested": "Current diagnoses include subendocardial infarction [E:cond:1] and cardiogenic shock [E:cond:2].",
+      "reason": "Remove unsupported specific AMI types (STEMI/NSTEMI) not present in the provided fact sheet."
+    }
+  ]
+}

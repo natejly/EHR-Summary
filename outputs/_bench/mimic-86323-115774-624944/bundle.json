@@ -1,0 +1,595 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-86323-115774",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-86323",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-86323",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-115774",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-115774",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2171-03-02T00:00:00",
+          "end": "2171-03-11T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-115774-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-115774-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-115774-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-115774-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5070",
+              "display": "Pneumonitis due to inhalation of food or vomitus"
+            }
+          ],
+          "text": "Pneumonitis due to inhalation of food or vomitus"
+        },
+        "onsetDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-115774-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-115774-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-115774-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-115774-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78550",
+              "display": "Shock, unspecified"
+            }
+          ],
+          "text": "Shock, unspecified"
+        },
+        "onsetDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-115774-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-115774-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5771",
+              "display": "Chronic pancreatitis"
+            }
+          ],
+          "text": "Chronic pancreatitis"
+        },
+        "onsetDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-115774-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-115774-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5119",
+              "display": "Unspecified pleural effusion"
+            }
+          ],
+          "text": "Unspecified pleural effusion"
+        },
+        "onsetDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-115774-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-115774-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2763",
+              "display": "Alkalosis"
+            }
+          ],
+          "text": "Alkalosis"
+        },
+        "onsetDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-115774-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-115774-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42490",
+              "display": "Endocarditis, valve unspecified, unspecified cause"
+            }
+          ],
+          "text": "Endocarditis, valve unspecified, unspecified cause"
+        },
+        "onsetDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-115774-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-115774-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4275",
+              "display": "Cardiac arrest"
+            }
+          ],
+          "text": "Cardiac arrest"
+        },
+        "onsetDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-115774-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-115774-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42731",
+              "display": "Atrial fibrillation"
+            }
+          ],
+          "text": "Atrial fibrillation"
+        },
+        "onsetDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-115774-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-115774-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25000",
+              "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-115774-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-115774-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2724",
+              "display": "Other and unspecified hyperlipidemia"
+            }
+          ],
+          "text": "Other and unspecified hyperlipidemia"
+        },
+        "onsetDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-115774-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-115774-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "53081",
+              "display": "Esophageal reflux"
+            }
+          ],
+          "text": "Esophageal reflux"
+        },
+        "onsetDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-115774-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-115774-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2859",
+              "display": "Anemia, unspecified"
+            }
+          ],
+          "text": "Anemia, unspecified"
+        },
+        "onsetDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-115774-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-115774-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "53010",
+              "display": "Esophagitis, unspecified"
+            }
+          ],
+          "text": "Esophagitis, unspecified"
+        },
+        "onsetDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-115774-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-115774-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2449",
+              "display": "Unspecified acquired hypothyroidism"
+            }
+          ],
+          "text": "Unspecified acquired hypothyroidism"
+        },
+        "onsetDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-115774-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-115774-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41400",
+              "display": "Coronary atherosclerosis of unspecified type of vessel, native or graft"
+            }
+          ],
+          "text": "Coronary atherosclerosis of unspecified type of vessel, native or graft"
+        },
+        "onsetDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-115774-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-115774-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4581",
+              "display": "Aortocoronary bypass status"
+            }
+          ],
+          "text": "Aortocoronary bypass status"
+        },
+        "onsetDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-115774-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-115774-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4501",
+              "display": "Cardiac pacemaker in situ"
+            }
+          ],
+          "text": "Cardiac pacemaker in situ"
+        },
+        "onsetDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-115774-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-115774-1",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-115774-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-115774-2",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-115774-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-115774-3",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-115774-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-115774-4",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-115774-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-115774-5",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-115774-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-115774-6",
+        "status": "completed",
+        "code": {
+          "text": "Thoracentesis"
+        },
+        "performedDateTime": "2171-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-115774-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-115774-7",
+        "status": "completed",
+        "code": {
+          "text": "Replacement of gastrostomy tube"
+        },
+        "performedDateTime": "2171-03-02"
+      }
+    }
+  ]
+}

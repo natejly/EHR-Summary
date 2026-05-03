@@ -1,0 +1,450 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C2",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:2"
+      ],
+      "rationale": "The candidate evidence explicitly states that a head CT revealed a hemorrhagic cva."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:2"
+      ],
+      "rationale": "The evidence explicitly mentions a 'known brain tumor'."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:3"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient has left sided hemiparesis."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:4"
+      ],
+      "rationale": "The evidence explicitly mentions a history of mds (myelodysplastic syndrome)."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C9",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:7"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'cad s/p cabg x4 06' in the patient's past medical history."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:7"
+      ],
+      "rationale": "The patient's past medical history (PMH) explicitly lists 'afib'."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:7"
+      ],
+      "rationale": "The evidence explicitly states the patient is 'now off coumadin'."
+    },
+    {
+      "claim_id": "C13",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate evidence items mention bilateral deep vein thrombosis (DVT) or pulmonary embolism (PE)."
+    },
+    {
+      "claim_id": "C14",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C15",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C16",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C17",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:17"
+      ],
+      "rationale": "The patient has a recorded condition of 'Gout, unspecified' in the EHR."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:16"
+      ],
+      "rationale": "The candidate evidence explicitly lists a diagnosis of 'Hyperparathyroidism, unspecified'."
+    },
+    {
+      "claim_id": "C20",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C21",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C22",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C23",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C24",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:8"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient had a Tmax of 100.1 orally on arrival to the MICU."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:9"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient was pancultured."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:9"
+      ],
+      "rationale": "The candidate evidence explicitly states that the foley catheter was replaced."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:10"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient received Tylenol x1 prior to a plt transfusion."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:10"
+      ],
+      "rationale": "The evidence explicitly states the patient received a plt transfusion."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:11"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is receiving antibiotic coverage for MRSA, PSA, and C. diff."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:12"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient continues to have a low grade fever."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:12"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient has a rising lactate level."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:13"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan is to 'Follow temperature curve'."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:13"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to 'con t abx coverage as ordered'."
+    },
+    {
+      "claim_id": "C35",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:14"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Pneumonia, bacterial, ventilator acquired (VAP)' in the assessment section."
+    },
+    {
+      "claim_id": "C36",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate evidence items mention intubation or mechanical ventilation."
+    },
+    {
+      "claim_id": "C37",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:16"
+      ],
+      "rationale": "The claim is directly supported by the text in the provided note sentence."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:17"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient's pao2 was 75."
+    },
+    {
+      "claim_id": "C39",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:18"
+      ],
+      "rationale": "The candidate evidence explicitly states that oxygen saturations are greater than 95%."
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:19"
+      ],
+      "rationale": "The candidate evidence explicitly states the same lung sound findings as the claim."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:21"
+      ],
+      "rationale": "The evidence explicitly states that a bedside us of the lungs was performed."
+    },
+    {
+      "claim_id": "C42",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C43",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:22"
+      ],
+      "rationale": "The evidence explicitly states that a cxr was obtained."
+    },
+    {
+      "claim_id": "C44",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:23"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is currently on o2 60%."
+    },
+    {
+      "claim_id": "C45",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C46",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C47",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:26"
+      ],
+      "rationale": "The note explicitly states that the patient may have a bronchoscopy per the attending."
+    },
+    {
+      "claim_id": "C48",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:27"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'CVA (Stroke, Cerebral infarction), Hemorrhagic' in the assessment."
+    },
+    {
+      "claim_id": "C49",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:3"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient has left sided hemiparesis."
+    },
+    {
+      "claim_id": "C50",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:29"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Perrl @3mm', which matches the claim."
+    },
+    {
+      "claim_id": "C51",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:32"
+      ],
+      "rationale": "The evidence explicitly states the patient was transfused with 1 unit of platelets overnight."
+    },
+    {
+      "claim_id": "C52",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:35"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan is to 'Follow neuron exam'."
+    },
+    {
+      "claim_id": "C53",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:35"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to 'transfuse as needed'."
+    },
+    {
+      "claim_id": "C54",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence describes a condition (MRSA) and does not mention a neurosurgical consult or any plan for the morning."
+    },
+    {
+      "claim_id": "C55",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:36"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Impaired Skin Integrity' as an assessment."
+    },
+    {
+      "claim_id": "C56",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:36"
+      ],
+      "rationale": "The candidate evidence explicitly states '+yeast perirectally' as part of the assessment."
+    },
+    {
+      "claim_id": "C57",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:37"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has a stage II pressure sore."
+    },
+    {
+      "claim_id": "C58",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:39"
+      ],
+      "rationale": "The evidence explicitly states that Nystatin was applied."
+    },
+    {
+      "claim_id": "C59",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:40"
+      ],
+      "rationale": "The candidate evidence contains the exact text stating the wound was irrigated with ns and covered with allevyn dsg."
+    },
+    {
+      "claim_id": "C60",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list procedures and conditions but contains no information regarding a plan to contact a wound care RN for a consult."
+    },
+    {
+      "claim_id": "C61",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row346921:42"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to consider a change to a kinear bed."
+    }
+  ]
+}

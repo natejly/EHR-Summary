@@ -1,0 +1,144 @@
+{
+  "case_id": "mimic-52296-112991-422543",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 1857,
+    "summary_chars": 1007,
+    "target_min_chars": 371,
+    "target_max_chars": 557,
+    "achieved_ratio": 0.5422724824986538,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 7,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row422543:11",
+      "E:note:row422543:12",
+      "E:note:row422543:13",
+      "E:note:row422543:15",
+      "E:note:row422543:16",
+      "E:note:row422543:18",
+      "E:note:row422543:5",
+      "E:note:row422543:7",
+      "E:note:row422543:8"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Patient presented with altered mental status [E:note:row422543:8], hypoxemia [E:note:row422543:12], hypotension [E:note:row422543:15], and fever of unknown origin [E:note:row422543:5].",
+        "severity": "high",
+        "reason": "The summary misinterprets evidence: row 422543:12 refers to oxygen delivery, not hypoxemia, and row 422543:15 refers to Levophed dosing, not hypotension."
+      },
+      {
+        "sentence": "Patient presented with altered mental status [E:note:row422543:8], hypoxemia [E:note:row422543:12], hypotension [E:note:row422543:15], and fever of unknown origin [E:note:row422543:5].",
+        "severity": "medium",
+        "reason": "The fact sheet does not state the fever was of 'unknown origin', only that the patient presented with fevers."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Patient presented with altered mental status [E:note:row422543:8], hypoxemia [E:note:row422543:12], hypotension [E:note:row422543:15], and fever of unknown origin [E:note:row422543:5].",
+        "suggested": "Patient presented with fevers [E:note:row422543:3], hypotension [E:note:row422543:3], and a temperature of 100 [E:note:row422543:5].",
+        "reason": "Corrects misattributed citations and removes unsupported claims of hypoxemia and 'unknown origin' for fever."
+      }
+    ]
+  },
+  "review_passed": false,
+  "review_concern_counts": {
+    "high": 1,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-52296-112991-422543/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.71,
+    "fk_words": 212,
+    "fk_sentences": 18,
+    "fk_syllables": 336,
+    "chars": 2151,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-52296-112991-422543/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0038588750176131725,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 60.84329216694459,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 172.8461217499571,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.001323375036008656,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 15.251143208995927,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 8.709115625009872,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.007075875008013099,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 10.59730679099448,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

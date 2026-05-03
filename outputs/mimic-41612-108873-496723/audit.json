@@ -1,0 +1,128 @@
+{
+  "case_id": "mimic-41612-108873-496723",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 1485,
+    "summary_chars": 765,
+    "target_min_chars": 297,
+    "target_max_chars": 445,
+    "achieved_ratio": 0.5151515151515151,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 7,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:note:row496723:1",
+      "E:note:row496723:10",
+      "E:note:row496723:11",
+      "E:note:row496723:2",
+      "E:note:row496723:4",
+      "E:note:row496723:5",
+      "E:note:row496723:7",
+      "E:note:row496723:8"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Sepsis, bacterial pneumonia, acute respiratory failure [E:cond:1][E:cond:2][E:cond:3], AKI [E:cond:4], toxic encephalopathy [E:cond:5], and influenza [E:cond:10].",
+        "severity": "medium",
+        "reason": "Omits critical active problems from the fact sheet including acidosis, coagulation defects, and hypovolemia."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Sepsis, bacterial pneumonia, acute respiratory failure [E:cond:1][E:cond:2][E:cond:3], AKI [E:cond:4], toxic encephalopathy [E:cond:5], and influenza [E:cond:10].",
+        "suggested": "Sepsis, bacterial pneumonia, acute respiratory failure [E:cond:1][E:cond:2][E:cond:3], AKI [E:cond:4], toxic encephalopathy [E:cond:5], influenza [E:cond:10], acidosis [E:cond:6], coagulation defects [E:cond:7], and hypovolemia [E:cond:11].",
+        "reason": "Includes missing critical diagnoses from the fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-41612-108873-496723/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.82,
+    "fk_words": 195,
+    "fk_sentences": 18,
+    "fk_syllables": 317,
+    "chars": 1783,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-41612-108873-496723/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0017024999833665788,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 90.3088010000065,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 66.28202166600386,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0021055840188637376,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 14.019429832987953,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 9.129361999977846,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0021388750174082816,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 7.075775666977279,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:46"
+      ],
+      "rationale": "The evidence explicitly mentions 'Intermittent hypotension' for the patient."
+    },
+    {
+      "claim_id": "C3",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:12"
+      ],
+      "rationale": "The candidate evidence explicitly lists a diagnosis of gastric ulcer."
+    },
+    {
+      "claim_id": "C5",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided evidence describes a mechanical ventilation procedure and contains no information regarding a UTI diagnosis."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:3"
+      ],
+      "rationale": "The evidence explicitly states the patient was discharged on 2129-12-15 with clarithromycin."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:3"
+      ],
+      "rationale": "The evidence explicitly states the patient was discharged on 2129-12-15 with amoxicillin."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C9",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided evidence describes a mechanical ventilation procedure and does not mention a diagnosis of UTI."
+    },
+    {
+      "claim_id": "C10",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:6"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was febrile to 100.5."
+    },
+    {
+      "claim_id": "C12",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C13",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C14",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C15",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C16",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:8"
+      ],
+      "rationale": "The candidate evidence explicitly states the EKG had TWI in V3-V6 and lateral ST depressions."
+    },
+    {
+      "claim_id": "C18",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:9",
+        "E:note:row646532:28"
+      ],
+      "rationale": "Both candidates explicitly state the patient has renal failure."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:10"
+      ],
+      "rationale": "The evidence explicitly states the patient was given 4L of IVF."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:11"
+      ],
+      "rationale": "The evidence explicitly states that the patient was intubated."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:12"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient's stool was C. diff positive."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:13"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was given IV vanco/ flagyl/ ceftriaxone."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:14"
+      ],
+      "rationale": "The candidate evidence explicitly states that a CT abd/pelvis showed pancolitis."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:15"
+      ],
+      "rationale": "The candidate evidence explicitly states that a right IJ was placed."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:16"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient's temperature was T 97.8 upon arrival to Hospital1 5."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:16"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient's BP was 108/47 upon arrival to Hospital1 5."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:16"
+      ],
+      "rationale": "The candidate evidence explicitly states the heart rate (HR) was 78 upon arrival to Hospital1 5."
+    },
+    {
+      "claim_id": "C29",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C30",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C31",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:17"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was given ?3L of IVF."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:18"
+      ],
+      "rationale": "The evidence explicitly states the patient was started on levophed."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:18"
+      ],
+      "rationale": "The evidence explicitly states the patient was started on dopamine."
+    },
+    {
+      "claim_id": "C35",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C36",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:21"
+      ],
+      "rationale": "The candidate evidence explicitly lists C. difficile infection under the assessment section."
+    },
+    {
+      "claim_id": "C37",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence only mentions 'Abd.' and does not provide the descriptive findings 'Distended/firm'."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:26"
+      ],
+      "rationale": "The candidate evidence explicitly states that lactic acid remains flat at 0.5."
+    },
+    {
+      "claim_id": "C39",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:26"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan is to 'Cont. w/ Flagyl IV.'"
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:28"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Renal failure, acute (Acute renal failure, ARF)' under the Assessment section."
+    },
+    {
+      "claim_id": "C41",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C42",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:29"
+      ],
+      "rationale": "The candidate evidence explicitly states that Bun/Creat remain elevated at 37/1.4."
+    },
+    {
+      "claim_id": "C43",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:29"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Action: LR bolus X 1 liter', which matches the claim."
+    },
+    {
+      "claim_id": "C44",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:30"
+      ],
+      "rationale": "The candidate evidence explicitly states that sodium bicarb was given via NGT for possible renal acidosis."
+    },
+    {
+      "claim_id": "C45",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:32"
+      ],
+      "rationale": "The candidate evidence explicitly states the diagnosis of acute respiratory failure in the assessment section."
+    },
+    {
+      "claim_id": "C46",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence refers to legal blindness and does not contain any information regarding ventilator settings."
+    },
+    {
+      "claim_id": "C47",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C48",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:34"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Bilateral rhonci noted.', which matches the claim."
+    },
+    {
+      "claim_id": "C49",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:36",
+        "E:note:row646532:43"
+      ],
+      "rationale": "Both candidate sentences explicitly state that IV antibiotics (abx) were given."
+    },
+    {
+      "claim_id": "C50",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:41"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to follow the WBC which is trending down at 8.7."
+    },
+    {
+      "claim_id": "C51",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:43"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan for IV abx (Zosyn/Vanco)."
+    },
+    {
+      "claim_id": "C52",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:46"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient remains withdrawn and lethargic."
+    },
+    {
+      "claim_id": "C53",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:46"
+      ],
+      "rationale": "The candidate evidence explicitly mentions 'Intermittent hypotension'."
+    },
+    {
+      "claim_id": "C54",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row646532:47"
+      ],
+      "rationale": "The candidate evidence explicitly states that Levophed was restarted at 0.03mcg for a map goal > 60."
+    }
+  ]
+}

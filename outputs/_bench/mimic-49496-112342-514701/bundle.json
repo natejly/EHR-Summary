@@ -1,0 +1,745 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-49496-112342",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-49496",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-49496",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-112342",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-112342",
+        "status": "finished",
+        "class": {
+          "code": "AMB",
+          "display": "ELECTIVE"
+        },
+        "type": [
+          {
+            "text": "ELECTIVE"
+          }
+        ],
+        "period": {
+          "start": "2124-02-29T00:00:00",
+          "end": "2124-03-29T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V5812",
+              "display": "Encounter for antineoplastic immunotherapy"
+            }
+          ],
+          "text": "Encounter for antineoplastic immunotherapy"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "03812",
+              "display": "Methicillin resistant Staphylococcus aureus septicemia"
+            }
+          ],
+          "text": "Methicillin resistant Staphylococcus aureus septicemia"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99592",
+              "display": "Severe sepsis"
+            }
+          ],
+          "text": "Severe sepsis"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78552",
+              "display": "Septic shock"
+            }
+          ],
+          "text": "Septic shock"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5070",
+              "display": "Pneumonitis due to inhalation of food or vomitus"
+            }
+          ],
+          "text": "Pneumonitis due to inhalation of food or vomitus"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "34982",
+              "display": "Toxic encephalopathy"
+            }
+          ],
+          "text": "Toxic encephalopathy"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1890",
+              "display": "Malignant neoplasm of kidney, except pelvis"
+            }
+          ],
+          "text": "Malignant neoplasm of kidney, except pelvis"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1970",
+              "display": "Secondary malignant neoplasm of lung"
+            }
+          ],
+          "text": "Secondary malignant neoplasm of lung"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1983",
+              "display": "Secondary malignant neoplasm of brain and spinal cord"
+            }
+          ],
+          "text": "Secondary malignant neoplasm of brain and spinal cord"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2762",
+              "display": "Acidosis"
+            }
+          ],
+          "text": "Acidosis"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5609",
+              "display": "Unspecified intestinal obstruction"
+            }
+          ],
+          "text": "Unspecified intestinal obstruction"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7854",
+              "display": "Gangrene"
+            }
+          ],
+          "text": "Gangrene"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5990",
+              "display": "Urinary tract infection, site not specified"
+            }
+          ],
+          "text": "Urinary tract infection, site not specified"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2724",
+              "display": "Other and unspecified hyperlipidemia"
+            }
+          ],
+          "text": "Other and unspecified hyperlipidemia"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "53081",
+              "display": "Esophageal reflux"
+            }
+          ],
+          "text": "Esophageal reflux"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78701",
+              "display": "Nausea with vomiting"
+            }
+          ],
+          "text": "Nausea with vomiting"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78791",
+              "display": "Diarrhea"
+            }
+          ],
+          "text": "Diarrhea"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "6930",
+              "display": "Dermatitis due to drugs and medicines taken internally"
+            }
+          ],
+          "text": "Dermatitis due to drugs and medicines taken internally"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E9331",
+              "display": "Antineoplastic and immunosuppressive drugs causing adverse effects in therapeutic use"
+            }
+          ],
+          "text": "Antineoplastic and immunosuppressive drugs causing adverse effects in therapeutic use"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2859",
+              "display": "Anemia, unspecified"
+            }
+          ],
+          "text": "Anemia, unspecified"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-24",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-24",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2874",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-112342-25",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-112342-25",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0414",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-112342-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-112342-1",
+        "status": "completed",
+        "code": {
+          "text": "High-dose infusion interleukin-2 [IL-2]"
+        },
+        "performedDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-112342-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-112342-2",
+        "status": "completed",
+        "code": {
+          "text": "Injection or infusion of oxazolidinone class of antibiotics"
+        },
+        "performedDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-112342-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-112342-3",
+        "status": "completed",
+        "code": {
+          "text": "Hemodialysis"
+        },
+        "performedDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-112342-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-112342-4",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-112342-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-112342-5",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-112342-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-112342-6",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2124-02-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-112342-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-112342-7",
+        "status": "completed",
+        "code": {
+          "text": "Fiber-optic bronchoscopy"
+        },
+        "performedDateTime": "2124-02-29"
+      }
+    }
+  ]
+}

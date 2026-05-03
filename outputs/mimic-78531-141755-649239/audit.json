@@ -1,0 +1,136 @@
+{
+  "case_id": "mimic-78531-141755-649239",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 3065,
+    "summary_chars": 1239,
+    "target_min_chars": 613,
+    "target_max_chars": 919,
+    "achieved_ratio": 0.4042414355628059,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 11,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:note:row649239:1",
+      "E:note:row649239:2",
+      "E:note:row649239:20",
+      "E:note:row649239:21",
+      "E:note:row649239:3",
+      "E:note:row649239:4",
+      "E:note:row649239:6",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Procedures performed include ventricular shunt, brain biopsy, spinal tap, endotracheal tube insertion, arterial and venous catheterization, and mechanical ventilation (patient now extubated) [E:proc:1][E:proc:2][E:proc:3][E:proc:4][E:proc:5][E:proc:6][E:proc:7][E:note:row649239:4].",
+        "severity": "medium",
+        "reason": "The claim that the patient is 'now extubated' is not supported by the provided fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Procedures performed include ventricular shunt, brain biopsy, spinal tap, endotracheal tube insertion, arterial and venous catheterization, and mechanical ventilation (patient now extubated) [E:proc:1][E:proc:2][E:proc:3][E:proc:4][E:proc:5][E:proc:6][E:proc:7][E:note:row649239:4].",
+        "suggested": "Procedures performed include ventricular shunt, brain biopsy, spinal tap, endotracheal tube insertion, arterial and venous catheterization, and mechanical ventilation [E:proc:1][E:proc:2][E:proc:3][E:proc:4][E:proc:5][E:proc:6][E:proc:7][E:note:row649239:4].",
+        "reason": "Removed unsupported claim regarding extubation status."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-78531-141755-649239/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 8.21,
+    "fk_words": 160,
+    "fk_sentences": 17,
+    "fk_syllables": 273,
+    "chars": 1412,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-78531-141755-649239/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0020375000312924385,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 133.89561320800567,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 28.195850165968295,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0015929159708321095,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 35.0043693750049,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 10.348682625044603,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.004098624980542809,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 9.719661791983526,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

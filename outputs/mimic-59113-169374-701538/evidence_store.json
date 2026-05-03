@@ -1,0 +1,720 @@
+{
+  "case_id": "mimic-59113-169374-701538",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:enc-169374",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Intestinal infection due to Clostridium difficile",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "00845",
+        "display": "Intestinal infection due to Clostridium difficile"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:cond-169374-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Unspecified septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0389",
+        "display": "Unspecified septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:cond-169374-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:cond-169374-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:cond-169374-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Hepatic infarction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5734",
+        "display": "Hepatic infarction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:cond-169374-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Acute pancreatitis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5770",
+        "display": "Acute pancreatitis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:cond-169374-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:cond-169374-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Glucocorticoid deficiency",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25541",
+        "display": "Glucocorticoid deficiency"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:cond-169374-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:cond-169374-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Hyposmolality and/or hyponatremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2761",
+        "display": "Hyposmolality and/or hyponatremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:cond-169374-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Acute venous embolism and thrombosis of unspecified deep vessels of lower extremity",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "45340",
+        "display": "Acute venous embolism and thrombosis of unspecified deep vessels of lower extremity"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:cond-169374-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Pulmonary collapse",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5180",
+        "display": "Pulmonary collapse"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:cond-169374-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2841",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:cond-169374-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Thrombocytopenia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2875",
+        "display": "Thrombocytopenia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:cond-169374-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Asymptomatic human immunodeficiency virus [HIV] infection status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V08",
+        "display": "Asymptomatic human immunodeficiency virus [HIV] infection status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:cond-169374-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25000",
+        "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:cond-169374-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Myelodysplastic syndrome, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "23875",
+        "display": "Myelodysplastic syndrome, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:cond-169374-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:cond-169374-18",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:proc-169374-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:proc-169374-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:proc-169374-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:proc-169374-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Venous catheterization for renal dialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization for renal dialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:proc-169374-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Hemodialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Hemodialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2194-10-31",
+      "source_ref": "urn:uuid:proc-169374-6",
+      "text": null
+    },
+    {
+      "id": "E:note:row701538:1",
+      "kind": "note_sentence",
+      "display": "Mr. [**Known lastname **] is a 81 yo [**Country 4486**] speaking only man.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701538#s1",
+      "text": "Mr. [**Known lastname **] is a 81 yo [**Country 4486**] speaking only man."
+    },
+    {
+      "id": "E:note:row701538:2",
+      "kind": "note_sentence",
+      "display": "He has a recent    diagnosis of HIV ([**7-31**]), has C.diff with leukocytosis i",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701538#s2",
+      "text": "He has a recent    diagnosis of HIV ([**7-31**]), has C.diff with leukocytosis in 40s, adrenal    insufficiency, MDS(prbc and plt transfusion dependent), worsening    acidosis and renal failure due to ATN."
+    },
+    {
+      "id": "E:note:row701538:3",
+      "kind": "note_sentence",
+      "display": "He also has L leg pain and    erythema.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701538#s3",
+      "text": "He also has L leg pain and    erythema."
+    },
+    {
+      "id": "E:note:row701538:4",
+      "kind": "note_sentence",
+      "display": "Admit to the MICU for hypotension and lactate 5.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701538#s4",
+      "text": "Admit to the MICU for hypotension and lactate 5."
+    },
+    {
+      "id": "E:note:row701538:5",
+      "kind": "note_sentence",
+      "display": "Acute Pain    Assessment:    Pt with pain to his lt leg when touched.Has got pat",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701538#s5",
+      "text": "Acute Pain    Assessment:    Pt with pain to his lt leg when touched.Has got patches of erythmatous    areas on his lt leg and both groin."
+    },
+    {
+      "id": "E:note:row701538:6",
+      "kind": "note_sentence",
+      "display": "Action:    Medicated with morphine x1.Had usg to his Lt leg.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701538#s6",
+      "text": "Action:    Medicated with morphine x1.Had usg to his Lt leg."
+    },
+    {
+      "id": "E:note:row701538:7",
+      "kind": "note_sentence",
+      "display": "Response:    USG showed clots to superficial Fem vein and poplitial.Plan was to ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701538#s7",
+      "text": "Response:    USG showed clots to superficial Fem vein and poplitial.Plan was to    start heparin but pt was guiac pos,Transfused 2 units PRBC.Post    transfusion hct 28.8."
+    },
+    {
+      "id": "E:note:row701538:8",
+      "kind": "note_sentence",
+      "display": "Plan:    Team to decide plan for heparin gtt.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701538#s8",
+      "text": "Plan:    Team to decide plan for heparin gtt."
+    },
+    {
+      "id": "E:note:row701538:9",
+      "kind": "note_sentence",
+      "display": "Impaired Skin Integrity    Assessment:    +anasarca, oozing for sites on Left up",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701538#s9",
+      "text": "Impaired Skin Integrity    Assessment:    +anasarca, oozing for sites on Left upper extreme, groin with    yeast,blisters to back and looks more red and blanching.Pt has got    small skin breakdown to his coccyx."
+    },
+    {
+      "id": "E:note:row701538:10",
+      "kind": "note_sentence",
+      "display": "Action:     Frequent change of position,softsorb insitu.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701538#s10",
+      "text": "Action:     Frequent change of position,softsorb insitu."
+    },
+    {
+      "id": "E:note:row701538:11",
+      "kind": "note_sentence",
+      "display": "Response:    Plan:    Follow skin exam,?appreciate skin care consult.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701538#s11",
+      "text": "Response:    Plan:    Follow skin exam,?appreciate skin care consult."
+    },
+    {
+      "id": "E:note:row701538:12",
+      "kind": "note_sentence",
+      "display": "Renal failure, acute (Acute renal failure, ARF)    Assessment:    Bun 81, cr 2.7",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701538#s12",
+      "text": "Renal failure, acute (Acute renal failure, ARF)    Assessment:    Bun 81, cr 2.7, K5.4, urine output 5-10cc dark amber concentrated,    extensive anasarca    Action:    Monitoring lytes, urine output, consult renal    Response:    Worsening renal failure    Plan:    Follow labs, weight, I/O, renal recs    Sepsis, Severe (with organ dysfunction)    Assessment:    Temp 95-96, WCC trending down,    Action:    Warming measures as pt tolerates, follow wbc, administer iv abx    Response:    Temp 95-96 range , bair hugger on, WBC trending down."
+    },
+    {
+      "id": "E:note:row701538:13",
+      "kind": "note_sentence",
+      "display": "Plan:    Follow fever curve, follow wbc, collect stool specimens, f/u ct results",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row701538#s13",
+      "text": "Plan:    Follow fever curve, follow wbc, collect stool specimens, f/u ct results"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|00845": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|0389": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5734": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5770": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25541": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2762": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2761": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|45340": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5180": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2841": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2875": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V08": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25000": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|23875": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:18"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "intestinal infection due to clostridium difficile": [
+      "E:cond:1"
+    ],
+    "unspecified septicemia": [
+      "E:cond:2"
+    ],
+    "acute respiratory failure": [
+      "E:cond:3"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:4"
+    ],
+    "hepatic infarction": [
+      "E:cond:5"
+    ],
+    "acute pancreatitis": [
+      "E:cond:6"
+    ],
+    "severe sepsis": [
+      "E:cond:7"
+    ],
+    "glucocorticoid deficiency": [
+      "E:cond:8"
+    ],
+    "acidosis": [
+      "E:cond:9"
+    ],
+    "hyposmolality and/or hyponatremia": [
+      "E:cond:10"
+    ],
+    "acute venous embolism and thrombosis of unspecified deep vessels of lower extremity": [
+      "E:cond:11"
+    ],
+    "pulmonary collapse": [
+      "E:cond:12"
+    ],
+    "diagnosis": [
+      "E:cond:13"
+    ],
+    "thrombocytopenia, unspecified": [
+      "E:cond:14"
+    ],
+    "asymptomatic human immunodeficiency virus [hiv] infection status": [
+      "E:cond:15"
+    ],
+    "diabetes mellitus without mention of complication, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:16"
+    ],
+    "myelodysplastic syndrome, unspecified": [
+      "E:cond:17"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:18"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:1"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:2"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:3"
+    ],
+    "continuous invasive mechanical ventilation for less than 96 consecutive hours": [
+      "E:proc:4"
+    ],
+    "venous catheterization for renal dialysis": [
+      "E:proc:5"
+    ],
+    "hemodialysis": [
+      "E:proc:6"
+    ],
+    "mr. [**known lastname **] is a 81 yo [**country 4486**] speaking only man.": [
+      "E:note:row701538:1"
+    ],
+    "he has a recent diagnosis of hiv ([**7-31**]), has c.diff with leukocytosis i": [
+      "E:note:row701538:2"
+    ],
+    "he also has l leg pain and erythema.": [
+      "E:note:row701538:3"
+    ],
+    "admit to the micu for hypotension and lactate 5.": [
+      "E:note:row701538:4"
+    ],
+    "acute pain assessment: pt with pain to his lt leg when touched.has got pat": [
+      "E:note:row701538:5"
+    ],
+    "action: medicated with morphine x1.had usg to his lt leg.": [
+      "E:note:row701538:6"
+    ],
+    "response: usg showed clots to superficial fem vein and poplitial.plan was to": [
+      "E:note:row701538:7"
+    ],
+    "plan: team to decide plan for heparin gtt.": [
+      "E:note:row701538:8"
+    ],
+    "impaired skin integrity assessment: +anasarca, oozing for sites on left up": [
+      "E:note:row701538:9"
+    ],
+    "action: frequent change of position,softsorb insitu.": [
+      "E:note:row701538:10"
+    ],
+    "response: plan: follow skin exam,?appreciate skin care consult.": [
+      "E:note:row701538:11"
+    ],
+    "renal failure, acute (acute renal failure, arf) assessment: bun 81, cr 2.7": [
+      "E:note:row701538:12"
+    ],
+    "plan: follow fever curve, follow wbc, collect stool specimens, f/u ct results": [
+      "E:note:row701538:13"
+    ]
+  },
+  "by_date": {
+    "2194-10-31": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6"
+    ]
+  }
+}

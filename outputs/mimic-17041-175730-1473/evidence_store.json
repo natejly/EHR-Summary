@@ -1,0 +1,2964 @@
+{
+  "case_id": "mimic-17041-175730-1473",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:enc-175730",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Subendocardial infarction, initial episode of care",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41071",
+        "display": "Subendocardial infarction, initial episode of care"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute systolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42821",
+        "display": "Acute systolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of autologous vein bypass graft",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41402",
+        "display": "Coronary atherosclerosis of autologous vein bypass graft"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Cardiac complications, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9971",
+        "display": "Cardiac complications, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Acute myocardial infarction of other inferior wall, initial episode of care",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41041",
+        "display": "Acute myocardial infarction of other inferior wall, initial episode of care"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Chronic glomerulonephritis with other specified pathological lesion in kidney",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "58289",
+        "display": "Chronic glomerulonephritis with other specified pathological lesion in kidney"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of native coronary artery",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41401",
+        "display": "Coronary atherosclerosis of native coronary artery"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Percutaneous transluminal coronary angioplasty status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4582",
+        "display": "Percutaneous transluminal coronary angioplasty status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Old myocardial infarction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "412",
+        "display": "Old myocardial infarction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Other second degree atrioventricular block",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42613",
+        "display": "Other second degree atrioventricular block"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "40390",
+        "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Chronic kidney disease, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5859",
+        "display": "Chronic kidney disease, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Anemia in chronic kidney disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "28521",
+        "display": "Anemia in chronic kidney disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Thalassemia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "28240",
+        "display": "Thalassemia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Diverticulitis of colon (without mention of hemorrhage)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "56211",
+        "display": "Diverticulitis of colon (without mention of hemorrhage)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Other and unspecified hyperlipidemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2724",
+        "display": "Other and unspecified hyperlipidemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Diabetes with renal manifestations, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25040",
+        "display": "Diabetes with renal manifestations, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Long-term (current) use of insulin",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V5867",
+        "display": "Long-term (current) use of insulin"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Gout, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2749",
+        "display": "Gout, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Abdominal aneurysm without mention of rupture",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4414",
+        "display": "Abdominal aneurysm without mention of rupture"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Posttraumatic stress disorder",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "30981",
+        "display": "Posttraumatic stress disorder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Personal history of tobacco use",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V1582",
+        "display": "Personal history of tobacco use"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:25",
+      "kind": "condition",
+      "display": "Personal history of allergy to narcotic agent",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V145",
+        "display": "Personal history of allergy to narcotic agent"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-25",
+      "text": null
+    },
+    {
+      "id": "E:cond:26",
+      "kind": "condition",
+      "display": "Allergy to radiographic dye",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V1508",
+        "display": "Allergy to radiographic dye"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-26",
+      "text": null
+    },
+    {
+      "id": "E:cond:27",
+      "kind": "condition",
+      "display": "Personal history of allergy to penicillin",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V140",
+        "display": "Personal history of allergy to penicillin"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-27",
+      "text": null
+    },
+    {
+      "id": "E:cond:28",
+      "kind": "condition",
+      "display": "Personal history of allergy to sulfonamides",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V142",
+        "display": "Personal history of allergy to sulfonamides"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-28",
+      "text": null
+    },
+    {
+      "id": "E:cond:29",
+      "kind": "condition",
+      "display": "Family history of other cardiovascular diseases",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V1749",
+        "display": "Family history of other cardiovascular diseases"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-29",
+      "text": null
+    },
+    {
+      "id": "E:cond:30",
+      "kind": "condition",
+      "display": "Family history of diabetes mellitus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V180",
+        "display": "Family history of diabetes mellitus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:cond-175730-30",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Percutaneous transluminal coronary angioplasty [PTCA]",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous transluminal coronary angioplasty [PTCA]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:proc-175730-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Insertion of drug-eluting coronary artery stent(s)",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of drug-eluting coronary artery stent(s)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:proc-175730-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Left heart cardiac catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Left heart cardiac catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:proc-175730-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Insertion of one vascular stent",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of one vascular stent"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:proc-175730-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Procedure on single vessel",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Procedure on single vessel"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:proc-175730-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Coronary arteriography using two catheters",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Coronary arteriography using two catheters"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2178-03-21",
+      "source_ref": "urn:uuid:proc-175730-6",
+      "text": null
+    },
+    {
+      "id": "E:note:row1473:1",
+      "kind": "note_sentence",
+      "display": "Admission Date:  [**2178-3-21**]              Discharge Date:   [**2178-3-29**] ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s1",
+      "text": "Admission Date:  [**2178-3-21**]              Discharge Date:   [**2178-3-29**]   Service: MEDICINE  Allergies: Codeine / Penicillins / Sulfa (Sulfonamide Antibiotics)  Attending:[**First Name3 (LF) 7651**] Chief Complaint: chest pain  Major Surgical or Invasive Procedure: s/p Coronary cath [**3-23**] with POBA to SVG-PDA   History of Present Illness: [**Age over 90 **] yo M with PMH CAD s/p CABG [**2153**] with SVG to RPDA, SVG to LAD, SVG to diagonal, s/p PCI to SVG-Diag 100% occluded, DES to SVG-LAD graft in [**4-29**], DESx2 to SVG-RPDA in [**9-30**], BMS to SVG-RCA in [**10-1**], DES to SVG to LAD [**2175**] and DES x2 to proximal and mid SVG to LAD in [**1-4**], and DESx2 to proximal and ostial [**Date Range **] in [**2-5**]; right renal artery stenosis s/p stenting [**3-31**], [**Month/Year (2) 2091**], DMII, HLD, HTN, ???GI bleed, small AAA presenting to OSH with chest pain."
+    },
+    {
+      "id": "E:note:row1473:2",
+      "kind": "note_sentence",
+      "display": "Pt described the quality of the same as the same as that which occurred prior to",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s2",
+      "text": "Pt described the quality of the same as the same as that which occurred prior to his previous stent placements - it was a pressure, located in the center of his chest, nonradiating, accompanied by intermittent SOB, \"feeling hot,\" and palpitations."
+    },
+    {
+      "id": "E:note:row1473:3",
+      "kind": "note_sentence",
+      "display": "It was also accompanied by dizziness and weakness which was new for him.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s3",
+      "text": "It was also accompanied by dizziness and weakness which was new for him."
+    },
+    {
+      "id": "E:note:row1473:4",
+      "kind": "note_sentence",
+      "display": "It was also more severe than any other pain he has ever had, nearly bringing him",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s4",
+      "text": "It was also more severe than any other pain he has ever had, nearly bringing him to tears."
+    },
+    {
+      "id": "E:note:row1473:5",
+      "kind": "note_sentence",
+      "display": "No nausea, vomiting, or diaphoresis.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s5",
+      "text": "No nausea, vomiting, or diaphoresis."
+    },
+    {
+      "id": "E:note:row1473:6",
+      "kind": "note_sentence",
+      "display": "It lasted 30 minutes and was relieved after taking 5 tabs of nitro.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s6",
+      "text": "It lasted 30 minutes and was relieved after taking 5 tabs of nitro."
+    },
+    {
+      "id": "E:note:row1473:7",
+      "kind": "note_sentence",
+      "display": "He was watching television when the pain began.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s7",
+      "text": "He was watching television when the pain began."
+    },
+    {
+      "id": "E:note:row1473:8",
+      "kind": "note_sentence",
+      "display": "He states that he has had the pain 6 times over the past week; all episodes occu",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s8",
+      "text": "He states that he has had the pain 6 times over the past week; all episodes occurred in the evening when he was either lying in bed or just getting into bed."
+    },
+    {
+      "id": "E:note:row1473:9",
+      "kind": "note_sentence",
+      "display": "The pain has not occurred during the day or with exertion.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s9",
+      "text": "The pain has not occurred during the day or with exertion."
+    },
+    {
+      "id": "E:note:row1473:10",
+      "kind": "note_sentence",
+      "display": "He denies h/o reflux symptoms. States he eats dinner around 6pm.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s10",
+      "text": "He denies h/o reflux symptoms. States he eats dinner around 6pm."
+    },
+    {
+      "id": "E:note:row1473:11",
+      "kind": "note_sentence",
+      "display": "No fevers, chills, abdominal pain, muscle aches, joint pains.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s11",
+      "text": "No fevers, chills, abdominal pain, muscle aches, joint pains."
+    },
+    {
+      "id": "E:note:row1473:12",
+      "kind": "note_sentence",
+      "display": "Admits to SOB when lying down and has become SOB at night before.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s12",
+      "text": "Admits to SOB when lying down and has become SOB at night before."
+    },
+    {
+      "id": "E:note:row1473:13",
+      "kind": "note_sentence",
+      "display": "Admits to cough productive of white phlegm for about 1 week now.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s13",
+      "text": "Admits to cough productive of white phlegm for about 1 week now."
+    },
+    {
+      "id": "E:note:row1473:14",
+      "kind": "note_sentence",
+      "display": "Also has a runny nose.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s14",
+      "text": "Also has a runny nose."
+    },
+    {
+      "id": "E:note:row1473:15",
+      "kind": "note_sentence",
+      "display": "Sister has been sick but otherwise no sick contacts.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s15",
+      "text": "Sister has been sick but otherwise no sick contacts."
+    },
+    {
+      "id": "E:note:row1473:16",
+      "kind": "note_sentence",
+      "display": "[**Name (NI) **] been constipated the past few days.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s16",
+      "text": "[**Name (NI) **] been constipated the past few days."
+    },
+    {
+      "id": "E:note:row1473:17",
+      "kind": "note_sentence",
+      "display": "Has been undergoing treatment for diverticulitis with flagyl since hospitalizati",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s17",
+      "text": "Has been undergoing treatment for diverticulitis with flagyl since hospitalization at [**Hospital3 **] on [**2178-3-14**]."
+    },
+    {
+      "id": "E:note:row1473:18",
+      "kind": "note_sentence",
+      "display": "Does not like flagyl and says it gives him an acid taste in his mouth.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s18",
+      "text": "Does not like flagyl and says it gives him an acid taste in his mouth."
+    },
+    {
+      "id": "E:note:row1473:19",
+      "kind": "note_sentence",
+      "display": "Last dose [**2178-3-24**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s19",
+      "text": "Last dose [**2178-3-24**]."
+    },
+    {
+      "id": "E:note:row1473:20",
+      "kind": "note_sentence",
+      "display": "Has been taking of his medications as prescribed daily. .",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s20",
+      "text": "Has been taking of his medications as prescribed daily. ."
+    },
+    {
+      "id": "E:note:row1473:21",
+      "kind": "note_sentence",
+      "display": "At OSH, initial VS were 98.1, 181/103, 68, 18, 98% O2.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s21",
+      "text": "At OSH, initial VS were 98.1, 181/103, 68, 18, 98% O2."
+    },
+    {
+      "id": "E:note:row1473:22",
+      "kind": "note_sentence",
+      "display": "He reportedly had initial improvement and then recurrence of the chest pain duri",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s22",
+      "text": "He reportedly had initial improvement and then recurrence of the chest pain during which he became pink, appeared uncomfortable, and was warm to the touch."
+    },
+    {
+      "id": "E:note:row1473:23",
+      "kind": "note_sentence",
+      "display": "He was lying down when the pain occurred.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s23",
+      "text": "He was lying down when the pain occurred."
+    },
+    {
+      "id": "E:note:row1473:24",
+      "kind": "note_sentence",
+      "display": "He was given ativan, a GI cocktail, morphine, imdur, and nitro gtt at various po",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s24",
+      "text": "He was given ativan, a GI cocktail, morphine, imdur, and nitro gtt at various points in the ED there and it is unclear which of these helped his pain."
+    },
+    {
+      "id": "E:note:row1473:25",
+      "kind": "note_sentence",
+      "display": "He was started on heparin gtt at 1000 units/hr and nitro gtt at 10 mcgs.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s25",
+      "text": "He was started on heparin gtt at 1000 units/hr and nitro gtt at 10 mcgs."
+    },
+    {
+      "id": "E:note:row1473:26",
+      "kind": "note_sentence",
+      "display": "He was also given bicarb 100/hr and mucomyst 600 mg po for possibility of cath w",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s26",
+      "text": "He was also given bicarb 100/hr and mucomyst 600 mg po for possibility of cath with his CRI."
+    },
+    {
+      "id": "E:note:row1473:27",
+      "kind": "note_sentence",
+      "display": "EKG's taken at the onset and peak of the pain were unchanged.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s27",
+      "text": "EKG's taken at the onset and peak of the pain were unchanged."
+    },
+    {
+      "id": "E:note:row1473:28",
+      "kind": "note_sentence",
+      "display": "Labs there were significant for trop 0.02 and Hct 32.7.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s28",
+      "text": "Labs there were significant for trop 0.02 and Hct 32.7."
+    },
+    {
+      "id": "E:note:row1473:29",
+      "kind": "note_sentence",
+      "display": "An echo showed moderately dilated LA, LVEF 55-60%, and \"distolic dysfunction.\" E",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s29",
+      "text": "An echo showed moderately dilated LA, LVEF 55-60%, and \"distolic dysfunction.\" EKG showed stable biphasic t-waves in V2-V4 and stable RBBB."
+    },
+    {
+      "id": "E:note:row1473:30",
+      "kind": "note_sentence",
+      "display": "There was borderline [**Name Prefix (Prefixes) **] [**Last Name (Prefixes) 8730*",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s30",
+      "text": "There was borderline [**Name Prefix (Prefixes) **] [**Last Name (Prefixes) 8730**]."
+    },
+    {
+      "id": "E:note:row1473:31",
+      "kind": "note_sentence",
+      "display": "He was transferred to [**Hospital1 18**] for possible cardiac cath but with ques",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s31",
+      "text": "He was transferred to [**Hospital1 18**] for possible cardiac cath but with question as to cardiac nature of pain. ."
+    },
+    {
+      "id": "E:note:row1473:32",
+      "kind": "note_sentence",
+      "display": "In the ED, initial vitals were 98.2, 66, 141/70, 18, 100%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s32",
+      "text": "In the ED, initial vitals were 98.2, 66, 141/70, 18, 100%."
+    },
+    {
+      "id": "E:note:row1473:33",
+      "kind": "note_sentence",
+      "display": "Labs significant for Hct 29.5, WBC 3.3, INR 1.1, lipase 32, LFTs WNL, Cr 2.6, BU",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s33",
+      "text": "Labs significant for Hct 29.5, WBC 3.3, INR 1.1, lipase 32, LFTs WNL, Cr 2.6, BUN 37, trop 0.01."
+    },
+    {
+      "id": "E:note:row1473:34",
+      "kind": "note_sentence",
+      "display": "Pt was continued on nitro gtt and heparin gtt and transferred to [**Hospital1 **",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s34",
+      "text": "Pt was continued on nitro gtt and heparin gtt and transferred to [**Hospital1 **] service. ."
+    },
+    {
+      "id": "E:note:row1473:35",
+      "kind": "note_sentence",
+      "display": "On arrival to the floor, VS 98.3, 160/83, 75, 20, 98% RA.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s35",
+      "text": "On arrival to the floor, VS 98.3, 160/83, 75, 20, 98% RA."
+    },
+    {
+      "id": "E:note:row1473:36",
+      "kind": "note_sentence",
+      "display": "He currently denies CP or SOB. .",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s36",
+      "text": "He currently denies CP or SOB. ."
+    },
+    {
+      "id": "E:note:row1473:37",
+      "kind": "note_sentence",
+      "display": "REVIEW OF SYSTEMS per HPI   Past Medical History: 1.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s37",
+      "text": "REVIEW OF SYSTEMS per HPI   Past Medical History: 1."
+    },
+    {
+      "id": "E:note:row1473:38",
+      "kind": "note_sentence",
+      "display": "CARDIAC RISK FACTORS: (+)Diabetes, (+)Dyslipidemia, (+)Hypertension 2.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s38",
+      "text": "CARDIAC RISK FACTORS: (+)Diabetes, (+)Dyslipidemia, (+)Hypertension 2."
+    },
+    {
+      "id": "E:note:row1473:39",
+      "kind": "note_sentence",
+      "display": "CARDIAC HISTORY: -CABG: CABG [**2153**], with SVG to RPDA, SVG to LAD, SVG to di",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s39",
+      "text": "CARDIAC HISTORY: -CABG: CABG [**2153**], with SVG to RPDA, SVG to LAD, SVG to diagonal.  -PERCUTANEOUS CORONARY INTERVENTIONS: SVG-Diag 100% occluded, DES to SVG-LAD graft in [**4-29**], DESx2 to SVG-RPDA in [**9-30**], BMS to SVG-RCA in [**10-1**], DES to SVG to LAD [**2175**]  and DES x2 to proximal and mid SVG to LAD in [**1-4**], DESx2 to proximal and ostial [**Date Range **] in [**2-5**] -PACING/ICD: 3."
+    },
+    {
+      "id": "E:note:row1473:40",
+      "kind": "note_sentence",
+      "display": "OTHER PAST MEDICAL HISTORY: - right renal artery stenosis s/p stenting [**3-31**",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s40",
+      "text": "OTHER PAST MEDICAL HISTORY: - right renal artery stenosis s/p stenting [**3-31**] - CRI: baseline creat according to our records was 2.0 in [**2176**] - Type 2 DM - Hyperlipidemia - Hypertension - PTSD - GI bleed [**2175**] s/p cath on integrilin and heparin (thought to be [**2-26**] internal hemorrhoids vs bleeding diverticula) - small AAA - chronic dizziness - spondylosis - deviated septum - hiatal hernia - pneumonia  Social History: Tobacco: 150+ pack years of tobacco use."
+    },
+    {
+      "id": "E:note:row1473:41",
+      "kind": "note_sentence",
+      "display": "Quit at the age of 64 at time of first MI.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s41",
+      "text": "Quit at the age of 64 at time of first MI."
+    },
+    {
+      "id": "E:note:row1473:42",
+      "kind": "note_sentence",
+      "display": "Smoked 3-4ppd when young.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s42",
+      "text": "Smoked 3-4ppd when young."
+    },
+    {
+      "id": "E:note:row1473:43",
+      "kind": "note_sentence",
+      "display": "EtOH: He uses alcohol occasionally.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s43",
+      "text": "EtOH: He uses alcohol occasionally."
+    },
+    {
+      "id": "E:note:row1473:44",
+      "kind": "note_sentence",
+      "display": "Illicits: He has no history of recreational drug use. - He lives with his wife.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s44",
+      "text": "Illicits: He has no history of recreational drug use. - He lives with his wife."
+    },
+    {
+      "id": "E:note:row1473:45",
+      "kind": "note_sentence",
+      "display": "[**Name (NI) 2760**] gambling weekly.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s45",
+      "text": "[**Name (NI) 2760**] gambling weekly."
+    },
+    {
+      "id": "E:note:row1473:46",
+      "kind": "note_sentence",
+      "display": "Two children, both live in area. 4 grandchildren   Family History: Father had a ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s46",
+      "text": "Two children, both live in area. 4 grandchildren   Family History: Father had a myocardial infarction at age 70."
+    },
+    {
+      "id": "E:note:row1473:47",
+      "kind": "note_sentence",
+      "display": "Mother had cancer and myocardial infarction.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s47",
+      "text": "Mother had cancer and myocardial infarction."
+    },
+    {
+      "id": "E:note:row1473:48",
+      "kind": "note_sentence",
+      "display": "Brothers have diabetes.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s48",
+      "text": "Brothers have diabetes."
+    },
+    {
+      "id": "E:note:row1473:49",
+      "kind": "note_sentence",
+      "display": "Physical Exam: ADMISSION EXAM: VS: 98.3, 160/83, 75, 20, 98% RA GENERAL: NAD.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s49",
+      "text": "Physical Exam: ADMISSION EXAM: VS: 98.3, 160/83, 75, 20, 98% RA GENERAL: NAD."
+    },
+    {
+      "id": "E:note:row1473:50",
+      "kind": "note_sentence",
+      "display": "Oriented x3.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s50",
+      "text": "Oriented x3."
+    },
+    {
+      "id": "E:note:row1473:51",
+      "kind": "note_sentence",
+      "display": "Mood, affect appropriate.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s51",
+      "text": "Mood, affect appropriate."
+    },
+    {
+      "id": "E:note:row1473:52",
+      "kind": "note_sentence",
+      "display": "HEENT: NCAT.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s52",
+      "text": "HEENT: NCAT."
+    },
+    {
+      "id": "E:note:row1473:53",
+      "kind": "note_sentence",
+      "display": "Sclera anicteric.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s53",
+      "text": "Sclera anicteric."
+    },
+    {
+      "id": "E:note:row1473:54",
+      "kind": "note_sentence",
+      "display": "PERRL, EOMI.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s54",
+      "text": "PERRL, EOMI."
+    },
+    {
+      "id": "E:note:row1473:55",
+      "kind": "note_sentence",
+      "display": "Conjunctiva were pink, no pallor or cyanosis of the oral mucosa.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s55",
+      "text": "Conjunctiva were pink, no pallor or cyanosis of the oral mucosa."
+    },
+    {
+      "id": "E:note:row1473:56",
+      "kind": "note_sentence",
+      "display": "No xanthalesma.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s56",
+      "text": "No xanthalesma."
+    },
+    {
+      "id": "E:note:row1473:57",
+      "kind": "note_sentence",
+      "display": "NECK: Supple with JVP of 3cm above clavicle.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s57",
+      "text": "NECK: Supple with JVP of 3cm above clavicle."
+    },
+    {
+      "id": "E:note:row1473:58",
+      "kind": "note_sentence",
+      "display": "CARDIAC: PMI located in 5th intercostal space, midclavicular line.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s58",
+      "text": "CARDIAC: PMI located in 5th intercostal space, midclavicular line."
+    },
+    {
+      "id": "E:note:row1473:59",
+      "kind": "note_sentence",
+      "display": "RRR, normal S1, S2.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s59",
+      "text": "RRR, normal S1, S2."
+    },
+    {
+      "id": "E:note:row1473:60",
+      "kind": "note_sentence",
+      "display": "No m/r/g.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s60",
+      "text": "No m/r/g."
+    },
+    {
+      "id": "E:note:row1473:61",
+      "kind": "note_sentence",
+      "display": "No thrills, lifts.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s61",
+      "text": "No thrills, lifts."
+    },
+    {
+      "id": "E:note:row1473:62",
+      "kind": "note_sentence",
+      "display": "No S3 or S4. faint heart sounds LUNGS: No chest wall deformities, scoliosis or k",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s62",
+      "text": "No S3 or S4. faint heart sounds LUNGS: No chest wall deformities, scoliosis or kyphosis."
+    },
+    {
+      "id": "E:note:row1473:63",
+      "kind": "note_sentence",
+      "display": "Resp were unlabored, no accessory muscle use. mild left base crackles, no wheeze",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s63",
+      "text": "Resp were unlabored, no accessory muscle use. mild left base crackles, no wheezes ABDOMEN: Soft, NTND."
+    },
+    {
+      "id": "E:note:row1473:64",
+      "kind": "note_sentence",
+      "display": "No HSM or tenderness.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s64",
+      "text": "No HSM or tenderness."
+    },
+    {
+      "id": "E:note:row1473:65",
+      "kind": "note_sentence",
+      "display": "Abd aorta not enlarged by palpation.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s65",
+      "text": "Abd aorta not enlarged by palpation."
+    },
+    {
+      "id": "E:note:row1473:66",
+      "kind": "note_sentence",
+      "display": "No abdominial bruits.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s66",
+      "text": "No abdominial bruits."
+    },
+    {
+      "id": "E:note:row1473:67",
+      "kind": "note_sentence",
+      "display": "EXTREMITIES: No femoral bruits. papery LE skin; trace edema in LE bilaterally SK",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s67",
+      "text": "EXTREMITIES: No femoral bruits. papery LE skin; trace edema in LE bilaterally SKIN: No stasis dermatitis, ulcers, scars, or xanthomas."
+    },
+    {
+      "id": "E:note:row1473:68",
+      "kind": "note_sentence",
+      "display": "DISCHARGE EXAM: VS: 97.9, 135/65, 76, 20, 100% RA GENERAL: NAD.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s68",
+      "text": "DISCHARGE EXAM: VS: 97.9, 135/65, 76, 20, 100% RA GENERAL: NAD."
+    },
+    {
+      "id": "E:note:row1473:69",
+      "kind": "note_sentence",
+      "display": "Oriented x3.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s69",
+      "text": "Oriented x3."
+    },
+    {
+      "id": "E:note:row1473:70",
+      "kind": "note_sentence",
+      "display": "Mood, affect appropriate.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s70",
+      "text": "Mood, affect appropriate."
+    },
+    {
+      "id": "E:note:row1473:71",
+      "kind": "note_sentence",
+      "display": "HEENT: NCAT.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s71",
+      "text": "HEENT: NCAT."
+    },
+    {
+      "id": "E:note:row1473:72",
+      "kind": "note_sentence",
+      "display": "Sclera anicteric.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s72",
+      "text": "Sclera anicteric."
+    },
+    {
+      "id": "E:note:row1473:73",
+      "kind": "note_sentence",
+      "display": "PERRL, EOMI.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s73",
+      "text": "PERRL, EOMI."
+    },
+    {
+      "id": "E:note:row1473:74",
+      "kind": "note_sentence",
+      "display": "Conjunctiva were pink, no pallor or cyanosis of the oral mucosa.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s74",
+      "text": "Conjunctiva were pink, no pallor or cyanosis of the oral mucosa."
+    },
+    {
+      "id": "E:note:row1473:75",
+      "kind": "note_sentence",
+      "display": "No xanthalesma.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s75",
+      "text": "No xanthalesma."
+    },
+    {
+      "id": "E:note:row1473:76",
+      "kind": "note_sentence",
+      "display": "NECK: Supple with JVP of 3cm above clavicle.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s76",
+      "text": "NECK: Supple with JVP of 3cm above clavicle."
+    },
+    {
+      "id": "E:note:row1473:77",
+      "kind": "note_sentence",
+      "display": "CARDIAC: PMI located in 5th intercostal space, midclavicular line.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s77",
+      "text": "CARDIAC: PMI located in 5th intercostal space, midclavicular line."
+    },
+    {
+      "id": "E:note:row1473:78",
+      "kind": "note_sentence",
+      "display": "RRR, normal S1, S2.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s78",
+      "text": "RRR, normal S1, S2."
+    },
+    {
+      "id": "E:note:row1473:79",
+      "kind": "note_sentence",
+      "display": "No m/r/g.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s79",
+      "text": "No m/r/g."
+    },
+    {
+      "id": "E:note:row1473:80",
+      "kind": "note_sentence",
+      "display": "No thrills, lifts.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s80",
+      "text": "No thrills, lifts."
+    },
+    {
+      "id": "E:note:row1473:81",
+      "kind": "note_sentence",
+      "display": "No S3 or S4. faint heart sounds LUNGS: No chest wall deformities, scoliosis or k",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s81",
+      "text": "No S3 or S4. faint heart sounds LUNGS: No chest wall deformities, scoliosis or kyphosis."
+    },
+    {
+      "id": "E:note:row1473:82",
+      "kind": "note_sentence",
+      "display": "Resp were unlabored, no accessory muscle use. mild left base crackles, no wheeze",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s82",
+      "text": "Resp were unlabored, no accessory muscle use. mild left base crackles, no wheezes ABDOMEN: Soft, NTND."
+    },
+    {
+      "id": "E:note:row1473:83",
+      "kind": "note_sentence",
+      "display": "No HSM or tenderness.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s83",
+      "text": "No HSM or tenderness."
+    },
+    {
+      "id": "E:note:row1473:84",
+      "kind": "note_sentence",
+      "display": "Abd aorta not enlarged by palpation.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s84",
+      "text": "Abd aorta not enlarged by palpation."
+    },
+    {
+      "id": "E:note:row1473:85",
+      "kind": "note_sentence",
+      "display": "No abdominial bruits.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s85",
+      "text": "No abdominial bruits."
+    },
+    {
+      "id": "E:note:row1473:86",
+      "kind": "note_sentence",
+      "display": "EXTREMITIES: No femoral bruits. papery LE skin; trace edema in LE bilaterally SK",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s86",
+      "text": "EXTREMITIES: No femoral bruits. papery LE skin; trace edema in LE bilaterally SKIN: No stasis dermatitis, ulcers, scars, or xanthomas  Pertinent Results: ADMISSION LABS: [**2178-3-21**] 10:40AM [**Month/Day/Year 3143**] WBC-3.3* RBC-3.65* Hgb-10.1* Hct-29.5* MCV-81* MCH-27.7 MCHC-34.3 RDW-14.5 Plt Ct-115* [**2178-3-21**] 10:40AM [**Month/Day/Year 3143**] Neuts-66.7 Lymphs-23.1 Monos-4.2 Eos-5.6* Baso-0.3 [**2178-3-21**] 10:40AM [**Month/Day/Year 3143**] PT-12.2 PTT-35.9 INR(PT)-1.1 [**2178-3-21**] 10:40AM [**Month/Day/Year 3143**] Glucose-96 UreaN-37* Creat-2.6* Na-141 K-4.2 Cl-108 HCO3-25 AnGap-12 [**2178-3-21**] 10:40AM [**Month/Day/Year 3143**] ALT-39 AST-18 AlkPhos-99 TotBili-0.3 [**2178-3-22**] 06:55AM [**Month/Day/Year 3143**] Calcium-8.8 Phos-2.7 Mg-1.9  Cardiac labs [**2178-3-21**] 10:40AM [**Month/Day/Year 3143**] cTropnT-<0.01 [**2178-3-21**] 04:55PM [**Month/Day/Year 3143**] CK-MB-5 cTropnT-0.02* [**2178-3-22**] 06:55AM [**Month/Day/Year 3143**] cTropnT-0.08* [**2178-3-22**] 06:29PM [**Month/Day/Year 3143**] CK-MB-5 cTropnT-0.10* [**2178-3-23**] 07:10PM [**Month/Day/Year 3143**] CK-MB-7 cTropnT-0.16* [**2178-3-24**] 05:26AM [**Month/Day/Year 3143**] CK-MB-50* MB Indx-8.8* cTropnT-2.28* [**2178-3-24**] 02:25PM [**Month/Day/Year 3143**] CK-MB-84* MB Indx-10.6* cTropnT-2.85* [**2178-3-24**] 11:16PM [**Month/Day/Year 3143**] CK-MB-65* MB Indx-9.0* cTropnT-2.81* [**2178-3-25**] 06:02AM [**Month/Day/Year 3143**] cTropnT-2.84* [**2178-3-26**] 07:12AM [**Year/Month/Day 3143**] CK-MB-13* MB Indx-5.5 cTropnT-3.20* [**2178-3-26**] 07:12AM [**Year/Month/Day 3143**] CK-MB-13* MB Indx-5.5 cTropnT-3.20* [**2178-3-27**] 07:10AM [**Year/Month/Day 3143**] CK-MB-7 cTropnT-3.78*  Discharge labs [**2178-3-29**] 07:34AM [**Year/Month/Day 3143**] WBC-3.1* RBC-3.34* Hgb-9.2* Hct-26.3* MCV-79* MCH-27.5 MCHC-35.0 RDW-15.2 Plt Ct-191 [**2178-3-29**] 07:34AM [**Year/Month/Day 3143**] Glucose-101* UreaN-54* Creat-2.8* Na-141 K-3.8 Cl-109* HCO3-23 AnGap-13 [**2178-3-29**] 07:34AM [**Year/Month/Day 3143**] Calcium-8.2* Phos-3.1 Mg-2.1  OTHER LABS: [**2178-3-21**] 04:55PM [**Month/Day/Year 3143**] Ret Aut-2.4 [**2178-3-21**] 04:55PM [**Month/Day/Year 3143**] LD(LDH)-247 CK(CPK)-37* TotBili-0.3 [**2178-3-21**] 10:40AM [**Month/Day/Year 3143**] Lipase-32 [**2178-3-21**] 10:40AM [**Month/Day/Year 3143**] Albumin-3.5 Iron-54 [**2178-3-21**] 10:40AM [**Month/Day/Year 3143**] calTIBC-267 Hapto-169 Ferritn-71 TRF-205  IMAGING: CXR [**2178-3-21**]: Frontal and lateral views of the chest were obtained."
+    },
+    {
+      "id": "E:note:row1473:87",
+      "kind": "note_sentence",
+      "display": "Lung volumes are lower than on the prior study.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s87",
+      "text": "Lung volumes are lower than on the prior study."
+    },
+    {
+      "id": "E:note:row1473:88",
+      "kind": "note_sentence",
+      "display": "There is mild bibasilar atelectasis.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s88",
+      "text": "There is mild bibasilar atelectasis."
+    },
+    {
+      "id": "E:note:row1473:89",
+      "kind": "note_sentence",
+      "display": "No focal consolidation, pleural effusion or pneumothorax.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s89",
+      "text": "No focal consolidation, pleural effusion or pneumothorax."
+    },
+    {
+      "id": "E:note:row1473:90",
+      "kind": "note_sentence",
+      "display": "The cardiac silhouette is top normal in size.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s90",
+      "text": "The cardiac silhouette is top normal in size."
+    },
+    {
+      "id": "E:note:row1473:91",
+      "kind": "note_sentence",
+      "display": "Mediastinal silhouette and hilar contours are stable allowing for lower lung vol",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s91",
+      "text": "Mediastinal silhouette and hilar contours are stable allowing for lower lung volumes."
+    },
+    {
+      "id": "E:note:row1473:92",
+      "kind": "note_sentence",
+      "display": "Calcifications are seen along the course of the thoracic aorta.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s92",
+      "text": "Calcifications are seen along the course of the thoracic aorta."
+    },
+    {
+      "id": "E:note:row1473:93",
+      "kind": "note_sentence",
+      "display": "Mediastinal post-surgical changes including coronary stents and intact median st",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s93",
+      "text": "Mediastinal post-surgical changes including coronary stents and intact median sternotomy wires are unchanged."
+    },
+    {
+      "id": "E:note:row1473:94",
+      "kind": "note_sentence",
+      "display": "IMPRESSION: No pneumonia, edema or effusion.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s94",
+      "text": "IMPRESSION: No pneumonia, edema or effusion."
+    },
+    {
+      "id": "E:note:row1473:95",
+      "kind": "note_sentence",
+      "display": "Mild bibasilar atelectasis.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s95",
+      "text": "Mild bibasilar atelectasis."
+    },
+    {
+      "id": "E:note:row1473:96",
+      "kind": "note_sentence",
+      "display": "TTE [**2178-3-24**]: The left atrium is dilated.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s96",
+      "text": "TTE [**2178-3-24**]: The left atrium is dilated."
+    },
+    {
+      "id": "E:note:row1473:97",
+      "kind": "note_sentence",
+      "display": "The estimated right atrial pressure is 0-5 mmHg.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s97",
+      "text": "The estimated right atrial pressure is 0-5 mmHg."
+    },
+    {
+      "id": "E:note:row1473:98",
+      "kind": "note_sentence",
+      "display": "Left ventricular wall thicknesses are normal.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s98",
+      "text": "Left ventricular wall thicknesses are normal."
+    },
+    {
+      "id": "E:note:row1473:99",
+      "kind": "note_sentence",
+      "display": "The left ventricular cavity size is normal.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s99",
+      "text": "The left ventricular cavity size is normal."
+    },
+    {
+      "id": "E:note:row1473:100",
+      "kind": "note_sentence",
+      "display": "Right ventricular chamber size and free wall motion are normal.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s100",
+      "text": "Right ventricular chamber size and free wall motion are normal."
+    },
+    {
+      "id": "E:note:row1473:101",
+      "kind": "note_sentence",
+      "display": "Right ventricular chamber size is normal.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s101",
+      "text": "Right ventricular chamber size is normal."
+    },
+    {
+      "id": "E:note:row1473:102",
+      "kind": "note_sentence",
+      "display": "Tricuspid annular plane systolic excursion is depressed consistent with right ve",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s102",
+      "text": "Tricuspid annular plane systolic excursion is depressed consistent with right ventricular systolic dysfunction."
+    },
+    {
+      "id": "E:note:row1473:103",
+      "kind": "note_sentence",
+      "display": "The aortic root is mildly dilated at the sinus level.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s103",
+      "text": "The aortic root is mildly dilated at the sinus level."
+    },
+    {
+      "id": "E:note:row1473:104",
+      "kind": "note_sentence",
+      "display": "The aortic valve leaflets are mildly thickened.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s104",
+      "text": "The aortic valve leaflets are mildly thickened."
+    },
+    {
+      "id": "E:note:row1473:105",
+      "kind": "note_sentence",
+      "display": "There is no aortic valve stenosis.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s105",
+      "text": "There is no aortic valve stenosis."
+    },
+    {
+      "id": "E:note:row1473:106",
+      "kind": "note_sentence",
+      "display": "No aortic regurgitation is seen.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s106",
+      "text": "No aortic regurgitation is seen."
+    },
+    {
+      "id": "E:note:row1473:107",
+      "kind": "note_sentence",
+      "display": "The mitral valve leaflets are mildly thickened.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s107",
+      "text": "The mitral valve leaflets are mildly thickened."
+    },
+    {
+      "id": "E:note:row1473:108",
+      "kind": "note_sentence",
+      "display": "Mild (1+) mitral regurgitation is seen.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s108",
+      "text": "Mild (1+) mitral regurgitation is seen."
+    },
+    {
+      "id": "E:note:row1473:109",
+      "kind": "note_sentence",
+      "display": "[Due to acoustic shadowing, the severity of mitral regurgitation may be signific",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s109",
+      "text": "[Due to acoustic shadowing, the severity of mitral regurgitation may be significantly UNDERestimated.] The tricuspid valve leaflets are mildly thickened."
+    },
+    {
+      "id": "E:note:row1473:110",
+      "kind": "note_sentence",
+      "display": "The estimated pulmonary artery systolic pressure is normal.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s110",
+      "text": "The estimated pulmonary artery systolic pressure is normal."
+    },
+    {
+      "id": "E:note:row1473:111",
+      "kind": "note_sentence",
+      "display": "There is no pericardial effusion.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s111",
+      "text": "There is no pericardial effusion."
+    },
+    {
+      "id": "E:note:row1473:112",
+      "kind": "note_sentence",
+      "display": "Compared with the prior study (images reviewed) of [**2174-1-22**], prior views ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s112",
+      "text": "Compared with the prior study (images reviewed) of [**2174-1-22**], prior views are suboptimal for comparison."
+    },
+    {
+      "id": "E:note:row1473:113",
+      "kind": "note_sentence",
+      "display": "Cardiac cath [**2178-3-23**]: full report pending.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s113",
+      "text": "Cardiac cath [**2178-3-23**]: full report pending."
+    },
+    {
+      "id": "E:note:row1473:114",
+      "kind": "note_sentence",
+      "display": "POBA ISRS SVG-PDA.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s114",
+      "text": "POBA ISRS SVG-PDA."
+    },
+    {
+      "id": "E:note:row1473:115",
+      "kind": "note_sentence",
+      "display": "RFA Perclose.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s115",
+      "text": "RFA Perclose."
+    },
+    {
+      "id": "E:note:row1473:116",
+      "kind": "note_sentence",
+      "display": "No issues   Brief Hospital Course: [**Age over 90 **] yo M with PMH CAD s/p CABG",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s116",
+      "text": "No issues   Brief Hospital Course: [**Age over 90 **] yo M with PMH CAD s/p CABG [**2153**] with SVG to RPDA, SVG to LAD, SVG to diagonal, s/p PCI to SVG-Diag 100% occluded, DES to SVG-LAD graft in [**4-29**], DESx2 to SVG-RPDA in [**9-30**], BMS to SVG-RCA in [**10-1**], DES to SVG to LAD [**2175**] and DES x2 to proximal and mid SVG to LAD in [**1-4**], and DESx2 to proximal and ostial [**Date Range **] in [**2-5**]; right renal artery stenosis s/p stenting [**3-31**], [**Month/Year (2) 2091**], DMII, HLD, HTN, GI bleed, small AAA presenting to OSH with chest pain.  # chest pain:  Pt was transferred to the CCU from the cardiology service on both heparin gtt and nitro gtt."
+    },
+    {
+      "id": "E:note:row1473:117",
+      "kind": "note_sentence",
+      "display": "While on the cardiology service the patient had troponins were neg x 3 the day o",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s117",
+      "text": "While on the cardiology service the patient had troponins were neg x 3 the day of admission (1 day prior) but bumped to 0.08 the morning after."
+    },
+    {
+      "id": "E:note:row1473:118",
+      "kind": "note_sentence",
+      "display": "EKG stable. no tele events.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s118",
+      "text": "EKG stable. no tele events."
+    },
+    {
+      "id": "E:note:row1473:119",
+      "kind": "note_sentence",
+      "display": "Attempted to wean nitro gtt the evening of admission and CP began to recur at le",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s119",
+      "text": "Attempted to wean nitro gtt the evening of admission and CP began to recur at level of [**2-3**] when nitro drip stopped and resolved when it was restarted."
+    },
+    {
+      "id": "E:note:row1473:120",
+      "kind": "note_sentence",
+      "display": "Given his initial chest pain and given the patient's extensive cardiac history, ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s120",
+      "text": "Given his initial chest pain and given the patient's extensive cardiac history, plan was to go for cath on [**2178-3-23**], which showed stenosis of the RCA graft."
+    },
+    {
+      "id": "E:note:row1473:121",
+      "kind": "note_sentence",
+      "display": "The RCA was balooned and stented and during the procedure the patient complainte",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s121",
+      "text": "The RCA was balooned and stented and during the procedure the patient complainted of [**11-4**] chest pain."
+    },
+    {
+      "id": "E:note:row1473:122",
+      "kind": "note_sentence",
+      "display": "It is likely that a clot had embolized and went downstream during the stenting p",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s122",
+      "text": "It is likely that a clot had embolized and went downstream during the stenting procedured."
+    },
+    {
+      "id": "E:note:row1473:123",
+      "kind": "note_sentence",
+      "display": "Subsequently, the patient cardiac enzymes started to rise and peaked at CK-796, ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s123",
+      "text": "Subsequently, the patient cardiac enzymes started to rise and peaked at CK-796, CK-MB->84 and trop at 2.85."
+    },
+    {
+      "id": "E:note:row1473:124",
+      "kind": "note_sentence",
+      "display": "EKG showed ST elevations in inferior leads.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s124",
+      "text": "EKG showed ST elevations in inferior leads."
+    },
+    {
+      "id": "E:note:row1473:125",
+      "kind": "note_sentence",
+      "display": "The next day nitro drip was stopped and the patient was started on his home dose",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s125",
+      "text": "The next day nitro drip was stopped and the patient was started on his home dose ranolazine and stared on imdur 60mg, and remained chest pain free."
+    },
+    {
+      "id": "E:note:row1473:126",
+      "kind": "note_sentence",
+      "display": "Back on the floor, he was uptitrated to imdur 180 daily, and had no more chest p",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s126",
+      "text": "Back on the floor, he was uptitrated to imdur 180 daily, and had no more chest pain or discomfort. . # anemia: Hct stable near 29 on admission."
+    },
+    {
+      "id": "E:note:row1473:127",
+      "kind": "note_sentence",
+      "display": "No overt s/s bleeding.  iron studies normal. hemolysis labs neg, retic index 1.2",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s127",
+      "text": "No overt s/s bleeding.  iron studies normal. hemolysis labs neg, retic index 1.2."
+    },
+    {
+      "id": "E:note:row1473:128",
+      "kind": "note_sentence",
+      "display": "Review of prior records indicated pt has long history of anemia that predates wo",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s128",
+      "text": "Review of prior records indicated pt has long history of anemia that predates worsened [**Last Name (LF) 2091**], [**First Name3 (LF) **] it was thought that this may be [**2-26**] thalassemia."
+    },
+    {
+      "id": "E:note:row1473:129",
+      "kind": "note_sentence",
+      "display": "[**Month/Day (2) 2091**] may also be contributor. . # [**Month/Day (2) 2091**]: ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s129",
+      "text": "[**Month/Day (2) 2091**] may also be contributor. . # [**Month/Day (2) 2091**]: baseline creat according to our records was 2.0 in [**2176**] and it was 2.7 after discharge from [**Hospital1 18**] in [**2178-1-25**] for stenting. unsure if this is new baseline or [**Last Name (un) **]."
+    },
+    {
+      "id": "E:note:row1473:130",
+      "kind": "note_sentence",
+      "display": "His Cr was 2.6 on admission and remained between 2.3 and 2.8 during his CCU cour",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s130",
+      "text": "His Cr was 2.6 on admission and remained between 2.3 and 2.8 during his CCU course."
+    },
+    {
+      "id": "E:note:row1473:131",
+      "kind": "note_sentence",
+      "display": "On the floor he, did develop [**Last Name (un) **] with Cr to 3.3, likely [**2-2",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s131",
+      "text": "On the floor he, did develop [**Last Name (un) **] with Cr to 3.3, likely [**2-26**] CIN, which was down to 2.8 on discharge. . # Rhythm: after coming out of CCU, found to have sinus bradycardia, 2:1 block."
+    },
+    {
+      "id": "E:note:row1473:132",
+      "kind": "note_sentence",
+      "display": "Rate had been controlled with metop succ. 100 daily, which was held.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s132",
+      "text": "Rate had been controlled with metop succ. 100 daily, which was held."
+    },
+    {
+      "id": "E:note:row1473:133",
+      "kind": "note_sentence",
+      "display": "Rate improved during the rest of his stay, though was still in 50's upon dischar",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s133",
+      "text": "Rate improved during the rest of his stay, though was still in 50's upon discharge, and he was discharged off BB."
+    },
+    {
+      "id": "E:note:row1473:134",
+      "kind": "note_sentence",
+      "display": "When exercised on EKG, he did have a good response and HR came up, indicating a ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s134",
+      "text": "When exercised on EKG, he did have a good response and HR came up, indicating a higher AV block."
+    },
+    {
+      "id": "E:note:row1473:135",
+      "kind": "note_sentence",
+      "display": "No need for pacemaker. . # Type 2 DM: continued lantus and humalog SS; diabetic ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s135",
+      "text": "No need for pacemaker. . # Type 2 DM: continued lantus and humalog SS; diabetic diet  # Hyperlipidemia: had been on simvastatin 10mg daily."
+    },
+    {
+      "id": "E:note:row1473:136",
+      "kind": "note_sentence",
+      "display": "Discharged on atorvastatin 80mg daily. . # Hypertension: Initially controlled wi",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s136",
+      "text": "Discharged on atorvastatin 80mg daily. . # Hypertension: Initially controlled with home doses of amlodipine, metoprolol."
+    },
+    {
+      "id": "E:note:row1473:137",
+      "kind": "note_sentence",
+      "display": "Once bradycardia (above) developed, those were stopped.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s137",
+      "text": "Once bradycardia (above) developed, those were stopped."
+    },
+    {
+      "id": "E:note:row1473:138",
+      "kind": "note_sentence",
+      "display": "Imdur 180mg daily was started.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s138",
+      "text": "Imdur 180mg daily was started."
+    },
+    {
+      "id": "E:note:row1473:139",
+      "kind": "note_sentence",
+      "display": "He went out on amlodipine 10mg daily as well. .",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s139",
+      "text": "He went out on amlodipine 10mg daily as well. ."
+    },
+    {
+      "id": "E:note:row1473:140",
+      "kind": "note_sentence",
+      "display": "Medications on Admission: aspirin 325 mg Delayed Release DAILY clopidogrel 75 mg",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s140",
+      "text": "Medications on Admission: aspirin 325 mg Delayed Release DAILY clopidogrel 75 mg Tablet DAILY amlodipine 10 mg Tablet once a day insulin glargine Thirty Eight (38) units Subcutaneous once a day metoprolol succinate 100 mg Tablet DAILY simvastatin 10 mg Tablet once a day Not sure of isosorbide mononitrate ER 60mg TID metronidazole 500 mg Tab Oral Three times daily until [**3-24**] for diverticolitis  Discharge Medications: 1. aspirin 325 mg Tablet Sig: One (1) Tablet PO DAILY (Daily). 2. clopidogrel 75 mg Tablet Sig: One (1) Tablet PO DAILY (Daily). 3. amlodipine 10 mg Tablet Sig: One (1) Tablet PO once a day. 4. insulin glargine  Subcutaneous 5. atorvastatin 80 mg Tablet Sig: One (1) Tablet PO DAILY (Daily)."
+    },
+    {
+      "id": "E:note:row1473:141",
+      "kind": "note_sentence",
+      "display": "Disp:*30 Tablet(s)* Refills:*0* 6. ranolazine 500 mg Tablet Extended Release 12 ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s141",
+      "text": "Disp:*30 Tablet(s)* Refills:*0* 6. ranolazine 500 mg Tablet Extended Release 12 hr Sig: One (1) Tablet Extended Release 12 hr PO twice a day: please avoid drinking grapejuice while on this medication. 7. isosorbide mononitrate 60 mg Tablet Extended Release 24 hr Sig: Three (3) Tablet Extended Release 24 hr PO once a day. 8. furosemide 20 mg Tablet Sig: One (1) Tablet PO DAILY (Daily)."
+    },
+    {
+      "id": "E:note:row1473:142",
+      "kind": "note_sentence",
+      "display": "Disp:*30 Tablet(s)* Refills:*0*   Discharge Disposition: Home With Service  Faci",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s142",
+      "text": "Disp:*30 Tablet(s)* Refills:*0*   Discharge Disposition: Home With Service  Facility: [**Hospital **] Home Health Care  Discharge Diagnosis: Primary Diagnosis: NSTEMI  Secondary Diagnoses: chronic kidney disease anemia coronary artery disease hypertension 2nd degree heart block   Discharge Condition: Mental Status: Clear and coherent."
+    },
+    {
+      "id": "E:note:row1473:143",
+      "kind": "note_sentence",
+      "display": "Level of Consciousness: Alert and interactive.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s143",
+      "text": "Level of Consciousness: Alert and interactive."
+    },
+    {
+      "id": "E:note:row1473:144",
+      "kind": "note_sentence",
+      "display": "Activity Status: Ambulatory - requires assistance or aid (walker or cane).",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s144",
+      "text": "Activity Status: Ambulatory - requires assistance or aid (walker or cane)."
+    },
+    {
+      "id": "E:note:row1473:145",
+      "kind": "note_sentence",
+      "display": "Discharge Instructions: You came to the hospital because you had chest pain.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s145",
+      "text": "Discharge Instructions: You came to the hospital because you had chest pain."
+    },
+    {
+      "id": "E:note:row1473:146",
+      "kind": "note_sentence",
+      "display": "Your EKG was unchanged but you had elevated [**Hospital **] markers that indicat",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s146",
+      "text": "Your EKG was unchanged but you had elevated [**Hospital **] markers that indicated you could be having a heart attack."
+    },
+    {
+      "id": "E:note:row1473:147",
+      "kind": "note_sentence",
+      "display": "You were started on medications to treat a heart attack and taken for a cardiac ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s147",
+      "text": "You were started on medications to treat a heart attack and taken for a cardiac catheterization which showed aqan obstruction in one of your venous graphs which was stented."
+    },
+    {
+      "id": "E:note:row1473:148",
+      "kind": "note_sentence",
+      "display": "You were also monitored for low heart rate which was stable and low kidney funct",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s148",
+      "text": "You were also monitored for low heart rate which was stable and low kidney functions which seem to have improved."
+    },
+    {
+      "id": "E:note:row1473:149",
+      "kind": "note_sentence",
+      "display": "You are now discharged home. .",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s149",
+      "text": "You are now discharged home. ."
+    },
+    {
+      "id": "E:note:row1473:150",
+      "kind": "note_sentence",
+      "display": "The following medications were stopped: Please STOP Metoprolol Please STOP Simva",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s150",
+      "text": "The following medications were stopped: Please STOP Metoprolol Please STOP Simvastatin ."
+    },
+    {
+      "id": "E:note:row1473:151",
+      "kind": "note_sentence",
+      "display": "The following medications were started: .",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s151",
+      "text": "The following medications were started: ."
+    },
+    {
+      "id": "E:note:row1473:152",
+      "kind": "note_sentence",
+      "display": "Please START Atorvastatin 80mg tablet, once daily. please START Furosamide, 20mg",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s152",
+      "text": "Please START Atorvastatin 80mg tablet, once daily. please START Furosamide, 20mg tablet once daily. ."
+    },
+    {
+      "id": "E:note:row1473:153",
+      "kind": "note_sentence",
+      "display": "Please weigh yourself everyday and call your PCP if you gain more than 3 lb in 2",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s153",
+      "text": "Please weigh yourself everyday and call your PCP if you gain more than 3 lb in 24 hour."
+    },
+    {
+      "id": "E:note:row1473:154",
+      "kind": "note_sentence",
+      "display": "Followup Instructions: Please call the number below to make an appointment with ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s154",
+      "text": "Followup Instructions: Please call the number below to make an appointment with your PCP and cardiologist within 1 week of your discharge."
+    },
+    {
+      "id": "E:note:row1473:155",
+      "kind": "note_sentence",
+      "display": "You will also need to have your [**Hospital **] tests drawm within 1 week to tes",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s155",
+      "text": "You will also need to have your [**Hospital **] tests drawm within 1 week to test electrolytes and renal functions. ."
+    },
+    {
+      "id": "E:note:row1473:156",
+      "kind": "note_sentence",
+      "display": "Name: [**Last Name (LF) **],[**First Name3 (LF) **] M.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s156",
+      "text": "Name: [**Last Name (LF) **],[**First Name3 (LF) **] M."
+    },
+    {
+      "id": "E:note:row1473:157",
+      "kind": "note_sentence",
+      "display": "Location: [**Hospital1 **] HEALTHCARE - [**Location (un) 8720**] Address: 15 [**",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1473#s157",
+      "text": "Location: [**Hospital1 **] HEALTHCARE - [**Location (un) 8720**] Address: 15 [**Doctor Last Name 8721**] BROTHERS WAY,[**Apartment Address(1) 8722**], [**Location 8723**],[**Numeric Identifier 8724**] Phone: [**Telephone/Fax (1) 8725**] Fax: [**Telephone/Fax (1) 8719**] Email: [**University/College 8731**] ."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|41071": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42821": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41402": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|9971": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41041": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|58289": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41401": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4582": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|412": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42613": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|40390": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5859": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|28521": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|28240": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|56211": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2724": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25040": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V5867": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2749": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4414": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|30981": [
+      "E:cond:23"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V1582": [
+      "E:cond:24"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V145": [
+      "E:cond:25"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V1508": [
+      "E:cond:26"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V140": [
+      "E:cond:27"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V142": [
+      "E:cond:28"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V1749": [
+      "E:cond:29"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V180": [
+      "E:cond:30"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "subendocardial infarction, initial episode of care": [
+      "E:cond:1"
+    ],
+    "acute systolic heart failure": [
+      "E:cond:2"
+    ],
+    "coronary atherosclerosis of autologous vein bypass graft": [
+      "E:cond:3"
+    ],
+    "cardiac complications, not elsewhere classified": [
+      "E:cond:4"
+    ],
+    "acute myocardial infarction of other inferior wall, initial episode of care": [
+      "E:cond:5"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:6"
+    ],
+    "chronic glomerulonephritis with other specified pathological lesion in kidney": [
+      "E:cond:7"
+    ],
+    "coronary atherosclerosis of native coronary artery": [
+      "E:cond:8"
+    ],
+    "percutaneous transluminal coronary angioplasty status": [
+      "E:cond:9"
+    ],
+    "old myocardial infarction": [
+      "E:cond:10"
+    ],
+    "other second degree atrioventricular block": [
+      "E:cond:11"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:12"
+    ],
+    "hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage i through stage iv, or unspecified": [
+      "E:cond:13"
+    ],
+    "chronic kidney disease, unspecified": [
+      "E:cond:14"
+    ],
+    "anemia in chronic kidney disease": [
+      "E:cond:15"
+    ],
+    "thalassemia, unspecified": [
+      "E:cond:16"
+    ],
+    "diverticulitis of colon (without mention of hemorrhage)": [
+      "E:cond:17"
+    ],
+    "other and unspecified hyperlipidemia": [
+      "E:cond:18"
+    ],
+    "diabetes with renal manifestations, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:19"
+    ],
+    "long-term (current) use of insulin": [
+      "E:cond:20"
+    ],
+    "gout, unspecified": [
+      "E:cond:21"
+    ],
+    "abdominal aneurysm without mention of rupture": [
+      "E:cond:22"
+    ],
+    "posttraumatic stress disorder": [
+      "E:cond:23"
+    ],
+    "personal history of tobacco use": [
+      "E:cond:24"
+    ],
+    "personal history of allergy to narcotic agent": [
+      "E:cond:25"
+    ],
+    "allergy to radiographic dye": [
+      "E:cond:26"
+    ],
+    "personal history of allergy to penicillin": [
+      "E:cond:27"
+    ],
+    "personal history of allergy to sulfonamides": [
+      "E:cond:28"
+    ],
+    "family history of other cardiovascular diseases": [
+      "E:cond:29"
+    ],
+    "family history of diabetes mellitus": [
+      "E:cond:30"
+    ],
+    "percutaneous transluminal coronary angioplasty [ptca]": [
+      "E:proc:1"
+    ],
+    "insertion of drug-eluting coronary artery stent(s)": [
+      "E:proc:2"
+    ],
+    "left heart cardiac catheterization": [
+      "E:proc:3"
+    ],
+    "insertion of one vascular stent": [
+      "E:proc:4"
+    ],
+    "procedure on single vessel": [
+      "E:proc:5"
+    ],
+    "coronary arteriography using two catheters": [
+      "E:proc:6"
+    ],
+    "admission date: [**2178-3-21**] discharge date: [**2178-3-29**]": [
+      "E:note:row1473:1"
+    ],
+    "pt described the quality of the same as the same as that which occurred prior to": [
+      "E:note:row1473:2"
+    ],
+    "it was also accompanied by dizziness and weakness which was new for him.": [
+      "E:note:row1473:3"
+    ],
+    "it was also more severe than any other pain he has ever had, nearly bringing him": [
+      "E:note:row1473:4"
+    ],
+    "no nausea, vomiting, or diaphoresis.": [
+      "E:note:row1473:5"
+    ],
+    "it lasted 30 minutes and was relieved after taking 5 tabs of nitro.": [
+      "E:note:row1473:6"
+    ],
+    "he was watching television when the pain began.": [
+      "E:note:row1473:7"
+    ],
+    "he states that he has had the pain 6 times over the past week; all episodes occu": [
+      "E:note:row1473:8"
+    ],
+    "the pain has not occurred during the day or with exertion.": [
+      "E:note:row1473:9"
+    ],
+    "he denies h/o reflux symptoms. states he eats dinner around 6pm.": [
+      "E:note:row1473:10"
+    ],
+    "no fevers, chills, abdominal pain, muscle aches, joint pains.": [
+      "E:note:row1473:11"
+    ],
+    "admits to sob when lying down and has become sob at night before.": [
+      "E:note:row1473:12"
+    ],
+    "admits to cough productive of white phlegm for about 1 week now.": [
+      "E:note:row1473:13"
+    ],
+    "also has a runny nose.": [
+      "E:note:row1473:14"
+    ],
+    "sister has been sick but otherwise no sick contacts.": [
+      "E:note:row1473:15"
+    ],
+    "[**name (ni) **] been constipated the past few days.": [
+      "E:note:row1473:16"
+    ],
+    "has been undergoing treatment for diverticulitis with flagyl since hospitalizati": [
+      "E:note:row1473:17"
+    ],
+    "does not like flagyl and says it gives him an acid taste in his mouth.": [
+      "E:note:row1473:18"
+    ],
+    "last dose [**2178-3-24**].": [
+      "E:note:row1473:19"
+    ],
+    "has been taking of his medications as prescribed daily. .": [
+      "E:note:row1473:20"
+    ],
+    "at osh, initial vs were 98.1, 181/103, 68, 18, 98% o2.": [
+      "E:note:row1473:21"
+    ],
+    "he reportedly had initial improvement and then recurrence of the chest pain duri": [
+      "E:note:row1473:22"
+    ],
+    "he was lying down when the pain occurred.": [
+      "E:note:row1473:23"
+    ],
+    "he was given ativan, a gi cocktail, morphine, imdur, and nitro gtt at various po": [
+      "E:note:row1473:24"
+    ],
+    "he was started on heparin gtt at 1000 units/hr and nitro gtt at 10 mcgs.": [
+      "E:note:row1473:25"
+    ],
+    "he was also given bicarb 100/hr and mucomyst 600 mg po for possibility of cath w": [
+      "E:note:row1473:26"
+    ],
+    "ekg's taken at the onset and peak of the pain were unchanged.": [
+      "E:note:row1473:27"
+    ],
+    "labs there were significant for trop 0.02 and hct 32.7.": [
+      "E:note:row1473:28"
+    ],
+    "an echo showed moderately dilated la, lvef 55-60%, and \"distolic dysfunction.\" e": [
+      "E:note:row1473:29"
+    ],
+    "there was borderline [**name prefix (prefixes) **] [**last name (prefixes) 8730*": [
+      "E:note:row1473:30"
+    ],
+    "he was transferred to [**hospital1 18**] for possible cardiac cath but with ques": [
+      "E:note:row1473:31"
+    ],
+    "in the ed, initial vitals were 98.2, 66, 141/70, 18, 100%.": [
+      "E:note:row1473:32"
+    ],
+    "labs significant for hct 29.5, wbc 3.3, inr 1.1, lipase 32, lfts wnl, cr 2.6, bu": [
+      "E:note:row1473:33"
+    ],
+    "pt was continued on nitro gtt and heparin gtt and transferred to [**hospital1 **": [
+      "E:note:row1473:34"
+    ],
+    "on arrival to the floor, vs 98.3, 160/83, 75, 20, 98% ra.": [
+      "E:note:row1473:35"
+    ],
+    "he currently denies cp or sob. .": [
+      "E:note:row1473:36"
+    ],
+    "review of systems per hpi past medical history: 1.": [
+      "E:note:row1473:37"
+    ],
+    "cardiac risk factors: (+)diabetes, (+)dyslipidemia, (+)hypertension 2.": [
+      "E:note:row1473:38"
+    ],
+    "cardiac history: -cabg: cabg [**2153**], with svg to rpda, svg to lad, svg to di": [
+      "E:note:row1473:39"
+    ],
+    "other past medical history: - right renal artery stenosis s/p stenting [**3-31**": [
+      "E:note:row1473:40"
+    ],
+    "quit at the age of 64 at time of first mi.": [
+      "E:note:row1473:41"
+    ],
+    "smoked 3-4ppd when young.": [
+      "E:note:row1473:42"
+    ],
+    "etoh: he uses alcohol occasionally.": [
+      "E:note:row1473:43"
+    ],
+    "illicits: he has no history of recreational drug use. - he lives with his wife.": [
+      "E:note:row1473:44"
+    ],
+    "[**name (ni) 2760**] gambling weekly.": [
+      "E:note:row1473:45"
+    ],
+    "two children, both live in area. 4 grandchildren family history: father had a": [
+      "E:note:row1473:46"
+    ],
+    "mother had cancer and myocardial infarction.": [
+      "E:note:row1473:47"
+    ],
+    "brothers have diabetes.": [
+      "E:note:row1473:48"
+    ],
+    "physical exam: admission exam: vs: 98.3, 160/83, 75, 20, 98% ra general: nad.": [
+      "E:note:row1473:49"
+    ],
+    "oriented x3.": [
+      "E:note:row1473:50",
+      "E:note:row1473:69"
+    ],
+    "mood, affect appropriate.": [
+      "E:note:row1473:51",
+      "E:note:row1473:70"
+    ],
+    "heent: ncat.": [
+      "E:note:row1473:52",
+      "E:note:row1473:71"
+    ],
+    "sclera anicteric.": [
+      "E:note:row1473:53",
+      "E:note:row1473:72"
+    ],
+    "perrl, eomi.": [
+      "E:note:row1473:54",
+      "E:note:row1473:73"
+    ],
+    "conjunctiva were pink, no pallor or cyanosis of the oral mucosa.": [
+      "E:note:row1473:55",
+      "E:note:row1473:74"
+    ],
+    "no xanthalesma.": [
+      "E:note:row1473:56",
+      "E:note:row1473:75"
+    ],
+    "neck: supple with jvp of 3cm above clavicle.": [
+      "E:note:row1473:57",
+      "E:note:row1473:76"
+    ],
+    "cardiac: pmi located in 5th intercostal space, midclavicular line.": [
+      "E:note:row1473:58",
+      "E:note:row1473:77"
+    ],
+    "rrr, normal s1, s2.": [
+      "E:note:row1473:59",
+      "E:note:row1473:78"
+    ],
+    "no m/r/g.": [
+      "E:note:row1473:60",
+      "E:note:row1473:79"
+    ],
+    "no thrills, lifts.": [
+      "E:note:row1473:61",
+      "E:note:row1473:80"
+    ],
+    "no s3 or s4. faint heart sounds lungs: no chest wall deformities, scoliosis or k": [
+      "E:note:row1473:62",
+      "E:note:row1473:81"
+    ],
+    "resp were unlabored, no accessory muscle use. mild left base crackles, no wheeze": [
+      "E:note:row1473:63",
+      "E:note:row1473:82"
+    ],
+    "no hsm or tenderness.": [
+      "E:note:row1473:64",
+      "E:note:row1473:83"
+    ],
+    "abd aorta not enlarged by palpation.": [
+      "E:note:row1473:65",
+      "E:note:row1473:84"
+    ],
+    "no abdominial bruits.": [
+      "E:note:row1473:66",
+      "E:note:row1473:85"
+    ],
+    "extremities: no femoral bruits. papery le skin; trace edema in le bilaterally sk": [
+      "E:note:row1473:67",
+      "E:note:row1473:86"
+    ],
+    "discharge exam: vs: 97.9, 135/65, 76, 20, 100% ra general: nad.": [
+      "E:note:row1473:68"
+    ],
+    "lung volumes are lower than on the prior study.": [
+      "E:note:row1473:87"
+    ],
+    "there is mild bibasilar atelectasis.": [
+      "E:note:row1473:88"
+    ],
+    "no focal consolidation, pleural effusion or pneumothorax.": [
+      "E:note:row1473:89"
+    ],
+    "the cardiac silhouette is top normal in size.": [
+      "E:note:row1473:90"
+    ],
+    "mediastinal silhouette and hilar contours are stable allowing for lower lung vol": [
+      "E:note:row1473:91"
+    ],
+    "calcifications are seen along the course of the thoracic aorta.": [
+      "E:note:row1473:92"
+    ],
+    "mediastinal post-surgical changes including coronary stents and intact median st": [
+      "E:note:row1473:93"
+    ],
+    "impression: no pneumonia, edema or effusion.": [
+      "E:note:row1473:94"
+    ],
+    "mild bibasilar atelectasis.": [
+      "E:note:row1473:95"
+    ],
+    "tte [**2178-3-24**]: the left atrium is dilated.": [
+      "E:note:row1473:96"
+    ],
+    "the estimated right atrial pressure is 0-5 mmhg.": [
+      "E:note:row1473:97"
+    ],
+    "left ventricular wall thicknesses are normal.": [
+      "E:note:row1473:98"
+    ],
+    "the left ventricular cavity size is normal.": [
+      "E:note:row1473:99"
+    ],
+    "right ventricular chamber size and free wall motion are normal.": [
+      "E:note:row1473:100"
+    ],
+    "right ventricular chamber size is normal.": [
+      "E:note:row1473:101"
+    ],
+    "tricuspid annular plane systolic excursion is depressed consistent with right ve": [
+      "E:note:row1473:102"
+    ],
+    "the aortic root is mildly dilated at the sinus level.": [
+      "E:note:row1473:103"
+    ],
+    "the aortic valve leaflets are mildly thickened.": [
+      "E:note:row1473:104"
+    ],
+    "there is no aortic valve stenosis.": [
+      "E:note:row1473:105"
+    ],
+    "no aortic regurgitation is seen.": [
+      "E:note:row1473:106"
+    ],
+    "the mitral valve leaflets are mildly thickened.": [
+      "E:note:row1473:107"
+    ],
+    "mild (1+) mitral regurgitation is seen.": [
+      "E:note:row1473:108"
+    ],
+    "[due to acoustic shadowing, the severity of mitral regurgitation may be signific": [
+      "E:note:row1473:109"
+    ],
+    "the estimated pulmonary artery systolic pressure is normal.": [
+      "E:note:row1473:110"
+    ],
+    "there is no pericardial effusion.": [
+      "E:note:row1473:111"
+    ],
+    "compared with the prior study (images reviewed) of [**2174-1-22**], prior views": [
+      "E:note:row1473:112"
+    ],
+    "cardiac cath [**2178-3-23**]: full report pending.": [
+      "E:note:row1473:113"
+    ],
+    "poba isrs svg-pda.": [
+      "E:note:row1473:114"
+    ],
+    "rfa perclose.": [
+      "E:note:row1473:115"
+    ],
+    "no issues brief hospital course: [**age over 90 **] yo m with pmh cad s/p cabg": [
+      "E:note:row1473:116"
+    ],
+    "while on the cardiology service the patient had troponins were neg x 3 the day o": [
+      "E:note:row1473:117"
+    ],
+    "ekg stable. no tele events.": [
+      "E:note:row1473:118"
+    ],
+    "attempted to wean nitro gtt the evening of admission and cp began to recur at le": [
+      "E:note:row1473:119"
+    ],
+    "given his initial chest pain and given the patient's extensive cardiac history,": [
+      "E:note:row1473:120"
+    ],
+    "the rca was balooned and stented and during the procedure the patient complainte": [
+      "E:note:row1473:121"
+    ],
+    "it is likely that a clot had embolized and went downstream during the stenting p": [
+      "E:note:row1473:122"
+    ],
+    "subsequently, the patient cardiac enzymes started to rise and peaked at ck-796,": [
+      "E:note:row1473:123"
+    ],
+    "ekg showed st elevations in inferior leads.": [
+      "E:note:row1473:124"
+    ],
+    "the next day nitro drip was stopped and the patient was started on his home dose": [
+      "E:note:row1473:125"
+    ],
+    "back on the floor, he was uptitrated to imdur 180 daily, and had no more chest p": [
+      "E:note:row1473:126"
+    ],
+    "no overt s/s bleeding. iron studies normal. hemolysis labs neg, retic index 1.2": [
+      "E:note:row1473:127"
+    ],
+    "review of prior records indicated pt has long history of anemia that predates wo": [
+      "E:note:row1473:128"
+    ],
+    "[**month/day (2) 2091**] may also be contributor. . # [**month/day (2) 2091**]:": [
+      "E:note:row1473:129"
+    ],
+    "his cr was 2.6 on admission and remained between 2.3 and 2.8 during his ccu cour": [
+      "E:note:row1473:130"
+    ],
+    "on the floor he, did develop [**last name (un) **] with cr to 3.3, likely [**2-2": [
+      "E:note:row1473:131"
+    ],
+    "rate had been controlled with metop succ. 100 daily, which was held.": [
+      "E:note:row1473:132"
+    ],
+    "rate improved during the rest of his stay, though was still in 50's upon dischar": [
+      "E:note:row1473:133"
+    ],
+    "when exercised on ekg, he did have a good response and hr came up, indicating a": [
+      "E:note:row1473:134"
+    ],
+    "no need for pacemaker. . # type 2 dm: continued lantus and humalog ss; diabetic": [
+      "E:note:row1473:135"
+    ],
+    "discharged on atorvastatin 80mg daily. . # hypertension: initially controlled wi": [
+      "E:note:row1473:136"
+    ],
+    "once bradycardia (above) developed, those were stopped.": [
+      "E:note:row1473:137"
+    ],
+    "imdur 180mg daily was started.": [
+      "E:note:row1473:138"
+    ],
+    "he went out on amlodipine 10mg daily as well. .": [
+      "E:note:row1473:139"
+    ],
+    "medications on admission: aspirin 325 mg delayed release daily clopidogrel 75 mg": [
+      "E:note:row1473:140"
+    ],
+    "disp:*30 tablet(s)* refills:*0* 6. ranolazine 500 mg tablet extended release 12": [
+      "E:note:row1473:141"
+    ],
+    "disp:*30 tablet(s)* refills:*0* discharge disposition: home with service faci": [
+      "E:note:row1473:142"
+    ],
+    "level of consciousness: alert and interactive.": [
+      "E:note:row1473:143"
+    ],
+    "activity status: ambulatory - requires assistance or aid (walker or cane).": [
+      "E:note:row1473:144"
+    ],
+    "discharge instructions: you came to the hospital because you had chest pain.": [
+      "E:note:row1473:145"
+    ],
+    "your ekg was unchanged but you had elevated [**hospital **] markers that indicat": [
+      "E:note:row1473:146"
+    ],
+    "you were started on medications to treat a heart attack and taken for a cardiac": [
+      "E:note:row1473:147"
+    ],
+    "you were also monitored for low heart rate which was stable and low kidney funct": [
+      "E:note:row1473:148"
+    ],
+    "you are now discharged home. .": [
+      "E:note:row1473:149"
+    ],
+    "the following medications were stopped: please stop metoprolol please stop simva": [
+      "E:note:row1473:150"
+    ],
+    "the following medications were started: .": [
+      "E:note:row1473:151"
+    ],
+    "please start atorvastatin 80mg tablet, once daily. please start furosamide, 20mg": [
+      "E:note:row1473:152"
+    ],
+    "please weigh yourself everyday and call your pcp if you gain more than 3 lb in 2": [
+      "E:note:row1473:153"
+    ],
+    "followup instructions: please call the number below to make an appointment with": [
+      "E:note:row1473:154"
+    ],
+    "you will also need to have your [**hospital **] tests drawm within 1 week to tes": [
+      "E:note:row1473:155"
+    ],
+    "name: [**last name (lf) **],[**first name3 (lf) **] m.": [
+      "E:note:row1473:156"
+    ],
+    "location: [**hospital1 **] healthcare - [**location (un) 8720**] address: 15 [**": [
+      "E:note:row1473:157"
+    ]
+  },
+  "by_date": {
+    "2178-03-21": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:29",
+      "E:cond:30",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6"
+    ]
+  }
+}

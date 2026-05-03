@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Diuretics were held [E:note:row541449:6].",
+      "severity": "medium",
+      "reason": "This creates a clinical contradiction within the Medications section, as Lasix 40mg IV is listed as being taken."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Diuretics were held [E:note:row541449:6].",
+      "suggested": "Diuretics were previously held [E:note:row541449:6], though Lasix 40mg IV is now listed [E:note:row541449:10].",
+      "reason": "Resolves the internal inconsistency between the 'held' status and the active administration of Lasix."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "CK elevated [E:note:row472627:3] then negative [E:note:row472627:13], INR elevated [E:note:row472627:9], K+ 3.7 [E:note:row472627:14], and ABG 7.36/56/63 [E:note:row472627:20].",
+      "severity": "medium",
+      "reason": "The term 'negative' is used to describe a CK (Creatine Kinase) result, which is a quantitative enzyme level and not a binary positive/negative test."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "CK elevated [E:note:row472627:3] then negative [E:note:row472627:13], INR elevated [E:note:row472627:9], K+ 3.7 [E:note:row472627:14], and ABG 7.36/56/63 [E:note:row472627:20].",
+      "suggested": "CK elevated [E:note:row472627:3] then neg [E:note:row472627:13], INR elevated [E:note:row472627:9], K+ 3.7 [E:note:row472627:14], and ABG 7.36/56/63 [E:note:row472627:20].",
+      "reason": "Aligns terminology with the fact sheet's 'neg' to avoid clinical misinterpretation of a quantitative lab as a binary result."
+    }
+  ]
+}

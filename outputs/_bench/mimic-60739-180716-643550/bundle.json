@@ -1,0 +1,1376 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-60739-180716",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-60739",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-60739",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-180716",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-180716",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2181-12-04T00:00:00",
+          "end": "2182-01-01T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "56213",
+              "display": "Diverticulitis of colon with hemorrhage"
+            }
+          ],
+          "text": "Diverticulitis of colon with hemorrhage"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "56213",
+              "display": "Diverticulitis of colon with hemorrhage"
+            }
+          ],
+          "text": "Diverticulitis of colon with hemorrhage"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42833",
+              "display": "Acute on chronic diastolic heart failure"
+            }
+          ],
+          "text": "Acute on chronic diastolic heart failure"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42833",
+              "display": "Acute on chronic diastolic heart failure"
+            }
+          ],
+          "text": "Acute on chronic diastolic heart failure"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41071",
+              "display": "Subendocardial infarction, initial episode of care"
+            }
+          ],
+          "text": "Subendocardial infarction, initial episode of care"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41071",
+              "display": "Subendocardial infarction, initial episode of care"
+            }
+          ],
+          "text": "Subendocardial infarction, initial episode of care"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5185",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5185",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2851",
+              "display": "Acute posthemorrhagic anemia"
+            }
+          ],
+          "text": "Acute posthemorrhagic anemia"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2851",
+              "display": "Acute posthemorrhagic anemia"
+            }
+          ],
+          "text": "Acute posthemorrhagic anemia"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "00845",
+              "display": "Intestinal infection due to Clostridium difficile"
+            }
+          ],
+          "text": "Intestinal infection due to Clostridium difficile"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "00845",
+              "display": "Intestinal infection due to Clostridium difficile"
+            }
+          ],
+          "text": "Intestinal infection due to Clostridium difficile"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2930",
+              "display": "Delirium due to conditions classified elsewhere"
+            }
+          ],
+          "text": "Delirium due to conditions classified elsewhere"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2930",
+              "display": "Delirium due to conditions classified elsewhere"
+            }
+          ],
+          "text": "Delirium due to conditions classified elsewhere"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2762",
+              "display": "Acidosis"
+            }
+          ],
+          "text": "Acidosis"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2762",
+              "display": "Acidosis"
+            }
+          ],
+          "text": "Acidosis"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2760",
+              "display": "Hyperosmolality and/or hypernatremia"
+            }
+          ],
+          "text": "Hyperosmolality and/or hypernatremia"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2760",
+              "display": "Hyperosmolality and/or hypernatremia"
+            }
+          ],
+          "text": "Hyperosmolality and/or hypernatremia"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4270",
+              "display": "Paroxysmal supraventricular tachycardia"
+            }
+          ],
+          "text": "Paroxysmal supraventricular tachycardia"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4270",
+              "display": "Paroxysmal supraventricular tachycardia"
+            }
+          ],
+          "text": "Paroxysmal supraventricular tachycardia"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4280",
+              "display": "Congestive heart failure, unspecified"
+            }
+          ],
+          "text": "Congestive heart failure, unspecified"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42731",
+              "display": "Atrial fibrillation"
+            }
+          ],
+          "text": "Atrial fibrillation"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42731",
+              "display": "Atrial fibrillation"
+            }
+          ],
+          "text": "Atrial fibrillation"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25040",
+              "display": "Diabetes with renal manifestations, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes with renal manifestations, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25040",
+              "display": "Diabetes with renal manifestations, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes with renal manifestations, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "40390",
+              "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+            }
+          ],
+          "text": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "40390",
+              "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+            }
+          ],
+          "text": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5859",
+              "display": "Chronic kidney disease, unspecified"
+            }
+          ],
+          "text": "Chronic kidney disease, unspecified"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5859",
+              "display": "Chronic kidney disease, unspecified"
+            }
+          ],
+          "text": "Chronic kidney disease, unspecified"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2749",
+              "display": "Gout, unspecified"
+            }
+          ],
+          "text": "Gout, unspecified"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2749",
+              "display": "Gout, unspecified"
+            }
+          ],
+          "text": "Gout, unspecified"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41401",
+              "display": "Coronary atherosclerosis of native coronary artery"
+            }
+          ],
+          "text": "Coronary atherosclerosis of native coronary artery"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41401",
+              "display": "Coronary atherosclerosis of native coronary artery"
+            }
+          ],
+          "text": "Coronary atherosclerosis of native coronary artery"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4439",
+              "display": "Peripheral vascular disease, unspecified"
+            }
+          ],
+          "text": "Peripheral vascular disease, unspecified"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4439",
+              "display": "Peripheral vascular disease, unspecified"
+            }
+          ],
+          "text": "Peripheral vascular disease, unspecified"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7048",
+              "display": "Other specified diseases of hair and hair follicles"
+            }
+          ],
+          "text": "Other specified diseases of hair and hair follicles"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7048",
+              "display": "Other specified diseases of hair and hair follicles"
+            }
+          ],
+          "text": "Other specified diseases of hair and hair follicles"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2724",
+              "display": "Other and unspecified hyperlipidemia"
+            }
+          ],
+          "text": "Other and unspecified hyperlipidemia"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2724",
+              "display": "Other and unspecified hyperlipidemia"
+            }
+          ],
+          "text": "Other and unspecified hyperlipidemia"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "73300",
+              "display": "Osteoporosis, unspecified"
+            }
+          ],
+          "text": "Osteoporosis, unspecified"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-180716-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-180716-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "73300",
+              "display": "Osteoporosis, unspecified"
+            }
+          ],
+          "text": "Osteoporosis, unspecified"
+        },
+        "onsetDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-180716-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-180716-1",
+        "status": "completed",
+        "code": {
+          "text": "Open and other left hemicolectomy"
+        },
+        "performedDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-180716-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-180716-1",
+        "status": "completed",
+        "code": {
+          "text": "Open and other left hemicolectomy"
+        },
+        "performedDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-180716-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-180716-2",
+        "status": "completed",
+        "code": {
+          "text": "Exploratory laparotomy"
+        },
+        "performedDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-180716-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-180716-2",
+        "status": "completed",
+        "code": {
+          "text": "Exploratory laparotomy"
+        },
+        "performedDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-180716-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-180716-3",
+        "status": "completed",
+        "code": {
+          "text": "Temporary colostomy"
+        },
+        "performedDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-180716-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-180716-3",
+        "status": "completed",
+        "code": {
+          "text": "Temporary colostomy"
+        },
+        "performedDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-180716-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-180716-4",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of packed cells"
+        },
+        "performedDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-180716-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-180716-4",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of packed cells"
+        },
+        "performedDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-180716-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-180716-5",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-180716-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-180716-5",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-180716-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-180716-6",
+        "status": "completed",
+        "code": {
+          "text": "Parenteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-180716-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-180716-6",
+        "status": "completed",
+        "code": {
+          "text": "Parenteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-180716-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-180716-7",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-180716-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-180716-7",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-180716-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-180716-8",
+        "status": "completed",
+        "code": {
+          "text": "Arterial catheterization"
+        },
+        "performedDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-180716-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-180716-8",
+        "status": "completed",
+        "code": {
+          "text": "Arterial catheterization"
+        },
+        "performedDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-180716-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-180716-9",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-180716-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-180716-9",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-180716-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-180716-10",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2181-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-180716-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-180716-10",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2181-12-04"
+      }
+    }
+  ]
+}

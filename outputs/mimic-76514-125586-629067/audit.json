@@ -1,0 +1,143 @@
+{
+  "case_id": "mimic-76514-125586-629067",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 3966,
+    "summary_chars": 1395,
+    "target_min_chars": 793,
+    "target_max_chars": 1189,
+    "achieved_ratio": 0.3517397881996974,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 10,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:2",
+      "E:cond:20",
+      "E:cond:22",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:note:row629067:1",
+      "E:note:row629067:12",
+      "E:note:row629067:14",
+      "E:note:row629067:17",
+      "E:note:row629067:29",
+      "E:note:row629067:3",
+      "E:note:row629067:36",
+      "E:note:row629067:40",
+      "E:note:row629067:42",
+      "E:note:row629067:47",
+      "E:note:row629067:7"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Patient presents with acute respiratory failure [E:cond:2], sepsis [E:cond:4], unspecified septicemia [E:cond:3], and likely aspiration pneumonitis [E:note:row629067:47][E:cond:5].",
+        "severity": "low",
+        "reason": "The term 'likely' is used, but the fact sheet lists 'Pneumonitis due to inhalation of food or vomitus' as a diagnosis, not a suspected one."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Patient presents with acute respiratory failure [E:cond:2], sepsis [E:cond:4], unspecified septicemia [E:cond:3], and likely aspiration pneumonitis [E:note:row629067:47][E:cond:5].",
+        "suggested": "Patient presents with acute respiratory failure [E:cond:2], sepsis [E:cond:4], unspecified septicemia [E:cond:3], and aspiration pneumonitis [E:note:row629067:47][E:cond:5].",
+        "reason": "Remove 'likely' to accurately reflect the diagnosis listed in the fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 0,
+    "low": 1
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-76514-125586-629067/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.24,
+    "fk_words": 180,
+    "fk_sentences": 28,
+    "fk_syllables": 310,
+    "chars": 1847,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-76514-125586-629067/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0024007910396903753,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 145.29517691698857,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 383.8867929580156,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0029327080119401217,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 15.98084537498653,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 14.541503500018734,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.00332362501649186,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 7.4670086249825545,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "case_id": "mimic-78481-143054-640463",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2594,
+    "summary_chars": 1350,
+    "target_min_chars": 518,
+    "target_max_chars": 778,
+    "achieved_ratio": 0.520431765612953,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 9,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:2",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row640463:10",
+      "E:note:row640463:11",
+      "E:note:row640463:14",
+      "E:note:row640463:16",
+      "E:note:row640463:17",
+      "E:note:row640463:19",
+      "E:note:row640463:2",
+      "E:note:row640463:23",
+      "E:note:row640463:24",
+      "E:note:row640463:26",
+      "E:note:row640463:3",
+      "E:note:row640463:6",
+      "E:note:row640463:8"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Additional findings include C. difficile infection [E:cond:13], toxic encephalopathy [E:cond:6], jaundice [E:cond:8], and hypopotassemia [E:cond:22].",
+        "severity": "medium",
+        "reason": "The fact sheet does not contain evidence for 'hypopotassemia' under E:cond:22; this is an hallucination."
+      },
+      {
+        "sentence": "Surgical issues include incisional hernia [E:cond:1], persistent postoperative fistula [E:cond:7], wound disruption [E:cond:9], and peritoneal adhesions [E:cond:23].",
+        "severity": "medium",
+        "reason": "The fact sheet does not contain evidence for 'peritoneal adhesions' under E:cond:23; this is an hallucination."
+      },
+      {
+        "sentence": "Other diagnoses include tachycardia [E:note:row640463:2], SBO [E:note:row640463:3], abscess [E:note:row640463:3], and right IJ DVT [E:note:row640463:14].",
+        "severity": "medium",
+        "reason": "The provided fact sheet does not contain the evidence IDs E:note:row640463:2, 3, or 14; these diagnoses are not supported by the provided text."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Additional findings include C. difficile infection [E:cond:13], toxic encephalopathy [E:cond:6], jaundice [E:cond:8], and hypopotassemia [E:cond:22].",
+        "suggested": "Additional findings include C. difficile infection [E:cond:13], toxic encephalopathy [E:cond:6], and jaundice [E:cond:8].",
+        "reason": "Removed unsupported claim of hypopotassemia."
+      },
+      {
+        "original": "Surgical issues include incisional hernia [E:cond:1], persistent postoperative fistula [E:cond:7], wound disruption [E:cond:9], and peritoneal adhesions [E:cond:23].",
+        "suggested": "Surgical issues include incisional hernia [E:cond:1], persistent postoperative fistula [E:cond:7], and wound disruption [E:cond:9].",
+        "reason": "Removed unsupported claim of peritoneal adhesions."
+      },
+      {
+        "original": "Other diagnoses include tachycardia [E:note:row640463:2], SBO [E:note:row640463:3], abscess [E:note:row640463:3], and right IJ DVT [E:note:row640463:14].",
+        "suggested": "",
+        "reason": "Remove entire sentence as none of the diagnoses or citations are present in the provided fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 3,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-78481-143054-640463/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.19,
+    "fk_words": 209,
+    "fk_sentences": 29,
+    "fk_syllables": 336,
+    "chars": 1920,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-78481-143054-640463/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0026002080412581563,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 105.12442075001309,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 137.65540516702458,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0024598329910077155,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 40.23177341604605,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 46.181863708014134,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0018506250344216824,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 30.923300208,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

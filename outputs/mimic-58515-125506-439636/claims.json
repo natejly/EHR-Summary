@@ -1,0 +1,382 @@
+{
+  "claims": [
+    {
+      "claim_id": "C1",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "cholangitis",
+      "time_ref": null,
+      "source_span": "row439636#0"
+    },
+    {
+      "claim_id": "C2",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "pancreatitis",
+      "time_ref": null,
+      "source_span": "row439636#0"
+    },
+    {
+      "claim_id": "C3",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "respiratory failure",
+      "time_ref": null,
+      "source_span": "row439636#0"
+    },
+    {
+      "claim_id": "C4",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "HOTN",
+      "time_ref": null,
+      "source_span": "row439636#0"
+    },
+    {
+      "claim_id": "C5",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "tachycardia",
+      "value": "115",
+      "time_ref": "In ED",
+      "source_span": "row439636#1"
+    },
+    {
+      "claim_id": "C6",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "increased",
+      "value": "AST/ALT",
+      "time_ref": "In ED",
+      "source_span": "row439636#1"
+    },
+    {
+      "claim_id": "C7",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "lipase 2650",
+      "time_ref": "In ED",
+      "source_span": "row439636#1"
+    },
+    {
+      "claim_id": "C8",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "revealed",
+      "value": "CBD stone",
+      "time_ref": "In ED",
+      "source_span": "row439636#1"
+    },
+    {
+      "claim_id": "C9",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "revealed",
+      "value": "pancreatic head inflammation",
+      "time_ref": "In ED",
+      "source_span": "row439636#1"
+    },
+    {
+      "claim_id": "C10",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "ERCP",
+      "time_ref": null,
+      "source_span": "row439636#2"
+    },
+    {
+      "claim_id": "C11",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "intubated",
+      "time_ref": null,
+      "source_span": "row439636#3"
+    },
+    {
+      "claim_id": "C12",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "two stones retrieved, one in common hepatic duct and one in ampulla",
+      "time_ref": null,
+      "source_span": "row439636#3"
+    },
+    {
+      "claim_id": "C13",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "sphincterotomy",
+      "time_ref": null,
+      "source_span": "row439636#3"
+    },
+    {
+      "claim_id": "C14",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "hypotensive",
+      "value": "hypotensive",
+      "time_ref": "post induction",
+      "source_span": "row439636#4"
+    },
+    {
+      "claim_id": "C15",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "neo 1mg/kg/min",
+      "time_ref": "post induction",
+      "source_span": "row439636#4"
+    },
+    {
+      "claim_id": "C16",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "HTN",
+      "time_ref": "PMH",
+      "source_span": "row439636#5"
+    },
+    {
+      "claim_id": "C17",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "DM II",
+      "time_ref": "PMH",
+      "source_span": "row439636#5"
+    },
+    {
+      "claim_id": "C18",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Congenital Deafness",
+      "time_ref": "PMH",
+      "source_span": "row439636#5"
+    },
+    {
+      "claim_id": "C19",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "CAD",
+      "time_ref": "PMH",
+      "source_span": "row439636#5"
+    },
+    {
+      "claim_id": "C20",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "fixed apical myocardial defect with EF 40%",
+      "time_ref": "5-/2121",
+      "source_span": "row439636#5"
+    },
+    {
+      "claim_id": "C21",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Osteoarthritis",
+      "time_ref": "PMH",
+      "source_span": "row439636#5"
+    },
+    {
+      "claim_id": "C22",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Bifasicular block",
+      "time_ref": "PMH",
+      "source_span": "row439636#5"
+    },
+    {
+      "claim_id": "C23",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "L subclavian steal syndrome",
+      "time_ref": "PMH",
+      "source_span": "row439636#5"
+    },
+    {
+      "claim_id": "C24",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "extubated",
+      "time_ref": "beginning of shift",
+      "source_span": "row439636#6"
+    },
+    {
+      "claim_id": "C25",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "oxygen saturation",
+      "value": "96%",
+      "time_ref": "overnight",
+      "source_span": "row439636#7"
+    },
+    {
+      "claim_id": "C26",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Myocardial infarction, acute (AMI, STEMI, NSTEMI)",
+      "time_ref": null,
+      "source_span": "row439636#8"
+    },
+    {
+      "claim_id": "C27",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "HR",
+      "value": "high 80 s",
+      "time_ref": "initially",
+      "source_span": "row439636#9"
+    },
+    {
+      "claim_id": "C28",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "HR",
+      "value": "115",
+      "time_ref": "now",
+      "source_span": "row439636#10"
+    },
+    {
+      "claim_id": "C29",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "T-max",
+      "value": "100.1",
+      "time_ref": null,
+      "source_span": "row439636#11"
+    },
+    {
+      "claim_id": "C30",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Hct =39",
+      "time_ref": null,
+      "source_span": "row439636#14"
+    },
+    {
+      "claim_id": "C31",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Troponin =1.00",
+      "time_ref": null,
+      "source_span": "row439636#15"
+    },
+    {
+      "claim_id": "C32",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Pancreatitis, acute",
+      "time_ref": null,
+      "source_span": "row439636#17"
+    },
+    {
+      "claim_id": "C33",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Lipase 2650",
+      "time_ref": null,
+      "source_span": "row439636#18"
+    },
+    {
+      "claim_id": "C34",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "IV vancomycin",
+      "time_ref": null,
+      "source_span": "row439636#20"
+    },
+    {
+      "claim_id": "C35",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "zosyn",
+      "time_ref": null,
+      "source_span": "row439636#20"
+    },
+    {
+      "claim_id": "C36",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Lipase down to 1702",
+      "time_ref": null,
+      "source_span": "row439636#21"
+    },
+    {
+      "claim_id": "C37",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "WBC climbed to 24.3",
+      "time_ref": null,
+      "source_span": "row439636#22"
+    },
+    {
+      "claim_id": "C38",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Morphine 1mg IV x2",
+      "time_ref": null,
+      "source_span": "row439636#23"
+    },
+    {
+      "claim_id": "C39",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Morphine 2mg IV x2",
+      "time_ref": null,
+      "source_span": "row439636#23"
+    },
+    {
+      "claim_id": "C40",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "Zosyn only due this am",
+      "time_ref": "this am",
+      "source_span": "row439636#25"
+    },
+    {
+      "claim_id": "C41",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "Continue IVF at 150cc/hr for liter #2",
+      "time_ref": null,
+      "source_span": "row439636#25"
+    },
+    {
+      "claim_id": "C42",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "Morphine 2-3mg IV prn pain",
+      "time_ref": null,
+      "source_span": "row439636#25"
+    }
+  ]
+}

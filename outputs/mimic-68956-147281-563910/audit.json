@@ -1,0 +1,150 @@
+{
+  "case_id": "mimic-68956-147281-563910",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 3054,
+    "summary_chars": 1593,
+    "target_min_chars": 610,
+    "target_max_chars": 916,
+    "achieved_ratio": 0.5216110019646365,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 11,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:18",
+      "E:cond:2",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row563910:1",
+      "E:note:row563910:11",
+      "E:note:row563910:12",
+      "E:note:row563910:13",
+      "E:note:row563910:14",
+      "E:note:row563910:19",
+      "E:note:row563910:2",
+      "E:note:row563910:22",
+      "E:note:row563910:27",
+      "E:note:row563910:30",
+      "E:note:row563910:35",
+      "E:note:row563910:40",
+      "E:note:row563910:42",
+      "E:note:row563910:48",
+      "E:note:row563910:55",
+      "E:note:row563910:60",
+      "E:note:row563910:61",
+      "E:note:row563910:62",
+      "E:note:row563910:7",
+      "E:note:row563910:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Malignancies include lung adenocarcinoma (T1) [E:cond:5][E:note:row563910:9] and high-grade prostate cancer [E:cond:16][E:note:row563910:11].",
+        "severity": "medium",
+        "reason": "The fact sheet lists 'Malignant neoplasm of other parts of bronchus or lung' but does not specify 'adenocarcinoma' or 'T1' stage."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Malignancies include lung adenocarcinoma (T1) [E:cond:5][E:note:row563910:9] and high-grade prostate cancer [E:cond:16][E:note:row563910:11].",
+        "suggested": "Malignancies include malignant neoplasm of the bronchus or lung [E:cond:5][E:note:row563910:9] and high-grade prostate cancer [E:cond:16][E:note:row563910:11].",
+        "reason": "Removed specific pathology and staging not present in the provided fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-68956-147281-563910/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.49,
+    "fk_words": 211,
+    "fk_sentences": 25,
+    "fk_syllables": 336,
+    "chars": 2109,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-68956-147281-563910/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0018606249941512942,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 211.79436995799188,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 112.4325595839764,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.002428416977636516,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 22.835024958010763,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 23.723571666982025,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0038227500044740736,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 9.640410375024658,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "case_id": "mimic-99883-150755-651791",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 1275,
+    "summary_chars": 776,
+    "target_min_chars": 255,
+    "target_max_chars": 382,
+    "achieved_ratio": 0.6086274509803922,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 8,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:2",
+      "E:cond:4",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row651791:1",
+      "E:note:row651791:10",
+      "E:note:row651791:11",
+      "E:note:row651791:12",
+      "E:note:row651791:13",
+      "E:note:row651791:15",
+      "E:note:row651791:7",
+      "E:note:row651791:8"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Patient reports increased wheezing/asthma [E:cond:4].",
+        "severity": "medium",
+        "reason": "The fact sheet lists a diagnosis of asthma exacerbation, but does not state that the patient reported these symptoms."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Patient reports increased wheezing/asthma [E:cond:4].",
+        "suggested": "Patient has asthma exacerbation [E:cond:4].",
+        "reason": "Corrects the claim from a patient report to a documented diagnosis."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-99883-150755-651791/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.46,
+    "fk_words": 184,
+    "fk_sentences": 19,
+    "fk_syllables": 285,
+    "chars": 1442,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-99883-150755-651791/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0028700000257231295,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 38.181269958033226,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 244.13677420798922,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.002557332976721227,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 17.68619449995458,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 17.5740187910269,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.004061915969941765,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 4.859206332999747,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

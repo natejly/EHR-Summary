@@ -1,0 +1,150 @@
+{
+  "case_id": "mimic-50847-123701-419476",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 3294,
+    "summary_chars": 1212,
+    "target_min_chars": 658,
+    "target_max_chars": 988,
+    "achieved_ratio": 0.3679417122040073,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 12,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:14",
+      "E:cond:17",
+      "E:cond:19",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:6",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row419476:10",
+      "E:note:row419476:18",
+      "E:note:row419476:2",
+      "E:note:row419476:22",
+      "E:note:row419476:26",
+      "E:note:row419476:3",
+      "E:note:row419476:4",
+      "E:note:row419476:7",
+      "E:note:row419476:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Patient presents with acute and subacute bacterial endocarditis [E:cond:1][E:note:row419476:22], staphylococcal septicemia [E:cond:3], sepsis [E:cond:4], and high grade bacteremia [E:note:row419476:7].",
+        "severity": "medium",
+        "reason": "The term 'high grade bacteremia' is an interpretation; the fact sheet only states 'bc pos for GPC in pairs +clusters'."
+      },
+      {
+        "sentence": "Cardiac issues include acute diastolic heart failure [E:cond:2], worsening heart failure [E:cond:2][E:cond:14], ventricular fibrillation [E:cond:6], and severe AR with flail leaflet [E:note:row419476:9].",
+        "severity": "medium",
+        "reason": "The term 'worsening' is an interpretation not explicitly stated in the fact sheet for heart failure."
+      },
+      {
+        "sentence": "Aortic valve disorders include congenital insufficiency [E:cond:8] and malformation [E:note:row419476:10], with a possible annulus abscess [E:note:row419476:9].",
+        "severity": "low",
+        "reason": "The fact sheet does not explicitly list 'malformation' or 'annulus abscess' in the provided snippets, though they are cited to the note."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Patient presents with acute and subacute bacterial endocarditis [E:cond:1][E:note:row419476:22], staphylococcal septicemia [E:cond:3], sepsis [E:cond:4], and high grade bacteremia [E:note:row419476:7].",
+        "suggested": "Patient presents with acute and subacute bacterial endocarditis [E:cond:1][E:note:row419476:22], staphylococcal septicemia [E:cond:3], sepsis [E:cond:4], and blood cultures positive for GPC in pairs and clusters [E:note:row419476:7].",
+        "reason": "Replace interpretative 'high grade bacteremia' with the specific lab finding."
+      },
+      {
+        "original": "Cardiac issues include acute diastolic heart failure [E:cond:2], worsening heart failure [E:cond:2][E:cond:14], ventricular fibrillation [E:cond:6], and severe AR with flail leaflet [E:note:row419476:9].",
+        "suggested": "Cardiac issues include acute diastolic heart failure [E:cond:2], congestive heart failure [E:cond:14], ventricular fibrillation [E:cond:6], and severe AR with flail leaflet [E:note:row419476:9].",
+        "reason": "Remove 'worsening' as it is not supported by the provided text."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 2,
+    "low": 1
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-50847-123701-419476/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.22,
+    "fk_words": 171,
+    "fk_sentences": 23,
+    "fk_syllables": 274,
+    "chars": 1535,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-50847-123701-419476/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0024169159587472677,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 163.3221545839915,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 99.26461424998706,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.001801165984943509,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 11.052597791014705,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 22.98790312500205,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0038112089969217777,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 18.88084058300592,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

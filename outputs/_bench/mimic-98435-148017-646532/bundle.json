@@ -1,0 +1,584 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-98435-148017",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-98435",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-98435",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-148017",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-148017",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2129-12-17T00:00:00",
+          "end": "2130-01-03T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-148017-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-148017-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0388",
+              "display": "Other specified septicemias"
+            }
+          ],
+          "text": "Other specified septicemias"
+        },
+        "onsetDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-148017-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-148017-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-148017-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-148017-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78552",
+              "display": "Septic shock"
+            }
+          ],
+          "text": "Septic shock"
+        },
+        "onsetDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-148017-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-148017-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41071",
+              "display": "Subendocardial infarction, initial episode of care"
+            }
+          ],
+          "text": "Subendocardial infarction, initial episode of care"
+        },
+        "onsetDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-148017-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-148017-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-148017-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-148017-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "00845",
+              "display": "Intestinal infection due to Clostridium difficile"
+            }
+          ],
+          "text": "Intestinal infection due to Clostridium difficile"
+        },
+        "onsetDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-148017-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-148017-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99731",
+              "display": "Ventilator associated pneumonia"
+            }
+          ],
+          "text": "Ventilator associated pneumonia"
+        },
+        "onsetDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-148017-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-148017-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2763",
+              "display": "Alkalosis"
+            }
+          ],
+          "text": "Alkalosis"
+        },
+        "onsetDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-148017-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-148017-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2761",
+              "display": "Hyposmolality and/or hyponatremia"
+            }
+          ],
+          "text": "Hyposmolality and/or hyponatremia"
+        },
+        "onsetDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-148017-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-148017-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99592",
+              "display": "Severe sepsis"
+            }
+          ],
+          "text": "Severe sepsis"
+        },
+        "onsetDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-148017-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-148017-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25000",
+              "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-148017-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-148017-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "53190",
+              "display": "Gastric ulcer, unspecified as acute or chronic, without mention of hemorrhage or perforation, without mention of obstruction"
+            }
+          ],
+          "text": "Gastric ulcer, unspecified as acute or chronic, without mention of hemorrhage or perforation, without mention of obstruction"
+        },
+        "onsetDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-148017-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-148017-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "28529",
+              "display": "Anemia of other chronic disease"
+            }
+          ],
+          "text": "Anemia of other chronic disease"
+        },
+        "onsetDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-148017-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-148017-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2766",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-148017-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-148017-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2948",
+              "display": "Other persistent mental disorders due to conditions classified elsewhere"
+            }
+          ],
+          "text": "Other persistent mental disorders due to conditions classified elsewhere"
+        },
+        "onsetDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-148017-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-148017-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "49390",
+              "display": "Asthma, unspecified type, unspecified"
+            }
+          ],
+          "text": "Asthma, unspecified type, unspecified"
+        },
+        "onsetDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-148017-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-148017-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3694",
+              "display": "Legal blindness, as defined in U.S.A."
+            }
+          ],
+          "text": "Legal blindness, as defined in U.S.A."
+        },
+        "onsetDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-148017-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-148017-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "311",
+              "display": "Depressive disorder, not elsewhere classified"
+            }
+          ],
+          "text": "Depressive disorder, not elsewhere classified"
+        },
+        "onsetDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-148017-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-148017-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V1201",
+              "display": "Personal history of tuberculosis"
+            }
+          ],
+          "text": "Personal history of tuberculosis"
+        },
+        "onsetDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-148017-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-148017-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V667",
+              "display": "Encounter for palliative care"
+            }
+          ],
+          "text": "Encounter for palliative care"
+        },
+        "onsetDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-148017-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-148017-1",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-148017-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-148017-2",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-148017-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-148017-3",
+        "status": "completed",
+        "code": {
+          "text": "Arterial catheterization"
+        },
+        "performedDateTime": "2129-12-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-148017-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-148017-4",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of packed cells"
+        },
+        "performedDateTime": "2129-12-17"
+      }
+    }
+  ]
+}

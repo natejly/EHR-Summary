@@ -1,0 +1,163 @@
+{
+  "case_id": "mimic-47974-163366-626355",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2628,
+    "summary_chars": 1463,
+    "target_min_chars": 525,
+    "target_max_chars": 788,
+    "achieved_ratio": 0.556697108066971,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": false,
+    "violations": [
+      {
+        "sentence": "Other: Demerol 25mg [E:note:row626355:10], Ativan 0.5mg [E:note:row626355:10], and integrillin [E:note:row626355:41].",
+        "rule": "unsupported_value",
+        "detail": "Numeric '0.5 mg' not present in cited evidence."
+      }
+    ],
+    "sentence_count": 15,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:16",
+      "E:cond:18",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row626355:1",
+      "E:note:row626355:10",
+      "E:note:row626355:11",
+      "E:note:row626355:12",
+      "E:note:row626355:13",
+      "E:note:row626355:21",
+      "E:note:row626355:22",
+      "E:note:row626355:24",
+      "E:note:row626355:29",
+      "E:note:row626355:30",
+      "E:note:row626355:31",
+      "E:note:row626355:34",
+      "E:note:row626355:35",
+      "E:note:row626355:38",
+      "E:note:row626355:39",
+      "E:note:row626355:40",
+      "E:note:row626355:41",
+      "E:note:row626355:46",
+      "E:note:row626355:6"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Other: Demerol 25mg [E:note:row626355:10], Ativan 0.5mg [E:note:row626355:10], and integrillin [E:note:row626355:41].",
+        "severity": "medium",
+        "reason": "The dose '0.5mg' for Ativan is not supported by the fact sheet, which lists '.5mg'."
+      },
+      {
+        "sentence": "Patient presents with severe sepsis, septic shock, and unspecified septicemia [E:cond:1][E:cond:2][E:cond:10][E:note:row626355:6].",
+        "severity": "low",
+        "reason": "Citation [E:note:row626355:6] is not present in the provided fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Other: Demerol 25mg [E:note:row626355:10], Ativan 0.5mg [E:note:row626355:10], and integrillin [E:note:row626355:41].",
+        "suggested": "Other: Demerol 25mg [E:note:row626355:10], Ativan .5mg [E:note:row626355:10], and integrillin [E:note:row626355:41].",
+        "reason": "Corrected dose to match the verbatim value in the fact sheet."
+      },
+      {
+        "original": "Patient presents with severe sepsis, septic shock, and unspecified septicemia [E:cond:1][E:cond:2][E:cond:10][E:note:row626355:6].",
+        "suggested": "Patient presents with severe sepsis, septic shock, and unspecified septicemia [E:cond:1][E:cond:2][E:cond:10].",
+        "reason": "Removed unsupported citation."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 1
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-47974-163366-626355/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.71,
+    "fk_words": 223,
+    "fk_sentences": 23,
+    "fk_syllables": 350,
+    "chars": 2119,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-47974-163366-626355/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0015702499658800662,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 751.53493850003,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 467.14873770804843,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.002139875025022775,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 73.21415524999611,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 19.557446416991297,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.003832791990134865,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 13.415104375046212,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

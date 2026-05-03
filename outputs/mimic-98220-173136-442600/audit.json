@@ -1,0 +1,187 @@
+{
+  "case_id": "mimic-98220-173136-442600",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2578,
+    "summary_chars": 1215,
+    "target_min_chars": 515,
+    "target_max_chars": 773,
+    "achieved_ratio": 0.4712955779674166,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": false,
+    "violations": [
+      {
+        "sentence": "Anemia [E:cond:23], thrombocytopenia [E:cond:22], HTN [E:note:row442600:14], and gastric PUD [E:note:row442600:1, note:row442600:14].",
+        "rule": "unknown_evidence_id",
+        "detail": "Cited ids not in fact sheet: ['E:note:row442600:1, note:row442600:14']"
+      }
+    ],
+    "sentence_count": 11,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:15",
+      "E:cond:2",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:25",
+      "E:cond:3",
+      "E:cond:5",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row442600:1, note:row442600:14",
+      "E:note:row442600:11",
+      "E:note:row442600:12",
+      "E:note:row442600:13",
+      "E:note:row442600:14",
+      "E:note:row442600:2",
+      "E:note:row442600:22",
+      "E:note:row442600:23",
+      "E:note:row442600:24",
+      "E:note:row442600:3",
+      "E:note:row442600:5",
+      "E:note:row442600:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Anemia [E:cond:23], thrombocytopenia [E:cond:22], HTN [E:note:row442600:14], and gastric PUD [E:note:row442600:1, note:row442600:14].",
+        "severity": "high",
+        "reason": "Contains multiple citations (E:cond:23, E:cond:22, E:note:row442600:14, etc.) that are not present in the provided fact sheet."
+      },
+      {
+        "sentence": "Drug-induced dermatitis [E:cond:25] and rash attributed to Zosyn [E:note:row442600:12].",
+        "severity": "high",
+        "reason": "Contains citations (E:cond:25, E:note:row442600:12) not present in the provided fact sheet."
+      },
+      {
+        "sentence": "Malignant neoplasm of ampulla of vater [E:cond:2] and adenocarcinoma of duodenum at the ampulla [E:note:row442600:5].",
+        "severity": "medium",
+        "reason": "The fact sheet mentions malignant neoplasm of ampulla of vater, but does not explicitly mention adenocarcinoma of duodenum."
+      },
+      {
+        "sentence": "Benign liver/biliary neoplasm [E:cond:1], bile duct obstruction [E:cond:3], and mass at the end of the bile duct [E:note:row442600:2] with cut-off stricture at the ampullary level [E:note:row442600:3].",
+        "severity": "medium",
+        "reason": "Citations E:note:row442600:2 and E:note:row442600:3 are not in the fact sheet."
+      },
+      {
+        "sentence": "Acute kidney failure with tubular necrosis [E:cond:15] and uremia causing mental status decline [E:note:row442600:13].",
+        "severity": "medium",
+        "reason": "Citation E:note:row442600:13 is not in the fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Malignant neoplasm of ampulla of vater [E:cond:2] and adenocarcinoma of duodenum at the ampulla [E:note:row442600:5].",
+        "suggested": "Malignant neoplasm of ampulla of vater [E:cond:2].",
+        "reason": "Remove unsupported claim and citation."
+      },
+      {
+        "original": "Benign liver/biliary neoplasm [E:cond:1], bile duct obstruction [E:cond:3], and mass at the end of the bile duct [E:note:row442600:2] with cut-off stricture at the ampullary level [E:note:row442600:3].",
+        "suggested": "Benign neoplasm of liver and biliary passages [E:cond:1] and obstruction of bile duct [E:cond:3].",
+        "reason": "Remove unsupported claims and citations."
+      },
+      {
+        "original": "Acute kidney failure with tubular necrosis [E:cond:15] and uremia causing mental status decline [E:note:row442600:13].",
+        "suggested": "Acute kidney failure with lesion of tubular necrosis [E:cond:15].",
+        "reason": "Remove unsupported claim and citation."
+      },
+      {
+        "original": "Anemia [E:cond:23], thrombocytopenia [E:cond:22], HTN [E:note:row442600:14], and gastric PUD [E:note:row442600:1, note:row442600:14].",
+        "suggested": "",
+        "reason": "Remove entire sentence as no evidence exists in the fact sheet."
+      },
+      {
+        "original": "Drug-induced dermatitis [E:cond:25] and rash attributed to Zosyn [E:note:row442600:12].",
+        "suggested": "",
+        "reason": "Remove entire sentence as no evidence exists in the fact sheet."
+      }
+    ]
+  },
+  "review_passed": false,
+  "review_concern_counts": {
+    "high": 2,
+    "medium": 3,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-98220-173136-442600/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.14,
+    "fk_words": 226,
+    "fk_sentences": 23,
+    "fk_syllables": 362,
+    "chars": 1810,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-98220-173136-442600/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.004925832967273891,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 91.0719120829599,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 266.1953896250343,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0024144999915733933,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 12.47955233301036,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 25.960613542003557,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.002763208991382271,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 61.18190224998398,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

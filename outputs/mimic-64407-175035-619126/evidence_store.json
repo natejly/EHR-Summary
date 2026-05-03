@@ -1,0 +1,859 @@
+{
+  "case_id": "mimic-64407-175035-619126",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:enc-175035",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:cond-175035-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Cardiac arrest",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4275",
+        "display": "Cardiac arrest"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:cond-175035-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute diastolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42831",
+        "display": "Acute diastolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:cond-175035-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Pneumonitis due to inhalation of food or vomitus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5070",
+        "display": "Pneumonitis due to inhalation of food or vomitus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:cond-175035-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "End stage renal disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5856",
+        "display": "End stage renal disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:cond-175035-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "40391",
+        "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:cond-175035-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Other primary cardiomyopathies",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4254",
+        "display": "Other primary cardiomyopathies"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:cond-175035-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Delirium due to conditions classified elsewhere",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2930",
+        "display": "Delirium due to conditions classified elsewhere"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:cond-175035-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:cond-175035-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Hyperpotassemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2767",
+        "display": "Hyperpotassemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:cond-175035-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:cond-175035-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25000",
+        "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:cond-175035-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Diarrhea",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78791",
+        "display": "Diarrhea"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:cond-175035-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:cond-175035-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Anemia in chronic kidney disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "28521",
+        "display": "Anemia in chronic kidney disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:cond-175035-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Lumbago",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7242",
+        "display": "Lumbago"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:cond-175035-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Renal dialysis status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4511",
+        "display": "Renal dialysis status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:cond-175035-17",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:proc-175035-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Hemodialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Hemodialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:proc-175035-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:proc-175035-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:proc-175035-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Spinal tap",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Spinal tap"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2169-12-26",
+      "source_ref": "urn:uuid:proc-175035-5",
+      "text": null
+    },
+    {
+      "id": "E:note:row619126:1",
+      "kind": "note_sentence",
+      "display": "59 yo male with DM, ESRD on HD, dilated cardiomyopathy & HTN presented    to OSH",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s1",
+      "text": "59 yo male with DM, ESRD on HD, dilated cardiomyopathy & HTN presented    to OSH for shortness of breath and found to have hyperkalemia with QRS    changes, hypertension and pulmonary edema."
+    },
+    {
+      "id": "E:note:row619126:2",
+      "kind": "note_sentence",
+      "display": "Hyperkalemia (high Potassium, Hyperpotassemia)    Assessment:    K+ s/p HD from ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s2",
+      "text": "Hyperkalemia (high Potassium, Hyperpotassemia)    Assessment:    K+ s/p HD from overnight  3.5-3.8, Ca+ 8.7 BUN/CRe down to 34/6.3."
+    },
+    {
+      "id": "E:note:row619126:3",
+      "kind": "note_sentence",
+      "display": "U/O    0-10cc/hr.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s3",
+      "text": "U/O    0-10cc/hr."
+    },
+    {
+      "id": "E:note:row619126:4",
+      "kind": "note_sentence",
+      "display": "Having lrge amts diarrhea.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s4",
+      "text": "Having lrge amts diarrhea."
+    },
+    {
+      "id": "E:note:row619126:5",
+      "kind": "note_sentence",
+      "display": "Action:    Started on HD for just UF @ 1530.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s5",
+      "text": "Action:    Started on HD for just UF @ 1530."
+    },
+    {
+      "id": "E:note:row619126:6",
+      "kind": "note_sentence",
+      "display": "Response:    K+ down to WNL s s/p HD.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s6",
+      "text": "Response:    K+ down to WNL s s/p HD."
+    },
+    {
+      "id": "E:note:row619126:7",
+      "kind": "note_sentence",
+      "display": "Plan:    Monitor K+ levels, perform HD or UF as needed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s7",
+      "text": "Plan:    Monitor K+ levels, perform HD or UF as needed."
+    },
+    {
+      "id": "E:note:row619126:8",
+      "kind": "note_sentence",
+      "display": "Airway, Inability to Protect (Risk for Aspiration, Altered Gag, Airway    Cleara",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s8",
+      "text": "Airway, Inability to Protect (Risk for Aspiration, Altered Gag, Airway    Clearance, Cough)    Assessment:    A/C 50%/550/16 with Peep-10, on Fentanyl and Versed Gtts for sedation."
+    },
+    {
+      "id": "E:note:row619126:9",
+      "kind": "note_sentence",
+      "display": "Suctioning mod amts thin rusty colored sputum with sediment noted.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s9",
+      "text": "Suctioning mod amts thin rusty colored sputum with sediment noted."
+    },
+    {
+      "id": "E:note:row619126:10",
+      "kind": "note_sentence",
+      "display": "L/S    rhonchi to crackles @ bases.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s10",
+      "text": "L/S    rhonchi to crackles @ bases."
+    },
+    {
+      "id": "E:note:row619126:11",
+      "kind": "note_sentence",
+      "display": "CXR showing Pulmonary edema.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s11",
+      "text": "CXR showing Pulmonary edema."
+    },
+    {
+      "id": "E:note:row619126:12",
+      "kind": "note_sentence",
+      "display": "Last ABG-    7.47/47/151/9/35  O2 sats 96-99%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s12",
+      "text": "Last ABG-    7.47/47/151/9/35  O2 sats 96-99%."
+    },
+    {
+      "id": "E:note:row619126:13",
+      "kind": "note_sentence",
+      "display": "Action:    Fentanyl and Versed Gtt s changed to Propofol Gtt, sputum spec sent f",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s13",
+      "text": "Action:    Fentanyl and Versed Gtt s changed to Propofol Gtt, sputum spec sent for    C&S."
+    },
+    {
+      "id": "E:note:row619126:14",
+      "kind": "note_sentence",
+      "display": "Able to decrease  Peep-8,  and FIO2-40%    Response:    Tolerating Propofol Gtt,",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s14",
+      "text": "Able to decrease  Peep-8,  and FIO2-40%    Response:    Tolerating Propofol Gtt, and decreased Peep and FIO2."
+    },
+    {
+      "id": "E:note:row619126:15",
+      "kind": "note_sentence",
+      "display": "Plan:    Monitor ABG s, and O2 sats , qd CXR s, pulmonary toilet.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s15",
+      "text": "Plan:    Monitor ABG s, and O2 sats , qd CXR s, pulmonary toilet."
+    },
+    {
+      "id": "E:note:row619126:16",
+      "kind": "note_sentence",
+      "display": "Hypertension, benign    Assessment:    BP- 140-170 s/70 s with HR-90-[**Street A",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s16",
+      "text": "Hypertension, benign    Assessment:    BP- 140-170 s/70 s with HR-90-[**Street Address(2) 3429**] with frequ ectopy PVC s and    APC s. due to high K+ levels."
+    },
+    {
+      "id": "E:note:row619126:17",
+      "kind": "note_sentence",
+      "display": "With agitation BP s up to >200 s/90    and HR to 120    Action:    Was started o",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s17",
+      "text": "With agitation BP s up to >200 s/90    and HR to 120    Action:    Was started on PO Lopressor, and required increased sedation    Response:    BP  down to 90-100 s/50 HR -70-80 s SR with decreased ectopy with    normal lytes."
+    },
+    {
+      "id": "E:note:row619126:18",
+      "kind": "note_sentence",
+      "display": "Plan:    Monitor BP and HR, check lytes.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s18",
+      "text": "Plan:    Monitor BP and HR, check lytes."
+    },
+    {
+      "id": "E:note:row619126:19",
+      "kind": "note_sentence",
+      "display": "Alteration in Elimination Related to Diarrhea    Assessment:    Lrge amts of ext",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s19",
+      "text": "Alteration in Elimination Related to Diarrhea    Assessment:    Lrge amts of extremely foul smelling stool,  which is liquidy brown OB    neg s/p Kayexlyte that was  given overnight."
+    },
+    {
+      "id": "E:note:row619126:20",
+      "kind": "note_sentence",
+      "display": "HCT-32.4.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s20",
+      "text": "HCT-32.4."
+    },
+    {
+      "id": "E:note:row619126:21",
+      "kind": "note_sentence",
+      "display": "Also having lrge    amts green OB neg bilious drainage from OGT.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s21",
+      "text": "Also having lrge    amts green OB neg bilious drainage from OGT."
+    },
+    {
+      "id": "E:note:row619126:22",
+      "kind": "note_sentence",
+      "display": "[**Last Name (un) **] soft with +BS.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s22",
+      "text": "[**Last Name (un) **] soft with +BS."
+    },
+    {
+      "id": "E:note:row619126:23",
+      "kind": "note_sentence",
+      "display": "Has    flexi-seal tube in place.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s23",
+      "text": "Has    flexi-seal tube in place."
+    },
+    {
+      "id": "E:note:row619126:24",
+      "kind": "note_sentence",
+      "display": "Action:    Stool sent for C-diff and C&S.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s24",
+      "text": "Action:    Stool sent for C-diff and C&S."
+    },
+    {
+      "id": "E:note:row619126:25",
+      "kind": "note_sentence",
+      "display": "Response:    Foul smelling diarrhea has slowed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s25",
+      "text": "Response:    Foul smelling diarrhea has slowed."
+    },
+    {
+      "id": "E:note:row619126:26",
+      "kind": "note_sentence",
+      "display": "Plan:    Monitor stooling amt, check C&S results.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row619126#s26",
+      "text": "Plan:    Monitor stooling amt, check C&S results."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4275": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42831": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5070": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5856": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|40391": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4254": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2930": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2762": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2767": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25000": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78791": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42731": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|28521": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7242": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4511": [
+      "E:cond:17"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "acute respiratory failure": [
+      "E:cond:1"
+    ],
+    "cardiac arrest": [
+      "E:cond:2"
+    ],
+    "acute diastolic heart failure": [
+      "E:cond:3"
+    ],
+    "pneumonitis due to inhalation of food or vomitus": [
+      "E:cond:4"
+    ],
+    "end stage renal disease": [
+      "E:cond:5"
+    ],
+    "hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage v or end stage renal disease": [
+      "E:cond:6"
+    ],
+    "other primary cardiomyopathies": [
+      "E:cond:7"
+    ],
+    "delirium due to conditions classified elsewhere": [
+      "E:cond:8"
+    ],
+    "acidosis": [
+      "E:cond:9"
+    ],
+    "hyperpotassemia": [
+      "E:cond:10"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:11"
+    ],
+    "diabetes mellitus without mention of complication, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:12"
+    ],
+    "diarrhea": [
+      "E:cond:13"
+    ],
+    "atrial fibrillation": [
+      "E:cond:14"
+    ],
+    "anemia in chronic kidney disease": [
+      "E:cond:15"
+    ],
+    "lumbago": [
+      "E:cond:16"
+    ],
+    "renal dialysis status": [
+      "E:cond:17"
+    ],
+    "continuous invasive mechanical ventilation for less than 96 consecutive hours": [
+      "E:proc:1",
+      "E:proc:4"
+    ],
+    "hemodialysis": [
+      "E:proc:2"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:3"
+    ],
+    "spinal tap": [
+      "E:proc:5"
+    ],
+    "59 yo male with dm, esrd on hd, dilated cardiomyopathy & htn presented to osh": [
+      "E:note:row619126:1"
+    ],
+    "hyperkalemia (high potassium, hyperpotassemia) assessment: k+ s/p hd from": [
+      "E:note:row619126:2"
+    ],
+    "u/o 0-10cc/hr.": [
+      "E:note:row619126:3"
+    ],
+    "having lrge amts diarrhea.": [
+      "E:note:row619126:4"
+    ],
+    "action: started on hd for just uf @ 1530.": [
+      "E:note:row619126:5"
+    ],
+    "response: k+ down to wnl s s/p hd.": [
+      "E:note:row619126:6"
+    ],
+    "plan: monitor k+ levels, perform hd or uf as needed.": [
+      "E:note:row619126:7"
+    ],
+    "airway, inability to protect (risk for aspiration, altered gag, airway cleara": [
+      "E:note:row619126:8"
+    ],
+    "suctioning mod amts thin rusty colored sputum with sediment noted.": [
+      "E:note:row619126:9"
+    ],
+    "l/s rhonchi to crackles @ bases.": [
+      "E:note:row619126:10"
+    ],
+    "cxr showing pulmonary edema.": [
+      "E:note:row619126:11"
+    ],
+    "last abg- 7.47/47/151/9/35 o2 sats 96-99%.": [
+      "E:note:row619126:12"
+    ],
+    "action: fentanyl and versed gtt s changed to propofol gtt, sputum spec sent f": [
+      "E:note:row619126:13"
+    ],
+    "able to decrease peep-8, and fio2-40% response: tolerating propofol gtt,": [
+      "E:note:row619126:14"
+    ],
+    "plan: monitor abg s, and o2 sats , qd cxr s, pulmonary toilet.": [
+      "E:note:row619126:15"
+    ],
+    "hypertension, benign assessment: bp- 140-170 s/70 s with hr-90-[**street a": [
+      "E:note:row619126:16"
+    ],
+    "with agitation bp s up to >200 s/90 and hr to 120 action: was started o": [
+      "E:note:row619126:17"
+    ],
+    "plan: monitor bp and hr, check lytes.": [
+      "E:note:row619126:18"
+    ],
+    "alteration in elimination related to diarrhea assessment: lrge amts of ext": [
+      "E:note:row619126:19"
+    ],
+    "hct-32.4.": [
+      "E:note:row619126:20"
+    ],
+    "also having lrge amts green ob neg bilious drainage from ogt.": [
+      "E:note:row619126:21"
+    ],
+    "[**last name (un) **] soft with +bs.": [
+      "E:note:row619126:22"
+    ],
+    "has flexi-seal tube in place.": [
+      "E:note:row619126:23"
+    ],
+    "action: stool sent for c-diff and c&s.": [
+      "E:note:row619126:24"
+    ],
+    "response: foul smelling diarrhea has slowed.": [
+      "E:note:row619126:25"
+    ],
+    "plan: monitor stooling amt, check c&s results.": [
+      "E:note:row619126:26"
+    ]
+  },
+  "by_date": {
+    "2169-12-26": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5"
+    ]
+  }
+}

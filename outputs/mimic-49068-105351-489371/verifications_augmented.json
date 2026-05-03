@@ -1,0 +1,207 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row489371:1"
+      ],
+      "rationale": "The evidence explicitly states the patient is a '69 yoM CAD'."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row489371:1"
+      ],
+      "rationale": "The evidence explicitly states the patient is 's/p CABG', which matches the claim."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row489371:1",
+        "E:note:row489371:4"
+      ],
+      "rationale": "The patient is explicitly listed as having DM in the medical history and the assessment section."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row489371:1"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has a decreased LVEF of 20-30%."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row489371:1"
+      ],
+      "rationale": "The evidence explicitly states the patient is 'on coumadin'."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list kidney failure, vascular disorders, and chronic kidney disease, but none specifically mention a spontaneous right or left kidney bleed."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row489371:2"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient 'got 2 units FFP'."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row489371:3"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is 96-97% on 6L n/c."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row489371:4"
+      ],
+      "rationale": "The candidate evidence explicitly lists Diabetes Mellitus (DM), Type I in the assessment."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row489371:4"
+      ],
+      "rationale": "The candidate evidence explicitly states 'FS 250-300' in the assessment section."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row489371:5"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Action: Insulin as per SS'."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row489371:6"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to administer the full dose of glargine in the am."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row489371:7"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Retroperitoneal bleed (RP bleed), spontaneous' in the assessment section."
+    },
+    {
+      "claim_id": "C15",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row489371:8"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient received 2 units of PRBC."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row489371:8",
+        "E:note:row489371:9"
+      ],
+      "rationale": "The candidates explicitly mention the administration and response to Dilaudid for pain."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row489371:9"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Hct this am 26.2', which matches the claim."
+    },
+    {
+      "claim_id": "C19",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the candidate evidence items mention a planned CT scan or a bleed."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row489371:10"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Renal failure, acute (Acute renal failure, ARF)' in the assessment."
+    },
+    {
+      "claim_id": "C21",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence refers to a heart failure diagnosis and does not contain any information regarding creatinine (Cr) lab results."
+    },
+    {
+      "claim_id": "C22",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row489371:11"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Cr 5.8 this am', matching the claim exactly."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:20",
+        "E:note:row489371:13"
+      ],
+      "rationale": "The claim is explicitly supported by both a structured condition record and a note sentence confirming the diagnosis of Atrial fibrillation."
+    },
+    {
+      "claim_id": "C25",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate conditions mention PVCs or ventricular tachycardia."
+    },
+    {
+      "claim_id": "C26",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided candidates contain conditions and general medication use (insulin, anticoagulants) but no mention of metoprolol."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row489371:15"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is 'Still having runs of vtach'."
+    }
+  ]
+}

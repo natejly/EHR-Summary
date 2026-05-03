@@ -1,0 +1,143 @@
+{
+  "case_id": "mimic-60919-137122-477434",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2758,
+    "summary_chars": 1305,
+    "target_min_chars": 551,
+    "target_max_chars": 827,
+    "achieved_ratio": 0.47316896301667877,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 17,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row477434:1",
+      "E:note:row477434:10",
+      "E:note:row477434:11",
+      "E:note:row477434:12",
+      "E:note:row477434:16",
+      "E:note:row477434:19",
+      "E:note:row477434:20",
+      "E:note:row477434:27",
+      "E:note:row477434:28",
+      "E:note:row477434:3",
+      "E:note:row477434:33",
+      "E:note:row477434:37",
+      "E:note:row477434:39",
+      "E:note:row477434:41",
+      "E:note:row477434:8",
+      "E:note:row477434:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "HCV/hepatitis [E:note:row477434:1].",
+        "severity": "medium",
+        "reason": "The fact sheet does not mention HCV or hepatitis; it only lists alcohol dependence and cirrhosis."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Hepatic encephalopathy [E:cond:2], portal hypertension [E:cond:8], alcoholic cirrhosis [E:cond:9], and HCV/hepatitis [E:note:row477434:1].",
+        "suggested": "Hepatic encephalopathy [E:cond:2], portal hypertension [E:cond:8], and alcoholic cirrhosis [E:cond:9].",
+        "reason": "Removed HCV/hepatitis as it is not supported by the provided fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-60919-137122-477434/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.72,
+    "fk_words": 186,
+    "fk_sentences": 29,
+    "fk_syllables": 328,
+    "chars": 1939,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-60919-137122-477434/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0018311659805476665,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 250.64117262500804,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 107.2051001249929,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0020539170363917947,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 24.77279424999142,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 33.79469654202694,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0032185420277528465,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 6.1359066250151955,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

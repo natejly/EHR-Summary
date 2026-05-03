@@ -1,0 +1,1449 @@
+{
+  "case_id": "mimic-66714-150541-472627",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:enc-150541",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Subendocardial infarction, initial episode of care",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41071",
+        "display": "Subendocardial infarction, initial episode of care"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Ventilator associated pneumonia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99731",
+        "display": "Ventilator associated pneumonia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute on chronic diastolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42833",
+        "display": "Acute on chronic diastolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Mixed acid-base balance disorder",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2764",
+        "display": "Mixed acid-base balance disorder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Hyperosmolality and/or hypernatremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2760",
+        "display": "Hyperosmolality and/or hypernatremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of native coronary artery",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41401",
+        "display": "Coronary atherosclerosis of native coronary artery"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Encounter for palliative care",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V667",
+        "display": "Encounter for palliative care"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Sarcoidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "135",
+        "display": "Sarcoidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Chronic airway obstruction, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "496",
+        "display": "Chronic airway obstruction, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Other chronic pulmonary heart diseases",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4168",
+        "display": "Other chronic pulmonary heart diseases"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Cardiac pacemaker in situ",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4501",
+        "display": "Cardiac pacemaker in situ"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Diabetes with neurological manifestations, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25060",
+        "display": "Diabetes with neurological manifestations, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Polyneuropathy in diabetes",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3572",
+        "display": "Polyneuropathy in diabetes"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Fever, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78060",
+        "display": "Fever, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Other specified antibiotics causing adverse effects in therapeutic use",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E9308",
+        "display": "Other specified antibiotics causing adverse effects in therapeutic use"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Cephalosporin group causing adverse effects in therapeutic use",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E9305",
+        "display": "Cephalosporin group causing adverse effects in therapeutic use"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Hypotension, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4589",
+        "display": "Hypotension, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Foreign body in larynx",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9331",
+        "display": "Foreign body in larynx"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Foreign body accidentally entering other orifice",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E915",
+        "display": "Foreign body accidentally entering other orifice"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:25",
+      "kind": "condition",
+      "display": "Nonspecific abnormal findings in stool contents",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7921",
+        "display": "Nonspecific abnormal findings in stool contents"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-25",
+      "text": null
+    },
+    {
+      "id": "E:cond:26",
+      "kind": "condition",
+      "display": "Unspecified acquired hypothyroidism",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2449",
+        "display": "Unspecified acquired hypothyroidism"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-26",
+      "text": null
+    },
+    {
+      "id": "E:cond:27",
+      "kind": "condition",
+      "display": "Other and unspecified hyperlipidemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2724",
+        "display": "Other and unspecified hyperlipidemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-27",
+      "text": null
+    },
+    {
+      "id": "E:cond:28",
+      "kind": "condition",
+      "display": "Depressive disorder, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "311",
+        "display": "Depressive disorder, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-28",
+      "text": null
+    },
+    {
+      "id": "E:cond:29",
+      "kind": "condition",
+      "display": "Esophageal reflux",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53081",
+        "display": "Esophageal reflux"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-29",
+      "text": null
+    },
+    {
+      "id": "E:cond:30",
+      "kind": "condition",
+      "display": "Enlargement of lymph nodes",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7856",
+        "display": "Enlargement of lymph nodes"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-30",
+      "text": null
+    },
+    {
+      "id": "E:cond:31",
+      "kind": "condition",
+      "display": "Swelling of limb",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "72981",
+        "display": "Swelling of limb"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-31",
+      "text": null
+    },
+    {
+      "id": "E:cond:32",
+      "kind": "condition",
+      "display": "Anemia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2859",
+        "display": "Anemia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-32",
+      "text": null
+    },
+    {
+      "id": "E:cond:33",
+      "kind": "condition",
+      "display": "Other postprocedural status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4589",
+        "display": "Other postprocedural status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:cond-150541-33",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Percutaneous transluminal coronary angioplasty [PTCA]",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous transluminal coronary angioplasty [PTCA]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:proc-150541-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Insertion of non-drug-eluting coronary artery stent(s)",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of non-drug-eluting coronary artery stent(s)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:proc-150541-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Combined right and left heart cardiac catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Combined right and left heart cardiac catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:proc-150541-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Insertion of one vascular stent",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of one vascular stent"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:proc-150541-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Procedure on single vessel",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Procedure on single vessel"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:proc-150541-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Coronary arteriography using two catheters",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Coronary arteriography using two catheters"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:proc-150541-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Other electric countershock of heart",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other electric countershock of heart"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:proc-150541-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:proc-150541-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:proc-150541-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:proc-150541-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:proc-150541-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Diagnostic ultrasound of heart",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Diagnostic ultrasound of heart"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:proc-150541-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Transfusion of packed cells",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of packed cells"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2182-07-16",
+      "source_ref": "urn:uuid:proc-150541-13",
+      "text": null
+    },
+    {
+      "id": "E:note:row472627:1",
+      "kind": "note_sentence",
+      "display": "72 yo female with h/o DM, HTN, HLD, longstanding sarcoid on home O2,    newly di",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s1",
+      "text": "72 yo female with h/o DM, HTN, HLD, longstanding sarcoid on home O2,    newly diagnosed paroxysmal Afib ([**7-4**]) s/p DDD pacemaker placement    secondary to CHB on [**2182-5-25**], who presented to the ED [**7-15**] with AF and    flash."
+    },
+    {
+      "id": "E:note:row472627:2",
+      "kind": "note_sentence",
+      "display": "Required intubation at OSH.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s2",
+      "text": "Required intubation at OSH."
+    },
+    {
+      "id": "E:note:row472627:3",
+      "kind": "note_sentence",
+      "display": "CK elevated.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s3",
+      "text": "CK elevated."
+    },
+    {
+      "id": "E:note:row472627:4",
+      "kind": "note_sentence",
+      "display": "Transferred to [**Hospital1 3476**] for cath [**7-16**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s4",
+      "text": "Transferred to [**Hospital1 3476**] for cath [**7-16**]."
+    },
+    {
+      "id": "E:note:row472627:5",
+      "kind": "note_sentence",
+      "display": "BMS to mLAD .  in/out of Afib during    cath.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s5",
+      "text": "BMS to mLAD .  in/out of Afib during    cath."
+    },
+    {
+      "id": "E:note:row472627:6",
+      "kind": "note_sentence",
+      "display": "Right fem.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s6",
+      "text": "Right fem."
+    },
+    {
+      "id": "E:note:row472627:7",
+      "kind": "note_sentence",
+      "display": "Sheaths d/c d (minx closure) post cath.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s7",
+      "text": "Sheaths d/c d (minx closure) post cath."
+    },
+    {
+      "id": "E:note:row472627:8",
+      "kind": "note_sentence",
+      "display": "Transferred on Heparin and integrillin.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s8",
+      "text": "Transferred on Heparin and integrillin."
+    },
+    {
+      "id": "E:note:row472627:9",
+      "kind": "note_sentence",
+      "display": "INR elevated on transfer->    heparin d/c    Post cath CCU- Afib/RVR 130 s.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s9",
+      "text": "INR elevated on transfer->    heparin d/c    Post cath CCU- Afib/RVR 130 s."
+    },
+    {
+      "id": "E:note:row472627:10",
+      "kind": "note_sentence",
+      "display": "CDV x1  without success.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s10",
+      "text": "CDV x1  without success."
+    },
+    {
+      "id": "E:note:row472627:11",
+      "kind": "note_sentence",
+      "display": "Returned to    Afib.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s11",
+      "text": "Returned to    Afib."
+    },
+    {
+      "id": "E:note:row472627:12",
+      "kind": "note_sentence",
+      "display": "Rec d amio bolus 150mg x1.  propofol changed to fent/versed d/t    hypotension.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s12",
+      "text": "Rec d amio bolus 150mg x1.  propofol changed to fent/versed d/t    hypotension."
+    },
+    {
+      "id": "E:note:row472627:13",
+      "kind": "note_sentence",
+      "display": "Myocardial infarction, acute (AMI, STEMI, NSTEMI)    Assessment:    CK neg.   s/",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s13",
+      "text": "Myocardial infarction, acute (AMI, STEMI, NSTEMI)    Assessment:    CK neg.   s/p cath BMS to mLAD."
+    },
+    {
+      "id": "E:note:row472627:14",
+      "kind": "note_sentence",
+      "display": "K+ 3.7    Integrillin 2mcq/k/min    ASA allergy    right fem.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s14",
+      "text": "K+ 3.7    Integrillin 2mcq/k/min    ASA allergy    right fem."
+    },
+    {
+      "id": "E:note:row472627:15",
+      "kind": "note_sentence",
+      "display": "Cath site with minx closure- some oozing.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s15",
+      "text": "Cath site with minx closure- some oozing."
+    },
+    {
+      "id": "E:note:row472627:16",
+      "kind": "note_sentence",
+      "display": "TEE done    Action:    ASA desensitization started at 1430    KCL repleted.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s16",
+      "text": "TEE done    Action:    ASA desensitization started at 1430    KCL repleted."
+    },
+    {
+      "id": "E:note:row472627:17",
+      "kind": "note_sentence",
+      "display": "Integrellin d/c when 81 mg asa given    Response:    No adverse reaction to ASA,",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s17",
+      "text": "Integrellin d/c when 81 mg asa given    Response:    No adverse reaction to ASA, F/U labs pnd    Plan:     162 mg ASA to be given at 1830, 325 mg ASA to be given 3 hr later at    2130    Atrial fibrillation (Afib)    Assessment:    Pt remains in sinus rhythm rate 80-110, no vea."
+    },
+    {
+      "id": "E:note:row472627:18",
+      "kind": "note_sentence",
+      "display": "Action:    Diltiazem gtt d/c at 0830, continues on Diltiazem PO 60 mg qid    Res",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s18",
+      "text": "Action:    Diltiazem gtt d/c at 0830, continues on Diltiazem PO 60 mg qid    Response:    Remains in sinus rhythm    Plan:    Monitor rhythm, BP."
+    },
+    {
+      "id": "E:note:row472627:19",
+      "kind": "note_sentence",
+      "display": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 11**])    Assessment:  ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s19",
+      "text": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 11**])    Assessment:    Initially on AC40%/450/18/40%    Action:    Vent changed to pressure support, initially [**5-5**], then [**4-30**].l Suctioned    for mod, lg amts thick, tan secretions."
+    },
+    {
+      "id": "E:note:row472627:20",
+      "kind": "note_sentence",
+      "display": "Response:    ABG 7.36/56/63  on [**4-30**].36/56/63 on [**9-30**] w/ 50% fio2   ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s20",
+      "text": "Response:    ABG 7.36/56/63  on [**4-30**].36/56/63 on [**9-30**] w/ 50% fio2    Plan:    Placed back on AC,  50%/ 450/18/8 peep    Fever, unknown origin (FUO, Hyperthermia, Pyrexia)    Assessment:    TM 100.0,    Action:    Pan cultured (BC x2sets, urine, sputum sent)."
+    },
+    {
+      "id": "E:note:row472627:21",
+      "kind": "note_sentence",
+      "display": "Started AB-  dose of vanco, cefipime and flagyl given    Response:    Temp down ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s21",
+      "text": "Started AB-  dose of vanco, cefipime and flagyl given    Response:    Temp down to 98.6Ax by 0200.  skin warm/dry."
+    },
+    {
+      "id": "E:note:row472627:22",
+      "kind": "note_sentence",
+      "display": "Plan:    Follow cultures, temp.  antibiotics.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s22",
+      "text": "Plan:    Follow cultures, temp.  antibiotics."
+    },
+    {
+      "id": "E:note:row472627:23",
+      "kind": "note_sentence",
+      "display": "Neuro:  pt. awake, trying to sit up and restless in the bed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s23",
+      "text": "Neuro:  pt. awake, trying to sit up and restless in the bed."
+    },
+    {
+      "id": "E:note:row472627:24",
+      "kind": "note_sentence",
+      "display": "Straining    against wrist restraints.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s24",
+      "text": "Straining    against wrist restraints."
+    },
+    {
+      "id": "E:note:row472627:25",
+      "kind": "note_sentence",
+      "display": "Fent/versed for sedation.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s25",
+      "text": "Fent/versed for sedation."
+    },
+    {
+      "id": "E:note:row472627:26",
+      "kind": "note_sentence",
+      "display": "Fent.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s26",
+      "text": "Fent."
+    },
+    {
+      "id": "E:note:row472627:27",
+      "kind": "note_sentence",
+      "display": "Titrated up    to high of 75mcq/hr- currently at 65mcq.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s27",
+      "text": "Titrated up    to high of 75mcq/hr- currently at 65mcq."
+    },
+    {
+      "id": "E:note:row472627:28",
+      "kind": "note_sentence",
+      "display": "Versed titrated up to    3mg/hr.  requiring occas. boluses to maintain comfort.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s28",
+      "text": "Versed titrated up to    3mg/hr.  requiring occas. boluses to maintain comfort."
+    },
+    {
+      "id": "E:note:row472627:29",
+      "kind": "note_sentence",
+      "display": "When awake, pt. nods approp.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s29",
+      "text": "When awake, pt. nods approp."
+    },
+    {
+      "id": "E:note:row472627:30",
+      "kind": "note_sentence",
+      "display": "And follows commands to squeeze hands    etc.  moves all extrem.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s30",
+      "text": "And follows commands to squeeze hands    etc.  moves all extrem."
+    },
+    {
+      "id": "E:note:row472627:31",
+      "kind": "note_sentence",
+      "display": "GI:  NPO except meds.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s31",
+      "text": "GI:  NPO except meds."
+    },
+    {
+      "id": "E:note:row472627:32",
+      "kind": "note_sentence",
+      "display": "NGT clamped.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row472627#s32",
+      "text": "NGT clamped."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|41071": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99731": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42833": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2764": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2760": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41401": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V667": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|135": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42731": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|496": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4168": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4501": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25060": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3572": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78060": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E9308": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E9305": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4589": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|9331": [
+      "E:cond:23"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E915": [
+      "E:cond:24"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7921": [
+      "E:cond:25"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2449": [
+      "E:cond:26"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2724": [
+      "E:cond:27"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|311": [
+      "E:cond:28"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|53081": [
+      "E:cond:29"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7856": [
+      "E:cond:30"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|72981": [
+      "E:cond:31"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2859": [
+      "E:cond:32"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4589": [
+      "E:cond:33"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "subendocardial infarction, initial episode of care": [
+      "E:cond:1"
+    ],
+    "acute respiratory failure": [
+      "E:cond:2"
+    ],
+    "ventilator associated pneumonia": [
+      "E:cond:3"
+    ],
+    "acute on chronic diastolic heart failure": [
+      "E:cond:4"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:5"
+    ],
+    "mixed acid-base balance disorder": [
+      "E:cond:6"
+    ],
+    "hyperosmolality and/or hypernatremia": [
+      "E:cond:7"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:8"
+    ],
+    "coronary atherosclerosis of native coronary artery": [
+      "E:cond:9"
+    ],
+    "encounter for palliative care": [
+      "E:cond:10"
+    ],
+    "sarcoidosis": [
+      "E:cond:11"
+    ],
+    "atrial fibrillation": [
+      "E:cond:12"
+    ],
+    "chronic airway obstruction, not elsewhere classified": [
+      "E:cond:13"
+    ],
+    "other chronic pulmonary heart diseases": [
+      "E:cond:14"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:15"
+    ],
+    "cardiac pacemaker in situ": [
+      "E:cond:16"
+    ],
+    "diabetes with neurological manifestations, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:17"
+    ],
+    "polyneuropathy in diabetes": [
+      "E:cond:18"
+    ],
+    "fever, unspecified": [
+      "E:cond:19"
+    ],
+    "other specified antibiotics causing adverse effects in therapeutic use": [
+      "E:cond:20"
+    ],
+    "cephalosporin group causing adverse effects in therapeutic use": [
+      "E:cond:21"
+    ],
+    "hypotension, unspecified": [
+      "E:cond:22"
+    ],
+    "foreign body in larynx": [
+      "E:cond:23"
+    ],
+    "foreign body accidentally entering other orifice": [
+      "E:cond:24"
+    ],
+    "nonspecific abnormal findings in stool contents": [
+      "E:cond:25"
+    ],
+    "unspecified acquired hypothyroidism": [
+      "E:cond:26"
+    ],
+    "other and unspecified hyperlipidemia": [
+      "E:cond:27"
+    ],
+    "depressive disorder, not elsewhere classified": [
+      "E:cond:28"
+    ],
+    "esophageal reflux": [
+      "E:cond:29"
+    ],
+    "enlargement of lymph nodes": [
+      "E:cond:30"
+    ],
+    "swelling of limb": [
+      "E:cond:31"
+    ],
+    "anemia, unspecified": [
+      "E:cond:32"
+    ],
+    "other postprocedural status": [
+      "E:cond:33"
+    ],
+    "percutaneous transluminal coronary angioplasty [ptca]": [
+      "E:proc:1"
+    ],
+    "insertion of non-drug-eluting coronary artery stent(s)": [
+      "E:proc:2"
+    ],
+    "combined right and left heart cardiac catheterization": [
+      "E:proc:3"
+    ],
+    "insertion of one vascular stent": [
+      "E:proc:4"
+    ],
+    "procedure on single vessel": [
+      "E:proc:5"
+    ],
+    "coronary arteriography using two catheters": [
+      "E:proc:6"
+    ],
+    "other electric countershock of heart": [
+      "E:proc:7"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:8"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:9"
+    ],
+    "arterial catheterization": [
+      "E:proc:10"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:11"
+    ],
+    "diagnostic ultrasound of heart": [
+      "E:proc:12"
+    ],
+    "transfusion of packed cells": [
+      "E:proc:13"
+    ],
+    "72 yo female with h/o dm, htn, hld, longstanding sarcoid on home o2, newly di": [
+      "E:note:row472627:1"
+    ],
+    "required intubation at osh.": [
+      "E:note:row472627:2"
+    ],
+    "ck elevated.": [
+      "E:note:row472627:3"
+    ],
+    "transferred to [**hospital1 3476**] for cath [**7-16**].": [
+      "E:note:row472627:4"
+    ],
+    "bms to mlad . in/out of afib during cath.": [
+      "E:note:row472627:5"
+    ],
+    "right fem.": [
+      "E:note:row472627:6"
+    ],
+    "sheaths d/c d (minx closure) post cath.": [
+      "E:note:row472627:7"
+    ],
+    "transferred on heparin and integrillin.": [
+      "E:note:row472627:8"
+    ],
+    "inr elevated on transfer-> heparin d/c post cath ccu- afib/rvr 130 s.": [
+      "E:note:row472627:9"
+    ],
+    "cdv x1 without success.": [
+      "E:note:row472627:10"
+    ],
+    "returned to afib.": [
+      "E:note:row472627:11"
+    ],
+    "rec d amio bolus 150mg x1. propofol changed to fent/versed d/t hypotension.": [
+      "E:note:row472627:12"
+    ],
+    "myocardial infarction, acute (ami, stemi, nstemi) assessment: ck neg. s/": [
+      "E:note:row472627:13"
+    ],
+    "k+ 3.7 integrillin 2mcq/k/min asa allergy right fem.": [
+      "E:note:row472627:14"
+    ],
+    "cath site with minx closure- some oozing.": [
+      "E:note:row472627:15"
+    ],
+    "tee done action: asa desensitization started at 1430 kcl repleted.": [
+      "E:note:row472627:16"
+    ],
+    "integrellin d/c when 81 mg asa given response: no adverse reaction to asa,": [
+      "E:note:row472627:17"
+    ],
+    "action: diltiazem gtt d/c at 0830, continues on diltiazem po 60 mg qid res": [
+      "E:note:row472627:18"
+    ],
+    "respiratory failure, acute (not ards/[**doctor last name 11**]) assessment:": [
+      "E:note:row472627:19"
+    ],
+    "response: abg 7.36/56/63 on [**4-30**].36/56/63 on [**9-30**] w/ 50% fio2": [
+      "E:note:row472627:20"
+    ],
+    "started ab- dose of vanco, cefipime and flagyl given response: temp down": [
+      "E:note:row472627:21"
+    ],
+    "plan: follow cultures, temp. antibiotics.": [
+      "E:note:row472627:22"
+    ],
+    "neuro: pt. awake, trying to sit up and restless in the bed.": [
+      "E:note:row472627:23"
+    ],
+    "straining against wrist restraints.": [
+      "E:note:row472627:24"
+    ],
+    "fent/versed for sedation.": [
+      "E:note:row472627:25"
+    ],
+    "fent.": [
+      "E:note:row472627:26"
+    ],
+    "titrated up to high of 75mcq/hr- currently at 65mcq.": [
+      "E:note:row472627:27"
+    ],
+    "versed titrated up to 3mg/hr. requiring occas. boluses to maintain comfort.": [
+      "E:note:row472627:28"
+    ],
+    "when awake, pt. nods approp.": [
+      "E:note:row472627:29"
+    ],
+    "and follows commands to squeeze hands etc. moves all extrem.": [
+      "E:note:row472627:30"
+    ],
+    "gi: npo except meds.": [
+      "E:note:row472627:31"
+    ],
+    "ngt clamped.": [
+      "E:note:row472627:32"
+    ]
+  },
+  "by_date": {
+    "2182-07-16": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:29",
+      "E:cond:30",
+      "E:cond:31",
+      "E:cond:32",
+      "E:cond:33",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13"
+    ]
+  }
+}

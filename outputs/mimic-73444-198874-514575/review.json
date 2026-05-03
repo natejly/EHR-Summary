@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Subendocardial infarction [E:cond:1], NSTEMI [E:note:row514575:7], acute respiratory failure [E:cond:2], acute on chronic systolic HF [E:cond:3], cerebral embolism [E:cond:4], pneumonitis [E:cond:5], alcohol withdrawal delirium [E:cond:9], and T2DM [E:cond:10].",
+      "severity": "medium",
+      "reason": "The summary includes 'NSTEMI' which is not present in the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Subendocardial infarction [E:cond:1], NSTEMI [E:note:row514575:7], acute respiratory failure [E:cond:2], acute on chronic systolic HF [E:cond:3], cerebral embolism [E:cond:4], pneumonitis [E:cond:5], alcohol withdrawal delirium [E:cond:9], and T2DM [E:cond:10].",
+      "suggested": "Subendocardial infarction [E:cond:1], acute respiratory failure [E:cond:2], acute on chronic systolic HF [E:cond:3], cerebral embolism [E:cond:4], pneumonitis [E:cond:5], alcohol withdrawal delirium [E:cond:9], and T2DM [E:cond:10].",
+      "reason": "Removed NSTEMI as it is not supported by the provided fact sheet."
+    }
+  ]
+}

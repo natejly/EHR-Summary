@@ -1,0 +1,135 @@
+{
+  "case_id": "mimic-85999-134661-689561",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 3348,
+    "summary_chars": 1490,
+    "target_min_chars": 669,
+    "target_max_chars": 1004,
+    "achieved_ratio": 0.44504181600955794,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 12,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:2",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:27",
+      "E:cond:29",
+      "E:cond:3",
+      "E:cond:30",
+      "E:cond:31",
+      "E:cond:32",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:9",
+      "E:note:row689561:12",
+      "E:note:row689561:16",
+      "E:note:row689561:18",
+      "E:note:row689561:19",
+      "E:note:row689561:27",
+      "E:note:row689561:31",
+      "E:note:row689561:5",
+      "E:note:row689561:6",
+      "E:note:row689561:7",
+      "E:note:row689561:8",
+      "E:note:row689561:9"
+    ]
+  },
+  "review": {
+    "concerns": [],
+    "recommended_revisions": []
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
+  "revised_summary": null,
+  "revised_check_passed": null,
+  "patient_summary": {
+    "fk_grade": 7.07,
+    "fk_words": 200,
+    "fk_sentences": 22,
+    "fk_syllables": 324,
+    "chars": 1792,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-85999-134661-689561/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.007430540979839861,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 109.24688375002006,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 64.78774979198352,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.001961791014764458,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 57.79007925000042,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 31.726897082990035,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.002703542006202042,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 59.3925135830068,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

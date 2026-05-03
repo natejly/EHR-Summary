@@ -1,0 +1,26 @@
+{
+  "concerns": [
+    {
+      "sentence": "Pneumonia [E:cond:1], HCV cirrhosis with hepatic coma [E:cond:2][E:note:row417636:9], hepatic encephalopathy [E:note:row417636:10], and HCC [E:cond:5][E:note:row417636:9] [E:cond:10].",
+      "severity": "medium",
+      "reason": "The summary labels E:cond:10 as HCC, but the fact sheet defines E:cond:10 as 'Cirrhosis of liver without mention of alcohol'."
+    },
+    {
+      "sentence": "Patient is somnolent, non-verbal, and lethargic [E:note:row417636:5][E:note:row417636:7][E:note:row417636:10][E:note:row417636:11].",
+      "severity": "medium",
+      "reason": "These clinical observations are not present in the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Pneumonia [E:cond:1], HCV cirrhosis with hepatic coma [E:cond:2][E:note:row417636:9], hepatic encephalopathy [E:note:row417636:10], and HCC [E:cond:5][E:note:row417636:9] [E:cond:10].",
+      "suggested": "Pneumonia [E:cond:1], HCV cirrhosis with hepatic coma [E:cond:2][E:note:row417636:9], hepatic encephalopathy [E:note:row417636:10], HCC [E:cond:5][E:note:row417636:9], and cirrhosis of liver [E:cond:10].",
+      "reason": "Corrects the misattribution of E:cond:10 to HCC."
+    },
+    {
+      "original": "Patient is somnolent, non-verbal, and lethargic [E:note:row417636:5][E:note:row417636:7][E:note:row417636:10][E:note:row417636:11].",
+      "suggested": "",
+      "reason": "Remove sentence as it contains information not supported by the provided fact sheet."
+    }
+  ]
+}

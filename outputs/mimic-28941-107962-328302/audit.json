@@ -1,0 +1,138 @@
+{
+  "case_id": "mimic-28941-107962-328302",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2394,
+    "summary_chars": 877,
+    "target_min_chars": 478,
+    "target_max_chars": 718,
+    "achieved_ratio": 0.3663324979114453,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 12,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:16",
+      "E:cond:18",
+      "E:cond:2",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:29",
+      "E:cond:3",
+      "E:cond:30",
+      "E:cond:38",
+      "E:cond:39",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row328302:1",
+      "E:proc:13"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Acute respiratory failure [E:cond:3][E:note:row328302:1].",
+        "severity": "low",
+        "reason": "Citation E:note:row328302:1 is not present in the provided fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Acute respiratory failure [E:cond:3][E:note:row328302:1].",
+        "suggested": "Acute respiratory failure [E:cond:3].",
+        "reason": "Remove citation not found in the fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 0,
+    "low": 1
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-28941-107962-328302/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 8.02,
+    "fk_words": 204,
+    "fk_sentences": 14,
+    "fk_syllables": 310,
+    "chars": 1464,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-28941-107962-328302/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0021647089743055403,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 153.42827695800224,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 79.98897587496322,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0027123340405523777,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 10.44379074999597,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 8.429754332988523,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.001528874970972538,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 3.8592299169977196,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

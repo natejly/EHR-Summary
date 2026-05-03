@@ -1,0 +1,393 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:1",
+        "E:note:row523651:16"
+      ],
+      "rationale": "Both candidates explicitly state the patient has COPD."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:1"
+      ],
+      "rationale": "The evidence explicitly states the patient was admitted with PNA."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:1",
+        "E:note:row523651:7"
+      ],
+      "rationale": "Both candidates explicitly state the patient has CAD (Coronary artery disease)."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:1",
+        "E:note:row523651:7"
+      ],
+      "rationale": "Both candidates explicitly state the patient has an NSTEMI during this admission."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:2"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient underwent a Pelvic ORIF on 1-14."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:3",
+        "E:note:row523651:4"
+      ],
+      "rationale": "Both candidates explicitly state the patient was admitted with CP."
+    },
+    {
+      "claim_id": "C7",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C8",
+      "status": "contradicted",
+      "evidence_ids": [
+        "E:note:row523651:1",
+        "E:note:row523651:7"
+      ],
+      "rationale": "The evidence explicitly states the patient has an NSTEMI (a type of MI) this admission, contradicting the claim that MI was ruled out."
+    },
+    {
+      "claim_id": "C9",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate conditions mention pulmonary embolism (PE) or its exclusion."
+    },
+    {
+      "claim_id": "C10",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:4"
+      ],
+      "rationale": "The evidence explicitly states the patient was admitted with dyspnea."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:4"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was admitted on 4-6 with CP/Dyspnea."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:4"
+      ],
+      "rationale": "The evidence explicitly states the patient was given ntg on 4-6."
+    },
+    {
+      "claim_id": "C14",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:4"
+      ],
+      "rationale": "The evidence explicitly states that BiPAP was given on 4-6."
+    },
+    {
+      "claim_id": "C15",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence consists of procedure records for stent insertions and contains no information regarding lab results or CE levels."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:proc:8",
+        "E:note:row523651:5"
+      ],
+      "rationale": "Both the procedure record and the note sentence confirm a cardiac catheterization occurred on 4-7."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:5"
+      ],
+      "rationale": "The candidate evidence explicitly states that on 4-7, a cardiac cath was performed with LCx DES placed."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:5"
+      ],
+      "rationale": "The evidence explicitly states that RCA stenting was performed during the cardiac cath on 4-7."
+    },
+    {
+      "claim_id": "C19",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:6"
+      ],
+      "rationale": "The evidence explicitly states the patient arrived in the CCU post-procedure in respiratory distress."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:6",
+        "E:note:row523651:12"
+      ],
+      "rationale": "Both candidates explicitly state that the patient required or underwent intubation post-procedure."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:7"
+      ],
+      "rationale": "The candidate evidence explicitly lists Coronary artery disease (CAD, ischemic heart disease) in the assessment section."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:1",
+        "E:note:row523651:7"
+      ],
+      "rationale": "Both candidates explicitly state the patient has a diagnosis of NSTEMI during the current admission."
+    },
+    {
+      "claim_id": "C24",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "While E:proc:8 confirms a cardiac catheterization on the correct date, there is no mention of DES (drug-eluting stents) or the OM (obtuse marginal artery)."
+    },
+    {
+      "claim_id": "C25",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:8"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Low HCT', which matches the claim."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:9"
+      ],
+      "rationale": "The evidence explicitly lists asa as part of the patient's medication management."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:9"
+      ],
+      "rationale": "The evidence explicitly lists plavix as part of the patient's medication management."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:9"
+      ],
+      "rationale": "The evidence explicitly lists statin as part of the patient's medication management."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:10"
+      ],
+      "rationale": "The candidate evidence explicitly states that 1 unit of PRBC was transfused this pm."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:10"
+      ],
+      "rationale": "The evidence explicitly states the patient had an HCT of 24.8 this pm."
+    },
+    {
+      "claim_id": "C32",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:11"
+      ],
+      "rationale": "The candidate evidence explicitly lists the diagnosis 'Respiratory failure, acute (not ARDS/[**Doctor Last Name 11**])'."
+    },
+    {
+      "claim_id": "C34",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C35",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:1",
+        "E:note:row523651:17"
+      ],
+      "rationale": "The patient is explicitly stated to be admitted with PNA and is receiving antibiotics for PNA."
+    },
+    {
+      "claim_id": "C36",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:18"
+      ],
+      "rationale": "The evidence explicitly mentions the administration of lasix for CHF."
+    },
+    {
+      "claim_id": "C37",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:12"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient had multiple episodes of hemoptysis prior to intubation on [**4-7**]."
+    },
+    {
+      "claim_id": "C38",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:13"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has a remote family history of TB."
+    },
+    {
+      "claim_id": "C39",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:14"
+      ],
+      "rationale": "The candidate evidence explicitly states that the CXray showed RUL consolidation."
+    },
+    {
+      "claim_id": "C40",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C41",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C42",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:15"
+      ],
+      "rationale": "The evidence explicitly lists 'Chest CT this am' as an action."
+    },
+    {
+      "claim_id": "C43",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:15"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Bedside bronch this afternoon' as an action."
+    },
+    {
+      "claim_id": "C44",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:16"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'po steroids' as one of the patient's medications."
+    },
+    {
+      "claim_id": "C45",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:16"
+      ],
+      "rationale": "The evidence explicitly lists albuterol via vent as one of the patient's medications."
+    },
+    {
+      "claim_id": "C46",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:17"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is receiving IV abx (vanco and zosyn)."
+    },
+    {
+      "claim_id": "C47",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C48",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:20"
+      ],
+      "rationale": "The candidate evidence exactly matches the claim text regarding the plan for TB isolation precautions."
+    },
+    {
+      "claim_id": "C49",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row523651:21"
+      ],
+      "rationale": "The candidate evidence explicitly states to 'Continue prednisone taper'."
+    },
+    {
+      "claim_id": "C50",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C51",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    }
+  ]
+}

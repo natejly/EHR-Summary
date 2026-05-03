@@ -1,0 +1,684 @@
+{
+  "case_id": "mimic-67512-105739-511563",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2184-01-17",
+      "source_ref": "urn:uuid:enc-105739",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Other chronic pulmonary heart diseases",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4168",
+        "display": "Other chronic pulmonary heart diseases"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2184-01-17",
+      "source_ref": "urn:uuid:cond-105739-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2184-01-17",
+      "source_ref": "urn:uuid:cond-105739-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Diastolic heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42830",
+        "display": "Diastolic heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2184-01-17",
+      "source_ref": "urn:uuid:cond-105739-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "End stage renal disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5856",
+        "display": "End stage renal disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2184-01-17",
+      "source_ref": "urn:uuid:cond-105739-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "40391",
+        "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2184-01-17",
+      "source_ref": "urn:uuid:cond-105739-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Other ascites",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78959",
+        "display": "Other ascites"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2184-01-17",
+      "source_ref": "urn:uuid:cond-105739-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Unspecified viral hepatitis C without hepatic coma",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "07070",
+        "display": "Unspecified viral hepatitis C without hepatic coma"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2184-01-17",
+      "source_ref": "urn:uuid:cond-105739-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Cirrhosis of liver without mention of alcohol",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5715",
+        "display": "Cirrhosis of liver without mention of alcohol"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2184-01-17",
+      "source_ref": "urn:uuid:cond-105739-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2184-01-17",
+      "source_ref": "urn:uuid:cond-105739-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Hyperpotassemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2767",
+        "display": "Hyperpotassemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2184-01-17",
+      "source_ref": "urn:uuid:cond-105739-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Asymptomatic human immunodeficiency virus [HIV] infection status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V08",
+        "display": "Asymptomatic human immunodeficiency virus [HIV] infection status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2184-01-17",
+      "source_ref": "urn:uuid:cond-105739-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Obstructive sleep apnea (adult)(pediatric)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "32723",
+        "display": "Obstructive sleep apnea (adult)(pediatric)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2184-01-17",
+      "source_ref": "urn:uuid:cond-105739-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Pure hypercholesterolemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2720",
+        "display": "Pure hypercholesterolemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2184-01-17",
+      "source_ref": "urn:uuid:cond-105739-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Depressive disorder, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "311",
+        "display": "Depressive disorder, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2184-01-17",
+      "source_ref": "urn:uuid:cond-105739-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Esophageal reflux",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53081",
+        "display": "Esophageal reflux"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2184-01-17",
+      "source_ref": "urn:uuid:cond-105739-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Morbid obesity",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "27801",
+        "display": "Morbid obesity"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2184-01-17",
+      "source_ref": "urn:uuid:cond-105739-16",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Hemodialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Hemodialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2184-01-17",
+      "source_ref": "urn:uuid:proc-105739-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Venous catheterization for renal dialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization for renal dialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2184-01-17",
+      "source_ref": "urn:uuid:proc-105739-2",
+      "text": null
+    },
+    {
+      "id": "E:note:row511563:1",
+      "kind": "note_sentence",
+      "display": "58 yo male with HIV, PHTN, Hep C cirrhosis, OSA, DM, CHF.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row511563#s1",
+      "text": "58 yo male with HIV, PHTN, Hep C cirrhosis, OSA, DM, CHF."
+    },
+    {
+      "id": "E:note:row511563:2",
+      "kind": "note_sentence",
+      "display": "P/w    increasing DOE over the past 2-3 weeks.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row511563#s2",
+      "text": "P/w    increasing DOE over the past 2-3 weeks."
+    },
+    {
+      "id": "E:note:row511563:3",
+      "kind": "note_sentence",
+      "display": "Per recent pulmonogy and    cardiology notes this shortness of breath has been g",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row511563#s3",
+      "text": "Per recent pulmonogy and    cardiology notes this shortness of breath has been getting gradually    worse."
+    },
+    {
+      "id": "E:note:row511563:4",
+      "kind": "note_sentence",
+      "display": "He also notes a 40 lbs weight gain that he reports over the last    few weeks (f",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row511563#s4",
+      "text": "He also notes a 40 lbs weight gain that he reports over the last    few weeks (from 330 to 360)."
+    },
+    {
+      "id": "E:note:row511563:5",
+      "kind": "note_sentence",
+      "display": "Worsening leg edema, ascites.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row511563#s5",
+      "text": "Worsening leg edema, ascites."
+    },
+    {
+      "id": "E:note:row511563:6",
+      "kind": "note_sentence",
+      "display": "No recent    fevers, no abdominal pain.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row511563#s6",
+      "text": "No recent    fevers, no abdominal pain."
+    },
+    {
+      "id": "E:note:row511563:7",
+      "kind": "note_sentence",
+      "display": "C/o diarrhea x 2 days and some chills    recently.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row511563#s7",
+      "text": "C/o diarrhea x 2 days and some chills    recently."
+    },
+    {
+      "id": "E:note:row511563:8",
+      "kind": "note_sentence",
+      "display": "He describes chest pain that started on the right side of his    chest one day p",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row511563#s8",
+      "text": "He describes chest pain that started on the right side of his    chest one day prior to admission."
+    },
+    {
+      "id": "E:note:row511563:9",
+      "kind": "note_sentence",
+      "display": "It is pleuritic in nature and ranges    from [**2184-3-15**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row511563#s9",
+      "text": "It is pleuritic in nature and ranges    from [**2184-3-15**]."
+    },
+    {
+      "id": "E:note:row511563:10",
+      "kind": "note_sentence",
+      "display": "In the ED, vitals were 97.8 89 123/64 24 96 on RA.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row511563#s10",
+      "text": "In the ED, vitals were 97.8 89 123/64 24 96 on RA."
+    },
+    {
+      "id": "E:note:row511563:11",
+      "kind": "note_sentence",
+      "display": "He    was given an ASA.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row511563#s11",
+      "text": "He    was given an ASA."
+    },
+    {
+      "id": "E:note:row511563:12",
+      "kind": "note_sentence",
+      "display": "Pressure dropped to 80s, then responded to 90s after    given some fluids (500cc",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row511563#s12",
+      "text": "Pressure dropped to 80s, then responded to 90s after    given some fluids (500cc NS)."
+    },
+    {
+      "id": "E:note:row511563:13",
+      "kind": "note_sentence",
+      "display": "Held lasix (takes 160 per day?).",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row511563#s13",
+      "text": "Held lasix (takes 160 per day?)."
+    },
+    {
+      "id": "E:note:row511563:14",
+      "kind": "note_sentence",
+      "display": "CXR    with ? some effusions.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row511563#s14",
+      "text": "CXR    with ? some effusions."
+    },
+    {
+      "id": "E:note:row511563:15",
+      "kind": "note_sentence",
+      "display": "K+ 6.9, received 1 amp Ca gluconate, kayexelate    and 325 of ASA.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row511563#s15",
+      "text": "K+ 6.9, received 1 amp Ca gluconate, kayexelate    and 325 of ASA."
+    },
+    {
+      "id": "E:note:row511563:16",
+      "kind": "note_sentence",
+      "display": "No ECG changes.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row511563#s16",
+      "text": "No ECG changes."
+    },
+    {
+      "id": "E:note:row511563:17",
+      "kind": "note_sentence",
+      "display": "Admit to CCU, placed on CPAP given his    respiratory distress.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row511563#s17",
+      "text": "Admit to CCU, placed on CPAP given his    respiratory distress."
+    },
+    {
+      "id": "E:note:row511563:18",
+      "kind": "note_sentence",
+      "display": "Concerns are for worsening PHTN, presumed due to    HIV and dCHF.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row511563#s18",
+      "text": "Concerns are for worsening PHTN, presumed due to    HIV and dCHF."
+    },
+    {
+      "id": "E:note:row511563:19",
+      "kind": "note_sentence",
+      "display": "Hyperkalemia likely related to acute RF in setting of    increase diuresis.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row511563#s19",
+      "text": "Hyperkalemia likely related to acute RF in setting of    increase diuresis."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|4168": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42830": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5856": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|40391": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78959": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|07070": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5715": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2767": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V08": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|32723": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2720": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|311": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|53081": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|27801": [
+      "E:cond:16"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "other chronic pulmonary heart diseases": [
+      "E:cond:1"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:2"
+    ],
+    "diastolic heart failure, unspecified": [
+      "E:cond:3"
+    ],
+    "end stage renal disease": [
+      "E:cond:4"
+    ],
+    "hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage v or end stage renal disease": [
+      "E:cond:5"
+    ],
+    "other ascites": [
+      "E:cond:6"
+    ],
+    "unspecified viral hepatitis c without hepatic coma": [
+      "E:cond:7"
+    ],
+    "cirrhosis of liver without mention of alcohol": [
+      "E:cond:8"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:9"
+    ],
+    "hyperpotassemia": [
+      "E:cond:10"
+    ],
+    "asymptomatic human immunodeficiency virus [hiv] infection status": [
+      "E:cond:11"
+    ],
+    "obstructive sleep apnea (adult)(pediatric)": [
+      "E:cond:12"
+    ],
+    "pure hypercholesterolemia": [
+      "E:cond:13"
+    ],
+    "depressive disorder, not elsewhere classified": [
+      "E:cond:14"
+    ],
+    "esophageal reflux": [
+      "E:cond:15"
+    ],
+    "morbid obesity": [
+      "E:cond:16"
+    ],
+    "hemodialysis": [
+      "E:proc:1"
+    ],
+    "venous catheterization for renal dialysis": [
+      "E:proc:2"
+    ],
+    "58 yo male with hiv, phtn, hep c cirrhosis, osa, dm, chf.": [
+      "E:note:row511563:1"
+    ],
+    "p/w increasing doe over the past 2-3 weeks.": [
+      "E:note:row511563:2"
+    ],
+    "per recent pulmonogy and cardiology notes this shortness of breath has been g": [
+      "E:note:row511563:3"
+    ],
+    "he also notes a 40 lbs weight gain that he reports over the last few weeks (f": [
+      "E:note:row511563:4"
+    ],
+    "worsening leg edema, ascites.": [
+      "E:note:row511563:5"
+    ],
+    "no recent fevers, no abdominal pain.": [
+      "E:note:row511563:6"
+    ],
+    "c/o diarrhea x 2 days and some chills recently.": [
+      "E:note:row511563:7"
+    ],
+    "he describes chest pain that started on the right side of his chest one day p": [
+      "E:note:row511563:8"
+    ],
+    "it is pleuritic in nature and ranges from [**2184-3-15**].": [
+      "E:note:row511563:9"
+    ],
+    "in the ed, vitals were 97.8 89 123/64 24 96 on ra.": [
+      "E:note:row511563:10"
+    ],
+    "he was given an asa.": [
+      "E:note:row511563:11"
+    ],
+    "pressure dropped to 80s, then responded to 90s after given some fluids (500cc": [
+      "E:note:row511563:12"
+    ],
+    "held lasix (takes 160 per day?).": [
+      "E:note:row511563:13"
+    ],
+    "cxr with ? some effusions.": [
+      "E:note:row511563:14"
+    ],
+    "k+ 6.9, received 1 amp ca gluconate, kayexelate and 325 of asa.": [
+      "E:note:row511563:15"
+    ],
+    "no ecg changes.": [
+      "E:note:row511563:16"
+    ],
+    "admit to ccu, placed on cpap given his respiratory distress.": [
+      "E:note:row511563:17"
+    ],
+    "concerns are for worsening phtn, presumed due to hiv and dchf.": [
+      "E:note:row511563:18"
+    ],
+    "hyperkalemia likely related to acute rf in setting of increase diuresis.": [
+      "E:note:row511563:19"
+    ]
+  },
+  "by_date": {
+    "2184-01-17": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:proc:1",
+      "E:proc:2"
+    ]
+  }
+}

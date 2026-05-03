@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Multiple fractures: lower femur [E:cond:1][E:note:row437958:1], T8 vertebra [E:cond:3], 8+ ribs [E:cond:5], ilium [E:cond:6], acetabulum [E:cond:11], patella [E:cond:13], and tib-fib [E:cond:10][E:note:row437958:1].",
+      "severity": "low",
+      "reason": "The summary specifies 'T8 vertebra', but the fact sheet only states 'dorsal [thoracic] vertebra' without specifying the level."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Multiple fractures: lower femur [E:cond:1][E:note:row437958:1], T8 vertebra [E:cond:3], 8+ ribs [E:cond:5], ilium [E:cond:6], acetabulum [E:cond:11], patella [E:cond:13], and tib-fib [E:cond:10][E:note:row437958:1].",
+      "suggested": "Multiple fractures: lower femur [E:cond:1][E:note:row437958:1], thoracic vertebra [E:cond:3], 8+ ribs [E:cond:5], ilium [E:cond:6], acetabulum [E:cond:11], patella [E:cond:13], and tib-fib [E:cond:10][E:note:row437958:1].",
+      "reason": "Corrects the specific vertebral level to match the general thoracic description in the fact sheet."
+    }
+  ]
+}

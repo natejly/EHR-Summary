@@ -1,0 +1,31 @@
+{
+  "concerns": [
+    {
+      "sentence": "Acute respiratory failure [E:cond:43] with bilateral pleural effusions [E:note:row462509:7].",
+      "severity": "medium",
+      "reason": "The fact sheet lists 'Unspecified pleural effusion' [E:cond:25-30], but does not specify that they are 'bilateral'."
+    },
+    {
+      "sentence": "DM2 [E:note:row462509:2], HTN [E:note:row462509:2], and chronic diastolic heart failure [E:cond:61].",
+      "severity": "medium",
+      "reason": "HTN is not listed in the provided fact sheet."
+    },
+    {
+      "sentence": "Ultrasound and tapping of pleural effusions [E:note:row462509:9], and PEG placement [E:proc:133][E:proc:134].",
+      "severity": "high",
+      "reason": "The 'plan' section of the fact sheet is empty; these procedures are not supported by the provided evidence."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Acute respiratory failure [E:cond:43] with bilateral pleural effusions [E:note:row462509:7].",
+      "suggested": "Acute respiratory failure [E:cond:43] and pleural effusions [E:cond:25].",
+      "reason": "Remove 'bilateral' as it is not supported and correct the citation to the condition list."
+    },
+    {
+      "original": "DM2 [E:note:row462509:2], HTN [E:note:row462509:2], and chronic diastolic heart failure [E:cond:61].",
+      "suggested": "DM2 [E:cond:85] and chronic diastolic heart failure [E:cond:61].",
+      "reason": "Remove HTN as it is not in the fact sheet and update DM2 citation."
+    }
+  ]
+}

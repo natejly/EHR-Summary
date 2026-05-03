@@ -1,0 +1,418 @@
+{
+  "claims": [
+    {
+      "claim_id": "C1",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "CAD",
+      "time_ref": null,
+      "source_span": "row597675#0"
+    },
+    {
+      "claim_id": "C2",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "status post",
+      "value": "CABG",
+      "time_ref": null,
+      "source_span": "row597675#0"
+    },
+    {
+      "claim_id": "C3",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "DM",
+      "time_ref": null,
+      "source_span": "row597675#0"
+    },
+    {
+      "claim_id": "C4",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "ESRD",
+      "time_ref": null,
+      "source_span": "row597675#0"
+    },
+    {
+      "claim_id": "C5",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "on",
+      "value": "HD",
+      "time_ref": null,
+      "source_span": "row597675#0"
+    },
+    {
+      "claim_id": "C6",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Afib",
+      "time_ref": null,
+      "source_span": "row597675#0"
+    },
+    {
+      "claim_id": "C7",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "coumadin",
+      "time_ref": null,
+      "source_span": "row597675#0"
+    },
+    {
+      "claim_id": "C8",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "traumatic L SDH",
+      "time_ref": "3 days prior to admission",
+      "source_span": "row597675#1"
+    },
+    {
+      "claim_id": "C9",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "epileptiform behavior",
+      "time_ref": null,
+      "source_span": "row597675#2"
+    },
+    {
+      "claim_id": "C10",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "receiving",
+      "value": "continuous EEG monitoring",
+      "time_ref": null,
+      "source_span": "row597675#2"
+    },
+    {
+      "claim_id": "C11",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "ativan boluses (1 mg IV x 3 over past 36 hours)",
+      "time_ref": "past 36 hours",
+      "source_span": "row597675#2"
+    },
+    {
+      "claim_id": "C12",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "PR temp 102.5",
+      "time_ref": "yesterday evening",
+      "source_span": "row597675#3"
+    },
+    {
+      "claim_id": "C13",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "BP 70/23",
+      "time_ref": "today",
+      "source_span": "row597675#4"
+    },
+    {
+      "claim_id": "C14",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "procedure performed",
+      "value": "BCx drawn from HD catheter",
+      "time_ref": "today",
+      "source_span": "row597675#5"
+    },
+    {
+      "claim_id": "C15",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "vanc 1 g IV",
+      "time_ref": "today",
+      "source_span": "row597675#5"
+    },
+    {
+      "claim_id": "C16",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "gent 140 mg IV",
+      "time_ref": "today",
+      "source_span": "row597675#5"
+    },
+    {
+      "claim_id": "C17",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "1 L NS",
+      "time_ref": "today",
+      "source_span": "row597675#5"
+    },
+    {
+      "claim_id": "C18",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "ABG 7.41/43/79/28",
+      "time_ref": "today",
+      "source_span": "row597675#6"
+    },
+    {
+      "claim_id": "C19",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "99.7 101/30 78 24 95%3L",
+      "time_ref": "prior to transfer",
+      "source_span": "row597675#7"
+    },
+    {
+      "claim_id": "C20",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "satting 94-98% on 6L NC",
+      "time_ref": null,
+      "source_span": "row597675#11"
+    },
+    {
+      "claim_id": "C21",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "RR 10s-20s",
+      "time_ref": null,
+      "source_span": "row597675#11"
+    },
+    {
+      "claim_id": "C22",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "HR 80s SR",
+      "time_ref": null,
+      "source_span": "row597675#12"
+    },
+    {
+      "claim_id": "C23",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "BPs ranging 100s-140s systolic",
+      "time_ref": null,
+      "source_span": "row597675#12"
+    },
+    {
+      "claim_id": "C24",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "has device",
+      "value": "NGT in place to right nare",
+      "time_ref": null,
+      "source_span": "row597675#14"
+    },
+    {
+      "claim_id": "C25",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Nutren Pulmonary Full infusing @ 10cc/hr",
+      "time_ref": null,
+      "source_span": "row597675#14"
+    },
+    {
+      "claim_id": "C26",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "has device",
+      "value": "flexiseal in place",
+      "time_ref": null,
+      "source_span": "row597675#14"
+    },
+    {
+      "claim_id": "C27",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "FSBS 148 @ 1200",
+      "time_ref": "1200",
+      "source_span": "row597675#16"
+    },
+    {
+      "claim_id": "C28",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "FSBS 147 @ 1800",
+      "time_ref": "1800",
+      "source_span": "row597675#16"
+    },
+    {
+      "claim_id": "C29",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Fever, unknown origin (FUO, Hyperthermia, Pyrexia)",
+      "time_ref": null,
+      "source_span": "row597675#17"
+    },
+    {
+      "claim_id": "C30",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "tmax 102.5 rectal",
+      "time_ref": null,
+      "source_span": "row597675#18"
+    },
+    {
+      "claim_id": "C31",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "possible sepsis",
+      "time_ref": null,
+      "source_span": "row597675#18"
+    },
+    {
+      "claim_id": "C32",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "vital sign",
+      "value": "Tmax 99.5",
+      "time_ref": "today",
+      "source_span": "row597675#18"
+    },
+    {
+      "claim_id": "C33",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "blood cx, all with NGTD",
+      "time_ref": null,
+      "source_span": "row597675#19"
+    },
+    {
+      "claim_id": "C34",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "vanc/gent coverage",
+      "time_ref": null,
+      "source_span": "row597675#19"
+    },
+    {
+      "claim_id": "C35",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "possible line infection (PICC or HD cath)",
+      "time_ref": null,
+      "source_span": "row597675#19"
+    },
+    {
+      "claim_id": "C36",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "Cont vanc/gent until blood cx results come back",
+      "time_ref": null,
+      "source_span": "row597675#21"
+    },
+    {
+      "claim_id": "C37",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "H/O renal failure, End stage (End stage renal disease, ESRD)",
+      "time_ref": null,
+      "source_span": "row597675#22"
+    },
+    {
+      "claim_id": "C38",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "procedure performed",
+      "value": "HD today",
+      "time_ref": "today",
+      "source_span": "row597675#24"
+    },
+    {
+      "claim_id": "C39",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "1L fluid removed",
+      "time_ref": "today",
+      "source_span": "row597675#25"
+    },
+    {
+      "claim_id": "C40",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "Cont with regularly scheduled HD",
+      "time_ref": null,
+      "source_span": "row597675#26"
+    },
+    {
+      "claim_id": "C41",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Altered mental status",
+      "time_ref": null,
+      "source_span": "row597675#27"
+    },
+    {
+      "claim_id": "C42",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "procedure performed",
+      "value": "repeat head CT",
+      "time_ref": "yesterday",
+      "source_span": "row597675#28"
+    },
+    {
+      "claim_id": "C43",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "stable subdural hematoma",
+      "time_ref": "yesterday",
+      "source_span": "row597675#28"
+    },
+    {
+      "claim_id": "C44",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "procedure performed",
+      "value": "EEG completed",
+      "time_ref": null,
+      "source_span": "row597675#31"
+    },
+    {
+      "claim_id": "C45",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "glaucoma",
+      "time_ref": null,
+      "source_span": "row597675#30"
+    },
+    {
+      "claim_id": "C46",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "status post",
+      "value": "cataract surgery",
+      "time_ref": null,
+      "source_span": "row597675#30"
+    }
+  ]
+}

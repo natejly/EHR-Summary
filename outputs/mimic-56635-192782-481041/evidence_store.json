@@ -1,0 +1,1640 @@
+{
+  "case_id": "mimic-56635-192782-481041",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:enc-192782",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Subendocardial infarction, initial episode of care",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41071",
+        "display": "Subendocardial infarction, initial episode of care"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Asthma, unspecified type, with (acute) exacerbation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "49392",
+        "display": "Asthma, unspecified type, with (acute) exacerbation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Ulcerative colitis, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5569",
+        "display": "Ulcerative colitis, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Pneumonia, organism unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "486",
+        "display": "Pneumonia, organism unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Acute vascular insufficiency of intestine",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5570",
+        "display": "Acute vascular insufficiency of intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Hematoma complicating a procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99812",
+        "display": "Hematoma complicating a procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Acute and subacute necrosis of liver",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "570",
+        "display": "Acute and subacute necrosis of liver"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Unspecified pleural effusion",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5119",
+        "display": "Unspecified pleural effusion"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Iatrogenic pneumothorax",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5121",
+        "display": "Iatrogenic pneumothorax"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Unspecified protein-calorie malnutrition",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2639",
+        "display": "Unspecified protein-calorie malnutrition"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Acute kidney failure with lesion of tubular necrosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5845",
+        "display": "Acute kidney failure with lesion of tubular necrosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Shock, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78550",
+        "display": "Shock, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Atrial flutter",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42732",
+        "display": "Atrial flutter"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of native coronary artery",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41401",
+        "display": "Coronary atherosclerosis of native coronary artery"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Nontoxic multinodular goiter",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2411",
+        "display": "Nontoxic multinodular goiter"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Other diseases of lung, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51889",
+        "display": "Other diseases of lung, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25000",
+        "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Other and unspecified hyperlipidemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2724",
+        "display": "Other and unspecified hyperlipidemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Osteoporosis, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "73300",
+        "display": "Osteoporosis, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Cardiac catheterization as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8790",
+        "display": "Cardiac catheterization as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:cond-192782-23",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Percutaneous transluminal coronary angioplasty [PTCA]",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous transluminal coronary angioplasty [PTCA]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:proc-192782-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Temporary tracheostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Temporary tracheostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:proc-192782-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Other and unspecified partial excision of large intestine",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other and unspecified partial excision of large intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:proc-192782-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Temporary ileostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Temporary ileostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:proc-192782-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Left heart cardiac catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Left heart cardiac catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:proc-192782-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Angiocardiography of right heart structures",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Angiocardiography of right heart structures"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:proc-192782-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Coronary arteriography using a single catheter",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Coronary arteriography using a single catheter"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:proc-192782-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Injection or infusion of platelet inhibitor",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Injection or infusion of platelet inhibitor"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:proc-192782-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Thoracentesis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Thoracentesis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:proc-192782-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Insertion of intercostal catheter for drainage",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of intercostal catheter for drainage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:proc-192782-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Percutaneous [endoscopic] gastrostomy [PEG]",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous [endoscopic] gastrostomy [PEG]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:proc-192782-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Other endoscopy of small intestine",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other endoscopy of small intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:proc-192782-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:proc-192782-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:14",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:proc-192782-14",
+      "text": null
+    },
+    {
+      "id": "E:proc:15",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:proc-192782-15",
+      "text": null
+    },
+    {
+      "id": "E:proc:16",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:proc-192782-16",
+      "text": null
+    },
+    {
+      "id": "E:proc:17",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:proc-192782-17",
+      "text": null
+    },
+    {
+      "id": "E:proc:18",
+      "kind": "procedure",
+      "display": "Parenteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Parenteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:proc-192782-18",
+      "text": null
+    },
+    {
+      "id": "E:proc:19",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:proc-192782-19",
+      "text": null
+    },
+    {
+      "id": "E:proc:20",
+      "kind": "procedure",
+      "display": "Procedure on single vessel",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Procedure on single vessel"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-08-05",
+      "source_ref": "urn:uuid:proc-192782-20",
+      "text": null
+    },
+    {
+      "id": "E:note:row481041:1",
+      "kind": "note_sentence",
+      "display": "Ms. [**Known lastname 861**] is a 81 year old woman admitted to T/SICU from the ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s1",
+      "text": "Ms. [**Known lastname 861**] is a 81 year old woman admitted to T/SICU from the OR    following a subtotal colectomy with an end ileostomy for bowel    ischemia.    *admitted to [**Hospital1 19**] [**8-5**] for NSTEMI Mi, cath d and angioplasty done of    RCA (had R groin hematoma post procedure)    *on [**8-12**] had rapid afib (rate to 150 s), converted to sinus with    digoxin and then 30 minutes after confusion began complaining of    abdominal pain."
+    },
+    {
+      "id": "E:note:row481041:2",
+      "kind": "note_sentence",
+      "display": "CT of abdomen done and was concerning for ischemic    bowel.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s2",
+      "text": "CT of abdomen done and was concerning for ischemic    bowel."
+    },
+    {
+      "id": "E:note:row481041:3",
+      "kind": "note_sentence",
+      "display": "To OR for resection.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s3",
+      "text": "To OR for resection."
+    },
+    {
+      "id": "E:note:row481041:4",
+      "kind": "note_sentence",
+      "display": "Postop:    Initially stable then developed rapid afib to 180 with hypotension   ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s4",
+      "text": "Postop:    Initially stable then developed rapid afib to 180 with hypotension    [**8-13**], failed electrical cardioversion, cardioverted with amio."
+    },
+    {
+      "id": "E:note:row481041:5",
+      "kind": "note_sentence",
+      "display": "In and out of afib.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s5",
+      "text": "In and out of afib."
+    },
+    {
+      "id": "E:note:row481041:6",
+      "kind": "note_sentence",
+      "display": "[**Last Name (un) 3864**] placed, bedside echo done.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s6",
+      "text": "[**Last Name (un) 3864**] placed, bedside echo done."
+    },
+    {
+      "id": "E:note:row481041:7",
+      "kind": "note_sentence",
+      "display": "Atrial fibrillation (Afib)    Assessment:    At start of shift was in SR with HR",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s7",
+      "text": "Atrial fibrillation (Afib)    Assessment:    At start of shift was in SR with HR 60 s."
+    },
+    {
+      "id": "E:note:row481041:8",
+      "kind": "note_sentence",
+      "display": "SBP 110-120 s.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s8",
+      "text": "SBP 110-120 s."
+    },
+    {
+      "id": "E:note:row481041:9",
+      "kind": "note_sentence",
+      "display": "MAP >60 Amio    drip infusing @ 0.5mg/min.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s9",
+      "text": "MAP >60 Amio    drip infusing @ 0.5mg/min."
+    },
+    {
+      "id": "E:note:row481041:10",
+      "kind": "note_sentence",
+      "display": "Action:    Amio gtt continues.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s10",
+      "text": "Action:    Amio gtt continues."
+    },
+    {
+      "id": "E:note:row481041:11",
+      "kind": "note_sentence",
+      "display": "Started milrinone bolus and patient became more    hypotensive, so that was held",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s11",
+      "text": "Started milrinone bolus and patient became more    hypotensive, so that was held."
+    },
+    {
+      "id": "E:note:row481041:12",
+      "kind": "note_sentence",
+      "display": "Diltiazem drip started with attempt to    rate control and titrated between 5-15",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s12",
+      "text": "Diltiazem drip started with attempt to    rate control and titrated between 5-15 mg/hr. metoprolol 5 mg IV given    x1."
+    },
+    {
+      "id": "E:note:row481041:13",
+      "kind": "note_sentence",
+      "display": "Response:    Afib with RVR best rate controlled after 5mg IV lopressor, and    d",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s13",
+      "text": "Response:    Afib with RVR best rate controlled after 5mg IV lopressor, and    diltiazem now titrated down to 5mg/hr. patient converted to SR    mid-morning and now with HR in the 60s."
+    },
+    {
+      "id": "E:note:row481041:14",
+      "kind": "note_sentence",
+      "display": "Levo weaned off and neo    titrated up to maintain MAP 60    Plan:    PTT pendin",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s14",
+      "text": "Levo weaned off and neo    titrated up to maintain MAP 60    Plan:    PTT pending for heparin titration.  continue NEO  to support BP as    needed and continue dilt drip at 5 mg/hr, with metoprolol PRN for    increased HR."
+    },
+    {
+      "id": "E:note:row481041:15",
+      "kind": "note_sentence",
+      "display": "Pain control (acute pain, chronic pain)    Assessment:    Fentanyl drip titrated",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s15",
+      "text": "Pain control (acute pain, chronic pain)    Assessment:    Fentanyl drip titrated to maintain pain control."
+    },
+    {
+      "id": "E:note:row481041:16",
+      "kind": "note_sentence",
+      "display": "Action:    Titrated down for vetn wean.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s16",
+      "text": "Action:    Titrated down for vetn wean."
+    },
+    {
+      "id": "E:note:row481041:17",
+      "kind": "note_sentence",
+      "display": "Fentanyl boluses of 25mcg before turns.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s17",
+      "text": "Fentanyl boluses of 25mcg before turns."
+    },
+    {
+      "id": "E:note:row481041:18",
+      "kind": "note_sentence",
+      "display": "Response:    Continues to grimace with turns but rests quietly when undisturbed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s18",
+      "text": "Response:    Continues to grimace with turns but rests quietly when undisturbed."
+    },
+    {
+      "id": "E:note:row481041:19",
+      "kind": "note_sentence",
+      "display": "Tolerating wean well.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s19",
+      "text": "Tolerating wean well."
+    },
+    {
+      "id": "E:note:row481041:20",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue fentanyl for pain with increased dose for turning and    proce",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s20",
+      "text": "Plan:    Continue fentanyl for pain with increased dose for turning and    procedures."
+    },
+    {
+      "id": "E:note:row481041:21",
+      "kind": "note_sentence",
+      "display": "Myocardial infarction, acute (AMI, STEMI, NSTEMI)    Assessment:    Afib as abov",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s21",
+      "text": "Myocardial infarction, acute (AMI, STEMI, NSTEMI)    Assessment:    Afib as above."
+    },
+    {
+      "id": "E:note:row481041:22",
+      "kind": "note_sentence",
+      "display": "Cool extremities.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s22",
+      "text": "Cool extremities."
+    },
+    {
+      "id": "E:note:row481041:23",
+      "kind": "note_sentence",
+      "display": "CO adequate [**First Name8 (NamePattern2) **] [**Last Name (un) 3864**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s23",
+      "text": "CO adequate [**First Name8 (NamePattern2) **] [**Last Name (un) 3864**]."
+    },
+    {
+      "id": "E:note:row481041:24",
+      "kind": "note_sentence",
+      "display": "SV down to    40cc while she is in afib.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s24",
+      "text": "SV down to    40cc while she is in afib."
+    },
+    {
+      "id": "E:note:row481041:25",
+      "kind": "note_sentence",
+      "display": "Increase in cr from 0.6 yesterday to 1.8    today.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s25",
+      "text": "Increase in cr from 0.6 yesterday to 1.8    today."
+    },
+    {
+      "id": "E:note:row481041:26",
+      "kind": "note_sentence",
+      "display": "Adequate urine output.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s26",
+      "text": "Adequate urine output."
+    },
+    {
+      "id": "E:note:row481041:27",
+      "kind": "note_sentence",
+      "display": "Weight up to 60kg (preop 50kg).",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s27",
+      "text": "Weight up to 60kg (preop 50kg)."
+    },
+    {
+      "id": "E:note:row481041:28",
+      "kind": "note_sentence",
+      "display": "Hands    and feet edematous.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s28",
+      "text": "Hands    and feet edematous."
+    },
+    {
+      "id": "E:note:row481041:29",
+      "kind": "note_sentence",
+      "display": "Remains vented.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s29",
+      "text": "Remains vented."
+    },
+    {
+      "id": "E:note:row481041:30",
+      "kind": "note_sentence",
+      "display": "Action:    Mouth care per vap protocol.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s30",
+      "text": "Action:    Mouth care per vap protocol."
+    },
+    {
+      "id": "E:note:row481041:31",
+      "kind": "note_sentence",
+      "display": "Q 1hour hemodynamics.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s31",
+      "text": "Q 1hour hemodynamics."
+    },
+    {
+      "id": "E:note:row481041:32",
+      "kind": "note_sentence",
+      "display": "Levophed changed to    neo to support bp with less beta agonist effect.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s32",
+      "text": "Levophed changed to    neo to support bp with less beta agonist effect."
+    },
+    {
+      "id": "E:note:row481041:33",
+      "kind": "note_sentence",
+      "display": "Family updated with    plan and condition.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s33",
+      "text": "Family updated with    plan and condition."
+    },
+    {
+      "id": "E:note:row481041:34",
+      "kind": "note_sentence",
+      "display": "TTE preformed today.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s34",
+      "text": "TTE preformed today."
+    },
+    {
+      "id": "E:note:row481041:35",
+      "kind": "note_sentence",
+      "display": "Diltiazem drip on for HR    control.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s35",
+      "text": "Diltiazem drip on for HR    control."
+    },
+    {
+      "id": "E:note:row481041:36",
+      "kind": "note_sentence",
+      "display": "Response:    Continues to be pressor dependent.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s36",
+      "text": "Response:    Continues to be pressor dependent."
+    },
+    {
+      "id": "E:note:row481041:37",
+      "kind": "note_sentence",
+      "display": "Continues to have activity    intolerance, improved since last night.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s37",
+      "text": "Continues to have activity    intolerance, improved since last night."
+    },
+    {
+      "id": "E:note:row481041:38",
+      "kind": "note_sentence",
+      "display": "Generalized edema noted and cr    increased indicating poor perfusion though uri",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s38",
+      "text": "Generalized edema noted and cr    increased indicating poor perfusion though urine output adequate."
+    },
+    {
+      "id": "E:note:row481041:39",
+      "kind": "note_sentence",
+      "display": "Awaiting formal read of TTE     Plan:    Continue to maximize CO/CI with use of ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s39",
+      "text": "Awaiting formal read of TTE     Plan:    Continue to maximize CO/CI with use of pressors/IVF boluses PRN. Wean    pressors if indicated and continue to closely [**Initials (NamePattern4) **] [**Last Name (NamePattern4) **] [**Last Name (un) 3864**] numbers."
+    },
+    {
+      "id": "E:note:row481041:40",
+      "kind": "note_sentence",
+      "display": "Intestinal ischemia (including mesenteric venous / arterial thrombosis,    bowel",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s40",
+      "text": "Intestinal ischemia (including mesenteric venous / arterial thrombosis,    bowel ischemia)    Assessment:    Midline incision with R sided end ileostomy."
+    },
+    {
+      "id": "E:note:row481041:41",
+      "kind": "note_sentence",
+      "display": "Remains npo.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s41",
+      "text": "Remains npo."
+    },
+    {
+      "id": "E:note:row481041:42",
+      "kind": "note_sentence",
+      "display": "Ileostomy    pink with small amount of golden stool..",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s42",
+      "text": "Ileostomy    pink with small amount of golden stool.."
+    },
+    {
+      "id": "E:note:row481041:43",
+      "kind": "note_sentence",
+      "display": "Afebrile, wbc flat.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s43",
+      "text": "Afebrile, wbc flat."
+    },
+    {
+      "id": "E:note:row481041:44",
+      "kind": "note_sentence",
+      "display": "Continues to have tenderness and guarding in belly on exam.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s44",
+      "text": "Continues to have tenderness and guarding in belly on exam."
+    },
+    {
+      "id": "E:note:row481041:45",
+      "kind": "note_sentence",
+      "display": "Ng with    minimal output    Action:    Antibiotics dc d today.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s45",
+      "text": "Ng with    minimal output    Action:    Antibiotics dc d today."
+    },
+    {
+      "id": "E:note:row481041:46",
+      "kind": "note_sentence",
+      "display": "Abdominal exam remains unremarkable.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s46",
+      "text": "Abdominal exam remains unremarkable."
+    },
+    {
+      "id": "E:note:row481041:47",
+      "kind": "note_sentence",
+      "display": "Stoma    nurse consulted and will see patient tomorrow.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s47",
+      "text": "Stoma    nurse consulted and will see patient tomorrow."
+    },
+    {
+      "id": "E:note:row481041:48",
+      "kind": "note_sentence",
+      "display": "Response:    Probable incisional pain in abdomen.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s48",
+      "text": "Response:    Probable incisional pain in abdomen."
+    },
+    {
+      "id": "E:note:row481041:49",
+      "kind": "note_sentence",
+      "display": "Hypoactive bowel sounds.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s49",
+      "text": "Hypoactive bowel sounds."
+    },
+    {
+      "id": "E:note:row481041:50",
+      "kind": "note_sentence",
+      "display": "Small    amount of ileostomy output.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s50",
+      "text": "Small    amount of ileostomy output."
+    },
+    {
+      "id": "E:note:row481041:51",
+      "kind": "note_sentence",
+      "display": "Stoma appears healthy    Plan:    Cont to follow fever curve and return of bowel",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s51",
+      "text": "Stoma appears healthy    Plan:    Cont to follow fever curve and return of bowel function.  ??nutrition    whether she will soon tolerate enteral feedings or need tpn."
+    },
+    {
+      "id": "E:note:row481041:52",
+      "kind": "note_sentence",
+      "display": "Stoma    nurse to see patient tomorrow.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row481041#s52",
+      "text": "Stoma    nurse to see patient tomorrow."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|41071": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|49392": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5569": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|486": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5570": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99812": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|570": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5119": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5121": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2639": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5845": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78550": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42732": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41401": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2411": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51889": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25000": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2724": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|73300": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42731": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8790": [
+      "E:cond:23"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "subendocardial infarction, initial episode of care": [
+      "E:cond:1"
+    ],
+    "acute respiratory failure": [
+      "E:cond:2"
+    ],
+    "asthma, unspecified type, with (acute) exacerbation": [
+      "E:cond:3"
+    ],
+    "ulcerative colitis, unspecified": [
+      "E:cond:4"
+    ],
+    "pneumonia, organism unspecified": [
+      "E:cond:5"
+    ],
+    "acute vascular insufficiency of intestine": [
+      "E:cond:6"
+    ],
+    "hematoma complicating a procedure": [
+      "E:cond:7"
+    ],
+    "acute and subacute necrosis of liver": [
+      "E:cond:8"
+    ],
+    "unspecified pleural effusion": [
+      "E:cond:9"
+    ],
+    "iatrogenic pneumothorax": [
+      "E:cond:10"
+    ],
+    "unspecified protein-calorie malnutrition": [
+      "E:cond:11"
+    ],
+    "acute kidney failure with lesion of tubular necrosis": [
+      "E:cond:12"
+    ],
+    "shock, unspecified": [
+      "E:cond:13"
+    ],
+    "atrial flutter": [
+      "E:cond:14"
+    ],
+    "coronary atherosclerosis of native coronary artery": [
+      "E:cond:15"
+    ],
+    "nontoxic multinodular goiter": [
+      "E:cond:16"
+    ],
+    "other diseases of lung, not elsewhere classified": [
+      "E:cond:17"
+    ],
+    "diabetes mellitus without mention of complication, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:18"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:19"
+    ],
+    "other and unspecified hyperlipidemia": [
+      "E:cond:20"
+    ],
+    "osteoporosis, unspecified": [
+      "E:cond:21"
+    ],
+    "atrial fibrillation": [
+      "E:cond:22"
+    ],
+    "cardiac catheterization as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure": [
+      "E:cond:23"
+    ],
+    "percutaneous transluminal coronary angioplasty [ptca]": [
+      "E:proc:1"
+    ],
+    "temporary tracheostomy": [
+      "E:proc:2"
+    ],
+    "other and unspecified partial excision of large intestine": [
+      "E:proc:3"
+    ],
+    "temporary ileostomy": [
+      "E:proc:4"
+    ],
+    "left heart cardiac catheterization": [
+      "E:proc:5"
+    ],
+    "angiocardiography of right heart structures": [
+      "E:proc:6"
+    ],
+    "coronary arteriography using a single catheter": [
+      "E:proc:7"
+    ],
+    "injection or infusion of platelet inhibitor": [
+      "E:proc:8"
+    ],
+    "thoracentesis": [
+      "E:proc:9"
+    ],
+    "insertion of intercostal catheter for drainage": [
+      "E:proc:10"
+    ],
+    "percutaneous [endoscopic] gastrostomy [peg]": [
+      "E:proc:11"
+    ],
+    "other endoscopy of small intestine": [
+      "E:proc:12"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:13"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:14",
+      "E:proc:16"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:15"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:17"
+    ],
+    "parenteral infusion of concentrated nutritional substances": [
+      "E:proc:18"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:19"
+    ],
+    "procedure on single vessel": [
+      "E:proc:20"
+    ],
+    "ms. [**known lastname 861**] is a 81 year old woman admitted to t/sicu from the": [
+      "E:note:row481041:1"
+    ],
+    "ct of abdomen done and was concerning for ischemic bowel.": [
+      "E:note:row481041:2"
+    ],
+    "to or for resection.": [
+      "E:note:row481041:3"
+    ],
+    "postop: initially stable then developed rapid afib to 180 with hypotension": [
+      "E:note:row481041:4"
+    ],
+    "in and out of afib.": [
+      "E:note:row481041:5"
+    ],
+    "[**last name (un) 3864**] placed, bedside echo done.": [
+      "E:note:row481041:6"
+    ],
+    "atrial fibrillation (afib) assessment: at start of shift was in sr with hr": [
+      "E:note:row481041:7"
+    ],
+    "sbp 110-120 s.": [
+      "E:note:row481041:8"
+    ],
+    "map >60 amio drip infusing @ 0.5mg/min.": [
+      "E:note:row481041:9"
+    ],
+    "action: amio gtt continues.": [
+      "E:note:row481041:10"
+    ],
+    "started milrinone bolus and patient became more hypotensive, so that was held": [
+      "E:note:row481041:11"
+    ],
+    "diltiazem drip started with attempt to rate control and titrated between 5-15": [
+      "E:note:row481041:12"
+    ],
+    "response: afib with rvr best rate controlled after 5mg iv lopressor, and d": [
+      "E:note:row481041:13"
+    ],
+    "levo weaned off and neo titrated up to maintain map 60 plan: ptt pendin": [
+      "E:note:row481041:14"
+    ],
+    "pain control (acute pain, chronic pain) assessment: fentanyl drip titrated": [
+      "E:note:row481041:15"
+    ],
+    "action: titrated down for vetn wean.": [
+      "E:note:row481041:16"
+    ],
+    "fentanyl boluses of 25mcg before turns.": [
+      "E:note:row481041:17"
+    ],
+    "response: continues to grimace with turns but rests quietly when undisturbed.": [
+      "E:note:row481041:18"
+    ],
+    "tolerating wean well.": [
+      "E:note:row481041:19"
+    ],
+    "plan: continue fentanyl for pain with increased dose for turning and proce": [
+      "E:note:row481041:20"
+    ],
+    "myocardial infarction, acute (ami, stemi, nstemi) assessment: afib as abov": [
+      "E:note:row481041:21"
+    ],
+    "cool extremities.": [
+      "E:note:row481041:22"
+    ],
+    "co adequate [**first name8 (namepattern2) **] [**last name (un) 3864**].": [
+      "E:note:row481041:23"
+    ],
+    "sv down to 40cc while she is in afib.": [
+      "E:note:row481041:24"
+    ],
+    "increase in cr from 0.6 yesterday to 1.8 today.": [
+      "E:note:row481041:25"
+    ],
+    "adequate urine output.": [
+      "E:note:row481041:26"
+    ],
+    "weight up to 60kg (preop 50kg).": [
+      "E:note:row481041:27"
+    ],
+    "hands and feet edematous.": [
+      "E:note:row481041:28"
+    ],
+    "remains vented.": [
+      "E:note:row481041:29"
+    ],
+    "action: mouth care per vap protocol.": [
+      "E:note:row481041:30"
+    ],
+    "q 1hour hemodynamics.": [
+      "E:note:row481041:31"
+    ],
+    "levophed changed to neo to support bp with less beta agonist effect.": [
+      "E:note:row481041:32"
+    ],
+    "family updated with plan and condition.": [
+      "E:note:row481041:33"
+    ],
+    "tte preformed today.": [
+      "E:note:row481041:34"
+    ],
+    "diltiazem drip on for hr control.": [
+      "E:note:row481041:35"
+    ],
+    "response: continues to be pressor dependent.": [
+      "E:note:row481041:36"
+    ],
+    "continues to have activity intolerance, improved since last night.": [
+      "E:note:row481041:37"
+    ],
+    "generalized edema noted and cr increased indicating poor perfusion though uri": [
+      "E:note:row481041:38"
+    ],
+    "awaiting formal read of tte plan: continue to maximize co/ci with use of": [
+      "E:note:row481041:39"
+    ],
+    "intestinal ischemia (including mesenteric venous / arterial thrombosis, bowel": [
+      "E:note:row481041:40"
+    ],
+    "remains npo.": [
+      "E:note:row481041:41"
+    ],
+    "ileostomy pink with small amount of golden stool..": [
+      "E:note:row481041:42"
+    ],
+    "afebrile, wbc flat.": [
+      "E:note:row481041:43"
+    ],
+    "continues to have tenderness and guarding in belly on exam.": [
+      "E:note:row481041:44"
+    ],
+    "ng with minimal output action: antibiotics dc d today.": [
+      "E:note:row481041:45"
+    ],
+    "abdominal exam remains unremarkable.": [
+      "E:note:row481041:46"
+    ],
+    "stoma nurse consulted and will see patient tomorrow.": [
+      "E:note:row481041:47"
+    ],
+    "response: probable incisional pain in abdomen.": [
+      "E:note:row481041:48"
+    ],
+    "hypoactive bowel sounds.": [
+      "E:note:row481041:49"
+    ],
+    "small amount of ileostomy output.": [
+      "E:note:row481041:50"
+    ],
+    "stoma appears healthy plan: cont to follow fever curve and return of bowel": [
+      "E:note:row481041:51"
+    ],
+    "stoma nurse to see patient tomorrow.": [
+      "E:note:row481041:52"
+    ]
+  },
+  "by_date": {
+    "2130-08-05": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13",
+      "E:proc:14",
+      "E:proc:15",
+      "E:proc:16",
+      "E:proc:17",
+      "E:proc:18",
+      "E:proc:19",
+      "E:proc:20"
+    ]
+  }
+}

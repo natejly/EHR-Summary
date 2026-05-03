@@ -1,0 +1,243 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row509076:1"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has a history of hypertension."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:1",
+        "E:note:row509076:1"
+      ],
+      "rationale": "The patient's diagnosis of multiple myeloma is explicitly listed in both the condition list and the clinical note."
+    },
+    {
+      "claim_id": "C3",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C4",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The evidence confirms atrial fibrillation, but does not specify the presence of rapid ventricular response (RVR)."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row509076:2"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Altered mental status' in the assessment."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C7",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row509076:6"
+      ],
+      "rationale": "The evidence explicitly states the patient requires boluses of fentanyl/versed."
+    },
+    {
+      "claim_id": "C9",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:4",
+        "E:note:row509076:8"
+      ],
+      "rationale": "The patient's condition list and clinical notes both explicitly document respiratory failure."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row509076:8"
+      ],
+      "rationale": "The evidence explicitly states the patient was received intubated and vented."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row509076:9"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was vented on PSV 40% 14/5."
+    },
+    {
+      "claim_id": "C13",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The evidence confirms a diagnosis of mucositis, but does not specify that it is 'severe'."
+    },
+    {
+      "claim_id": "C14",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C15",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C16",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:16",
+        "E:note:row509076:13"
+      ],
+      "rationale": "The patient's diagnosis of Atrial fibrillation is explicitly listed in the condition list and mentioned in the clinical note."
+    },
+    {
+      "claim_id": "C18",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C19",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row509076:14"
+      ],
+      "rationale": "The evidence explicitly states the patient is on diltiazem q6hr."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row509076:14"
+      ],
+      "rationale": "The evidence explicitly states the patient is on lopressor."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row509076:16"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Mild general edema', which matches the claim."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:1"
+      ],
+      "rationale": "The patient has a recorded diagnosis of Multiple myeloma in the condition list."
+    },
+    {
+      "claim_id": "C24",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row509076:20"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Tmax 100.6 ax.', which matches the claim exactly."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row509076:21"
+      ],
+      "rationale": "The candidate evidence explicitly states that the Pan was cultured again yesterday."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row509076:22"
+      ],
+      "rationale": "The candidate evidence explicitly lists Tylenol as part of the patient's current plan or medications."
+    },
+    {
+      "claim_id": "C28",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates describe mechanical ventilation procedures and do not contain any information regarding abdominal examination or bowel sounds."
+    },
+    {
+      "claim_id": "C29",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row509076:25"
+      ],
+      "rationale": "The evidence explicitly states the patient had an OGT with TF."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row509076:26"
+      ],
+      "rationale": "The candidate evidence explicitly states 'yellow urine with sediment via Foley' in the GU section."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row509076:27"
+      ],
+      "rationale": "The candidate evidence explicitly states 'IV access: 3 PIV patent'."
+    },
+    {
+      "claim_id": "C33",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row509076:27"
+      ],
+      "rationale": "The candidate evidence explicitly states that the TLC was pulled yesterday and sent for culture."
+    }
+  ]
+}

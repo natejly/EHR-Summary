@@ -1,0 +1,273 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-17997-186252",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-17997",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-17997",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-186252",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-186252",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2125-08-18T00:00:00",
+          "end": "2125-08-21T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-186252-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-186252-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2765",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2125-08-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-186252-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-186252-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25041",
+              "display": "Diabetes with renal manifestations, type I [juvenile type], not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes with renal manifestations, type I [juvenile type], not stated as uncontrolled"
+        },
+        "onsetDateTime": "2125-08-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-186252-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-186252-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "40391",
+              "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease"
+            }
+          ],
+          "text": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease"
+        },
+        "onsetDateTime": "2125-08-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-186252-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-186252-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25051",
+              "display": "Diabetes with ophthalmic manifestations, type I [juvenile type], not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes with ophthalmic manifestations, type I [juvenile type], not stated as uncontrolled"
+        },
+        "onsetDateTime": "2125-08-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-186252-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-186252-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5990",
+              "display": "Urinary tract infection, site not specified"
+            }
+          ],
+          "text": "Urinary tract infection, site not specified"
+        },
+        "onsetDateTime": "2125-08-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-186252-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-186252-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4582",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2125-08-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-186252-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-186252-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E9426",
+              "display": "Other antihypertensive agents causing adverse effects in therapeutic use"
+            }
+          ],
+          "text": "Other antihypertensive agents causing adverse effects in therapeutic use"
+        },
+        "onsetDateTime": "2125-08-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-186252-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-186252-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8490",
+              "display": "Home accidents"
+            }
+          ],
+          "text": "Home accidents"
+        },
+        "onsetDateTime": "2125-08-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-186252-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-186252-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "58381",
+              "display": "Nephritis and nephropathy, not specified as acute or chronic, in diseases classified elsewhere"
+            }
+          ],
+          "text": "Nephritis and nephropathy, not specified as acute or chronic, in diseases classified elsewhere"
+        },
+        "onsetDateTime": "2125-08-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-186252-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-186252-1",
+        "status": "completed",
+        "code": {
+          "text": "Peritoneal dialysis"
+        },
+        "performedDateTime": "2125-08-18"
+      }
+    }
+  ]
+}

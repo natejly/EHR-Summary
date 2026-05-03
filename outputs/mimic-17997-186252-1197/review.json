@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Current issues include a urinary tract infection with Klebsiella [E:cond:5][E:note:row1197:63], and nephritis/nephropathy [E:cond:9].",
+      "severity": "medium",
+      "reason": "The fact sheet mentions a UTI but does not specify the organism as Klebsiella."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Current issues include a urinary tract infection with Klebsiella [E:cond:5][E:note:row1197:63], and nephritis/nephropathy [E:cond:9].",
+      "suggested": "Current issues include a urinary tract infection [E:cond:5][E:note:row1197:63], and nephritis/nephropathy [E:cond:9].",
+      "reason": "Remove 'with Klebsiella' as it is not supported by the provided fact sheet."
+    }
+  ]
+}

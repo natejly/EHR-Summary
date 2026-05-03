@@ -1,0 +1,125 @@
+{
+  "case_id": "mimic-46320-113335-462346",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 1157,
+    "summary_chars": 408,
+    "target_min_chars": 231,
+    "target_max_chars": 347,
+    "achieved_ratio": 0.3526361279170268,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 5,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:103",
+      "E:cond:109",
+      "E:cond:13",
+      "E:cond:31",
+      "E:cond:43",
+      "E:cond:55",
+      "E:cond:67",
+      "E:cond:7",
+      "E:cond:85",
+      "E:cond:97"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Acute osteomyelitis [E:cond:1], intraspinal abscess [E:cond:7], paraplegia [E:cond:13], VAP [E:cond:31], acute respiratory failure [E:cond:43], C. diff [E:cond:55], encephalopathy [E:cond:67], DM2 [E:cond:85], MRSA [E:cond:97], Pseudomonas [E:cond:103], and CHF [E:cond:109].",
+        "severity": "medium",
+        "reason": "The summary omits several significant active problems present in the fact sheet, such as obstructive chronic bronchitis and protein-calorie malnutrition."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Acute osteomyelitis [E:cond:1], intraspinal abscess [E:cond:7], paraplegia [E:cond:13], VAP [E:cond:31], acute respiratory failure [E:cond:43], C. diff [E:cond:55], encephalopathy [E:cond:67], DM2 [E:cond:85], MRSA [E:cond:97], Pseudomonas [E:cond:103], and CHF [E:cond:109].",
+        "suggested": "Acute osteomyelitis [E:cond:1], intraspinal abscess [E:cond:7], paraplegia [E:cond:13], obstructive chronic bronchitis with acute exacerbation [E:cond:19], pleural effusion [E:cond:25], VAP [E:cond:31], candidiasis of urogenital sites [E:cond:37], acute respiratory failure [E:cond:43], protein-calorie malnutrition [E:cond:49], C. diff [E:cond:55], chronic diastolic heart failure [E:cond:61], encephalopathy [E:cond:67], DM2 [E:cond:85], MRSA [E:cond:97], Pseudomonas [E:cond:103], and CHF [E:cond:109].",
+        "reason": "Include missing critical comorbidities from the provided fact sheet to ensure a complete clinical picture."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-46320-113335-462346/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.48,
+    "fk_words": 146,
+    "fk_sentences": 16,
+    "fk_syllables": 229,
+    "chars": 1196,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-46320-113335-462346/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.006259999994654208,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 131.50882379099494,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 367.23719016701216,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0038465000106953084,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 154.9316289999988,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 3.9619692499982193,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.004567249969113618,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 22.257772207958624,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

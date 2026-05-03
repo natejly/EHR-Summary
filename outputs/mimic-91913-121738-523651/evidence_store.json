@@ -1,0 +1,965 @@
+{
+  "case_id": "mimic-91913-121738-523651",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:enc-121738",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Subendocardial infarction, initial episode of care",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41071",
+        "display": "Subendocardial infarction, initial episode of care"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:cond-121738-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute diastolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42831",
+        "display": "Acute diastolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:cond-121738-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Pneumonia, organism unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "486",
+        "display": "Pneumonia, organism unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:cond-121738-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:cond-121738-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Obstructive chronic bronchitis with (acute) exacerbation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "49121",
+        "display": "Obstructive chronic bronchitis with (acute) exacerbation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:cond-121738-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:cond-121738-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7863",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:cond-121738-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of native coronary artery",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41401",
+        "display": "Coronary atherosclerosis of native coronary artery"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:cond-121738-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:cond-121738-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Other orthopedic aftercare",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V5489",
+        "display": "Other orthopedic aftercare"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:cond-121738-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Other iatrogenic hypotension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "45829",
+        "display": "Other iatrogenic hypotension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:cond-121738-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Other agents affecting blood constituents causing adverse effects in therapeutic use",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E9348",
+        "display": "Other agents affecting blood constituents causing adverse effects in therapeutic use"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:cond-121738-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:cond-121738-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Unspecified acquired hypothyroidism",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2449",
+        "display": "Unspecified acquired hypothyroidism"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:cond-121738-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Spinal stenosis, unspecified region",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "72400",
+        "display": "Spinal stenosis, unspecified region"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:cond-121738-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Anxiety state, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "30000",
+        "display": "Anxiety state, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:cond-121738-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Unspecified hereditary and idiopathic peripheral neuropathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3569",
+        "display": "Unspecified hereditary and idiopathic peripheral neuropathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:cond-121738-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Personal history of tobacco use",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V1582",
+        "display": "Personal history of tobacco use"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:cond-121738-18",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Percutaneous transluminal coronary angioplasty [PTCA]",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous transluminal coronary angioplasty [PTCA]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:proc-121738-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Insertion of drug-eluting coronary artery stent(s)",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of drug-eluting coronary artery stent(s)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:proc-121738-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Insertion of non-drug-eluting coronary artery stent(s)",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of non-drug-eluting coronary artery stent(s)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:proc-121738-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Insertion of four or more vascular stents",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of four or more vascular stents"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:proc-121738-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Procedure on two vessels",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Procedure on two vessels"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:proc-121738-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Injection or infusion of platelet inhibitor",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Injection or infusion of platelet inhibitor"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:proc-121738-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Procedure on vessel bifurcation",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Procedure on vessel bifurcation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:proc-121738-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Left heart cardiac catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Left heart cardiac catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:proc-121738-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Coronary arteriography using two catheters",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Coronary arteriography using two catheters"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:proc-121738-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:proc-121738-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:proc-121738-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:proc-121738-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2105-04-07",
+      "source_ref": "urn:uuid:proc-121738-13",
+      "text": null
+    },
+    {
+      "id": "E:note:row523651:1",
+      "kind": "note_sentence",
+      "display": "82 yo female with COPD (admitted with PNA), CAD with NSTEMI this    admission.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row523651#s1",
+      "text": "82 yo female with COPD (admitted with PNA), CAD with NSTEMI this    admission."
+    },
+    {
+      "id": "E:note:row523651:2",
+      "kind": "note_sentence",
+      "display": "Pelvic ORIF [**1-14**] and has been in rehab since.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row523651#s2",
+      "text": "Pelvic ORIF [**1-14**] and has been in rehab since."
+    },
+    {
+      "id": "E:note:row523651:3",
+      "kind": "note_sentence",
+      "display": "Multiple    recent admissions to [**Hospital3 735**] from rehab facility for CP ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row523651#s3",
+      "text": "Multiple    recent admissions to [**Hospital3 735**] from rehab facility for CP and    sputum- was ruled-out for an MI and PE, but continued to have    re-current hemoptysis and dyspnea."
+    },
+    {
+      "id": "E:note:row523651:4",
+      "kind": "note_sentence",
+      "display": "[**4-6**]- Admit to [**Hospital3 735**] with CP/Dyspnea given ntg and BiPAP, was",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row523651#s4",
+      "text": "[**4-6**]- Admit to [**Hospital3 735**] with CP/Dyspnea given ntg and BiPAP, was    transferred to [**Hospital1 19**] cath lab when her CE s were elevated."
+    },
+    {
+      "id": "E:note:row523651:5",
+      "kind": "note_sentence",
+      "display": "[**4-7**]: Cardiac Cath at [**Hospital1 19**] with LCx DES placed, RCA stenting ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row523651#s5",
+      "text": "[**4-7**]: Cardiac Cath at [**Hospital1 19**] with LCx DES placed, RCA stenting c/b RCA    dissection requiring additional stents."
+    },
+    {
+      "id": "E:note:row523651:6",
+      "kind": "note_sentence",
+      "display": "Arrived CCU post- procedure in    respiratory distress requiring intubation.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row523651#s6",
+      "text": "Arrived CCU post- procedure in    respiratory distress requiring intubation."
+    },
+    {
+      "id": "E:note:row523651:7",
+      "kind": "note_sentence",
+      "display": "Coronary artery disease (CAD, ischemic heart disease)    Assessment:    NSTEMI [",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row523651#s7",
+      "text": "Coronary artery disease (CAD, ischemic heart disease)    Assessment:    NSTEMI [**2105-4-7**] s/p cardiac cat with DES to OM and 2 BMS to RCA (cath c/b    RCA dissection)."
+    },
+    {
+      "id": "E:note:row523651:8",
+      "kind": "note_sentence",
+      "display": "Low HCT.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row523651#s8",
+      "text": "Low HCT."
+    },
+    {
+      "id": "E:note:row523651:9",
+      "kind": "note_sentence",
+      "display": "Action:           Medication management including asa, plavix, statin.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row523651#s9",
+      "text": "Action:           Medication management including asa, plavix, statin."
+    },
+    {
+      "id": "E:note:row523651:10",
+      "kind": "note_sentence",
+      "display": "Transfused 1 unit PRBC this pm for HCT 24.8    Response:    Plan:    Awaiting be",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row523651#s10",
+      "text": "Transfused 1 unit PRBC this pm for HCT 24.8    Response:    Plan:    Awaiting bedside TTE."
+    },
+    {
+      "id": "E:note:row523651:11",
+      "kind": "note_sentence",
+      "display": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 11**])    Assessment:  ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row523651#s11",
+      "text": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 11**])    Assessment:    Multifactoral including baseline COPD, PNA and CHF."
+    },
+    {
+      "id": "E:note:row523651:12",
+      "kind": "note_sentence",
+      "display": "Prior to intubation    on [**4-7**] had multiple episodes hemoptysis.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row523651#s12",
+      "text": "Prior to intubation    on [**4-7**] had multiple episodes hemoptysis."
+    },
+    {
+      "id": "E:note:row523651:13",
+      "kind": "note_sentence",
+      "display": "Remote family history of TB.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row523651#s13",
+      "text": "Remote family history of TB."
+    },
+    {
+      "id": "E:note:row523651:14",
+      "kind": "note_sentence",
+      "display": "CXray showed RUL consolidation, RLL consolidation/effusion and    pulmonary edem",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row523651#s14",
+      "text": "CXray showed RUL consolidation, RLL consolidation/effusion and    pulmonary edema v. hemorrhage."
+    },
+    {
+      "id": "E:note:row523651:15",
+      "kind": "note_sentence",
+      "display": "Action:           Chest CT this am           Bedside bronch this afternoon.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row523651#s15",
+      "text": "Action:           Chest CT this am           Bedside bronch this afternoon."
+    },
+    {
+      "id": "E:note:row523651:16",
+      "kind": "note_sentence",
+      "display": "Meds including:    1. po steroids & albuterol via vent for COPD    2.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row523651#s16",
+      "text": "Meds including:    1. po steroids & albuterol via vent for COPD    2."
+    },
+    {
+      "id": "E:note:row523651:17",
+      "kind": "note_sentence",
+      "display": "IV abx (vanco and zosyn) for PNA    3.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row523651#s17",
+      "text": "IV abx (vanco and zosyn) for PNA    3."
+    },
+    {
+      "id": "E:note:row523651:18",
+      "kind": "note_sentence",
+      "display": "IVP lasix for CHF (20 mg IV given with blood transfusion).",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row523651#s18",
+      "text": "IVP lasix for CHF (20 mg IV given with blood transfusion)."
+    },
+    {
+      "id": "E:note:row523651:19",
+      "kind": "note_sentence",
+      "display": "Response:    Plan:    Team awaiting OSH CT results for comparison (reportedly no",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row523651#s19",
+      "text": "Response:    Plan:    Team awaiting OSH CT results for comparison (reportedly no PE and no    mass seen)."
+    },
+    {
+      "id": "E:note:row523651:20",
+      "kind": "note_sentence",
+      "display": "Potentially place patient on isolation precautions for TB.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row523651#s20",
+      "text": "Potentially place patient on isolation precautions for TB."
+    },
+    {
+      "id": "E:note:row523651:21",
+      "kind": "note_sentence",
+      "display": "Continue prednisone taper, albuterol, antibiotics, await results    bronch.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row523651#s21",
+      "text": "Continue prednisone taper, albuterol, antibiotics, await results    bronch."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|41071": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42831": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|486": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|49121": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2762": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7863": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41401": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V5489": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|45829": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E9348": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2449": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|72400": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|30000": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3569": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V1582": [
+      "E:cond:18"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "subendocardial infarction, initial episode of care": [
+      "E:cond:1"
+    ],
+    "acute diastolic heart failure": [
+      "E:cond:2"
+    ],
+    "pneumonia, organism unspecified": [
+      "E:cond:3"
+    ],
+    "acute respiratory failure": [
+      "E:cond:4"
+    ],
+    "obstructive chronic bronchitis with (acute) exacerbation": [
+      "E:cond:5"
+    ],
+    "acidosis": [
+      "E:cond:6"
+    ],
+    "diagnosis": [
+      "E:cond:7"
+    ],
+    "coronary atherosclerosis of native coronary artery": [
+      "E:cond:8"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:9"
+    ],
+    "other orthopedic aftercare": [
+      "E:cond:10"
+    ],
+    "other iatrogenic hypotension": [
+      "E:cond:11"
+    ],
+    "other agents affecting blood constituents causing adverse effects in therapeutic use": [
+      "E:cond:12"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:13"
+    ],
+    "unspecified acquired hypothyroidism": [
+      "E:cond:14"
+    ],
+    "spinal stenosis, unspecified region": [
+      "E:cond:15"
+    ],
+    "anxiety state, unspecified": [
+      "E:cond:16"
+    ],
+    "unspecified hereditary and idiopathic peripheral neuropathy": [
+      "E:cond:17"
+    ],
+    "personal history of tobacco use": [
+      "E:cond:18"
+    ],
+    "percutaneous transluminal coronary angioplasty [ptca]": [
+      "E:proc:1"
+    ],
+    "insertion of drug-eluting coronary artery stent(s)": [
+      "E:proc:2"
+    ],
+    "insertion of non-drug-eluting coronary artery stent(s)": [
+      "E:proc:3"
+    ],
+    "insertion of four or more vascular stents": [
+      "E:proc:4"
+    ],
+    "procedure on two vessels": [
+      "E:proc:5"
+    ],
+    "injection or infusion of platelet inhibitor": [
+      "E:proc:6"
+    ],
+    "procedure on vessel bifurcation": [
+      "E:proc:7"
+    ],
+    "left heart cardiac catheterization": [
+      "E:proc:8"
+    ],
+    "coronary arteriography using two catheters": [
+      "E:proc:9"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:10"
+    ],
+    "continuous invasive mechanical ventilation for less than 96 consecutive hours": [
+      "E:proc:11"
+    ],
+    "arterial catheterization": [
+      "E:proc:12"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:13"
+    ],
+    "82 yo female with copd (admitted with pna), cad with nstemi this admission.": [
+      "E:note:row523651:1"
+    ],
+    "pelvic orif [**1-14**] and has been in rehab since.": [
+      "E:note:row523651:2"
+    ],
+    "multiple recent admissions to [**hospital3 735**] from rehab facility for cp": [
+      "E:note:row523651:3"
+    ],
+    "[**4-6**]- admit to [**hospital3 735**] with cp/dyspnea given ntg and bipap, was": [
+      "E:note:row523651:4"
+    ],
+    "[**4-7**]: cardiac cath at [**hospital1 19**] with lcx des placed, rca stenting": [
+      "E:note:row523651:5"
+    ],
+    "arrived ccu post- procedure in respiratory distress requiring intubation.": [
+      "E:note:row523651:6"
+    ],
+    "coronary artery disease (cad, ischemic heart disease) assessment: nstemi [": [
+      "E:note:row523651:7"
+    ],
+    "low hct.": [
+      "E:note:row523651:8"
+    ],
+    "action: medication management including asa, plavix, statin.": [
+      "E:note:row523651:9"
+    ],
+    "transfused 1 unit prbc this pm for hct 24.8 response: plan: awaiting be": [
+      "E:note:row523651:10"
+    ],
+    "respiratory failure, acute (not ards/[**doctor last name 11**]) assessment:": [
+      "E:note:row523651:11"
+    ],
+    "prior to intubation on [**4-7**] had multiple episodes hemoptysis.": [
+      "E:note:row523651:12"
+    ],
+    "remote family history of tb.": [
+      "E:note:row523651:13"
+    ],
+    "cxray showed rul consolidation, rll consolidation/effusion and pulmonary edem": [
+      "E:note:row523651:14"
+    ],
+    "action: chest ct this am bedside bronch this afternoon.": [
+      "E:note:row523651:15"
+    ],
+    "meds including: 1. po steroids & albuterol via vent for copd 2.": [
+      "E:note:row523651:16"
+    ],
+    "iv abx (vanco and zosyn) for pna 3.": [
+      "E:note:row523651:17"
+    ],
+    "ivp lasix for chf (20 mg iv given with blood transfusion).": [
+      "E:note:row523651:18"
+    ],
+    "response: plan: team awaiting osh ct results for comparison (reportedly no": [
+      "E:note:row523651:19"
+    ],
+    "potentially place patient on isolation precautions for tb.": [
+      "E:note:row523651:20"
+    ],
+    "continue prednisone taper, albuterol, antibiotics, await results bronch.": [
+      "E:note:row523651:21"
+    ]
+  },
+  "by_date": {
+    "2105-04-07": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "concerns": [
+    {
+      "sentence": "Biliary cirrhosis [E:cond:1][E:cond:2], portal hypertension [E:note:row357513:1], and ascites [E:cond:21][E:cond:22].",
+      "severity": "medium",
+      "reason": "Portal hypertension is not listed in the provided fact sheet."
+    },
+    {
+      "sentence": "Bleeding esophageal varices [E:cond:5][E:cond:6], GI bleed [E:note:row357513:2], and posthemorrhagic anemia [E:cond:7][E:cond:8].",
+      "severity": "medium",
+      "reason": "GI bleed is not listed in the provided fact sheet."
+    },
+    {
+      "sentence": "SBP [E:note:row357513:12], suppurative peritonitis [E:cond:13][E:cond:14], and candidiasis [E:cond:11][E:cond:12].",
+      "severity": "medium",
+      "reason": "SBP is not listed in the provided fact sheet."
+    },
+    {
+      "sentence": "Acute kidney failure [E:cond:17][E:cond:18], chronic systolic heart failure [E:cond:23][E:cond:24], and coronary atherosclerosis [E:cond:45][E:cond:46].",
+      "severity": "medium",
+      "reason": "Coronary atherosclerosis is not listed in the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Biliary cirrhosis [E:cond:1][E:cond:2], portal hypertension [E:note:row357513:1], and ascites [E:cond:21][E:cond:22].",
+      "suggested": "Biliary cirrhosis [E:cond:1][E:cond:2] and ascites [E:cond:21][E:cond:22].",
+      "reason": "Remove portal hypertension as it is not in the fact sheet."
+    },
+    {
+      "original": "Bleeding esophageal varices [E:cond:5][E:cond:6], GI bleed [E:note:row357513:2], and posthemorrhagic anemia [E:cond:7][E:cond:8].",
+      "suggested": "Bleeding esophageal varices [E:cond:5][E:cond:6] and posthemorrhagic anemia [E:cond:7][E:cond:8].",
+      "reason": "Remove GI bleed as it is not in the fact sheet."
+    },
+    {
+      "original": "SBP [E:note:row357513:12], suppurative peritonitis [E:cond:13][E:cond:14], and candidiasis [E:cond:11][E:cond:12].",
+      "suggested": "Suppurative peritonitis [E:cond:13][E:cond:14] and candidiasis [E:cond:11][E:cond:12].",
+      "reason": "Remove SBP as it is not in the fact sheet."
+    },
+    {
+      "original": "Acute kidney failure [E:cond:17][E:cond:18], chronic systolic heart failure [E:cond:23][E:cond:24], and coronary atherosclerosis [E:cond:45][E:cond:46].",
+      "suggested": "Acute kidney failure [E:cond:17][E:cond:18] and chronic systolic heart failure [E:cond:23][E:cond:24].",
+      "reason": "Remove coronary atherosclerosis as it is not in the fact sheet."
+    }
+  ]
+}

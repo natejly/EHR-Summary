@@ -1,0 +1,1122 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-98220-173136",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-98220",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-98220",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-173136",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-173136",
+        "status": "finished",
+        "class": {
+          "code": "AMB",
+          "display": "ELECTIVE"
+        },
+        "type": [
+          {
+            "text": "ELECTIVE"
+          }
+        ],
+        "period": {
+          "start": "2173-01-20T00:00:00",
+          "end": "2173-04-23T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2115",
+              "display": "Benign neoplasm of liver and biliary passages"
+            }
+          ],
+          "text": "Benign neoplasm of liver and biliary passages"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1562",
+              "display": "Malignant neoplasm of ampulla of vater"
+            }
+          ],
+          "text": "Malignant neoplasm of ampulla of vater"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5762",
+              "display": "Obstruction of bile duct"
+            }
+          ],
+          "text": "Obstruction of bile duct"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99859",
+              "display": "Other postoperative infection"
+            }
+          ],
+          "text": "Other postoperative infection"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5180",
+              "display": "Pulmonary collapse"
+            }
+          ],
+          "text": "Pulmonary collapse"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "9974",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "00845",
+              "display": "Intestinal infection due to Clostridium difficile"
+            }
+          ],
+          "text": "Intestinal infection due to Clostridium difficile"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "56722",
+              "display": "Peritoneal abscess"
+            }
+          ],
+          "text": "Peritoneal abscess"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0389",
+              "display": "Unspecified septicemia"
+            }
+          ],
+          "text": "Unspecified septicemia"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99592",
+              "display": "Severe sepsis"
+            }
+          ],
+          "text": "Severe sepsis"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5119",
+              "display": "Unspecified pleural effusion"
+            }
+          ],
+          "text": "Unspecified pleural effusion"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "48242",
+              "display": "Methicillin resistant pneumonia due to Staphylococcus aureus"
+            }
+          ],
+          "text": "Methicillin resistant pneumonia due to Staphylococcus aureus"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "9986",
+              "display": "Persistent postoperative fistula"
+            }
+          ],
+          "text": "Persistent postoperative fistula"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5845",
+              "display": "Acute kidney failure with lesion of tubular necrosis"
+            }
+          ],
+          "text": "Acute kidney failure with lesion of tubular necrosis"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5680",
+              "display": "Peritoneal adhesions (postoperative) (postinfection)"
+            }
+          ],
+          "text": "Peritoneal adhesions (postoperative) (postinfection)"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5538",
+              "display": "Hernia of other specified sites without mention of obstruction or gangrene"
+            }
+          ],
+          "text": "Hernia of other specified sites without mention of obstruction or gangrene"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2766",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8782",
+              "display": "Surgical operation with anastomosis, bypass, or graft, with natural or artificial tissues used as implant causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation"
+            }
+          ],
+          "text": "Surgical operation with anastomosis, bypass, or graft, with natural or artificial tissues used as implant causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51919",
+              "display": "Other diseases of trachea and bronchus"
+            }
+          ],
+          "text": "Other diseases of trachea and bronchus"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "53081",
+              "display": "Esophageal reflux"
+            }
+          ],
+          "text": "Esophageal reflux"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2875",
+              "display": "Thrombocytopenia, unspecified"
+            }
+          ],
+          "text": "Thrombocytopenia, unspecified"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2859",
+              "display": "Anemia, unspecified"
+            }
+          ],
+          "text": "Anemia, unspecified"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-24",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-24",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5768",
+              "display": "Other specified disorders of biliary tract"
+            }
+          ],
+          "text": "Other specified disorders of biliary tract"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-25",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-25",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "6930",
+              "display": "Dermatitis due to drugs and medicines taken internally"
+            }
+          ],
+          "text": "Dermatitis due to drugs and medicines taken internally"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-26",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-26",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E9308",
+              "display": "Other specified antibiotics causing adverse effects in therapeutic use"
+            }
+          ],
+          "text": "Other specified antibiotics causing adverse effects in therapeutic use"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-27",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-27",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E9300",
+              "display": "Penicillins causing adverse effects in therapeutic use"
+            }
+          ],
+          "text": "Penicillins causing adverse effects in therapeutic use"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-28",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-28",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "9331",
+              "display": "Foreign body in larynx"
+            }
+          ],
+          "text": "Foreign body in larynx"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-29",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-29",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E912",
+              "display": "Inhalation and ingestion of other object causing obstruction of respiratory tract or suffocation"
+            }
+          ],
+          "text": "Inhalation and ingestion of other object causing obstruction of respiratory tract or suffocation"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-173136-30",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-173136-30",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "311",
+              "display": "Depressive disorder, not elsewhere classified"
+            }
+          ],
+          "text": "Depressive disorder, not elsewhere classified"
+        },
+        "onsetDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-1",
+        "status": "completed",
+        "code": {
+          "text": "Radical pancreaticoduodenectomy"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-2",
+        "status": "completed",
+        "code": {
+          "text": "Temporary tracheostomy"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-3",
+        "status": "completed",
+        "code": {
+          "text": "Cholecystectomy"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-4",
+        "status": "completed",
+        "code": {
+          "text": "Anastomosis of pancreas"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-5",
+        "status": "completed",
+        "code": {
+          "text": "Other lysis of peritoneal adhesions"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-6",
+        "status": "completed",
+        "code": {
+          "text": "Repair of other hernia of anterior abdominal wall"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-7",
+        "status": "completed",
+        "code": {
+          "text": "Reopening of recent laparotomy site"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-8",
+        "status": "completed",
+        "code": {
+          "text": "Other laparotomy"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-9",
+        "status": "completed",
+        "code": {
+          "text": "Suture of laceration of small intestine, except duodenum"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-10",
+        "status": "completed",
+        "code": {
+          "text": "Cannulation of pancreatic duct"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-11",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-12",
+        "status": "completed",
+        "code": {
+          "text": "Other percutaneous procedures on biliary tract"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-13",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-14",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-14",
+        "status": "completed",
+        "code": {
+          "text": "Parenteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-15",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-15",
+        "status": "completed",
+        "code": {
+          "text": "Other cholangiogram"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-16",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-16",
+        "status": "completed",
+        "code": {
+          "text": "Replacement of stent (tube) in biliary or pancreatic duct"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-17",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-17",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous abdominal drainage"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-18",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-18",
+        "status": "completed",
+        "code": {
+          "text": "Other cholangiogram"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-19",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-19",
+        "status": "completed",
+        "code": {
+          "text": "Other nonoperative replacements"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-20",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-20",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization for renal dialysis"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-21",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-21",
+        "status": "completed",
+        "code": {
+          "text": "Hemodialysis"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-22",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-22",
+        "status": "completed",
+        "code": {
+          "text": "Closed biopsy of skin and subcutaneous tissue"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-23",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-23",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization for renal dialysis"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-24",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-24",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-25",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-25",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-26",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-26",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-27",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-27",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-173136-28",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-173136-28",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2173-01-20"
+      }
+    }
+  ]
+}

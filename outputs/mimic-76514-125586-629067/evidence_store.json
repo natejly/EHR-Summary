@@ -1,0 +1,1427 @@
+{
+  "case_id": "mimic-76514-125586-629067",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:enc-125586",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Other specified cardiac dysrhythmias",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42789",
+        "display": "Other specified cardiac dysrhythmias"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:cond-125586-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:cond-125586-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Unspecified septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0389",
+        "display": "Unspecified septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:cond-125586-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99591",
+        "display": "Sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:cond-125586-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Pneumonitis due to inhalation of food or vomitus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5070",
+        "display": "Pneumonitis due to inhalation of food or vomitus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:cond-125586-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Hematoma complicating a procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99812",
+        "display": "Hematoma complicating a procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:cond-125586-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Other postoperative infection",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99859",
+        "display": "Other postoperative infection"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:cond-125586-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Other respiratory complications",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99739",
+        "display": "Other respiratory complications"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:cond-125586-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Unspecified transient mental disorder in conditions classified elsewhere",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2939",
+        "display": "Unspecified transient mental disorder in conditions classified elsewhere"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:cond-125586-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7863",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:cond-125586-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Atrioventricular block, complete",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4260",
+        "display": "Atrioventricular block, complete"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:cond-125586-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Unspecified acquired hypothyroidism",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2449",
+        "display": "Unspecified acquired hypothyroidism"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:cond-125586-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Systemic lupus erythematosus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7100",
+        "display": "Systemic lupus erythematosus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:cond-125586-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Unspecified sleep apnea",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78057",
+        "display": "Unspecified sleep apnea"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:cond-125586-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Anemia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2859",
+        "display": "Anemia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:cond-125586-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Thrombocytopenia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2875",
+        "display": "Thrombocytopenia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:cond-125586-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Osteoporosis, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "73300",
+        "display": "Osteoporosis, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:cond-125586-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Dysthymic disorder",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3004",
+        "display": "Dysthymic disorder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:cond-125586-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:cond-125586-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Esophageal reflux",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53081",
+        "display": "Esophageal reflux"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:cond-125586-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Myalgia and myositis, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7291",
+        "display": "Myalgia and myositis, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:cond-125586-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Personal history of hodgkin's disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V1072",
+        "display": "Personal history of hodgkin's disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:cond-125586-22",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Initial insertion of transvenous leads [electrodes] into atrium and ventricle",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Initial insertion of transvenous leads [electrodes] into atrium and ventricle"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:proc-125586-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Initial insertion of dual-chamber device",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Initial insertion of dual-chamber device"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:proc-125586-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:proc-125586-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:proc-125586-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:proc-125586-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:proc-125586-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2149-04-10",
+      "source_ref": "urn:uuid:proc-125586-7",
+      "text": null
+    },
+    {
+      "id": "E:note:row629067:1",
+      "kind": "note_sentence",
+      "display": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s1",
+      "text": "63 year old woman with lupus, obesity, prior thyroid lymphoma with    resultant hypothyroidism who was found down at her home- noted to be    bradycardic and hypotensive by EMS, unable to transcutaneously pace in    the field."
+    },
+    {
+      "id": "E:note:row629067:2",
+      "kind": "note_sentence",
+      "display": "In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, i",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s2",
+      "text": "In the ED at [**Hospital3 3191**] Hospital she continued to be    bradycardic, in complete heart block by report, she was coded for    bradycardia HR 20s rec'd epi/ atropine/ glucagon/ etc. A temporary    transvenous pacing wire was placed."
+    },
+    {
+      "id": "E:note:row629067:3",
+      "kind": "note_sentence",
+      "display": "She was intubated, started on    dopamine and propofol and transferred here for ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s3",
+      "text": "She was intubated, started on    dopamine and propofol and transferred here for further care."
+    },
+    {
+      "id": "E:note:row629067:4",
+      "kind": "note_sentence",
+      "display": "She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s4",
+      "text": "She is in    a hard collar r/t unwitnessed fall, CT head at OSH pnd."
+    },
+    {
+      "id": "E:note:row629067:5",
+      "kind": "note_sentence",
+      "display": "ECHO at OSH    PND.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s5",
+      "text": "ECHO at OSH    PND."
+    },
+    {
+      "id": "E:note:row629067:6",
+      "kind": "note_sentence",
+      "display": "Unclear etiology of CHB.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s6",
+      "text": "Unclear etiology of CHB."
+    },
+    {
+      "id": "E:note:row629067:7",
+      "kind": "note_sentence",
+      "display": "Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remai",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s7",
+      "text": "Heart block, complete (CHB)    Assessment:    R SC transvenous pacing wire remains in place."
+    },
+    {
+      "id": "E:note:row629067:8",
+      "kind": "note_sentence",
+      "display": "No ectopy noted.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s8",
+      "text": "No ectopy noted."
+    },
+    {
+      "id": "E:note:row629067:9",
+      "kind": "note_sentence",
+      "display": "No    pacing noted.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s9",
+      "text": "No    pacing noted."
+    },
+    {
+      "id": "E:note:row629067:10",
+      "kind": "note_sentence",
+      "display": "HR 80 s-100s NSR/ST.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s10",
+      "text": "HR 80 s-100s NSR/ST."
+    },
+    {
+      "id": "E:note:row629067:11",
+      "kind": "note_sentence",
+      "display": "Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavis",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s11",
+      "text": "Action:    *Transvenous pacer tested per [**Hospital1 1**] protocol- see Metavision for    settings."
+    },
+    {
+      "id": "E:note:row629067:12",
+      "kind": "note_sentence",
+      "display": "Magnesium/ Phosphate repleted.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s12",
+      "text": "Magnesium/ Phosphate repleted."
+    },
+    {
+      "id": "E:note:row629067:13",
+      "kind": "note_sentence",
+      "display": "EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Respons",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s13",
+      "text": "EKG obtained.    *Permanent PCM on hold given fevers overnight per EP    Response:    Remains in NSR/ST without bradycardia or rhythm disturbance noted."
+    },
+    {
+      "id": "E:note:row629067:14",
+      "kind": "note_sentence",
+      "display": "Plan:    *Permanent PCM once afebrile.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s14",
+      "text": "Plan:    *Permanent PCM once afebrile."
+    },
+    {
+      "id": "E:note:row629067:15",
+      "kind": "note_sentence",
+      "display": "Keep temporary wire in place until    permanent PCM.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s15",
+      "text": "Keep temporary wire in place until    permanent PCM."
+    },
+    {
+      "id": "E:note:row629067:16",
+      "kind": "note_sentence",
+      "display": "Monitor per hosp policy.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s16",
+      "text": "Monitor per hosp policy."
+    },
+    {
+      "id": "E:note:row629067:17",
+      "kind": "note_sentence",
+      "display": "Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/k",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s17",
+      "text": "Hypotension (not Shock)    Assessment:    Received Pt. on IV Dopamine at 12mcg/kg/min with BP ranges initially    90-100 s/40-50."
+    },
+    {
+      "id": "E:note:row629067:18",
+      "kind": "note_sentence",
+      "display": "CVP 10.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s18",
+      "text": "CVP 10."
+    },
+    {
+      "id": "E:note:row629067:19",
+      "kind": "note_sentence",
+      "display": "UOP ~50ml/hr, increasing after doses of IV    anbx.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s19",
+      "text": "UOP ~50ml/hr, increasing after doses of IV    anbx."
+    },
+    {
+      "id": "E:note:row629067:20",
+      "kind": "note_sentence",
+      "display": "Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s20",
+      "text": "Weak palp radial pulses and weak palp DP/PT.Skin cool/ clammy."
+    },
+    {
+      "id": "E:note:row629067:21",
+      "kind": "note_sentence",
+      "display": "Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypot",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s21",
+      "text": "Action:    *Completed 2^nd liter of IVF per order.    *Unclear etiology of hypotension- sepsis vs cardiogenic."
+    },
+    {
+      "id": "E:note:row629067:22",
+      "kind": "note_sentence",
+      "display": "PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s22",
+      "text": "PA line placed    over wire (R IJ TLC) under fluoroscopy at 17:00."
+    },
+    {
+      "id": "E:note:row629067:23",
+      "kind": "note_sentence",
+      "display": "CVP 10.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s23",
+      "text": "CVP 10."
+    },
+    {
+      "id": "E:note:row629067:24",
+      "kind": "note_sentence",
+      "display": "PCWP 22,    correlating w/ PAD 22.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s24",
+      "text": "PCWP 22,    correlating w/ PAD 22."
+    },
+    {
+      "id": "E:note:row629067:25",
+      "kind": "note_sentence",
+      "display": "MVO2 68.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s25",
+      "text": "MVO2 68."
+    },
+    {
+      "id": "E:note:row629067:26",
+      "kind": "note_sentence",
+      "display": "HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Mini",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s26",
+      "text": "HGB/ CO/CI numbers PND.    *Weaned dopamine as able    *ECHO complete->    *Minimizing hypotensive effect of propofol by adding midazolam."
+    },
+    {
+      "id": "E:note:row629067:27",
+      "kind": "note_sentence",
+      "display": "(See    below for pain control).    *Pt s/p multiple failed attempts at arterial",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s27",
+      "text": "(See    below for pain control).    *Pt s/p multiple failed attempts at arterial line [**4-10**]."
+    },
+    {
+      "id": "E:note:row629067:28",
+      "kind": "note_sentence",
+      "display": "Following NIBPs.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s28",
+      "text": "Following NIBPs."
+    },
+    {
+      "id": "E:note:row629067:29",
+      "kind": "note_sentence",
+      "display": "Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s29",
+      "text": "Response:    *Pt w/ BP 90s-100s, MAPs high 50s-60s on dopamine @ 8mcg/kg/min."
+    },
+    {
+      "id": "E:note:row629067:30",
+      "kind": "note_sentence",
+      "display": "PADs    low 20s.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s30",
+      "text": "PADs    low 20s."
+    },
+    {
+      "id": "E:note:row629067:31",
+      "kind": "note_sentence",
+      "display": "Plan:    Awaiting team plans given new PA line data.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s31",
+      "text": "Plan:    Awaiting team plans given new PA line data."
+    },
+    {
+      "id": "E:note:row629067:32",
+      "kind": "note_sentence",
+      "display": "Awaiting CO/CI.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s32",
+      "text": "Awaiting CO/CI."
+    },
+    {
+      "id": "E:note:row629067:33",
+      "kind": "note_sentence",
+      "display": "Continue    to wean dopamine as able.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s33",
+      "text": "Continue    to wean dopamine as able."
+    },
+    {
+      "id": "E:note:row629067:34",
+      "kind": "note_sentence",
+      "display": "Follow fluid/ volume status/ UOP.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s34",
+      "text": "Follow fluid/ volume status/ UOP."
+    },
+    {
+      "id": "E:note:row629067:35",
+      "kind": "note_sentence",
+      "display": "Monitor for    s/s sepsis/ temp spike.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s35",
+      "text": "Monitor for    s/s sepsis/ temp spike."
+    },
+    {
+      "id": "E:note:row629067:36",
+      "kind": "note_sentence",
+      "display": "Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tma",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s36",
+      "text": "Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tmax-> 100.4 blood."
+    },
+    {
+      "id": "E:note:row629067:37",
+      "kind": "note_sentence",
+      "display": "WBC up slightly 11.2 (10.9).",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s37",
+      "text": "WBC up slightly 11.2 (10.9)."
+    },
+    {
+      "id": "E:note:row629067:38",
+      "kind": "note_sentence",
+      "display": "Pan cultured overnight    last night.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s38",
+      "text": "Pan cultured overnight    last night."
+    },
+    {
+      "id": "E:note:row629067:39",
+      "kind": "note_sentence",
+      "display": "Pt diaphoretic/ clammy.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s39",
+      "text": "Pt diaphoretic/ clammy."
+    },
+    {
+      "id": "E:note:row629067:40",
+      "kind": "note_sentence",
+      "display": "Lactate 2.0.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s40",
+      "text": "Lactate 2.0."
+    },
+    {
+      "id": "E:note:row629067:41",
+      "kind": "note_sentence",
+      "display": "VS as above.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s41",
+      "text": "VS as above."
+    },
+    {
+      "id": "E:note:row629067:42",
+      "kind": "note_sentence",
+      "display": "Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s42",
+      "text": "Action:    *Triple IV anbx- cefepime/ vanco/ flagyl.    *Monitored temp/ WBC    *Tylenol PRN  had been given via NGT, however, later found that    gastric meds not being absorbed.    *Cool baths/ skin care PRN for diaphoresis    Response:    T range 99.8-100.4 Rectal/ blood."
+    },
+    {
+      "id": "E:note:row629067:43",
+      "kind": "note_sentence",
+      "display": "Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s43",
+      "text": "Plan:    Cont to monitor temp (now w/ blood temp monitor on PA line), follow up    with cultures., Antibxs as ordered    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    *Rec d pt on AC FiO2 50%, 500 x 20, 5 peep.    *LS clear apices/ rhonchi throughout."
+    },
+    {
+      "id": "E:note:row629067:44",
+      "kind": "note_sentence",
+      "display": "SPO2 >94%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s44",
+      "text": "SPO2 >94%."
+    },
+    {
+      "id": "E:note:row629067:45",
+      "kind": "note_sentence",
+      "display": "Thick, tan secretions    via ETT.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s45",
+      "text": "Thick, tan secretions    via ETT."
+    },
+    {
+      "id": "E:note:row629067:46",
+      "kind": "note_sentence",
+      "display": "Sedated per below.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s46",
+      "text": "Sedated per below."
+    },
+    {
+      "id": "E:note:row629067:47",
+      "kind": "note_sentence",
+      "display": "Action:    *Likely aspiration pneumonitis from brady event per team, anbx as abo",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s47",
+      "text": "Action:    *Likely aspiration pneumonitis from brady event per team, anbx as above    *Weaned vent settings: PS trial 12PS/ 5 peep-> RR up to 40s, pt    appearing uncomfortable in bed."
+    },
+    {
+      "id": "E:note:row629067:48",
+      "kind": "note_sentence",
+      "display": "PS increased to 16/ 5 peep.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s48",
+      "text": "PS increased to 16/ 5 peep."
+    },
+    {
+      "id": "E:note:row629067:49",
+      "kind": "note_sentence",
+      "display": "VENOUS    blood gas correlating to ABG on AC settings per resp.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s49",
+      "text": "VENOUS    blood gas correlating to ABG on AC settings per resp."
+    },
+    {
+      "id": "E:note:row629067:50",
+      "kind": "note_sentence",
+      "display": "Stayed on these    settings most of the day.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s50",
+      "text": "Stayed on these    settings most of the day."
+    },
+    {
+      "id": "E:note:row629067:51",
+      "kind": "note_sentence",
+      "display": "Placed on AC, fiO2 100% for PA line    placement.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s51",
+      "text": "Placed on AC, fiO2 100% for PA line    placement."
+    },
+    {
+      "id": "E:note:row629067:52",
+      "kind": "note_sentence",
+      "display": "Response:    *After line placed, FiO2 decreased to 50%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s52",
+      "text": "Response:    *After line placed, FiO2 decreased to 50%."
+    },
+    {
+      "id": "E:note:row629067:53",
+      "kind": "note_sentence",
+      "display": "VBG pnd.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s53",
+      "text": "VBG pnd."
+    },
+    {
+      "id": "E:note:row629067:54",
+      "kind": "note_sentence",
+      "display": "Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s54",
+      "text": "Plan:    Cont to monitor resp status, CXR in am, cont IV Antibxs as ordered."
+    },
+    {
+      "id": "E:note:row629067:55",
+      "kind": "note_sentence",
+      "display": "Follow VBGs until arterial line able to be placed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s55",
+      "text": "Follow VBGs until arterial line able to be placed."
+    },
+    {
+      "id": "E:note:row629067:56",
+      "kind": "note_sentence",
+      "display": "Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:  ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row629067#s56",
+      "text": "Pain control (acute pain, chronic pain)    Assessment:    Action:    Response:    Plan:    Cont to monitor pain, may need pain consult to aid in best    sedation/pain medications, cont to monitor neuro status, comfort and    emotional support to Pt. and husband"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|42789": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|0389": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99591": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5070": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99812": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99859": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99739": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2939": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7863": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4260": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2449": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7100": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78057": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2859": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2875": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|73300": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3004": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|53081": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7291": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V1072": [
+      "E:cond:22"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "other specified cardiac dysrhythmias": [
+      "E:cond:1"
+    ],
+    "acute respiratory failure": [
+      "E:cond:2"
+    ],
+    "unspecified septicemia": [
+      "E:cond:3"
+    ],
+    "sepsis": [
+      "E:cond:4"
+    ],
+    "pneumonitis due to inhalation of food or vomitus": [
+      "E:cond:5"
+    ],
+    "hematoma complicating a procedure": [
+      "E:cond:6"
+    ],
+    "other postoperative infection": [
+      "E:cond:7"
+    ],
+    "other respiratory complications": [
+      "E:cond:8"
+    ],
+    "unspecified transient mental disorder in conditions classified elsewhere": [
+      "E:cond:9"
+    ],
+    "diagnosis": [
+      "E:cond:10"
+    ],
+    "atrioventricular block, complete": [
+      "E:cond:11"
+    ],
+    "unspecified acquired hypothyroidism": [
+      "E:cond:12"
+    ],
+    "systemic lupus erythematosus": [
+      "E:cond:13"
+    ],
+    "unspecified sleep apnea": [
+      "E:cond:14"
+    ],
+    "anemia, unspecified": [
+      "E:cond:15"
+    ],
+    "thrombocytopenia, unspecified": [
+      "E:cond:16"
+    ],
+    "osteoporosis, unspecified": [
+      "E:cond:17"
+    ],
+    "dysthymic disorder": [
+      "E:cond:18"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:19"
+    ],
+    "esophageal reflux": [
+      "E:cond:20"
+    ],
+    "myalgia and myositis, unspecified": [
+      "E:cond:21"
+    ],
+    "personal history of hodgkin's disease": [
+      "E:cond:22"
+    ],
+    "initial insertion of transvenous leads [electrodes] into atrium and ventricle": [
+      "E:proc:1"
+    ],
+    "initial insertion of dual-chamber device": [
+      "E:proc:2"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:3"
+    ],
+    "arterial catheterization": [
+      "E:proc:4"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:5"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:6"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:7"
+    ],
+    "63 year old woman with lupus, obesity, prior thyroid lymphoma with resultant": [
+      "E:note:row629067:1"
+    ],
+    "in the ed at [**hospital3 3191**] hospital she continued to be bradycardic, i": [
+      "E:note:row629067:2"
+    ],
+    "she was intubated, started on dopamine and propofol and transferred here for": [
+      "E:note:row629067:3"
+    ],
+    "she is in a hard collar r/t unwitnessed fall, ct head at osh pnd.": [
+      "E:note:row629067:4"
+    ],
+    "echo at osh pnd.": [
+      "E:note:row629067:5"
+    ],
+    "unclear etiology of chb.": [
+      "E:note:row629067:6"
+    ],
+    "heart block, complete (chb) assessment: r sc transvenous pacing wire remai": [
+      "E:note:row629067:7"
+    ],
+    "no ectopy noted.": [
+      "E:note:row629067:8"
+    ],
+    "no pacing noted.": [
+      "E:note:row629067:9"
+    ],
+    "hr 80 s-100s nsr/st.": [
+      "E:note:row629067:10"
+    ],
+    "action: *transvenous pacer tested per [**hospital1 1**] protocol- see metavis": [
+      "E:note:row629067:11"
+    ],
+    "magnesium/ phosphate repleted.": [
+      "E:note:row629067:12"
+    ],
+    "ekg obtained. *permanent pcm on hold given fevers overnight per ep respons": [
+      "E:note:row629067:13"
+    ],
+    "plan: *permanent pcm once afebrile.": [
+      "E:note:row629067:14"
+    ],
+    "keep temporary wire in place until permanent pcm.": [
+      "E:note:row629067:15"
+    ],
+    "monitor per hosp policy.": [
+      "E:note:row629067:16"
+    ],
+    "hypotension (not shock) assessment: received pt. on iv dopamine at 12mcg/k": [
+      "E:note:row629067:17"
+    ],
+    "cvp 10.": [
+      "E:note:row629067:18",
+      "E:note:row629067:23"
+    ],
+    "uop ~50ml/hr, increasing after doses of iv anbx.": [
+      "E:note:row629067:19"
+    ],
+    "weak palp radial pulses and weak palp dp/pt.skin cool/ clammy.": [
+      "E:note:row629067:20"
+    ],
+    "action: *completed 2^nd liter of ivf per order. *unclear etiology of hypot": [
+      "E:note:row629067:21"
+    ],
+    "pa line placed over wire (r ij tlc) under fluoroscopy at 17:00.": [
+      "E:note:row629067:22"
+    ],
+    "pcwp 22, correlating w/ pad 22.": [
+      "E:note:row629067:24"
+    ],
+    "mvo2 68.": [
+      "E:note:row629067:25"
+    ],
+    "hgb/ co/ci numbers pnd. *weaned dopamine as able *echo complete-> *mini": [
+      "E:note:row629067:26"
+    ],
+    "(see below for pain control). *pt s/p multiple failed attempts at arterial": [
+      "E:note:row629067:27"
+    ],
+    "following nibps.": [
+      "E:note:row629067:28"
+    ],
+    "response: *pt w/ bp 90s-100s, maps high 50s-60s on dopamine @ 8mcg/kg/min.": [
+      "E:note:row629067:29"
+    ],
+    "pads low 20s.": [
+      "E:note:row629067:30"
+    ],
+    "plan: awaiting team plans given new pa line data.": [
+      "E:note:row629067:31"
+    ],
+    "awaiting co/ci.": [
+      "E:note:row629067:32"
+    ],
+    "continue to wean dopamine as able.": [
+      "E:note:row629067:33"
+    ],
+    "follow fluid/ volume status/ uop.": [
+      "E:note:row629067:34"
+    ],
+    "monitor for s/s sepsis/ temp spike.": [
+      "E:note:row629067:35"
+    ],
+    "fever (hyperthermia, pyrexia, not fever of unknown origin) assessment: tma": [
+      "E:note:row629067:36"
+    ],
+    "wbc up slightly 11.2 (10.9).": [
+      "E:note:row629067:37"
+    ],
+    "pan cultured overnight last night.": [
+      "E:note:row629067:38"
+    ],
+    "pt diaphoretic/ clammy.": [
+      "E:note:row629067:39"
+    ],
+    "lactate 2.0.": [
+      "E:note:row629067:40"
+    ],
+    "vs as above.": [
+      "E:note:row629067:41"
+    ],
+    "action: *triple iv anbx- cefepime/ vanco/ flagyl. *monitored temp/ wbc": [
+      "E:note:row629067:42"
+    ],
+    "plan: cont to monitor temp (now w/ blood temp monitor on pa line), follow up": [
+      "E:note:row629067:43"
+    ],
+    "spo2 >94%.": [
+      "E:note:row629067:44"
+    ],
+    "thick, tan secretions via ett.": [
+      "E:note:row629067:45"
+    ],
+    "sedated per below.": [
+      "E:note:row629067:46"
+    ],
+    "action: *likely aspiration pneumonitis from brady event per team, anbx as abo": [
+      "E:note:row629067:47"
+    ],
+    "ps increased to 16/ 5 peep.": [
+      "E:note:row629067:48"
+    ],
+    "venous blood gas correlating to abg on ac settings per resp.": [
+      "E:note:row629067:49"
+    ],
+    "stayed on these settings most of the day.": [
+      "E:note:row629067:50"
+    ],
+    "placed on ac, fio2 100% for pa line placement.": [
+      "E:note:row629067:51"
+    ],
+    "response: *after line placed, fio2 decreased to 50%.": [
+      "E:note:row629067:52"
+    ],
+    "vbg pnd.": [
+      "E:note:row629067:53"
+    ],
+    "plan: cont to monitor resp status, cxr in am, cont iv antibxs as ordered.": [
+      "E:note:row629067:54"
+    ],
+    "follow vbgs until arterial line able to be placed.": [
+      "E:note:row629067:55"
+    ],
+    "pain control (acute pain, chronic pain) assessment: action: response:": [
+      "E:note:row629067:56"
+    ]
+  },
+  "by_date": {
+    "2149-04-10": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7"
+    ]
+  }
+}

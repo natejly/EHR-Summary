@@ -1,0 +1,176 @@
+{
+  "case_id": "mimic-92277-173474-1282",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 16139,
+    "summary_chars": 3355,
+    "target_min_chars": 3227,
+    "target_max_chars": 4841,
+    "achieved_ratio": 0.20788152921494515,
+    "in_target_band": true
+  },
+  "check_report": {
+    "passed": false,
+    "violations": [
+      {
+        "sentence": "Current medications include:",
+        "rule": "missing_citation",
+        "detail": "Sentence has no [E:...] citation."
+      }
+    ],
+    "sentence_count": 25,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row1282:10",
+      "E:note:row1282:106",
+      "E:note:row1282:107",
+      "E:note:row1282:110",
+      "E:note:row1282:111",
+      "E:note:row1282:112",
+      "E:note:row1282:113",
+      "E:note:row1282:114",
+      "E:note:row1282:115",
+      "E:note:row1282:21",
+      "E:note:row1282:22",
+      "E:note:row1282:23",
+      "E:note:row1282:28",
+      "E:note:row1282:32",
+      "E:note:row1282:33",
+      "E:note:row1282:37",
+      "E:note:row1282:40",
+      "E:note:row1282:47",
+      "E:note:row1282:48",
+      "E:note:row1282:49",
+      "E:note:row1282:57",
+      "E:note:row1282:61",
+      "E:note:row1282:63",
+      "E:note:row1282:66",
+      "E:note:row1282:70",
+      "E:note:row1282:82",
+      "E:note:row1282:83",
+      "E:note:row1282:84",
+      "E:note:row1282:89",
+      "E:note:row1282:90",
+      "E:note:row1282:91",
+      "E:note:row1282:97",
+      "E:note:row1282:98",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "There is a documented other specified procedure as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure [E:cond:13].",
+        "severity": "medium",
+        "reason": "This sentence uses verbatim ICD-10 coding language which is clinically opaque and potentially misleading in a summary."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "There is a documented other specified procedure as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure [E:cond:13].",
+        "suggested": "The patient experienced a complication following a specified procedure [E:cond:13].",
+        "reason": "Simplifies overly technical coding terminology into a clear clinical statement."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-92277-173474-1282/summary_revised.md",
+  "revised_check_passed": false,
+  "patient_summary": {
+    "fk_grade": 7.49,
+    "fk_words": 167,
+    "fk_sentences": 16,
+    "fk_syllables": 269,
+    "chars": 1633,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-92277-173474-1282/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.005615332978777587,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 220.41893129097298,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 616.0826517919777,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.004011750046629459,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 55.1891138330102,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 25.314667958999053,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.006600417022127658,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 6.815113250049762,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

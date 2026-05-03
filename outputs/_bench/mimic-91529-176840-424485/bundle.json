@@ -1,0 +1,432 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-91529-176840",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-91529",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-91529",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-176840",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-176840",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2188-10-29T00:00:00",
+          "end": "2188-11-11T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-176840-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-176840-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41071",
+              "display": "Subendocardial infarction, initial episode of care"
+            }
+          ],
+          "text": "Subendocardial infarction, initial episode of care"
+        },
+        "onsetDateTime": "2188-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-176840-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-176840-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78551",
+              "display": "Cardiogenic shock"
+            }
+          ],
+          "text": "Cardiogenic shock"
+        },
+        "onsetDateTime": "2188-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-176840-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-176840-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4160",
+              "display": "Primary pulmonary hypertension"
+            }
+          ],
+          "text": "Primary pulmonary hypertension"
+        },
+        "onsetDateTime": "2188-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-176840-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-176840-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5789",
+              "display": "Hemorrhage of gastrointestinal tract, unspecified"
+            }
+          ],
+          "text": "Hemorrhage of gastrointestinal tract, unspecified"
+        },
+        "onsetDateTime": "2188-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-176840-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-176840-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2851",
+              "display": "Acute posthemorrhagic anemia"
+            }
+          ],
+          "text": "Acute posthemorrhagic anemia"
+        },
+        "onsetDateTime": "2188-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-176840-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-176840-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2188-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-176840-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-176840-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5185",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2188-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-176840-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-176840-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41401",
+              "display": "Coronary atherosclerosis of native coronary artery"
+            }
+          ],
+          "text": "Coronary atherosclerosis of native coronary artery"
+        },
+        "onsetDateTime": "2188-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-176840-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-176840-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4240",
+              "display": "Mitral valve disorders"
+            }
+          ],
+          "text": "Mitral valve disorders"
+        },
+        "onsetDateTime": "2188-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-176840-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-176840-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7847",
+              "display": "Epistaxis"
+            }
+          ],
+          "text": "Epistaxis"
+        },
+        "onsetDateTime": "2188-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-176840-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-176840-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2188-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-176840-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-176840-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25000",
+              "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2188-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-176840-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-176840-1",
+        "status": "completed",
+        "code": {
+          "text": "Implant of pulsation balloon"
+        },
+        "performedDateTime": "2188-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-176840-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-176840-2",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous transluminal coronary angioplasty [PTCA]"
+        },
+        "performedDateTime": "2188-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-176840-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-176840-3",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of non-drug-eluting coronary artery stent(s)"
+        },
+        "performedDateTime": "2188-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-176840-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-176840-4",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of two vascular stents"
+        },
+        "performedDateTime": "2188-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-176840-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-176840-5",
+        "status": "completed",
+        "code": {
+          "text": "Procedure on single vessel"
+        },
+        "performedDateTime": "2188-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-176840-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-176840-6",
+        "status": "completed",
+        "code": {
+          "text": "Combined right and left heart cardiac catheterization"
+        },
+        "performedDateTime": "2188-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-176840-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-176840-7",
+        "status": "completed",
+        "code": {
+          "text": "Coronary arteriography using two catheters"
+        },
+        "performedDateTime": "2188-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-176840-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-176840-8",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2188-10-29"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "concerns": [
+    {
+      "sentence": "Patient presents with STEMI (inferior wall) [E:cond:1][E:cond:2] and coronary atherosclerosis [E:cond:13][E:cond:14].",
+      "severity": "medium",
+      "reason": "The fact sheet specifies 'Acute myocardial infarction', but does not explicitly state it was a STEMI."
+    },
+    {
+      "sentence": "Other diagnoses include UTI [E:cond:11][E:cond:12][E:note:row466035:30], chronic hepatitis C [E:cond:27][E:cond:28], liver disorders [E:cond:33][E:cond:34], essential hypertension [E:cond:29][E:cond:30], thrombocytopenia [E:cond:31][E:cond:32], and iatrogenic hypotension [E:cond:19][E:cond:20].",
+      "severity": "medium",
+      "reason": "The summary includes liver disorders and thrombocytopenia, but these are not present in the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Patient presents with STEMI (inferior wall) [E:cond:1][E:cond:2] and coronary atherosclerosis [E:cond:13][E:cond:14].",
+      "suggested": "Patient presents with acute myocardial infarction of the inferior wall [E:cond:1][E:cond:2] and coronary atherosclerosis [E:cond:13][E:cond:14].",
+      "reason": "Corrects 'STEMI' to 'acute myocardial infarction' to match the fact sheet."
+    },
+    {
+      "original": "Other diagnoses include UTI [E:cond:11][E:cond:12][E:note:row466035:30], chronic hepatitis C [E:cond:27][E:cond:28], liver disorders [E:cond:33][E:cond:34], essential hypertension [E:cond:29][E:cond:30], thrombocytopenia [E:cond:31][E:cond:32], and iatrogenic hypotension [E:cond:19][E:cond:20].",
+      "suggested": "Other diagnoses include UTI [E:cond:11][E:cond:12][E:note:row466035:30], chronic hepatitis C [E:cond:27][E:cond:28], essential hypertension [E:cond:29][E:cond:30], and iatrogenic hypotension [E:cond:19][E:cond:20].",
+      "reason": "Removes liver disorders and thrombocytopenia as they are not supported by the provided fact sheet."
+    }
+  ]
+}

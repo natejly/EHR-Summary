@@ -1,0 +1,26 @@
+{
+  "concerns": [
+    {
+      "sentence": "Acute alcoholic hepatitis, alcoholic cirrhosis, and hepatic encephalopathy [E:cond:1][E:cond:18][E:cond:3].",
+      "severity": "medium",
+      "reason": "Alcoholic cirrhosis is not listed in the provided fact sheet."
+    },
+    {
+      "sentence": "Other issues include ascites, UTI, coagulation defects, protein-calorie malnutrition, anorexia nervosa, alcohol dependence, and lupus erythematosus [E:cond:9][E:cond:10][E:cond:8][E:cond:6][E:cond:15][E:cond:17][E:cond:28].",
+      "severity": "medium",
+      "reason": "Alcohol dependence and lupus erythematosus are not listed in the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Acute alcoholic hepatitis, alcoholic cirrhosis, and hepatic encephalopathy [E:cond:1][E:cond:18][E:cond:3].",
+      "suggested": "Acute alcoholic hepatitis and hepatic encephalopathy [E:cond:1][E:cond:3].",
+      "reason": "Remove alcoholic cirrhosis as it is not supported by the fact sheet."
+    },
+    {
+      "original": "Other issues include ascites, UTI, coagulation defects, protein-calorie malnutrition, anorexia nervosa, alcohol dependence, and lupus erythematosus [E:cond:9][E:cond:10][E:cond:8][E:cond:6][E:cond:15][E:cond:17][E:cond:28].",
+      "suggested": "Other issues include ascites, UTI, coagulation defects, protein-calorie malnutrition, and anorexia nervosa [E:cond:9][E:cond:10][E:cond:8][E:cond:6][E:cond:15].",
+      "reason": "Remove alcohol dependence and lupus erythematosus as they are not supported by the fact sheet."
+    }
+  ]
+}

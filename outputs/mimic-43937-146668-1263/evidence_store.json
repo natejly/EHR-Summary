@@ -1,0 +1,1620 @@
+{
+  "case_id": "mimic-43937-146668-1263",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:enc-146668",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Unspecified septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0389",
+        "display": "Unspecified septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:cond-146668-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:cond-146668-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Septic shock",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78552",
+        "display": "Septic shock"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:cond-146668-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Pneumonia, organism unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "486",
+        "display": "Pneumonia, organism unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:cond-146668-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:cond-146668-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Hyperosmolality and/or hypernatremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2760",
+        "display": "Hyperosmolality and/or hypernatremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:cond-146668-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:cond-146668-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Chronic systolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42822",
+        "display": "Chronic systolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:cond-146668-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:cond-146668-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:cond-146668-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Do not resuscitate status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4986",
+        "display": "Do not resuscitate status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:cond-146668-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of native coronary artery",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41401",
+        "display": "Coronary atherosclerosis of native coronary artery"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:cond-146668-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Percutaneous transluminal coronary angioplasty status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4582",
+        "display": "Percutaneous transluminal coronary angioplasty status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:cond-146668-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V1254",
+        "display": "Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:cond-146668-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Dementia, unspecified, without behavioral disturbance",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "29420",
+        "display": "Dementia, unspecified, without behavioral disturbance"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:cond-146668-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Other specified forms of chronic ischemic heart disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4148",
+        "display": "Other specified forms of chronic ischemic heart disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:cond-146668-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "60000",
+        "display": "Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:cond-146668-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Anemia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2859",
+        "display": "Anemia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:cond-146668-18",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:proc-146668-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:proc-146668-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:proc-146668-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2200-08-04",
+      "source_ref": "urn:uuid:proc-146668-4",
+      "text": null
+    },
+    {
+      "id": "E:note:row1263:1",
+      "kind": "note_sentence",
+      "display": "Admission Date:  [**2200-8-4**]              Discharge Date:   [**2200-8-5**]  D",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s1",
+      "text": "Admission Date:  [**2200-8-4**]              Discharge Date:   [**2200-8-5**]  Date of Birth:  [**2113-3-30**]             Sex:   M  Service: MEDICINE  Allergies: Depakote / Zarontin / Phenobarbital / Aspirin  Attending:[**Last Name (NamePattern1) 495**] Chief Complaint: Respiratory distress."
+    },
+    {
+      "id": "E:note:row1263:2",
+      "kind": "note_sentence",
+      "display": "Major Surgical or Invasive Procedure: Intubation, CVL  History of Present Illnes",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s2",
+      "text": "Major Surgical or Invasive Procedure: Intubation, CVL  History of Present Illness: 87 yo wheelchair bound male with CAD s/p PCI [**2191**], CVA in [**2187**], HTN, dementia, and recurrent [**Year (4 digits) **] PNA, with recent admission for acute on chronic systolic CHF exacerbation with EF=30% in [**8-30**] who presented with respiratory distress from [**Hospital3 2558**] nursing home."
+    },
+    {
+      "id": "E:note:row1263:3",
+      "kind": "note_sentence",
+      "display": "Nursing home records indicated that the patient was short of breath and found to",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s3",
+      "text": "Nursing home records indicated that the patient was short of breath and found to be highly congested with decreased oxygen sats and crackles."
+    },
+    {
+      "id": "E:note:row1263:4",
+      "kind": "note_sentence",
+      "display": "A stat CXR was ordered by the PA.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s4",
+      "text": "A stat CXR was ordered by the PA."
+    },
+    {
+      "id": "E:note:row1263:5",
+      "kind": "note_sentence",
+      "display": "The attending came in today and noted the patient was unresponsive in bed so he ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s5",
+      "text": "The attending came in today and noted the patient was unresponsive in bed so he was referred to the ED for further managament."
+    },
+    {
+      "id": "E:note:row1263:6",
+      "kind": "note_sentence",
+      "display": "He is typically oriented only to self but can report if he is in pain.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s6",
+      "text": "He is typically oriented only to self but can report if he is in pain."
+    },
+    {
+      "id": "E:note:row1263:7",
+      "kind": "note_sentence",
+      "display": "He was recently admitted for acute on chornic systolic CHF exacerbation and was ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s7",
+      "text": "He was recently admitted for acute on chornic systolic CHF exacerbation and was concomitantly treated for [**Hospital3 **] pneumonia with vanco/zosyn then levofloxacin for a total course of 3 days."
+    },
+    {
+      "id": "E:note:row1263:8",
+      "kind": "note_sentence",
+      "display": "Antibiotics were stopped prior discharge.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s8",
+      "text": "Antibiotics were stopped prior discharge."
+    },
+    {
+      "id": "E:note:row1263:9",
+      "kind": "note_sentence",
+      "display": "Per EMS patient had a recent pneumonia also has a history of CHF they were calle",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s9",
+      "text": "Per EMS patient had a recent pneumonia also has a history of CHF they were called for respiratory distress."
+    },
+    {
+      "id": "E:note:row1263:10",
+      "kind": "note_sentence",
+      "display": "EMS reported that the patient was full code.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s10",
+      "text": "EMS reported that the patient was full code."
+    },
+    {
+      "id": "E:note:row1263:11",
+      "kind": "note_sentence",
+      "display": "Upon arrival to the ED, he was on positive pressure ventilation with sats in the",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s11",
+      "text": "Upon arrival to the ED, he was on positive pressure ventilation with sats in the low 90's."
+    },
+    {
+      "id": "E:note:row1263:12",
+      "kind": "note_sentence",
+      "display": "He was unable to speak secondary to respiratory distress and appeared as if he w",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s12",
+      "text": "He was unable to speak secondary to respiratory distress and appeared as if he was tiring."
+    },
+    {
+      "id": "E:note:row1263:13",
+      "kind": "note_sentence",
+      "display": "Noted to have bibasilar rales.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s13",
+      "text": "Noted to have bibasilar rales."
+    },
+    {
+      "id": "E:note:row1263:14",
+      "kind": "note_sentence",
+      "display": "As a result he was easily intubated with a 7.5 ETT with etomidate and succinylch",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s14",
+      "text": "As a result he was easily intubated with a 7.5 ETT with etomidate and succinylcholine."
+    },
+    {
+      "id": "E:note:row1263:15",
+      "kind": "note_sentence",
+      "display": "He was sedated with fentanyl and midazolam.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s15",
+      "text": "He was sedated with fentanyl and midazolam."
+    },
+    {
+      "id": "E:note:row1263:16",
+      "kind": "note_sentence",
+      "display": "He was tachycardic to the 130s and had a blood pressure in the systolics of 60, ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s16",
+      "text": "He was tachycardic to the 130s and had a blood pressure in the systolics of 60, so norepinephrine was started."
+    },
+    {
+      "id": "E:note:row1263:17",
+      "kind": "note_sentence",
+      "display": "Paperwork was then faxed over that noted the patient is DNR/DNI.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s17",
+      "text": "Paperwork was then faxed over that noted the patient is DNR/DNI."
+    },
+    {
+      "id": "E:note:row1263:18",
+      "kind": "note_sentence",
+      "display": "A left IJ was attempted but the line went laterally.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s18",
+      "text": "A left IJ was attempted but the line went laterally."
+    },
+    {
+      "id": "E:note:row1263:19",
+      "kind": "note_sentence",
+      "display": "A right IJ placed into the cavoatrial junction.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s19",
+      "text": "A right IJ placed into the cavoatrial junction."
+    },
+    {
+      "id": "E:note:row1263:20",
+      "kind": "note_sentence",
+      "display": "He was given a total of 6L NS.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s20",
+      "text": "He was given a total of 6L NS."
+    },
+    {
+      "id": "E:note:row1263:21",
+      "kind": "note_sentence",
+      "display": "His UA returned positive.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s21",
+      "text": "His UA returned positive."
+    },
+    {
+      "id": "E:note:row1263:22",
+      "kind": "note_sentence",
+      "display": "He also has a 20G in his right hand.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s22",
+      "text": "He also has a 20G in his right hand."
+    },
+    {
+      "id": "E:note:row1263:23",
+      "kind": "note_sentence",
+      "display": "He was given vanco/zosyn.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s23",
+      "text": "He was given vanco/zosyn."
+    },
+    {
+      "id": "E:note:row1263:24",
+      "kind": "note_sentence",
+      "display": "EKG was concerning for a ST elevation in lead 3, in the context of a LBBB.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s24",
+      "text": "EKG was concerning for a ST elevation in lead 3, in the context of a LBBB."
+    },
+    {
+      "id": "E:note:row1263:25",
+      "kind": "note_sentence",
+      "display": "Cardiology was consulted and felt that these changes were likely a result of sep",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s25",
+      "text": "Cardiology was consulted and felt that these changes were likely a result of sepsis with demand ischmia as these changes improved with improved hemodynamics."
+    },
+    {
+      "id": "E:note:row1263:26",
+      "kind": "note_sentence",
+      "display": "They recommended serial trops, Echo, and aspirin with heparin if no evidence of ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s26",
+      "text": "They recommended serial trops, Echo, and aspirin with heparin if no evidence of DIC."
+    },
+    {
+      "id": "E:note:row1263:27",
+      "kind": "note_sentence",
+      "display": "On arrival to the MICU, he is intubated and unresponsive.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s27",
+      "text": "On arrival to the MICU, he is intubated and unresponsive."
+    },
+    {
+      "id": "E:note:row1263:28",
+      "kind": "note_sentence",
+      "display": "Past Medical History: - Coronary artery disease (stenting of D1 in [**7-/2191**]",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s28",
+      "text": "Past Medical History: - Coronary artery disease (stenting of D1 in [**7-/2191**]) - Congestive heart failure (EF 30% as of [**8-/2199**]) - Ischemic cardiomyopathy - Cerebrovascular accident ([**2187**]) - Hypertension - Recurrent [**Year (4 digits) **] PNA - Depression - GERD - Neurogenic bladder - Gout - BPH  Social History: [**Year (4 digits) 595**] speaking only."
+    },
+    {
+      "id": "E:note:row1263:29",
+      "kind": "note_sentence",
+      "display": "Lives in [**Hospital3 **]. # Tobacco: Past smoking history, none currently # Alc",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s29",
+      "text": "Lives in [**Hospital3 **]. # Tobacco: Past smoking history, none currently # Alcohol: None # Illicits: None Has guardian ([**Name (NI) 1005**] c [**Telephone/Fax (1) 7843**], office [**Telephone/Fax (1) 7844**])."
+    },
+    {
+      "id": "E:note:row1263:30",
+      "kind": "note_sentence",
+      "display": "Court appointed given discord between wife [**Doctor First Name 7847**] [**Telep",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s30",
+      "text": "Court appointed given discord between wife [**Doctor First Name 7847**] [**Telephone/Fax (1) 7848**]) and son [**Doctor First Name 1158**] [**Telephone/Fax (1) 7845**])."
+    },
+    {
+      "id": "E:note:row1263:31",
+      "kind": "note_sentence",
+      "display": "Per the nursing home PCP; apparently a \"do not rehospitalize\" order is currently",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s31",
+      "text": "Per the nursing home PCP; apparently a \"do not rehospitalize\" order is currently being applied for but a court date was not sent."
+    },
+    {
+      "id": "E:note:row1263:32",
+      "kind": "note_sentence",
+      "display": "Family History: Noncontributory   Physical Exam: Exam on admission: Vitals: 102.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s32",
+      "text": "Family History: Noncontributory   Physical Exam: Exam on admission: Vitals: 102.8 120 96/52 26 90% on PSV 5/5 40% General: Intubated, sedated, unresponsive to pain HEENT: Sclera anicteric, MMdry, pupils 5mm and reactive bilaterally Neck: supple, JVP not elevated, no LAD CV: Tachycardic, normal S1 + S2, no murmurs, rubs, gallops Lungs: Bronchial breath sounds at left base, decreased breath sounds at right base Abdomen: +BS, soft, non-tender, non-distended Back: stage 2 decubitus ulcer on sacrum GU: foley with yellow beige pus draining Ext: dry, cool, 1+ pulses, mottled extremities without edema Neuro: unresponsive to pain  Exam on discharge: Patient without brainstem reflexes, no cardiopulmonary activity."
+    },
+    {
+      "id": "E:note:row1263:33",
+      "kind": "note_sentence",
+      "display": "Patient expired.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s33",
+      "text": "Patient expired."
+    },
+    {
+      "id": "E:note:row1263:34",
+      "kind": "note_sentence",
+      "display": "Pertinent Results: Labs: [**2200-8-4**] 10:15AM BLOOD WBC-12.8* RBC-5.00 Hgb-14.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s34",
+      "text": "Pertinent Results: Labs: [**2200-8-4**] 10:15AM BLOOD WBC-12.8* RBC-5.00 Hgb-14.4 Hct-46.2 MCV-92 MCH-28.9 MCHC-31.2 RDW-15.3 Plt Ct-312 [**2200-8-4**] 03:35PM BLOOD WBC-4.2# RBC-3.95* Hgb-11.4* Hct-37.1* MCV-94 MCH-28.8 MCHC-30.6* RDW-15.3 Plt Ct-229 [**2200-8-4**] 09:26PM BLOOD WBC-5.3 RBC-3.81* Hgb-11.0* Hct-36.2* MCV-95 MCH-28.8 MCHC-30.3* RDW-15.4 Plt Ct-263 [**2200-8-4**] 10:15AM BLOOD PT-12.4 PTT-33.4 INR(PT)-1.1 [**2200-8-4**] 03:35PM BLOOD PT-16.0* PTT-69.5* INR(PT)-1.5* [**2200-8-5**] 02:09AM BLOOD PTT-150* [**2200-8-4**] 10:15AM BLOOD Fibrino-568* [**2200-8-4**] 11:44PM BLOOD Fibrino-372# [**2200-8-4**] 10:15AM BLOOD UreaN-69* Creat-2.0* [**2200-8-4**] 03:35PM BLOOD Glucose-114* UreaN-58* Creat-2.0* Na-150* K-3.7 Cl-123* HCO3-18* AnGap-13 [**2200-8-4**] 08:00PM BLOOD Glucose-116* UreaN-57* Creat-2.0* Na-150* K-3.9 Cl-124* HCO3-13* AnGap-17 [**2200-8-4**] 03:35PM BLOOD ALT-6 AST-11 CK(CPK)-117 [**2200-8-4**] 10:15AM BLOOD Lipase-12 [**2200-8-4**] 10:15AM BLOOD cTropnT-0.10* [**2200-8-4**] 03:35PM BLOOD CK-MB-5 [**2200-8-4**] 08:00PM BLOOD proBNP-GREATER TH [**2200-8-4**] 09:26PM BLOOD CK-MB-6 cTropnT-0.23* [**2200-8-4**] 03:35PM BLOOD Calcium-6.7* Phos-2.1* Mg-1.7 [**2200-8-4**] 08:00PM BLOOD Calcium-6.2* Phos-2.4* Mg-1.6 [**2200-8-4**] 10:15AM BLOOD ASA-NEG Ethanol-NEG Acetmnp-NEG Bnzodzp-NEG Barbitr-NEG Tricycl-NEG [**2200-8-4**] 10:23AM BLOOD pO2-79* pCO2-40 pH-7.33* calTCO2-22 Base XS--4 [**2200-8-4**] 11:09AM BLOOD Type-ART pO2-288* pCO2-36 pH-7.31* calTCO2-19* Base XS--7 [**2200-8-4**] 11:20AM BLOOD Type-[**Last Name (un) **] Comment-GREEN TOP [**2200-8-4**] 04:39PM BLOOD Type-ART Tidal V-400 PEEP-5 FiO2-60 pO2-67* pCO2-44 pH-7.20* calTCO2-18* Base XS--10 Intubat-INTUBATED [**2200-8-4**] 06:06PM BLOOD Type-ART Rates-30/ Tidal V-450 PEEP-10 FiO2-60 pO2-65* pCO2-37 pH-7.23* calTCO2-16* Base XS--11 -ASSIST/CON Intubat-INTUBATED [**2200-8-4**] 06:06PM BLOOD Type-ART Rates-30/ Tidal V-450 PEEP-10 FiO2-60 pO2-65* pCO2-37 pH-7.23* calTCO2-16* Base XS--11 -ASSIST/CON Intubat-INTUBATED [**2200-8-4**] 08:14PM BLOOD Type-ART pO2-60* pCO2-35 pH-7.22* calTCO2-15* Base XS--12 [**2200-8-4**] 09:51PM BLOOD Type-ART pO2-65* pCO2-37 pH-7.18* calTCO2-15* Base XS--13 [**2200-8-5**] 02:26AM BLOOD Type-[**Last Name (un) **] pO2-31* pCO2-47* pH-7.08* calTCO2-15* Base XS--17 [**2200-8-4**] 10:23AM BLOOD Glucose-133* Lactate-3.2* Na-150* K-5.3* Cl-118* calHCO3-21 [**2200-8-4**] 11:20AM BLOOD Lactate-5.2* [**2200-8-4**] 04:39PM BLOOD Lactate-2.4* [**2200-8-4**] 09:51PM BLOOD Lactate-3.9* [**2200-8-5**] 02:26AM BLOOD Lactate-8.9* [**2200-8-5**] 12:33AM BLOOD O2 Sat-58 [**2200-8-4**] 08:14PM BLOOD freeCa-1.10*  Micro: Blood and sputum cultures grew oxacillin sensitive staph aureus, with culture results returning after patient expired."
+    },
+    {
+      "id": "E:note:row1263:35",
+      "kind": "note_sentence",
+      "display": "Imaging: [**2200-8-4**] CXR #1: ET tube position appropriately.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s35",
+      "text": "Imaging: [**2200-8-4**] CXR #1: ET tube position appropriately."
+    },
+    {
+      "id": "E:note:row1263:36",
+      "kind": "note_sentence",
+      "display": "NG tube may be advanced for more optimal positioning.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s36",
+      "text": "NG tube may be advanced for more optimal positioning."
+    },
+    {
+      "id": "E:note:row1263:37",
+      "kind": "note_sentence",
+      "display": "Bilateral posterior lower lobe opacities likely reflect [**Month/Day/Year **].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s37",
+      "text": "Bilateral posterior lower lobe opacities likely reflect [**Month/Day/Year **]."
+    },
+    {
+      "id": "E:note:row1263:38",
+      "kind": "note_sentence",
+      "display": "[**2200-8-4**] CXR #2: The new left jugular line is curving back in the mid left",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s38",
+      "text": "[**2200-8-4**] CXR #2: The new left jugular line is curving back in the mid left subclavian vein."
+    },
+    {
+      "id": "E:note:row1263:39",
+      "kind": "note_sentence",
+      "display": "There is no pneumothorax and no pleural effusion.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s39",
+      "text": "There is no pneumothorax and no pleural effusion."
+    },
+    {
+      "id": "E:note:row1263:40",
+      "kind": "note_sentence",
+      "display": "The side port of the NG tube is at the level or slightly above the level of the ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s40",
+      "text": "The side port of the NG tube is at the level or slightly above the level of the esophagogastric junction."
+    },
+    {
+      "id": "E:note:row1263:41",
+      "kind": "note_sentence",
+      "display": "It could be advanced.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s41",
+      "text": "It could be advanced."
+    },
+    {
+      "id": "E:note:row1263:42",
+      "kind": "note_sentence",
+      "display": "Stability of the bilateral multifocal opacities.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s42",
+      "text": "Stability of the bilateral multifocal opacities."
+    },
+    {
+      "id": "E:note:row1263:43",
+      "kind": "note_sentence",
+      "display": "The mediastinal and cardiac contour are unchanged.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s43",
+      "text": "The mediastinal and cardiac contour are unchanged."
+    },
+    {
+      "id": "E:note:row1263:44",
+      "kind": "note_sentence",
+      "display": "The endotracheal tube is in adequate position 5.9 cm above the carina.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s44",
+      "text": "The endotracheal tube is in adequate position 5.9 cm above the carina."
+    },
+    {
+      "id": "E:note:row1263:45",
+      "kind": "note_sentence",
+      "display": "[**2200-8-4**] CXR #3: right IJ in cavoatrial junction, ETT 5.8cm from carina, b",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s45",
+      "text": "[**2200-8-4**] CXR #3: right IJ in cavoatrial junction, ETT 5.8cm from carina, bibasilar infiltrates, clear diaphragmatic and heart borders  [**2200-8-4**] EKG: wide complex regular tachycardia at 140, LAD, biventricular block with evidence of change in lateral leads  Brief Hospital Course: 87 yo wheelchair bound male with CAD s/p PCI [**2191**], ischemic cardiomyopathy with EF 30%, CVA in [**2187**], HTN, dementia, and recurrent [**Year (4 digits) **] PNA, with recent admission for acute on chronic systolic CHF exacerbation with EF=30% in [**8-30**] who presented with respiratory distress found to be hypotensive."
+    },
+    {
+      "id": "E:note:row1263:46",
+      "kind": "note_sentence",
+      "display": "He was admitted to the MICU intubated with hemodynamic instability requiring nor",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s46",
+      "text": "He was admitted to the MICU intubated with hemodynamic instability requiring norepi/vasopressin and IVF."
+    },
+    {
+      "id": "E:note:row1263:47",
+      "kind": "note_sentence",
+      "display": "While a broad workup was pursued, this was most likely felt to be sepsis given h",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s47",
+      "text": "While a broad workup was pursued, this was most likely felt to be sepsis given his fever, leukocytosis, positive UA and purulent sputum."
+    },
+    {
+      "id": "E:note:row1263:48",
+      "kind": "note_sentence",
+      "display": "He was covered with vanco/cefepime/cipro for HCAP and urinary sources.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s48",
+      "text": "He was covered with vanco/cefepime/cipro for HCAP and urinary sources."
+    },
+    {
+      "id": "E:note:row1263:49",
+      "kind": "note_sentence",
+      "display": "He was also empirically started on a heparin drip for PE and in the setting of e",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s49",
+      "text": "He was also empirically started on a heparin drip for PE and in the setting of elevated troponins given his rapid decompensation."
+    },
+    {
+      "id": "E:note:row1263:50",
+      "kind": "note_sentence",
+      "display": "LENI's were ordered but were not completed prior to his passing.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s50",
+      "text": "LENI's were ordered but were not completed prior to his passing."
+    },
+    {
+      "id": "E:note:row1263:51",
+      "kind": "note_sentence",
+      "display": "Troponins and serial EKGs were performed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s51",
+      "text": "Troponins and serial EKGs were performed."
+    },
+    {
+      "id": "E:note:row1263:52",
+      "kind": "note_sentence",
+      "display": "He was started on a statin, continued on plavix, and not on aspirin secondary to",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s52",
+      "text": "He was started on a statin, continued on plavix, and not on aspirin secondary to allergy."
+    },
+    {
+      "id": "E:note:row1263:53",
+      "kind": "note_sentence",
+      "display": "His BB and ACE were held given his hypotension.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s53",
+      "text": "His BB and ACE were held given his hypotension."
+    },
+    {
+      "id": "E:note:row1263:54",
+      "kind": "note_sentence",
+      "display": "His CXR also revealed an element of volume overload in the setting of a hx of CH",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s54",
+      "text": "His CXR also revealed an element of volume overload in the setting of a hx of CHF."
+    },
+    {
+      "id": "E:note:row1263:55",
+      "kind": "note_sentence",
+      "display": "He was sedated given dysynchrony on the vent and his PEEP was uptitrated.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s55",
+      "text": "He was sedated given dysynchrony on the vent and his PEEP was uptitrated."
+    },
+    {
+      "id": "E:note:row1263:56",
+      "kind": "note_sentence",
+      "display": "His course was further complicated by hypernatremia thought to be secondary to p",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s56",
+      "text": "His course was further complicated by hypernatremia thought to be secondary to poor free water intake as an outpatient, and [**Last Name (un) **] also thought to be secondary to dehydration."
+    },
+    {
+      "id": "E:note:row1263:57",
+      "kind": "note_sentence",
+      "display": "His coags uptrended which was concerning for DIC, but his fibrinogen was normal.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s57",
+      "text": "His coags uptrended which was concerning for DIC, but his fibrinogen was normal."
+    },
+    {
+      "id": "E:note:row1263:58",
+      "kind": "note_sentence",
+      "display": "Despite all of the aggressive measures listed above, he became more hypotensive ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s58",
+      "text": "Despite all of the aggressive measures listed above, he became more hypotensive with subsequent bradycardia."
+    },
+    {
+      "id": "E:note:row1263:59",
+      "kind": "note_sentence",
+      "display": "As he was initially intubated in the setting of DNR/DNI order, chest compression",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s59",
+      "text": "As he was initially intubated in the setting of DNR/DNI order, chest compressions were not started and the patient expired."
+    },
+    {
+      "id": "E:note:row1263:60",
+      "kind": "note_sentence",
+      "display": "His guardian, wife and son were all called multiple times and messages were left",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s60",
+      "text": "His guardian, wife and son were all called multiple times and messages were left regarding his decompensation and tenuous state."
+    },
+    {
+      "id": "E:note:row1263:61",
+      "kind": "note_sentence",
+      "display": "Mr. [**Known lastname 7838**] son arrived just minutes after his father's passin",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s61",
+      "text": "Mr. [**Known lastname 7838**] son arrived just minutes after his father's passing."
+    },
+    {
+      "id": "E:note:row1263:62",
+      "kind": "note_sentence",
+      "display": "Culture data that resulted after the patient expired revealed an oxacillin sensi",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s62",
+      "text": "Culture data that resulted after the patient expired revealed an oxacillin sensitive staph aureus in both the sputum and the blood."
+    },
+    {
+      "id": "E:note:row1263:63",
+      "kind": "note_sentence",
+      "display": "Medications on Admission: Medications HOME: (per NSH records) 1.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s63",
+      "text": "Medications on Admission: Medications HOME: (per NSH records) 1."
+    },
+    {
+      "id": "E:note:row1263:64",
+      "kind": "note_sentence",
+      "display": "Clopidogrel 75 mg PO DAILY 2.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s64",
+      "text": "Clopidogrel 75 mg PO DAILY 2."
+    },
+    {
+      "id": "E:note:row1263:65",
+      "kind": "note_sentence",
+      "display": "Docusate Sodium 100 mg PO BID:PRN constipation 3.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s65",
+      "text": "Docusate Sodium 100 mg PO BID:PRN constipation 3."
+    },
+    {
+      "id": "E:note:row1263:66",
+      "kind": "note_sentence",
+      "display": "Doxazosin 8 mg PO HS 4.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s66",
+      "text": "Doxazosin 8 mg PO HS 4."
+    },
+    {
+      "id": "E:note:row1263:67",
+      "kind": "note_sentence",
+      "display": "Gabapentin 200 mg PO HS 5.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s67",
+      "text": "Gabapentin 200 mg PO HS 5."
+    },
+    {
+      "id": "E:note:row1263:68",
+      "kind": "note_sentence",
+      "display": "Lorazepam 0.5 mg PO HS 6.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s68",
+      "text": "Lorazepam 0.5 mg PO HS 6."
+    },
+    {
+      "id": "E:note:row1263:69",
+      "kind": "note_sentence",
+      "display": "Metoprolol Tartrate 25mg PO BID 7.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s69",
+      "text": "Metoprolol Tartrate 25mg PO BID 7."
+    },
+    {
+      "id": "E:note:row1263:70",
+      "kind": "note_sentence",
+      "display": "Mirtazapine 30 mg PO HS 8.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s70",
+      "text": "Mirtazapine 30 mg PO HS 8."
+    },
+    {
+      "id": "E:note:row1263:71",
+      "kind": "note_sentence",
+      "display": "Senna 1 TAB PO BID 9.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s71",
+      "text": "Senna 1 TAB PO BID 9."
+    },
+    {
+      "id": "E:note:row1263:72",
+      "kind": "note_sentence",
+      "display": "Lisinopril 5 mg PO DAILY hold for sbp <90 10.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s72",
+      "text": "Lisinopril 5 mg PO DAILY hold for sbp <90 10."
+    },
+    {
+      "id": "E:note:row1263:73",
+      "kind": "note_sentence",
+      "display": "Nitroglycerin Patch 0.2 mg/hr TD Q24H 9am-9pm 11.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s73",
+      "text": "Nitroglycerin Patch 0.2 mg/hr TD Q24H 9am-9pm 11."
+    },
+    {
+      "id": "E:note:row1263:74",
+      "kind": "note_sentence",
+      "display": "Furosemide 20-40 mg PO DAILY 12.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s74",
+      "text": "Furosemide 20-40 mg PO DAILY 12."
+    },
+    {
+      "id": "E:note:row1263:75",
+      "kind": "note_sentence",
+      "display": "Multivitamin 13.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s75",
+      "text": "Multivitamin 13."
+    },
+    {
+      "id": "E:note:row1263:76",
+      "kind": "note_sentence",
+      "display": "Cortisporin otic 2 drops qhs  Discharge Medications: Patient expired.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s76",
+      "text": "Cortisporin otic 2 drops qhs  Discharge Medications: Patient expired."
+    },
+    {
+      "id": "E:note:row1263:77",
+      "kind": "note_sentence",
+      "display": "Discharge Disposition: Expired  Discharge Diagnosis: Patient expired.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s77",
+      "text": "Discharge Disposition: Expired  Discharge Diagnosis: Patient expired."
+    },
+    {
+      "id": "E:note:row1263:78",
+      "kind": "note_sentence",
+      "display": "Discharge Condition: Patient expired.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s78",
+      "text": "Discharge Condition: Patient expired."
+    },
+    {
+      "id": "E:note:row1263:79",
+      "kind": "note_sentence",
+      "display": "Discharge Instructions: Patient expired.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s79",
+      "text": "Discharge Instructions: Patient expired."
+    },
+    {
+      "id": "E:note:row1263:80",
+      "kind": "note_sentence",
+      "display": "Followup Instructions: Patient expired.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row1263#s80",
+      "text": "Followup Instructions: Patient expired."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|0389": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78552": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|486": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2762": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2760": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42822": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4986": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41401": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4582": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V1254": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|29420": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4148": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|60000": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2859": [
+      "E:cond:18"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "unspecified septicemia": [
+      "E:cond:1"
+    ],
+    "acute respiratory failure": [
+      "E:cond:2"
+    ],
+    "septic shock": [
+      "E:cond:3"
+    ],
+    "pneumonia, organism unspecified": [
+      "E:cond:4"
+    ],
+    "acidosis": [
+      "E:cond:5"
+    ],
+    "hyperosmolality and/or hypernatremia": [
+      "E:cond:6"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:7"
+    ],
+    "chronic systolic heart failure": [
+      "E:cond:8"
+    ],
+    "severe sepsis": [
+      "E:cond:9"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:10"
+    ],
+    "do not resuscitate status": [
+      "E:cond:11"
+    ],
+    "coronary atherosclerosis of native coronary artery": [
+      "E:cond:12"
+    ],
+    "percutaneous transluminal coronary angioplasty status": [
+      "E:cond:13"
+    ],
+    "personal history of transient ischemic attack (tia), and cerebral infarction without residual deficits": [
+      "E:cond:14"
+    ],
+    "dementia, unspecified, without behavioral disturbance": [
+      "E:cond:15"
+    ],
+    "other specified forms of chronic ischemic heart disease": [
+      "E:cond:16"
+    ],
+    "hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (luts)": [
+      "E:cond:17"
+    ],
+    "anemia, unspecified": [
+      "E:cond:18"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:1"
+    ],
+    "continuous invasive mechanical ventilation for less than 96 consecutive hours": [
+      "E:proc:2"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:3"
+    ],
+    "arterial catheterization": [
+      "E:proc:4"
+    ],
+    "admission date: [**2200-8-4**] discharge date: [**2200-8-5**] d": [
+      "E:note:row1263:1"
+    ],
+    "major surgical or invasive procedure: intubation, cvl history of present illnes": [
+      "E:note:row1263:2"
+    ],
+    "nursing home records indicated that the patient was short of breath and found to": [
+      "E:note:row1263:3"
+    ],
+    "a stat cxr was ordered by the pa.": [
+      "E:note:row1263:4"
+    ],
+    "the attending came in today and noted the patient was unresponsive in bed so he": [
+      "E:note:row1263:5"
+    ],
+    "he is typically oriented only to self but can report if he is in pain.": [
+      "E:note:row1263:6"
+    ],
+    "he was recently admitted for acute on chornic systolic chf exacerbation and was": [
+      "E:note:row1263:7"
+    ],
+    "antibiotics were stopped prior discharge.": [
+      "E:note:row1263:8"
+    ],
+    "per ems patient had a recent pneumonia also has a history of chf they were calle": [
+      "E:note:row1263:9"
+    ],
+    "ems reported that the patient was full code.": [
+      "E:note:row1263:10"
+    ],
+    "upon arrival to the ed, he was on positive pressure ventilation with sats in the": [
+      "E:note:row1263:11"
+    ],
+    "he was unable to speak secondary to respiratory distress and appeared as if he w": [
+      "E:note:row1263:12"
+    ],
+    "noted to have bibasilar rales.": [
+      "E:note:row1263:13"
+    ],
+    "as a result he was easily intubated with a 7.5 ett with etomidate and succinylch": [
+      "E:note:row1263:14"
+    ],
+    "he was sedated with fentanyl and midazolam.": [
+      "E:note:row1263:15"
+    ],
+    "he was tachycardic to the 130s and had a blood pressure in the systolics of 60,": [
+      "E:note:row1263:16"
+    ],
+    "paperwork was then faxed over that noted the patient is dnr/dni.": [
+      "E:note:row1263:17"
+    ],
+    "a left ij was attempted but the line went laterally.": [
+      "E:note:row1263:18"
+    ],
+    "a right ij placed into the cavoatrial junction.": [
+      "E:note:row1263:19"
+    ],
+    "he was given a total of 6l ns.": [
+      "E:note:row1263:20"
+    ],
+    "his ua returned positive.": [
+      "E:note:row1263:21"
+    ],
+    "he also has a 20g in his right hand.": [
+      "E:note:row1263:22"
+    ],
+    "he was given vanco/zosyn.": [
+      "E:note:row1263:23"
+    ],
+    "ekg was concerning for a st elevation in lead 3, in the context of a lbbb.": [
+      "E:note:row1263:24"
+    ],
+    "cardiology was consulted and felt that these changes were likely a result of sep": [
+      "E:note:row1263:25"
+    ],
+    "they recommended serial trops, echo, and aspirin with heparin if no evidence of": [
+      "E:note:row1263:26"
+    ],
+    "on arrival to the micu, he is intubated and unresponsive.": [
+      "E:note:row1263:27"
+    ],
+    "past medical history: - coronary artery disease (stenting of d1 in [**7-/2191**]": [
+      "E:note:row1263:28"
+    ],
+    "lives in [**hospital3 **]. # tobacco: past smoking history, none currently # alc": [
+      "E:note:row1263:29"
+    ],
+    "court appointed given discord between wife [**doctor first name 7847**] [**telep": [
+      "E:note:row1263:30"
+    ],
+    "per the nursing home pcp; apparently a \"do not rehospitalize\" order is currently": [
+      "E:note:row1263:31"
+    ],
+    "family history: noncontributory physical exam: exam on admission: vitals: 102.": [
+      "E:note:row1263:32"
+    ],
+    "patient expired.": [
+      "E:note:row1263:33"
+    ],
+    "pertinent results: labs: [**2200-8-4**] 10:15am blood wbc-12.8* rbc-5.00 hgb-14.": [
+      "E:note:row1263:34"
+    ],
+    "imaging: [**2200-8-4**] cxr #1: et tube position appropriately.": [
+      "E:note:row1263:35"
+    ],
+    "ng tube may be advanced for more optimal positioning.": [
+      "E:note:row1263:36"
+    ],
+    "bilateral posterior lower lobe opacities likely reflect [**month/day/year **].": [
+      "E:note:row1263:37"
+    ],
+    "[**2200-8-4**] cxr #2: the new left jugular line is curving back in the mid left": [
+      "E:note:row1263:38"
+    ],
+    "there is no pneumothorax and no pleural effusion.": [
+      "E:note:row1263:39"
+    ],
+    "the side port of the ng tube is at the level or slightly above the level of the": [
+      "E:note:row1263:40"
+    ],
+    "it could be advanced.": [
+      "E:note:row1263:41"
+    ],
+    "stability of the bilateral multifocal opacities.": [
+      "E:note:row1263:42"
+    ],
+    "the mediastinal and cardiac contour are unchanged.": [
+      "E:note:row1263:43"
+    ],
+    "the endotracheal tube is in adequate position 5.9 cm above the carina.": [
+      "E:note:row1263:44"
+    ],
+    "[**2200-8-4**] cxr #3: right ij in cavoatrial junction, ett 5.8cm from carina, b": [
+      "E:note:row1263:45"
+    ],
+    "he was admitted to the micu intubated with hemodynamic instability requiring nor": [
+      "E:note:row1263:46"
+    ],
+    "while a broad workup was pursued, this was most likely felt to be sepsis given h": [
+      "E:note:row1263:47"
+    ],
+    "he was covered with vanco/cefepime/cipro for hcap and urinary sources.": [
+      "E:note:row1263:48"
+    ],
+    "he was also empirically started on a heparin drip for pe and in the setting of e": [
+      "E:note:row1263:49"
+    ],
+    "leni's were ordered but were not completed prior to his passing.": [
+      "E:note:row1263:50"
+    ],
+    "troponins and serial ekgs were performed.": [
+      "E:note:row1263:51"
+    ],
+    "he was started on a statin, continued on plavix, and not on aspirin secondary to": [
+      "E:note:row1263:52"
+    ],
+    "his bb and ace were held given his hypotension.": [
+      "E:note:row1263:53"
+    ],
+    "his cxr also revealed an element of volume overload in the setting of a hx of ch": [
+      "E:note:row1263:54"
+    ],
+    "he was sedated given dysynchrony on the vent and his peep was uptitrated.": [
+      "E:note:row1263:55"
+    ],
+    "his course was further complicated by hypernatremia thought to be secondary to p": [
+      "E:note:row1263:56"
+    ],
+    "his coags uptrended which was concerning for dic, but his fibrinogen was normal.": [
+      "E:note:row1263:57"
+    ],
+    "despite all of the aggressive measures listed above, he became more hypotensive": [
+      "E:note:row1263:58"
+    ],
+    "as he was initially intubated in the setting of dnr/dni order, chest compression": [
+      "E:note:row1263:59"
+    ],
+    "his guardian, wife and son were all called multiple times and messages were left": [
+      "E:note:row1263:60"
+    ],
+    "mr. [**known lastname 7838**] son arrived just minutes after his father's passin": [
+      "E:note:row1263:61"
+    ],
+    "culture data that resulted after the patient expired revealed an oxacillin sensi": [
+      "E:note:row1263:62"
+    ],
+    "medications on admission: medications home: (per nsh records) 1.": [
+      "E:note:row1263:63"
+    ],
+    "clopidogrel 75 mg po daily 2.": [
+      "E:note:row1263:64"
+    ],
+    "docusate sodium 100 mg po bid:prn constipation 3.": [
+      "E:note:row1263:65"
+    ],
+    "doxazosin 8 mg po hs 4.": [
+      "E:note:row1263:66"
+    ],
+    "gabapentin 200 mg po hs 5.": [
+      "E:note:row1263:67"
+    ],
+    "lorazepam 0.5 mg po hs 6.": [
+      "E:note:row1263:68"
+    ],
+    "metoprolol tartrate 25mg po bid 7.": [
+      "E:note:row1263:69"
+    ],
+    "mirtazapine 30 mg po hs 8.": [
+      "E:note:row1263:70"
+    ],
+    "senna 1 tab po bid 9.": [
+      "E:note:row1263:71"
+    ],
+    "lisinopril 5 mg po daily hold for sbp <90 10.": [
+      "E:note:row1263:72"
+    ],
+    "nitroglycerin patch 0.2 mg/hr td q24h 9am-9pm 11.": [
+      "E:note:row1263:73"
+    ],
+    "furosemide 20-40 mg po daily 12.": [
+      "E:note:row1263:74"
+    ],
+    "multivitamin 13.": [
+      "E:note:row1263:75"
+    ],
+    "cortisporin otic 2 drops qhs discharge medications: patient expired.": [
+      "E:note:row1263:76"
+    ],
+    "discharge disposition: expired discharge diagnosis: patient expired.": [
+      "E:note:row1263:77"
+    ],
+    "discharge condition: patient expired.": [
+      "E:note:row1263:78"
+    ],
+    "discharge instructions: patient expired.": [
+      "E:note:row1263:79"
+    ],
+    "followup instructions: patient expired.": [
+      "E:note:row1263:80"
+    ]
+  },
+  "by_date": {
+    "2200-08-04": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4"
+    ]
+  }
+}

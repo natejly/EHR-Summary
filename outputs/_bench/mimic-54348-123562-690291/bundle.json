@@ -1,0 +1,918 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-54348-123562",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-54348",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-54348",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-123562",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-123562",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2164-09-05T00:00:00",
+          "end": "2164-10-05T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "29181",
+              "display": "Alcohol withdrawal"
+            }
+          ],
+          "text": "Alcohol withdrawal"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41519",
+              "display": "Other pulmonary embolism and infarction"
+            }
+          ],
+          "text": "Other pulmonary embolism and infarction"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "45341",
+              "display": "Acute venous embolism and thrombosis of deep vessels of proximal lower extremity"
+            }
+          ],
+          "text": "Acute venous embolism and thrombosis of deep vessels of proximal lower extremity"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5070",
+              "display": "Pneumonitis due to inhalation of food or vomitus"
+            }
+          ],
+          "text": "Pneumonitis due to inhalation of food or vomitus"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "8670",
+              "display": "Injury to bladder and urethra, without mention of open wound into cavity"
+            }
+          ],
+          "text": "Injury to bladder and urethra, without mention of open wound into cavity"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4210",
+              "display": "Acute and subacute bacterial endocarditis"
+            }
+          ],
+          "text": "Acute and subacute bacterial endocarditis"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4254",
+              "display": "Other primary cardiomyopathies"
+            }
+          ],
+          "text": "Other primary cardiomyopathies"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "00845",
+              "display": "Intestinal infection due to Clostridium difficile"
+            }
+          ],
+          "text": "Intestinal infection due to Clostridium difficile"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2762",
+              "display": "Acidosis"
+            }
+          ],
+          "text": "Acidosis"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1120",
+              "display": "Candidiasis of mouth"
+            }
+          ],
+          "text": "Candidiasis of mouth"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "34830",
+              "display": "Encephalopathy, unspecified"
+            }
+          ],
+          "text": "Encephalopathy, unspecified"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "45342",
+              "display": "Acute venous embolism and thrombosis of deep vessels of distal lower extremity"
+            }
+          ],
+          "text": "Acute venous embolism and thrombosis of deep vessels of distal lower extremity"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5990",
+              "display": "Urinary tract infection, site not specified"
+            }
+          ],
+          "text": "Urinary tract infection, site not specified"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2763",
+              "display": "Alkalosis"
+            }
+          ],
+          "text": "Alkalosis"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7907",
+              "display": "Bacteremia"
+            }
+          ],
+          "text": "Bacteremia"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "30391",
+              "display": "Other and unspecified alcohol dependence, continuous"
+            }
+          ],
+          "text": "Other and unspecified alcohol dependence, continuous"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5711",
+              "display": "Acute alcoholic hepatitis"
+            }
+          ],
+          "text": "Acute alcoholic hepatitis"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "30560",
+              "display": "Cocaine abuse, unspecified"
+            }
+          ],
+          "text": "Cocaine abuse, unspecified"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "30550",
+              "display": "Opioid abuse, unspecified"
+            }
+          ],
+          "text": "Opioid abuse, unspecified"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "07070",
+              "display": "Unspecified viral hepatitis C without hepatic coma"
+            }
+          ],
+          "text": "Unspecified viral hepatitis C without hepatic coma"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "311",
+              "display": "Depressive disorder, not elsewhere classified"
+            }
+          ],
+          "text": "Depressive disorder, not elsewhere classified"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42731",
+              "display": "Atrial fibrillation"
+            }
+          ],
+          "text": "Atrial fibrillation"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-24",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-24",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E9289",
+              "display": "Unspecified accident"
+            }
+          ],
+          "text": "Unspecified accident"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-25",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-25",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-26",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-26",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4739",
+              "display": "Unspecified sinusitis (chronic)"
+            }
+          ],
+          "text": "Unspecified sinusitis (chronic)"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-27",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-27",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78079",
+              "display": "Other malaise and fatigue"
+            }
+          ],
+          "text": "Other malaise and fatigue"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-28",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-28",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E9394",
+              "display": "Benzodiazepine-based tranquilizers causing adverse effects in therapeutic use"
+            }
+          ],
+          "text": "Benzodiazepine-based tranquilizers causing adverse effects in therapeutic use"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-29",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-29",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99931",
+              "display": "Other and unspecified infection due to central venous catheter"
+            }
+          ],
+          "text": "Other and unspecified infection due to central venous catheter"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-123562-30",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-123562-30",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8798",
+              "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+            }
+          ],
+          "text": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+        },
+        "onsetDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123562-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123562-1",
+        "status": "completed",
+        "code": {
+          "text": "Temporary tracheostomy"
+        },
+        "performedDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123562-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123562-2",
+        "status": "completed",
+        "code": {
+          "text": "Alcohol detoxification"
+        },
+        "performedDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123562-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123562-3",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123562-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123562-4",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123562-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123562-5",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123562-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123562-6",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123562-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123562-7",
+        "status": "completed",
+        "code": {
+          "text": "Other bronchoscopy"
+        },
+        "performedDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123562-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123562-8",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of other (naso-)gastric tube"
+        },
+        "performedDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123562-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123562-9",
+        "status": "completed",
+        "code": {
+          "text": "Arterial catheterization"
+        },
+        "performedDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123562-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123562-10",
+        "status": "completed",
+        "code": {
+          "text": "Injection or infusion of thrombolytic agent"
+        },
+        "performedDateTime": "2164-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-123562-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-123562-11",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2164-09-05"
+      }
+    }
+  ]
+}

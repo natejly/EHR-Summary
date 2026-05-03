@@ -1,0 +1,517 @@
+{
+  "claims": [
+    {
+      "claim_id": "C1",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "subtotal colectomy with an end ileostomy",
+      "time_ref": null,
+      "source_span": "row481041#0"
+    },
+    {
+      "claim_id": "C2",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "bowel ischemia",
+      "time_ref": null,
+      "source_span": "row481041#0"
+    },
+    {
+      "claim_id": "C3",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "NSTEMI Mi",
+      "time_ref": "8-5",
+      "source_span": "row481041#1"
+    },
+    {
+      "claim_id": "C4",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "cath d and angioplasty done of RCA",
+      "time_ref": "8-5",
+      "source_span": "row481041#1"
+    },
+    {
+      "claim_id": "C5",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "R groin hematoma",
+      "time_ref": "post procedure",
+      "source_span": "row481041#1"
+    },
+    {
+      "claim_id": "C6",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "rapid afib",
+      "time_ref": "8-12",
+      "source_span": "row481041#2"
+    },
+    {
+      "claim_id": "C7",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "heart rate",
+      "value": "150 s",
+      "time_ref": "8-12",
+      "source_span": "row481041#2"
+    },
+    {
+      "claim_id": "C8",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "digoxin",
+      "time_ref": "8-12",
+      "source_span": "row481041#2"
+    },
+    {
+      "claim_id": "C9",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "confusion",
+      "time_ref": "30 minutes after conversion to sinus",
+      "source_span": "row481041#2"
+    },
+    {
+      "claim_id": "C10",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "abdominal pain",
+      "time_ref": "8-12",
+      "source_span": "row481041#2"
+    },
+    {
+      "claim_id": "C11",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "CT of abdomen",
+      "time_ref": "8-12",
+      "source_span": "row481041#3"
+    },
+    {
+      "claim_id": "C12",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "ischemic bowel",
+      "time_ref": "8-12",
+      "source_span": "row481041#3"
+    },
+    {
+      "claim_id": "C13",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "resection",
+      "time_ref": "8-12",
+      "source_span": "row481041#4"
+    },
+    {
+      "claim_id": "C14",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "rapid afib",
+      "time_ref": "8-13",
+      "source_span": "row481041#6"
+    },
+    {
+      "claim_id": "C15",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "heart rate",
+      "value": "180",
+      "time_ref": "8-13",
+      "source_span": "row481041#6"
+    },
+    {
+      "claim_id": "C16",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "hypotension",
+      "time_ref": "8-13",
+      "source_span": "row481041#6"
+    },
+    {
+      "claim_id": "C17",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "electrical cardioversion",
+      "time_ref": "8-13",
+      "source_span": "row481041#6"
+    },
+    {
+      "claim_id": "C18",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "amio",
+      "time_ref": "8-13",
+      "source_span": "row481041#6"
+    },
+    {
+      "claim_id": "C19",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Atrial fibrillation (Afib)",
+      "time_ref": null,
+      "source_span": "row481041#9"
+    },
+    {
+      "claim_id": "C20",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "heart rate",
+      "value": "60 s",
+      "time_ref": "start of shift",
+      "source_span": "row481041#11"
+    },
+    {
+      "claim_id": "C21",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "SBP",
+      "value": "110-120 s",
+      "time_ref": "start of shift",
+      "source_span": "row481041#11"
+    },
+    {
+      "claim_id": "C22",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "MAP",
+      "value": ">60",
+      "time_ref": "start of shift",
+      "source_span": "row481041#11"
+    },
+    {
+      "claim_id": "C23",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Amio drip @ 0.5mg/min",
+      "time_ref": "start of shift",
+      "source_span": "row481041#11"
+    },
+    {
+      "claim_id": "C24",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "milrinone bolus",
+      "time_ref": null,
+      "source_span": "row481041#13"
+    },
+    {
+      "claim_id": "C25",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Diltiazem drip 5-15 mg/hr",
+      "time_ref": null,
+      "source_span": "row481041#13"
+    },
+    {
+      "claim_id": "C26",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "metoprolol 5 mg IV",
+      "time_ref": null,
+      "source_span": "row481041#13"
+    },
+    {
+      "claim_id": "C27",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Afib with RVR",
+      "time_ref": null,
+      "source_span": "row481041#14"
+    },
+    {
+      "claim_id": "C28",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "diltiazem 5mg/hr",
+      "time_ref": null,
+      "source_span": "row481041#14"
+    },
+    {
+      "claim_id": "C29",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "heart rate",
+      "value": "60s",
+      "time_ref": "mid-morning",
+      "source_span": "row481041#14"
+    },
+    {
+      "claim_id": "C30",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "neo",
+      "time_ref": null,
+      "source_span": "row481041#14"
+    },
+    {
+      "claim_id": "C31",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "MAP",
+      "value": "60",
+      "time_ref": null,
+      "source_span": "row481041#14"
+    },
+    {
+      "claim_id": "C32",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "heparin titration",
+      "time_ref": null,
+      "source_span": "row481041#15"
+    },
+    {
+      "claim_id": "C33",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "continue NEO",
+      "time_ref": null,
+      "source_span": "row481041#15"
+    },
+    {
+      "claim_id": "C34",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "continue dilt drip at 5 mg/hr",
+      "time_ref": null,
+      "source_span": "row481041#15"
+    },
+    {
+      "claim_id": "C35",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "metoprolol PRN",
+      "time_ref": null,
+      "source_span": "row481041#15"
+    },
+    {
+      "claim_id": "C36",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "acute pain",
+      "time_ref": null,
+      "source_span": "row481041#16"
+    },
+    {
+      "claim_id": "C37",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "chronic pain",
+      "time_ref": null,
+      "source_span": "row481041#16"
+    },
+    {
+      "claim_id": "C38",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Fentanyl drip",
+      "time_ref": null,
+      "source_span": "row481041#17"
+    },
+    {
+      "claim_id": "C39",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Fentanyl boluses of 25mcg",
+      "time_ref": "before turns",
+      "source_span": "row481041#18"
+    },
+    {
+      "claim_id": "C40",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "Continue fentanyl for pain",
+      "time_ref": null,
+      "source_span": "row481041#20"
+    },
+    {
+      "claim_id": "C41",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Myocardial infarction, acute (AMI, STEMI, NSTEMI)",
+      "time_ref": null,
+      "source_span": "row481041#21"
+    },
+    {
+      "claim_id": "C42",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Cool extremities",
+      "time_ref": null,
+      "source_span": "row481041#22"
+    },
+    {
+      "claim_id": "C43",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "SV",
+      "value": "40cc",
+      "time_ref": "while she is in afib",
+      "source_span": "row481041#22"
+    },
+    {
+      "claim_id": "C44",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "cr 0.6",
+      "time_ref": "yesterday",
+      "source_span": "row481041#22"
+    },
+    {
+      "claim_id": "C45",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "cr 1.8",
+      "time_ref": "today",
+      "source_span": "row481041#22"
+    },
+    {
+      "claim_id": "C46",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "Weight",
+      "value": "60kg",
+      "time_ref": "today",
+      "source_span": "row481041#22"
+    },
+    {
+      "claim_id": "C47",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "Weight",
+      "value": "50kg",
+      "time_ref": "preop",
+      "source_span": "row481041#22"
+    },
+    {
+      "claim_id": "C48",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Hands and feet edematous",
+      "time_ref": null,
+      "source_span": "row481041#22"
+    },
+    {
+      "claim_id": "C49",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "TTE",
+      "time_ref": "today",
+      "source_span": "row481041#23"
+    },
+    {
+      "claim_id": "C50",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Diltiazem drip",
+      "time_ref": null,
+      "source_span": "row481041#23"
+    },
+    {
+      "claim_id": "C51",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Generalized edema",
+      "time_ref": null,
+      "source_span": "row481041#24"
+    },
+    {
+      "claim_id": "C52",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "activity intolerance",
+      "time_ref": null,
+      "source_span": "row481041#24"
+    },
+    {
+      "claim_id": "C53",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Intestinal ischemia (including mesenteric venous / arterial thrombosis, bowel ischemia)",
+      "time_ref": null,
+      "source_span": "row481041#26"
+    },
+    {
+      "claim_id": "C54",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Midline incision with R sided end ileostomy",
+      "time_ref": null,
+      "source_span": "row481041#27"
+    },
+    {
+      "claim_id": "C55",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "tenderness and guarding in belly",
+      "time_ref": null,
+      "source_span": "row481041#28"
+    },
+    {
+      "claim_id": "C56",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Probable incisional pain in abdomen",
+      "time_ref": null,
+      "source_span": "row481041#30"
+    },
+    {
+      "claim_id": "C57",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Hypoactive bowel sounds",
+      "time_ref": null,
+      "source_span": "row481041#30"
+    }
+  ]
+}

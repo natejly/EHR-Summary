@@ -1,0 +1,1099 @@
+{
+  "case_id": "mimic-60919-137122-477434",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2141-08-02",
+      "source_ref": "urn:uuid:enc-137122",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Pneumonitis due to inhalation of food or vomitus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5070",
+        "display": "Pneumonitis due to inhalation of food or vomitus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-08-02",
+      "source_ref": "urn:uuid:cond-137122-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Hepatic encephalopathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5722",
+        "display": "Hepatic encephalopathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-08-02",
+      "source_ref": "urn:uuid:cond-137122-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Esophageal varices in diseases classified elsewhere, with bleeding",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "45620",
+        "display": "Esophageal varices in diseases classified elsewhere, with bleeding"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-08-02",
+      "source_ref": "urn:uuid:cond-137122-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute posthemorrhagic anemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2851",
+        "display": "Acute posthemorrhagic anemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-08-02",
+      "source_ref": "urn:uuid:cond-137122-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-08-02",
+      "source_ref": "urn:uuid:cond-137122-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Anoxic brain damage",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3481",
+        "display": "Anoxic brain damage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-08-02",
+      "source_ref": "urn:uuid:cond-137122-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-08-02",
+      "source_ref": "urn:uuid:cond-137122-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Portal hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5723",
+        "display": "Portal hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-08-02",
+      "source_ref": "urn:uuid:cond-137122-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Alcoholic cirrhosis of liver",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5712",
+        "display": "Alcoholic cirrhosis of liver"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-08-02",
+      "source_ref": "urn:uuid:cond-137122-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Other and unspecified alcohol dependence, continuous",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "30391",
+        "display": "Other and unspecified alcohol dependence, continuous"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-08-02",
+      "source_ref": "urn:uuid:cond-137122-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Alcoholic gastritis, without mention of hemorrhage",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53530",
+        "display": "Alcoholic gastritis, without mention of hemorrhage"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-08-02",
+      "source_ref": "urn:uuid:cond-137122-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Unspecified disorder of liver",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5739",
+        "display": "Unspecified disorder of liver"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-08-02",
+      "source_ref": "urn:uuid:cond-137122-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Epilepsy, unspecified, without mention of intractable epilepsy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "34590",
+        "display": "Epilepsy, unspecified, without mention of intractable epilepsy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-08-02",
+      "source_ref": "urn:uuid:cond-137122-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Lack of housing",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V600",
+        "display": "Lack of housing"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-08-02",
+      "source_ref": "urn:uuid:cond-137122-14",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-08-02",
+      "source_ref": "urn:uuid:proc-137122-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Other endoscopy of small intestine",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other endoscopy of small intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-08-02",
+      "source_ref": "urn:uuid:proc-137122-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Arterial catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arterial catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-08-02",
+      "source_ref": "urn:uuid:proc-137122-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-08-02",
+      "source_ref": "urn:uuid:proc-137122-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-08-02",
+      "source_ref": "urn:uuid:proc-137122-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-08-02",
+      "source_ref": "urn:uuid:proc-137122-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Endoscopic excision or destruction of lesion or tissue of esophagus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Endoscopic excision or destruction of lesion or tissue of esophagus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2141-08-02",
+      "source_ref": "urn:uuid:proc-137122-7",
+      "text": null
+    },
+    {
+      "id": "E:note:row477434:1",
+      "kind": "note_sentence",
+      "display": "47yo homeless male with h/o hepatitis, HCV, and EtOH abuse s/p fall in    jail o",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s1",
+      "text": "47yo homeless male with h/o hepatitis, HCV, and EtOH abuse s/p fall in    jail on [**8-1**]."
+    },
+    {
+      "id": "E:note:row477434:2",
+      "kind": "note_sentence",
+      "display": "Pt was initially at [**Hospital 880**] Hospital where he was noted    to have he",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s2",
+      "text": "Pt was initially at [**Hospital 880**] Hospital where he was noted    to have hematemesis, was scoped and found to have bleeding esophageal    varicies s/p 6 bands."
+    },
+    {
+      "id": "E:note:row477434:3",
+      "kind": "note_sentence",
+      "display": "The pt was intubated s/p witnessed aspiration    event at OSH, then was transfer",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s3",
+      "text": "The pt was intubated s/p witnessed aspiration    event at OSH, then was transferred here for further evaluation by our    GI service."
+    },
+    {
+      "id": "E:note:row477434:4",
+      "kind": "note_sentence",
+      "display": "Since admission to [**Hospital1 19**], the pt has been re-scoped with no    s/s ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s4",
+      "text": "Since admission to [**Hospital1 19**], the pt has been re-scoped with no    s/s active bleeding."
+    },
+    {
+      "id": "E:note:row477434:5",
+      "kind": "note_sentence",
+      "display": "He has received 2 units of PRBCs and his HCT has    been stable at 30.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s5",
+      "text": "He has received 2 units of PRBCs and his HCT has    been stable at 30."
+    },
+    {
+      "id": "E:note:row477434:6",
+      "kind": "note_sentence",
+      "display": "His MS has been altered since admission to OSH (head    CT at OSH negative), so ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s6",
+      "text": "His MS has been altered since admission to OSH (head    CT at OSH negative), so he currently remains intubated for airway    protection."
+    },
+    {
+      "id": "E:note:row477434:7",
+      "kind": "note_sentence",
+      "display": "Extubation is pending improvement of mental status.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s7",
+      "text": "Extubation is pending improvement of mental status."
+    },
+    {
+      "id": "E:note:row477434:8",
+      "kind": "note_sentence",
+      "display": "The pt    also comes to [**Hospital1 **] with elevated white count, bandemia, an",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s8",
+      "text": "The pt    also comes to [**Hospital1 **] with elevated white count, bandemia, and fevers."
+    },
+    {
+      "id": "E:note:row477434:9",
+      "kind": "note_sentence",
+      "display": "He    has been pan cultured and is being treated with broad spectrum abx.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s9",
+      "text": "He    has been pan cultured and is being treated with broad spectrum abx."
+    },
+    {
+      "id": "E:note:row477434:10",
+      "kind": "note_sentence",
+      "display": "Likely cause of infection at this point thought to be aspiration PNA.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s10",
+      "text": "Likely cause of infection at this point thought to be aspiration PNA."
+    },
+    {
+      "id": "E:note:row477434:11",
+      "kind": "note_sentence",
+      "display": "Gastrointestinal bleed, upper (Melena, GI Bleed, GIB)    Assessment:    s/p EGD ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s11",
+      "text": "Gastrointestinal bleed, upper (Melena, GI Bleed, GIB)    Assessment:    s/p EGD with placement of 6 bands @ OSH (repeat EGD here showed no s/s    bleeding)."
+    },
+    {
+      "id": "E:note:row477434:12",
+      "kind": "note_sentence",
+      "display": "Hct 30.9.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s12",
+      "text": "Hct 30.9."
+    },
+    {
+      "id": "E:note:row477434:13",
+      "kind": "note_sentence",
+      "display": "Abd soft and distended. +hypo BS noted.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s13",
+      "text": "Abd soft and distended. +hypo BS noted."
+    },
+    {
+      "id": "E:note:row477434:14",
+      "kind": "note_sentence",
+      "display": "Flexiseal    intact and patent draining liquid brown stool.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s14",
+      "text": "Flexiseal    intact and patent draining liquid brown stool."
+    },
+    {
+      "id": "E:note:row477434:15",
+      "kind": "note_sentence",
+      "display": "NGT with no bloody    returns.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s15",
+      "text": "NGT with no bloody    returns."
+    },
+    {
+      "id": "E:note:row477434:16",
+      "kind": "note_sentence",
+      "display": "Action:    Remains on Protonix and Octreotide gtts.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s16",
+      "text": "Action:    Remains on Protonix and Octreotide gtts."
+    },
+    {
+      "id": "E:note:row477434:17",
+      "kind": "note_sentence",
+      "display": "Hct checks [**Hospital1 7**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s17",
+      "text": "Hct checks [**Hospital1 7**]."
+    },
+    {
+      "id": "E:note:row477434:18",
+      "kind": "note_sentence",
+      "display": "Response:    Plan:    Monitor Hct checks [**Hospital1 7**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s18",
+      "text": "Response:    Plan:    Monitor Hct checks [**Hospital1 7**]."
+    },
+    {
+      "id": "E:note:row477434:19",
+      "kind": "note_sentence",
+      "display": "Cont on octreotide and protonix gtts.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s19",
+      "text": "Cont on octreotide and protonix gtts."
+    },
+    {
+      "id": "E:note:row477434:20",
+      "kind": "note_sentence",
+      "display": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 11**])    Assessment:  ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s20",
+      "text": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 11**])    Assessment:    LS rhonchorous throughout."
+    },
+    {
+      "id": "E:note:row477434:21",
+      "kind": "note_sentence",
+      "display": "CXR worsening with bilat infiltrates.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s21",
+      "text": "CXR worsening with bilat infiltrates."
+    },
+    {
+      "id": "E:note:row477434:22",
+      "kind": "note_sentence",
+      "display": "Desat    to mid 80    Action:    Sxn Q2-3 hrs.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s22",
+      "text": "Desat    to mid 80    Action:    Sxn Q2-3 hrs."
+    },
+    {
+      "id": "E:note:row477434:23",
+      "kind": "note_sentence",
+      "display": "Bronch done at bedside by Dr. [**Last Name (STitle) 7375**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s23",
+      "text": "Bronch done at bedside by Dr. [**Last Name (STitle) 7375**]."
+    },
+    {
+      "id": "E:note:row477434:24",
+      "kind": "note_sentence",
+      "display": "ABG sent and Fio2    and peep ^ d this shift.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s24",
+      "text": "ABG sent and Fio2    and peep ^ d this shift."
+    },
+    {
+      "id": "E:note:row477434:25",
+      "kind": "note_sentence",
+      "display": "Response:    Sxnf or copious amts thick tan/blood tinged secretions via ett.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s25",
+      "text": "Response:    Sxnf or copious amts thick tan/blood tinged secretions via ett."
+    },
+    {
+      "id": "E:note:row477434:26",
+      "kind": "note_sentence",
+      "display": "Bronch    done with copious amts thick plugs.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s26",
+      "text": "Bronch    done with copious amts thick plugs."
+    },
+    {
+      "id": "E:note:row477434:27",
+      "kind": "note_sentence",
+      "display": "Vanco and Zosyn.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s27",
+      "text": "Vanco and Zosyn."
+    },
+    {
+      "id": "E:note:row477434:28",
+      "kind": "note_sentence",
+      "display": "Plan:    Altered mental status (not Delirium)    Assessment:    Opens eyes to st",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s28",
+      "text": "Plan:    Altered mental status (not Delirium)    Assessment:    Opens eyes to stimultation, does not track or follow commands."
+    },
+    {
+      "id": "E:note:row477434:29",
+      "kind": "note_sentence",
+      "display": "No    spontaneous movement noted.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s29",
+      "text": "No    spontaneous movement noted."
+    },
+    {
+      "id": "E:note:row477434:30",
+      "kind": "note_sentence",
+      "display": "Withdraws to painful stimuli in BLE only.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s30",
+      "text": "Withdraws to painful stimuli in BLE only."
+    },
+    {
+      "id": "E:note:row477434:31",
+      "kind": "note_sentence",
+      "display": "Cough/gag impaired. +perrla noted (R eye slugghish).",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s31",
+      "text": "Cough/gag impaired. +perrla noted (R eye slugghish)."
+    },
+    {
+      "id": "E:note:row477434:32",
+      "kind": "note_sentence",
+      "display": "No seizure    activity noted.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s32",
+      "text": "No seizure    activity noted."
+    },
+    {
+      "id": "E:note:row477434:33",
+      "kind": "note_sentence",
+      "display": "Action:    Remains on rifaximin and lactulose.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s33",
+      "text": "Action:    Remains on rifaximin and lactulose."
+    },
+    {
+      "id": "E:note:row477434:34",
+      "kind": "note_sentence",
+      "display": "Neurology following.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s34",
+      "text": "Neurology following."
+    },
+    {
+      "id": "E:note:row477434:35",
+      "kind": "note_sentence",
+      "display": "Response:    Ongoing neuro assessment.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s35",
+      "text": "Response:    Ongoing neuro assessment."
+    },
+    {
+      "id": "E:note:row477434:36",
+      "kind": "note_sentence",
+      "display": "Plan:    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessmen",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s36",
+      "text": "Plan:    Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Temp max 102.3."
+    },
+    {
+      "id": "E:note:row477434:37",
+      "kind": "note_sentence",
+      "display": "WBC 26.8.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s37",
+      "text": "WBC 26.8."
+    },
+    {
+      "id": "E:note:row477434:38",
+      "kind": "note_sentence",
+      "display": "Pan cx s [**8-4**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s38",
+      "text": "Pan cx s [**8-4**]."
+    },
+    {
+      "id": "E:note:row477434:39",
+      "kind": "note_sentence",
+      "display": "Action:    Tylenol given, cool bath and cool cloths applied.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s39",
+      "text": "Action:    Tylenol given, cool bath and cool cloths applied."
+    },
+    {
+      "id": "E:note:row477434:40",
+      "kind": "note_sentence",
+      "display": "BAL sent s/p bronch.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s40",
+      "text": "BAL sent s/p bronch."
+    },
+    {
+      "id": "E:note:row477434:41",
+      "kind": "note_sentence",
+      "display": "Broad spectrum abx for empiric coverage for pna/pneumonitis (witnessed    aspira",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s41",
+      "text": "Broad spectrum abx for empiric coverage for pna/pneumonitis (witnessed    aspiration)."
+    },
+    {
+      "id": "E:note:row477434:42",
+      "kind": "note_sentence",
+      "display": "Response:    Temp down to 101.7.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s42",
+      "text": "Response:    Temp down to 101.7."
+    },
+    {
+      "id": "E:note:row477434:43",
+      "kind": "note_sentence",
+      "display": "Plan:    Monitor temp and fever curve.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s43",
+      "text": "Plan:    Monitor temp and fever curve."
+    },
+    {
+      "id": "E:note:row477434:44",
+      "kind": "note_sentence",
+      "display": "Plan for daily CXR until extubated.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s44",
+      "text": "Plan for daily CXR until extubated."
+    },
+    {
+      "id": "E:note:row477434:45",
+      "kind": "note_sentence",
+      "display": "F/u    cx",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row477434#s45",
+      "text": "F/u    cx"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|5070": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5722": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|45620": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2851": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3481": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5723": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5712": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|30391": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|53530": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5739": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|34590": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V600": [
+      "E:cond:14"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "pneumonitis due to inhalation of food or vomitus": [
+      "E:cond:1"
+    ],
+    "hepatic encephalopathy": [
+      "E:cond:2"
+    ],
+    "esophageal varices in diseases classified elsewhere, with bleeding": [
+      "E:cond:3"
+    ],
+    "acute posthemorrhagic anemia": [
+      "E:cond:4"
+    ],
+    "acute respiratory failure": [
+      "E:cond:5"
+    ],
+    "anoxic brain damage": [
+      "E:cond:6"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:7"
+    ],
+    "portal hypertension": [
+      "E:cond:8"
+    ],
+    "alcoholic cirrhosis of liver": [
+      "E:cond:9"
+    ],
+    "other and unspecified alcohol dependence, continuous": [
+      "E:cond:10"
+    ],
+    "alcoholic gastritis, without mention of hemorrhage": [
+      "E:cond:11"
+    ],
+    "unspecified disorder of liver": [
+      "E:cond:12"
+    ],
+    "epilepsy, unspecified, without mention of intractable epilepsy": [
+      "E:cond:13"
+    ],
+    "lack of housing": [
+      "E:cond:14"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:1"
+    ],
+    "other endoscopy of small intestine": [
+      "E:proc:2"
+    ],
+    "arterial catheterization": [
+      "E:proc:3"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:4"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:5"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:6"
+    ],
+    "endoscopic excision or destruction of lesion or tissue of esophagus": [
+      "E:proc:7"
+    ],
+    "47yo homeless male with h/o hepatitis, hcv, and etoh abuse s/p fall in jail o": [
+      "E:note:row477434:1"
+    ],
+    "pt was initially at [**hospital 880**] hospital where he was noted to have he": [
+      "E:note:row477434:2"
+    ],
+    "the pt was intubated s/p witnessed aspiration event at osh, then was transfer": [
+      "E:note:row477434:3"
+    ],
+    "since admission to [**hospital1 19**], the pt has been re-scoped with no s/s": [
+      "E:note:row477434:4"
+    ],
+    "he has received 2 units of prbcs and his hct has been stable at 30.": [
+      "E:note:row477434:5"
+    ],
+    "his ms has been altered since admission to osh (head ct at osh negative), so": [
+      "E:note:row477434:6"
+    ],
+    "extubation is pending improvement of mental status.": [
+      "E:note:row477434:7"
+    ],
+    "the pt also comes to [**hospital1 **] with elevated white count, bandemia, an": [
+      "E:note:row477434:8"
+    ],
+    "he has been pan cultured and is being treated with broad spectrum abx.": [
+      "E:note:row477434:9"
+    ],
+    "likely cause of infection at this point thought to be aspiration pna.": [
+      "E:note:row477434:10"
+    ],
+    "gastrointestinal bleed, upper (melena, gi bleed, gib) assessment: s/p egd": [
+      "E:note:row477434:11"
+    ],
+    "hct 30.9.": [
+      "E:note:row477434:12"
+    ],
+    "abd soft and distended. +hypo bs noted.": [
+      "E:note:row477434:13"
+    ],
+    "flexiseal intact and patent draining liquid brown stool.": [
+      "E:note:row477434:14"
+    ],
+    "ngt with no bloody returns.": [
+      "E:note:row477434:15"
+    ],
+    "action: remains on protonix and octreotide gtts.": [
+      "E:note:row477434:16"
+    ],
+    "hct checks [**hospital1 7**].": [
+      "E:note:row477434:17"
+    ],
+    "response: plan: monitor hct checks [**hospital1 7**].": [
+      "E:note:row477434:18"
+    ],
+    "cont on octreotide and protonix gtts.": [
+      "E:note:row477434:19"
+    ],
+    "respiratory failure, acute (not ards/[**doctor last name 11**]) assessment:": [
+      "E:note:row477434:20"
+    ],
+    "cxr worsening with bilat infiltrates.": [
+      "E:note:row477434:21"
+    ],
+    "desat to mid 80 action: sxn q2-3 hrs.": [
+      "E:note:row477434:22"
+    ],
+    "bronch done at bedside by dr. [**last name (stitle) 7375**].": [
+      "E:note:row477434:23"
+    ],
+    "abg sent and fio2 and peep ^ d this shift.": [
+      "E:note:row477434:24"
+    ],
+    "response: sxnf or copious amts thick tan/blood tinged secretions via ett.": [
+      "E:note:row477434:25"
+    ],
+    "bronch done with copious amts thick plugs.": [
+      "E:note:row477434:26"
+    ],
+    "vanco and zosyn.": [
+      "E:note:row477434:27"
+    ],
+    "plan: altered mental status (not delirium) assessment: opens eyes to st": [
+      "E:note:row477434:28"
+    ],
+    "no spontaneous movement noted.": [
+      "E:note:row477434:29"
+    ],
+    "withdraws to painful stimuli in ble only.": [
+      "E:note:row477434:30"
+    ],
+    "cough/gag impaired. +perrla noted (r eye slugghish).": [
+      "E:note:row477434:31"
+    ],
+    "no seizure activity noted.": [
+      "E:note:row477434:32"
+    ],
+    "action: remains on rifaximin and lactulose.": [
+      "E:note:row477434:33"
+    ],
+    "neurology following.": [
+      "E:note:row477434:34"
+    ],
+    "response: ongoing neuro assessment.": [
+      "E:note:row477434:35"
+    ],
+    "plan: fever (hyperthermia, pyrexia, not fever of unknown origin) assessmen": [
+      "E:note:row477434:36"
+    ],
+    "wbc 26.8.": [
+      "E:note:row477434:37"
+    ],
+    "pan cx s [**8-4**].": [
+      "E:note:row477434:38"
+    ],
+    "action: tylenol given, cool bath and cool cloths applied.": [
+      "E:note:row477434:39"
+    ],
+    "bal sent s/p bronch.": [
+      "E:note:row477434:40"
+    ],
+    "broad spectrum abx for empiric coverage for pna/pneumonitis (witnessed aspira": [
+      "E:note:row477434:41"
+    ],
+    "response: temp down to 101.7.": [
+      "E:note:row477434:42"
+    ],
+    "plan: monitor temp and fever curve.": [
+      "E:note:row477434:43"
+    ],
+    "plan for daily cxr until extubated.": [
+      "E:note:row477434:44"
+    ],
+    "f/u cx": [
+      "E:note:row477434:45"
+    ]
+  },
+  "by_date": {
+    "2141-08-02": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7"
+    ]
+  }
+}

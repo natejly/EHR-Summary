@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Patient presents with complete atrioventricular block [E:cond:1][E:note:row1574:2], cardiac arrest [E:cond:2], and paroxysmal ventricular tachycardia [E:cond:9] including ventricular fibrillation [E:note:row1574:9].",
+      "severity": "medium",
+      "reason": "The summary claims paroxysmal ventricular tachycardia includes ventricular fibrillation, but the fact sheet does not establish this relationship."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Patient presents with complete atrioventricular block [E:cond:1][E:note:row1574:2], cardiac arrest [E:cond:2], and paroxysmal ventricular tachycardia [E:cond:9] including ventricular fibrillation [E:note:row1574:9].",
+      "suggested": "Patient presents with complete atrioventricular block [E:cond:1][E:note:row1574:2], cardiac arrest [E:cond:2], paroxysmal ventricular tachycardia [E:cond:9], and ventricular fibrillation [E:note:row1574:9].",
+      "reason": "Removes the unsupported claim that ventricular fibrillation is a subset of the paroxysmal ventricular tachycardia."
+    }
+  ]
+}

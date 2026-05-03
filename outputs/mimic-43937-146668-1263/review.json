@@ -1,0 +1,26 @@
+{
+  "concerns": [
+    {
+      "sentence": "Respiratory status is critical with acute respiratory failure [E:cond:2], respiratory distress [E:note:row1263:12], and pneumonia, organism unspecified [E:cond:4].",
+      "severity": "medium",
+      "reason": "The term 'critical' is an interpretation not explicitly stated in the fact sheet, though the conditions listed are severe."
+    },
+    {
+      "sentence": "Patient presents with unspecified septicemia [E:cond:1], severe sepsis [E:cond:9], and septic shock [E:cond:3] as of 2200-08-04 [E:cond:1][E:cond:3][E:cond:9].",
+      "severity": "low",
+      "reason": "The date 2200-08-04 is likely a timestamp/date format error in the source data (year 2200), which the summary replicates."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Respiratory status is critical with acute respiratory failure [E:cond:2], respiratory distress [E:note:row1263:12], and pneumonia, organism unspecified [E:cond:4].",
+      "suggested": "Respiratory findings include acute respiratory failure [E:cond:2], respiratory distress [E:note:row1263:12], and pneumonia, organism unspecified [E:cond:4].",
+      "reason": "Removes the subjective descriptor 'critical' to adhere strictly to the provided facts."
+    },
+    {
+      "original": "Maintenance medications include:",
+      "suggested": "Maintenance medications include the following:",
+      "reason": "This is a structural header; however, the check report flagged it for missing citations. Since it is a lead-in to a cited list, it is acceptable, but for strict compliance, it can be merged or left as is if the clinician deems the list citations sufficient."
+    }
+  ]
+}

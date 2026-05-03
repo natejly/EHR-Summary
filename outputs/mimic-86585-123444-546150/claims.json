@@ -1,0 +1,382 @@
+{
+  "claims": [
+    {
+      "claim_id": "C1",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "CABG",
+      "time_ref": null,
+      "source_span": "row546150#0"
+    },
+    {
+      "claim_id": "C2",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "CHF",
+      "time_ref": null,
+      "source_span": "row546150#0"
+    },
+    {
+      "claim_id": "C3",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "I-CMP",
+      "time_ref": null,
+      "source_span": "row546150#0"
+    },
+    {
+      "claim_id": "C4",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "is",
+      "value": "+smoker",
+      "time_ref": null,
+      "source_span": "row546150#0"
+    },
+    {
+      "claim_id": "C5",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "acute SOB",
+      "time_ref": "12-5",
+      "source_span": "row546150#0"
+    },
+    {
+      "claim_id": "C6",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "underwent",
+      "value": "Intubation",
+      "time_ref": null,
+      "source_span": "row546150#1"
+    },
+    {
+      "claim_id": "C7",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Heart failure (CHF), Systolic, Acute on Chronic",
+      "time_ref": null,
+      "source_span": "row546150#4"
+    },
+    {
+      "claim_id": "C8",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "lasix gtt at 10mg/hr",
+      "time_ref": null,
+      "source_span": "row546150#5"
+    },
+    {
+      "claim_id": "C9",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "uop 100-200cc/hr",
+      "time_ref": null,
+      "source_span": "row546150#5"
+    },
+    {
+      "claim_id": "C10",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Lasix weaned to 8mg/hr",
+      "time_ref": null,
+      "source_span": "row546150#6"
+    },
+    {
+      "claim_id": "C11",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Uop continues ~100cc/hr",
+      "time_ref": null,
+      "source_span": "row546150#7"
+    },
+    {
+      "claim_id": "C12",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "Continue to wean lasix as tol",
+      "time_ref": null,
+      "source_span": "row546150#8"
+    },
+    {
+      "claim_id": "C13",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "Monitor Cr",
+      "time_ref": null,
+      "source_span": "row546150#8"
+    },
+    {
+      "claim_id": "C14",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "TTE today",
+      "time_ref": null,
+      "source_span": "row546150#8"
+    },
+    {
+      "claim_id": "C15",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "? adding ACE-I as BP tolerates",
+      "time_ref": null,
+      "source_span": "row546150#8"
+    },
+    {
+      "claim_id": "C16",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])",
+      "time_ref": null,
+      "source_span": "row546150#9"
+    },
+    {
+      "claim_id": "C17",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "AM RSBI 52",
+      "time_ref": null,
+      "source_span": "row546150#10"
+    },
+    {
+      "claim_id": "C18",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "Wean vent as tol, CPAP today",
+      "time_ref": null,
+      "source_span": "row546150#13"
+    },
+    {
+      "claim_id": "C19",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Altered mental status (not Delirium)",
+      "time_ref": null,
+      "source_span": "row546150#14"
+    },
+    {
+      "claim_id": "C20",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "PRN fentanyl and Versed IVP",
+      "time_ref": null,
+      "source_span": "row546150#16"
+    },
+    {
+      "claim_id": "C21",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "Continue to monitor MS, Versed/fent PRN for comfort",
+      "time_ref": null,
+      "source_span": "row546150#18"
+    },
+    {
+      "claim_id": "C22",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Atrial fibrillation (Afib)",
+      "time_ref": null,
+      "source_span": "row546150#19"
+    },
+    {
+      "claim_id": "C23",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "HR 80-90s AFib",
+      "time_ref": null,
+      "source_span": "row546150#20"
+    },
+    {
+      "claim_id": "C24",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Heparin gtt started at 1400units/hr",
+      "time_ref": null,
+      "source_span": "row546150#21"
+    },
+    {
+      "claim_id": "C25",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "40meQ KCL",
+      "time_ref": "on admission",
+      "source_span": "row546150#21"
+    },
+    {
+      "claim_id": "C26",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "K 3.7",
+      "time_ref": "on admission",
+      "source_span": "row546150#21"
+    },
+    {
+      "claim_id": "C27",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "AM PTT to be drawn w/ AM labs at 600",
+      "time_ref": null,
+      "source_span": "row546150#23"
+    },
+    {
+      "claim_id": "C28",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "Titrate heparin gtt accordingly for goal PTT 60-100",
+      "time_ref": null,
+      "source_span": "row546150#23"
+    },
+    {
+      "claim_id": "C29",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)",
+      "time_ref": null,
+      "source_span": "row546150#24"
+    },
+    {
+      "claim_id": "C30",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Temp spike 101.3",
+      "time_ref": "early AM 12-9",
+      "source_span": "row546150#25"
+    },
+    {
+      "claim_id": "C31",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "TMax 99.7",
+      "time_ref": null,
+      "source_span": "row546150#25"
+    },
+    {
+      "claim_id": "C32",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "1 time dose Zosyn",
+      "time_ref": null,
+      "source_span": "row546150#26"
+    },
+    {
+      "claim_id": "C33",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Azythromycin IV",
+      "time_ref": null,
+      "source_span": "row546150#26"
+    },
+    {
+      "claim_id": "C34",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Impaired Skin Integrity",
+      "time_ref": null,
+      "source_span": "row546150#29"
+    },
+    {
+      "claim_id": "C35",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "?Deep tissue injury & clear filled blister",
+      "time_ref": null,
+      "source_span": "row546150#30"
+    },
+    {
+      "claim_id": "C36",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Anemia, chronic",
+      "time_ref": null,
+      "source_span": "row546150#34"
+    },
+    {
+      "claim_id": "C37",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "HCT drop from 38.3 to 26 in OSH",
+      "time_ref": null,
+      "source_span": "row546150#35"
+    },
+    {
+      "claim_id": "C38",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "HCT 26.5 on admit here",
+      "time_ref": null,
+      "source_span": "row546150#35"
+    },
+    {
+      "claim_id": "C39",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "Monitor for signs bleeding, Guiac stools",
+      "time_ref": null,
+      "source_span": "row546150#38"
+    },
+    {
+      "claim_id": "C40",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "Monitor HCTs, ?transfuse",
+      "time_ref": null,
+      "source_span": "row546150#38"
+    },
+    {
+      "claim_id": "C41",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Knowledge Deficit",
+      "time_ref": null,
+      "source_span": "row546150#39"
+    },
+    {
+      "claim_id": "C42",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "Smoking education/cessation once extubated",
+      "time_ref": null,
+      "source_span": "row546150#41"
+    }
+  ]
+}

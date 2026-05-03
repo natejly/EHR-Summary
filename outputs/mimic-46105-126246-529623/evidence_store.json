@@ -1,0 +1,1272 @@
+{
+  "case_id": "mimic-46105-126246-529623",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:enc-126246",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Methicillin resistant Staphylococcus aureus septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "03812",
+        "display": "Methicillin resistant Staphylococcus aureus septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Nutritional marasmus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "261",
+        "display": "Nutritional marasmus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Pressure ulcer, stage IV",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70724",
+        "display": "Pressure ulcer, stage IV"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Septic shock",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78552",
+        "display": "Septic shock"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Ventilator associated pneumonia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99731",
+        "display": "Ventilator associated pneumonia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Urinary tract infection, site not specified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5990",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Late effects of cerebrovascular disease, hemiplegia affecting unspecified side",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "43820",
+        "display": "Late effects of cerebrovascular disease, hemiplegia affecting unspecified side"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Attention to gastrostomy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V551",
+        "display": "Attention to gastrostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Acidosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2762",
+        "display": "Acidosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Chronic respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51883",
+        "display": "Chronic respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Dependence on respirator, status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4611",
+        "display": "Dependence on respirator, status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Chronic kidney disease, Stage IV (severe)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5854",
+        "display": "Chronic kidney disease, Stage IV (severe)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Methicillin resistant Staphylococcus aureus in conditions classified elsewhere and of unspecified site",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "04112",
+        "display": "Methicillin resistant Staphylococcus aureus in conditions classified elsewhere and of unspecified site"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Pseudomonas infection in conditions classified elsewhere and of unspecified site",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0417",
+        "display": "Pseudomonas infection in conditions classified elsewhere and of unspecified site"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Pressure ulcer, lower back",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70703",
+        "display": "Pressure ulcer, lower back"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Pressure ulcer, heel",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70707",
+        "display": "Pressure ulcer, heel"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Pressure ulcer, other site",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70709",
+        "display": "Pressure ulcer, other site"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Thrombocytopenia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2875",
+        "display": "Thrombocytopenia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Anemia in chronic kidney disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "28521",
+        "display": "Anemia in chronic kidney disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25000",
+        "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:cond-126246-23",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:proc-126246-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Parenteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Parenteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2111-03-07",
+      "source_ref": "urn:uuid:proc-126246-2",
+      "text": null
+    },
+    {
+      "id": "E:note:row529623:1",
+      "kind": "note_sentence",
+      "display": "70M with TBI and CVA with trach, history of recurrent PNA, UTI and    sepsis who",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s1",
+      "text": "70M with TBI and CVA with trach, history of recurrent PNA, UTI and    sepsis who presented to [**Hospital 880**] Hospital on [**2-27**] with fever, hypoxia,    hypercarbia, hypotension from [**Hospital1 **]."
+    },
+    {
+      "id": "E:note:row529623:2",
+      "kind": "note_sentence",
+      "display": "At [**Hospital1 **] febrile to 102    and concern from trach leak.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s2",
+      "text": "At [**Hospital1 **] febrile to 102    and concern from trach leak."
+    },
+    {
+      "id": "E:note:row529623:3",
+      "kind": "note_sentence",
+      "display": "En route to [**Hospital1 19**] was found to be    unstable and re-routed to [**H",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s3",
+      "text": "En route to [**Hospital1 19**] was found to be    unstable and re-routed to [**Hospital 880**] Hospital."
+    },
+    {
+      "id": "E:note:row529623:4",
+      "kind": "note_sentence",
+      "display": "At [**Hospital 880**] Hospital    treated for presumed VAP and multiple open ski",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s4",
+      "text": "At [**Hospital 880**] Hospital    treated for presumed VAP and multiple open skin ulcers, CXR showing    consildation and labs revealing MRSA bacteremia, MRSA and pseudomonas    PNA, MRSA/klebisiella UTI."
+    },
+    {
+      "id": "E:note:row529623:5",
+      "kind": "note_sentence",
+      "display": "Trach changed from Shiley to Bovina.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s5",
+      "text": "Trach changed from Shiley to Bovina."
+    },
+    {
+      "id": "E:note:row529623:6",
+      "kind": "note_sentence",
+      "display": "At    [**Hospital1 880**] had ARF (pt has CRI) likely secondary to hypovolemia, ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s6",
+      "text": "At    [**Hospital1 880**] had ARF (pt has CRI) likely secondary to hypovolemia, BUN/Cr    continued to rise despite interventions."
+    },
+    {
+      "id": "E:note:row529623:7",
+      "kind": "note_sentence",
+      "display": "Renal service at [**Hospital 880**]    Hospital did not feel pt was candidate fo",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s7",
+      "text": "Renal service at [**Hospital 880**]    Hospital did not feel pt was candidate for HD, sent to [**Hospital1 19**] for second    opinion."
+    },
+    {
+      "id": "E:note:row529623:8",
+      "kind": "note_sentence",
+      "display": "CODE: FULL    Allergies:  gabapentin, plavix, meclizine, olanzapine, tobramycin,",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s8",
+      "text": "CODE: FULL    Allergies:  gabapentin, plavix, meclizine, olanzapine, tobramycin,    meropenum    Precautions: MRSA/VRE/CDIFF    Gastrointestinal bleed, upper (Melena, GI Bleed, GIB)    Assessment:    Pt with HCT trending down since admission to OSH."
+    },
+    {
+      "id": "E:note:row529623:9",
+      "kind": "note_sentence",
+      "display": "Upon arrival OGT    with dark red [**Last Name (LF) 573**], [**First Name3 (LF) ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s9",
+      "text": "Upon arrival OGT    with dark red [**Last Name (LF) 573**], [**First Name3 (LF) **] tube clear, stool golden brown in color, will    guiac with bag change."
+    },
+    {
+      "id": "E:note:row529623:10",
+      "kind": "note_sentence",
+      "display": "Action:    OGT hooked up to [**Last Name (LF) 14215**], [**First Name3 (LF) **] ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s10",
+      "text": "Action:    OGT hooked up to [**Last Name (LF) 14215**], [**First Name3 (LF) **] tube residuals checked q4h, HCT checked upon    arrival to unit, type and cross sent with AM labs."
+    },
+    {
+      "id": "E:note:row529623:11",
+      "kind": "note_sentence",
+      "display": "Started on PPI.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s11",
+      "text": "Started on PPI."
+    },
+    {
+      "id": "E:note:row529623:12",
+      "kind": "note_sentence",
+      "display": "Response:    OGT draining approx 400cc coffee ground fluid, HO aware, HCT up    ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s12",
+      "text": "Response:    OGT draining approx 400cc coffee ground fluid, HO aware, HCT up    slightly from OSH (21 to 23)."
+    },
+    {
+      "id": "E:note:row529623:13",
+      "kind": "note_sentence",
+      "display": "Plan:    Trend HCT, monitor for signs of active bleeding, continue to assess    ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s13",
+      "text": "Plan:    Trend HCT, monitor for signs of active bleeding, continue to assess    OGT/[**First Name3 (LF) **] residuals."
+    },
+    {
+      "id": "E:note:row529623:14",
+      "kind": "note_sentence",
+      "display": "Team to discuss plan during rounds.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s14",
+      "text": "Team to discuss plan during rounds."
+    },
+    {
+      "id": "E:note:row529623:15",
+      "kind": "note_sentence",
+      "display": "Bacteremia    Assessment:    Pt with MRSA bacteremia, MRSA/pseudomonas PNA, and ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s15",
+      "text": "Bacteremia    Assessment:    Pt with MRSA bacteremia, MRSA/pseudomonas PNA, and MRSA/klebsiella    UTI."
+    },
+    {
+      "id": "E:note:row529623:16",
+      "kind": "note_sentence",
+      "display": "Pt s vital signs stable upon arrival, HR AFIB 90-100s with    episodes of SVT to",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s16",
+      "text": "Pt s vital signs stable upon arrival, HR AFIB 90-100s with    episodes of SVT to 130-140, NIBP 90s, trending to 80s then high 70s."
+    },
+    {
+      "id": "E:note:row529623:17",
+      "kind": "note_sentence",
+      "display": "Pt hypothermic at 94 degrees.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s17",
+      "text": "Pt hypothermic at 94 degrees."
+    },
+    {
+      "id": "E:note:row529623:18",
+      "kind": "note_sentence",
+      "display": "Action:    One set [**First Name3 (LF) 573**] culture sent from CVL, unable to s",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s18",
+      "text": "Action:    One set [**First Name3 (LF) 573**] culture sent from CVL, unable to send second set due to    poor skin integrity."
+    },
+    {
+      "id": "E:note:row529623:19",
+      "kind": "note_sentence",
+      "display": "Received one tide dose vanco and started on    standing dose [**Hospital1 7**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s19",
+      "text": "Received one tide dose vanco and started on    standing dose [**Hospital1 7**]."
+    },
+    {
+      "id": "E:note:row529623:20",
+      "kind": "note_sentence",
+      "display": "Received 500cc bolus x 2 for NBP 70s.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s20",
+      "text": "Received 500cc bolus x 2 for NBP 70s."
+    },
+    {
+      "id": "E:note:row529623:21",
+      "kind": "note_sentence",
+      "display": "Sputum    culture also sent, unable to send urine due to poor urine output.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s21",
+      "text": "Sputum    culture also sent, unable to send urine due to poor urine output."
+    },
+    {
+      "id": "E:note:row529623:22",
+      "kind": "note_sentence",
+      "display": "Bair    hugger placed for low temp.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s22",
+      "text": "Bair    hugger placed for low temp."
+    },
+    {
+      "id": "E:note:row529623:23",
+      "kind": "note_sentence",
+      "display": "Response:    No response from IVF boluses, remained in mid 80s therefore started",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s23",
+      "text": "Response:    No response from IVF boluses, remained in mid 80s therefore started on    levophed drip to maintain SBP >90."
+    },
+    {
+      "id": "E:note:row529623:24",
+      "kind": "note_sentence",
+      "display": "Sputum and [**Hospital1 573**] culture pending.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s24",
+      "text": "Sputum and [**Hospital1 573**] culture pending."
+    },
+    {
+      "id": "E:note:row529623:25",
+      "kind": "note_sentence",
+      "display": "Temp trending upward.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s25",
+      "text": "Temp trending upward."
+    },
+    {
+      "id": "E:note:row529623:26",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue IV ABX, team to discuss this morning broadening coverage,    t",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s26",
+      "text": "Plan:    Continue IV ABX, team to discuss this morning broadening coverage,    trend WBC and temp curve, levophed for SBP >90, follow up culture    data."
+    },
+    {
+      "id": "E:note:row529623:27",
+      "kind": "note_sentence",
+      "display": "Respiratory failure, chronic    Assessment:    Received pt with [**Last Name (un",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s27",
+      "text": "Respiratory failure, chronic    Assessment:    Received pt with [**Last Name (un) **] trach in place, + cuff leak, vent settings    40%/400*20/+5, pt overbreathing vent by 3-6 breaths, STV 400-500, MV    [**8-22**], lung sounds rhonchorous throughout."
+    },
+    {
+      "id": "E:note:row529623:28",
+      "kind": "note_sentence",
+      "display": "Pt desatting to low 90s upon    admission after being turned for evaluation of w",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s28",
+      "text": "Pt desatting to low 90s upon    admission after being turned for evaluation of wounds."
+    },
+    {
+      "id": "E:note:row529623:29",
+      "kind": "note_sentence",
+      "display": "Action:    FiO2 increased to 60%, suctioned for small to moderate amount of thic",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s29",
+      "text": "Action:    FiO2 increased to 60%, suctioned for small to moderate amount of thick,    pink secretions, specimen sent for culture."
+    },
+    {
+      "id": "E:note:row529623:30",
+      "kind": "note_sentence",
+      "display": "Trach leak variable with    pt positioning.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s30",
+      "text": "Trach leak variable with    pt positioning."
+    },
+    {
+      "id": "E:note:row529623:31",
+      "kind": "note_sentence",
+      "display": "Response:    Sats to high 90s on 60%, no change in lung sounds post suctioning, ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s31",
+      "text": "Response:    Sats to high 90s on 60%, no change in lung sounds post suctioning,    sputum culture pending."
+    },
+    {
+      "id": "E:note:row529623:32",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue aggressive pulmonary toilet, wean vent support as tolerated by",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s32",
+      "text": "Plan:    Continue aggressive pulmonary toilet, wean vent support as tolerated by    pt to pt s baseline vent settings as pt is chronically vented."
+    },
+    {
+      "id": "E:note:row529623:33",
+      "kind": "note_sentence",
+      "display": "Impaired Skin Integrity    Assessment:    Pt with multiple skin impairments and ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s33",
+      "text": "Impaired Skin Integrity    Assessment:    Pt with multiple skin impairments and pressure ulcers, locations    include bilateral earlobes, trach site, bilateral scapulae, lower back,    coccyx, bilateral ischium, bilateral arms and both feet."
+    },
+    {
+      "id": "E:note:row529623:34",
+      "kind": "note_sentence",
+      "display": "All in    various stages of healing.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s34",
+      "text": "All in    various stages of healing."
+    },
+    {
+      "id": "E:note:row529623:35",
+      "kind": "note_sentence",
+      "display": "Please see skin impairment section of    MetaVision for detailed description of ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s35",
+      "text": "Please see skin impairment section of    MetaVision for detailed description of each pressure ulcer."
+    },
+    {
+      "id": "E:note:row529623:36",
+      "kind": "note_sentence",
+      "display": "Action:    Upon arrival all wound dressings taken down and assessed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s36",
+      "text": "Action:    Upon arrival all wound dressings taken down and assessed."
+    },
+    {
+      "id": "E:note:row529623:37",
+      "kind": "note_sentence",
+      "display": "Mepilex    placed on most open areas, more severe ulcers requiring wet to dry   ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s37",
+      "text": "Mepilex    placed on most open areas, more severe ulcers requiring wet to dry    dressings."
+    },
+    {
+      "id": "E:note:row529623:38",
+      "kind": "note_sentence",
+      "display": "Wound care consult placed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s38",
+      "text": "Wound care consult placed."
+    },
+    {
+      "id": "E:note:row529623:39",
+      "kind": "note_sentence",
+      "display": "Placed on air mattress.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s39",
+      "text": "Placed on air mattress."
+    },
+    {
+      "id": "E:note:row529623:40",
+      "kind": "note_sentence",
+      "display": "HO in    to evaluate.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s40",
+      "text": "HO in    to evaluate."
+    },
+    {
+      "id": "E:note:row529623:41",
+      "kind": "note_sentence",
+      "display": "Response:    No change in skin impairments since admission.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s41",
+      "text": "Response:    No change in skin impairments since admission."
+    },
+    {
+      "id": "E:note:row529623:42",
+      "kind": "note_sentence",
+      "display": "Plan:    Pt needs formal wound care consult, frequent turns, dressings as    nee",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s42",
+      "text": "Plan:    Pt needs formal wound care consult, frequent turns, dressings as    needed."
+    },
+    {
+      "id": "E:note:row529623:43",
+      "kind": "note_sentence",
+      "display": "Renal failure, Chronic (Chronic renal failure, CRF, Chronic kidney    disease)  ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s43",
+      "text": "Renal failure, Chronic (Chronic renal failure, CRF, Chronic kidney    disease)    Assessment:    Pt sent from [**Hospital 880**] Hospital where pt was deemed not HD candidate by    their renal service."
+    },
+    {
+      "id": "E:note:row529623:44",
+      "kind": "note_sentence",
+      "display": "Pt has foley but is essentially anuric, total    urine output this shift 10cc.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s44",
+      "text": "Pt has foley but is essentially anuric, total    urine output this shift 10cc."
+    },
+    {
+      "id": "E:note:row529623:45",
+      "kind": "note_sentence",
+      "display": "Urine cloudy and yellow with sludge.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s45",
+      "text": "Urine cloudy and yellow with sludge."
+    },
+    {
+      "id": "E:note:row529623:46",
+      "kind": "note_sentence",
+      "display": "Unable to send urine for analysis or for culture.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s46",
+      "text": "Unable to send urine for analysis or for culture."
+    },
+    {
+      "id": "E:note:row529623:47",
+      "kind": "note_sentence",
+      "display": "Action:    Renal team consulted for ?",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s47",
+      "text": "Action:    Renal team consulted for ?"
+    },
+    {
+      "id": "E:note:row529623:48",
+      "kind": "note_sentence",
+      "display": "HD, BUN/Cr checked with AM labs.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s48",
+      "text": "HD, BUN/Cr checked with AM labs."
+    },
+    {
+      "id": "E:note:row529623:49",
+      "kind": "note_sentence",
+      "display": "Response:    BUN/Cr down slightly from admission.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s49",
+      "text": "Response:    BUN/Cr down slightly from admission."
+    },
+    {
+      "id": "E:note:row529623:50",
+      "kind": "note_sentence",
+      "display": "Plan:    Renal team to consult today, monitor UOP, trend BUN/Cr.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row529623#s50",
+      "text": "Plan:    Renal team to consult today, monitor UOP, trend BUN/Cr."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|03812": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|261": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70724": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78552": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99731": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5990": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|43820": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V551": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2762": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51883": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4611": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5854": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|04112": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|0417": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70703": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70707": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70709": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42731": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2875": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|28521": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25000": [
+      "E:cond:23"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "methicillin resistant staphylococcus aureus septicemia": [
+      "E:cond:1"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:2"
+    ],
+    "nutritional marasmus": [
+      "E:cond:3"
+    ],
+    "pressure ulcer, stage iv": [
+      "E:cond:4"
+    ],
+    "septic shock": [
+      "E:cond:5"
+    ],
+    "ventilator associated pneumonia": [
+      "E:cond:6"
+    ],
+    "urinary tract infection, site not specified": [
+      "E:cond:7"
+    ],
+    "late effects of cerebrovascular disease, hemiplegia affecting unspecified side": [
+      "E:cond:8"
+    ],
+    "attention to gastrostomy": [
+      "E:cond:9"
+    ],
+    "acidosis": [
+      "E:cond:10"
+    ],
+    "chronic respiratory failure": [
+      "E:cond:11"
+    ],
+    "dependence on respirator, status": [
+      "E:cond:12"
+    ],
+    "chronic kidney disease, stage iv (severe)": [
+      "E:cond:13"
+    ],
+    "severe sepsis": [
+      "E:cond:14"
+    ],
+    "methicillin resistant staphylococcus aureus in conditions classified elsewhere and of unspecified site": [
+      "E:cond:15"
+    ],
+    "pseudomonas infection in conditions classified elsewhere and of unspecified site": [
+      "E:cond:16"
+    ],
+    "pressure ulcer, lower back": [
+      "E:cond:17"
+    ],
+    "pressure ulcer, heel": [
+      "E:cond:18"
+    ],
+    "pressure ulcer, other site": [
+      "E:cond:19"
+    ],
+    "atrial fibrillation": [
+      "E:cond:20"
+    ],
+    "thrombocytopenia, unspecified": [
+      "E:cond:21"
+    ],
+    "anemia in chronic kidney disease": [
+      "E:cond:22"
+    ],
+    "diabetes mellitus without mention of complication, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:23"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:1"
+    ],
+    "parenteral infusion of concentrated nutritional substances": [
+      "E:proc:2"
+    ],
+    "70m with tbi and cva with trach, history of recurrent pna, uti and sepsis who": [
+      "E:note:row529623:1"
+    ],
+    "at [**hospital1 **] febrile to 102 and concern from trach leak.": [
+      "E:note:row529623:2"
+    ],
+    "en route to [**hospital1 19**] was found to be unstable and re-routed to [**h": [
+      "E:note:row529623:3"
+    ],
+    "at [**hospital 880**] hospital treated for presumed vap and multiple open ski": [
+      "E:note:row529623:4"
+    ],
+    "trach changed from shiley to bovina.": [
+      "E:note:row529623:5"
+    ],
+    "at [**hospital1 880**] had arf (pt has cri) likely secondary to hypovolemia,": [
+      "E:note:row529623:6"
+    ],
+    "renal service at [**hospital 880**] hospital did not feel pt was candidate fo": [
+      "E:note:row529623:7"
+    ],
+    "code: full allergies: gabapentin, plavix, meclizine, olanzapine, tobramycin,": [
+      "E:note:row529623:8"
+    ],
+    "upon arrival ogt with dark red [**last name (lf) 573**], [**first name3 (lf)": [
+      "E:note:row529623:9"
+    ],
+    "action: ogt hooked up to [**last name (lf) 14215**], [**first name3 (lf) **]": [
+      "E:note:row529623:10"
+    ],
+    "started on ppi.": [
+      "E:note:row529623:11"
+    ],
+    "response: ogt draining approx 400cc coffee ground fluid, ho aware, hct up": [
+      "E:note:row529623:12"
+    ],
+    "plan: trend hct, monitor for signs of active bleeding, continue to assess": [
+      "E:note:row529623:13"
+    ],
+    "team to discuss plan during rounds.": [
+      "E:note:row529623:14"
+    ],
+    "bacteremia assessment: pt with mrsa bacteremia, mrsa/pseudomonas pna, and": [
+      "E:note:row529623:15"
+    ],
+    "pt s vital signs stable upon arrival, hr afib 90-100s with episodes of svt to": [
+      "E:note:row529623:16"
+    ],
+    "pt hypothermic at 94 degrees.": [
+      "E:note:row529623:17"
+    ],
+    "action: one set [**first name3 (lf) 573**] culture sent from cvl, unable to s": [
+      "E:note:row529623:18"
+    ],
+    "received one tide dose vanco and started on standing dose [**hospital1 7**].": [
+      "E:note:row529623:19"
+    ],
+    "received 500cc bolus x 2 for nbp 70s.": [
+      "E:note:row529623:20"
+    ],
+    "sputum culture also sent, unable to send urine due to poor urine output.": [
+      "E:note:row529623:21"
+    ],
+    "bair hugger placed for low temp.": [
+      "E:note:row529623:22"
+    ],
+    "response: no response from ivf boluses, remained in mid 80s therefore started": [
+      "E:note:row529623:23"
+    ],
+    "sputum and [**hospital1 573**] culture pending.": [
+      "E:note:row529623:24"
+    ],
+    "temp trending upward.": [
+      "E:note:row529623:25"
+    ],
+    "plan: continue iv abx, team to discuss this morning broadening coverage, t": [
+      "E:note:row529623:26"
+    ],
+    "respiratory failure, chronic assessment: received pt with [**last name (un": [
+      "E:note:row529623:27"
+    ],
+    "pt desatting to low 90s upon admission after being turned for evaluation of w": [
+      "E:note:row529623:28"
+    ],
+    "action: fio2 increased to 60%, suctioned for small to moderate amount of thic": [
+      "E:note:row529623:29"
+    ],
+    "trach leak variable with pt positioning.": [
+      "E:note:row529623:30"
+    ],
+    "response: sats to high 90s on 60%, no change in lung sounds post suctioning,": [
+      "E:note:row529623:31"
+    ],
+    "plan: continue aggressive pulmonary toilet, wean vent support as tolerated by": [
+      "E:note:row529623:32"
+    ],
+    "impaired skin integrity assessment: pt with multiple skin impairments and": [
+      "E:note:row529623:33"
+    ],
+    "all in various stages of healing.": [
+      "E:note:row529623:34"
+    ],
+    "please see skin impairment section of metavision for detailed description of": [
+      "E:note:row529623:35"
+    ],
+    "action: upon arrival all wound dressings taken down and assessed.": [
+      "E:note:row529623:36"
+    ],
+    "mepilex placed on most open areas, more severe ulcers requiring wet to dry": [
+      "E:note:row529623:37"
+    ],
+    "wound care consult placed.": [
+      "E:note:row529623:38"
+    ],
+    "placed on air mattress.": [
+      "E:note:row529623:39"
+    ],
+    "ho in to evaluate.": [
+      "E:note:row529623:40"
+    ],
+    "response: no change in skin impairments since admission.": [
+      "E:note:row529623:41"
+    ],
+    "plan: pt needs formal wound care consult, frequent turns, dressings as nee": [
+      "E:note:row529623:42"
+    ],
+    "renal failure, chronic (chronic renal failure, crf, chronic kidney disease)": [
+      "E:note:row529623:43"
+    ],
+    "pt has foley but is essentially anuric, total urine output this shift 10cc.": [
+      "E:note:row529623:44"
+    ],
+    "urine cloudy and yellow with sludge.": [
+      "E:note:row529623:45"
+    ],
+    "unable to send urine for analysis or for culture.": [
+      "E:note:row529623:46"
+    ],
+    "action: renal team consulted for ?": [
+      "E:note:row529623:47"
+    ],
+    "hd, bun/cr checked with am labs.": [
+      "E:note:row529623:48"
+    ],
+    "response: bun/cr down slightly from admission.": [
+      "E:note:row529623:49"
+    ],
+    "plan: renal team to consult today, monitor uop, trend bun/cr.": [
+      "E:note:row529623:50"
+    ]
+  },
+  "by_date": {
+    "2111-03-07": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:proc:1",
+      "E:proc:2"
+    ]
+  }
+}

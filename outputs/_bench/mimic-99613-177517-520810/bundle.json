@@ -1,0 +1,507 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-99613-177517",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-99613",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-99613",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-177517",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-177517",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2153-02-10T00:00:00",
+          "end": "2153-02-26T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177517-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177517-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "49121",
+              "display": "Obstructive chronic bronchitis with (acute) exacerbation"
+            }
+          ],
+          "text": "Obstructive chronic bronchitis with (acute) exacerbation"
+        },
+        "onsetDateTime": "2153-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177517-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177517-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51884",
+              "display": "Acute and chronic respiratory failure"
+            }
+          ],
+          "text": "Acute and chronic respiratory failure"
+        },
+        "onsetDateTime": "2153-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177517-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177517-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4941",
+              "display": "Bronchiectasis with acute exacerbation"
+            }
+          ],
+          "text": "Bronchiectasis with acute exacerbation"
+        },
+        "onsetDateTime": "2153-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177517-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177517-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4611",
+              "display": "Dependence on respirator, status"
+            }
+          ],
+          "text": "Dependence on respirator, status"
+        },
+        "onsetDateTime": "2153-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177517-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177517-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5119",
+              "display": "Unspecified pleural effusion"
+            }
+          ],
+          "text": "Unspecified pleural effusion"
+        },
+        "onsetDateTime": "2153-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177517-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177517-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2764",
+              "display": "Mixed acid-base balance disorder"
+            }
+          ],
+          "text": "Mixed acid-base balance disorder"
+        },
+        "onsetDateTime": "2153-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177517-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177517-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4010",
+              "display": "Malignant essential hypertension"
+            }
+          ],
+          "text": "Malignant essential hypertension"
+        },
+        "onsetDateTime": "2153-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177517-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177517-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51919",
+              "display": "Other diseases of trachea and bronchus"
+            }
+          ],
+          "text": "Other diseases of trachea and bronchus"
+        },
+        "onsetDateTime": "2153-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177517-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177517-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3004",
+              "display": "Dysthymic disorder"
+            }
+          ],
+          "text": "Dysthymic disorder"
+        },
+        "onsetDateTime": "2153-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177517-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177517-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4365",
+              "display": "Knee joint replacement"
+            }
+          ],
+          "text": "Knee joint replacement"
+        },
+        "onsetDateTime": "2153-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177517-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177517-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "28529",
+              "display": "Anemia of other chronic disease"
+            }
+          ],
+          "text": "Anemia of other chronic disease"
+        },
+        "onsetDateTime": "2153-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177517-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177517-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7850",
+              "display": "Tachycardia, unspecified"
+            }
+          ],
+          "text": "Tachycardia, unspecified"
+        },
+        "onsetDateTime": "2153-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177517-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177517-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2875",
+              "display": "Thrombocytopenia, unspecified"
+            }
+          ],
+          "text": "Thrombocytopenia, unspecified"
+        },
+        "onsetDateTime": "2153-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177517-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177517-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "27652",
+              "display": "Hypovolemia"
+            }
+          ],
+          "text": "Hypovolemia"
+        },
+        "onsetDateTime": "2153-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-177517-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-177517-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2859",
+              "display": "Anemia, unspecified"
+            }
+          ],
+          "text": "Anemia, unspecified"
+        },
+        "onsetDateTime": "2153-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-177517-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-177517-1",
+        "status": "completed",
+        "code": {
+          "text": "Temporary tracheostomy"
+        },
+        "performedDateTime": "2153-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-177517-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-177517-2",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2153-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-177517-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-177517-3",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2153-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-177517-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-177517-4",
+        "status": "completed",
+        "code": {
+          "text": "Fiber-optic bronchoscopy"
+        },
+        "performedDateTime": "2153-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-177517-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-177517-5",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous [endoscopic] gastrostomy [PEG]"
+        },
+        "performedDateTime": "2153-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-177517-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-177517-6",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2153-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-177517-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-177517-7",
+        "status": "completed",
+        "code": {
+          "text": "Arterial catheterization"
+        },
+        "performedDateTime": "2153-02-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-177517-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-177517-8",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2153-02-10"
+      }
+    }
+  ]
+}

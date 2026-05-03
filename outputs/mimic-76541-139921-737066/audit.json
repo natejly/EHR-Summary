@@ -1,0 +1,149 @@
+{
+  "case_id": "mimic-76541-139921-737066",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2784,
+    "summary_chars": 1003,
+    "target_min_chars": 556,
+    "target_max_chars": 835,
+    "achieved_ratio": 0.3602729885057471,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 12,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:2",
+      "E:cond:22",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:28",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row737066:2",
+      "E:note:row737066:5",
+      "E:note:row737066:6",
+      "E:note:row737066:7"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Acute alcoholic hepatitis, alcoholic cirrhosis, and hepatic encephalopathy [E:cond:1][E:cond:18][E:cond:3].",
+        "severity": "medium",
+        "reason": "Alcoholic cirrhosis is not listed in the provided fact sheet."
+      },
+      {
+        "sentence": "Other issues include ascites, UTI, coagulation defects, protein-calorie malnutrition, anorexia nervosa, alcohol dependence, and lupus erythematosus [E:cond:9][E:cond:10][E:cond:8][E:cond:6][E:cond:15][E:cond:17][E:cond:28].",
+        "severity": "medium",
+        "reason": "Alcohol dependence and lupus erythematosus are not listed in the provided fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Acute alcoholic hepatitis, alcoholic cirrhosis, and hepatic encephalopathy [E:cond:1][E:cond:18][E:cond:3].",
+        "suggested": "Acute alcoholic hepatitis and hepatic encephalopathy [E:cond:1][E:cond:3].",
+        "reason": "Remove alcoholic cirrhosis as it is not supported by the fact sheet."
+      },
+      {
+        "original": "Other issues include ascites, UTI, coagulation defects, protein-calorie malnutrition, anorexia nervosa, alcohol dependence, and lupus erythematosus [E:cond:9][E:cond:10][E:cond:8][E:cond:6][E:cond:15][E:cond:17][E:cond:28].",
+        "suggested": "Other issues include ascites, UTI, coagulation defects, protein-calorie malnutrition, and anorexia nervosa [E:cond:9][E:cond:10][E:cond:8][E:cond:6][E:cond:15].",
+        "reason": "Remove alcohol dependence and lupus erythematosus as they are not supported by the fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 2,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-76541-139921-737066/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.09,
+    "fk_words": 190,
+    "fk_sentences": 17,
+    "fk_syllables": 295,
+    "chars": 1519,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-76541-139921-737066/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0015668330015614629,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 66.23383170901798,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 33.763949000043795,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0012286250130273402,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 18.790806750010233,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 40.88651104201563,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.0013206250150687993,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 57.533628416014835,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

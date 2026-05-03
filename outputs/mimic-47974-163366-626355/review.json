@@ -1,0 +1,26 @@
+{
+  "concerns": [
+    {
+      "sentence": "Other: Demerol 25mg [E:note:row626355:10], Ativan 0.5mg [E:note:row626355:10], and integrillin [E:note:row626355:41].",
+      "severity": "medium",
+      "reason": "The dose '0.5mg' for Ativan is not supported by the fact sheet, which lists '.5mg'."
+    },
+    {
+      "sentence": "Patient presents with severe sepsis, septic shock, and unspecified septicemia [E:cond:1][E:cond:2][E:cond:10][E:note:row626355:6].",
+      "severity": "low",
+      "reason": "Citation [E:note:row626355:6] is not present in the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Other: Demerol 25mg [E:note:row626355:10], Ativan 0.5mg [E:note:row626355:10], and integrillin [E:note:row626355:41].",
+      "suggested": "Other: Demerol 25mg [E:note:row626355:10], Ativan .5mg [E:note:row626355:10], and integrillin [E:note:row626355:41].",
+      "reason": "Corrected dose to match the verbatim value in the fact sheet."
+    },
+    {
+      "original": "Patient presents with severe sepsis, septic shock, and unspecified septicemia [E:cond:1][E:cond:2][E:cond:10][E:note:row626355:6].",
+      "suggested": "Patient presents with severe sepsis, septic shock, and unspecified septicemia [E:cond:1][E:cond:2][E:cond:10].",
+      "reason": "Removed unsupported citation."
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:1"
+      ],
+      "rationale": "The evidence explicitly states the patient is a 70M with TBI."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:1"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has a CVA."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:1",
+        "E:note:row529623:2",
+        "E:note:row529623:5",
+        "E:note:row529623:30"
+      ],
+      "rationale": "Multiple statements explicitly confirm the patient has a tracheostomy, including mentions of a trach leak and a trach change."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:1"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has a 'history of recurrent PNA'."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:1"
+      ],
+      "rationale": "The note explicitly states the patient has a history of UTI."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:14",
+        "E:note:row529623:1"
+      ],
+      "rationale": "The patient's history of sepsis is explicitly mentioned in the clinical note and documented as a condition in the EHR."
+    },
+    {
+      "claim_id": "C7",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C9",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C10",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:2"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was 'febrile to 102'."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:2"
+      ],
+      "rationale": "The evidence explicitly states there is 'concern from trach leak'."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:4"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was treated for presumed VAP."
+    },
+    {
+      "claim_id": "C14",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C15",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:15"
+      ],
+      "rationale": "The evidence explicitly states the patient has MRSA bacteremia."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:15",
+        "E:cond:16"
+      ],
+      "rationale": "The candidates confirm diagnoses of both Methicillin resistant Staphylococcus aureus (MRSA) and Pseudomonas infection."
+    },
+    {
+      "claim_id": "C18",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:5"
+      ],
+      "rationale": "The candidate evidence explicitly states that the trach was changed from Shiley to Bovina."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:6"
+      ],
+      "rationale": "The evidence explicitly states the patient had ARF."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:6"
+      ],
+      "rationale": "The evidence explicitly states that the patient has CRI."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:6"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient had ARF likely secondary to hypovolemia."
+    },
+    {
+      "claim_id": "C23",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence refers to a gastrostomy procedure and does not contain any lab results for BUN or Creatinine."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:8"
+      ],
+      "rationale": "The candidate evidence explicitly lists gabapentin under the patient's allergies."
+    },
+    {
+      "claim_id": "C25",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:8"
+      ],
+      "rationale": "The candidate evidence explicitly lists plavix under the patient's allergies."
+    },
+    {
+      "claim_id": "C26",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:8"
+      ],
+      "rationale": "The candidate evidence explicitly lists meclizine under the patient's allergies."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:8"
+      ],
+      "rationale": "The candidate evidence explicitly lists olanzapine under the patient's allergies."
+    },
+    {
+      "claim_id": "C28",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:8"
+      ],
+      "rationale": "The candidate evidence explicitly lists tobramycin under the patient's allergies."
+    },
+    {
+      "claim_id": "C29",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C30",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C31",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided candidate evidence relates to gastrostomy care and contains no information regarding HCT levels or trends."
+    },
+    {
+      "claim_id": "C32",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:11"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient was started on a PPI."
+    },
+    {
+      "claim_id": "C33",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided candidate evidence is related to a gastrostomy condition and contains no information regarding HCT lab results."
+    },
+    {
+      "claim_id": "C34",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:15"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has MRSA bacteremia."
+    },
+    {
+      "claim_id": "C35",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:15"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'MRSA/pseudomonas PNA' as part of the patient's assessment."
+    },
+    {
+      "claim_id": "C36",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C37",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence contains conditions and procedures but no vital sign data or heart rate measurements to support the claim."
+    },
+    {
+      "claim_id": "C38",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence relates to a gastrostomy procedure and contains no information regarding blood pressure or vital signs."
+    },
+    {
+      "claim_id": "C39",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:17"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was hypothermic at 94 degrees."
+    },
+    {
+      "claim_id": "C40",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:19"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient received one tide dose of vanco."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:19"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was 'started on standing dose [**Hospital1 7**].'"
+    },
+    {
+      "claim_id": "C42",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:20"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient received 500cc bolus x 2."
+    },
+    {
+      "claim_id": "C43",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C44",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:27"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Respiratory failure, chronic' in the assessment section."
+    },
+    {
+      "claim_id": "C45",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:28"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was desatting to low 90s upon admission."
+    },
+    {
+      "claim_id": "C46",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:33"
+      ],
+      "rationale": "The evidence explicitly lists 'Impaired Skin Integrity' as an assessment for the patient."
+    },
+    {
+      "claim_id": "C47",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:4",
+        "E:cond:17",
+        "E:cond:18",
+        "E:cond:19"
+      ],
+      "rationale": "The patient has multiple documented pressure ulcers at various sites (stage IV, lower back, heel, and other site)."
+    },
+    {
+      "claim_id": "C48",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:43"
+      ],
+      "rationale": "The candidate evidence explicitly lists the diagnosis of Chronic renal failure."
+    },
+    {
+      "claim_id": "C49",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row529623:44"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient is essentially anuric with a total urine output of 10cc this shift."
+    }
+  ]
+}

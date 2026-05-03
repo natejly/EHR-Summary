@@ -1,0 +1,173 @@
+{
+  "case_id": "mimic-27022-196712-357513",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 1728,
+    "summary_chars": 1182,
+    "target_min_chars": 345,
+    "target_max_chars": 518,
+    "achieved_ratio": 0.6840277777777778,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 13,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:2",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:45",
+      "E:cond:46",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:note:row357513:1",
+      "E:note:row357513:11",
+      "E:note:row357513:12",
+      "E:note:row357513:13",
+      "E:note:row357513:14",
+      "E:note:row357513:2",
+      "E:note:row357513:21",
+      "E:note:row357513:22",
+      "E:note:row357513:23",
+      "E:note:row357513:6",
+      "E:note:row357513:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Biliary cirrhosis [E:cond:1][E:cond:2], portal hypertension [E:note:row357513:1], and ascites [E:cond:21][E:cond:22].",
+        "severity": "medium",
+        "reason": "Portal hypertension is not listed in the provided fact sheet."
+      },
+      {
+        "sentence": "Bleeding esophageal varices [E:cond:5][E:cond:6], GI bleed [E:note:row357513:2], and posthemorrhagic anemia [E:cond:7][E:cond:8].",
+        "severity": "medium",
+        "reason": "GI bleed is not listed in the provided fact sheet."
+      },
+      {
+        "sentence": "SBP [E:note:row357513:12], suppurative peritonitis [E:cond:13][E:cond:14], and candidiasis [E:cond:11][E:cond:12].",
+        "severity": "medium",
+        "reason": "SBP is not listed in the provided fact sheet."
+      },
+      {
+        "sentence": "Acute kidney failure [E:cond:17][E:cond:18], chronic systolic heart failure [E:cond:23][E:cond:24], and coronary atherosclerosis [E:cond:45][E:cond:46].",
+        "severity": "medium",
+        "reason": "Coronary atherosclerosis is not listed in the provided fact sheet."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Biliary cirrhosis [E:cond:1][E:cond:2], portal hypertension [E:note:row357513:1], and ascites [E:cond:21][E:cond:22].",
+        "suggested": "Biliary cirrhosis [E:cond:1][E:cond:2] and ascites [E:cond:21][E:cond:22].",
+        "reason": "Remove portal hypertension as it is not in the fact sheet."
+      },
+      {
+        "original": "Bleeding esophageal varices [E:cond:5][E:cond:6], GI bleed [E:note:row357513:2], and posthemorrhagic anemia [E:cond:7][E:cond:8].",
+        "suggested": "Bleeding esophageal varices [E:cond:5][E:cond:6] and posthemorrhagic anemia [E:cond:7][E:cond:8].",
+        "reason": "Remove GI bleed as it is not in the fact sheet."
+      },
+      {
+        "original": "SBP [E:note:row357513:12], suppurative peritonitis [E:cond:13][E:cond:14], and candidiasis [E:cond:11][E:cond:12].",
+        "suggested": "Suppurative peritonitis [E:cond:13][E:cond:14] and candidiasis [E:cond:11][E:cond:12].",
+        "reason": "Remove SBP as it is not in the fact sheet."
+      },
+      {
+        "original": "Acute kidney failure [E:cond:17][E:cond:18], chronic systolic heart failure [E:cond:23][E:cond:24], and coronary atherosclerosis [E:cond:45][E:cond:46].",
+        "suggested": "Acute kidney failure [E:cond:17][E:cond:18] and chronic systolic heart failure [E:cond:23][E:cond:24].",
+        "reason": "Remove coronary atherosclerosis as it is not in the fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 4,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-27022-196712-357513/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.19,
+    "fk_words": 207,
+    "fk_sentences": 19,
+    "fk_syllables": 325,
+    "chars": 1893,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-27022-196712-357513/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0075414159800857306,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 265.35806045803474,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 114.1361052080174,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0024654169683344662,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 14.990297875017859,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 29.732546459010337,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.002604749985039234,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 18.341776916990057,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

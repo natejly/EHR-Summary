@@ -1,0 +1,899 @@
+{
+  "case_id": "mimic-60106-136013-660723",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:enc-136013",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Acute and chronic respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51884",
+        "display": "Acute and chronic respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Unspecified septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0389",
+        "display": "Unspecified septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Septic shock",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78552",
+        "display": "Septic shock"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Other tracheostomy complications",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51909",
+        "display": "Other tracheostomy complications"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Pneumonitis due to inhalation of food or vomitus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5070",
+        "display": "Pneumonitis due to inhalation of food or vomitus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Asthma, unspecified type, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "49390",
+        "display": "Asthma, unspecified type, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Cirrhosis of liver without mention of alcohol",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5715",
+        "display": "Cirrhosis of liver without mention of alcohol"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of native coronary artery",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41401",
+        "display": "Coronary atherosclerosis of native coronary artery"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Acute conjunctivitis, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "37200",
+        "display": "Acute conjunctivitis, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Staphylococcus infection in conditions classified elsewhere and of unspecified site, other staphylococcus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "04119",
+        "display": "Staphylococcus infection in conditions classified elsewhere and of unspecified site, other staphylococcus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Chronic hepatitis C without mention of hepatic coma",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "07054",
+        "display": "Chronic hepatitis C without mention of hepatic coma"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Thrombocytopenia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2875",
+        "display": "Thrombocytopenia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Polyneuropathy due to drugs",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3576",
+        "display": "Polyneuropathy due to drugs"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Antineoplastic and immunosuppressive drugs causing adverse effects in therapeutic use",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E9331",
+        "display": "Antineoplastic and immunosuppressive drugs causing adverse effects in therapeutic use"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Leukocytosis, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "28860",
+        "display": "Leukocytosis, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Corneal degeneration, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "37140",
+        "display": "Corneal degeneration, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Other myopathies",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "35989",
+        "display": "Other myopathies"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Unspecified hereditary and idiopathic peripheral neuropathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3569",
+        "display": "Unspecified hereditary and idiopathic peripheral neuropathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Other paraproteinemias",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2732",
+        "display": "Other paraproteinemias"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Dysphagia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78720",
+        "display": "Dysphagia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Lagophthalmos, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "37420",
+        "display": "Lagophthalmos, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Old myocardial infarction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "412",
+        "display": "Old myocardial infarction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Tobacco use disorder",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3051",
+        "display": "Tobacco use disorder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:cond-136013-24",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Revision of tracheostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Revision of tracheostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:proc-136013-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Other incision of larynx or trachea",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other incision of larynx or trachea"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:proc-136013-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Suture of artery",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Suture of artery"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:proc-136013-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Blepharorrhaphy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Blepharorrhaphy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:proc-136013-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:proc-136013-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:proc-136013-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-01-25",
+      "source_ref": "urn:uuid:proc-136013-7",
+      "text": null
+    },
+    {
+      "id": "E:note:row660723:1",
+      "kind": "note_sentence",
+      "display": "This is a 55 y/o F hx HCV on IFN, cryoglobulinemia, dysphagia,    progressive ne",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row660723#s1",
+      "text": "This is a 55 y/o F hx HCV on IFN, cryoglobulinemia, dysphagia,    progressive neuromuscular weakness followed by neurology now s/p trach    after intubation for aspiration pneumonia and persistent difficulty    weaning from vent."
+    },
+    {
+      "id": "E:note:row660723:2",
+      "kind": "note_sentence",
+      "display": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 76**])    Assessment:  ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row660723#s2",
+      "text": "Respiratory failure, acute (not ARDS/[**Doctor Last Name 76**])    Assessment:    Recvd the pt on 40% trach collor,satting 95-100%,ronchorous breath    sounds,thick yellow secretions coming around the trach,    Action:    No further changes in fi02,trach care given MDI s by RT,suctioned as    needed."
+    },
+    {
+      "id": "E:note:row660723:3",
+      "kind": "note_sentence",
+      "display": "Response:    Pt remains comfortable on current fio2.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row660723#s3",
+      "text": "Response:    Pt remains comfortable on current fio2."
+    },
+    {
+      "id": "E:note:row660723:4",
+      "kind": "note_sentence",
+      "display": "Sats 100%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row660723#s4",
+      "text": "Sats 100%."
+    },
+    {
+      "id": "E:note:row660723:5",
+      "kind": "note_sentence",
+      "display": "Still with    moderate amt of secretions from trach.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row660723#s5",
+      "text": "Still with    moderate amt of secretions from trach."
+    },
+    {
+      "id": "E:note:row660723:6",
+      "kind": "note_sentence",
+      "display": "No resp distress noted.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row660723#s6",
+      "text": "No resp distress noted."
+    },
+    {
+      "id": "E:note:row660723:7",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue to monitor, suctioned prn    Myopathy, other (not of critical ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row660723#s7",
+      "text": "Plan:    Continue to monitor, suctioned prn    Myopathy, other (not of critical illness)    Assessment:    Known myopathy very restless and agitated,poor sleep,seems very    anxious,c/o  pain at trach site,now with severe eye infection."
+    },
+    {
+      "id": "E:note:row660723:8",
+      "kind": "note_sentence",
+      "display": "As per    the family pt is a heavy smoker    Action:    Received ativan 1 mg x4 ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row660723#s8",
+      "text": "As per    the family pt is a heavy smoker    Action:    Received ativan 1 mg x4 doses in this shift alsong with morphine 2 mg    x2,contd all eye drops/ointments as per opthal, A nicotine patch has    been applied."
+    },
+    {
+      "id": "E:note:row660723:9",
+      "kind": "note_sentence",
+      "display": "Response:    Improvement noted  in the eyes,contd to have restlessness and pulli",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row660723#s9",
+      "text": "Response:    Improvement noted  in the eyes,contd to have restlessness and pulling    out wires and tubes,pt has pulled out the mushroom cath x2 in this    shift,seems better after 0400am."
+    },
+    {
+      "id": "E:note:row660723:10",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue to monitor ,?increase the ativan dose or add a different drug ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row660723#s10",
+      "text": "Plan:    Continue to monitor ,?increase the ativan dose or add a different drug    regimen."
+    },
+    {
+      "id": "E:note:row660723:11",
+      "kind": "note_sentence",
+      "display": "Impaired Skin Integrity    Assessment:    Excoriated perineum,pt has pulled out ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row660723#s11",
+      "text": "Impaired Skin Integrity    Assessment:    Excoriated perineum,pt has pulled out the mushroom cath x2 in this    shift,contd have loose bm,    Action:    Skin protectant applied ,turned and respositioned q2h,    Response:    Pt cont to have restlessness which prevents the successful drainage of    the stool and infact lead to leaking,explained the pt but contd the    same behavior,reinserted mushroom cath , diaper in place."
+    },
+    {
+      "id": "E:note:row660723:12",
+      "kind": "note_sentence",
+      "display": "Plan:    Cont local skin care,turn and reposition ,    T max 100.1 in this shift",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row660723#s12",
+      "text": "Plan:    Cont local skin care,turn and reposition ,    T max 100.1 in this shift,urine cx sent,T current 97.8."
+    },
+    {
+      "id": "E:note:row660723:13",
+      "kind": "note_sentence",
+      "display": "Tube feed on hold since MN ?nerve biopsy in am.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row660723#s13",
+      "text": "Tube feed on hold since MN ?nerve biopsy in am."
+    },
+    {
+      "id": "E:note:row660723:14",
+      "kind": "note_sentence",
+      "display": "Received  15mmol k phos .",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row660723#s14",
+      "text": "Received  15mmol k phos ."
+    },
+    {
+      "id": "E:note:row660723:15",
+      "kind": "note_sentence",
+      "display": "Hr 85-120,sbp 130-160,received ns fluid bolus 1000cc x2 in this shift.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row660723#s15",
+      "text": "Hr 85-120,sbp 130-160,received ns fluid bolus 1000cc x2 in this shift."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|51884": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|0389": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78552": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51909": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5070": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|49390": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5715": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41401": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|37200": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|04119": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|07054": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2875": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3576": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E9331": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|28860": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|37140": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|35989": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3569": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2732": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78720": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|37420": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|412": [
+      "E:cond:23"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3051": [
+      "E:cond:24"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "acute and chronic respiratory failure": [
+      "E:cond:1"
+    ],
+    "unspecified septicemia": [
+      "E:cond:2"
+    ],
+    "septic shock": [
+      "E:cond:3"
+    ],
+    "other tracheostomy complications": [
+      "E:cond:4"
+    ],
+    "pneumonitis due to inhalation of food or vomitus": [
+      "E:cond:5"
+    ],
+    "severe sepsis": [
+      "E:cond:6"
+    ],
+    "asthma, unspecified type, unspecified": [
+      "E:cond:7"
+    ],
+    "cirrhosis of liver without mention of alcohol": [
+      "E:cond:8"
+    ],
+    "coronary atherosclerosis of native coronary artery": [
+      "E:cond:9"
+    ],
+    "acute conjunctivitis, unspecified": [
+      "E:cond:10"
+    ],
+    "staphylococcus infection in conditions classified elsewhere and of unspecified site, other staphylococcus": [
+      "E:cond:11"
+    ],
+    "chronic hepatitis c without mention of hepatic coma": [
+      "E:cond:12"
+    ],
+    "thrombocytopenia, unspecified": [
+      "E:cond:13"
+    ],
+    "polyneuropathy due to drugs": [
+      "E:cond:14"
+    ],
+    "antineoplastic and immunosuppressive drugs causing adverse effects in therapeutic use": [
+      "E:cond:15"
+    ],
+    "leukocytosis, unspecified": [
+      "E:cond:16"
+    ],
+    "corneal degeneration, unspecified": [
+      "E:cond:17"
+    ],
+    "other myopathies": [
+      "E:cond:18"
+    ],
+    "unspecified hereditary and idiopathic peripheral neuropathy": [
+      "E:cond:19"
+    ],
+    "other paraproteinemias": [
+      "E:cond:20"
+    ],
+    "dysphagia, unspecified": [
+      "E:cond:21"
+    ],
+    "lagophthalmos, unspecified": [
+      "E:cond:22"
+    ],
+    "old myocardial infarction": [
+      "E:cond:23"
+    ],
+    "tobacco use disorder": [
+      "E:cond:24"
+    ],
+    "revision of tracheostomy": [
+      "E:proc:1"
+    ],
+    "other incision of larynx or trachea": [
+      "E:proc:2"
+    ],
+    "suture of artery": [
+      "E:proc:3"
+    ],
+    "blepharorrhaphy": [
+      "E:proc:4"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:5"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:6"
+    ],
+    "continuous invasive mechanical ventilation for less than 96 consecutive hours": [
+      "E:proc:7"
+    ],
+    "this is a 55 y/o f hx hcv on ifn, cryoglobulinemia, dysphagia, progressive ne": [
+      "E:note:row660723:1"
+    ],
+    "respiratory failure, acute (not ards/[**doctor last name 76**]) assessment:": [
+      "E:note:row660723:2"
+    ],
+    "response: pt remains comfortable on current fio2.": [
+      "E:note:row660723:3"
+    ],
+    "sats 100%.": [
+      "E:note:row660723:4"
+    ],
+    "still with moderate amt of secretions from trach.": [
+      "E:note:row660723:5"
+    ],
+    "no resp distress noted.": [
+      "E:note:row660723:6"
+    ],
+    "plan: continue to monitor, suctioned prn myopathy, other (not of critical": [
+      "E:note:row660723:7"
+    ],
+    "as per the family pt is a heavy smoker action: received ativan 1 mg x4": [
+      "E:note:row660723:8"
+    ],
+    "response: improvement noted in the eyes,contd to have restlessness and pulli": [
+      "E:note:row660723:9"
+    ],
+    "plan: continue to monitor ,?increase the ativan dose or add a different drug": [
+      "E:note:row660723:10"
+    ],
+    "impaired skin integrity assessment: excoriated perineum,pt has pulled out": [
+      "E:note:row660723:11"
+    ],
+    "plan: cont local skin care,turn and reposition , t max 100.1 in this shift": [
+      "E:note:row660723:12"
+    ],
+    "tube feed on hold since mn ?nerve biopsy in am.": [
+      "E:note:row660723:13"
+    ],
+    "received 15mmol k phos .": [
+      "E:note:row660723:14"
+    ],
+    "hr 85-120,sbp 130-160,received ns fluid bolus 1000cc x2 in this shift.": [
+      "E:note:row660723:15"
+    ]
+  },
+  "by_date": {
+    "2145-01-25": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7"
+    ]
+  }
+}

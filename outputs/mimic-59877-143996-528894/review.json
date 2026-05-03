@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Other issues include SAH [E:cond:3][E:note:row528894:2], acute respiratory failure [E:cond:7][E:note:row528894:6], and DIC [E:note:row528894:10][E:note:row528894:11].",
+      "severity": "medium",
+      "reason": "The summary claims DIC is present, but the fact sheet lists 'Defibrination syndrome' [E:cond:6], which is not clinically synonymous with DIC."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Other issues include SAH [E:cond:3][E:note:row528894:2], acute respiratory failure [E:cond:7][E:note:row528894:6], and DIC [E:note:row528894:10][E:note:row528894:11].",
+      "suggested": "Other issues include SAH [E:cond:3][E:note:row528894:2], acute respiratory failure [E:cond:7][E:note:row528894:6], and defibrination syndrome [E:cond:6].",
+      "reason": "Corrects the misinterpretation of 'defibrination syndrome' as 'DIC' and uses the correct evidence ID."
+    }
+  ]
+}

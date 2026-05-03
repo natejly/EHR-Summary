@@ -1,0 +1,373 @@
+{
+  "claims": [
+    {
+      "claim_id": "C1",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "met renal cell CA (to lung and brain)",
+      "time_ref": "2124-2-29",
+      "source_span": "row514701#0"
+    },
+    {
+      "claim_id": "C2",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "received",
+      "value": "high dose IL-2 therapy",
+      "time_ref": "2124-2-29",
+      "source_span": "row514701#0"
+    },
+    {
+      "claim_id": "C3",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "experienced",
+      "value": "shock",
+      "time_ref": "prior to 2124-2-29",
+      "source_span": "row514701#1"
+    },
+    {
+      "claim_id": "C4",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "dopamine",
+      "time_ref": "prior to 2124-2-29",
+      "source_span": "row514701#1"
+    },
+    {
+      "claim_id": "C5",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "experienced",
+      "value": "brief atrial fibrillation",
+      "time_ref": "prior to 2124-2-29",
+      "source_span": "row514701#1"
+    },
+    {
+      "claim_id": "C6",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "neo",
+      "time_ref": "prior to 2124-2-29",
+      "source_span": "row514701#1"
+    },
+    {
+      "claim_id": "C7",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "experienced",
+      "value": "nausea/vomiting",
+      "time_ref": "2-29 to 3-4",
+      "source_span": "row514701#2"
+    },
+    {
+      "claim_id": "C8",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "experienced",
+      "value": "encephalopathy",
+      "time_ref": "2-29 to 3-4",
+      "source_span": "row514701#2"
+    },
+    {
+      "claim_id": "C9",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "experienced",
+      "value": "diarrhea",
+      "time_ref": "2-29 to 3-4",
+      "source_span": "row514701#2"
+    },
+    {
+      "claim_id": "C10",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "experienced",
+      "value": "rigors",
+      "time_ref": "2-29 to 3-4",
+      "source_span": "row514701#2"
+    },
+    {
+      "claim_id": "C11",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "hypotension in the 70s systolic",
+      "time_ref": "2-29 to 3-4",
+      "source_span": "row514701#2"
+    },
+    {
+      "claim_id": "C12",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "neo",
+      "time_ref": "2-29 to 3-4",
+      "source_span": "row514701#2"
+    },
+    {
+      "claim_id": "C13",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "ARF",
+      "time_ref": "2-29 to 3-4",
+      "source_span": "row514701#2"
+    },
+    {
+      "claim_id": "C14",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "UOP 355 total cc's",
+      "time_ref": "3-5",
+      "source_span": "row514701#2"
+    },
+    {
+      "claim_id": "C15",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "UOP none",
+      "time_ref": "3-4",
+      "source_span": "row514701#2"
+    },
+    {
+      "claim_id": "C16",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "progressive metabolic acidosis",
+      "time_ref": "2-29 to 3-4",
+      "source_span": "row514701#2"
+    },
+    {
+      "claim_id": "C17",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "bicarb infusion",
+      "time_ref": "2-29 to 3-4",
+      "source_span": "row514701#2"
+    },
+    {
+      "claim_id": "C18",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Cr 1.9",
+      "time_ref": "admission",
+      "source_span": "row514701#3"
+    },
+    {
+      "claim_id": "C19",
+      "type": "lab",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "Cr 6.6",
+      "time_ref": "evening of transfer",
+      "source_span": "row514701#3"
+    },
+    {
+      "claim_id": "C20",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "dopamine",
+      "time_ref": "prior to 3-6",
+      "source_span": "row514701#4"
+    },
+    {
+      "claim_id": "C21",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "experienced",
+      "value": "rapid Afib",
+      "time_ref": "3-6",
+      "source_span": "row514701#6"
+    },
+    {
+      "claim_id": "C22",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "HR 130-150",
+      "time_ref": "3-6",
+      "source_span": "row514701#6"
+    },
+    {
+      "claim_id": "C23",
+      "type": "vital",
+      "subject": "patient",
+      "predicate": "lab result",
+      "value": "NBP systolic 65",
+      "time_ref": "3-6",
+      "source_span": "row514701#6"
+    },
+    {
+      "claim_id": "C24",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "NS 1L bolus",
+      "time_ref": "3-6",
+      "source_span": "row514701#6"
+    },
+    {
+      "claim_id": "C25",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "lovo",
+      "time_ref": "3-6",
+      "source_span": "row514701#6"
+    },
+    {
+      "claim_id": "C26",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "neo",
+      "time_ref": "3-6",
+      "source_span": "row514701#6"
+    },
+    {
+      "claim_id": "C27",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "received",
+      "value": "cardiverted with 100J, 150 J",
+      "time_ref": "3-6",
+      "source_span": "row514701#6"
+    },
+    {
+      "claim_id": "C28",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Amiodarone gtt",
+      "time_ref": "3-6",
+      "source_span": "row514701#6"
+    },
+    {
+      "claim_id": "C29",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Renal failure, acute (Acute renal failure, ARF)",
+      "time_ref": "3-6",
+      "source_span": "row514701#7"
+    },
+    {
+      "claim_id": "C30",
+      "type": "procedure",
+      "subject": "patient",
+      "predicate": "has",
+      "value": "Foley in place",
+      "time_ref": "3-6",
+      "source_span": "row514701#8"
+    },
+    {
+      "claim_id": "C31",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "total body anasarca",
+      "time_ref": "3-6",
+      "source_span": "row514701#11"
+    },
+    {
+      "claim_id": "C32",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "weeping edema",
+      "time_ref": "3-6",
+      "source_span": "row514701#11"
+    },
+    {
+      "claim_id": "C33",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "CRRT may be possibility if renal function does not improve",
+      "time_ref": "3-6",
+      "source_span": "row514701#13"
+    },
+    {
+      "claim_id": "C34",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Altered mental status (not Delirium)",
+      "time_ref": "3-6",
+      "source_span": "row514701#14"
+    },
+    {
+      "claim_id": "C35",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "experienced",
+      "value": "extremely confused and agitated",
+      "time_ref": "3-6",
+      "source_span": "row514701#15"
+    },
+    {
+      "claim_id": "C36",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "Ativan 1Mg",
+      "time_ref": "3-6",
+      "source_span": "row514701#17"
+    },
+    {
+      "claim_id": "C37",
+      "type": "plan",
+      "subject": "patient",
+      "predicate": "plan to",
+      "value": "Continue with IV ativan PRN",
+      "time_ref": "3-6",
+      "source_span": "row514701#19"
+    },
+    {
+      "claim_id": "C38",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "has diagnosis",
+      "value": "Impaired Skin Integrity",
+      "time_ref": "3-6",
+      "source_span": "row514701#20"
+    },
+    {
+      "claim_id": "C39",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "experienced",
+      "value": "sloughing skin from IL 2 therapy",
+      "time_ref": "3-6",
+      "source_span": "row514701#21"
+    },
+    {
+      "claim_id": "C40",
+      "type": "diagnosis",
+      "subject": "patient",
+      "predicate": "experienced",
+      "value": "multiple excoriated areas on coccyx and scrotum",
+      "time_ref": "3-6",
+      "source_span": "row514701#21"
+    },
+    {
+      "claim_id": "C41",
+      "type": "medication",
+      "subject": "patient",
+      "predicate": "takes medication",
+      "value": "PRN lotions",
+      "time_ref": "3-6",
+      "source_span": "row514701#22"
+    }
+  ]
+}

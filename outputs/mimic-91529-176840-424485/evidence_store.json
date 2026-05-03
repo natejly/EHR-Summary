@@ -1,0 +1,1270 @@
+{
+  "case_id": "mimic-91529-176840-424485",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2188-10-29",
+      "source_ref": "urn:uuid:enc-176840",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Subendocardial infarction, initial episode of care",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41071",
+        "display": "Subendocardial infarction, initial episode of care"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2188-10-29",
+      "source_ref": "urn:uuid:cond-176840-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Cardiogenic shock",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78551",
+        "display": "Cardiogenic shock"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2188-10-29",
+      "source_ref": "urn:uuid:cond-176840-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Primary pulmonary hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4160",
+        "display": "Primary pulmonary hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2188-10-29",
+      "source_ref": "urn:uuid:cond-176840-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Hemorrhage of gastrointestinal tract, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5789",
+        "display": "Hemorrhage of gastrointestinal tract, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2188-10-29",
+      "source_ref": "urn:uuid:cond-176840-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Acute posthemorrhagic anemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2851",
+        "display": "Acute posthemorrhagic anemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2188-10-29",
+      "source_ref": "urn:uuid:cond-176840-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2188-10-29",
+      "source_ref": "urn:uuid:cond-176840-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5185",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2188-10-29",
+      "source_ref": "urn:uuid:cond-176840-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of native coronary artery",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41401",
+        "display": "Coronary atherosclerosis of native coronary artery"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2188-10-29",
+      "source_ref": "urn:uuid:cond-176840-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Mitral valve disorders",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4240",
+        "display": "Mitral valve disorders"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2188-10-29",
+      "source_ref": "urn:uuid:cond-176840-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Epistaxis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7847",
+        "display": "Epistaxis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2188-10-29",
+      "source_ref": "urn:uuid:cond-176840-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2188-10-29",
+      "source_ref": "urn:uuid:cond-176840-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25000",
+        "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2188-10-29",
+      "source_ref": "urn:uuid:cond-176840-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Implant of pulsation balloon",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Implant of pulsation balloon"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2188-10-29",
+      "source_ref": "urn:uuid:proc-176840-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Percutaneous transluminal coronary angioplasty [PTCA]",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous transluminal coronary angioplasty [PTCA]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2188-10-29",
+      "source_ref": "urn:uuid:proc-176840-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Insertion of non-drug-eluting coronary artery stent(s)",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of non-drug-eluting coronary artery stent(s)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2188-10-29",
+      "source_ref": "urn:uuid:proc-176840-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Insertion of two vascular stents",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of two vascular stents"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2188-10-29",
+      "source_ref": "urn:uuid:proc-176840-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Procedure on single vessel",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Procedure on single vessel"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2188-10-29",
+      "source_ref": "urn:uuid:proc-176840-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Combined right and left heart cardiac catheterization",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Combined right and left heart cardiac catheterization"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2188-10-29",
+      "source_ref": "urn:uuid:proc-176840-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Coronary arteriography using two catheters",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Coronary arteriography using two catheters"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2188-10-29",
+      "source_ref": "urn:uuid:proc-176840-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2188-10-29",
+      "source_ref": "urn:uuid:proc-176840-8",
+      "text": null
+    },
+    {
+      "id": "E:note:row424485:1",
+      "kind": "note_sentence",
+      "display": "72 yo female w/ PMH CAD, MI, HTN, PVD who presented to OSH w/ severe    chest pa",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s1",
+      "text": "72 yo female w/ PMH CAD, MI, HTN, PVD who presented to OSH w/ severe    chest pain [**2188-10-28**]."
+    },
+    {
+      "id": "E:note:row424485:2",
+      "kind": "note_sentence",
+      "display": "Described pain as \"tightness\" in center of her    chest \"12\"/10 on pain scale an",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s2",
+      "text": "Described pain as \"tightness\" in center of her    chest \"12\"/10 on pain scale and just like pain she had with her heart    attack in [**2185**].  +Associated N/V/SOB."
+    },
+    {
+      "id": "E:note:row424485:3",
+      "kind": "note_sentence",
+      "display": "OSH found her w/ +trop of 7.08    and EKG w/ ST depressions V3-V6.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s3",
+      "text": "OSH found her w/ +trop of 7.08    and EKG w/ ST depressions V3-V6."
+    },
+    {
+      "id": "E:note:row424485:4",
+      "kind": "note_sentence",
+      "display": "Started on IV nitro/ Heparin/    integrilin.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s4",
+      "text": "Started on IV nitro/ Heparin/    integrilin."
+    },
+    {
+      "id": "E:note:row424485:5",
+      "kind": "note_sentence",
+      "display": "CXR w/ pulm congestion- diuresed w/ lasix.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s5",
+      "text": "CXR w/ pulm congestion- diuresed w/ lasix."
+    },
+    {
+      "id": "E:note:row424485:6",
+      "kind": "note_sentence",
+      "display": "Transferred to    [**Hospital1 19**]  [**Hospital Ward Name 289**] 3 on [**10-29",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s6",
+      "text": "Transferred to    [**Hospital1 19**]  [**Hospital Ward Name 289**] 3 on [**10-29**] for planned cath [**10-30**]."
+    },
+    {
+      "id": "E:note:row424485:7",
+      "kind": "note_sentence",
+      "display": "Pt stable on floor on above drips until 1900 when she triggered for    chest pai",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s7",
+      "text": "Pt stable on floor on above drips until 1900 when she triggered for    chest pain/ tachycardia/hypotension."
+    },
+    {
+      "id": "E:note:row424485:8",
+      "kind": "note_sentence",
+      "display": "Managed on floor for several hours    w/ constant chest pain varying in severity",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s8",
+      "text": "Managed on floor for several hours    w/ constant chest pain varying in severity from [**12-27**] to [**4-26**]."
+    },
+    {
+      "id": "E:note:row424485:9",
+      "kind": "note_sentence",
+      "display": "Given    500ml IVF bolus for BP support in order for IV nitro to be given.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s9",
+      "text": "Given    500ml IVF bolus for BP support in order for IV nitro to be given."
+    },
+    {
+      "id": "E:note:row424485:10",
+      "kind": "note_sentence",
+      "display": "Pt    triggered 2nd time w/ chest pain and acute pulm edema, ?ST segment    chan",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s10",
+      "text": "Pt    triggered 2nd time w/ chest pain and acute pulm edema, ?ST segment    changes."
+    },
+    {
+      "id": "E:note:row424485:11",
+      "kind": "note_sentence",
+      "display": "IV nitro able to be turned back on and 40mg IV lasix given.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s11",
+      "text": "IV nitro able to be turned back on and 40mg IV lasix given."
+    },
+    {
+      "id": "E:note:row424485:12",
+      "kind": "note_sentence",
+      "display": "Sent to CCU on NRB mask, tachypneic on arrival w/ good O2sat 100%,    SBP>100, H",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s12",
+      "text": "Sent to CCU on NRB mask, tachypneic on arrival w/ good O2sat 100%,    SBP>100, HR 100s."
+    },
+    {
+      "id": "E:note:row424485:13",
+      "kind": "note_sentence",
+      "display": "Chest pain free on arrival.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s13",
+      "text": "Chest pain free on arrival."
+    },
+    {
+      "id": "E:note:row424485:14",
+      "kind": "note_sentence",
+      "display": "Slowly weaned to 4L NC    w/ SPO2 >93%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s14",
+      "text": "Slowly weaned to 4L NC    w/ SPO2 >93%."
+    },
+    {
+      "id": "E:note:row424485:15",
+      "kind": "note_sentence",
+      "display": "Pt s RR decreased to low-mid 20 s and reported feeling    much more comfortable ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s15",
+      "text": "Pt s RR decreased to low-mid 20 s and reported feeling    much more comfortable and able to sleep."
+    },
+    {
+      "id": "E:note:row424485:16",
+      "kind": "note_sentence",
+      "display": "AM labs, MRSA screen, UA/C&S    done.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s16",
+      "text": "AM labs, MRSA screen, UA/C&S    done."
+    },
+    {
+      "id": "E:note:row424485:17",
+      "kind": "note_sentence",
+      "display": "FS done= 429- see below.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s17",
+      "text": "FS done= 429- see below."
+    },
+    {
+      "id": "E:note:row424485:18",
+      "kind": "note_sentence",
+      "display": "Has been running hyperglycemic since on    prednisone which she has been given f",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s18",
+      "text": "Has been running hyperglycemic since on    prednisone which she has been given for DYE/ IODINE ALLERGY."
+    },
+    {
+      "id": "E:note:row424485:19",
+      "kind": "note_sentence",
+      "display": "Myocardial infarction, acute (AMI, STEMI, NSTEMI)    Assessment:    Chest pain f",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s19",
+      "text": "Myocardial infarction, acute (AMI, STEMI, NSTEMI)    Assessment:    Chest pain free since arrival to CCU on IV heparin/ integrillin/    nitroglycerin."
+    },
+    {
+      "id": "E:note:row424485:20",
+      "kind": "note_sentence",
+      "display": "BP 85-100s/40s-50s.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s20",
+      "text": "BP 85-100s/40s-50s."
+    },
+    {
+      "id": "E:note:row424485:21",
+      "kind": "note_sentence",
+      "display": "HR 85-100s ST w/ frequent    PVCs/bigem.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s21",
+      "text": "HR 85-100s ST w/ frequent    PVCs/bigem."
+    },
+    {
+      "id": "E:note:row424485:22",
+      "kind": "note_sentence",
+      "display": "Cardiac enzymes    Action:    Response:    Plan:    NPO for cardiac cath.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s22",
+      "text": "Cardiac enzymes    Action:    Response:    Plan:    NPO for cardiac cath."
+    },
+    {
+      "id": "E:note:row424485:23",
+      "kind": "note_sentence",
+      "display": "Needs prednisone/ benadryl on call to cath lab    for DYE ALLERGY.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s23",
+      "text": "Needs prednisone/ benadryl on call to cath lab    for DYE ALLERGY."
+    },
+    {
+      "id": "E:note:row424485:24",
+      "kind": "note_sentence",
+      "display": "Continue to trend cardiac enzymes.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s24",
+      "text": "Continue to trend cardiac enzymes."
+    },
+    {
+      "id": "E:note:row424485:25",
+      "kind": "note_sentence",
+      "display": "Cont current drips    to cath lab.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s25",
+      "text": "Cont current drips    to cath lab."
+    },
+    {
+      "id": "E:note:row424485:26",
+      "kind": "note_sentence",
+      "display": "Next PTT due 10:00.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s26",
+      "text": "Next PTT due 10:00."
+    },
+    {
+      "id": "E:note:row424485:27",
+      "kind": "note_sentence",
+      "display": "Assess for CP.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s27",
+      "text": "Assess for CP."
+    },
+    {
+      "id": "E:note:row424485:28",
+      "kind": "note_sentence",
+      "display": "Daily EKG.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s28",
+      "text": "Daily EKG."
+    },
+    {
+      "id": "E:note:row424485:29",
+      "kind": "note_sentence",
+      "display": "Pulmonary edema    Assessment:    LS rales  up bilaterally w/ expiratory wheezes",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s29",
+      "text": "Pulmonary edema    Assessment:    LS rales  up bilaterally w/ expiratory wheezes throughout."
+    },
+    {
+      "id": "E:note:row424485:30",
+      "kind": "note_sentence",
+      "display": "O2requirement of 4LNC.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s30",
+      "text": "O2requirement of 4LNC."
+    },
+    {
+      "id": "E:note:row424485:31",
+      "kind": "note_sentence",
+      "display": "Trace LE edema.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s31",
+      "text": "Trace LE edema."
+    },
+    {
+      "id": "E:note:row424485:32",
+      "kind": "note_sentence",
+      "display": "RR 30s on arrival to CCU.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s32",
+      "text": "RR 30s on arrival to CCU."
+    },
+    {
+      "id": "E:note:row424485:33",
+      "kind": "note_sentence",
+      "display": "Action:    40mg IV lasix given on [**Hospital Ward Name 289**] 3 prior to arriva",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s33",
+      "text": "Action:    40mg IV lasix given on [**Hospital Ward Name 289**] 3 prior to arrival to CCU."
+    },
+    {
+      "id": "E:note:row424485:34",
+      "kind": "note_sentence",
+      "display": "Monitored    effects.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s34",
+      "text": "Monitored    effects."
+    },
+    {
+      "id": "E:note:row424485:35",
+      "kind": "note_sentence",
+      "display": "Response:    250ml Urine out within 1 hour after lasix dose.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s35",
+      "text": "Response:    250ml Urine out within 1 hour after lasix dose."
+    },
+    {
+      "id": "E:note:row424485:36",
+      "kind": "note_sentence",
+      "display": "Continue to make good    UOP after.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s36",
+      "text": "Continue to make good    UOP after."
+    },
+    {
+      "id": "E:note:row424485:37",
+      "kind": "note_sentence",
+      "display": "Plan:    Daily CXR, freq resp assessment/lung exam.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s37",
+      "text": "Plan:    Daily CXR, freq resp assessment/lung exam."
+    },
+    {
+      "id": "E:note:row424485:38",
+      "kind": "note_sentence",
+      "display": "Monitor SPO2.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s38",
+      "text": "Monitor SPO2."
+    },
+    {
+      "id": "E:note:row424485:39",
+      "kind": "note_sentence",
+      "display": "Hyperglycemia    Assessment:    FS 300s-400s since admission to [**Hospital1 19*",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s39",
+      "text": "Hyperglycemia    Assessment:    FS 300s-400s since admission to [**Hospital1 19**] presumably from PO prednisone as    pt usually well-controlled per report."
+    },
+    {
+      "id": "E:note:row424485:40",
+      "kind": "note_sentence",
+      "display": "Action:    Team alerted of high blood sugars.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s40",
+      "text": "Action:    Team alerted of high blood sugars."
+    },
+    {
+      "id": "E:note:row424485:41",
+      "kind": "note_sentence",
+      "display": "Covered w/ 12units humalog for FS of    429 at 0400.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s41",
+      "text": "Covered w/ 12units humalog for FS of    429 at 0400."
+    },
+    {
+      "id": "E:note:row424485:42",
+      "kind": "note_sentence",
+      "display": "Response:    Repeat FS=    Plan:    Continue to monitor glucose closely.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s42",
+      "text": "Response:    Repeat FS=    Plan:    Continue to monitor glucose closely."
+    },
+    {
+      "id": "E:note:row424485:43",
+      "kind": "note_sentence",
+      "display": "Ineffective Coping    Assessment:    Pt w/ multiple current life stressors inclu",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s43",
+      "text": "Ineffective Coping    Assessment:    Pt w/ multiple current life stressors including husband who is in rehab    for CHF, son who is battling IV drug addiction, recently assumed  full    custody of son s 2 teenage boys (17yo and 19yo), and is primary    caretaker of sister who has recently been diagnosed w/ dementia."
+    },
+    {
+      "id": "E:note:row424485:44",
+      "kind": "note_sentence",
+      "display": "Pt    able to verbalize feelings of despair and helplessness.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s44",
+      "text": "Pt    able to verbalize feelings of despair and helplessness."
+    },
+    {
+      "id": "E:note:row424485:45",
+      "kind": "note_sentence",
+      "display": "Action:    Emotional support provided.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s45",
+      "text": "Action:    Emotional support provided."
+    },
+    {
+      "id": "E:note:row424485:46",
+      "kind": "note_sentence",
+      "display": "Reinforced that pt needs to take care of    herself first, especially now.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s46",
+      "text": "Reinforced that pt needs to take care of    herself first, especially now."
+    },
+    {
+      "id": "E:note:row424485:47",
+      "kind": "note_sentence",
+      "display": "Social work consult ordered for AM.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s47",
+      "text": "Social work consult ordered for AM."
+    },
+    {
+      "id": "E:note:row424485:48",
+      "kind": "note_sentence",
+      "display": "Response:    Pt still concerned re: family issues.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s48",
+      "text": "Response:    Pt still concerned re: family issues."
+    },
+    {
+      "id": "E:note:row424485:49",
+      "kind": "note_sentence",
+      "display": "Plan:    SW consult as soon as possible before or after procedure for additional",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s49",
+      "text": "Plan:    SW consult as soon as possible before or after procedure for additional    supports."
+    },
+    {
+      "id": "E:note:row424485:50",
+      "kind": "note_sentence",
+      "display": "Could benefit from out-pt supports as well.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s50",
+      "text": "Could benefit from out-pt supports as well."
+    },
+    {
+      "id": "E:note:row424485:51",
+      "kind": "note_sentence",
+      "display": "Tobacco use, current    Assessment:    Pt w/ significant smoking history and cur",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s51",
+      "text": "Tobacco use, current    Assessment:    Pt w/ significant smoking history and currently smokes 1.5 packs/week    which is decrease for her."
+    },
+    {
+      "id": "E:note:row424485:52",
+      "kind": "note_sentence",
+      "display": "Had quit for a while but in light of recent    stressors has started again.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s52",
+      "text": "Had quit for a while but in light of recent    stressors has started again."
+    },
+    {
+      "id": "E:note:row424485:53",
+      "kind": "note_sentence",
+      "display": "Also, sister is a smoker and she spends a    lot of time with her.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s53",
+      "text": "Also, sister is a smoker and she spends a    lot of time with her."
+    },
+    {
+      "id": "E:note:row424485:54",
+      "kind": "note_sentence",
+      "display": "Pt aware of health concerns re: smoking    especially to the CV system.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s54",
+      "text": "Pt aware of health concerns re: smoking    especially to the CV system."
+    },
+    {
+      "id": "E:note:row424485:55",
+      "kind": "note_sentence",
+      "display": "Action:    Smoking cessation counseling.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s55",
+      "text": "Action:    Smoking cessation counseling."
+    },
+    {
+      "id": "E:note:row424485:56",
+      "kind": "note_sentence",
+      "display": "SW consult ordered for issues above.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s56",
+      "text": "SW consult ordered for issues above."
+    },
+    {
+      "id": "E:note:row424485:57",
+      "kind": "note_sentence",
+      "display": "Response:    Understands dangers of smoking to health.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s57",
+      "text": "Response:    Understands dangers of smoking to health."
+    },
+    {
+      "id": "E:note:row424485:58",
+      "kind": "note_sentence",
+      "display": "Needs reinforcement.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s58",
+      "text": "Needs reinforcement."
+    },
+    {
+      "id": "E:note:row424485:59",
+      "kind": "note_sentence",
+      "display": "Plan:    Reinforce current teaching.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row424485#s59",
+      "text": "Plan:    Reinforce current teaching."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|41071": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78551": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4160": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5789": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2851": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5185": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41401": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4240": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7847": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25000": [
+      "E:cond:12"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "subendocardial infarction, initial episode of care": [
+      "E:cond:1"
+    ],
+    "cardiogenic shock": [
+      "E:cond:2"
+    ],
+    "primary pulmonary hypertension": [
+      "E:cond:3"
+    ],
+    "hemorrhage of gastrointestinal tract, unspecified": [
+      "E:cond:4"
+    ],
+    "acute posthemorrhagic anemia": [
+      "E:cond:5"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:6"
+    ],
+    "diagnosis": [
+      "E:cond:7"
+    ],
+    "coronary atherosclerosis of native coronary artery": [
+      "E:cond:8"
+    ],
+    "mitral valve disorders": [
+      "E:cond:9"
+    ],
+    "epistaxis": [
+      "E:cond:10"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:11"
+    ],
+    "diabetes mellitus without mention of complication, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:12"
+    ],
+    "implant of pulsation balloon": [
+      "E:proc:1"
+    ],
+    "percutaneous transluminal coronary angioplasty [ptca]": [
+      "E:proc:2"
+    ],
+    "insertion of non-drug-eluting coronary artery stent(s)": [
+      "E:proc:3"
+    ],
+    "insertion of two vascular stents": [
+      "E:proc:4"
+    ],
+    "procedure on single vessel": [
+      "E:proc:5"
+    ],
+    "combined right and left heart cardiac catheterization": [
+      "E:proc:6"
+    ],
+    "coronary arteriography using two catheters": [
+      "E:proc:7"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:8"
+    ],
+    "72 yo female w/ pmh cad, mi, htn, pvd who presented to osh w/ severe chest pa": [
+      "E:note:row424485:1"
+    ],
+    "described pain as \"tightness\" in center of her chest \"12\"/10 on pain scale an": [
+      "E:note:row424485:2"
+    ],
+    "osh found her w/ +trop of 7.08 and ekg w/ st depressions v3-v6.": [
+      "E:note:row424485:3"
+    ],
+    "started on iv nitro/ heparin/ integrilin.": [
+      "E:note:row424485:4"
+    ],
+    "cxr w/ pulm congestion- diuresed w/ lasix.": [
+      "E:note:row424485:5"
+    ],
+    "transferred to [**hospital1 19**] [**hospital ward name 289**] 3 on [**10-29": [
+      "E:note:row424485:6"
+    ],
+    "pt stable on floor on above drips until 1900 when she triggered for chest pai": [
+      "E:note:row424485:7"
+    ],
+    "managed on floor for several hours w/ constant chest pain varying in severity": [
+      "E:note:row424485:8"
+    ],
+    "given 500ml ivf bolus for bp support in order for iv nitro to be given.": [
+      "E:note:row424485:9"
+    ],
+    "pt triggered 2nd time w/ chest pain and acute pulm edema, ?st segment chan": [
+      "E:note:row424485:10"
+    ],
+    "iv nitro able to be turned back on and 40mg iv lasix given.": [
+      "E:note:row424485:11"
+    ],
+    "sent to ccu on nrb mask, tachypneic on arrival w/ good o2sat 100%, sbp>100, h": [
+      "E:note:row424485:12"
+    ],
+    "chest pain free on arrival.": [
+      "E:note:row424485:13"
+    ],
+    "slowly weaned to 4l nc w/ spo2 >93%.": [
+      "E:note:row424485:14"
+    ],
+    "pt s rr decreased to low-mid 20 s and reported feeling much more comfortable": [
+      "E:note:row424485:15"
+    ],
+    "am labs, mrsa screen, ua/c&s done.": [
+      "E:note:row424485:16"
+    ],
+    "fs done= 429- see below.": [
+      "E:note:row424485:17"
+    ],
+    "has been running hyperglycemic since on prednisone which she has been given f": [
+      "E:note:row424485:18"
+    ],
+    "myocardial infarction, acute (ami, stemi, nstemi) assessment: chest pain f": [
+      "E:note:row424485:19"
+    ],
+    "bp 85-100s/40s-50s.": [
+      "E:note:row424485:20"
+    ],
+    "hr 85-100s st w/ frequent pvcs/bigem.": [
+      "E:note:row424485:21"
+    ],
+    "cardiac enzymes action: response: plan: npo for cardiac cath.": [
+      "E:note:row424485:22"
+    ],
+    "needs prednisone/ benadryl on call to cath lab for dye allergy.": [
+      "E:note:row424485:23"
+    ],
+    "continue to trend cardiac enzymes.": [
+      "E:note:row424485:24"
+    ],
+    "cont current drips to cath lab.": [
+      "E:note:row424485:25"
+    ],
+    "next ptt due 10:00.": [
+      "E:note:row424485:26"
+    ],
+    "assess for cp.": [
+      "E:note:row424485:27"
+    ],
+    "daily ekg.": [
+      "E:note:row424485:28"
+    ],
+    "pulmonary edema assessment: ls rales up bilaterally w/ expiratory wheezes": [
+      "E:note:row424485:29"
+    ],
+    "o2requirement of 4lnc.": [
+      "E:note:row424485:30"
+    ],
+    "trace le edema.": [
+      "E:note:row424485:31"
+    ],
+    "rr 30s on arrival to ccu.": [
+      "E:note:row424485:32"
+    ],
+    "action: 40mg iv lasix given on [**hospital ward name 289**] 3 prior to arriva": [
+      "E:note:row424485:33"
+    ],
+    "monitored effects.": [
+      "E:note:row424485:34"
+    ],
+    "response: 250ml urine out within 1 hour after lasix dose.": [
+      "E:note:row424485:35"
+    ],
+    "continue to make good uop after.": [
+      "E:note:row424485:36"
+    ],
+    "plan: daily cxr, freq resp assessment/lung exam.": [
+      "E:note:row424485:37"
+    ],
+    "monitor spo2.": [
+      "E:note:row424485:38"
+    ],
+    "hyperglycemia assessment: fs 300s-400s since admission to [**hospital1 19*": [
+      "E:note:row424485:39"
+    ],
+    "action: team alerted of high blood sugars.": [
+      "E:note:row424485:40"
+    ],
+    "covered w/ 12units humalog for fs of 429 at 0400.": [
+      "E:note:row424485:41"
+    ],
+    "response: repeat fs= plan: continue to monitor glucose closely.": [
+      "E:note:row424485:42"
+    ],
+    "ineffective coping assessment: pt w/ multiple current life stressors inclu": [
+      "E:note:row424485:43"
+    ],
+    "pt able to verbalize feelings of despair and helplessness.": [
+      "E:note:row424485:44"
+    ],
+    "action: emotional support provided.": [
+      "E:note:row424485:45"
+    ],
+    "reinforced that pt needs to take care of herself first, especially now.": [
+      "E:note:row424485:46"
+    ],
+    "social work consult ordered for am.": [
+      "E:note:row424485:47"
+    ],
+    "response: pt still concerned re: family issues.": [
+      "E:note:row424485:48"
+    ],
+    "plan: sw consult as soon as possible before or after procedure for additional": [
+      "E:note:row424485:49"
+    ],
+    "could benefit from out-pt supports as well.": [
+      "E:note:row424485:50"
+    ],
+    "tobacco use, current assessment: pt w/ significant smoking history and cur": [
+      "E:note:row424485:51"
+    ],
+    "had quit for a while but in light of recent stressors has started again.": [
+      "E:note:row424485:52"
+    ],
+    "also, sister is a smoker and she spends a lot of time with her.": [
+      "E:note:row424485:53"
+    ],
+    "pt aware of health concerns re: smoking especially to the cv system.": [
+      "E:note:row424485:54"
+    ],
+    "action: smoking cessation counseling.": [
+      "E:note:row424485:55"
+    ],
+    "sw consult ordered for issues above.": [
+      "E:note:row424485:56"
+    ],
+    "response: understands dangers of smoking to health.": [
+      "E:note:row424485:57"
+    ],
+    "needs reinforcement.": [
+      "E:note:row424485:58"
+    ],
+    "plan: reinforce current teaching.": [
+      "E:note:row424485:59"
+    ]
+  },
+  "by_date": {
+    "2188-10-29": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8"
+    ]
+  }
+}

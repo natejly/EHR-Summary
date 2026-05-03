@@ -1,0 +1,967 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-82313-116027",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-82313",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-82313",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-116027",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-116027",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2126-05-08T00:00:00",
+          "end": "2126-07-01T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99685",
+              "display": "Complications of transplanted bone marrow"
+            }
+          ],
+          "text": "Complications of transplanted bone marrow"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5849",
+              "display": "Acute kidney failure, unspecified"
+            }
+          ],
+          "text": "Acute kidney failure, unspecified"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41021",
+              "display": "Acute myocardial infarction of inferolateral wall, initial episode of care"
+            }
+          ],
+          "text": "Acute myocardial infarction of inferolateral wall, initial episode of care"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2760",
+              "display": "Hyperosmolality and/or hypernatremia"
+            }
+          ],
+          "text": "Hyperosmolality and/or hypernatremia"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0389",
+              "display": "Unspecified septicemia"
+            }
+          ],
+          "text": "Unspecified septicemia"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99592",
+              "display": "Severe sepsis"
+            }
+          ],
+          "text": "Severe sepsis"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99673",
+              "display": "Other complications due to renal dialysis device, implant, and graft"
+            }
+          ],
+          "text": "Other complications due to renal dialysis device, implant, and graft"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4802",
+              "display": "Pneumonia due to parainfluenza virus"
+            }
+          ],
+          "text": "Pneumonia due to parainfluenza virus"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "23876",
+              "display": "Myelofibrosis with myeloid metaplasia"
+            }
+          ],
+          "text": "Myelofibrosis with myeloid metaplasia"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7824",
+              "display": "Jaundice, unspecified, not of newborn"
+            }
+          ],
+          "text": "Jaundice, unspecified, not of newborn"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2841",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "27951",
+              "display": "Acute graft-versus-host disease"
+            }
+          ],
+          "text": "Acute graft-versus-host disease"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1731",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "56949",
+              "display": "Other specified disorders of rectum and anus"
+            }
+          ],
+          "text": "Other specified disorders of rectum and anus"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8798",
+              "display": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+            }
+          ],
+          "text": "Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8498",
+              "display": "Accidents occurring in other specified places"
+            }
+          ],
+          "text": "Accidents occurring in other specified places"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "6929",
+              "display": "Contact dermatitis and other eczema, unspecified cause"
+            }
+          ],
+          "text": "Contact dermatitis and other eczema, unspecified cause"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "57510",
+              "display": "Cholecystitis, unspecified"
+            }
+          ],
+          "text": "Cholecystitis, unspecified"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3383",
+              "display": "Neoplasm related pain (acute) (chronic)"
+            }
+          ],
+          "text": "Neoplasm related pain (acute) (chronic)"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5589",
+              "display": "Other and unspecified noninfectious gastroenteritis and colitis"
+            }
+          ],
+          "text": "Other and unspecified noninfectious gastroenteritis and colitis"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "41401",
+              "display": "Coronary atherosclerosis of native coronary artery"
+            }
+          ],
+          "text": "Coronary atherosclerosis of native coronary artery"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-24",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-24",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7837",
+              "display": "Adult failure to thrive"
+            }
+          ],
+          "text": "Adult failure to thrive"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-25",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-25",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "07989",
+              "display": "Other specified viral infection"
+            }
+          ],
+          "text": "Other specified viral infection"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-26",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-26",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "79902",
+              "display": "Hypoxemia"
+            }
+          ],
+          "text": "Hypoxemia"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-27",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-27",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42731",
+              "display": "Atrial fibrillation"
+            }
+          ],
+          "text": "Atrial fibrillation"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-28",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-28",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V641",
+              "display": "Surgical or other procedure not carried out because of contraindication"
+            }
+          ],
+          "text": "Surgical or other procedure not carried out because of contraindication"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-29",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-29",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "04189",
+              "display": "Other specified bacterial infections in conditions classified elsewhere and of unspecified site, other specified bacteria"
+            }
+          ],
+          "text": "Other specified bacterial infections in conditions classified elsewhere and of unspecified site, other specified bacteria"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-30",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-30",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8791",
+              "display": "Kidney dialysis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+            }
+          ],
+          "text": "Kidney dialysis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-116027-31",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-116027-31",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8497",
+              "display": "Accidents occurring in residential institution"
+            }
+          ],
+          "text": "Accidents occurring in residential institution"
+        },
+        "onsetDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-116027-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-116027-1",
+        "status": "completed",
+        "code": {
+          "text": "Biopsy of eyelid"
+        },
+        "performedDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-116027-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-116027-2",
+        "status": "completed",
+        "code": {
+          "text": "Biopsy of eyelid"
+        },
+        "performedDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-116027-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-116027-3",
+        "status": "completed",
+        "code": {
+          "text": "Closed biopsy of skin and subcutaneous tissue"
+        },
+        "performedDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-116027-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-116027-4",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of large intestine"
+        },
+        "performedDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-116027-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-116027-5",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of rectum"
+        },
+        "performedDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-116027-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-116027-6",
+        "status": "completed",
+        "code": {
+          "text": "Biopsy of bone marrow"
+        },
+        "performedDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-116027-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-116027-7",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-116027-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-116027-8",
+        "status": "completed",
+        "code": {
+          "text": "Percutaneous aspiration of gallbladder"
+        },
+        "performedDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-116027-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-116027-9",
+        "status": "completed",
+        "code": {
+          "text": "Parenteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-116027-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-116027-10",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of endotracheal tube"
+        },
+        "performedDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-116027-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-116027-11",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-116027-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-116027-12",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization for renal dialysis"
+        },
+        "performedDateTime": "2126-05-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-116027-13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-116027-13",
+        "status": "completed",
+        "code": {
+          "text": "Hemodialysis"
+        },
+        "performedDateTime": "2126-05-08"
+      }
+    }
+  ]
+}

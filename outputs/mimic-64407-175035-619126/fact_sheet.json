@@ -1,0 +1,352 @@
+{
+  "case_id": "mimic-64407-175035-619126",
+  "sections": {
+    "hpi": [],
+    "active_problems": [
+      {
+        "text": "Acute respiratory failure (2169-12-26)",
+        "evidence_ids": [
+          "E:cond:1"
+        ]
+      },
+      {
+        "text": "Cardiac arrest (2169-12-26)",
+        "evidence_ids": [
+          "E:cond:2"
+        ]
+      },
+      {
+        "text": "Acute diastolic heart failure (2169-12-26)",
+        "evidence_ids": [
+          "E:cond:3"
+        ]
+      },
+      {
+        "text": "Pneumonitis due to inhalation of food or vomitus (2169-12-26)",
+        "evidence_ids": [
+          "E:cond:4"
+        ]
+      },
+      {
+        "text": "End stage renal disease (2169-12-26)",
+        "evidence_ids": [
+          "E:cond:5"
+        ]
+      },
+      {
+        "text": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease (2169-12-26)",
+        "evidence_ids": [
+          "E:cond:6"
+        ]
+      },
+      {
+        "text": "Other primary cardiomyopathies (2169-12-26)",
+        "evidence_ids": [
+          "E:cond:7"
+        ]
+      },
+      {
+        "text": "Delirium due to conditions classified elsewhere (2169-12-26)",
+        "evidence_ids": [
+          "E:cond:8"
+        ]
+      },
+      {
+        "text": "Acidosis (2169-12-26)",
+        "evidence_ids": [
+          "E:cond:9"
+        ]
+      },
+      {
+        "text": "Hyperpotassemia (2169-12-26)",
+        "evidence_ids": [
+          "E:cond:10"
+        ]
+      },
+      {
+        "text": "Congestive heart failure, unspecified (2169-12-26)",
+        "evidence_ids": [
+          "E:cond:11"
+        ]
+      },
+      {
+        "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled (2169-12-26)",
+        "evidence_ids": [
+          "E:cond:12"
+        ]
+      },
+      {
+        "text": "Diarrhea (2169-12-26)",
+        "evidence_ids": [
+          "E:cond:13"
+        ]
+      },
+      {
+        "text": "Atrial fibrillation (2169-12-26)",
+        "evidence_ids": [
+          "E:cond:14"
+        ]
+      },
+      {
+        "text": "Anemia in chronic kidney disease (2169-12-26)",
+        "evidence_ids": [
+          "E:cond:15"
+        ]
+      },
+      {
+        "text": "Lumbago (2169-12-26)",
+        "evidence_ids": [
+          "E:cond:16"
+        ]
+      },
+      {
+        "text": "Renal dialysis status (2169-12-26)",
+        "evidence_ids": [
+          "E:cond:17"
+        ]
+      },
+      {
+        "text": "Procedure: Continuous invasive mechanical ventilation for less than 96 consecutive hours (2169-12-26)",
+        "evidence_ids": [
+          "E:proc:1",
+          "E:proc:4"
+        ]
+      },
+      {
+        "text": "Procedure: Hemodialysis (2169-12-26)",
+        "evidence_ids": [
+          "E:proc:2"
+        ]
+      },
+      {
+        "text": "Procedure: Insertion of endotracheal tube (2169-12-26)",
+        "evidence_ids": [
+          "E:proc:3"
+        ]
+      },
+      {
+        "text": "Procedure: Spinal tap (2169-12-26)",
+        "evidence_ids": [
+          "E:proc:5"
+        ]
+      },
+      {
+        "text": "has diagnosis: DM",
+        "evidence_ids": [
+          "E:note:row619126:1"
+        ]
+      },
+      {
+        "text": "has diagnosis: ESRD on HD",
+        "evidence_ids": [
+          "E:note:row619126:1"
+        ]
+      },
+      {
+        "text": "has diagnosis: dilated cardiomyopathy",
+        "evidence_ids": [
+          "E:note:row619126:1"
+        ]
+      },
+      {
+        "text": "has diagnosis: HTN",
+        "evidence_ids": [
+          "E:note:row619126:1"
+        ]
+      },
+      {
+        "text": "has diagnosis: hypertension",
+        "evidence_ids": [
+          "E:note:row619126:16"
+        ]
+      },
+      {
+        "text": "has diagnosis: pulmonary edema",
+        "evidence_ids": [
+          "E:note:row619126:11"
+        ]
+      },
+      {
+        "text": "has diagnosis: diarrhea",
+        "evidence_ids": [
+          "E:cond:13",
+          "E:note:row619126:4",
+          "E:note:row619126:19",
+          "E:note:row619126:25"
+        ]
+      },
+      {
+        "text": "underwent procedure: HD for just UF",
+        "evidence_ids": [
+          "E:note:row619126:5"
+        ]
+      },
+      {
+        "text": "has diagnosis: rhonchi to crackles @ bases",
+        "evidence_ids": [
+          "E:note:row619126:10"
+        ]
+      },
+      {
+        "text": "has diagnosis: Hypertension, benign",
+        "evidence_ids": [
+          "E:note:row619126:16"
+        ]
+      },
+      {
+        "text": "has diagnosis: Alteration in Elimination Related to Diarrhea",
+        "evidence_ids": [
+          "E:cond:13",
+          "E:note:row619126:19"
+        ]
+      },
+      {
+        "text": "underwent procedure: flexi-seal tube in place",
+        "evidence_ids": [
+          "E:note:row619126:23"
+        ]
+      },
+      {
+        "text": "underwent procedure: Stool sent for C-diff and C&S",
+        "evidence_ids": [
+          "E:note:row619126:24"
+        ]
+      }
+    ],
+    "medications": [
+      {
+        "text": "takes medication: Propofol Gtt",
+        "evidence_ids": [
+          "E:note:row619126:13",
+          "E:note:row619126:14"
+        ]
+      }
+    ],
+    "labs": [
+      {
+        "text": "lab result: K+ down to WNL",
+        "evidence_ids": [
+          "E:note:row619126:6"
+        ]
+      },
+      {
+        "text": "lab result: ABG- 7.47/47/151/9/35",
+        "evidence_ids": [
+          "E:note:row619126:12"
+        ]
+      },
+      {
+        "text": "lab result: HCT-32.4",
+        "evidence_ids": [
+          "E:note:row619126:20"
+        ]
+      }
+    ],
+    "vitals": [
+      {
+        "text": "vital sign: U/O 0-10cc/hr",
+        "evidence_ids": [
+          "E:note:row619126:3"
+        ]
+      },
+      {
+        "text": "vital sign: O2 sats 96-99%",
+        "evidence_ids": [
+          "E:note:row619126:12"
+        ]
+      },
+      {
+        "text": "vital sign: Peep-8",
+        "evidence_ids": [
+          "E:note:row619126:14"
+        ]
+      },
+      {
+        "text": "vital sign: FIO2-40%",
+        "evidence_ids": [
+          "E:note:row619126:14"
+        ]
+      },
+      {
+        "text": "vital sign: BP- 140-170 s/70 s",
+        "evidence_ids": [
+          "E:note:row619126:16"
+        ]
+      },
+      {
+        "text": "vital sign: HR-90",
+        "evidence_ids": [
+          "E:note:row619126:16"
+        ]
+      },
+      {
+        "text": "vital sign: BP s up to >200 s/90",
+        "evidence_ids": [
+          "E:note:row619126:17"
+        ]
+      },
+      {
+        "text": "vital sign: HR to 120",
+        "evidence_ids": [
+          "E:note:row619126:17"
+        ]
+      }
+    ],
+    "plan": [
+      {
+        "text": "plan to: Monitor K+ levels",
+        "evidence_ids": [
+          "E:note:row619126:7"
+        ]
+      },
+      {
+        "text": "plan to: perform HD or UF as needed",
+        "evidence_ids": [
+          "E:note:row619126:7"
+        ]
+      },
+      {
+        "text": "plan to: Monitor ABG s",
+        "evidence_ids": [
+          "E:note:row619126:15"
+        ]
+      },
+      {
+        "text": "plan to: qd CXR s",
+        "evidence_ids": [
+          "E:note:row619126:15"
+        ]
+      },
+      {
+        "text": "plan to: pulmonary toilet",
+        "evidence_ids": [
+          "E:note:row619126:15"
+        ]
+      },
+      {
+        "text": "plan to: Monitor BP and HR",
+        "evidence_ids": [
+          "E:note:row619126:18"
+        ]
+      },
+      {
+        "text": "plan to: check lytes",
+        "evidence_ids": [
+          "E:note:row619126:18"
+        ]
+      },
+      {
+        "text": "plan to: Monitor stooling amt",
+        "evidence_ids": [
+          "E:note:row619126:26"
+        ]
+      },
+      {
+        "text": "plan to: check C&S results",
+        "evidence_ids": [
+          "E:note:row619126:26"
+        ]
+      }
+    ]
+  }
+}

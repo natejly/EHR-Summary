@@ -1,0 +1,1566 @@
+{
+  "case_id": "mimic-70206-162850-600430",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:enc-162850",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Hepatic encephalopathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5722",
+        "display": "Hepatic encephalopathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Hepatic encephalopathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5722",
+        "display": "Hepatic encephalopathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Acute kidney failure with lesion of tubular necrosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5845",
+        "display": "Acute kidney failure with lesion of tubular necrosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Acute kidney failure with lesion of tubular necrosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5845",
+        "display": "Acute kidney failure with lesion of tubular necrosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Pressure ulcer, stage III",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70723",
+        "display": "Pressure ulcer, stage III"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Pressure ulcer, stage III",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70723",
+        "display": "Pressure ulcer, stage III"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Hyperosmolality and/or hypernatremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2760",
+        "display": "Hyperosmolality and/or hypernatremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Hyperosmolality and/or hypernatremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2760",
+        "display": "Hyperosmolality and/or hypernatremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Secondary malignant neoplasm of retroperitoneum and peritoneum",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1976",
+        "display": "Secondary malignant neoplasm of retroperitoneum and peritoneum"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Secondary malignant neoplasm of retroperitoneum and peritoneum",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1976",
+        "display": "Secondary malignant neoplasm of retroperitoneum and peritoneum"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Other and unspecified coagulation defects",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2869",
+        "display": "Other and unspecified coagulation defects"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Other and unspecified coagulation defects",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2869",
+        "display": "Other and unspecified coagulation defects"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Cirrhosis of liver without mention of alcohol",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5715",
+        "display": "Cirrhosis of liver without mention of alcohol"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Cirrhosis of liver without mention of alcohol",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5715",
+        "display": "Cirrhosis of liver without mention of alcohol"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Tracheostomy status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V440",
+        "display": "Tracheostomy status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Tracheostomy status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V440",
+        "display": "Tracheostomy status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Pressure ulcer, buttock",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70705",
+        "display": "Pressure ulcer, buttock"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Pressure ulcer, buttock",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70705",
+        "display": "Pressure ulcer, buttock"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Pressure ulcer, lower back",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70703",
+        "display": "Pressure ulcer, lower back"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Pressure ulcer, lower back",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "70703",
+        "display": "Pressure ulcer, lower back"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Herpes simplex without mention of complication",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0549",
+        "display": "Herpes simplex without mention of complication"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Herpes simplex without mention of complication",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0549",
+        "display": "Herpes simplex without mention of complication"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:25",
+      "kind": "condition",
+      "display": "Depressive disorder, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "311",
+        "display": "Depressive disorder, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:26",
+      "kind": "condition",
+      "display": "Depressive disorder, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "311",
+        "display": "Depressive disorder, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:27",
+      "kind": "condition",
+      "display": "Asthma, unspecified type, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "49390",
+        "display": "Asthma, unspecified type, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:28",
+      "kind": "condition",
+      "display": "Asthma, unspecified type, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "49390",
+        "display": "Asthma, unspecified type, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:29",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type I [juvenile type], not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25001",
+        "display": "Diabetes mellitus without mention of complication, type I [juvenile type], not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:30",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type I [juvenile type], not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25001",
+        "display": "Diabetes mellitus without mention of complication, type I [juvenile type], not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:31",
+      "kind": "condition",
+      "display": "Obstructive sleep apnea (adult)(pediatric)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "32723",
+        "display": "Obstructive sleep apnea (adult)(pediatric)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:32",
+      "kind": "condition",
+      "display": "Obstructive sleep apnea (adult)(pediatric)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "32723",
+        "display": "Obstructive sleep apnea (adult)(pediatric)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:33",
+      "kind": "condition",
+      "display": "Morbid obesity",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "27801",
+        "display": "Morbid obesity"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:34",
+      "kind": "condition",
+      "display": "Morbid obesity",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "27801",
+        "display": "Morbid obesity"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:35",
+      "kind": "condition",
+      "display": "Hematuria, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "59970",
+        "display": "Hematuria, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:36",
+      "kind": "condition",
+      "display": "Hematuria, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "59970",
+        "display": "Hematuria, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:37",
+      "kind": "condition",
+      "display": "Other and unspecified hyperlipidemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2724",
+        "display": "Other and unspecified hyperlipidemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:38",
+      "kind": "condition",
+      "display": "Other and unspecified hyperlipidemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2724",
+        "display": "Other and unspecified hyperlipidemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:39",
+      "kind": "condition",
+      "display": "Displacement of cervical intervertebral disc without myelopathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7220",
+        "display": "Displacement of cervical intervertebral disc without myelopathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:40",
+      "kind": "condition",
+      "display": "Displacement of cervical intervertebral disc without myelopathy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7220",
+        "display": "Displacement of cervical intervertebral disc without myelopathy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:41",
+      "kind": "condition",
+      "display": "Anemia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2859",
+        "display": "Anemia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:42",
+      "kind": "condition",
+      "display": "Anemia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2859",
+        "display": "Anemia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:43",
+      "kind": "condition",
+      "display": "Thrombocytopenia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2875",
+        "display": "Thrombocytopenia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:44",
+      "kind": "condition",
+      "display": "Thrombocytopenia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2875",
+        "display": "Thrombocytopenia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:45",
+      "kind": "condition",
+      "display": "Osteoarthrosis, unspecified whether generalized or localized, site unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "71590",
+        "display": "Osteoarthrosis, unspecified whether generalized or localized, site unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:46",
+      "kind": "condition",
+      "display": "Osteoarthrosis, unspecified whether generalized or localized, site unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "71590",
+        "display": "Osteoarthrosis, unspecified whether generalized or localized, site unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:47",
+      "kind": "condition",
+      "display": "Long-term (current) use of insulin",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V5867",
+        "display": "Long-term (current) use of insulin"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:48",
+      "kind": "condition",
+      "display": "Long-term (current) use of insulin",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V5867",
+        "display": "Long-term (current) use of insulin"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:49",
+      "kind": "condition",
+      "display": "Personal history of malignant neoplasm of large intestine",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V1005",
+        "display": "Personal history of malignant neoplasm of large intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-25",
+      "text": null
+    },
+    {
+      "id": "E:cond:50",
+      "kind": "condition",
+      "display": "Personal history of malignant neoplasm of large intestine",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V1005",
+        "display": "Personal history of malignant neoplasm of large intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-25",
+      "text": null
+    },
+    {
+      "id": "E:cond:51",
+      "kind": "condition",
+      "display": "Acquired absence of intestine (large) (small)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4572",
+        "display": "Acquired absence of intestine (large) (small)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-26",
+      "text": null
+    },
+    {
+      "id": "E:cond:52",
+      "kind": "condition",
+      "display": "Acquired absence of intestine (large) (small)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4572",
+        "display": "Acquired absence of intestine (large) (small)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-26",
+      "text": null
+    },
+    {
+      "id": "E:cond:53",
+      "kind": "condition",
+      "display": "Personal history of antineoplastic chemotherapy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V8741",
+        "display": "Personal history of antineoplastic chemotherapy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-27",
+      "text": null
+    },
+    {
+      "id": "E:cond:54",
+      "kind": "condition",
+      "display": "Personal history of antineoplastic chemotherapy",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V8741",
+        "display": "Personal history of antineoplastic chemotherapy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-27",
+      "text": null
+    },
+    {
+      "id": "E:cond:55",
+      "kind": "condition",
+      "display": "Personal history of irradiation, presenting hazards to health",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V153",
+        "display": "Personal history of irradiation, presenting hazards to health"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-28",
+      "text": null
+    },
+    {
+      "id": "E:cond:56",
+      "kind": "condition",
+      "display": "Personal history of irradiation, presenting hazards to health",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V153",
+        "display": "Personal history of irradiation, presenting hazards to health"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:cond-162850-28",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Spinal tap",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Spinal tap"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:proc-162850-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Spinal tap",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Spinal tap"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:proc-162850-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:proc-162850-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:proc-162850-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Insertion of (naso-)intestinal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of (naso-)intestinal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:proc-162850-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Insertion of (naso-)intestinal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of (naso-)intestinal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:proc-162850-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Other x-ray of intestine",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other x-ray of intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:proc-162850-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Other x-ray of intestine",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other x-ray of intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:proc-162850-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:proc-162850-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2145-09-20",
+      "source_ref": "urn:uuid:proc-162850-5",
+      "text": null
+    },
+    {
+      "id": "E:note:row600430:1",
+      "kind": "note_sentence",
+      "display": "Chief Complaint:  Altered Mental Status    HPI:    Ms [**Known lastname 3824**] ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600430#s1",
+      "text": "Chief Complaint:  Altered Mental Status    HPI:    Ms [**Known lastname 3824**] is a 55 yo F with diabetes, colon cancer, treated in    [**2141**]-[**2142**] with resection and chemotherapy, complicated by cirrhosis."
+    },
+    {
+      "id": "E:note:row600430:2",
+      "kind": "note_sentence",
+      "display": "She has had no evidence recurrence on imaging including PET scan, but    CEAs ha",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600430#s2",
+      "text": "She has had no evidence recurrence on imaging including PET scan, but    CEAs have been trending upward (thought to be due to liver    inflammation)."
+    },
+    {
+      "id": "E:note:row600430:3",
+      "kind": "note_sentence",
+      "display": "Pt admitted intially on [**8-27**] for shortness of breath, AMS, confusion,    l",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600430#s3",
+      "text": "Pt admitted intially on [**8-27**] for shortness of breath, AMS, confusion,    lethargy x 48hrs thought to be hepatic encephalopathy, given elevated    ammonia, treated with Lactulose."
+    },
+    {
+      "id": "E:note:row600430:4",
+      "kind": "note_sentence",
+      "display": "Also given fluids, dopamine,    Levo/Vanco for hypotension.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600430#s4",
+      "text": "Also given fluids, dopamine,    Levo/Vanco for hypotension."
+    },
+    {
+      "id": "E:note:row600430:5",
+      "kind": "note_sentence",
+      "display": "On [**8-30**], pt developed respiratory distress    and hypoxemia, was intubated",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600430#s5",
+      "text": "On [**8-30**], pt developed respiratory distress    and hypoxemia, was intubated and treated for ARDS."
+    },
+    {
+      "id": "E:note:row600430:6",
+      "kind": "note_sentence",
+      "display": "Pt improved and vent    was weaned but pt's mental status did not improve with r",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600430#s6",
+      "text": "Pt improved and vent    was weaned but pt's mental status did not improve with removal of    sedation."
+    },
+    {
+      "id": "E:note:row600430:7",
+      "kind": "note_sentence",
+      "display": "She was worked up with EEG (toxic metabolic slowing), head CT    (negative), Neu",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600430#s7",
+      "text": "She was worked up with EEG (toxic metabolic slowing), head CT    (negative), Neuro consult (brain stem reflexes intact but decreased    higher cortical function."
+    },
+    {
+      "id": "E:note:row600430:8",
+      "kind": "note_sentence",
+      "display": "Considered etiologies remained hepatic    encephalopathy with ongoing treatment ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600430#s8",
+      "text": "Considered etiologies remained hepatic    encephalopathy with ongoing treatment with Lactulose and Rifaximin and    good stooling response, as well as slowed clearance of sedating    medications used while intubated given obesity. trached on [**9-17**] with    Shiley trach."
+    },
+    {
+      "id": "E:note:row600430:9",
+      "kind": "note_sentence",
+      "display": "Course also complicated by recurrent fevers to 101-102.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600430#s9",
+      "text": "Course also complicated by recurrent fevers to 101-102."
+    },
+    {
+      "id": "E:note:row600430:10",
+      "kind": "note_sentence",
+      "display": "All cultures    negative, including lines (central line pulled last week).",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600430#s10",
+      "text": "All cultures    negative, including lines (central line pulled last week)."
+    },
+    {
+      "id": "E:note:row600430:11",
+      "kind": "note_sentence",
+      "display": "Bronchoscopy    negative except [**Female First Name (un) 444**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600430#s11",
+      "text": "Bronchoscopy    negative except [**Female First Name (un) 444**]."
+    },
+    {
+      "id": "E:note:row600430:12",
+      "kind": "note_sentence",
+      "display": "No evidence of ascites on US or abd scans.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600430#s12",
+      "text": "No evidence of ascites on US or abd scans."
+    },
+    {
+      "id": "E:note:row600430:13",
+      "kind": "note_sentence",
+      "display": "Gallbladder was shown to be enlarged and PCBD was placed on [**9-2**].",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600430#s13",
+      "text": "Gallbladder was shown to be enlarged and PCBD was placed on [**9-2**]."
+    },
+    {
+      "id": "E:note:row600430:14",
+      "kind": "note_sentence",
+      "display": "[**Name (NI) 8805**], pt persistently had normal renal function (Cr 0.7-1) and g",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600430#s14",
+      "text": "[**Name (NI) 8805**], pt persistently had normal renal function (Cr 0.7-1) and good    urine output, until day of transfer when Cr bumped to 1.5 and pt    developed hematuria."
+    },
+    {
+      "id": "E:note:row600430:15",
+      "kind": "note_sentence",
+      "display": "Other issues have been persistent thrombocytopenia (60s-120s),    coagulopathy (",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600430#s15",
+      "text": "Other issues have been persistent thrombocytopenia (60s-120s),    coagulopathy (INR 1.5-1.7, no bleeding)."
+    },
+    {
+      "id": "E:note:row600430:16",
+      "kind": "note_sentence",
+      "display": "Given h/o gastric lap banding,    surgery had to release band for OG placement.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600430#s16",
+      "text": "Given h/o gastric lap banding,    surgery had to release band for OG placement."
+    },
+    {
+      "id": "E:note:row600430:17",
+      "kind": "note_sentence",
+      "display": "Alteration in Nutrition    Assessment:    Action:    Response:    Plan:    Alter",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600430#s17",
+      "text": "Alteration in Nutrition    Assessment:    Action:    Response:    Plan:    Altered mental status (not Delirium)    Assessment:    Action:    Response:    Plan:    Decubitus ulcer (Present At Admission)    Assessment:    Action:    Response:    Plan:    Diabetes Mellitus (DM), Type I    Assessment:    Action:    Response:    Plan:    Electrolyte & fluid disorder, other    Assessment:    Action:    Response:    Plan:    Coagulopathy    Assessment:    Action:    Response:    Plan:"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|5722": [
+      "E:cond:1",
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:3",
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5845": [
+      "E:cond:5",
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70723": [
+      "E:cond:7",
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2760": [
+      "E:cond:9",
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1976": [
+      "E:cond:11",
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2869": [
+      "E:cond:13",
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5715": [
+      "E:cond:15",
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V440": [
+      "E:cond:17",
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70705": [
+      "E:cond:19",
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|70703": [
+      "E:cond:21",
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|0549": [
+      "E:cond:23",
+      "E:cond:24"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|311": [
+      "E:cond:25",
+      "E:cond:26"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|49390": [
+      "E:cond:27",
+      "E:cond:28"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25001": [
+      "E:cond:29",
+      "E:cond:30"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|32723": [
+      "E:cond:31",
+      "E:cond:32"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|27801": [
+      "E:cond:33",
+      "E:cond:34"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|59970": [
+      "E:cond:35",
+      "E:cond:36"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2724": [
+      "E:cond:37",
+      "E:cond:38"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7220": [
+      "E:cond:39",
+      "E:cond:40"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2859": [
+      "E:cond:41",
+      "E:cond:42"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2875": [
+      "E:cond:43",
+      "E:cond:44"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|71590": [
+      "E:cond:45",
+      "E:cond:46"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V5867": [
+      "E:cond:47",
+      "E:cond:48"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V1005": [
+      "E:cond:49",
+      "E:cond:50"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4572": [
+      "E:cond:51",
+      "E:cond:52"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V8741": [
+      "E:cond:53",
+      "E:cond:54"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V153": [
+      "E:cond:55",
+      "E:cond:56"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "hepatic encephalopathy": [
+      "E:cond:1",
+      "E:cond:2"
+    ],
+    "acute respiratory failure": [
+      "E:cond:3",
+      "E:cond:4"
+    ],
+    "acute kidney failure with lesion of tubular necrosis": [
+      "E:cond:5",
+      "E:cond:6"
+    ],
+    "pressure ulcer, stage iii": [
+      "E:cond:7",
+      "E:cond:8"
+    ],
+    "hyperosmolality and/or hypernatremia": [
+      "E:cond:9",
+      "E:cond:10"
+    ],
+    "secondary malignant neoplasm of retroperitoneum and peritoneum": [
+      "E:cond:11",
+      "E:cond:12"
+    ],
+    "other and unspecified coagulation defects": [
+      "E:cond:13",
+      "E:cond:14"
+    ],
+    "cirrhosis of liver without mention of alcohol": [
+      "E:cond:15",
+      "E:cond:16"
+    ],
+    "tracheostomy status": [
+      "E:cond:17",
+      "E:cond:18"
+    ],
+    "pressure ulcer, buttock": [
+      "E:cond:19",
+      "E:cond:20"
+    ],
+    "pressure ulcer, lower back": [
+      "E:cond:21",
+      "E:cond:22"
+    ],
+    "herpes simplex without mention of complication": [
+      "E:cond:23",
+      "E:cond:24"
+    ],
+    "depressive disorder, not elsewhere classified": [
+      "E:cond:25",
+      "E:cond:26"
+    ],
+    "asthma, unspecified type, unspecified": [
+      "E:cond:27",
+      "E:cond:28"
+    ],
+    "diabetes mellitus without mention of complication, type i [juvenile type], not stated as uncontrolled": [
+      "E:cond:29",
+      "E:cond:30"
+    ],
+    "obstructive sleep apnea (adult)(pediatric)": [
+      "E:cond:31",
+      "E:cond:32"
+    ],
+    "morbid obesity": [
+      "E:cond:33",
+      "E:cond:34"
+    ],
+    "hematuria, unspecified": [
+      "E:cond:35",
+      "E:cond:36"
+    ],
+    "other and unspecified hyperlipidemia": [
+      "E:cond:37",
+      "E:cond:38"
+    ],
+    "displacement of cervical intervertebral disc without myelopathy": [
+      "E:cond:39",
+      "E:cond:40"
+    ],
+    "anemia, unspecified": [
+      "E:cond:41",
+      "E:cond:42"
+    ],
+    "thrombocytopenia, unspecified": [
+      "E:cond:43",
+      "E:cond:44"
+    ],
+    "osteoarthrosis, unspecified whether generalized or localized, site unspecified": [
+      "E:cond:45",
+      "E:cond:46"
+    ],
+    "long-term (current) use of insulin": [
+      "E:cond:47",
+      "E:cond:48"
+    ],
+    "personal history of malignant neoplasm of large intestine": [
+      "E:cond:49",
+      "E:cond:50"
+    ],
+    "acquired absence of intestine (large) (small)": [
+      "E:cond:51",
+      "E:cond:52"
+    ],
+    "personal history of antineoplastic chemotherapy": [
+      "E:cond:53",
+      "E:cond:54"
+    ],
+    "personal history of irradiation, presenting hazards to health": [
+      "E:cond:55",
+      "E:cond:56"
+    ],
+    "spinal tap": [
+      "E:proc:1",
+      "E:proc:2"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:3",
+      "E:proc:4"
+    ],
+    "insertion of (naso-)intestinal tube": [
+      "E:proc:5",
+      "E:proc:6"
+    ],
+    "other x-ray of intestine": [
+      "E:proc:7",
+      "E:proc:8"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:9",
+      "E:proc:10"
+    ],
+    "chief complaint: altered mental status hpi: ms [**known lastname 3824**]": [
+      "E:note:row600430:1"
+    ],
+    "she has had no evidence recurrence on imaging including pet scan, but ceas ha": [
+      "E:note:row600430:2"
+    ],
+    "pt admitted intially on [**8-27**] for shortness of breath, ams, confusion, l": [
+      "E:note:row600430:3"
+    ],
+    "also given fluids, dopamine, levo/vanco for hypotension.": [
+      "E:note:row600430:4"
+    ],
+    "on [**8-30**], pt developed respiratory distress and hypoxemia, was intubated": [
+      "E:note:row600430:5"
+    ],
+    "pt improved and vent was weaned but pt's mental status did not improve with r": [
+      "E:note:row600430:6"
+    ],
+    "she was worked up with eeg (toxic metabolic slowing), head ct (negative), neu": [
+      "E:note:row600430:7"
+    ],
+    "considered etiologies remained hepatic encephalopathy with ongoing treatment": [
+      "E:note:row600430:8"
+    ],
+    "course also complicated by recurrent fevers to 101-102.": [
+      "E:note:row600430:9"
+    ],
+    "all cultures negative, including lines (central line pulled last week).": [
+      "E:note:row600430:10"
+    ],
+    "bronchoscopy negative except [**female first name (un) 444**].": [
+      "E:note:row600430:11"
+    ],
+    "no evidence of ascites on us or abd scans.": [
+      "E:note:row600430:12"
+    ],
+    "gallbladder was shown to be enlarged and pcbd was placed on [**9-2**].": [
+      "E:note:row600430:13"
+    ],
+    "[**name (ni) 8805**], pt persistently had normal renal function (cr 0.7-1) and g": [
+      "E:note:row600430:14"
+    ],
+    "other issues have been persistent thrombocytopenia (60s-120s), coagulopathy (": [
+      "E:note:row600430:15"
+    ],
+    "given h/o gastric lap banding, surgery had to release band for og placement.": [
+      "E:note:row600430:16"
+    ],
+    "alteration in nutrition assessment: action: response: plan: alter": [
+      "E:note:row600430:17"
+    ]
+  },
+  "by_date": {
+    "2145-09-20": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:29",
+      "E:cond:30",
+      "E:cond:31",
+      "E:cond:32",
+      "E:cond:33",
+      "E:cond:34",
+      "E:cond:35",
+      "E:cond:36",
+      "E:cond:37",
+      "E:cond:38",
+      "E:cond:39",
+      "E:cond:40",
+      "E:cond:41",
+      "E:cond:42",
+      "E:cond:43",
+      "E:cond:44",
+      "E:cond:45",
+      "E:cond:46",
+      "E:cond:47",
+      "E:cond:48",
+      "E:cond:49",
+      "E:cond:50",
+      "E:cond:51",
+      "E:cond:52",
+      "E:cond:53",
+      "E:cond:54",
+      "E:cond:55",
+      "E:cond:56",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10"
+    ]
+  }
+}

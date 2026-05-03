@@ -1,0 +1,157 @@
+{
+  "case_id": "mimic-79565-181839-427484",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 4222,
+    "summary_chars": 1828,
+    "target_min_chars": 844,
+    "target_max_chars": 1266,
+    "achieved_ratio": 0.43297015632401703,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": false,
+    "violations": [
+      {
+        "sentence": "Heparin [E:note:row427484:2], coumadin [E:note:row427484:2], levofloxacin [E:note:row427484:5], flagyl [E:note:row427484:5], Vancomycin [E:note:row427484:5], zosyn [E:note:row427484:5], and IV lasix (total 40mg) [E:note:row427484:45][E:note:row427484:48].",
+        "rule": "unsupported_value",
+        "detail": "Numeric '40 mg' not present in cited evidence."
+      }
+    ],
+    "sentence_count": 14,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:2",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:note:row427484:17",
+      "E:note:row427484:19",
+      "E:note:row427484:2",
+      "E:note:row427484:23",
+      "E:note:row427484:25",
+      "E:note:row427484:26",
+      "E:note:row427484:4",
+      "E:note:row427484:40",
+      "E:note:row427484:43",
+      "E:note:row427484:44",
+      "E:note:row427484:45",
+      "E:note:row427484:48",
+      "E:note:row427484:5",
+      "E:note:row427484:8"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Heparin [E:note:row427484:2], coumadin [E:note:row427484:2], levofloxacin [E:note:row427484:5], flagyl [E:note:row427484:5], Vancomycin [E:note:row427484:5], zosyn [E:note:row427484:5], and IV lasix (total 40mg) [E:note:row427484:45][E:note:row427484:48].",
+        "severity": "medium",
+        "reason": "The summary calculates a total dose of 40mg which is not explicitly stated in the fact sheet, creating a derived value."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Heparin [E:note:row427484:2], coumadin [E:note:row427484:2], levofloxacin [E:note:row427484:5], flagyl [E:note:row427484:5], Vancomycin [E:note:row427484:5], zosyn [E:note:row427484:5], and IV lasix (total 40mg) [E:note:row427484:45][E:note:row427484:48].",
+        "suggested": "Heparin [E:note:row427484:2], coumadin [E:note:row427484:2], levofloxacin [E:note:row427484:5], flagyl [E:note:row427484:5], Vancomycin [E:note:row427484:5], zosyn [E:note:row427484:5], and IV lasix 20mg [E:note:row427484:45] with an additional 20mg [E:note:row427484:48].",
+        "reason": "Aligns medication dosing exactly with the provided evidence without performing external arithmetic."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-79565-181839-427484/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.82,
+    "fk_words": 208,
+    "fk_sentences": 22,
+    "fk_syllables": 330,
+    "chars": 1850,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-79565-181839-427484/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0021924999891780317,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 201.1322201670264,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 86.85462508298224,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0014082500129006803,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 16.780702333024237,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 32.48100929200882,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.003359458001796156,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 17.036191208986565,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

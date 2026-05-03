@@ -1,0 +1,1184 @@
+{
+  "case_id": "mimic-50847-123701-419476",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:enc-123701",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Acute and subacute bacterial endocarditis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4210",
+        "display": "Acute and subacute bacterial endocarditis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:cond-123701-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute diastolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42831",
+        "display": "Acute diastolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:cond-123701-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Other staphylococcal septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "03819",
+        "display": "Other staphylococcal septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:cond-123701-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99591",
+        "display": "Sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:cond-123701-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5185",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:cond-123701-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Ventricular fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42741",
+        "display": "Ventricular fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:cond-123701-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9980",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:cond-123701-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Congenital insufficiency of aortic valve",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7464",
+        "display": "Congenital insufficiency of aortic valve"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:cond-123701-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Intestinal infection due to Clostridium difficile",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "00845",
+        "display": "Intestinal infection due to Clostridium difficile"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:cond-123701-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Hyposmolality and/or hyponatremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2761",
+        "display": "Hyposmolality and/or hyponatremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:cond-123701-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Alkalosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2763",
+        "display": "Alkalosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:cond-123701-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Aortic valve disorders",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4241",
+        "display": "Aortic valve disorders"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:cond-123701-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Other ill-defined heart diseases",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42989",
+        "display": "Other ill-defined heart diseases"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:cond-123701-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:cond-123701-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Surgical operation with implant of artificial internal device causing abnormal patient reaction, or later complication,without mention of misadventure at time of operation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E8781",
+        "display": "Surgical operation with implant of artificial internal device causing abnormal patient reaction, or later complication,without mention of misadventure at time of operation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:cond-123701-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Nonspecific elevation of levels of transaminase or lactic acid dehydrogenase [LDH]",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "7904",
+        "display": "Nonspecific elevation of levels of transaminase or lactic acid dehydrogenase [LDH]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:cond-123701-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Anemia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2859",
+        "display": "Anemia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:cond-123701-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Other specified cardiac dysrhythmias",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42789",
+        "display": "Other specified cardiac dysrhythmias"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:cond-123701-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Abnormal coagulation profile",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "79092",
+        "display": "Abnormal coagulation profile"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:cond-123701-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Unspecified disorder of joint, lower leg",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "71996",
+        "display": "Unspecified disorder of joint, lower leg"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:cond-123701-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Family history of malignant neoplasm of breast",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V163",
+        "display": "Family history of malignant neoplasm of breast"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:cond-123701-21",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Open and other replacement of aortic valve",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Open and other replacement of aortic valve"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:proc-123701-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Other operations on valves of heart",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other operations on valves of heart"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:proc-123701-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Extracorporeal circulation auxiliary to open heart surgery",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Extracorporeal circulation auxiliary to open heart surgery"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:proc-123701-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Intraoperative cardiac pacemaker",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Intraoperative cardiac pacemaker"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:proc-123701-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Other electric countershock of heart",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other electric countershock of heart"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:proc-123701-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Diagnostic ultrasound of heart",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Diagnostic ultrasound of heart"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:proc-123701-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:proc-123701-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:proc-123701-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Laryngoscopy and other tracheoscopy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Laryngoscopy and other tracheoscopy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:proc-123701-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Arthrocentesis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arthrocentesis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:proc-123701-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Arthrocentesis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Arthrocentesis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:proc-123701-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Other intubation of respiratory tract",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other intubation of respiratory tract"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:proc-123701-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:proc-123701-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:14",
+      "kind": "procedure",
+      "display": "Diagnostic ultrasound of heart",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Diagnostic ultrasound of heart"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:proc-123701-14",
+      "text": null
+    },
+    {
+      "id": "E:proc:15",
+      "kind": "procedure",
+      "display": "Transfusion of other serum",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of other serum"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:proc-123701-15",
+      "text": null
+    },
+    {
+      "id": "E:proc:16",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:proc-123701-16",
+      "text": null
+    },
+    {
+      "id": "E:proc:17",
+      "kind": "procedure",
+      "display": "Diagnostic ultrasound of heart",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Diagnostic ultrasound of heart"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:proc-123701-17",
+      "text": null
+    },
+    {
+      "id": "E:proc:18",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2130-11-11",
+      "source_ref": "urn:uuid:proc-123701-18",
+      "text": null
+    },
+    {
+      "id": "E:note:row419476:1",
+      "kind": "note_sentence",
+      "display": "35 YO male,  primarily [** 1195**] speaking, Pt lives with siblings in [**Locati",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s1",
+      "text": "35 YO male,  primarily [** 1195**] speaking, Pt lives with siblings in [**Location (un) **] he works full time at [**Company **], was healthy active person    but  had not been felling well,  having fever, chills, malaise seen by    multiple MDs."
+    },
+    {
+      "id": "E:note:row419476:2",
+      "kind": "note_sentence",
+      "display": "On Cipro x 2days for UTI, later switched to Amox.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s2",
+      "text": "On Cipro x 2days for UTI, later switched to Amox."
+    },
+    {
+      "id": "E:note:row419476:3",
+      "kind": "note_sentence",
+      "display": "Pt    developed cough, pleuritic chest pain, SOB, orthopnea 2 days prior to    a",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s3",
+      "text": "Pt    developed cough, pleuritic chest pain, SOB, orthopnea 2 days prior to    admission, temp up to 103."
+    },
+    {
+      "id": "E:note:row419476:4",
+      "kind": "note_sentence",
+      "display": "[**11-11**] started on po Cipro for leukocytes in    urine, temp spike.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s4",
+      "text": "[**11-11**] started on po Cipro for leukocytes in    urine, temp spike."
+    },
+    {
+      "id": "E:note:row419476:5",
+      "kind": "note_sentence",
+      "display": "[**11-12**] continued tachypnea, tachycardia.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s5",
+      "text": "[**11-12**] continued tachypnea, tachycardia."
+    },
+    {
+      "id": "E:note:row419476:6",
+      "kind": "note_sentence",
+      "display": "Temp spike    to 102.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s6",
+      "text": "Temp spike    to 102."
+    },
+    {
+      "id": "E:note:row419476:7",
+      "kind": "note_sentence",
+      "display": "High grade bacteremia [**5-5**] bc pos for GPC in pairs +clusters.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s7",
+      "text": "High grade bacteremia [**5-5**] bc pos for GPC in pairs +clusters."
+    },
+    {
+      "id": "E:note:row419476:8",
+      "kind": "note_sentence",
+      "display": "TEE done.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s8",
+      "text": "TEE done."
+    },
+    {
+      "id": "E:note:row419476:9",
+      "kind": "note_sentence",
+      "display": "Preliminary  report w/ severe AR w/ flail leaflet. ?abcess in    annules, mild M",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s9",
+      "text": "Preliminary  report w/ severe AR w/ flail leaflet. ?abcess in    annules, mild MR. [**First Name (Titles) **] [**Last Name (Titles) 2656**]."
+    },
+    {
+      "id": "E:note:row419476:10",
+      "kind": "note_sentence",
+      "display": "Pt has congenital aortic valve malformation    which made him more a candidate f",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s10",
+      "text": "Pt has congenital aortic valve malformation    which made him more a candidate for Endocarditis."
+    },
+    {
+      "id": "E:note:row419476:11",
+      "kind": "note_sentence",
+      "display": "Bld for multiple    serology labs sent, also daily blood cultures.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s11",
+      "text": "Bld for multiple    serology labs sent, also daily blood cultures."
+    },
+    {
+      "id": "E:note:row419476:12",
+      "kind": "note_sentence",
+      "display": "[**11-14**] Surgery    consulted->  Repeat  echo done today  Wednesday [**11-15*",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s12",
+      "text": "[**11-14**] Surgery    consulted->  Repeat  echo done today  Wednesday [**11-15**] showed worsening    hypertrophy and valve compromise,  ID consulted today, dental xrays    done , head imaging and CT chest/abd/pelvis to eval for septic emboli    also done this afternoon, look for reports in careweb, ."
+    },
+    {
+      "id": "E:note:row419476:13",
+      "kind": "note_sentence",
+      "display": "[**Name8 (MD) 2717**] MD    met with family and with interpreter, a family [**La",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s13",
+      "text": "[**Name8 (MD) 2717**] MD    met with family and with interpreter, a family [**Last Name (un) 2718**],  pt sister and    Next of [**Doctor First Name **]: Sister [**Name (NI) 2701**] [**Telephone/Fax (1) 2702**], They discussed treatment    options and because of his worsening heart failure Pt may have surgery    tomorrow in AM."
+    },
+    {
+      "id": "E:note:row419476:14",
+      "kind": "note_sentence",
+      "display": "Social services encouraged pt to fill out HCP, and    forms are in room, in [**N",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s14",
+      "text": "Social services encouraged pt to fill out HCP, and    forms are in room, in [**Name (NI) 1195**] and pt sister will likely be elected."
+    },
+    {
+      "id": "E:note:row419476:15",
+      "kind": "note_sentence",
+      "display": "PT    tolerated trips to CT and XRAY, remains tired, somewhat anxious, quiet    ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s15",
+      "text": "PT    tolerated trips to CT and XRAY, remains tired, somewhat anxious, quiet    but OX3 and converses."
+    },
+    {
+      "id": "E:note:row419476:16",
+      "kind": "note_sentence",
+      "display": "Able to get oob, transfers to chair with asiist    of two, tolerating being on 6",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s16",
+      "text": "Able to get oob, transfers to chair with asiist    of two, tolerating being on 6L for most of the day but will wear mask    PRN. Did desaturate in CT scan to 80 s improved with supplemental O2,    He barely tolerated laying flat coughing a lot, spitting up but no    evidence that he vomited."
+    },
+    {
+      "id": "E:note:row419476:17",
+      "kind": "note_sentence",
+      "display": "His aline is very poitional and mostly    inaccurate, intern updated regarding t",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s17",
+      "text": "His aline is very poitional and mostly    inaccurate, intern updated regarding that."
+    },
+    {
+      "id": "E:note:row419476:18",
+      "kind": "note_sentence",
+      "display": "Pt now comfortable, resting    in chair, captopril held due to lowish BP today, ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s18",
+      "text": "Pt now comfortable, resting    in chair, captopril held due to lowish BP today, and pt taking his    Flagyl  for CDIFF, and on increased dose vanco for low levels.    .H/O acute Respiratory Distress Syndrome (ARDS, Acute Lung Injury, [**Doctor Last Name 11**])    Assessment:    RR 30-40, but tolerating 6L NC for most of day. supplemental O2, PRN,    coughing in CT scan when laying flat otherwise o2 sats pretty stable."
+    },
+    {
+      "id": "E:note:row419476:19",
+      "kind": "note_sentence",
+      "display": "Action:    Continue wean o2 as tolerated, reassure pt.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s19",
+      "text": "Action:    Continue wean o2 as tolerated, reassure pt."
+    },
+    {
+      "id": "E:note:row419476:20",
+      "kind": "note_sentence",
+      "display": "Response:    PT states his breathing has improved.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s20",
+      "text": "Response:    PT states his breathing has improved."
+    },
+    {
+      "id": "E:note:row419476:21",
+      "kind": "note_sentence",
+      "display": "Plan:    Follow sats unable to get blood gas Aline ? clotted/vs positional.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s21",
+      "text": "Plan:    Follow sats unable to get blood gas Aline ? clotted/vs positional."
+    },
+    {
+      "id": "E:note:row419476:22",
+      "kind": "note_sentence",
+      "display": "Endocarditis, Bacterial    Assessment:    Tmax today 100.9 oral, blood cultures ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s22",
+      "text": "Endocarditis, Bacterial    Assessment:    Tmax today 100.9 oral, blood cultures sent x 2 ,  started flagy for    Cdiff, increased Vancomycin doses, and genta 180 mg  q 8, as before..    neuron intact, no abd pain, nailbeds clear no sign of septic emboli."
+    },
+    {
+      "id": "E:note:row419476:23",
+      "kind": "note_sentence",
+      "display": "Action:    Follow temp, cultures.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s23",
+      "text": "Action:    Follow temp, cultures."
+    },
+    {
+      "id": "E:note:row419476:24",
+      "kind": "note_sentence",
+      "display": "Continue assess for emboli, CV and resp neuro    status    Response:    Pt stabl",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s24",
+      "text": "Continue assess for emboli, CV and resp neuro    status    Response:    Pt stable, taking po fluids, Tylenol around the clock."
+    },
+    {
+      "id": "E:note:row419476:25",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue antibiotics follow levels.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s25",
+      "text": "Plan:    Continue antibiotics follow levels."
+    },
+    {
+      "id": "E:note:row419476:26",
+      "kind": "note_sentence",
+      "display": "Tylenol, NPO after midnight",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row419476#s26",
+      "text": "Tylenol, NPO after midnight"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|4210": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42831": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|03819": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99591": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5185": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42741": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|9980": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7464": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|00845": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2761": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2763": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4241": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42989": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E8781": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|7904": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2859": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42789": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|79092": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|71996": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V163": [
+      "E:cond:21"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "acute and subacute bacterial endocarditis": [
+      "E:cond:1"
+    ],
+    "acute diastolic heart failure": [
+      "E:cond:2"
+    ],
+    "other staphylococcal septicemia": [
+      "E:cond:3"
+    ],
+    "sepsis": [
+      "E:cond:4"
+    ],
+    "diagnosis": [
+      "E:cond:5",
+      "E:cond:7"
+    ],
+    "ventricular fibrillation": [
+      "E:cond:6"
+    ],
+    "congenital insufficiency of aortic valve": [
+      "E:cond:8"
+    ],
+    "intestinal infection due to clostridium difficile": [
+      "E:cond:9"
+    ],
+    "hyposmolality and/or hyponatremia": [
+      "E:cond:10"
+    ],
+    "alkalosis": [
+      "E:cond:11"
+    ],
+    "aortic valve disorders": [
+      "E:cond:12"
+    ],
+    "other ill-defined heart diseases": [
+      "E:cond:13"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:14"
+    ],
+    "surgical operation with implant of artificial internal device causing abnormal patient reaction, or later complication,without mention of misadventure at time of operation": [
+      "E:cond:15"
+    ],
+    "nonspecific elevation of levels of transaminase or lactic acid dehydrogenase [ldh]": [
+      "E:cond:16"
+    ],
+    "anemia, unspecified": [
+      "E:cond:17"
+    ],
+    "other specified cardiac dysrhythmias": [
+      "E:cond:18"
+    ],
+    "abnormal coagulation profile": [
+      "E:cond:19"
+    ],
+    "unspecified disorder of joint, lower leg": [
+      "E:cond:20"
+    ],
+    "family history of malignant neoplasm of breast": [
+      "E:cond:21"
+    ],
+    "open and other replacement of aortic valve": [
+      "E:proc:1"
+    ],
+    "other operations on valves of heart": [
+      "E:proc:2"
+    ],
+    "extracorporeal circulation auxiliary to open heart surgery": [
+      "E:proc:3"
+    ],
+    "intraoperative cardiac pacemaker": [
+      "E:proc:4"
+    ],
+    "other electric countershock of heart": [
+      "E:proc:5"
+    ],
+    "diagnostic ultrasound of heart": [
+      "E:proc:6",
+      "E:proc:14",
+      "E:proc:17"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:7"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:8"
+    ],
+    "laryngoscopy and other tracheoscopy": [
+      "E:proc:9"
+    ],
+    "arthrocentesis": [
+      "E:proc:10",
+      "E:proc:11"
+    ],
+    "other intubation of respiratory tract": [
+      "E:proc:12"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:13",
+      "E:proc:16",
+      "E:proc:18"
+    ],
+    "transfusion of other serum": [
+      "E:proc:15"
+    ],
+    "35 yo male, primarily [** 1195**] speaking, pt lives with siblings in [**locati": [
+      "E:note:row419476:1"
+    ],
+    "on cipro x 2days for uti, later switched to amox.": [
+      "E:note:row419476:2"
+    ],
+    "pt developed cough, pleuritic chest pain, sob, orthopnea 2 days prior to a": [
+      "E:note:row419476:3"
+    ],
+    "[**11-11**] started on po cipro for leukocytes in urine, temp spike.": [
+      "E:note:row419476:4"
+    ],
+    "[**11-12**] continued tachypnea, tachycardia.": [
+      "E:note:row419476:5"
+    ],
+    "temp spike to 102.": [
+      "E:note:row419476:6"
+    ],
+    "high grade bacteremia [**5-5**] bc pos for gpc in pairs +clusters.": [
+      "E:note:row419476:7"
+    ],
+    "tee done.": [
+      "E:note:row419476:8"
+    ],
+    "preliminary report w/ severe ar w/ flail leaflet. ?abcess in annules, mild m": [
+      "E:note:row419476:9"
+    ],
+    "pt has congenital aortic valve malformation which made him more a candidate f": [
+      "E:note:row419476:10"
+    ],
+    "bld for multiple serology labs sent, also daily blood cultures.": [
+      "E:note:row419476:11"
+    ],
+    "[**11-14**] surgery consulted-> repeat echo done today wednesday [**11-15*": [
+      "E:note:row419476:12"
+    ],
+    "[**name8 (md) 2717**] md met with family and with interpreter, a family [**la": [
+      "E:note:row419476:13"
+    ],
+    "social services encouraged pt to fill out hcp, and forms are in room, in [**n": [
+      "E:note:row419476:14"
+    ],
+    "pt tolerated trips to ct and xray, remains tired, somewhat anxious, quiet": [
+      "E:note:row419476:15"
+    ],
+    "able to get oob, transfers to chair with asiist of two, tolerating being on 6": [
+      "E:note:row419476:16"
+    ],
+    "his aline is very poitional and mostly inaccurate, intern updated regarding t": [
+      "E:note:row419476:17"
+    ],
+    "pt now comfortable, resting in chair, captopril held due to lowish bp today,": [
+      "E:note:row419476:18"
+    ],
+    "action: continue wean o2 as tolerated, reassure pt.": [
+      "E:note:row419476:19"
+    ],
+    "response: pt states his breathing has improved.": [
+      "E:note:row419476:20"
+    ],
+    "plan: follow sats unable to get blood gas aline ? clotted/vs positional.": [
+      "E:note:row419476:21"
+    ],
+    "endocarditis, bacterial assessment: tmax today 100.9 oral, blood cultures": [
+      "E:note:row419476:22"
+    ],
+    "action: follow temp, cultures.": [
+      "E:note:row419476:23"
+    ],
+    "continue assess for emboli, cv and resp neuro status response: pt stabl": [
+      "E:note:row419476:24"
+    ],
+    "plan: continue antibiotics follow levels.": [
+      "E:note:row419476:25"
+    ],
+    "tylenol, npo after midnight": [
+      "E:note:row419476:26"
+    ]
+  },
+  "by_date": {
+    "2130-11-11": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13",
+      "E:proc:14",
+      "E:proc:15",
+      "E:proc:16",
+      "E:proc:17",
+      "E:proc:18"
+    ]
+  }
+}

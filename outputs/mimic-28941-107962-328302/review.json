@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Acute respiratory failure [E:cond:3][E:note:row328302:1].",
+      "severity": "low",
+      "reason": "Citation E:note:row328302:1 is not present in the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Acute respiratory failure [E:cond:3][E:note:row328302:1].",
+      "suggested": "Acute respiratory failure [E:cond:3].",
+      "reason": "Remove citation not found in the fact sheet."
+    }
+  ]
+}

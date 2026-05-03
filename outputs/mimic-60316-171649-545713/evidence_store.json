@@ -1,0 +1,1101 @@
+{
+  "case_id": "mimic-60316-171649-545713",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:enc-171649",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Malignant neoplasm of hepatic flexure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1530",
+        "display": "Malignant neoplasm of hepatic flexure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:cond-171649-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute on chronic diastolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42833",
+        "display": "Acute on chronic diastolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:cond-171649-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Other specified intestinal obstruction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "56089",
+        "display": "Other specified intestinal obstruction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:cond-171649-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5185",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:cond-171649-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Acute kidney failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5849",
+        "display": "Acute kidney failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:cond-171649-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Pulmonary collapse",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5180",
+        "display": "Pulmonary collapse"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:cond-171649-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:cond-171649-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Urinary complications, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9975",
+        "display": "Urinary complications, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:cond-171649-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Other iatrogenic hypotension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "45829",
+        "display": "Other iatrogenic hypotension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:cond-171649-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Chronic airway obstruction, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "496",
+        "display": "Chronic airway obstruction, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:cond-171649-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "40390",
+        "display": "Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:cond-171649-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Chronic kidney disease, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5859",
+        "display": "Chronic kidney disease, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:cond-171649-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25000",
+        "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:cond-171649-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Other and unspecified hyperlipidemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2724",
+        "display": "Other and unspecified hyperlipidemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:cond-171649-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Aortocoronary bypass status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4581",
+        "display": "Aortocoronary bypass status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:cond-171649-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Laparoscopic surgical procedure converted to open procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V6441",
+        "display": "Laparoscopic surgical procedure converted to open procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:cond-171649-16",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Open and other right hemicolectomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Open and other right hemicolectomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:proc-171649-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Large-to-large intestinal anastomosis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Large-to-large intestinal anastomosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:proc-171649-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of large intestine",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of large intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:proc-171649-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Transfusion of packed cells",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Transfusion of packed cells"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:proc-171649-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for less than 96 consecutive hours"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:proc-171649-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:proc-171649-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Non-invasive mechanical ventilation",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Non-invasive mechanical ventilation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2163-11-01",
+      "source_ref": "urn:uuid:proc-171649-7",
+      "text": null
+    },
+    {
+      "id": "E:note:row545713:1",
+      "kind": "note_sentence",
+      "display": "This is a 71 y.o male with 6 week hx.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s1",
+      "text": "This is a 71 y.o male with 6 week hx."
+    },
+    {
+      "id": "E:note:row545713:2",
+      "kind": "note_sentence",
+      "display": "Of diarrhea (non bloody) and    weakness.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s2",
+      "text": "Of diarrhea (non bloody) and    weakness."
+    },
+    {
+      "id": "E:note:row545713:3",
+      "kind": "note_sentence",
+      "display": "Pt. underwent screening colonoscopy on [**11-1**] which revealed    an obstructi",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s3",
+      "text": "Pt. underwent screening colonoscopy on [**11-1**] which revealed    an obstructing/bleeding hepatic flexure mass."
+    },
+    {
+      "id": "E:note:row545713:4",
+      "kind": "note_sentence",
+      "display": "Bx done at that time.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s4",
+      "text": "Bx done at that time."
+    },
+    {
+      "id": "E:note:row545713:5",
+      "kind": "note_sentence",
+      "display": "PMhx.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s5",
+      "text": "PMhx."
+    },
+    {
+      "id": "E:note:row545713:6",
+      "kind": "note_sentence",
+      "display": "CHF, HTN, Hyperlipedemia, COPD, DM II, ischemic heart dz., s/p CABG x2    in [**",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s6",
+      "text": "CHF, HTN, Hyperlipedemia, COPD, DM II, ischemic heart dz., s/p CABG x2    in [**2158**]."
+    },
+    {
+      "id": "E:note:row545713:7",
+      "kind": "note_sentence",
+      "display": "Today Pt. went to OR for scheduled lap colectomy that turned into open    colect",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s7",
+      "text": "Today Pt. went to OR for scheduled lap colectomy that turned into open    colectomy."
+    },
+    {
+      "id": "E:note:row545713:8",
+      "kind": "note_sentence",
+      "display": "Pt. failed extubation in OR and reintubated there.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s8",
+      "text": "Pt. failed extubation in OR and reintubated there."
+    },
+    {
+      "id": "E:note:row545713:9",
+      "kind": "note_sentence",
+      "display": "Also Pt.    had been hypotensive to 60 s systolic and non responsive to neo    b",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s9",
+      "text": "Also Pt.    had been hypotensive to 60 s systolic and non responsive to neo    boluses."
+    },
+    {
+      "id": "E:note:row545713:10",
+      "kind": "note_sentence",
+      "display": "Started on Neo gtt.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s10",
+      "text": "Started on Neo gtt."
+    },
+    {
+      "id": "E:note:row545713:11",
+      "kind": "note_sentence",
+      "display": "CXR consistent with CHF and pt. recived 40    mg IV lasix in PACU.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s11",
+      "text": "CXR consistent with CHF and pt. recived 40    mg IV lasix in PACU."
+    },
+    {
+      "id": "E:note:row545713:12",
+      "kind": "note_sentence",
+      "display": "EBL minimal per PACU report.    .H/O heart failure (CHF), Diastolic, Acute on Ch",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s12",
+      "text": "EBL minimal per PACU report.    .H/O heart failure (CHF), Diastolic, Acute on Chronic    Assessment:    Pt. failed extubation in OR."
+    },
+    {
+      "id": "E:note:row545713:13",
+      "kind": "note_sentence",
+      "display": "CXR showed CHF.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s13",
+      "text": "CXR showed CHF."
+    },
+    {
+      "id": "E:note:row545713:14",
+      "kind": "note_sentence",
+      "display": "Recived Lasix 40 mg in    PACU.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s14",
+      "text": "Recived Lasix 40 mg in    PACU."
+    },
+    {
+      "id": "E:note:row545713:15",
+      "kind": "note_sentence",
+      "display": "Hypotensive and on Neo upon transfer from PACU.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s15",
+      "text": "Hypotensive and on Neo upon transfer from PACU."
+    },
+    {
+      "id": "E:note:row545713:16",
+      "kind": "note_sentence",
+      "display": "Propofol weaned    down from 25mcg to 15mcg for sedation.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s16",
+      "text": "Propofol weaned    down from 25mcg to 15mcg for sedation."
+    },
+    {
+      "id": "E:note:row545713:17",
+      "kind": "note_sentence",
+      "display": "Action:    Repeat cxr in MICU.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s17",
+      "text": "Action:    Repeat cxr in MICU."
+    },
+    {
+      "id": "E:note:row545713:18",
+      "kind": "note_sentence",
+      "display": "Neo weaned off and BP stable at 100 s systolic.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s18",
+      "text": "Neo weaned off and BP stable at 100 s systolic."
+    },
+    {
+      "id": "E:note:row545713:19",
+      "kind": "note_sentence",
+      "display": "Response:    Maintaining BP at 110 s/50 s with MAP>70.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s19",
+      "text": "Response:    Maintaining BP at 110 s/50 s with MAP>70."
+    },
+    {
+      "id": "E:note:row545713:20",
+      "kind": "note_sentence",
+      "display": "HR 70 s NSR with no ectopy    noted.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s20",
+      "text": "HR 70 s NSR with no ectopy    noted."
+    },
+    {
+      "id": "E:note:row545713:21",
+      "kind": "note_sentence",
+      "display": "Second set of cardiac enzymes sent at 1800 and pending.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s21",
+      "text": "Second set of cardiac enzymes sent at 1800 and pending."
+    },
+    {
+      "id": "E:note:row545713:22",
+      "kind": "note_sentence",
+      "display": "Plan:    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Asses",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s22",
+      "text": "Plan:    Respiratory failure, acute (not ARDS/[**Doctor Last Name 2**])    Assessment:    Hx."
+    },
+    {
+      "id": "E:note:row545713:23",
+      "kind": "note_sentence",
+      "display": "Of COPD.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s23",
+      "text": "Of COPD."
+    },
+    {
+      "id": "E:note:row545713:24",
+      "kind": "note_sentence",
+      "display": "Failed extubation post surgery.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s24",
+      "text": "Failed extubation post surgery."
+    },
+    {
+      "id": "E:note:row545713:25",
+      "kind": "note_sentence",
+      "display": "Recived from PACU    intubated on A/C 460x 14 PEEP5 and 60% FiO2.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s25",
+      "text": "Recived from PACU    intubated on A/C 460x 14 PEEP5 and 60% FiO2."
+    },
+    {
+      "id": "E:note:row545713:26",
+      "kind": "note_sentence",
+      "display": "LS clear and diminished at    bases.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s26",
+      "text": "LS clear and diminished at    bases."
+    },
+    {
+      "id": "E:note:row545713:27",
+      "kind": "note_sentence",
+      "display": "ABG 7.30/54/193 at 1700.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s27",
+      "text": "ABG 7.30/54/193 at 1700."
+    },
+    {
+      "id": "E:note:row545713:28",
+      "kind": "note_sentence",
+      "display": "Action:    Vent changed to CPAP 5/5 with 40%.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s28",
+      "text": "Action:    Vent changed to CPAP 5/5 with 40%."
+    },
+    {
+      "id": "E:note:row545713:29",
+      "kind": "note_sentence",
+      "display": "Response:    Repeat ABG at 1800    Plan:    [**Last Name 19**] Problem  s/p open",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s29",
+      "text": "Response:    Repeat ABG at 1800    Plan:    [**Last Name 19**] Problem  s/p open colectomy    Assessment:    Pt. s/p open colectomy today for obstructive mass."
+    },
+    {
+      "id": "E:note:row545713:30",
+      "kind": "note_sentence",
+      "display": "Low abd.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s30",
+      "text": "Low abd."
+    },
+    {
+      "id": "E:note:row545713:31",
+      "kind": "note_sentence",
+      "display": "Midline    incision covered with DSD and tegaderm.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s31",
+      "text": "Midline    incision covered with DSD and tegaderm."
+    },
+    {
+      "id": "E:note:row545713:32",
+      "kind": "note_sentence",
+      "display": "Srtyker pump infusing    Bupivicane to wound.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s32",
+      "text": "Srtyker pump infusing    Bupivicane to wound."
+    },
+    {
+      "id": "E:note:row545713:33",
+      "kind": "note_sentence",
+      "display": "Action:    Monitor incision site for s/s of bleeding.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s33",
+      "text": "Action:    Monitor incision site for s/s of bleeding."
+    },
+    {
+      "id": "E:note:row545713:34",
+      "kind": "note_sentence",
+      "display": "Response:    Dsg.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s34",
+      "text": "Response:    Dsg."
+    },
+    {
+      "id": "E:note:row545713:35",
+      "kind": "note_sentence",
+      "display": "Remains CDI.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s35",
+      "text": "Remains CDI."
+    },
+    {
+      "id": "E:note:row545713:36",
+      "kind": "note_sentence",
+      "display": "BS hypoactive.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s36",
+      "text": "BS hypoactive."
+    },
+    {
+      "id": "E:note:row545713:37",
+      "kind": "note_sentence",
+      "display": "Pt.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s37",
+      "text": "Pt."
+    },
+    {
+      "id": "E:note:row545713:38",
+      "kind": "note_sentence",
+      "display": "NPO.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s38",
+      "text": "NPO."
+    },
+    {
+      "id": "E:note:row545713:39",
+      "kind": "note_sentence",
+      "display": "Pt. shakes head no when    asked if in pain.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s39",
+      "text": "Pt. shakes head no when    asked if in pain."
+    },
+    {
+      "id": "E:note:row545713:40",
+      "kind": "note_sentence",
+      "display": "Plan:    Cont. to monitor.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s40",
+      "text": "Plan:    Cont. to monitor."
+    },
+    {
+      "id": "E:note:row545713:41",
+      "kind": "note_sentence",
+      "display": "Maintain pump for 72hr as ordered.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s41",
+      "text": "Maintain pump for 72hr as ordered."
+    },
+    {
+      "id": "E:note:row545713:42",
+      "kind": "note_sentence",
+      "display": "Surgery will    remove pump.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row545713#s42",
+      "text": "Surgery will    remove pump."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|1530": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42833": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|56089": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5185": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5849": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5180": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|9975": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|45829": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|496": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|40390": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5859": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25000": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2724": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4581": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V6441": [
+      "E:cond:16"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "malignant neoplasm of hepatic flexure": [
+      "E:cond:1"
+    ],
+    "acute on chronic diastolic heart failure": [
+      "E:cond:2"
+    ],
+    "other specified intestinal obstruction": [
+      "E:cond:3"
+    ],
+    "diagnosis": [
+      "E:cond:4"
+    ],
+    "acute kidney failure, unspecified": [
+      "E:cond:5"
+    ],
+    "pulmonary collapse": [
+      "E:cond:6"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:7"
+    ],
+    "urinary complications, not elsewhere classified": [
+      "E:cond:8"
+    ],
+    "other iatrogenic hypotension": [
+      "E:cond:9"
+    ],
+    "chronic airway obstruction, not elsewhere classified": [
+      "E:cond:10"
+    ],
+    "hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage i through stage iv, or unspecified": [
+      "E:cond:11"
+    ],
+    "chronic kidney disease, unspecified": [
+      "E:cond:12"
+    ],
+    "diabetes mellitus without mention of complication, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:13"
+    ],
+    "other and unspecified hyperlipidemia": [
+      "E:cond:14"
+    ],
+    "aortocoronary bypass status": [
+      "E:cond:15"
+    ],
+    "laparoscopic surgical procedure converted to open procedure": [
+      "E:cond:16"
+    ],
+    "open and other right hemicolectomy": [
+      "E:proc:1"
+    ],
+    "large-to-large intestinal anastomosis": [
+      "E:proc:2"
+    ],
+    "closed [endoscopic] biopsy of large intestine": [
+      "E:proc:3"
+    ],
+    "transfusion of packed cells": [
+      "E:proc:4"
+    ],
+    "continuous invasive mechanical ventilation for less than 96 consecutive hours": [
+      "E:proc:5"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:6"
+    ],
+    "non-invasive mechanical ventilation": [
+      "E:proc:7"
+    ],
+    "this is a 71 y.o male with 6 week hx.": [
+      "E:note:row545713:1"
+    ],
+    "of diarrhea (non bloody) and weakness.": [
+      "E:note:row545713:2"
+    ],
+    "pt. underwent screening colonoscopy on [**11-1**] which revealed an obstructi": [
+      "E:note:row545713:3"
+    ],
+    "bx done at that time.": [
+      "E:note:row545713:4"
+    ],
+    "pmhx.": [
+      "E:note:row545713:5"
+    ],
+    "chf, htn, hyperlipedemia, copd, dm ii, ischemic heart dz., s/p cabg x2 in [**": [
+      "E:note:row545713:6"
+    ],
+    "today pt. went to or for scheduled lap colectomy that turned into open colect": [
+      "E:note:row545713:7"
+    ],
+    "pt. failed extubation in or and reintubated there.": [
+      "E:note:row545713:8"
+    ],
+    "also pt. had been hypotensive to 60 s systolic and non responsive to neo b": [
+      "E:note:row545713:9"
+    ],
+    "started on neo gtt.": [
+      "E:note:row545713:10"
+    ],
+    "cxr consistent with chf and pt. recived 40 mg iv lasix in pacu.": [
+      "E:note:row545713:11"
+    ],
+    "ebl minimal per pacu report. .h/o heart failure (chf), diastolic, acute on ch": [
+      "E:note:row545713:12"
+    ],
+    "cxr showed chf.": [
+      "E:note:row545713:13"
+    ],
+    "recived lasix 40 mg in pacu.": [
+      "E:note:row545713:14"
+    ],
+    "hypotensive and on neo upon transfer from pacu.": [
+      "E:note:row545713:15"
+    ],
+    "propofol weaned down from 25mcg to 15mcg for sedation.": [
+      "E:note:row545713:16"
+    ],
+    "action: repeat cxr in micu.": [
+      "E:note:row545713:17"
+    ],
+    "neo weaned off and bp stable at 100 s systolic.": [
+      "E:note:row545713:18"
+    ],
+    "response: maintaining bp at 110 s/50 s with map>70.": [
+      "E:note:row545713:19"
+    ],
+    "hr 70 s nsr with no ectopy noted.": [
+      "E:note:row545713:20"
+    ],
+    "second set of cardiac enzymes sent at 1800 and pending.": [
+      "E:note:row545713:21"
+    ],
+    "plan: respiratory failure, acute (not ards/[**doctor last name 2**]) asses": [
+      "E:note:row545713:22"
+    ],
+    "of copd.": [
+      "E:note:row545713:23"
+    ],
+    "failed extubation post surgery.": [
+      "E:note:row545713:24"
+    ],
+    "recived from pacu intubated on a/c 460x 14 peep5 and 60% fio2.": [
+      "E:note:row545713:25"
+    ],
+    "ls clear and diminished at bases.": [
+      "E:note:row545713:26"
+    ],
+    "abg 7.30/54/193 at 1700.": [
+      "E:note:row545713:27"
+    ],
+    "action: vent changed to cpap 5/5 with 40%.": [
+      "E:note:row545713:28"
+    ],
+    "response: repeat abg at 1800 plan: [**last name 19**] problem s/p open": [
+      "E:note:row545713:29"
+    ],
+    "low abd.": [
+      "E:note:row545713:30"
+    ],
+    "midline incision covered with dsd and tegaderm.": [
+      "E:note:row545713:31"
+    ],
+    "srtyker pump infusing bupivicane to wound.": [
+      "E:note:row545713:32"
+    ],
+    "action: monitor incision site for s/s of bleeding.": [
+      "E:note:row545713:33"
+    ],
+    "response: dsg.": [
+      "E:note:row545713:34"
+    ],
+    "remains cdi.": [
+      "E:note:row545713:35"
+    ],
+    "bs hypoactive.": [
+      "E:note:row545713:36"
+    ],
+    "pt.": [
+      "E:note:row545713:37"
+    ],
+    "npo.": [
+      "E:note:row545713:38"
+    ],
+    "pt. shakes head no when asked if in pain.": [
+      "E:note:row545713:39"
+    ],
+    "plan: cont. to monitor.": [
+      "E:note:row545713:40"
+    ],
+    "maintain pump for 72hr as ordered.": [
+      "E:note:row545713:41"
+    ],
+    "surgery will remove pump.": [
+      "E:note:row545713:42"
+    ]
+  },
+  "by_date": {
+    "2163-11-01": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7"
+    ]
+  }
+}

@@ -1,0 +1,1131 @@
+{
+  "case_id": "mimic-47829-175022-600943",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:enc-175022",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Lyme Disease",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "08881",
+        "display": "Lyme Disease"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:cond-175022-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Other encephalitis and encephalomyelitis due to other infections classified elsewhere",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "32341",
+        "display": "Other encephalitis and encephalomyelitis due to other infections classified elsewhere"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:cond-175022-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:cond-175022-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Obstructive chronic bronchitis with (acute) exacerbation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "49121",
+        "display": "Obstructive chronic bronchitis with (acute) exacerbation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:cond-175022-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Hyperosmolality and/or hypernatremia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2760",
+        "display": "Hyperosmolality and/or hypernatremia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:cond-175022-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Immune thrombocytopenic purpura",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "28731",
+        "display": "Immune thrombocytopenic purpura"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:cond-175022-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Delirium due to conditions classified elsewhere",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2930",
+        "display": "Delirium due to conditions classified elsewhere"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:cond-175022-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Pulmonary collapse",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5180",
+        "display": "Pulmonary collapse"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:cond-175022-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Other and unspecified alcohol dependence, continuous",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "30391",
+        "display": "Other and unspecified alcohol dependence, continuous"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:cond-175022-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Tobacco use disorder",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "3051",
+        "display": "Tobacco use disorder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:cond-175022-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Hypotension, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4589",
+        "display": "Hypotension, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:cond-175022-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Corneal ulcer, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "37000",
+        "display": "Corneal ulcer, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:cond-175022-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Internal hemorrhoids with other complication",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4552",
+        "display": "Internal hemorrhoids with other complication"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:cond-175022-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Other constipation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "56409",
+        "display": "Other constipation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:cond-175022-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:cond-175022-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Diaphragmatic hernia without mention of obstruction or gangrene",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5533",
+        "display": "Diaphragmatic hernia without mention of obstruction or gangrene"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:cond-175022-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Other specified cardiac dysrhythmias",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42789",
+        "display": "Other specified cardiac dysrhythmias"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:cond-175022-17",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Temporary tracheostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Temporary tracheostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:proc-175022-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Blepharorrhaphy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Blepharorrhaphy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:proc-175022-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Fiber-optic bronchoscopy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Fiber-optic bronchoscopy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:proc-175022-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Percutaneous [endoscopic] gastrostomy [PEG]",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous [endoscopic] gastrostomy [PEG]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:proc-175022-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:proc-175022-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:proc-175022-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:proc-175022-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Insertion of endotracheal tube",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Insertion of endotracheal tube"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:proc-175022-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:proc-175022-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:proc-175022-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:proc-175022-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:proc-175022-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Spinal tap",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Spinal tap"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:proc-175022-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:14",
+      "kind": "procedure",
+      "display": "Spinal tap",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Spinal tap"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:proc-175022-14",
+      "text": null
+    },
+    {
+      "id": "E:proc:15",
+      "kind": "procedure",
+      "display": "Fiber-optic bronchoscopy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Fiber-optic bronchoscopy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:proc-175022-15",
+      "text": null
+    },
+    {
+      "id": "E:proc:16",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:proc-175022-16",
+      "text": null
+    },
+    {
+      "id": "E:proc:17",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2102-09-27",
+      "source_ref": "urn:uuid:proc-175022-17",
+      "text": null
+    },
+    {
+      "id": "E:note:row600943:1",
+      "kind": "note_sentence",
+      "display": "63 yo male w/ 5+ week hx of worsening, ascending R sided neurological    deficit",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s1",
+      "text": "63 yo male w/ 5+ week hx of worsening, ascending R sided neurological    deficits including facial droop, R arm hemiparesis, L leg weakness, + R    sided pronator drift."
+    },
+    {
+      "id": "E:note:row600943:2",
+      "kind": "note_sentence",
+      "display": "Speech intact, a+ox3.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s2",
+      "text": "Speech intact, a+ox3."
+    },
+    {
+      "id": "E:note:row600943:3",
+      "kind": "note_sentence",
+      "display": "Pt also w/ c/o    significant back pain, worsening in last week.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s3",
+      "text": "Pt also w/ c/o    significant back pain, worsening in last week."
+    },
+    {
+      "id": "E:note:row600943:4",
+      "kind": "note_sentence",
+      "display": "Pt went to several OSH    for treatment, eventually being transferred from [**Ho",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s4",
+      "text": "Pt went to several OSH    for treatment, eventually being transferred from [**Hospital 3934**] Hosp for stroke    r/o.   other incidental findings: partial LLL collapse, +atelectasis."
+    },
+    {
+      "id": "E:note:row600943:5",
+      "kind": "note_sentence",
+      "display": "Lyme disease    Assessment:    See neuro deficits above, +lyme titer reported fr",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s5",
+      "text": "Lyme disease    Assessment:    See neuro deficits above, +lyme titer reported from PCP [**Name Initial (PRE) **] office."
+    },
+    {
+      "id": "E:note:row600943:6",
+      "kind": "note_sentence",
+      "display": "Repeat titer pending here.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s6",
+      "text": "Repeat titer pending here."
+    },
+    {
+      "id": "E:note:row600943:7",
+      "kind": "note_sentence",
+      "display": "Pt being r/o for several other infectious    processes at this time, including v",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s7",
+      "text": "Pt being r/o for several other infectious    processes at this time, including viral vs bacterial vs fungal    meningitis."
+    },
+    {
+      "id": "E:note:row600943:8",
+      "kind": "note_sentence",
+      "display": "Action:    CSF cx pending, (prelim gram stain +WBCs), airborne resp precautions ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s8",
+      "text": "Action:    CSF cx pending, (prelim gram stain +WBCs), airborne resp precautions    upgraded to droplet prec d/t very low likelihood of TB."
+    },
+    {
+      "id": "E:note:row600943:9",
+      "kind": "note_sentence",
+      "display": "Ceftriaxone to    cover lyme dx, multi empiric abx coverage continued.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s9",
+      "text": "Ceftriaxone to    cover lyme dx, multi empiric abx coverage continued."
+    },
+    {
+      "id": "E:note:row600943:10",
+      "kind": "note_sentence",
+      "display": "MRI completed    yesterday, being read further by radiology and neuro.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s10",
+      "text": "MRI completed    yesterday, being read further by radiology and neuro."
+    },
+    {
+      "id": "E:note:row600943:11",
+      "kind": "note_sentence",
+      "display": "Response:    Remains afebrile, neuro exam stable.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s11",
+      "text": "Response:    Remains afebrile, neuro exam stable."
+    },
+    {
+      "id": "E:note:row600943:12",
+      "kind": "note_sentence",
+      "display": "Per son, overall R sided arm    appears weaker than in last 48hrs, though exam u",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s12",
+      "text": "Per son, overall R sided arm    appears weaker than in last 48hrs, though exam unchanged acutely today    [**Name6 (MD) 24**] this RN s assessment."
+    },
+    {
+      "id": "E:note:row600943:13",
+      "kind": "note_sentence",
+      "display": "Perrla, a+ox3, speech clear, swallow, gag,    cough intact.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s13",
+      "text": "Perrla, a+ox3, speech clear, swallow, gag,    cough intact."
+    },
+    {
+      "id": "E:note:row600943:14",
+      "kind": "note_sentence",
+      "display": "Plan:    Await all pending cx and serologies, follow temps, neuro exam, white   ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s14",
+      "text": "Plan:    Await all pending cx and serologies, follow temps, neuro exam, white    count daily."
+    },
+    {
+      "id": "E:note:row600943:15",
+      "kind": "note_sentence",
+      "display": "Await final read of MRI.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s15",
+      "text": "Await final read of MRI."
+    },
+    {
+      "id": "E:note:row600943:16",
+      "kind": "note_sentence",
+      "display": "Dyspnea (Shortness of breath)    Assessment:    Extubated this am w/out difficul",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s16",
+      "text": "Dyspnea (Shortness of breath)    Assessment:    Extubated this am w/out difficulty, o2 sats mid 90s on 50% face tent    o2.  over day, breathing effort worsening, o2 sats dropping to low-mid    80s on room air, sats stable on o2."
+    },
+    {
+      "id": "E:note:row600943:17",
+      "kind": "note_sentence",
+      "display": "LS very diminished, intermittent    wheezing noted to upper fields.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s17",
+      "text": "LS very diminished, intermittent    wheezing noted to upper fields."
+    },
+    {
+      "id": "E:note:row600943:18",
+      "kind": "note_sentence",
+      "display": "Action:    Fio2 increased, freq pulm toileting, cough/deep breathing, OOB to cha",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s18",
+      "text": "Action:    Fio2 increased, freq pulm toileting, cough/deep breathing, OOB to chair    x1 w/ assist."
+    },
+    {
+      "id": "E:note:row600943:19",
+      "kind": "note_sentence",
+      "display": "Chest PT intermittently, adeq pain control w/ prn meds,    prn nebs for wheezing",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s19",
+      "text": "Chest PT intermittently, adeq pain control w/ prn meds,    prn nebs for wheezing."
+    },
+    {
+      "id": "E:note:row600943:20",
+      "kind": "note_sentence",
+      "display": "CXR this evening.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s20",
+      "text": "CXR this evening."
+    },
+    {
+      "id": "E:note:row600943:21",
+      "kind": "note_sentence",
+      "display": "Response:    Breathing pattern not improving over day, in fact worsening, slight",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s21",
+      "text": "Response:    Breathing pattern not improving over day, in fact worsening, slightly    more tachypneic this pm, to high 20s at times.  f/u CXR shows signif    worsened LLL collapse."
+    },
+    {
+      "id": "E:note:row600943:22",
+      "kind": "note_sentence",
+      "display": "LS remain diminished, although wheezing    improved.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s22",
+      "text": "LS remain diminished, although wheezing    improved."
+    },
+    {
+      "id": "E:note:row600943:23",
+      "kind": "note_sentence",
+      "display": "O2 sats at best mid 90s on 100% face tent o2.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s23",
+      "text": "O2 sats at best mid 90s on 100% face tent o2."
+    },
+    {
+      "id": "E:note:row600943:24",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue pulm toileting, oral care routinely.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s24",
+      "text": "Plan:    Continue pulm toileting, oral care routinely."
+    },
+    {
+      "id": "E:note:row600943:25",
+      "kind": "note_sentence",
+      "display": "Plan for mask bipap this    evening if pt will tolerate.  100% fio2 supplemented",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s25",
+      "text": "Plan for mask bipap this    evening if pt will tolerate.  100% fio2 supplemented in meantime."
+    },
+    {
+      "id": "E:note:row600943:26",
+      "kind": "note_sentence",
+      "display": "Acute Pain    Assessment:    c/o back and neck pain intermittently.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s26",
+      "text": "Acute Pain    Assessment:    c/o back and neck pain intermittently."
+    },
+    {
+      "id": "E:note:row600943:27",
+      "kind": "note_sentence",
+      "display": "Action:    Prn Dilaudid dosing, warm packs to neck, freq repositioning.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s27",
+      "text": "Action:    Prn Dilaudid dosing, warm packs to neck, freq repositioning."
+    },
+    {
+      "id": "E:note:row600943:28",
+      "kind": "note_sentence",
+      "display": "Response:    Dilaudid effective, pt much more comfortable, less restless, breath",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s28",
+      "text": "Response:    Dilaudid effective, pt much more comfortable, less restless, breathing    much less labored after dosing."
+    },
+    {
+      "id": "E:note:row600943:29",
+      "kind": "note_sentence",
+      "display": "Turns helpful as well.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s29",
+      "text": "Turns helpful as well."
+    },
+    {
+      "id": "E:note:row600943:30",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue current regimen, advance to longer acting po meds once taking ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row600943#s30",
+      "text": "Plan:    Continue current regimen, advance to longer acting po meds once taking    po consistently."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|08881": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|32341": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|49121": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2760": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|28731": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2930": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5180": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|30391": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|3051": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4589": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|37000": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4552": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|56409": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5533": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42789": [
+      "E:cond:17"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "lyme disease": [
+      "E:cond:1"
+    ],
+    "other encephalitis and encephalomyelitis due to other infections classified elsewhere": [
+      "E:cond:2"
+    ],
+    "acute respiratory failure": [
+      "E:cond:3"
+    ],
+    "obstructive chronic bronchitis with (acute) exacerbation": [
+      "E:cond:4"
+    ],
+    "hyperosmolality and/or hypernatremia": [
+      "E:cond:5"
+    ],
+    "immune thrombocytopenic purpura": [
+      "E:cond:6"
+    ],
+    "delirium due to conditions classified elsewhere": [
+      "E:cond:7"
+    ],
+    "pulmonary collapse": [
+      "E:cond:8"
+    ],
+    "other and unspecified alcohol dependence, continuous": [
+      "E:cond:9"
+    ],
+    "tobacco use disorder": [
+      "E:cond:10"
+    ],
+    "hypotension, unspecified": [
+      "E:cond:11"
+    ],
+    "corneal ulcer, unspecified": [
+      "E:cond:12"
+    ],
+    "internal hemorrhoids with other complication": [
+      "E:cond:13"
+    ],
+    "other constipation": [
+      "E:cond:14"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:15"
+    ],
+    "diaphragmatic hernia without mention of obstruction or gangrene": [
+      "E:cond:16"
+    ],
+    "other specified cardiac dysrhythmias": [
+      "E:cond:17"
+    ],
+    "temporary tracheostomy": [
+      "E:proc:1"
+    ],
+    "blepharorrhaphy": [
+      "E:proc:2"
+    ],
+    "fiber-optic bronchoscopy": [
+      "E:proc:3",
+      "E:proc:15"
+    ],
+    "percutaneous [endoscopic] gastrostomy [peg]": [
+      "E:proc:4"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:5"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:6"
+    ],
+    "insertion of endotracheal tube": [
+      "E:proc:7",
+      "E:proc:8"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:9",
+      "E:proc:10"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:16",
+      "E:proc:17"
+    ],
+    "spinal tap": [
+      "E:proc:13",
+      "E:proc:14"
+    ],
+    "63 yo male w/ 5+ week hx of worsening, ascending r sided neurological deficit": [
+      "E:note:row600943:1"
+    ],
+    "speech intact, a+ox3.": [
+      "E:note:row600943:2"
+    ],
+    "pt also w/ c/o significant back pain, worsening in last week.": [
+      "E:note:row600943:3"
+    ],
+    "pt went to several osh for treatment, eventually being transferred from [**ho": [
+      "E:note:row600943:4"
+    ],
+    "lyme disease assessment: see neuro deficits above, +lyme titer reported fr": [
+      "E:note:row600943:5"
+    ],
+    "repeat titer pending here.": [
+      "E:note:row600943:6"
+    ],
+    "pt being r/o for several other infectious processes at this time, including v": [
+      "E:note:row600943:7"
+    ],
+    "action: csf cx pending, (prelim gram stain +wbcs), airborne resp precautions": [
+      "E:note:row600943:8"
+    ],
+    "ceftriaxone to cover lyme dx, multi empiric abx coverage continued.": [
+      "E:note:row600943:9"
+    ],
+    "mri completed yesterday, being read further by radiology and neuro.": [
+      "E:note:row600943:10"
+    ],
+    "response: remains afebrile, neuro exam stable.": [
+      "E:note:row600943:11"
+    ],
+    "per son, overall r sided arm appears weaker than in last 48hrs, though exam u": [
+      "E:note:row600943:12"
+    ],
+    "perrla, a+ox3, speech clear, swallow, gag, cough intact.": [
+      "E:note:row600943:13"
+    ],
+    "plan: await all pending cx and serologies, follow temps, neuro exam, white": [
+      "E:note:row600943:14"
+    ],
+    "await final read of mri.": [
+      "E:note:row600943:15"
+    ],
+    "dyspnea (shortness of breath) assessment: extubated this am w/out difficul": [
+      "E:note:row600943:16"
+    ],
+    "ls very diminished, intermittent wheezing noted to upper fields.": [
+      "E:note:row600943:17"
+    ],
+    "action: fio2 increased, freq pulm toileting, cough/deep breathing, oob to cha": [
+      "E:note:row600943:18"
+    ],
+    "chest pt intermittently, adeq pain control w/ prn meds, prn nebs for wheezing": [
+      "E:note:row600943:19"
+    ],
+    "cxr this evening.": [
+      "E:note:row600943:20"
+    ],
+    "response: breathing pattern not improving over day, in fact worsening, slight": [
+      "E:note:row600943:21"
+    ],
+    "ls remain diminished, although wheezing improved.": [
+      "E:note:row600943:22"
+    ],
+    "o2 sats at best mid 90s on 100% face tent o2.": [
+      "E:note:row600943:23"
+    ],
+    "plan: continue pulm toileting, oral care routinely.": [
+      "E:note:row600943:24"
+    ],
+    "plan for mask bipap this evening if pt will tolerate. 100% fio2 supplemented": [
+      "E:note:row600943:25"
+    ],
+    "acute pain assessment: c/o back and neck pain intermittently.": [
+      "E:note:row600943:26"
+    ],
+    "action: prn dilaudid dosing, warm packs to neck, freq repositioning.": [
+      "E:note:row600943:27"
+    ],
+    "response: dilaudid effective, pt much more comfortable, less restless, breath": [
+      "E:note:row600943:28"
+    ],
+    "turns helpful as well.": [
+      "E:note:row600943:29"
+    ],
+    "plan: continue current regimen, advance to longer acting po meds once taking": [
+      "E:note:row600943:30"
+    ]
+  },
+  "by_date": {
+    "2102-09-27": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13",
+      "E:proc:14",
+      "E:proc:15",
+      "E:proc:16",
+      "E:proc:17"
+    ]
+  }
+}

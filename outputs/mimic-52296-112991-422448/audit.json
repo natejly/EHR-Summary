@@ -1,0 +1,150 @@
+{
+  "case_id": "mimic-52296-112991-422448",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 2633,
+    "summary_chars": 1098,
+    "target_min_chars": 526,
+    "target_max_chars": 789,
+    "achieved_ratio": 0.4170148120015192,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 12,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:2",
+      "E:cond:25",
+      "E:cond:26",
+      "E:cond:29",
+      "E:cond:3",
+      "E:cond:30",
+      "E:cond:31",
+      "E:cond:32",
+      "E:cond:37",
+      "E:cond:38",
+      "E:cond:4",
+      "E:cond:43",
+      "E:cond:44",
+      "E:cond:5",
+      "E:cond:53",
+      "E:cond:54",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row422448:10",
+      "E:note:row422448:14",
+      "E:note:row422448:17",
+      "E:note:row422448:26",
+      "E:note:row422448:31",
+      "E:note:row422448:35",
+      "E:note:row422448:5",
+      "E:note:row422448:7"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Hypoxemia [E:note:row422448:17] and left arm swelling [E:note:row422448:26].",
+        "severity": "medium",
+        "reason": "The evidence for hypoxemia actually states SpO2 was maintained in the high 90s on 50% O2, which is not hypoxemia."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Hypoxemia [E:note:row422448:17] and left arm swelling [E:note:row422448:26].",
+        "suggested": "SpO2 maintained in high 90s on 50% O2 [E:note:row422448:17] and left arm swelling [E:note:row422448:26].",
+        "reason": "Corrects the misinterpretation of the oxygen saturation data."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-52296-112991-422448/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 6.74,
+    "fk_words": 178,
+    "fk_sentences": 25,
+    "fk_syllables": 295,
+    "chars": 2037,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-52296-112991-422448/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.00353187503060326,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 368.8964825840085,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 1027.6387603329495,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.0033981670276261866,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 42.48417075001635,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 113.79848062503152,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.004960707970894873,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 74.22566708398517,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

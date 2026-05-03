@@ -1,0 +1,230 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:1",
+        "E:cond:2"
+      ],
+      "rationale": "The candidates explicitly list a diagnosis of acute myocardial infarction of the inferior wall."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row466035:3"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Peak cpk 1350', which matches the claim."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row466035:5",
+        "E:note:row466035:26"
+      ],
+      "rationale": "Both evidence items explicitly state that the patient is on or continuing heparin."
+    },
+    {
+      "claim_id": "C5",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row466035:5"
+      ],
+      "rationale": "The evidence explicitly states the patient was admitted on ntg."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row466035:5"
+      ],
+      "rationale": "The evidence explicitly states that NTG was weaned off on 7-29."
+    },
+    {
+      "claim_id": "C7",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row466035:12"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Renal failure, acute (Acute renal failure, ARF)' in the assessment."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row466035:7"
+      ],
+      "rationale": "The candidate evidence explicitly states that a temp pacing wire was inserted on 7-30."
+    },
+    {
+      "claim_id": "C10",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates confirm an inferior MI, but there is no evidence regarding bradycardia or Atrial Fibrillation (Afib)."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row466035:8"
+      ],
+      "rationale": "The evidence explicitly states that on 8-2, the patient started IV Lasix gtt."
+    },
+    {
+      "claim_id": "C12",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C13",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C14",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C15",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row466035:9"
+      ],
+      "rationale": "The evidence explicitly states the patient has experienced confusion over the past few days."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row466035:12"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Renal failure, acute (Acute renal failure, ARF)' in the assessment section."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row466035:13"
+      ],
+      "rationale": "The candidate evidence explicitly states the CVP was 20-24."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row466035:14"
+      ],
+      "rationale": "The candidate evidence exactly matches the claim text regarding the blood pressure trend."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row466035:15"
+      ],
+      "rationale": "The candidate evidence contains the exact phrasing of the claim regarding O2 saturation levels."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row466035:16"
+      ],
+      "rationale": "The candidate evidence explicitly states that Creat/BUN was up slightly this am."
+    },
+    {
+      "claim_id": "C21",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row466035:18"
+      ],
+      "rationale": "The candidate evidence explicitly states that a CXR was done."
+    },
+    {
+      "claim_id": "C23",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row466035:19"
+      ],
+      "rationale": "The candidate evidence explicitly states that the FiO2 was increased to 100% NRB."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row466035:21"
+      ],
+      "rationale": "The evidence explicitly states that lasix 40mg was given at 6:45am."
+    },
+    {
+      "claim_id": "C25",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence items relate to kidney failure and do not contain any blood pressure or MAP measurements."
+    },
+    {
+      "claim_id": "C26",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C27",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates list atrial fibrillation, which is a distinct clinical entity from atrial flutter."
+    },
+    {
+      "claim_id": "C28",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidate conditions mention atrial fibrillation (afib) or heart rates."
+    },
+    {
+      "claim_id": "C29",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C30",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row466035:30"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient has a Urinary tract infection (UTI) in the assessment."
+    },
+    {
+      "claim_id": "C31",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row466035:33"
+      ],
+      "rationale": "The evidence explicitly states that po cipro was administered to the patient."
+    }
+  ]
+}

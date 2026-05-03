@@ -1,0 +1,26 @@
+{
+  "concerns": [
+    {
+      "sentence": "Subdural hemorrhage and other intracranial hemorrhage following fall from 10 ft ladder [E:cond:1][E:cond:2][E:cond:17][E:cond:18][E:cond:19][E:cond:20][E:note:row642741:1].",
+      "severity": "medium",
+      "reason": "The summary specifies a '10 ft ladder', but the fact sheet only mentions 'fall from ladder' without specifying height."
+    },
+    {
+      "sentence": "Symptoms include 3d HA, dizziness, n/v, and 3 witnessed LOC [E:note:row642741:1].",
+      "severity": "high",
+      "reason": "The summary claims '3 witnessed LOC', but the fact sheet explicitly states 'no loss of consciousness' for both hemorrhage entries."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Subdural hemorrhage and other intracranial hemorrhage following fall from 10 ft ladder [E:cond:1][E:cond:2][E:cond:17][E:cond:18][E:cond:19][E:cond:20][E:note:row642741:1].",
+      "suggested": "Subdural hemorrhage and other intracranial hemorrhage following fall from ladder [E:cond:1][E:cond:2][E:cond:17][E:cond:18][E:cond:19][E:cond:20][E:note:row642741:1].",
+      "reason": "Remove unverified height of the ladder."
+    },
+    {
+      "original": "Symptoms include 3d HA, dizziness, n/v, and 3 witnessed LOC [E:note:row642741:1].",
+      "suggested": "Symptoms include 3d HA, dizziness, and n/v [E:note:row642741:1].",
+      "reason": "Remove claim of loss of consciousness as it contradicts the fact sheet."
+    }
+  ]
+}

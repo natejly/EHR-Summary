@@ -1,0 +1,567 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-28126-161069",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-28126",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-28126",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-161069",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-161069",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2165-07-16T00:00:00",
+          "end": "2165-08-04T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161069-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161069-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1830",
+              "display": "Malignant neoplasm of ovary"
+            }
+          ],
+          "text": "Malignant neoplasm of ovary"
+        },
+        "onsetDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161069-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161069-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5609",
+              "display": "Unspecified intestinal obstruction"
+            }
+          ],
+          "text": "Unspecified intestinal obstruction"
+        },
+        "onsetDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161069-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161069-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1974",
+              "display": "Secondary malignant neoplasm of small intestine including duodenum"
+            }
+          ],
+          "text": "Secondary malignant neoplasm of small intestine including duodenum"
+        },
+        "onsetDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161069-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161069-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1975",
+              "display": "Secondary malignant neoplasm of large intestine and rectum"
+            }
+          ],
+          "text": "Secondary malignant neoplasm of large intestine and rectum"
+        },
+        "onsetDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161069-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161069-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1976",
+              "display": "Secondary malignant neoplasm of retroperitoneum and peritoneum"
+            }
+          ],
+          "text": "Secondary malignant neoplasm of retroperitoneum and peritoneum"
+        },
+        "onsetDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161069-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161069-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "1962",
+              "display": "Secondary and unspecified malignant neoplasm of intra-abdominal lymph nodes"
+            }
+          ],
+          "text": "Secondary and unspecified malignant neoplasm of intra-abdominal lymph nodes"
+        },
+        "onsetDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161069-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161069-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "19882",
+              "display": "Secondary malignant neoplasm of genital organs"
+            }
+          ],
+          "text": "Secondary malignant neoplasm of genital organs"
+        },
+        "onsetDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161069-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161069-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "19889",
+              "display": "Secondary malignant neoplasm of other specified sites"
+            }
+          ],
+          "text": "Secondary malignant neoplasm of other specified sites"
+        },
+        "onsetDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161069-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161069-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78959",
+              "display": "Other ascites"
+            }
+          ],
+          "text": "Other ascites"
+        },
+        "onsetDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161069-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161069-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "9974",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161069-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161069-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5601",
+              "display": "Paralytic ileus"
+            }
+          ],
+          "text": "Paralytic ileus"
+        },
+        "onsetDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161069-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161069-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99889",
+              "display": "Other specified complications of procedures not elsewhere classified"
+            }
+          ],
+          "text": "Other specified complications of procedures not elsewhere classified"
+        },
+        "onsetDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161069-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161069-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "45829",
+              "display": "Other iatrogenic hypotension"
+            }
+          ],
+          "text": "Other iatrogenic hypotension"
+        },
+        "onsetDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161069-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161069-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42789",
+              "display": "Other specified cardiac dysrhythmias"
+            }
+          ],
+          "text": "Other specified cardiac dysrhythmias"
+        },
+        "onsetDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-161069-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-161069-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7806",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-161069-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-161069-1",
+        "status": "completed",
+        "code": {
+          "text": "Other removal of both ovaries and tubes at same operative episode"
+        },
+        "performedDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-161069-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-161069-2",
+        "status": "completed",
+        "code": {
+          "text": "Other and unspecified total abdominal hysterectomy"
+        },
+        "performedDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-161069-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-161069-3",
+        "status": "completed",
+        "code": {
+          "text": "Excision or destruction of peritoneal tissue"
+        },
+        "performedDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-161069-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-161069-4",
+        "status": "completed",
+        "code": {
+          "text": "Excision of lesion or tissue of diaphragm"
+        },
+        "performedDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-161069-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-161069-5",
+        "status": "completed",
+        "code": {
+          "text": "Other resection of rectum"
+        },
+        "performedDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-161069-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-161069-6",
+        "status": "completed",
+        "code": {
+          "text": "Other small-to-large intestinal anastomosis"
+        },
+        "performedDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-161069-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-161069-7",
+        "status": "completed",
+        "code": {
+          "text": "Large-to-large intestinal anastomosis"
+        },
+        "performedDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-161069-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-161069-8",
+        "status": "completed",
+        "code": {
+          "text": "Open and other cecectomy"
+        },
+        "performedDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-161069-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-161069-9",
+        "status": "completed",
+        "code": {
+          "text": "Rigid proctosigmoidoscopy"
+        },
+        "performedDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-161069-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-161069-10",
+        "status": "completed",
+        "code": {
+          "text": "Parenteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-161069-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-161069-11",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of packed cells"
+        },
+        "performedDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-161069-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-161069-12",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2165-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-161069-13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-161069-13",
+        "status": "completed",
+        "code": {
+          "text": "Insertion of other (naso-)gastric tube"
+        },
+        "performedDateTime": "2165-07-16"
+      }
+    }
+  ]
+}

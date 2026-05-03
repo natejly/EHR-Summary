@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Also noted: hypotension [E:cond:11], corneal ulcer [E:cond:12], internal hemorrhoids [E:cond:13], constipation [E:cond:14], hypertension [E:cond:15], diaphragmatic hernia [E:cond:16], cardiac dysrhythmias [E:cond:17], back/neck pain [E:note:row600943:3][E:note:row600943:26], and dyspnea [E:note:row600943:16].",
+      "severity": "medium",
+      "reason": "The summary includes several conditions (diaphragmatic hernia, cardiac dysrhythmias, back/neck pain, dyspnea) that are not present in the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Also noted: hypotension [E:cond:11], corneal ulcer [E:cond:12], internal hemorrhoids [E:cond:13], constipation [E:cond:14], hypertension [E:cond:15], diaphragmatic hernia [E:cond:16], cardiac dysrhythmias [E:cond:17], back/neck pain [E:note:row600943:3][E:note:row600943:26], and dyspnea [E:note:row600943:16].",
+      "suggested": "Also noted: hypotension [E:cond:11], corneal ulcer [E:cond:12], internal hemorrhoids [E:cond:13], constipation [E:cond:14], and hypertension [E:cond:15].",
+      "reason": "Remove conditions not supported by the provided fact sheet."
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:6",
+        "E:note:row705450:1"
+      ],
+      "rationale": "Both the structured condition code and the note sentence explicitly state the patient suffered a fall from a ladder."
+    },
+    {
+      "claim_id": "C2",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row705450:5"
+      ],
+      "rationale": "The candidate evidence explicitly states that scans revealed a negative Head CT."
+    },
+    {
+      "claim_id": "C4",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the provided candidates contain imaging results or clinical assessments regarding the C-spine."
+    },
+    {
+      "claim_id": "C5",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The evidence indicates a procedure to repair a vertebral fracture but does not specify the diagnosis as a T11 vertebral body fracture."
+    },
+    {
+      "claim_id": "C6",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "None of the candidate evidence items mention a T9 or T10 spinous process fracture."
+    },
+    {
+      "claim_id": "C7",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates mention a closed fracture of T7-T12, but none specifically mention anterior sublaxation of T10 over T11."
+    },
+    {
+      "claim_id": "C8",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row705450:6",
+        "E:note:row705450:9"
+      ],
+      "rationale": "Both candidate sentences explicitly state that the patient is hemodynamically stable."
+    },
+    {
+      "claim_id": "C9",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row705450:7"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'remote smoker' under the patient's past medical history (PMHx)."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row705450:7"
+      ],
+      "rationale": "The candidate evidence explicitly lists '^ chol' under the patient's past medical history (PMHx)."
+    },
+    {
+      "claim_id": "C11",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:10"
+      ],
+      "rationale": "The patient's structured condition list explicitly includes 'Anxiety state, unspecified'."
+    },
+    {
+      "claim_id": "C12",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row705450:7"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Left shoulder surgery three year' under the patient's surgical history (PSHx)."
+    },
+    {
+      "claim_id": "C13",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row705450:8"
+      ],
+      "rationale": "The candidate evidence explicitly states 'NKDA', which matches the claim."
+    },
+    {
+      "claim_id": "C14",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence describes a facial contusion and does not contain any information regarding the patient's heart rate."
+    },
+    {
+      "claim_id": "C15",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C16",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row705450:10"
+      ],
+      "rationale": "The candidate evidence explicitly states O2 sats on RA were from 94-100."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row705450:10"
+      ],
+      "rationale": "The candidate evidence explicitly states 'RR 10-22', which matches the claim value."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row705450:14"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Neuro checks every two hours' as an action."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row705450:14"
+      ],
+      "rationale": "The candidate evidence explicitly states the action 'NPO after midnight for OR'."
+    },
+    {
+      "claim_id": "C20",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row705450:16"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Acute Pain' as part of the assessment."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row705450:18"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient was medicated with morphine 2mg every 2-4 hours."
+    },
+    {
+      "claim_id": "C23",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C24",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row705450:18"
+      ],
+      "rationale": "The evidence explicitly states the patient was medicated with morphine."
+    },
+    {
+      "claim_id": "C25",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C26",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C27",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row705450:24"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan for OR for T6-L2 fusion today."
+    }
+  ]
+}

@@ -1,0 +1,863 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-78481-143054",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-78481",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-78481",
+        "gender": "f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-143054",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-143054",
+        "status": "finished",
+        "class": {
+          "code": "AMB",
+          "display": "ELECTIVE"
+        },
+        "type": [
+          {
+            "text": "ELECTIVE"
+          }
+        ],
+        "period": {
+          "start": "2101-09-01T00:00:00",
+          "end": "2101-11-01T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "55321",
+              "display": "Incisional hernia without mention of obstruction or gangrene"
+            }
+          ],
+          "text": "Incisional hernia without mention of obstruction or gangrene"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0389",
+              "display": "Unspecified septicemia"
+            }
+          ],
+          "text": "Unspecified septicemia"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99859",
+              "display": "Other postoperative infection"
+            }
+          ],
+          "text": "Other postoperative infection"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99591",
+              "display": "Sepsis"
+            }
+          ],
+          "text": "Sepsis"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2851",
+              "display": "Acute posthemorrhagic anemia"
+            }
+          ],
+          "text": "Acute posthemorrhagic anemia"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "34982",
+              "display": "Toxic encephalopathy"
+            }
+          ],
+          "text": "Toxic encephalopathy"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "9986",
+              "display": "Persistent postoperative fistula"
+            }
+          ],
+          "text": "Persistent postoperative fistula"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "7824",
+              "display": "Jaundice, unspecified, not of newborn"
+            }
+          ],
+          "text": "Jaundice, unspecified, not of newborn"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99831",
+              "display": "Disruption of internal operation (surgical) wound"
+            }
+          ],
+          "text": "Disruption of internal operation (surgical) wound"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4538",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5845",
+              "display": "Acute kidney failure with lesion of tubular necrosis"
+            }
+          ],
+          "text": "Acute kidney failure with lesion of tubular necrosis"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "00845",
+              "display": "Intestinal infection due to Clostridium difficile"
+            }
+          ],
+          "text": "Intestinal infection due to Clostridium difficile"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "34590",
+              "display": "Epilepsy, unspecified, without mention of intractable epilepsy"
+            }
+          ],
+          "text": "Epilepsy, unspecified, without mention of intractable epilepsy"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "3004",
+              "display": "Dysthymic disorder"
+            }
+          ],
+          "text": "Dysthymic disorder"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4240",
+              "display": "Mitral valve disorders"
+            }
+          ],
+          "text": "Mitral valve disorders"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4019",
+              "display": "Unspecified essential hypertension"
+            }
+          ],
+          "text": "Unspecified essential hypertension"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "E8788",
+              "display": "Other specified surgical operations and procedures causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation"
+            }
+          ],
+          "text": "Other specified surgical operations and procedures causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "29680",
+              "display": "Bipolar disorder, unspecified"
+            }
+          ],
+          "text": "Bipolar disorder, unspecified"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5768",
+              "display": "Other specified disorders of biliary tract"
+            }
+          ],
+          "text": "Other specified disorders of biliary tract"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51919",
+              "display": "Other diseases of trachea and bronchus"
+            }
+          ],
+          "text": "Other diseases of trachea and bronchus"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2768",
+              "display": "Hypopotassemia"
+            }
+          ],
+          "text": "Hypopotassemia"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-143054-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-143054-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5680",
+              "display": "Peritoneal adhesions (postoperative) (postinfection)"
+            }
+          ],
+          "text": "Peritoneal adhesions (postoperative) (postinfection)"
+        },
+        "onsetDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143054-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143054-1",
+        "status": "completed",
+        "code": {
+          "text": "Other lysis of peritoneal adhesions"
+        },
+        "performedDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143054-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143054-2",
+        "status": "completed",
+        "code": {
+          "text": "Temporary tracheostomy"
+        },
+        "performedDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143054-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143054-3",
+        "status": "completed",
+        "code": {
+          "text": "Other open incisional hernia repair with graft or prosthesis"
+        },
+        "performedDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143054-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143054-4",
+        "status": "completed",
+        "code": {
+          "text": "Incision of abdominal wall"
+        },
+        "performedDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143054-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143054-5",
+        "status": "completed",
+        "code": {
+          "text": "Excisional debridement of wound, infection, or burn"
+        },
+        "performedDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143054-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143054-6",
+        "status": "completed",
+        "code": {
+          "text": "Reopening of recent laparotomy site"
+        },
+        "performedDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143054-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143054-7",
+        "status": "completed",
+        "code": {
+          "text": "Incision of abdominal wall"
+        },
+        "performedDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143054-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143054-8",
+        "status": "completed",
+        "code": {
+          "text": "Excision or destruction of lesion or tissue of abdominal wall or umbilicus"
+        },
+        "performedDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143054-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143054-9",
+        "status": "completed",
+        "code": {
+          "text": "Application or administration of an adhesion barrier substance"
+        },
+        "performedDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143054-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143054-10",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143054-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143054-11",
+        "status": "completed",
+        "code": {
+          "text": "Parenteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143054-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143054-12",
+        "status": "completed",
+        "code": {
+          "text": "Spinal tap"
+        },
+        "performedDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143054-13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143054-13",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of packed cells"
+        },
+        "performedDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143054-14",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143054-14",
+        "status": "completed",
+        "code": {
+          "text": "Transfusion of other serum"
+        },
+        "performedDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143054-15",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143054-15",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143054-16",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143054-16",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143054-17",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143054-17",
+        "status": "completed",
+        "code": {
+          "text": "Hemodialysis"
+        },
+        "performedDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143054-18",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143054-18",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization for renal dialysis"
+        },
+        "performedDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143054-19",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143054-19",
+        "status": "completed",
+        "code": {
+          "text": "Fiber-optic bronchoscopy"
+        },
+        "performedDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143054-20",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143054-20",
+        "status": "completed",
+        "code": {
+          "text": "Closed [endoscopic] biopsy of bronchus"
+        },
+        "performedDateTime": "2101-09-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-143054-21",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-143054-21",
+        "status": "completed",
+        "code": {
+          "text": "Fiber-optic bronchoscopy"
+        },
+        "performedDateTime": "2101-09-01"
+      }
+    }
+  ]
+}

@@ -1,0 +1,711 @@
+{
+  "case_id": "mimic-92525-141986-498276",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:enc-141986",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Occlusion and stenosis of basilar artery with cerebral infarction",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "43301",
+        "display": "Occlusion and stenosis of basilar artery with cerebral infarction"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:cond-141986-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute on chronic diastolic heart failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42833",
+        "display": "Acute on chronic diastolic heart failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:cond-141986-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5185",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:cond-141986-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Ventilator associated pneumonia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99731",
+        "display": "Ventilator associated pneumonia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:cond-141986-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Candidiasis of mouth",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "1120",
+        "display": "Candidiasis of mouth"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:cond-141986-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Foreign body in main bronchus",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9341",
+        "display": "Foreign body in main bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:cond-141986-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Congestive heart failure, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4280",
+        "display": "Congestive heart failure, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:cond-141986-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Obstructive sleep apnea (adult)(pediatric)",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "32723",
+        "display": "Obstructive sleep apnea (adult)(pediatric)"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:cond-141986-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25000",
+        "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:cond-141986-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Other and unspecified alcohol dependence, continuous",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "30391",
+        "display": "Other and unspecified alcohol dependence, continuous"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:cond-141986-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Morbid obesity",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "27801",
+        "display": "Morbid obesity"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:cond-141986-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Unspecified essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4019",
+        "display": "Unspecified essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:cond-141986-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Coronary atherosclerosis of native coronary artery",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "41401",
+        "display": "Coronary atherosclerosis of native coronary artery"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:cond-141986-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:cond-141986-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Long-term (current) use of anticoagulants",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V5861",
+        "display": "Long-term (current) use of anticoagulants"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:cond-141986-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Percutaneous transluminal coronary angioplasty status",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4582",
+        "display": "Percutaneous transluminal coronary angioplasty status"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:cond-141986-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Inhalation and ingestion of other object causing obstruction of respiratory tract or suffocation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "E912",
+        "display": "Inhalation and ingestion of other object causing obstruction of respiratory tract or suffocation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:cond-141986-17",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Temporary tracheostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Temporary tracheostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:proc-141986-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Percutaneous (endoscopic) jejunostomy [PEJ]",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Percutaneous (endoscopic) jejunostomy [PEJ]"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:proc-141986-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:proc-141986-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:proc-141986-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:proc-141986-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Aortography",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Aortography"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:proc-141986-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:proc-141986-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Closed [endoscopic] biopsy of bronchus",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [endoscopic] biopsy of bronchus"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:proc-141986-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Fiber-optic bronchoscopy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Fiber-optic bronchoscopy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2142-11-20",
+      "source_ref": "urn:uuid:proc-141986-9",
+      "text": null
+    },
+    {
+      "id": "E:note:row498276:1",
+      "kind": "note_sentence",
+      "display": "HPI: 50M with a fib noncompliant on coumadin, CAD s/p stent x6, CHF    with dias",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row498276#s1",
+      "text": "HPI: 50M with a fib noncompliant on coumadin, CAD s/p stent x6, CHF    with diastolic dysfunction, HTN, morbid obesity, alcoholism, and DM tx    from [**Hospital6 3044**] for poss intervention following CVA."
+    },
+    {
+      "id": "E:note:row498276:2",
+      "kind": "note_sentence",
+      "display": "Patient presented on [**11-19**] with 2d of general malaise, abd pain, one    bo",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row498276#s2",
+      "text": "Patient presented on [**11-19**] with 2d of general malaise, abd pain, one    bout of emesis, near syncope during micturition as well as tinnitus."
+    },
+    {
+      "id": "E:note:row498276:3",
+      "kind": "note_sentence",
+      "display": "He    was noted to be hypotensive upon arrival to the ED, which resolved    foll",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row498276#s3",
+      "text": "He    was noted to be hypotensive upon arrival to the ED, which resolved    following fluid boluses."
+    },
+    {
+      "id": "E:note:row498276:4",
+      "kind": "note_sentence",
+      "display": "Head CT showed likely old parietal infarct and    possible area of low attenuati",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row498276#s4",
+      "text": "Head CT showed likely old parietal infarct and    possible area of low attenuation in the central pons (?infarct)."
+    },
+    {
+      "id": "E:note:row498276:5",
+      "kind": "note_sentence",
+      "display": "CT    abd/chest no evidence of aortic dissection.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row498276#s5",
+      "text": "CT    abd/chest no evidence of aortic dissection."
+    },
+    {
+      "id": "E:note:row498276:6",
+      "kind": "note_sentence",
+      "display": "On presentation his INR was    1.0, PT 10.5s and PTT 26.1s. 11:35am [**11-19**] ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row498276#s6",
+      "text": "On presentation his INR was    1.0, PT 10.5s and PTT 26.1s. 11:35am [**11-19**] transient slurring of    speech, with normal upper and lower extremity strength, tone,    and sensation bilaterally. 18:00 his speech was still slurred with    decreased LUE and LLE strength ([**5-29**] -> [**4-29**])."
+    },
+    {
+      "id": "E:note:row498276:7",
+      "kind": "note_sentence",
+      "display": "At 20:00 he began to have    an expressive language difficulty along with his sl",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row498276#s7",
+      "text": "At 20:00 he began to have    an expressive language difficulty along with his slurred speech, with    right facial drooping, he also had a poor cough and difficulty clearing    his secretions."
+    },
+    {
+      "id": "E:note:row498276:8",
+      "kind": "note_sentence",
+      "display": "MRI/MRA head/neck [**11-19**] showed possible basilar artery    thrombosis with ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row498276#s8",
+      "text": "MRI/MRA head/neck [**11-19**] showed possible basilar artery    thrombosis with multiple infarcts in the brainstem and cerebellar    hemispheres."
+    },
+    {
+      "id": "E:note:row498276:9",
+      "kind": "note_sentence",
+      "display": "He was note to have absent gag later in morning and he was    intubated prior to",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row498276#s9",
+      "text": "He was note to have absent gag later in morning and he was    intubated prior to arrival in ICU for airway protection."
+    },
+    {
+      "id": "E:note:row498276:10",
+      "kind": "note_sentence",
+      "display": "Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Tem",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row498276#s10",
+      "text": "Fever (Hyperthermia, Pyrexia, not Fever of Unknown Origin)    Assessment:    Temp 102.5 max    BAL gm+cocci and gm-rods    Action:    No cultures per SICU resident    Tylenol and cooling    Frequent suction    Tube feeds held at MN and heparin gtt stopped @2am    Response:    Temp improved    Plan:    Ongoing, continue ABX and Tylenol    Will still plan PEG today    Respiratory failure, acute (not ARDS/[**Doctor Last Name 11**])    Assessment:    Saturations 92-96% one episode of drop to 88%    Action:    Peep increased to 8 and FIO2 increased to 60%    Response:    copious amts of secretions persist    Plan:    trach collar for short sprints"
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|43301": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42833": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5185": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99731": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|1120": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|9341": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4280": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|32723": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25000": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|30391": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|27801": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4019": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|41401": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42731": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V5861": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4582": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|E912": [
+      "E:cond:17"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "occlusion and stenosis of basilar artery with cerebral infarction": [
+      "E:cond:1"
+    ],
+    "acute on chronic diastolic heart failure": [
+      "E:cond:2"
+    ],
+    "diagnosis": [
+      "E:cond:3"
+    ],
+    "ventilator associated pneumonia": [
+      "E:cond:4"
+    ],
+    "candidiasis of mouth": [
+      "E:cond:5"
+    ],
+    "foreign body in main bronchus": [
+      "E:cond:6"
+    ],
+    "congestive heart failure, unspecified": [
+      "E:cond:7"
+    ],
+    "obstructive sleep apnea (adult)(pediatric)": [
+      "E:cond:8"
+    ],
+    "diabetes mellitus without mention of complication, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:9"
+    ],
+    "other and unspecified alcohol dependence, continuous": [
+      "E:cond:10"
+    ],
+    "morbid obesity": [
+      "E:cond:11"
+    ],
+    "unspecified essential hypertension": [
+      "E:cond:12"
+    ],
+    "coronary atherosclerosis of native coronary artery": [
+      "E:cond:13"
+    ],
+    "atrial fibrillation": [
+      "E:cond:14"
+    ],
+    "long-term (current) use of anticoagulants": [
+      "E:cond:15"
+    ],
+    "percutaneous transluminal coronary angioplasty status": [
+      "E:cond:16"
+    ],
+    "inhalation and ingestion of other object causing obstruction of respiratory tract or suffocation": [
+      "E:cond:17"
+    ],
+    "temporary tracheostomy": [
+      "E:proc:1"
+    ],
+    "percutaneous (endoscopic) jejunostomy [pej]": [
+      "E:proc:2"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:3"
+    ],
+    "closed [endoscopic] biopsy of bronchus": [
+      "E:proc:4",
+      "E:proc:8"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:5"
+    ],
+    "aortography": [
+      "E:proc:6"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:7"
+    ],
+    "fiber-optic bronchoscopy": [
+      "E:proc:9"
+    ],
+    "hpi: 50m with a fib noncompliant on coumadin, cad s/p stent x6, chf with dias": [
+      "E:note:row498276:1"
+    ],
+    "patient presented on [**11-19**] with 2d of general malaise, abd pain, one bo": [
+      "E:note:row498276:2"
+    ],
+    "he was noted to be hypotensive upon arrival to the ed, which resolved foll": [
+      "E:note:row498276:3"
+    ],
+    "head ct showed likely old parietal infarct and possible area of low attenuati": [
+      "E:note:row498276:4"
+    ],
+    "ct abd/chest no evidence of aortic dissection.": [
+      "E:note:row498276:5"
+    ],
+    "on presentation his inr was 1.0, pt 10.5s and ptt 26.1s. 11:35am [**11-19**]": [
+      "E:note:row498276:6"
+    ],
+    "at 20:00 he began to have an expressive language difficulty along with his sl": [
+      "E:note:row498276:7"
+    ],
+    "mri/mra head/neck [**11-19**] showed possible basilar artery thrombosis with": [
+      "E:note:row498276:8"
+    ],
+    "he was note to have absent gag later in morning and he was intubated prior to": [
+      "E:note:row498276:9"
+    ],
+    "fever (hyperthermia, pyrexia, not fever of unknown origin) assessment: tem": [
+      "E:note:row498276:10"
+    ]
+  },
+  "by_date": {
+    "2142-11-20": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9"
+    ]
+  }
+}

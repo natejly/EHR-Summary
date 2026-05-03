@@ -1,0 +1,164 @@
+{
+  "case_id": "mimic-17997-186252-1197",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 6615,
+    "summary_chars": 2627,
+    "target_min_chars": 1323,
+    "target_max_chars": 1984,
+    "achieved_ratio": 0.3971277399848828,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 22,
+    "cited_evidence_ids": [
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row1197:10",
+      "E:note:row1197:16",
+      "E:note:row1197:18",
+      "E:note:row1197:20",
+      "E:note:row1197:21",
+      "E:note:row1197:22",
+      "E:note:row1197:23",
+      "E:note:row1197:24",
+      "E:note:row1197:25",
+      "E:note:row1197:26",
+      "E:note:row1197:27",
+      "E:note:row1197:28",
+      "E:note:row1197:3",
+      "E:note:row1197:33",
+      "E:note:row1197:4",
+      "E:note:row1197:5",
+      "E:note:row1197:50",
+      "E:note:row1197:54",
+      "E:note:row1197:55",
+      "E:note:row1197:56",
+      "E:note:row1197:57",
+      "E:note:row1197:63",
+      "E:note:row1197:68",
+      "E:note:row1197:69",
+      "E:note:row1197:7",
+      "E:note:row1197:72",
+      "E:note:row1197:83",
+      "E:note:row1197:84",
+      "E:note:row1197:86",
+      "E:note:row1197:87",
+      "E:note:row1197:88",
+      "E:note:row1197:89",
+      "E:note:row1197:9",
+      "E:note:row1197:90",
+      "E:note:row1197:91",
+      "E:note:row1197:92",
+      "E:note:row1197:93",
+      "E:note:row1197:94",
+      "E:note:row1197:95",
+      "E:note:row1197:96",
+      "E:note:row1197:97",
+      "E:note:row1197:98",
+      "E:proc:1"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Current issues include a urinary tract infection with Klebsiella [E:cond:5][E:note:row1197:63], and nephritis/nephropathy [E:cond:9].",
+        "severity": "medium",
+        "reason": "The fact sheet mentions a UTI but does not specify the organism as Klebsiella."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Current issues include a urinary tract infection with Klebsiella [E:cond:5][E:note:row1197:63], and nephritis/nephropathy [E:cond:9].",
+        "suggested": "Current issues include a urinary tract infection [E:cond:5][E:note:row1197:63], and nephritis/nephropathy [E:cond:9].",
+        "reason": "Remove 'with Klebsiella' as it is not supported by the provided fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-17997-186252-1197/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 10.38,
+    "fk_words": 196,
+    "fk_sentences": 16,
+    "fk_syllables": 352,
+    "chars": 2203,
+    "in_target_band": false,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-17997-186252-1197/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.003113500017207116,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 427.7466682919767,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 428.09281033300795,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.002084790961816907,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 287.01671229099156,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 123.41425854200497,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.003542250022292137,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 10.717761957959738,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

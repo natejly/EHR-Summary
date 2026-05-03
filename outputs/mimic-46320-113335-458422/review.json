@@ -1,0 +1,16 @@
+{
+  "concerns": [
+    {
+      "sentence": "Other conditions: sepsis [E:note:row458422:7], MRSA at operative sites [E:note:row458422:7], Pseudomonas infection [E:cond:103], C. difficile [E:cond:55], and urogenital candidiasis [E:cond:37].",
+      "severity": "medium",
+      "reason": "The summary includes sepsis, MRSA, and Pseudomonas infection, but these are not present in the provided fact sheet."
+    }
+  ],
+  "recommended_revisions": [
+    {
+      "original": "Other conditions: sepsis [E:note:row458422:7], MRSA at operative sites [E:note:row458422:7], Pseudomonas infection [E:cond:103], C. difficile [E:cond:55], and urogenital candidiasis [E:cond:37].",
+      "suggested": "Other conditions: C. difficile [E:cond:55] and urogenital candidiasis [E:cond:37].",
+      "reason": "Removed conditions not supported by the provided fact sheet."
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "case_id": "mimic-85464-164726-465683",
+  "stage_failed": null,
+  "context_agent_enabled": false,
+  "context": {
+    "missing_context": [],
+    "contradictions": [],
+    "suggested_supporting_facts": []
+  },
+  "compression": {
+    "note_chars": 3066,
+    "summary_chars": 1659,
+    "target_min_chars": 613,
+    "target_max_chars": 919,
+    "achieved_ratio": 0.541095890410959,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 17,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:2",
+      "E:cond:27",
+      "E:cond:28",
+      "E:cond:3",
+      "E:cond:31",
+      "E:cond:32",
+      "E:cond:4",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row465683:10",
+      "E:note:row465683:12",
+      "E:note:row465683:19",
+      "E:note:row465683:23",
+      "E:note:row465683:28",
+      "E:note:row465683:29",
+      "E:note:row465683:3",
+      "E:note:row465683:30",
+      "E:note:row465683:34",
+      "E:note:row465683:35",
+      "E:note:row465683:36",
+      "E:note:row465683:39",
+      "E:note:row465683:43",
+      "E:note:row465683:44",
+      "E:note:row465683:45",
+      "E:note:row465683:46",
+      "E:note:row465683:47",
+      "E:note:row465683:5",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:5",
+      "E:proc:6"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Other diagnoses include UTI with suprapubic discomfort [E:cond:11][E:cond:12][E:note:row465683:34], chronic hepatitis C [E:cond:27][E:cond:28], and thrombocytopenia [E:cond:31][E:cond:32].",
+        "severity": "medium",
+        "reason": "The fact sheet does not mention 'suprapubic discomfort' or 'thrombocytopenia'."
+      },
+      {
+        "sentence": "Renal issues include acute kidney failure with tubular necrosis [E:cond:3][E:cond:4], poor urine output [E:note:row465683:10], and prerenal vs ATN [E:note:row465683:43].",
+        "severity": "medium",
+        "reason": "The fact sheet does not mention 'poor urine output' or 'prerenal vs ATN'."
+      },
+      {
+        "sentence": "Procedures performed include temporary transvenous pacemaker insertion [E:proc:1][E:proc:2], hemodialysis [E:proc:5][E:proc:6], and Foley catheter change [E:note:row465683:36].",
+        "severity": "medium",
+        "reason": "The fact sheet does not list these procedures; they are not present in the provided evidence."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Other diagnoses include UTI with suprapubic discomfort [E:cond:11][E:cond:12][E:note:row465683:34], chronic hepatitis C [E:cond:27][E:cond:28], and thrombocytopenia [E:cond:31][E:cond:32].",
+        "suggested": "Other diagnoses include UTI [E:cond:11][E:cond:12] and chronic hepatitis C [E:cond:27][E:cond:28].",
+        "reason": "Removed unsupported claims of suprapubic discomfort and thrombocytopenia."
+      },
+      {
+        "original": "Renal issues include acute kidney failure with tubular necrosis [E:cond:3][E:cond:4], poor urine output [E:note:row465683:10], and prerenal vs ATN [E:note:row465683:43].",
+        "suggested": "Renal issues include acute kidney failure with tubular necrosis [E:cond:3][E:cond:4].",
+        "reason": "Removed unsupported claims of poor urine output and prerenal vs ATN."
+      },
+      {
+        "original": "Procedures performed include temporary transvenous pacemaker insertion [E:proc:1][E:proc:2], hemodialysis [E:proc:5][E:proc:6], and Foley catheter change [E:note:row465683:36].",
+        "suggested": "Procedures performed include temporary transvenous pacing [E:note:row465683:29].",
+        "reason": "Removed unsupported procedures and aligned with the plan section of the fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 3,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-85464-164726-465683/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.34,
+    "fk_words": 195,
+    "fk_sentences": 21,
+    "fk_syllables": 319,
+    "chars": 1872,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-85464-164726-465683/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.002201792027335614,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 130.71463499998208,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 361.4128425840172,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 0.0,
+      "skipped": true
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.002127500018104911,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 45.717895333014894,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 85.55054112500511,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.003918125003110617,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 21.49677495798096,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

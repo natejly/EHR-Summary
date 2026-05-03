@@ -1,0 +1,344 @@
+{
+  "verifications": [
+    {
+      "claim_id": "C1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row660723:1"
+      ],
+      "rationale": "The evidence explicitly states the patient has a history of HCV."
+    },
+    {
+      "claim_id": "C2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row660723:1"
+      ],
+      "rationale": "The evidence explicitly states the patient has a history of HCV on IFN."
+    },
+    {
+      "claim_id": "C3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row660723:1"
+      ],
+      "rationale": "The candidate evidence explicitly lists cryoglobulinemia as part of the patient's history."
+    },
+    {
+      "claim_id": "C4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:21"
+      ],
+      "rationale": "The patient has a recorded condition of 'Dysphagia, unspecified' in the structured EHR."
+    },
+    {
+      "claim_id": "C5",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C6",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:4",
+        "E:proc:1",
+        "E:note:row660723:5"
+      ],
+      "rationale": "The patient's history of tracheostomy complications, a tracheostomy revision, and a note mentioning secretions from a trach all verify the patient is status post tracheostomy."
+    },
+    {
+      "claim_id": "C7",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C8",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C9",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C10",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row660723:2"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Respiratory failure, acute' as part of the assessment."
+    },
+    {
+      "claim_id": "C11",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C12",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C13",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C14",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C15",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C16",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C17",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row660723:7"
+      ],
+      "rationale": "The evidence explicitly states the plan is to be 'suctioned prn', which matches 'suctioned as needed'."
+    },
+    {
+      "claim_id": "C18",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row660723:4"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Sats 100%', matching the claim."
+    },
+    {
+      "claim_id": "C19",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row660723:5"
+      ],
+      "rationale": "The candidate evidence explicitly states there is a moderate amount of secretions from the trach."
+    },
+    {
+      "claim_id": "C20",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row660723:6"
+      ],
+      "rationale": "The candidate evidence explicitly states 'No resp distress noted.', which matches the claim."
+    },
+    {
+      "claim_id": "C21",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row660723:7"
+      ],
+      "rationale": "The candidate evidence explicitly states the plan to 'Continue to monitor, suctioned prn'."
+    },
+    {
+      "claim_id": "C22",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:18"
+      ],
+      "rationale": "The candidate E:cond:18 explicitly lists 'Other myopathies', which matches the claim's diagnosis."
+    },
+    {
+      "claim_id": "C23",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C24",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The provided candidates contain diagnosis codes for respiratory failure, infection, drug adverse effects, and neuropathy, but none mention the patient's mental state or agitation."
+    },
+    {
+      "claim_id": "C25",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C26",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C27",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence lists a staphylococcus infection and hepatitis C, but contains no information regarding pain at a tracheostomy site."
+    },
+    {
+      "claim_id": "C28",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidates mention severe sepsis and a staphylococcus infection of unspecified site, but neither specifies an eye infection."
+    },
+    {
+      "claim_id": "C29",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row660723:8"
+      ],
+      "rationale": "The candidate evidence explicitly states that the patient is a heavy smoker."
+    },
+    {
+      "claim_id": "C30",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C31",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C32",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C33",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C34",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence contains information about pneumonitis and a laryngeal procedure, but does not mention Ativan or any medication plan."
+    },
+    {
+      "claim_id": "C35",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row660723:11"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Impaired Skin Integrity' as part of the assessment."
+    },
+    {
+      "claim_id": "C36",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row660723:11"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Excoriated perineum' under the assessment for Impaired Skin Integrity."
+    },
+    {
+      "claim_id": "C37",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C38",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C39",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "The candidate evidence contains only condition diagnoses and does not mention any procedures or repositioning protocols."
+    },
+    {
+      "claim_id": "C40",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C41",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row660723:12"
+      ],
+      "rationale": "The candidate evidence explicitly lists 'Cont local skin care,turn and reposition' under the Plan section."
+    },
+    {
+      "claim_id": "C42",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row660723:12"
+      ],
+      "rationale": "The candidate evidence explicitly states 'T max 100.1 in this shift', matching the claim."
+    },
+    {
+      "claim_id": "C43",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C44",
+      "status": "unsupported",
+      "evidence_ids": [],
+      "rationale": "No candidate evidence found in EHR."
+    },
+    {
+      "claim_id": "C45",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row660723:13"
+      ],
+      "rationale": "The candidate evidence contains the exact text of the claim."
+    },
+    {
+      "claim_id": "C46",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row660723:14"
+      ],
+      "rationale": "The candidate evidence explicitly states the patient received 15mmol k phos."
+    },
+    {
+      "claim_id": "C47",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row660723:15"
+      ],
+      "rationale": "The candidate evidence explicitly states 'Hr 85-120', matching the claim."
+    },
+    {
+      "claim_id": "C48",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row660723:15"
+      ],
+      "rationale": "The candidate evidence explicitly states 'sbp 130-160', matching the claim."
+    },
+    {
+      "claim_id": "C49",
+      "status": "verified",
+      "evidence_ids": [
+        "E:note:row660723:15"
+      ],
+      "rationale": "The evidence explicitly states the patient received ns fluid bolus 1000cc x2 in this shift."
+    }
+  ]
+}
