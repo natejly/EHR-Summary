@@ -5,7 +5,7 @@ A multi-stage, LLM-backed clinical documentation pipeline that ingests **FHIR R4
 ## Pipeline Stages
 
 | # | Stage | Output |
-|---|-------|--------|
+| --- | --- | --- |
 | 1 | **Evidence Assembly** | `evidence_store.json` |
 | 2 | **Claim Extraction** | `claims.json` |
 | 3 | **Claim Verification** | `verifications.json` |
@@ -20,7 +20,7 @@ Each stage writes its artifact to `outputs/<case_id>/`. Runs are resumable — s
 
 ## Project Structure
 
-```
+```text
 ├── ehr_pipeline/          # Core Python package
 │   ├── pipeline.py        # Orchestration & resume logic
 │   ├── cli.py             # CLI entry point
@@ -36,6 +36,7 @@ Each stage writes its artifact to `outputs/<case_id>/`. Runs are resumable — s
 ├── server.py              # FastAPI backend (REST + SSE)
 ├── benchmarks/            # ROUGE, BERTScore, entity F1 metrics; MIMIC adapters
 ├── benchmark.ipynb        # End-to-end MIMIC-III benchmark notebook
+├── baseline_benchmark.ipynb # Single-shot Anthropic baseline benchmark
 ├── datasets/              # PDSQI-9 research materials, MIMIC-III-Ext-Notes
 ├── outputs/               # Runtime artifacts & benchmark bundles
 ├── infer_ollama.py        # Standalone Ollama inference CLI
@@ -75,20 +76,21 @@ cd ..
 
 Create a `.env` file in the project root:
 
-```
+```dotenv
 OLLAMA_HOST=http://localhost:11434   # or https://ollama.com for cloud
 OLLAMA_API_KEY=your-api-key         # required for cloud
+ANTHROPIC_API_KEY=your-api-key      # optional; only needed for baseline_benchmark.ipynb
 ```
 
 Default model assignments are defined in `ehr_pipeline/config.py` and can be updated there:
 
 | Role | Default Model |
-|------|---------------|
-| Claim Extraction | `gemma3:27b` |
-| Claim Verification | `gemma3:27b` |
-| Context Agent | `gemma3:27b` |
+| --- | --- |
+| Claim Extraction | `gemma4:31b` |
+| Claim Verification | `gemma4:31b` |
+| Context Agent | `gemma4:31b` |
 | Summary Generation | `gemma4:31b` |
-| Final Review | `gemma3:27b` |
+| Final Review | `gemma4:31b` |
 
 ### Running the Pipeline (CLI)
 
@@ -102,7 +104,7 @@ python -m ehr_pipeline.cli \
 Key flags:
 
 | Flag | Description |
-|------|-------------|
+| --- | --- |
 | `--resume` | Skip stages whose outputs are up to date |
 | `--no-context-agent` | Skip stage 4 (useful for benchmarking) |
 | `--allow-violations` | Emit summary even if the deterministic check fails |
@@ -122,7 +124,7 @@ cd frontend && npm run dev
 **API Endpoints:**
 
 | Method | Path | Description |
-|--------|------|-------------|
+| --- | --- | --- |
 | `GET` | `/api/cases` | List existing output cases |
 | `GET` | `/api/cases/{case_id}/artifacts` | Fetch all pipeline artifacts for a case |
 | `GET` | `/api/bench-cases` | List available benchmark cases |
@@ -143,10 +145,31 @@ citations downstream before computing ROUGE, BERTScore, entity metrics, and
 compression ratio. This lets existing generated outputs be recovered and
 rescored without rerunning the pipeline.
 
+The `baseline_benchmark.ipynb` notebook runs a single-shot Anthropic baseline
+(`claude-opus-4-7`) on the same cases and writes results under
+`outputs/_baseline/`.
+
+Saved benchmark results in this checkout compare 100 matched MIMIC cases. Mean
+metrics are:
+
+- **Pipeline (`outputs/_bench/benchmark_metrics.csv`)**: ROUGE-1 F1 0.290,
+  ROUGE-2 F1 0.127, ROUGE-L F1 0.187, BERTScore F1 0.813, entity recall
+  0.377, entity F1 0.523, compression ratio 0.264, with 76/100 summaries in
+  the 0.20-0.30 compression band.
+- **Anthropic single-shot baseline (`outputs/_baseline/baseline_metrics.csv`)**:
+  ROUGE-1 F1 0.130, ROUGE-2 F1 0.020, ROUGE-L F1 0.071, BERTScore F1 0.793,
+  entity recall 0.151, entity F1 0.254, compression ratio 0.426, with 5/100
+  summaries in the 0.20-0.30 compression band.
+- **Mean paired delta (pipeline - Anthropic)**: +0.160 ROUGE-1 F1, +0.106
+  ROUGE-2 F1, +0.116 ROUGE-L F1, +0.020 BERTScore F1, +0.226 entity recall,
+  +0.269 entity F1, and -0.163 compression ratio.
+
 Install benchmark dependencies first:
 
 ```bash
 pip install -r requirements-bench.txt
+# Only needed for the Anthropic baseline notebook if not already installed:
+pip install anthropic python-dotenv
 ```
 
 ## Datasets
