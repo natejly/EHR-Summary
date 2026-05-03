@@ -1,0 +1,60 @@
+{
+  "missing_context": [
+    "Patient is critically ill with severe sepsis, septic shock, and acute respiratory failure, which provides critical context for the intubation and hemodynamic instability.",
+    "Patient has a complex surgical history including right hemicolectomy and permanent ileostomy.",
+    "Patient has comorbid Type II Diabetes and Atrial Fibrillation."
+  ],
+  "contradictions": [
+    "Claim C8 (COPD exacerbation) was marked unsupported because evidence E:cond:3 specifies 'Chronic obstructive asthma with exacerbation', though C22 was verified as COPD."
+  ],
+  "suggested_supporting_facts": [
+    {
+      "description": "Severe sepsis and septic shock explain the need for intensive hemodynamic monitoring and vasopressors/sedation.",
+      "suggested_claim": {
+        "claim_id": "S1",
+        "type": "diagnosis",
+        "subject": "patient",
+        "predicate": "has diagnosis",
+        "value": "Severe sepsis and septic shock",
+        "time_ref": "2104-06-03",
+        "source_span": "ehr"
+      }
+    },
+    {
+      "description": "Acute respiratory failure supports the clinical necessity of the mechanical ventilation mentioned in the notes.",
+      "suggested_claim": {
+        "claim_id": "S2",
+        "type": "diagnosis",
+        "subject": "patient",
+        "predicate": "has diagnosis",
+        "value": "Acute respiratory failure",
+        "time_ref": "2104-06-03",
+        "source_span": "ehr"
+      }
+    },
+    {
+      "description": "The presence of a permanent ileostomy is a significant surgical status for a clinician summary.",
+      "suggested_claim": {
+        "claim_id": "S3",
+        "type": "procedure",
+        "subject": "patient",
+        "predicate": "has",
+        "value": "permanent ileostomy",
+        "time_ref": "2104-06-03",
+        "source_span": "ehr"
+      }
+    },
+    {
+      "description": "Hemodialysis is a critical intervention for the acute renal failure and hyperkalemia described.",
+      "suggested_claim": {
+        "claim_id": "S4",
+        "type": "procedure",
+        "subject": "patient",
+        "predicate": "received",
+        "value": "Hemodialysis",
+        "time_ref": "2104-06-03",
+        "source_span": "ehr"
+      }
+    }
+  ]
+}

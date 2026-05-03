@@ -86,10 +86,12 @@ def run(
         log.info(
             "  context agent proposed %d new claims; re-verifying", len(suggested_claims)
         )
+        reverify_dir = output_dir / "_context_reverify"
+        reverify_dir.mkdir(parents=True, exist_ok=True)
         extra = s3_verify.run(
             claims=ClaimList(claims=suggested_claims),
             store=store,
-            output_dir=output_dir / "_context_reverify",
+            output_dir=reverify_dir,
         )
         augmented = VerificationResult(
             verifications=list(verifications.verifications) + list(extra.verifications)

@@ -1,0 +1,195 @@
+{
+  "case_id": "mimic-81475-101662-673718-context-agent-debug",
+  "stage_failed": null,
+  "context_agent_enabled": true,
+  "context": {
+    "missing_context": [
+      "Patient is critically ill with severe sepsis, septic shock, and acute respiratory failure, which provides critical context for the intubation and hemodynamic instability.",
+      "Patient has a complex surgical history including right hemicolectomy and permanent ileostomy.",
+      "Patient has comorbid Type II Diabetes and Atrial Fibrillation."
+    ],
+    "contradictions": [
+      "Claim C8 (COPD exacerbation) was marked unsupported because evidence E:cond:3 specifies 'Chronic obstructive asthma with exacerbation', though C22 was verified as COPD."
+    ],
+    "suggested_supporting_facts": [
+      {
+        "description": "Severe sepsis and septic shock explain the need for intensive hemodynamic monitoring and vasopressors/sedation.",
+        "suggested_claim": {
+          "claim_id": "S1",
+          "type": "diagnosis",
+          "subject": "patient",
+          "predicate": "has diagnosis",
+          "value": "Severe sepsis and septic shock",
+          "time_ref": "2104-06-03",
+          "source_span": "ehr"
+        }
+      },
+      {
+        "description": "Acute respiratory failure supports the clinical necessity of the mechanical ventilation mentioned in the notes.",
+        "suggested_claim": {
+          "claim_id": "S2",
+          "type": "diagnosis",
+          "subject": "patient",
+          "predicate": "has diagnosis",
+          "value": "Acute respiratory failure",
+          "time_ref": "2104-06-03",
+          "source_span": "ehr"
+        }
+      },
+      {
+        "description": "The presence of a permanent ileostomy is a significant surgical status for a clinician summary.",
+        "suggested_claim": {
+          "claim_id": "S3",
+          "type": "procedure",
+          "subject": "patient",
+          "predicate": "has",
+          "value": "permanent ileostomy",
+          "time_ref": "2104-06-03",
+          "source_span": "ehr"
+        }
+      },
+      {
+        "description": "Hemodialysis is a critical intervention for the acute renal failure and hyperkalemia described.",
+        "suggested_claim": {
+          "claim_id": "S4",
+          "type": "procedure",
+          "subject": "patient",
+          "predicate": "received",
+          "value": "Hemodialysis",
+          "time_ref": "2104-06-03",
+          "source_span": "ehr"
+        }
+      }
+    ]
+  },
+  "compression": {
+    "note_chars": 2295,
+    "summary_chars": 1150,
+    "target_min_chars": 459,
+    "target_max_chars": 688,
+    "achieved_ratio": 0.5010893246187363,
+    "in_target_band": false
+  },
+  "check_report": {
+    "passed": true,
+    "violations": [],
+    "sentence_count": 11,
+    "cited_evidence_ids": [
+      "E:cond:1",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:2",
+      "E:cond:25",
+      "E:cond:3",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:note:row673718:10",
+      "E:note:row673718:11",
+      "E:note:row673718:15",
+      "E:note:row673718:22",
+      "E:note:row673718:23",
+      "E:note:row673718:26",
+      "E:note:row673718:27",
+      "E:note:row673718:3",
+      "E:note:row673718:30",
+      "E:note:row673718:4",
+      "E:note:row673718:5",
+      "E:note:row673718:8",
+      "E:note:row673718:9"
+    ]
+  },
+  "review": {
+    "concerns": [
+      {
+        "sentence": "Acute respiratory failure [E:cond:1], acute vascular insufficiency of intestine [E:cond:2], and COPD with acute exacerbation [E:cond:3][E:note:row673718:11].",
+        "severity": "medium",
+        "reason": "The fact sheet specifies 'Chronic obstructive asthma', not 'COPD'."
+      }
+    ],
+    "recommended_revisions": [
+      {
+        "original": "Acute respiratory failure [E:cond:1], acute vascular insufficiency of intestine [E:cond:2], and COPD with acute exacerbation [E:cond:3][E:note:row673718:11].",
+        "suggested": "Acute respiratory failure [E:cond:1], acute vascular insufficiency of intestine [E:cond:2], and chronic obstructive asthma with acute exacerbation [E:cond:3][E:note:row673718:11].",
+        "reason": "Corrects the diagnosis from COPD to chronic obstructive asthma as per the fact sheet."
+      }
+    ]
+  },
+  "review_passed": true,
+  "review_concern_counts": {
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "revised_summary": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-81475-101662-673718-context-agent-debug/summary_revised.md",
+  "revised_check_passed": true,
+  "patient_summary": {
+    "fk_grade": 7.92,
+    "fk_words": 208,
+    "fk_sentences": 20,
+    "fk_syllables": 343,
+    "chars": 1828,
+    "in_target_band": true,
+    "target_grade_min": 7.0,
+    "target_grade_max": 8.0,
+    "path": "/Users/natejly/Documents/GitHub/LLMS/outputs/mimic-81475-101662-673718-context-agent-debug/patient_summary.md"
+  },
+  "timings": [
+    {
+      "name": "stage1_evidence",
+      "seconds": 0.0022780420258641243,
+      "skipped": false
+    },
+    {
+      "name": "stage2_extract",
+      "seconds": 130.04868004203308,
+      "skipped": false
+    },
+    {
+      "name": "stage3_verify",
+      "seconds": 44.863873167021666,
+      "skipped": false
+    },
+    {
+      "name": "stage4_context",
+      "seconds": 20.771905083034653,
+      "skipped": false
+    },
+    {
+      "name": "stage5_fact_sheet",
+      "seconds": 0.001342125004157424,
+      "skipped": false
+    },
+    {
+      "name": "stage9_patient_summary",
+      "seconds": 13.085614165989682,
+      "skipped": false
+    },
+    {
+      "name": "stage6_summarize",
+      "seconds": 10.024967500008643,
+      "skipped": false
+    },
+    {
+      "name": "stage7_check",
+      "seconds": 0.014006583020091057,
+      "skipped": false
+    },
+    {
+      "name": "stage8_review",
+      "seconds": 5.644216582993977,
+      "skipped": false
+    }
+  ],
+  "models": {
+    "claim_extraction": "gemma4:31b",
+    "claim_verification": "gemma4:31b",
+    "context_agent": "gemma4:31b",
+    "summary_generation": "gemma4:31b",
+    "final_review": "gemma4:31b"
+  }
+}

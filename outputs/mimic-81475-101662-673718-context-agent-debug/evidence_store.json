@@ -1,0 +1,1309 @@
+{
+  "case_id": "mimic-81475-101662-673718-context-agent-debug",
+  "evidence": [
+    {
+      "id": "E:enc:1",
+      "kind": "encounter",
+      "display": "EMERGENCY",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:enc-101662",
+      "text": null
+    },
+    {
+      "id": "E:cond:1",
+      "kind": "condition",
+      "display": "Acute respiratory failure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "51881",
+        "display": "Acute respiratory failure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-1",
+      "text": null
+    },
+    {
+      "id": "E:cond:2",
+      "kind": "condition",
+      "display": "Acute vascular insufficiency of intestine",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5570",
+        "display": "Acute vascular insufficiency of intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-2",
+      "text": null
+    },
+    {
+      "id": "E:cond:3",
+      "kind": "condition",
+      "display": "Chronic obstructive asthma with (acute) exacerbation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "49322",
+        "display": "Chronic obstructive asthma with (acute) exacerbation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-3",
+      "text": null
+    },
+    {
+      "id": "E:cond:4",
+      "kind": "condition",
+      "display": "Hematoma complicating a procedure",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99812",
+        "display": "Hematoma complicating a procedure"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-4",
+      "text": null
+    },
+    {
+      "id": "E:cond:5",
+      "kind": "condition",
+      "display": "Cardiac complications, not elsewhere classified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "9971",
+        "display": "Cardiac complications, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-5",
+      "text": null
+    },
+    {
+      "id": "E:cond:6",
+      "kind": "condition",
+      "display": "Acute kidney failure with lesion of tubular necrosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "5845",
+        "display": "Acute kidney failure with lesion of tubular necrosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-6",
+      "text": null
+    },
+    {
+      "id": "E:cond:7",
+      "kind": "condition",
+      "display": "Severe sepsis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "99592",
+        "display": "Severe sepsis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-7",
+      "text": null
+    },
+    {
+      "id": "E:cond:8",
+      "kind": "condition",
+      "display": "Septic shock",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "78552",
+        "display": "Septic shock"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-8",
+      "text": null
+    },
+    {
+      "id": "E:cond:9",
+      "kind": "condition",
+      "display": "Unspecified septicemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "0389",
+        "display": "Unspecified septicemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-9",
+      "text": null
+    },
+    {
+      "id": "E:cond:10",
+      "kind": "condition",
+      "display": "Mixed acid-base balance disorder",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2764",
+        "display": "Mixed acid-base balance disorder"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-10",
+      "text": null
+    },
+    {
+      "id": "E:cond:11",
+      "kind": "condition",
+      "display": "Aseptic necrosis of head and neck of femur",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "73342",
+        "display": "Aseptic necrosis of head and neck of femur"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-11",
+      "text": null
+    },
+    {
+      "id": "E:cond:12",
+      "kind": "condition",
+      "display": "Kidney replaced by transplant",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V420",
+        "display": "Kidney replaced by transplant"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-12",
+      "text": null
+    },
+    {
+      "id": "E:cond:13",
+      "kind": "condition",
+      "display": "Hyperpotassemia",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2767",
+        "display": "Hyperpotassemia"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-13",
+      "text": null
+    },
+    {
+      "id": "E:cond:14",
+      "kind": "condition",
+      "display": "Diagnosis",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "2874",
+        "display": "Diagnosis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-14",
+      "text": null
+    },
+    {
+      "id": "E:cond:15",
+      "kind": "condition",
+      "display": "Benign essential hypertension",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "4011",
+        "display": "Benign essential hypertension"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-15",
+      "text": null
+    },
+    {
+      "id": "E:cond:16",
+      "kind": "condition",
+      "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "25000",
+        "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-16",
+      "text": null
+    },
+    {
+      "id": "E:cond:17",
+      "kind": "condition",
+      "display": "Atrial fibrillation",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "42731",
+        "display": "Atrial fibrillation"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-17",
+      "text": null
+    },
+    {
+      "id": "E:cond:18",
+      "kind": "condition",
+      "display": "Neutropenia, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "28800",
+        "display": "Neutropenia, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-18",
+      "text": null
+    },
+    {
+      "id": "E:cond:19",
+      "kind": "condition",
+      "display": "Other specified disorders of intestine",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "56989",
+        "display": "Other specified disorders of intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-19",
+      "text": null
+    },
+    {
+      "id": "E:cond:20",
+      "kind": "condition",
+      "display": "Esophageal reflux",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "53081",
+        "display": "Esophageal reflux"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-20",
+      "text": null
+    },
+    {
+      "id": "E:cond:21",
+      "kind": "condition",
+      "display": "Osteoporosis, unspecified",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "73300",
+        "display": "Osteoporosis, unspecified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-21",
+      "text": null
+    },
+    {
+      "id": "E:cond:22",
+      "kind": "condition",
+      "display": "Hip joint replacement",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V4364",
+        "display": "Hip joint replacement"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-22",
+      "text": null
+    },
+    {
+      "id": "E:cond:23",
+      "kind": "condition",
+      "display": "Personal history of irradiation, presenting hazards to health",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V153",
+        "display": "Personal history of irradiation, presenting hazards to health"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-23",
+      "text": null
+    },
+    {
+      "id": "E:cond:24",
+      "kind": "condition",
+      "display": "Personal history of noncompliance with medical treatment, presenting hazards to health",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V1581",
+        "display": "Personal history of noncompliance with medical treatment, presenting hazards to health"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-24",
+      "text": null
+    },
+    {
+      "id": "E:cond:25",
+      "kind": "condition",
+      "display": "Personal history of malignant neoplasm of prostate",
+      "code": {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "V1046",
+        "display": "Personal history of malignant neoplasm of prostate"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:cond-101662-25",
+      "text": null
+    },
+    {
+      "id": "E:proc:1",
+      "kind": "procedure",
+      "display": "Open and other right hemicolectomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Open and other right hemicolectomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:proc-101662-1",
+      "text": null
+    },
+    {
+      "id": "E:proc:2",
+      "kind": "procedure",
+      "display": "Other partial resection of small intestine",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other partial resection of small intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:proc-101662-2",
+      "text": null
+    },
+    {
+      "id": "E:proc:3",
+      "kind": "procedure",
+      "display": "Other partial resection of small intestine",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other partial resection of small intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:proc-101662-3",
+      "text": null
+    },
+    {
+      "id": "E:proc:4",
+      "kind": "procedure",
+      "display": "Other and unspecified partial excision of large intestine",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other and unspecified partial excision of large intestine"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:proc-101662-4",
+      "text": null
+    },
+    {
+      "id": "E:proc:5",
+      "kind": "procedure",
+      "display": "Other permanent ileostomy",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other permanent ileostomy"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:proc-101662-5",
+      "text": null
+    },
+    {
+      "id": "E:proc:6",
+      "kind": "procedure",
+      "display": "Excision or destruction of peritoneal tissue",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Excision or destruction of peritoneal tissue"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:proc-101662-6",
+      "text": null
+    },
+    {
+      "id": "E:proc:7",
+      "kind": "procedure",
+      "display": "Delayed closure of granulating abdominal wound",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Delayed closure of granulating abdominal wound"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:proc-101662-7",
+      "text": null
+    },
+    {
+      "id": "E:proc:8",
+      "kind": "procedure",
+      "display": "Other open incisional hernia repair with graft or prosthesis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Other open incisional hernia repair with graft or prosthesis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:proc-101662-8",
+      "text": null
+    },
+    {
+      "id": "E:proc:9",
+      "kind": "procedure",
+      "display": "Closed [percutaneous] [needle] biopsy of kidney",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Closed [percutaneous] [needle] biopsy of kidney"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:proc-101662-9",
+      "text": null
+    },
+    {
+      "id": "E:proc:10",
+      "kind": "procedure",
+      "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:proc-101662-10",
+      "text": null
+    },
+    {
+      "id": "E:proc:11",
+      "kind": "procedure",
+      "display": "Hemodialysis",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Hemodialysis"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:proc-101662-11",
+      "text": null
+    },
+    {
+      "id": "E:proc:12",
+      "kind": "procedure",
+      "display": "Parenteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Parenteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:proc-101662-12",
+      "text": null
+    },
+    {
+      "id": "E:proc:13",
+      "kind": "procedure",
+      "display": "Enteral infusion of concentrated nutritional substances",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Enteral infusion of concentrated nutritional substances"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:proc-101662-13",
+      "text": null
+    },
+    {
+      "id": "E:proc:14",
+      "kind": "procedure",
+      "display": "Venous catheterization, not elsewhere classified",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Venous catheterization, not elsewhere classified"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:proc-101662-14",
+      "text": null
+    },
+    {
+      "id": "E:proc:15",
+      "kind": "procedure",
+      "display": "Atrial cardioversion",
+      "code": {
+        "system": null,
+        "code": null,
+        "display": "Atrial cardioversion"
+      },
+      "value": null,
+      "unit": null,
+      "effective": "2104-06-03",
+      "source_ref": "urn:uuid:proc-101662-15",
+      "text": null
+    },
+    {
+      "id": "E:note:row673718:1",
+      "kind": "note_sentence",
+      "display": "60 y/o M  w/ an extensive PMH including R Hip hemiarthroplasty,    diverticuliti",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s1",
+      "text": "60 y/o M  w/ an extensive PMH including R Hip hemiarthroplasty,    diverticulitis, Renal transplant 01, who presented to ED complaining    of worsening SOB x 2 days."
+    },
+    {
+      "id": "E:note:row673718:2",
+      "kind": "note_sentence",
+      "display": "In the ED his vitals were significant for a    NBP 193/113, and profound insp/ex",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s2",
+      "text": "In the ED his vitals were significant for a    NBP 193/113, and profound insp/exp wheezes, he received several    abluterol/atrovent nebs, and was transferred to the M/SICU for further    management of a COPD exacerbation and hypertension."
+    },
+    {
+      "id": "E:note:row673718:3",
+      "kind": "note_sentence",
+      "display": "Hypertension, benign    Assessment:    SBP 110 s to 170 s with HR 110 s to 120 s",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s3",
+      "text": "Hypertension, benign    Assessment:    SBP 110 s to 170 s with HR 110 s to 120 s throughout shift."
+    },
+    {
+      "id": "E:note:row673718:4",
+      "kind": "note_sentence",
+      "display": "Pt. remains    on fentanyl 100mcg/kg and propofol 90mcg/kg for sedation/comfort.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s4",
+      "text": "Pt. remains    on fentanyl 100mcg/kg and propofol 90mcg/kg for sedation/comfort."
+    },
+    {
+      "id": "E:note:row673718:5",
+      "kind": "note_sentence",
+      "display": "Action:    Pt. given IV hydralazine q6hr along with drips as noted above.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s5",
+      "text": "Action:    Pt. given IV hydralazine q6hr along with drips as noted above."
+    },
+    {
+      "id": "E:note:row673718:6",
+      "kind": "note_sentence",
+      "display": "Pt.    bolused with 100mcg of fentanyl prior to nsg. care.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s6",
+      "text": "Pt.    bolused with 100mcg of fentanyl prior to nsg. care."
+    },
+    {
+      "id": "E:note:row673718:7",
+      "kind": "note_sentence",
+      "display": "Response:    SBP remained labile throughout shift ranging from 110 s to 170    R",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s7",
+      "text": "Response:    SBP remained labile throughout shift ranging from 110 s to 170    Remained tachycardic throughout shift."
+    },
+    {
+      "id": "E:note:row673718:8",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue to monitor patient hemodynamic status closely.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s8",
+      "text": "Plan:    Continue to monitor patient hemodynamic status closely."
+    },
+    {
+      "id": "E:note:row673718:9",
+      "kind": "note_sentence",
+      "display": "Continue with    propofol, fentanyl and hydralazine as ordered.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s9",
+      "text": "Continue with    propofol, fentanyl and hydralazine as ordered."
+    },
+    {
+      "id": "E:note:row673718:10",
+      "kind": "note_sentence",
+      "display": "If pt. remains    hypertensive, may need to increase hydralazine dose.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s10",
+      "text": "If pt. remains    hypertensive, may need to increase hydralazine dose."
+    },
+    {
+      "id": "E:note:row673718:11",
+      "kind": "note_sentence",
+      "display": "Chronic obstructive pulmonary disease (COPD, Bronchitis, Emphysema)    with Acut",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s11",
+      "text": "Chronic obstructive pulmonary disease (COPD, Bronchitis, Emphysema)    with Acute Exacerbation    Assessment:    Pt. remains intubated and vented on PSV 40% 15/5 with sats at high 90    RR in 10 s."
+    },
+    {
+      "id": "E:note:row673718:12",
+      "kind": "note_sentence",
+      "display": "Breath sounds diminished throughout.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s12",
+      "text": "Breath sounds diminished throughout."
+    },
+    {
+      "id": "E:note:row673718:13",
+      "kind": "note_sentence",
+      "display": "Some wheezes noted but    clear with nebs.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s13",
+      "text": "Some wheezes noted but    clear with nebs."
+    },
+    {
+      "id": "E:note:row673718:14",
+      "kind": "note_sentence",
+      "display": "Pt. suctioned for copious amounts of thick green    sputum.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s14",
+      "text": "Pt. suctioned for copious amounts of thick green    sputum."
+    },
+    {
+      "id": "E:note:row673718:15",
+      "kind": "note_sentence",
+      "display": "Action:    MDIs given as ordered.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s15",
+      "text": "Action:    MDIs given as ordered."
+    },
+    {
+      "id": "E:note:row673718:16",
+      "kind": "note_sentence",
+      "display": "Mouth care q4hr and prn, suction as needed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s16",
+      "text": "Mouth care q4hr and prn, suction as needed."
+    },
+    {
+      "id": "E:note:row673718:17",
+      "kind": "note_sentence",
+      "display": "Pt.    turned Q2h.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s17",
+      "text": "Pt.    turned Q2h."
+    },
+    {
+      "id": "E:note:row673718:18",
+      "kind": "note_sentence",
+      "display": "Sputum sample collected and sent to lab.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s18",
+      "text": "Sputum sample collected and sent to lab."
+    },
+    {
+      "id": "E:note:row673718:19",
+      "kind": "note_sentence",
+      "display": "Response:    Pt. remains stable on current vent settings.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s19",
+      "text": "Response:    Pt. remains stable on current vent settings."
+    },
+    {
+      "id": "E:note:row673718:20",
+      "kind": "note_sentence",
+      "display": "Ongoing respiratory    assessment.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s20",
+      "text": "Ongoing respiratory    assessment."
+    },
+    {
+      "id": "E:note:row673718:21",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue to monitor resp status, wean vent as tolerated, meds ASDIR,   ",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s21",
+      "text": "Plan:    Continue to monitor resp status, wean vent as tolerated, meds ASDIR,    F/U with culture results."
+    },
+    {
+      "id": "E:note:row673718:22",
+      "kind": "note_sentence",
+      "display": "Renal failure, acute (Acute renal failure, ARF)    Assessment:    Creatinine tre",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s22",
+      "text": "Renal failure, acute (Acute renal failure, ARF)    Assessment:    Creatinine trending down."
+    },
+    {
+      "id": "E:note:row673718:23",
+      "kind": "note_sentence",
+      "display": "PM creat- 3.9, BUN 72, K-5.7.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s23",
+      "text": "PM creat- 3.9, BUN 72, K-5.7."
+    },
+    {
+      "id": "E:note:row673718:24",
+      "kind": "note_sentence",
+      "display": "UOP about 30 to    50cc/hr    Action:    Renal biopsy done yesterday.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s24",
+      "text": "UOP about 30 to    50cc/hr    Action:    Renal biopsy done yesterday."
+    },
+    {
+      "id": "E:note:row673718:25",
+      "kind": "note_sentence",
+      "display": "All meds renally dosed.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s25",
+      "text": "All meds renally dosed."
+    },
+    {
+      "id": "E:note:row673718:26",
+      "kind": "note_sentence",
+      "display": "Cellcept    administered as ordered.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s26",
+      "text": "Cellcept    administered as ordered."
+    },
+    {
+      "id": "E:note:row673718:27",
+      "kind": "note_sentence",
+      "display": "Prograf held d/t level.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s27",
+      "text": "Prograf held d/t level."
+    },
+    {
+      "id": "E:note:row673718:28",
+      "kind": "note_sentence",
+      "display": "Will recheck level    with am labs as med adjusted to daily level.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s28",
+      "text": "Will recheck level    with am labs as med adjusted to daily level."
+    },
+    {
+      "id": "E:note:row673718:29",
+      "kind": "note_sentence",
+      "display": "K-excelate x1 dose    given.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s29",
+      "text": "K-excelate x1 dose    given."
+    },
+    {
+      "id": "E:note:row673718:30",
+      "kind": "note_sentence",
+      "display": "Response:    Pt. remains with elevated BUN/Creat, hyperkalemia.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s30",
+      "text": "Response:    Pt. remains with elevated BUN/Creat, hyperkalemia."
+    },
+    {
+      "id": "E:note:row673718:31",
+      "kind": "note_sentence",
+      "display": "Plan:    Continue to monitor renal functions, f/u renal recs. f/u biopsy    resu",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s31",
+      "text": "Plan:    Continue to monitor renal functions, f/u renal recs. f/u biopsy    results."
+    },
+    {
+      "id": "E:note:row673718:32",
+      "kind": "note_sentence",
+      "display": "AM prograf level pending.",
+      "code": null,
+      "value": null,
+      "unit": null,
+      "effective": null,
+      "source_ref": "note:row673718#s32",
+      "text": "AM prograf level pending."
+    }
+  ],
+  "by_code": {
+    "http://hl7.org/fhir/sid/icd-9-cm|51881": [
+      "E:cond:1"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5570": [
+      "E:cond:2"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|49322": [
+      "E:cond:3"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99812": [
+      "E:cond:4"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|9971": [
+      "E:cond:5"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|5845": [
+      "E:cond:6"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|99592": [
+      "E:cond:7"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|78552": [
+      "E:cond:8"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|0389": [
+      "E:cond:9"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2764": [
+      "E:cond:10"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|73342": [
+      "E:cond:11"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V420": [
+      "E:cond:12"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2767": [
+      "E:cond:13"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|2874": [
+      "E:cond:14"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|4011": [
+      "E:cond:15"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|25000": [
+      "E:cond:16"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|42731": [
+      "E:cond:17"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|28800": [
+      "E:cond:18"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|56989": [
+      "E:cond:19"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|53081": [
+      "E:cond:20"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|73300": [
+      "E:cond:21"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V4364": [
+      "E:cond:22"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V153": [
+      "E:cond:23"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V1581": [
+      "E:cond:24"
+    ],
+    "http://hl7.org/fhir/sid/icd-9-cm|V1046": [
+      "E:cond:25"
+    ]
+  },
+  "by_display": {
+    "emergency": [
+      "E:enc:1"
+    ],
+    "acute respiratory failure": [
+      "E:cond:1"
+    ],
+    "acute vascular insufficiency of intestine": [
+      "E:cond:2"
+    ],
+    "chronic obstructive asthma with (acute) exacerbation": [
+      "E:cond:3"
+    ],
+    "hematoma complicating a procedure": [
+      "E:cond:4"
+    ],
+    "cardiac complications, not elsewhere classified": [
+      "E:cond:5"
+    ],
+    "acute kidney failure with lesion of tubular necrosis": [
+      "E:cond:6"
+    ],
+    "severe sepsis": [
+      "E:cond:7"
+    ],
+    "septic shock": [
+      "E:cond:8"
+    ],
+    "unspecified septicemia": [
+      "E:cond:9"
+    ],
+    "mixed acid-base balance disorder": [
+      "E:cond:10"
+    ],
+    "aseptic necrosis of head and neck of femur": [
+      "E:cond:11"
+    ],
+    "kidney replaced by transplant": [
+      "E:cond:12"
+    ],
+    "hyperpotassemia": [
+      "E:cond:13"
+    ],
+    "diagnosis": [
+      "E:cond:14"
+    ],
+    "benign essential hypertension": [
+      "E:cond:15"
+    ],
+    "diabetes mellitus without mention of complication, type ii or unspecified type, not stated as uncontrolled": [
+      "E:cond:16"
+    ],
+    "atrial fibrillation": [
+      "E:cond:17"
+    ],
+    "neutropenia, unspecified": [
+      "E:cond:18"
+    ],
+    "other specified disorders of intestine": [
+      "E:cond:19"
+    ],
+    "esophageal reflux": [
+      "E:cond:20"
+    ],
+    "osteoporosis, unspecified": [
+      "E:cond:21"
+    ],
+    "hip joint replacement": [
+      "E:cond:22"
+    ],
+    "personal history of irradiation, presenting hazards to health": [
+      "E:cond:23"
+    ],
+    "personal history of noncompliance with medical treatment, presenting hazards to health": [
+      "E:cond:24"
+    ],
+    "personal history of malignant neoplasm of prostate": [
+      "E:cond:25"
+    ],
+    "open and other right hemicolectomy": [
+      "E:proc:1"
+    ],
+    "other partial resection of small intestine": [
+      "E:proc:2",
+      "E:proc:3"
+    ],
+    "other and unspecified partial excision of large intestine": [
+      "E:proc:4"
+    ],
+    "other permanent ileostomy": [
+      "E:proc:5"
+    ],
+    "excision or destruction of peritoneal tissue": [
+      "E:proc:6"
+    ],
+    "delayed closure of granulating abdominal wound": [
+      "E:proc:7"
+    ],
+    "other open incisional hernia repair with graft or prosthesis": [
+      "E:proc:8"
+    ],
+    "closed [percutaneous] [needle] biopsy of kidney": [
+      "E:proc:9"
+    ],
+    "continuous invasive mechanical ventilation for 96 consecutive hours or more": [
+      "E:proc:10"
+    ],
+    "hemodialysis": [
+      "E:proc:11"
+    ],
+    "parenteral infusion of concentrated nutritional substances": [
+      "E:proc:12"
+    ],
+    "enteral infusion of concentrated nutritional substances": [
+      "E:proc:13"
+    ],
+    "venous catheterization, not elsewhere classified": [
+      "E:proc:14"
+    ],
+    "atrial cardioversion": [
+      "E:proc:15"
+    ],
+    "60 y/o m w/ an extensive pmh including r hip hemiarthroplasty, diverticuliti": [
+      "E:note:row673718:1"
+    ],
+    "in the ed his vitals were significant for a nbp 193/113, and profound insp/ex": [
+      "E:note:row673718:2"
+    ],
+    "hypertension, benign assessment: sbp 110 s to 170 s with hr 110 s to 120 s": [
+      "E:note:row673718:3"
+    ],
+    "pt. remains on fentanyl 100mcg/kg and propofol 90mcg/kg for sedation/comfort.": [
+      "E:note:row673718:4"
+    ],
+    "action: pt. given iv hydralazine q6hr along with drips as noted above.": [
+      "E:note:row673718:5"
+    ],
+    "pt. bolused with 100mcg of fentanyl prior to nsg. care.": [
+      "E:note:row673718:6"
+    ],
+    "response: sbp remained labile throughout shift ranging from 110 s to 170 r": [
+      "E:note:row673718:7"
+    ],
+    "plan: continue to monitor patient hemodynamic status closely.": [
+      "E:note:row673718:8"
+    ],
+    "continue with propofol, fentanyl and hydralazine as ordered.": [
+      "E:note:row673718:9"
+    ],
+    "if pt. remains hypertensive, may need to increase hydralazine dose.": [
+      "E:note:row673718:10"
+    ],
+    "chronic obstructive pulmonary disease (copd, bronchitis, emphysema) with acut": [
+      "E:note:row673718:11"
+    ],
+    "breath sounds diminished throughout.": [
+      "E:note:row673718:12"
+    ],
+    "some wheezes noted but clear with nebs.": [
+      "E:note:row673718:13"
+    ],
+    "pt. suctioned for copious amounts of thick green sputum.": [
+      "E:note:row673718:14"
+    ],
+    "action: mdis given as ordered.": [
+      "E:note:row673718:15"
+    ],
+    "mouth care q4hr and prn, suction as needed.": [
+      "E:note:row673718:16"
+    ],
+    "pt. turned q2h.": [
+      "E:note:row673718:17"
+    ],
+    "sputum sample collected and sent to lab.": [
+      "E:note:row673718:18"
+    ],
+    "response: pt. remains stable on current vent settings.": [
+      "E:note:row673718:19"
+    ],
+    "ongoing respiratory assessment.": [
+      "E:note:row673718:20"
+    ],
+    "plan: continue to monitor resp status, wean vent as tolerated, meds asdir,": [
+      "E:note:row673718:21"
+    ],
+    "renal failure, acute (acute renal failure, arf) assessment: creatinine tre": [
+      "E:note:row673718:22"
+    ],
+    "pm creat- 3.9, bun 72, k-5.7.": [
+      "E:note:row673718:23"
+    ],
+    "uop about 30 to 50cc/hr action: renal biopsy done yesterday.": [
+      "E:note:row673718:24"
+    ],
+    "all meds renally dosed.": [
+      "E:note:row673718:25"
+    ],
+    "cellcept administered as ordered.": [
+      "E:note:row673718:26"
+    ],
+    "prograf held d/t level.": [
+      "E:note:row673718:27"
+    ],
+    "will recheck level with am labs as med adjusted to daily level.": [
+      "E:note:row673718:28"
+    ],
+    "k-excelate x1 dose given.": [
+      "E:note:row673718:29"
+    ],
+    "response: pt. remains with elevated bun/creat, hyperkalemia.": [
+      "E:note:row673718:30"
+    ],
+    "plan: continue to monitor renal functions, f/u renal recs. f/u biopsy resu": [
+      "E:note:row673718:31"
+    ],
+    "am prograf level pending.": [
+      "E:note:row673718:32"
+    ]
+  },
+  "by_date": {
+    "2104-06-03": [
+      "E:enc:1",
+      "E:cond:1",
+      "E:cond:2",
+      "E:cond:3",
+      "E:cond:4",
+      "E:cond:5",
+      "E:cond:6",
+      "E:cond:7",
+      "E:cond:8",
+      "E:cond:9",
+      "E:cond:10",
+      "E:cond:11",
+      "E:cond:12",
+      "E:cond:13",
+      "E:cond:14",
+      "E:cond:15",
+      "E:cond:16",
+      "E:cond:17",
+      "E:cond:18",
+      "E:cond:19",
+      "E:cond:20",
+      "E:cond:21",
+      "E:cond:22",
+      "E:cond:23",
+      "E:cond:24",
+      "E:cond:25",
+      "E:proc:1",
+      "E:proc:2",
+      "E:proc:3",
+      "E:proc:4",
+      "E:proc:5",
+      "E:proc:6",
+      "E:proc:7",
+      "E:proc:8",
+      "E:proc:9",
+      "E:proc:10",
+      "E:proc:11",
+      "E:proc:12",
+      "E:proc:13",
+      "E:proc:14",
+      "E:proc:15"
+    ]
+  }
+}

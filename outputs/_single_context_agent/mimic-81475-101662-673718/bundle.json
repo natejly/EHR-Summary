@@ -1,0 +1,841 @@
+{
+  "resourceType": "Bundle",
+  "id": "mimic-81475-101662",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-81475",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-81475",
+        "gender": "m"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-101662",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-101662",
+        "status": "finished",
+        "class": {
+          "code": "IMP",
+          "display": "EMERGENCY"
+        },
+        "type": [
+          {
+            "text": "EMERGENCY"
+          }
+        ],
+        "period": {
+          "start": "2104-06-03T00:00:00",
+          "end": "2104-06-19T00:00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "51881",
+              "display": "Acute respiratory failure"
+            }
+          ],
+          "text": "Acute respiratory failure"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5570",
+              "display": "Acute vascular insufficiency of intestine"
+            }
+          ],
+          "text": "Acute vascular insufficiency of intestine"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "49322",
+              "display": "Chronic obstructive asthma with (acute) exacerbation"
+            }
+          ],
+          "text": "Chronic obstructive asthma with (acute) exacerbation"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99812",
+              "display": "Hematoma complicating a procedure"
+            }
+          ],
+          "text": "Hematoma complicating a procedure"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-5",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "9971",
+              "display": "Cardiac complications, not elsewhere classified"
+            }
+          ],
+          "text": "Cardiac complications, not elsewhere classified"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "5845",
+              "display": "Acute kidney failure with lesion of tubular necrosis"
+            }
+          ],
+          "text": "Acute kidney failure with lesion of tubular necrosis"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-7",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "99592",
+              "display": "Severe sepsis"
+            }
+          ],
+          "text": "Severe sepsis"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-8",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "78552",
+              "display": "Septic shock"
+            }
+          ],
+          "text": "Septic shock"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "0389",
+              "display": "Unspecified septicemia"
+            }
+          ],
+          "text": "Unspecified septicemia"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-10",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2764",
+              "display": "Mixed acid-base balance disorder"
+            }
+          ],
+          "text": "Mixed acid-base balance disorder"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-11",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-11",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "73342",
+              "display": "Aseptic necrosis of head and neck of femur"
+            }
+          ],
+          "text": "Aseptic necrosis of head and neck of femur"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-12",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-12",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V420",
+              "display": "Kidney replaced by transplant"
+            }
+          ],
+          "text": "Kidney replaced by transplant"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-13",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-13",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2767",
+              "display": "Hyperpotassemia"
+            }
+          ],
+          "text": "Hyperpotassemia"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-14",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "2874",
+              "display": "Diagnosis"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-15",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-15",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "4011",
+              "display": "Benign essential hypertension"
+            }
+          ],
+          "text": "Benign essential hypertension"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-16",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-16",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "25000",
+              "display": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+            }
+          ],
+          "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-17",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-17",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "42731",
+              "display": "Atrial fibrillation"
+            }
+          ],
+          "text": "Atrial fibrillation"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-18",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-18",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "28800",
+              "display": "Neutropenia, unspecified"
+            }
+          ],
+          "text": "Neutropenia, unspecified"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-19",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "56989",
+              "display": "Other specified disorders of intestine"
+            }
+          ],
+          "text": "Other specified disorders of intestine"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-20",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "53081",
+              "display": "Esophageal reflux"
+            }
+          ],
+          "text": "Esophageal reflux"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-21",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "73300",
+              "display": "Osteoporosis, unspecified"
+            }
+          ],
+          "text": "Osteoporosis, unspecified"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-22",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-22",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V4364",
+              "display": "Hip joint replacement"
+            }
+          ],
+          "text": "Hip joint replacement"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-23",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-23",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V153",
+              "display": "Personal history of irradiation, presenting hazards to health"
+            }
+          ],
+          "text": "Personal history of irradiation, presenting hazards to health"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-24",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-24",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V1581",
+              "display": "Personal history of noncompliance with medical treatment, presenting hazards to health"
+            }
+          ],
+          "text": "Personal history of noncompliance with medical treatment, presenting hazards to health"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-101662-25",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-101662-25",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V1046",
+              "display": "Personal history of malignant neoplasm of prostate"
+            }
+          ],
+          "text": "Personal history of malignant neoplasm of prostate"
+        },
+        "onsetDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-101662-1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-101662-1",
+        "status": "completed",
+        "code": {
+          "text": "Open and other right hemicolectomy"
+        },
+        "performedDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-101662-2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-101662-2",
+        "status": "completed",
+        "code": {
+          "text": "Other partial resection of small intestine"
+        },
+        "performedDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-101662-3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-101662-3",
+        "status": "completed",
+        "code": {
+          "text": "Other partial resection of small intestine"
+        },
+        "performedDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-101662-4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-101662-4",
+        "status": "completed",
+        "code": {
+          "text": "Other and unspecified partial excision of large intestine"
+        },
+        "performedDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-101662-5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-101662-5",
+        "status": "completed",
+        "code": {
+          "text": "Other permanent ileostomy"
+        },
+        "performedDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-101662-6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-101662-6",
+        "status": "completed",
+        "code": {
+          "text": "Excision or destruction of peritoneal tissue"
+        },
+        "performedDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-101662-7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-101662-7",
+        "status": "completed",
+        "code": {
+          "text": "Delayed closure of granulating abdominal wound"
+        },
+        "performedDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-101662-8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-101662-8",
+        "status": "completed",
+        "code": {
+          "text": "Other open incisional hernia repair with graft or prosthesis"
+        },
+        "performedDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-101662-9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-101662-9",
+        "status": "completed",
+        "code": {
+          "text": "Closed [percutaneous] [needle] biopsy of kidney"
+        },
+        "performedDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-101662-10",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-101662-10",
+        "status": "completed",
+        "code": {
+          "text": "Continuous invasive mechanical ventilation for 96 consecutive hours or more"
+        },
+        "performedDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-101662-11",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-101662-11",
+        "status": "completed",
+        "code": {
+          "text": "Hemodialysis"
+        },
+        "performedDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-101662-12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-101662-12",
+        "status": "completed",
+        "code": {
+          "text": "Parenteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-101662-13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-101662-13",
+        "status": "completed",
+        "code": {
+          "text": "Enteral infusion of concentrated nutritional substances"
+        },
+        "performedDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-101662-14",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-101662-14",
+        "status": "completed",
+        "code": {
+          "text": "Venous catheterization, not elsewhere classified"
+        },
+        "performedDateTime": "2104-06-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:proc-101662-15",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-101662-15",
+        "status": "completed",
+        "code": {
+          "text": "Atrial cardioversion"
+        },
+        "performedDateTime": "2104-06-03"
+      }
+    }
+  ]
+}

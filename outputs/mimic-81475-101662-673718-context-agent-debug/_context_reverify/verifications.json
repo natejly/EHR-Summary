@@ -1,0 +1,37 @@
+{
+  "verifications": [
+    {
+      "claim_id": "S1",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:7",
+        "E:cond:8"
+      ],
+      "rationale": "The patient has documented diagnoses of both Severe sepsis and Septic shock on 2104-06-03."
+    },
+    {
+      "claim_id": "S2",
+      "status": "verified",
+      "evidence_ids": [
+        "E:cond:1"
+      ],
+      "rationale": "The candidate E:cond:1 explicitly lists 'Acute respiratory failure' as a condition on 2104-06-03."
+    },
+    {
+      "claim_id": "S3",
+      "status": "verified",
+      "evidence_ids": [
+        "E:proc:5"
+      ],
+      "rationale": "The candidate E:proc:5 explicitly lists 'Other permanent ileostomy' with the matching date of 2104-06-03."
+    },
+    {
+      "claim_id": "S4",
+      "status": "verified",
+      "evidence_ids": [
+        "E:proc:11"
+      ],
+      "rationale": "The candidate E:proc:11 explicitly records a Hemodialysis procedure on 2104-06-03."
+    }
+  ]
+}

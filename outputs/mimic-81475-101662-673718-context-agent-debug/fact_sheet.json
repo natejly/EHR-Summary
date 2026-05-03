@@ -1,0 +1,444 @@
+{
+  "case_id": "mimic-81475-101662-673718-context-agent-debug",
+  "sections": {
+    "hpi": [],
+    "active_problems": [
+      {
+        "text": "Acute respiratory failure (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:1"
+        ]
+      },
+      {
+        "text": "Acute vascular insufficiency of intestine (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:2"
+        ]
+      },
+      {
+        "text": "Chronic obstructive asthma with (acute) exacerbation (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:3"
+        ]
+      },
+      {
+        "text": "Hematoma complicating a procedure (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:4"
+        ]
+      },
+      {
+        "text": "Cardiac complications, not elsewhere classified (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:5"
+        ]
+      },
+      {
+        "text": "Acute kidney failure with lesion of tubular necrosis (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:6"
+        ]
+      },
+      {
+        "text": "Severe sepsis (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:7"
+        ]
+      },
+      {
+        "text": "Septic shock (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:8"
+        ]
+      },
+      {
+        "text": "Unspecified septicemia (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:9"
+        ]
+      },
+      {
+        "text": "Mixed acid-base balance disorder (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:10"
+        ]
+      },
+      {
+        "text": "Aseptic necrosis of head and neck of femur (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:11"
+        ]
+      },
+      {
+        "text": "Kidney replaced by transplant (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:12"
+        ]
+      },
+      {
+        "text": "Hyperpotassemia (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:13"
+        ]
+      },
+      {
+        "text": "Diagnosis (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:14"
+        ]
+      },
+      {
+        "text": "Benign essential hypertension (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:15"
+        ]
+      },
+      {
+        "text": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:16"
+        ]
+      },
+      {
+        "text": "Atrial fibrillation (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:17"
+        ]
+      },
+      {
+        "text": "Neutropenia, unspecified (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:18"
+        ]
+      },
+      {
+        "text": "Other specified disorders of intestine (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:19"
+        ]
+      },
+      {
+        "text": "Esophageal reflux (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:20"
+        ]
+      },
+      {
+        "text": "Osteoporosis, unspecified (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:21"
+        ]
+      },
+      {
+        "text": "Hip joint replacement (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:22"
+        ]
+      },
+      {
+        "text": "Personal history of irradiation, presenting hazards to health (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:23"
+        ]
+      },
+      {
+        "text": "Personal history of noncompliance with medical treatment, presenting hazards to health (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:24"
+        ]
+      },
+      {
+        "text": "Personal history of malignant neoplasm of prostate (2104-06-03)",
+        "evidence_ids": [
+          "E:cond:25"
+        ]
+      },
+      {
+        "text": "Procedure: Open and other right hemicolectomy (2104-06-03)",
+        "evidence_ids": [
+          "E:proc:1"
+        ]
+      },
+      {
+        "text": "Procedure: Other partial resection of small intestine (2104-06-03)",
+        "evidence_ids": [
+          "E:proc:2",
+          "E:proc:3"
+        ]
+      },
+      {
+        "text": "Procedure: Other and unspecified partial excision of large intestine (2104-06-03)",
+        "evidence_ids": [
+          "E:proc:4"
+        ]
+      },
+      {
+        "text": "Procedure: Other permanent ileostomy (2104-06-03)",
+        "evidence_ids": [
+          "E:proc:5"
+        ]
+      },
+      {
+        "text": "Procedure: Excision or destruction of peritoneal tissue (2104-06-03)",
+        "evidence_ids": [
+          "E:proc:6"
+        ]
+      },
+      {
+        "text": "Procedure: Delayed closure of granulating abdominal wound (2104-06-03)",
+        "evidence_ids": [
+          "E:proc:7"
+        ]
+      },
+      {
+        "text": "Procedure: Other open incisional hernia repair with graft or prosthesis (2104-06-03)",
+        "evidence_ids": [
+          "E:proc:8"
+        ]
+      },
+      {
+        "text": "Procedure: Closed [percutaneous] [needle] biopsy of kidney (2104-06-03)",
+        "evidence_ids": [
+          "E:proc:9"
+        ]
+      },
+      {
+        "text": "Procedure: Continuous invasive mechanical ventilation for 96 consecutive hours or more (2104-06-03)",
+        "evidence_ids": [
+          "E:proc:10"
+        ]
+      },
+      {
+        "text": "Procedure: Hemodialysis (2104-06-03)",
+        "evidence_ids": [
+          "E:proc:11"
+        ]
+      },
+      {
+        "text": "Procedure: Parenteral infusion of concentrated nutritional substances (2104-06-03)",
+        "evidence_ids": [
+          "E:proc:12"
+        ]
+      },
+      {
+        "text": "Procedure: Enteral infusion of concentrated nutritional substances (2104-06-03)",
+        "evidence_ids": [
+          "E:proc:13"
+        ]
+      },
+      {
+        "text": "Procedure: Venous catheterization, not elsewhere classified (2104-06-03)",
+        "evidence_ids": [
+          "E:proc:14"
+        ]
+      },
+      {
+        "text": "Procedure: Atrial cardioversion (2104-06-03)",
+        "evidence_ids": [
+          "E:proc:15"
+        ]
+      },
+      {
+        "text": "has history of: R Hip hemiarthroplasty",
+        "evidence_ids": [
+          "E:note:row673718:1"
+        ]
+      },
+      {
+        "text": "has history of: Renal transplant",
+        "evidence_ids": [
+          "E:cond:12"
+        ]
+      },
+      {
+        "text": "has diagnosis: hypertension",
+        "evidence_ids": [
+          "E:cond:15",
+          "E:note:row673718:3"
+        ]
+      },
+      {
+        "text": "has diagnosis: Hypertension, benign",
+        "evidence_ids": [
+          "E:note:row673718:3"
+        ]
+      },
+      {
+        "text": "has diagnosis: Chronic obstructive pulmonary disease (COPD, Bronchitis, Emphysema) with Acute Exacerbation",
+        "evidence_ids": [
+          "E:note:row673718:11"
+        ]
+      },
+      {
+        "text": "has: Breath sounds diminished throughout",
+        "evidence_ids": [
+          "E:note:row673718:12"
+        ]
+      },
+      {
+        "text": "has: Some wheezes noted",
+        "evidence_ids": [
+          "E:note:row673718:13"
+        ]
+      },
+      {
+        "text": "has: copious amounts of thick green sputum",
+        "evidence_ids": [
+          "E:note:row673718:14"
+        ]
+      },
+      {
+        "text": "procedure: Sputum sample collected and sent to lab",
+        "evidence_ids": [
+          "E:note:row673718:18"
+        ]
+      },
+      {
+        "text": "has diagnosis: Renal failure, acute (Acute renal failure, ARF)",
+        "evidence_ids": [
+          "E:note:row673718:22"
+        ]
+      },
+      {
+        "text": "procedure: Renal biopsy",
+        "evidence_ids": [
+          "E:note:row673718:24"
+        ]
+      },
+      {
+        "text": "has diagnosis: hyperkalemia",
+        "evidence_ids": [
+          "E:note:row673718:30"
+        ]
+      }
+    ],
+    "medications": [
+      {
+        "text": "takes medication: fentanyl 100mcg/kg",
+        "evidence_ids": [
+          "E:note:row673718:4"
+        ]
+      },
+      {
+        "text": "takes medication: propofol 90mcg/kg",
+        "evidence_ids": [
+          "E:note:row673718:4"
+        ]
+      },
+      {
+        "text": "takes medication: IV hydralazine q6hr",
+        "evidence_ids": [
+          "E:note:row673718:5"
+        ]
+      },
+      {
+        "text": "received: 100mcg of fentanyl",
+        "evidence_ids": [
+          "E:note:row673718:6"
+        ]
+      },
+      {
+        "text": "received: MDIs",
+        "evidence_ids": [
+          "E:note:row673718:15"
+        ]
+      },
+      {
+        "text": "takes medication: Cellcept",
+        "evidence_ids": [
+          "E:note:row673718:26"
+        ]
+      },
+      {
+        "text": "medication held: Prograf",
+        "evidence_ids": [
+          "E:note:row673718:27"
+        ]
+      },
+      {
+        "text": "received: K-excelate x1 dose",
+        "evidence_ids": [
+          "E:note:row673718:29"
+        ]
+      }
+    ],
+    "labs": [
+      {
+        "text": "lab result: PM creat- 3.9",
+        "evidence_ids": [
+          "E:note:row673718:23"
+        ]
+      },
+      {
+        "text": "lab result: BUN 72",
+        "evidence_ids": [
+          "E:note:row673718:23"
+        ]
+      },
+      {
+        "text": "lab result: K-5.7",
+        "evidence_ids": [
+          "E:note:row673718:23"
+        ]
+      },
+      {
+        "text": "lab result: elevated BUN/Creat",
+        "evidence_ids": [
+          "E:note:row673718:30"
+        ]
+      }
+    ],
+    "vitals": [
+      {
+        "text": "lab result: NBP 193/113",
+        "evidence_ids": [
+          "E:note:row673718:2"
+        ]
+      },
+      {
+        "text": "lab result: SBP 110 s to 170 s",
+        "evidence_ids": [
+          "E:note:row673718:3"
+        ]
+      },
+      {
+        "text": "lab result: HR 110 s to 120 s",
+        "evidence_ids": [
+          "E:note:row673718:3"
+        ]
+      },
+      {
+        "text": "lab result: SBP remained labile throughout shift ranging from 110 s to 170",
+        "evidence_ids": [
+          "E:note:row673718:7"
+        ]
+      },
+      {
+        "text": "lab result: UOP about 30 to 50cc/hr",
+        "evidence_ids": [
+          "E:note:row673718:24"
+        ]
+      }
+    ],
+    "plan": [
+      {
+        "text": "plan to: monitor patient hemodynamic status closely",
+        "evidence_ids": [
+          "E:note:row673718:8"
+        ]
+      },
+      {
+        "text": "plan to: Continue with propofol, fentanyl and hydralazine as ordered",
+        "evidence_ids": [
+          "E:note:row673718:9"
+        ]
+      },
+      {
+        "text": "plan to: increase hydralazine dose",
+        "evidence_ids": [
+          "E:note:row673718:10"
+        ]
+      }
+    ]
+  }
+}
