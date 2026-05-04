@@ -21,27 +21,32 @@ Each stage writes its artifact to `outputs/<case_id>/`. Runs are resumable — s
 ## Project Structure
 
 ```text
-├── ehr_pipeline/          # Core Python package
-│   ├── pipeline.py        # Orchestration & resume logic
-│   ├── cli.py             # CLI entry point
-│   ├── config.py          # Model assignments, thresholds, env loading
-│   ├── extraction.py      # FHIR resource extraction
-│   ├── verification.py    # Claim verification helpers
-│   ├── evidence_store.py  # Evidence assembly
-│   ├── ollama_client.py   # Ollama API client
-│   ├── prompts.py         # Prompt templates
-│   ├── schemas.py         # Pydantic models
-│   └── stages/            # s1_evidence … s9_patient_summary
-├── frontend/              # React + Vite reviewer UI
-├── server.py              # FastAPI backend (REST + SSE)
-├── benchmarks/            # ROUGE, BERTScore, entity F1 metrics; MIMIC adapters
-├── benchmark.ipynb        # End-to-end MIMIC-III benchmark notebook
-├── baseline_benchmark.ipynb # Single-shot Anthropic baseline benchmark
-├── datasets/              # PDSQI-9 research materials, MIMIC-III-Ext-Notes
-├── outputs/               # Runtime artifacts & benchmark bundles
-├── infer_ollama.py        # Standalone Ollama inference CLI
-├── requirements.txt       # Server dependencies
-└── requirements-bench.txt # Benchmark dependencies
+├── ehr_pipeline/              # Core Python package
+│   ├── pipeline.py            # Orchestration & resume logic
+│   ├── cli.py                 # CLI entry point
+│   ├── config.py              # Model assignments, thresholds, env loading
+│   ├── extraction.py          # FHIR resource extraction (stages 1-2)
+│   ├── verification.py        # Claim verification orchestration (stages 3-4)
+│   ├── evidence_store.py      # Evidence assembly & candidate retrieval
+│   ├── ollama_client.py       # Ollama API client with corrective retry
+│   ├── prompts.py             # All LLM prompt templates (S2–S4, S6, S8, S9)
+│   ├── schemas.py             # Pydantic models for all stage I/O
+│   ├── runtime.py             # Stage timing & cache-freshness helpers
+│   └── stages/                # s1_evidence … s9_patient_summary
+├── frontend/                  # React + Vite reviewer UI
+│   └── src/components/        # CaseList, PipelineStepper, ArtifactTabs,
+│                              #   EvidenceDrawer, FactSheet, SummaryViewer
+├── server.py                  # FastAPI backend (REST + SSE)
+├── benchmarks/                # ROUGE, BERTScore, entity F1 metrics; MIMIC adapters
+├── benchmark.ipynb            # End-to-end MIMIC-III pipeline benchmark
+├── baseline_benchmark.ipynb   # Single-shot Anthropic baseline benchmark
+├── single_note_inference.ipynb # Interactive single-note inference notebook
+├── datasets/                  # PDSQI-9 research materials, MIMIC-III-Ext-Notes
+├── outputs/                   # Runtime artifacts & benchmark bundles
+├── infer_ollama.py            # Standalone Ollama inference CLI
+├── run_sample.sh              # Quick-start shell script for a sample case
+├── requirements.txt           # Server dependencies
+└── requirements-bench.txt     # Benchmark dependencies
 ```
 
 ## Getting Started
@@ -120,6 +125,13 @@ uvicorn server:app --reload
 # Or for frontend development with hot reload
 cd frontend && npm run dev
 ```
+
+Open `http://localhost:8000` in your browser. The UI is a case reviewer built around the pipeline output structure:
+
+- **Sidebar** — lists all completed cases from `outputs/`. Select a case to load its artifacts, or click **Run** to kick off the pipeline for a pre-materialized benchmark case directly from the UI (progress streams in real time via SSE).
+- **Pipeline Stepper** — a progress bar in the top bar that lights up each stage (S1–S9) as it completes during a live run, or shows which stages are already present for a cached case.
+- **Artifact Tabs** — tabbed view of everything the pipeline wrote: the input note, evidence store, claims, verifications, fact sheet, clinician summary, check report, review, and patient-facing summary. Markdown artifacts (summaries) are rendered as formatted text.
+- **Evidence Drawer** — click any inline citation (`[E:cond:3]`) in a summary to open a side drawer showing the underlying evidence item from the structured EHR (display name, value, unit, date, FHIR resource type).
 
 **API Endpoints:**
 
