@@ -18,7 +18,7 @@ from pathlib import Path
 from . import config
 from .extraction import run_extraction
 from .runtime import StageTiming, is_fresh, time_stage
-from .schemas import CheckReport, FactSheet, ReviewReport
+from .schemas import CheckReport, ClaimList, FactSheet, ReviewReport
 from .stages import (
     s5_fact_sheet,
     s6_summarize,
@@ -85,6 +85,14 @@ def _read_notes(notes_dir: Path | None) -> str:
 
 def _count_note_chars(notes_dir: Path | None) -> int:
     return len(_read_notes(notes_dir))
+
+
+def _claims_for_fact_sheet(out_dir: Path, base_claims: ClaimList) -> ClaimList:
+    """Prefer merged claims when stage 4 suggested EHR-backed claims to verify."""
+    aug_path = out_dir / "claims_augmented.json"
+    if aug_path.exists():
+        return ClaimList.model_validate_json(aug_path.read_text("utf-8"))
+    return base_claims
 
 
 def _apply_revisions(
@@ -189,10 +197,15 @@ def run_pipeline(
     note_chars = len(note_text)
 
     fs_path = out_dir / "fact_sheet.json"
-    skip_s5 = resume and is_fresh(
-        fs_path,
-        [verification.augmented_path, extraction.claims_path, extraction.evidence_path],
-    )
+    s5_inputs = [
+        verification.augmented_path,
+        extraction.claims_path,
+        extraction.evidence_path,
+    ]
+    aug_claims_path = out_dir / "claims_augmented.json"
+    if aug_claims_path.exists():
+        s5_inputs.append(aug_claims_path)
+    skip_s5 = resume and is_fresh(fs_path, s5_inputs)
     if skip_s5:
         fact_sheet = time_stage(
             "stage5_fact_sheet",
@@ -205,7 +218,7 @@ def run_pipeline(
             "stage5_fact_sheet",
             lambda: s5_fact_sheet.run(
                 case_id=case_id,
-                claims=extraction.claims,
+                claims=_claims_for_fact_sheet(out_dir, extraction.claims),
                 verifications=verification.augmented,
                 store=extraction.store,
                 output_dir=out_dir,

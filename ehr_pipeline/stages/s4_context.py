@@ -1,10 +1,10 @@
 """Stage 4: context agent.
 
-Looks at the full claim list, the verifications, and a compact evidence
-dump to surface missing context, contradictions, and structured facts that
-would meaningfully strengthen the summary if verified. Any newly suggested
-claim is fed back through stage 3 so the verified fact sheet only ever
-contains verified material.
+Reads the full claim list, verifications, and compact structured EHR evidence
+to pull in **missing EHR-backed context**: contradictions, gaps where evidence
+exists but was not captured as a claim, and explicit `suggested_claim` rows
+for facts present in that evidence. Each suggested claim is re-run through
+stage 3; merged verified claims are written for downstream fact-sheet build.
 """
 
 from __future__ import annotations

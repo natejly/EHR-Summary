@@ -1,9 +1,10 @@
-"""Verification phase: validate claims against evidence and add context.
+"""Verification phase: validate claims and merge EHR-backed context (stage 4).
 
-This module owns stages 3-4 of the pipeline. It consumes the extraction
-artifacts (`EvidenceStore` + `ClaimList`) and produces the raw
-`VerificationResult`, a `ContextReport`, and a context-augmented
-`VerificationResult` written under ``outputs/<case_id>/``.
+This module owns stages 3-4. It consumes extraction artifacts (`EvidenceStore`
++ `ClaimList`) and produces `VerificationResult`, optional `ContextReport`, and
+`verifications_augmented.json`. Stage 4 proposes additional claims from
+structured evidence; verified suggestions are merged on disk for the fact
+sheet builder.
 """
 
 from __future__ import annotations

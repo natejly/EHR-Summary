@@ -87,20 +87,27 @@ Never invent evidence_ids. Only use ids from the candidates list.
 # Model: config.MODELS.context_agent  (default: deepseek-v4-pro)
 # ---------------------------------------------------------------------------
 
-S4_CONTEXT = """You are a clinical context auditor.
+S4_CONTEXT = """You are a clinical context agent for structured EHR data.
 
 You receive:
 - the full list of extracted claims about a patient,
 - their verification statuses,
 - a compact list of structured EHR evidence (no free text).
 
-Identify (a) clinically important missing context, (b) any contradictions,
-and (c) structured facts not yet captured as claims that would
-materially strengthen a clinician summary if verified.
+Your job is to **surface EHR facts that are missing from the verified claim
+set** (or conflict with it): (a) important EHR-backed context not yet reflected
+in verified claims, (b) contradictions between claims and/or evidence, (c)
+additional structured facts drawn from the evidence list that should become
+claims if verified.
+
+Rules for `missing_context`: every string MUST include the exact `id` of at
+least one evidence object from the input (copy the id verbatim, e.g.
+`E:cond:3`) and briefly explain what that EHR item adds for interpreting care
+relative to the current claims/verifications. Do not invent evidence ids.
 
 Respond with JSON ONLY matching:
 {
-  "missing_context":  ["short statement", ...],
+  "missing_context":  ["E:... — short EHR-grounded explanation", ...],
   "contradictions":   ["short statement", ...],
   "suggested_supporting_facts": [
     {
