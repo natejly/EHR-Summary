@@ -126,7 +126,7 @@ uvicorn server:app --reload
 cd frontend && npm run dev
 ```
 
-Open `http://localhost:8000` in your browser. The UI is a case reviewer built around the pipeline output structure:
+Open in your browser. The UI is a case reviewer built around the pipeline output structure:
 
 - **Sidebar** — lists all completed cases from `outputs/`. Select a case to load its artifacts, or click **Run** to kick off the pipeline for a pre-materialized benchmark case directly from the UI (progress streams in real time via SSE).
 - **Pipeline Stepper** — a progress bar in the top bar that lights up each stage (S1–S9) as it completes during a live run, or shows which stages are already present for a cached case.
